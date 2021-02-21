@@ -1,0 +1,668 @@
+{
+	"name": "@lerna/validation-error",
+	"versions": {
+		"3.0.0-beta.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.0.0-beta.0",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"validation-error.js"
+			],
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "349b9c765bcbf38988d1fcd48313422417a04c8f",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.0.0-beta.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xKZGvo54JK3rr8OqW5kOJ3q+ehb6fWw8tCyf/1e9K+i1ISxJKdGAuwdY4/GKXgIqtgz9SrIFjKbaoKbAJhg3aQ==",
+				"shasum": "f1cefbc9d672253614bf550c9dcb25b720adbff5",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-beta.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 1130
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.0.0-beta.0_1520388876477_0.022894617478118606"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.10": {
+			"name": "@lerna/validation-error",
+			"version": "3.0.0-beta.10",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"validation-error.js"
+			],
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "c52f8713303b246e6d701950cd78ca6f9bd55503",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.0.0-beta.10",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ff7DPJzlgO7DIRp5812SxdWOWPJsF8kbhuEe79gcqyNJYxD+03tGnXDQcXt4zr9d8Np8Kmcl65xGhQDIH1q8lQ==",
+				"shasum": "cf5cbc39c4d27b89c6080e326de745f6fb7451ab",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-beta.10.tgz",
+				"fileCount": 4,
+				"unpackedSize": 1512
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.0.0-beta.10_1522109310540_0.4725871374231343"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-rc.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.0.0-rc.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"validation-error.js"
+			],
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "1ab24c152d3ff5c2b9453bcaafeb4b5e432b2410",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.0.0-rc.0",
+			"_npmVersion": "6.3.0-next.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-VuYvUC2DUjVq/DG7r52wWKmq1G0doGPB5eq7Uozi4QIIRWj2op1l6yCSogb3H2UKPn/5NrMOV4jztwQBnSJu0w==",
+				"shasum": "da81862666992b6befab25a4c855440679005e46",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-rc.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2947,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWnbnCRA9TVsSAnZWagAAVLAP/iwNrrLnnbpKCVuDQrV8\nrgj0mz3S9/W5Q1Dz4SEIs89RMFIyux3oEP1fhypYGVltQMP3A06c50iCve6X\npNBYIJAq1mkxrXZqvqynfDTE86UQC6X1Bziq1TgarM8PK2Y1pwW0cxgV8nad\nwupM0OtZptAaj427uZlZFVzxB4SJtbgvi8UbYuRBH1osQoLOH5Qgotb/TUdS\nB0Y8VtAfVHyqpEtPAHOYDY2jnwzCaa0/9MaAycAYLQZ7PZWRW4tBbsx1FFmP\nKLgDs+oaYV1C9/qTk+GEP32vEXDpu8upzlZ//L+C7yf6pKNYsyJZQTpH/j+Z\n+M51DewuszbBJ35hyCMHw5ys9tAuisyXsjuG4XsPAuhgvzAgVaJYuQtPDgv0\nGwsxGnLYt2SQjRlnkpIQSPIXzml7q/LnyITLwFS2fKpWbBpzjwoOs5Ug2i72\nEyN2p6wq17D6fczW3b/3bht0wWhdI8r9qf8WsUzCO7OStoqnUxBYgQTDLUSN\nI1wCdk+R3VX25p4CsITD0Zp4xvzitsEq8jOrl/MVStwB7CDAWK2IkQjMmE+5\nPGN2W/gcesItozJNRahRHIcbLTRnhbImPIhJAkBeDuIbbem2B2p/4ClA8W9B\nTv3qwAvqxwGqM6oIpup2VPAsruB9zS3h553HlNUjpzN2zSHYB5jWKMD7L9Zj\nyfeN\r\n=7pIt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.0.0-rc.0_1532655335694_0.7865768161831164"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"validation-error.js"
+			],
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-validation-error-3.0.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-5wjkd2PszV0kWvH+EOKZJWlHEqCTTKrWsvfHnHhcUaKBe/NagPZFWs+0xlsDPZ3DJt5FNfbAPAnEBQ05zLirFA==",
+				"shasum": "a27e90051c3ba71995e2a800a43d94ad04b3e3f4",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3117,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbOboCRA9TVsSAnZWagAAEtEP/RyfXhH2Ub2vSb7ZwahS\n0KMymQwCchsF2BYEEgocPQhV0M0jZrBlA2cAUuQVTl99lan4OuFJU1d83sje\n6ycXpVUtmZmmJDtlID+7qMV5i5Tq4alnnf7Ra+rVP2M/l+0BQ/pDVar4Zb1q\ng+EzZQeXmO98Qd20BXcd23YsEGwAYBp3+sQ8SJBz2Wm0RpooquZwrgVUlEk1\nzkXlOES8gwRwSeY11To/7SdpdMmuPu063vTZ1eUbblepZJXr5KtN474AD8nv\ndlmnn/Fsbc9nzhDPHPkMbayDn5ea99kIEBfoRR2R2cjPrKV7LnsWbbq3Ori+\n//NyiwyR++Z3C4NQYoImuH1SqmLxYazOtcnjr9ICzSHPpIFpNcTvUOwSDxoV\n0j8fHtCyQYJVE6NrV0hrJ+Ws8g9xVS17gu7j9fHWMxet1LjVGsoEEo/AjeM9\nsjK/g6POUqQfpyarLdlO45JhO3DGQGC5aUdovkcKXaQRoKbeOHY5djV0DjJR\n8TmjbOmlCIVU8cmmhrKiEaBwd74aaJhhzRryMn4DJQaqIewkakAdVIleoaKt\nTdpc8xkjuTJG7g1tgLLl/SsfmLlscvnsbwW1UtoyVp9KChPYhMXZw7zYzjEt\nbG0UHYP5c8fkutPWGCTK6mgH5YS/ZkuPaa1T52Eo8WrbeouHh1foZmDtGBvF\n980m\r\n=Uo8B\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.0.0_1533863656144_0.5089703110214212"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.6.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"libnpm": "^2.0.1"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-validation-error-3.6.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-MWltncGO5VgMS0QedTlZCjFUMF/evRjDMMHrtVorkIB2Cp5xy0rkKa8iDBG43qpUWeG1giwi58yUlETBcWfILw==",
+				"shasum": "550cf66bb2ef88edc02e36017b575a7a9100d5d8",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.6.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3359,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwj2CRA9TVsSAnZWagAAnFAP/1VCWhqoe5t5je2y3+1m\n0rB8tRSaE0qhdi+RxoB1c4rJWr9uxBuYsR+rRnOtI9Hftl9pJJhvAMGjudUI\nP8Ev7rTk0uR2Br+q4+dQ49HWAtq7dRCm31R3cOQV5IdDKddUCosCCcZrKTHg\nXujVkBdBFOVkPH7+dH1d7gT62DOk9srTchLcnantGOq6wPGxfTwJ9t4qFPuY\nQXtCEM6N0Ke535V5yNoeaTkaMu3nqNB2Ld6Byfxh0v6+8PZmNGToVAlLb25U\n7cn71OhtwCP4z5/74aYC49nH2ITaf2iKqdKKb/PDVGhRf1g8Exgohgr0NI+B\npH9O0JfRN7rD87bH94wG8prWVViyZuCVryTp7ZP8OjuBPABptO0sqlw4RFlP\nUFFJwIHKmLMQnimUHR/yRft4g3FeI/612cN27ems+xddnGVAxFqksb+bIEBx\nsZhPyIL6FmxmGLCpu3mjGPF/WVy4BXcgu+wl1IUnUkff0jgQfZ5kOrm5FqxL\n7aqe6LsNtMhCqn/7IuiXcAqgtg318UzgM/DVo61/PXXlQfltsPNYf1v9YYjQ\nobcRHuJ3zuQvH1jB7lqmz/7vFdaByZ+thkIs5jYrGiaQIX6AdnHmuZ8H8yiK\nzxNVyS/zt8+T4HC8XFBt/ZZSlHktiF9TLQpjkBqGUOfg74LJ0mRW/Oso5BGR\nVcmE\r\n=WMFN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.6.0_1544227061618_0.7028758399490622"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.11.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-/mS4o6QYm4OXUqfPJnW1mKudGhvhLe9uiQ9eK2cgSxkCAVq9G2Sl/KVohpnqAgeRI3nXordGxHS745CdAhg7pA==",
+				"shasum": "3b2e97a7f5158bb1fc6c0eb3789061b99f01d7fb",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3680,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN10CRA9TVsSAnZWagAAt9oP/jfGi021auFewUrhfxH+\naFxACaPAWwbtXBetc12aNauAT71czD4J61apGu3Dh+5Gq2trEMN/BtTXKYyP\n1umchSluXeVzYPpAU9YSgCeCymqbiOyAmc02RnzM/k+gKjVL11sdjoKgRFX2\nRs8k/ZlLd4/PC338nhuWnDnecf4PgNhzT5wCvcDZeTaC1ZFRT0S+7SaBYSwl\nDLlliWol1T+nclXyW3fP6uvMHA9HMys5FhCoenwdMDaSC68e3Ap8Bd8lkEtB\nTztsxDZFw3qNb9Ok5OFyjHGURc1huwNa/WAHCcVMAiwo2sYFrV9udMNlDcGV\nyaY5U8/X4rePROh6CvDrYK9R8JZd2HGlTkJHwLRPHDr3Nlg4IEZugpWsxUR0\nVNyY+lmStkSovnGZxtl1Xz/6B5NJDnpOzmcY/bTYmUcBnIp/V7bJA8aLIVDk\n0Px647abUJ2b1nttaNU4TyXeUGA15cV+g8OhwEanHdh511q0imuuk+uDJVui\nDz4L577xAEBa8VVe1Pu58+oqKB4pFswAgox/s7RopqP6Q2qeeKIizkELvOMN\nvTYZEIBlTVE3M6W/QyIxbQmsFfFSfP0LjFUUwXOYHwGpPLWLebY5Rg1STbnD\nfBcBwBQIPNNt3IoV2zRrp+JgB/n89femFF+a0tWAqd4fppFabUO37vNY1cOP\nSn7o\r\n=X9dS\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.11.0_1549589875248_0.3708331427789786"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/validation-error",
+			"version": "3.13.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/validation-error#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/validation-error"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-SiJP75nwB8GhgwLKQfdkSnDufAaCbkZWJqEDlKOUPUvVOplRGnfL+BPQZH5nvq2BYSRXsksXWZ4UHVnQZI/HYA==",
+				"shasum": "c86b8f07c5ab9539f775bd8a54976e926f3759c3",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4097,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhq3CRA9TVsSAnZWagAALCcP/iUWs5CippzXh5vsEADn\nNHgvwT7WdPImQdBn9tJpV1DqMvKj3Jh3/JEulxGeqjU2uiF1lkjHRxv8whMS\nFNU94jQ8JrEWHR7PQmLsbLQjyV0UsEsUjO5ws58zRZFnAH+7kmgcuZzjUNgo\n9fvQYDy4WzRbjrBFOhspqtygiEy/BawDu3jESV09zcyVv6zaxqy2P/McEumI\nJIZcHRkw4X2qXBVi3VI03OYeWWqatSnagQ5/RHXG3yfXlyGW/k27gHIAnD5L\n3cbvT0fI21xg0Fq3dnlV7g9reaTh5urlqJhCSljH8zpAU+uPG9xo5UOfMAtt\naIZ/FLzQJNtd+00hJj/PJGXz0S+xgQVzJYHFpAKXRagNfZELv7pMsCeJxDg5\ngOH6QK4mP6KaI9K8IO1/X1KAEMDKKG2FhdKdaySienKrzlcCov/fip7OhI4J\n/VmoNNZ8qw6SXg40/5JlqUGZc/phNSvNn4hxnnP6bf/jgM8/g+t+JI8leZRe\ntzC4stEltglTN8eAManab0YaSkdZXXf81Qlq+7QNlmscyFXNaVATDI0Ikd5L\n0fyN2wztQY+vRNqDXqMnhLklQECpZWA09S9LsrCEiy83XTlBYoezSTf5qLz3\nECON+Lg7y/35O5/kNDcFmW5XaSMG2XgfKGM9aOBfOkxLvuoHJOXC0XhFdc5y\nMsoP\r\n=tXli\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_3.13.0_1550195382983_0.14558132004985969"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/validation-error",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/validation-error#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "validation-error.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/validation-error"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/validation-error@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-1rBOM5/koiVWlRi3V6dB863E1YzJS8v41UtsHgMr6gB2ncJ2LsQtMKlJpi3voqcgh41H8UsPXR58RrrpPpufyw==",
+				"shasum": "af9d62fe8304eaa2eb9a6ba1394f9aa807026d35",
+				"tarball": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5003,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEgCRA9TVsSAnZWagAACbwP/0Sp1XQT4aIHRWAAXdpv\n4s6f81U7Upiyq29eLiaQnjPxz23mCe4xHa5rhuSQID2P7WD/r1HS50FjgaE/\n6ZU6EAvlyIi7fypwmP1DbouBaHuBCQqBPNDlqvSPvwXb49XVTkIJl4flflFu\ntkBmtN/ZkwimXQHFM/PSkdZpWOTGUqmPQUct++ZfmD3wv7pN3Vb54f4uwBNh\nlKgJPpl8RDkeJxF/g0Gx/aCOWUT02SjS/3TcKhPxCy6g0M7Ph/ByKsIt5SZQ\nZ9SjvB7K2lqZef4erO+BhFE2angzm8wq2OuTIeYj7cgMrKGkm6/hLFNMiiOv\nL/5wgpgk7jyJrU3pXIXf1b4oBmxdFeA0TBw8ZXeImVG8hscYGGKs2wMjFoyC\nxK/47simOMP+FvHMvt4eX37v3/Vv0sp0k0bmGW4qsjQ805FMWyhEXwAQclDa\nZM8Ro0Bto0s1HEQEKhQg8MtY104AmyPMs6bHasCToA0QBIo/Erz5dux1SeuL\nqeYV5ENXmGwDbE1b7FQVX7ntkiFoHJJphljYFyARg9XRtiBu1W45i9VrTV/p\ns7INymbwwkgh3PjzHVvtYq2QEiRZcB5LF6BTOSf2xKs4Iw9sRAuM0oHlZwal\nfFEXxauS7+pIoftz2GsnKaCVQwSxSQoR+dWdO2c9Xxk0seP0gbjBfR7lomZW\nZNw3\r\n=RG88\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/validation-error_4.0.0_1612996896352_0.19427880991567736"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-07T02:14:36.389Z",
+		"3.0.0-beta.0": "2018-03-07T02:14:36.556Z",
+		"modified": "2021-02-10T22:42:37.727Z",
+		"3.0.0-beta.10": "2018-03-27T00:08:30.601Z",
+		"3.0.0-rc.0": "2018-07-27T01:35:35.786Z",
+		"3.0.0": "2018-08-10T01:14:16.224Z",
+		"3.6.0": "2018-12-07T23:57:41.762Z",
+		"3.11.0": "2019-02-08T01:37:55.937Z",
+		"3.13.0": "2019-02-15T01:49:43.143Z",
+		"4.0.0": "2021-02-10T22:41:36.455Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d0cee4d2a53fa43e05541852bd9ba064\"",
+			"fetched": 1613881352419
+		}
+	},
+	"_distfiles": {
+		"validation-error-3.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-beta.0.tgz",
+			"sha": "f1cefbc9d672253614bf550c9dcb25b720adbff5",
+			"registry": "npmjs"
+		},
+		"validation-error-3.0.0-beta.10.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-beta.10.tgz",
+			"sha": "cf5cbc39c4d27b89c6080e326de745f6fb7451ab",
+			"registry": "npmjs"
+		},
+		"validation-error-3.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0-rc.0.tgz",
+			"sha": "da81862666992b6befab25a4c855440679005e46",
+			"registry": "npmjs"
+		},
+		"validation-error-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0.tgz",
+			"sha": "a27e90051c3ba71995e2a800a43d94ad04b3e3f4",
+			"registry": "npmjs"
+		},
+		"validation-error-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.6.0.tgz",
+			"sha": "550cf66bb2ef88edc02e36017b575a7a9100d5d8",
+			"registry": "npmjs"
+		},
+		"validation-error-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.11.0.tgz",
+			"sha": "3b2e97a7f5158bb1fc6c0eb3789061b99f01d7fb",
+			"registry": "npmjs"
+		},
+		"validation-error-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.13.0.tgz",
+			"sha": "c86b8f07c5ab9539f775bd8a54976e926f3759c3",
+			"registry": "npmjs"
+		},
+		"validation-error-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-4.0.0.tgz",
+			"sha": "af9d62fe8304eaa2eb9a6ba1394f9aa807026d35",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-7ef73de0974152f8",
+	"_id": "@lerna/validation-error",
+	"readme": "# `@lerna/validation-error`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

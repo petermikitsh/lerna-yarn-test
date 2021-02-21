@@ -1,0 +1,1081 @@
+{
+	"name": "parse-path",
+	"versions": {
+		"2.0.0": {
+			"name": "parse-path",
+			"version": "2.0.0",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"_id": "parse-path@2.0.0",
+			"_shasum": "eaf2609d3c63a9d361a4a17cdf3aff40ef765181",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "4.3.0",
+			"_npmUser": {
+				"name": "nj48",
+				"email": "spam@njohnson.me"
+			},
+			"dist": {
+				"shasum": "eaf2609d3c63a9d361a4a17cdf3aff40ef765181",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "nj48",
+					"email": "spam@njohnson.me"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.1-security": {
+			"name": "parse-path",
+			"version": "0.0.1-security",
+			"description": "This package name is not currently in use, but was formerly occupied by a popular package. To avoid malicious use, npm is hanging on to the package name, but loosely, and we'll probably give it to you if you want it.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/npm/security-holder.git"
+			},
+			"keywords": [],
+			"author": "",
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/npm/security-holder/issues"
+			},
+			"homepage": "https://github.com/npm/security-holder#readme",
+			"gitHead": "d1719e2a152734ed854065de56039770c9104d83",
+			"_id": "parse-path@0.0.1-security",
+			"_shasum": "b6c83effd36242fbb8435db7c1fbe4c44d60d2b6",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "npm",
+				"email": "npm@npmjs.com"
+			},
+			"dist": {
+				"shasum": "b6c83effd36242fbb8435db7c1fbe4c44d60d2b6",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.1-security.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "nj48",
+					"email": "spam@njohnson.me"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.0": {
+			"name": "parse-path",
+			"version": "0.0.0",
+			"description": "parse javascript object path",
+			"main": "index.js",
+			"scripts": {
+				"test": "fox"
+			},
+			"devDependencies": {
+				"fox": "*"
+			},
+			"keywords": [
+				"path",
+				"object",
+				"path"
+			],
+			"repository": {
+				"url": "git@github.com:azer/parse-path.git",
+				"type": "git"
+			},
+			"author": "Azer Koçulu <azer@kodfabrik.com>",
+			"license": "BSD",
+			"_id": "parse-path@0.0.0",
+			"_npmVersion": "0.0.0-fake",
+			"_nodeVersion": "0.0.0-fake",
+			"_shasum": "ee48bc8c95be5a1b77c9ded5c424c15c0ef8157d",
+			"_npmUser": {
+				"name": "npm",
+				"email": "support@npmjs.com"
+			},
+			"_from": ".",
+			"dist": {
+				"shasum": "ee48bc8c95be5a1b77c9ded5c424c15c0ef8157d",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "nj48",
+					"email": "spam@njohnson.me"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "parse-path",
+			"version": "0.0.1",
+			"description": "parse javascript object path",
+			"main": "index.js",
+			"scripts": {
+				"test": "fox"
+			},
+			"devDependencies": {
+				"fox": "*"
+			},
+			"keywords": [
+				"path",
+				"object",
+				"path"
+			],
+			"repository": {
+				"url": "git@github.com:azer/parse-path.git",
+				"type": "git"
+			},
+			"author": "Azer Koçulu <azer@kodfabrik.com>",
+			"license": "BSD",
+			"_id": "parse-path@0.0.1",
+			"_npmVersion": "0.0.0-fake",
+			"_nodeVersion": "0.0.0-fake",
+			"_shasum": "7436e8f14f8e631cb5f05a056ebb21b868be548c",
+			"_npmUser": {
+				"name": "npm",
+				"email": "support@npmjs.com"
+			},
+			"_from": ".",
+			"dist": {
+				"shasum": "7436e8f14f8e631cb5f05a056ebb21b868be548c",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "nj48",
+					"email": "spam@njohnson.me"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "parse-path",
+			"version": "1.0.0",
+			"description": "Parse paths (local paths, urls: /ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "52052e231624fe9b0ad1f832c62de3b966756d6e",
+			"_id": "parse-path@1.0.0",
+			"_shasum": "80b97d4fe06109cd5c8949e8382d4e075cb748d3",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "80b97d4fe06109cd5c8949e8382d4e075cb748d3",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path-1.0.0.tgz_1503305338063_0.5414054756984115"
+			},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "parse-path",
+			"version": "3.0.0",
+			"description": "Parse paths (local paths, urls: /ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "f75862718ef3c1eea0b9b62a126f1302785ac181",
+			"_id": "parse-path@3.0.0",
+			"_shasum": "637c43cd29f0bd391614dca1bcee543e9033e0bf",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "637c43cd29f0bd391614dca1bcee543e9033e0bf",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path-3.0.0.tgz_1503305590773_0.2655666007194668"
+			},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "parse-path",
+			"version": "3.0.1",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "406500ffee24f125c0c539e8e3509d4ed81178cb",
+			"_id": "parse-path@3.0.1",
+			"_shasum": "355accf0ef1ddd65fec55e694d26dec3d255a421",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "355accf0ef1ddd65fec55e694d26dec3d255a421",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path-3.0.1.tgz_1503305963961_0.007476748200133443"
+			},
+			"contributors": []
+		},
+		"3.0.2": {
+			"name": "parse-path",
+			"version": "3.0.2",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "ac56f185eeae480596de2d82d8f6409ceb3c23e8",
+			"_id": "parse-path@3.0.2",
+			"_shasum": "4686980f0b262ee2dbb9a64eef739c91edc85245",
+			"_from": ".",
+			"_npmVersion": "4.1.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "4686980f0b262ee2dbb9a64eef739c91edc85245",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path-3.0.2.tgz_1504875975230_0.9171083923429251"
+			},
+			"contributors": []
+		},
+		"3.0.3": {
+			"name": "parse-path",
+			"version": "3.0.3",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "1363f1decd095e9b0181518b5cd68e6ae17b990b",
+			"_id": "parse-path@3.0.3",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Pb2M+AKo2TCt/pTcWCu/dRpmrXvRZFsvfesQq/IvLzZiEyFNELBDaHEbQt3qLhM9lQ+r5R1r0mfbENNRfA6ldw==",
+				"shasum": "9e1967997e25f4de20aab071b3c028a833647305",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10812
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_3.0.3_1523558854726_0.8878284765000957"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.4": {
+			"name": "parse-path",
+			"version": "3.0.4",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "388bea4030f0d8ab53c307ea06c4f57a6e07748d",
+			"_id": "parse-path@3.0.4",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-wP70vtwv2DyrM2YoA7ZHVv4zIXa4P7dGgHlj+VwyXNDduLLVJ7NMY1zsFxjUUJ3DAwJLupGb1H5gMDDiNlJaxw==",
+				"shasum": "a48b7b529da41f34d9d1428602a39b29fc7180e4",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10810,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbK+TCCRA9TVsSAnZWagAAcRAQAJhDOHEoTeQyuBlX31Nz\n7pMpU/iyOzVXBxQrA7F/uEFtmaUoCYghgDTVOjv3kKgBiAf7rE6IDDfxIR3C\nvIYWUDMgwbdgpPSRMZGSIRWE83npYnDC/rKQWzeQjPhjacKaIIInxar9Li2W\nqHau2V5t20+LCvYvPPGNR59x5iowy4NE4WYoYvyYNm8QU8xmt1C/ed2CRNtC\nCwqFPniZNidZL09aBGhXn6GNfx/8M278I1ubkwQY+E5uYWnwo1xDtz1HY1nR\nOv9b0tfqgQf9Z2UNg5vuuGi22ML3wHtsSVQmA6TK7WadkT+UCiStLjsc5zx3\nrS/U5I7fRl0xroJ71jvgGyW2UK5/OfmO1kbMMAuE2DY9itFeCoIOSfFasUW4\nDfov1Qu705T0qDUf8jv59MJzP3rzQDUsYeF0RtbAvOzTxlbIA9W2MoXmzT/M\nGjcGnMQujp0fL24K6e6pd9hJPX0CKTSNgagcVwErH7h+i9NBCZOwNqwPi5AB\nQ88JOcyWiv4NsKgUvGtBdXFXBYwHdpQCGov0uMIrP0XAvnXmcy24G+KGJRrC\n7RXbn4AGR2C5F8I/jMJ5aYv0M86ac/e05m7l5AqCN1JM7WBQULIwj6LaF2qQ\no+PDbn1fpmbDYV+lfaxdPtl6SuKkPKRJNLJuvhLQ/YWf+zOkg2RGcfgRpaE/\nY7vF\r\n=nFX5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_3.0.4_1529603266746_0.4470873583852222"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "parse-path",
+			"version": "4.0.0",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"gitHead": "e611717ced207518326c0af2c2542fa2de2adb2a",
+			"_id": "parse-path@4.0.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-F2VzhusH0Z2Dgp8SMrFMkYz2sI40deaax2AEmK1UYOf2NY77b0yJzqZ6iUjXwUHJ4VVvJNuV3S+oVEwcPjsxSQ==",
+				"shasum": "38e50496a3e38bc1a0ced205a12a7fa91e719332",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 11469,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1eYqCRA9TVsSAnZWagAAXM0P/05OV6zGzfI2uQISBPDq\nJcfO5jWx3c4SlNQ7DpzxYx5BonbouMnuETz8HNVeEktM6d00U4BvLYl3mOyQ\nl90ASkGqfPiFVafQIWWJP4KQTqdGvsj5rfFkbfwHgzxFhmBbsA5hLGUitV5I\n4DA5UyD7QqjlN7vDp+mnUwTrUf09ogXDzIKLr8tgPU5Y1pFEO/BD1j+vJaRO\newMReDkxCDGQ56Ad5mFC5CYczCFGZ65xj9KnXcIuXB6hzQ5YFsZqCFxS8CDE\nAxJwQJUlEqG0O/cWrkkXYbsxUZ+rR47a7fzlLOJXsqQKoTLaoV4Cco+A4SsO\npct6HmacKqYyAFze8Dqs0h76GFvDlU/QYjf8ubNyl0Hb7wUYKiuVk1+YUT47\nARyS0DDK+s0sMIZnGR/9lIjwtCvP+dsNmCTH7FaikqxADkML317P80vtK1hD\nBteM5JlU/E/HSD5H7iqAwFLYRgeTgQSk7g5n6pQrwsElpnVLmR34fUXRoLaF\ntDxS9UAT/MVjZqSfgtj9+syzIKjA4eInKvva8x004h8FWgcy4JS3Na+GIO5J\n3MV6UBMNDT2tgo8LmDysb38EJCkboIOio+UTeQfQ0WulzFSi41qA0FDZUn2l\nFrpcloQdDlNLx4MahwakZ4xZNDeAnKX0MKlqNTrJY6a/7s4R5/+XBmhGXGWL\nceDN\r\n=p1Bb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_4.0.0_1540744745497_0.17233691182256172"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "parse-path",
+			"version": "4.0.1",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"gitHead": "25bfec8d5eec4b4523c2d0638433d9aa1e2d8492",
+			"_id": "parse-path@4.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-d7yhga0Oc+PwNXDvQ0Jv1BuWkLVPXcAoQ/WREgd6vNNoKYaW52KI+RdOFjI63wjkmps9yUE8VS4veP+AgpQ/hA==",
+				"shasum": "0ec769704949778cb3b8eda5e994c32073a1adff",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 11909,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLmVyCRA9TVsSAnZWagAAUisQAKLa+sMVfsIYMXmofh5t\n51VM+uwmw7RcV0BCJvsZ66RfVarB6spamGASbwyWehijBys36PGow/cBnfx2\nLgM28j22DFXBNkyKljCyjUKYIr8+AP5wcrJ4BOY1jaNXwzxAlzXdXmDaDrQc\nQiN9yhuS1TNaVAbn5MYgZf+BjU+gf4UFEcR/nx7o0/l3/DUO0Kl3nri9Yz3S\nXK5wgiXEd+ZG/xiC3GC4OoInjESLb/RBL2uKn67flErtuG8SNC3zsw51Nw/J\nCD0Hlfjmo8wiC006FX+L1z94URHsYJCFnEV43c+Byx0kol25u1DjuPWIybub\nc4L9PlA6twRAJ2+IoQY8OwtyZkYCv/TSNffy1stlng5hqZmjfGx3txgo5zGP\n/o14FBJGiXjiWLJZ9zWOBBKbKN6/5gltifWGlJVtga5VkwPEBV6gLX68TgoT\nfz5s1tdQFiK8VuabcuG4Wx2iEruCNQyB/LjT+Jtif7KhD8qJxzEJN39erW6i\nmhUJKm9/BumnCu3BQVXOvX/MFBGwFLZT2mAioI+xNIPAMOQxWyCPXpdvW5xJ\n5dr2YHCddzSLCf2srn4OJg1Vz+XxRwAC0Ek/X3RWOi0uH/KcjZ/RmvTnrYM3\nP52aBWtp7EDqnbHRLEZRM8simhQWQ4qQCJieAsM7kJUCB0V2TT1UfHvpLxfQ\n0q0z\r\n=NRy0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_4.0.1_1546544495590_0.12172879629555067"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.2": {
+			"name": "parse-path",
+			"version": "4.0.2",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"protocols": "^1.4.0",
+				"is-ssh": "^1.3.0"
+			},
+			"gitHead": "8acac4d8502a301f00c11f860513281436d3f739",
+			"_id": "parse-path@4.0.2",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-HSqVz6iuXSiL8C1ku5Gl1Z5cwDd9Wo0q8CoffdAghP6bz8pJa1tcMC+m4N+z6VAS8QdksnIGq1TB6EgR4vPR6w==",
+				"shasum": "ef14f0d3d77bae8dd4bc66563a4c151aac9e65aa",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 12076,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfMA3/CRA9TVsSAnZWagAATHUP/3mWpEIMgNDNtvoXALjc\naxoCHbTm0lEdW6W8/vY21lzQ3T4mgDg9bXBrqHKfmWIzVWqYe+4PQOhmZWfn\n3CZJ4NN68a5ezYpiPWJZuTZXlvEc0ECTqoPcWGhd4rip4ZJLI6MBZptjwRhj\nYnI59v1nroUpYr2tmajXyKBwjEzXw+BCRLAuAtIGJuS0yx1EFDfmZ+/BnZR1\nCr6lJEnjFQaYNmkMIjKECYvRT+Ae17mZKl/20HXtJtsjCmFzysNBw16QUy5J\nG5C6DlpWOv+wVF9fpmj4YVFReYrgdpXblIS/HQIBXZhb4PvzcjNfubHdGTu0\nZBbWRhGFm3gkpcdXpmFyA6QPE0aoRnEuCIdLnhTw+o8OBaOYVklkLWUQc4pG\nxTYt/EupXX2m7k4RCMAuDZM5lKO/Mmr58vccb4CXZ3h2SQEH4i8T5SafGcOo\nIbEXDufftIb8qcVNHCFcZQgQx4sXkV3S3d/LXSiRNr8R5mzXHb1lYXfvBASW\n5MNxn1CugWKnfG1gS016vJDjDtiaHcUJj2zxSmhnhrf6kU67apjdzHO/osrB\n0PA18qgeC11R6QIH9N3kcpSlbpHgeOayl+Eaj0Yx/jgXZf1T9R0c0u50G9NM\noPfbJhbf01uwmZsVkRQ/I5DqERyVNj15suI24Odt+goARwAQ+TBjOqK7K+kx\nPO4W\r\n=gDzz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bizauionica@gmail.com",
+					"name": "ionicabizau"
+				},
+				{
+					"email": "support@circabs.com",
+					"name": "simon-p-r"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_4.0.2_1596984831379_0.5784007433224565"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.3": {
+			"name": "parse-path",
+			"version": "4.0.3",
+			"description": "Parse paths (local paths, urls: ssh/git/etc)",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/parse-path.git"
+			},
+			"keywords": [
+				"parse",
+				"path",
+				"url",
+				"node",
+				"git",
+				"advanced"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/parse-path/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/parse-path",
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"protocols": "^1.4.0",
+				"qs": "^6.9.4",
+				"query-string": "^6.13.8"
+			},
+			"gitHead": "6098fcb50f7462ef52e6c0f418a66c1d224a1a88",
+			"_id": "parse-path@4.0.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-9Cepbp2asKnWTJ9x2kpw6Fe8y9JDbqwahGCTvklzd/cEq5C5JC59x2Xb0Kx+x0QZ8bvNquGO8/BWP0cwBHzSAA==",
+				"shasum": "82d81ec3e071dcc4ab49aa9f2c9c0b8966bb22bf",
+				"tarball": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 12685,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf+fMwCRA9TVsSAnZWagAA+6gP/jhlBiuVZT5Ble6SoHX3\nUzRbRgaSClGckPBJ1M5kfB8pCsedtujZ/4bTpuXzsFI/iJTSkiZii3Zs1ATH\n0ds4Hn7hoSTkqW5oSDw8wbwrnJFmdqOerZ7r3d/mAqSM4ujSu2ehNEuRYK2H\n1SgtoyYb9Rx3Xf5Nj2nT3M0oEVGgjH+lPlb+7CLqjFSylwwO91WadU1U3Fv1\n7YOBT8gup1CiVxj+dEqGOTGbus83aNPW+0sbb9Kz3dkU7z3rJdJpdRbk1mLs\nljfbxtVS6JMbJhidLilHKxG1IYjU85sHb4otjrFuQSjmjlhX9EyDeicA7OgJ\nZuAa777FGjH26HWEWR/aGQdp5UZtxfifHt8gCu1W4uBFm0LAFPSf28zFhaNZ\nX6UAUQQB5rHzjHAR1mxJwwB8FwdHU+smMb6fYjNA8Y8h+fSP7Yx3guwRfxNh\n5CrtUysxtY7n/QMJMUzmFhL92ZyCleGRX0fykP+wbJxwOX277NvYVecUqy51\nLxiho3V4jsTBdqhTFAOCufBU//EXgmNY1xGivCTbGWgZWEMz1mCs5LGO1Hs6\n2W/0FYucPJ0GYSJCS1Y7OHnpBeL8IOQg25bbVvqhUb7GZnlCrKJ2UmO3TInY\nD0YgLzVawkiVpWjlF1NEeFeD5TUHL9L6ileq7yG4CkjS205Amgj8KoTYBEBN\nief3\r\n=ItZi\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "simon-p-r",
+					"email": "support@circabs.com"
+				},
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-path_4.0.3_1610216239327_0.156787747505581"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-01-09T18:17:22.034Z",
+		"created": "2013-08-11T03:23:32.748Z",
+		"0.0.0": "2013-08-11T03:23:35.483Z",
+		"0.0.1": "2013-08-11T03:43:06.974Z",
+		"2.0.0": "2016-03-22T23:50:25.435Z",
+		"0.0.1-security": "2016-03-23T22:18:29.594Z",
+		"1.0.0": "2017-08-21T08:48:58.945Z",
+		"3.0.0": "2017-08-21T08:53:11.704Z",
+		"3.0.1": "2017-08-21T08:59:24.905Z",
+		"3.0.2": "2017-09-08T13:06:16.171Z",
+		"3.0.3": "2018-04-12T18:47:34.809Z",
+		"3.0.4": "2018-06-21T17:47:46.812Z",
+		"4.0.0": "2018-10-28T16:39:05.610Z",
+		"4.0.1": "2019-01-03T19:41:37.494Z",
+		"4.0.2": "2020-08-09T14:53:51.504Z",
+		"4.0.3": "2021-01-09T18:17:19.491Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"ea9aa93c6c09586e7ff153fbc7cdc19a\"",
+			"fetched": 1613881365398
+		}
+	},
+	"_distfiles": {
+		"parse-path-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-2.0.0.tgz",
+			"sha": "eaf2609d3c63a9d361a4a17cdf3aff40ef765181",
+			"registry": "npmjs"
+		},
+		"parse-path-0.0.1-security.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.1-security.tgz",
+			"sha": "b6c83effd36242fbb8435db7c1fbe4c44d60d2b6",
+			"registry": "npmjs"
+		},
+		"parse-path-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.0.tgz",
+			"sha": "ee48bc8c95be5a1b77c9ded5c424c15c0ef8157d",
+			"registry": "npmjs"
+		},
+		"parse-path-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-0.0.1.tgz",
+			"sha": "7436e8f14f8e631cb5f05a056ebb21b868be548c",
+			"registry": "npmjs"
+		},
+		"parse-path-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-1.0.0.tgz",
+			"sha": "80b97d4fe06109cd5c8949e8382d4e075cb748d3",
+			"registry": "npmjs"
+		},
+		"parse-path-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.0.tgz",
+			"sha": "637c43cd29f0bd391614dca1bcee543e9033e0bf",
+			"registry": "npmjs"
+		},
+		"parse-path-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.1.tgz",
+			"sha": "355accf0ef1ddd65fec55e694d26dec3d255a421",
+			"registry": "npmjs"
+		},
+		"parse-path-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.2.tgz",
+			"sha": "4686980f0b262ee2dbb9a64eef739c91edc85245",
+			"registry": "npmjs"
+		},
+		"parse-path-3.0.3.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.3.tgz",
+			"sha": "9e1967997e25f4de20aab071b3c028a833647305",
+			"registry": "npmjs"
+		},
+		"parse-path-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-3.0.4.tgz",
+			"sha": "a48b7b529da41f34d9d1428602a39b29fc7180e4",
+			"registry": "npmjs"
+		},
+		"parse-path-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.0.tgz",
+			"sha": "38e50496a3e38bc1a0ced205a12a7fa91e719332",
+			"registry": "npmjs"
+		},
+		"parse-path-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.1.tgz",
+			"sha": "0ec769704949778cb3b8eda5e994c32073a1adff",
+			"registry": "npmjs"
+		},
+		"parse-path-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.2.tgz",
+			"sha": "ef14f0d3d77bae8dd4bc66563a4c151aac9e65aa",
+			"registry": "npmjs"
+		},
+		"parse-path-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/parse-path/-/parse-path-4.0.3.tgz",
+			"sha": "82d81ec3e071dcc4ab49aa9f2c9c0b8966bb22bf",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-4dc95ee89bd4ef86",
+	"_id": "parse-path",
+	"readme": "<!-- Please do not edit this file. Edit the `blah` field in the `package.json` instead. If in doubt, open an issue. -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# parse-path\n\n [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/parse-path.svg)](https://travis-ci.org/IonicaBizau/parse-path/) [![Version](https://img.shields.io/npm/v/parse-path.svg)](https://www.npmjs.com/package/parse-path) [![Downloads](https://img.shields.io/npm/dt/parse-path.svg)](https://www.npmjs.com/package/parse-path) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)\n\n<a href=\"https://www.buymeacoffee.com/H96WwChMy\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\"></a>\n\n\n\n\n\n\n\n> Parse paths (local paths, urls: ssh/git/etc)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :cloud: Installation\n\n```sh\n# Using npm\nnpm install --save parse-path\n\n# Using yarn\nyarn add parse-path\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :clipboard: Example\n\n\n\n```js\n// Dependencies\nconst parsePath = require(\"parse-path\")\n\nconsole.log(parsePath(\"http://ionicabizau.net/blog\"))\n// { protocols: [ 'http' ],\n//   protocol: 'http',\n//   port: null,\n//   resource: 'ionicabizau.net',\n//   user: '',\n//   pathname: '/blog',\n//   hash: '',\n//   search: '',\n//   href: 'http://ionicabizau.net/blog' }\n\nconsole.log(parsePath(\"http://domain.com/path/name?foo=bar&bar=42#some-hash\"))\n// { protocols: [ 'http' ],\n//   protocol: 'http',\n//   port: null,\n//   resource: 'domain.com',\n//   user: '',\n//   pathname: '/path/name',\n//   hash: 'some-hash',\n//   search: 'foo=bar&bar=42',\n//   href: 'http://domain.com/path/name?foo=bar&bar=42#some-hash' }\n\nconsole.log(parsePath(\"git+ssh://git@host.xz/path/name.git\"))\n// { protocols: [ 'git', 'ssh' ],\n//   protocol: 'git',\n//   port: null,\n//   resource: 'host.xz',\n//   user: 'git',\n//   pathname: '/path/name.git',\n//   hash: '',\n//   search: '',\n//   href: 'git+ssh://git@host.xz/path/name.git' }\n\nconsole.log(parsePath(\"git@github.com:IonicaBizau/git-stats.git\"))\n// { protocols: [],\n//   protocol: 'ssh',\n//   port: null,\n//   resource: 'github.com',\n//   user: 'git',\n//   pathname: '/IonicaBizau/git-stats.git',\n//   hash: '',\n//   search: '',\n//   href: 'git@github.com:IonicaBizau/git-stats.git' }\n```\n\n\n\n\n\n\n\n\n\n\n\n## :question: Get Help\n\nThere are few ways to get help:\n\n\n\n 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.\n 2. For bug reports and feature requests, open issues. :bug:\n 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:\n\n\n\n\n\n## :memo: Documentation\n\n\n### `parsePath(url)`\nParses the input url.\n\n#### Params\n\n- **String** `url`: The input url.\n\n#### Return\n- **Object** An object containing the following fields:\n - `protocols` (Array): An array with the url protocols (usually it has one element).\n - `protocol` (String): The first protocol, `\"ssh\"` (if the url is a ssh url) or `\"file\"`.\n - `port` (null|Number): The domain port.\n - `resource` (String): The url domain (including subdomains).\n - `user` (String): The authentication user (usually for ssh urls).\n - `pathname` (String): The url pathname.\n - `hash` (String): The url hash.\n - `search` (String): The url querystring value.\n - `href` (String): The input url.\n - `query` (Object): The url querystring, parsed as object.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :yum: How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n## :sparkling_heart: Support my projects\nI open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,\nthis takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).\n\nHowever, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:\n\n\n - Starring and sharing the projects you like :rocket:\n - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:\n - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:\n - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).\n - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`\n\n    ![](https://i.imgur.com/z6OQI95.png)\n\n\nThanks! :heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :dizzy: Where is this library used?\nIf you are using this library in one of your projects, add it in this list. :sparkles:\n\n - `parse-url`\n - `@semantic-release/gitlab`\n - `@hawkingnetwork/react-native-tab-view`\n - `eleventy-plugin-embed-soundcloud`\n - `eleventy-plugin-embed-twitter`\n - `tria-prima`\n - `react-fsm-router`\n - `@tjoussen/semantic-release-gitlab-mr`\n - `@devdiary/semantic-devdiary-release`\n - `semantic-release-gitlab-plugin`\n - `reddit-title-has-verbatim-quote`\n - `@apardellass/react-native-audio-stream`\n - `l2forlerna`\n - `react-native-plugpag-wrapper`\n - `@alphy11/semantic-release-gitlab`\n - `react-native-pulsator-native`\n - `react-native-kakao-maps`\n - `@geeky-apo/react-native-advanced-clipboard`\n - `native-apple-login`\n - `native-google-login`\n - `native-kakao-login`\n - `@hemith/react-native-tnk`\n - `react-native-contact-list`\n - `@corelmax/react-native-my2c2p-sdk`\n - `@cloudoki/donderflow`\n - `electron-info`\n - `@tru_id/tru-sdk-react-native`\n - `@datalogic/react-native-datalogic-module`\n - `react-native-responsive-size`\n - `react-native-flyy`\n - `react-native-esc-pos-sahaab`\n\n\n\n\n\n\n\n\n\n\n\n## :scroll: License\n\n[MIT][license] © [Ionică Bizău][website]\n\n\n\n\n\n\n[license]: /LICENSE\n[website]: https://ionicabizau.net\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg\n[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg\n[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg\n[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg\n[patreon]: https://www.patreon.com/ionicabizau\n[amazon]: http://amzn.eu/hRo9sIZ\n[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW"
+}

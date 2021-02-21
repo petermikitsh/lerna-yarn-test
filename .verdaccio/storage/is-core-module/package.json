@@ -1,0 +1,493 @@
+{
+	"name": "is-core-module",
+	"versions": {
+		"1.0.0": {
+			"name": "is-core-module",
+			"version": "1.0.0",
+			"description": "check if packageName is a core module",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandavejustice/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"npm",
+				"dependencies"
+			],
+			"author": {
+				"name": "meandave"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/meandavejustice/is-core-module/issues"
+			},
+			"homepage": "https://github.com/meandavejustice/is-core-module",
+			"gitHead": "1eff0ec69798d1ec65771552d1562911e90a8027",
+			"_id": "is-core-module@1.0.0",
+			"_shasum": "32b0c727ff0819937576d799e479e548c7a5af7a",
+			"_from": ".",
+			"_npmVersion": "1.4.25",
+			"_npmUser": {
+				"name": "meandave",
+				"email": "davejustishh@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandave",
+					"email": "davejustishh@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "32b0c727ff0819937576d799e479e548c7a5af7a",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "is-core-module",
+			"version": "1.0.1",
+			"description": "check if packageName is a core module",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandavejustice/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"npm",
+				"dependencies"
+			],
+			"author": {
+				"name": "meandave"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/meandavejustice/is-core-module/issues"
+			},
+			"homepage": "https://github.com/meandavejustice/is-core-module",
+			"gitHead": "f21f906f882c2bd656a5fc5ed6fbe48ddaffb2ac",
+			"_id": "is-core-module@1.0.1",
+			"_shasum": "9e3d4c3e8ff2e091f50be0aa27548790a75d84c4",
+			"_from": ".",
+			"_npmVersion": "1.4.25",
+			"_npmUser": {
+				"name": "meandave",
+				"email": "davejustishh@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandave",
+					"email": "davejustishh@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9e3d4c3e8ff2e091f50be0aa27548790a75d84c4",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "is-core-module",
+			"version": "1.0.2",
+			"description": "check if packageName is a core module",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandavejustice/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"npm",
+				"dependencies"
+			],
+			"author": {
+				"name": "meandave"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/meandavejustice/is-core-module/issues"
+			},
+			"homepage": "https://github.com/meandavejustice/is-core-module",
+			"gitHead": "66fe90f9771581b9adc0c3900baa52c21b5baea2",
+			"_id": "is-core-module@1.0.2",
+			"_shasum": "132b3156a14eab498207717bc2facb68aa4da772",
+			"_from": ".",
+			"_npmVersion": "1.4.25",
+			"_npmUser": {
+				"name": "meandave",
+				"email": "davejustishh@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandave",
+					"email": "davejustishh@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "132b3156a14eab498207717bc2facb68aa4da772",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "is-core-module",
+			"version": "2.0.0",
+			"description": "Is this specifier a node.js core module?",
+			"main": "index.js",
+			"exports": {
+				".": [
+					{
+						"default": "./index.js"
+					},
+					"./index.js"
+				],
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "tape test",
+				"test": "npm run tests-only",
+				"posttest": "aud --production",
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/inspect-js/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"module",
+				"npm",
+				"node",
+				"dependencies"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/inspect-js/is-core-module/issues"
+			},
+			"homepage": "https://github.com/inspect-js/is-core-module",
+			"dependencies": {
+				"has": "^1.0.3"
+			},
+			"devDependencies": {
+				"@ljharb/eslint-config": "^17.2.0",
+				"aud": "^1.1.2",
+				"auto-changelog": "^2.2.1",
+				"eslint": "^7.10.0",
+				"tape": "^5.0.1"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "0888a1197cf90f9a06b8b0de6c5161dfb4e817c4",
+			"_id": "is-core-module@2.0.0",
+			"_nodeVersion": "14.12.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-jq1AH6C8MuteOoBPwkxHafmByhL9j5q4OaPGdbuD+ZtQJVzH+i6E3BJDQcBA09k57i2Hh2yQbEG8yObZ0jdlWw==",
+				"shasum": "58531b70aed1db7c0e8d4eb1a0a2d1ddd64bd12d",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.0.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 14711,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfc3gqCRA9TVsSAnZWagAAbXoP+wcsbNs4mEHfLwx8VTXE\n2ccVknOWvB9F+phRUjdc6NBbYHeniOqHJZefsK+P0jBagwAG2BRPsa8FcLAC\nJ+7ToQbAX2/iipHIoIgJcbBuUPvx1Pg6FoIHBHefvV1ojCWeDaIs/3ky1xqL\nrtKxHcuJP5li9nspuodw2nW6cSUy9qi+4N0TwYNEJ57EhFdU56UCLnT6u+FO\nwf8D0vMbYZjROzprUC6K93mBnPePUE4eVHvYVr3LcOQew/QcadcalfO//6q6\nM7ljdSIuHhdeowK/lUjGyoLT8E9UXQ2haztJu0laea7xLG5PQLtDOLoyentm\n/52zkk6wpReabpUq38qdqDGEGRsSWmmSZUkQSRy7h1q1aIsQEo6pHZub0KLN\n47yIYJgxc1n3BP8tbzhcvDgt7F3twrFw3TsumEwAtEq36vtyzNPC6N2v2g+C\n1tmxxSIVPZeXl4AxXJsuCMUMn4l9/L2SCZpjEjJORubeCa5bo020Z2nZHUJ7\noILOHOEg7ZNaGkutKV8vbP/GoYKivht87CZbTfmrP+XNnyjvk3EUM1nUQlGT\nHdoz8cZGBLCp4r4J4AFlIEFdmkZ1Fp38+R9WbnQiz0xb4imPWQwQXxqpwiH9\nT2M3odC+wmATEw22SKYuWjYthORQ5voRrXRRXHXsjCBl4oqYlANcNL3/FiAw\nc2e8\r\n=Ha4U\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-core-module_2.0.0_1601402921585_0.818995529661108"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "is-core-module",
+			"version": "2.1.0",
+			"description": "Is this specifier a node.js core module?",
+			"main": "index.js",
+			"exports": {
+				".": [
+					{
+						"default": "./index.js"
+					},
+					"./index.js"
+				],
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "tape test",
+				"test": "npm run tests-only",
+				"posttest": "aud --production",
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/inspect-js/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"module",
+				"npm",
+				"node",
+				"dependencies"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/inspect-js/is-core-module/issues"
+			},
+			"homepage": "https://github.com/inspect-js/is-core-module",
+			"dependencies": {
+				"has": "^1.0.3"
+			},
+			"devDependencies": {
+				"@ljharb/eslint-config": "^17.2.0",
+				"aud": "^1.1.2",
+				"auto-changelog": "^2.2.1",
+				"eslint": "^7.12.1",
+				"tape": "^5.0.1"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "7a97e5660f274c2e98339b6a2ba3baa74bedfcfc",
+			"_id": "is-core-module@2.1.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-YcV7BgVMRFRua2FqQzKtTDMz8iCuLEyGKjr70q8Zm1yy2qKcurbFEd79PAdHV77oL3NrAaOVQIbMmiHQCHB7ZA==",
+				"shasum": "a4cc031d9b1aca63eecbd18a650e13cb4eeab946",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.1.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 15149,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfowuoCRA9TVsSAnZWagAAMtcP/0TZ2zJpVcL6u9Rt3Vgs\nBEt1BGqMf4vDQHdhu7bDtPcy92Hp+Wb2c5WDDlJzS1v7T1++qZ0ARIyLtSL0\nTlHitO3yh2qcl0KTDtUZYxV7s1EYjY/R7J1tF6d12bqjISm/h76L9KYlpHSw\nbE9GyzHV/0iCrZX18kk6bkuDOTW95vg5GcXgA/+q2oJh6p3zyuFnwsx1iiXF\nZSY+UiJE22BeSNJEKxNfP8MC8pOenGpMlXud7KDXR42yZciM/yV2sUPh/TdO\nC/UT3DUtVMT4SHUyeDepEdXRRPFrDUgfjxv4t7sbXA9W8hoRaCCOwetsyAAP\nHZG3hQmUvbt9lVQxapl4hxAst+V3RK0dWwOcoTABTWui8GfZgBxQIWeyis3b\nBOmWQ17aCBfjVoAcmP0PP5tsPM6z47qPQnciKQSD2HpCmmkuXyIDKVJIRZCM\n2cecLEdS/YWOTDHIqmHi9wjdA8QVwrJ2HpMrliJwN/BeQsQWa+BuiZqh6O+v\nMc+ZnqgW6fS3aQXEdfvSqLGzd2bADWpx3DSbnBuE97CF1vjHl31N3H7UCohc\njPSFoqLbctKpJyhpLIkHicvP5s6UrG4MFym581F93MDxwrspdZfiehG2Ozqv\nNNbk/34Xi0uR6d9GmBEBy9lnHTcQvkLwgyqGwSruskWq7m28LfCn3auOLsyD\nQjGZ\r\n=v56V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-core-module_2.1.0_1604520871618_0.4682715317494046"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "is-core-module",
+			"version": "2.2.0",
+			"description": "Is this specifier a node.js core module?",
+			"main": "index.js",
+			"exports": {
+				".": [
+					{
+						"default": "./index.js"
+					},
+					"./index.js"
+				],
+				"./package.json": "./package.json"
+			},
+			"scripts": {
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "tape 'test/**/*.js'",
+				"test": "nyc npm run tests-only",
+				"posttest": "aud --production",
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/inspect-js/is-core-module.git"
+			},
+			"keywords": [
+				"core",
+				"modules",
+				"module",
+				"npm",
+				"node",
+				"dependencies"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/inspect-js/is-core-module/issues"
+			},
+			"homepage": "https://github.com/inspect-js/is-core-module",
+			"dependencies": {
+				"has": "^1.0.3"
+			},
+			"devDependencies": {
+				"@ljharb/eslint-config": "^17.3.0",
+				"aud": "^1.1.3",
+				"auto-changelog": "^2.2.1",
+				"eslint": "^7.14.0",
+				"nyc": "^10.3.2",
+				"safe-publish-latest": "^1.1.4",
+				"tape": "^5.0.1"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "51aca38cdf05e8d6264e28dc7af7a483270e18ae",
+			"_id": "is-core-module@2.2.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==",
+				"shasum": "97037ef3d52224d85163f5597b2b63d9afed981a",
+				"tarball": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.2.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 20683,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfv+xgCRA9TVsSAnZWagAAz00P/0mX1C0etJG4VjFkU5el\ngGQiKmzKft5ofcW6rOpTPRXkDXL941T9oI8sAuDAMBCw9AA76tqaukBMdaEO\ni3DY9+nD8x+OVMxiCD52dtGHQHDTY4zOt66a+GSt/df7FX9GODnDnkwV8+Di\nbgdBzn5VnevLxN3j+yISOO06nrcCXZaQ2vhnYduKSy4WUAbjDElkb23QL4Wc\nddXImyEB2OaiCs7hiJX59RB37pMbxISB7OonIY6vI7qcbbq6zINdLbUpIS+Z\nTHoUTYKvuZWs9tZe99CzsHv/o7w+g4emehSackOt8d38scVEBWl9wM7ORzG7\nXcH+t5/ulJlZIlakGqm+5EnS5vwmbiswAyeCENt4Xtv/hRbGjp6W9lpGXNoX\nrmP6FEomQM0obp6JErMMx/3AjcjZcKR+qmBf6dCDppch7Nvtz9gCl3WUeLML\nZg9Ur3f+L20+goBjDp2eGrpIaVwXDPPbaKt+QFWv49CmvP0f8Lm6b8LBf8cI\nDUARrCRarIjPjee8N1f274uialjY5ovsNFyRQa0C98Dd2qEJiKs2T8UJgRT8\nuhuFgsydwk0da3CFlHVXkoeMD+ENOXsVoyqQt53qxqnWhCUAmWEIMYKd4gL0\nrZjPodNA932i9+f1w/BC04fJx5lWOdpIxBMhUwVHnYSsqDh4H2nNGbWI22pE\nbvAu\r\n=3z7a\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-core-module_2.2.0_1606413407944_0.10093124372925821"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-11-26T17:56:51.098Z",
+		"created": "2014-09-29T03:21:42.420Z",
+		"1.0.0": "2014-09-29T03:21:42.420Z",
+		"1.0.1": "2014-09-29T03:36:28.359Z",
+		"1.0.2": "2014-09-29T03:38:15.852Z",
+		"2.0.0": "2020-09-29T18:08:41.736Z",
+		"2.1.0": "2020-11-04T20:14:31.722Z",
+		"2.2.0": "2020-11-26T17:56:48.104Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"1d05289b78d93021a4669c975f1ae55f\"",
+			"fetched": 1613881363107
+		}
+	},
+	"_distfiles": {
+		"is-core-module-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.0.tgz",
+			"sha": "32b0c727ff0819937576d799e479e548c7a5af7a",
+			"registry": "npmjs"
+		},
+		"is-core-module-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.1.tgz",
+			"sha": "9e3d4c3e8ff2e091f50be0aa27548790a75d84c4",
+			"registry": "npmjs"
+		},
+		"is-core-module-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-1.0.2.tgz",
+			"sha": "132b3156a14eab498207717bc2facb68aa4da772",
+			"registry": "npmjs"
+		},
+		"is-core-module-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.0.0.tgz",
+			"sha": "58531b70aed1db7c0e8d4eb1a0a2d1ddd64bd12d",
+			"registry": "npmjs"
+		},
+		"is-core-module-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.1.0.tgz",
+			"sha": "a4cc031d9b1aca63eecbd18a650e13cb4eeab946",
+			"registry": "npmjs"
+		},
+		"is-core-module-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.2.0.tgz",
+			"sha": "97037ef3d52224d85163f5597b2b63d9afed981a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-1c08cc9204a06b40",
+	"_id": "is-core-module",
+	"readme": "# is-core-module <sup>[![Version Badge][2]][1]</sup>\n\n[![Build Status][3]][4]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\nIs this specifier a node.js core module? Optionally provide a node version to check; defaults to the current node version.\n\n## Example\n\n```js\nvar isCore = require('is-core-module');\nvar assert = require('assert');\nassert(isCore('fs'));\nassert(!isCore('butts'));\n```\n\n## Tests\nClone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/is-core-module\n[2]: https://versionbadg.es/inspect-js/is-core-module.svg\n[3]: https://travis-ci.com/inspect-js/is-core-module.svg\n[4]: https://travis-ci.com/inspect-js/is-core-module\n[5]: https://david-dm.org/inspect-js/is-core-module.svg\n[6]: https://david-dm.org/inspect-js/is-core-module\n[7]: https://david-dm.org/inspect-js/is-core-module/dev-status.svg\n[8]: https://david-dm.org/inspect-js/is-core-module#info=devDependencies\n[11]: https://nodei.co/npm/is-core-module.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/is-core-module.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/is-core-module.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=is-core-module"
+}

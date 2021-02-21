@@ -1,0 +1,180 @@
+{
+	"name": "@lerna/gitlab-client",
+	"versions": {
+		"3.15.0": {
+			"name": "@lerna/gitlab-client",
+			"version": "3.15.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/gitlab-client#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Luke Bennett",
+				"url": "https://gitlab.com/lbennett"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://gitlab.com/lerna/lerna.git",
+				"directory": "utils/gitlab-client"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"node-fetch": "^2.5.0",
+				"npmlog": "^4.1.2",
+				"whatwg-url": "^7.0.0"
+			},
+			"gitHead": "457d1e8a62f5caf0679973ae8bad564d7752ffd2",
+			"bugs": {
+				"url": "https://gitlab.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/gitlab-client@3.15.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-OsBvRSejHXUBMgwWQqNoioB8sgzL/Pf1pOUhHKtkiMl6aAWjklaaq5HPMvTIsZPfS6DJ9L5OK2GGZuooP/5c8Q==",
+				"shasum": "91f4ec8c697b5ac57f7f25bd50fe659d24aa96a6",
+				"tarball": "https://registry.npmjs.org/@lerna/gitlab-client/-/gitlab-client-3.15.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 4333,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/ZQICRA9TVsSAnZWagAARX4P/iJzSsxJ6nWAgsLqRGQg\nqZ9BbnrL0wJbWl14824L1BYNq8+RBz/q9OGvNK4fjFtKVPriePDYz1RZnfcU\nQeXL1pApCMTFOXhIxSdBxL11BH5b+/7i3dbqDz98q/bP+AIMOq6xZKcIPUsT\nzddxS0Fhie6VKWuiHGsTMldlen+h5p2NIqO4i3UZkJN3tmP+Yr5JCeH7uI9S\nepEVvviJDWM2nMbEe6jLCh7+7TJq3pGWFmdB/E0M9swiA6k+dvCYRuqgYOGh\n0nh9L9DeLwMgz4EKYYpPtIlV3vyKw1RTgEKgIkW+xtqyPIr9/A8Gfk813KG9\n5zlkTenvXrxThQpKKjUsFGkbJ7D7EjeSnGi9qWZlNyo8uiiMBSlwEr4G3WR9\nZjAXGb0q+lL/eeCvT4Pcs2qGIkifVnnbAxiUPJSklxtuM4S20qppUiM4Zb7T\n7WnGSRH4RsuZslgd3idTnVpduxKD+IzTXaKGSN1L6x7+TT+ukFhKozQvisoP\nKEWtgoYPY67PSh8EL3gJaojAPMIgl5krtHq93Kb/tZN6+BIcWnKS/KmduJ6P\nFonkf/BA5yyVngZQs0YfaO4ZAJuQ9xvbsfbdYChJzDAVDFPo91lO272yPfne\ngA5rT7r3gBtzsq9epESyKDibAJjnXpC61p5vIvK9C37TFm9e3fQqZvaSkW0h\nc11i\r\n=jJLw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gitlab-client_3.15.0_1560122375830_0.505836998421062"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/gitlab-client",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/gitlab-client#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Luke Bennett",
+				"url": "https://gitlab.com/lbennett"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://gitlab.com/lerna/lerna.git",
+				"directory": "utils/gitlab-client"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"node-fetch": "^2.6.1",
+				"npmlog": "^4.1.2",
+				"whatwg-url": "^8.4.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://gitlab.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/gitlab-client@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-OMUpGSkeDWFf7BxGHlkbb35T7YHqVFCwBPSIR6wRsszY8PAzCYahtH3IaJzEJyUg6vmZsNl0FSr3pdA2skhxqA==",
+				"shasum": "00dad73379c7b38951d4b4ded043504c14e2b67d",
+				"tarball": "https://registry.npmjs.org/@lerna/gitlab-client/-/gitlab-client-4.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 5638,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGElCRA9TVsSAnZWagAAzgEP/3HBLw0s+PFJAERx7Quj\nOxy6HkffXb4U/fxg23onofgCJC3IIuwWvfXFT9jbF7FfRHPUsCJI9DBPgZB9\nn0wmXWXMsrb5qgPsSyOmjMQTnQJ5IGakUgPG5bL7R4OqD/NRaECPShle8FiW\nlkxjo7nX7UsTVkc6COiDXmFQVrwVYTtYETzondZ/LQL1F/iSrRnPog3JBZ8K\nnZ209vh1Az9Sfah8PvlzjbNjHnf3sagsG7cgaTYLkYkL/CJBovynVf1bVzCc\nw9AQ9QBVC0tIS/O3HrlGPldkVmEVfyjqlyoA57rUL1TsHdBNCwdbVhHOF7+I\nYdL6fKYb32h5JODuxK/tINAD0awgUlMXOEyabsy5/cxj20WEqMXUG5cA8cIg\nQwtqqKkMoe13lV5fYornoO2mrsyXkFYeQ9syI5fyRz5pA951QjBzswUqVLGt\nf09pDRtHfkxtRHfbxeyREuZmn+n/62VRZXJEmb/PUimBOdjNJtY8shvHrOvK\nOvauBCM4yPAAOmaJF40/TbwKOJZ0SurWUUY5e7Oea54zcW07Nf4iAth9j5fm\nYIRPEIrPUK36aNbeEjYjk6XnIEqKX+D216Gs9Ivqf67ItcRIf8A6uS5mhAbb\nuzDzHLlhrNlskswMMCqBXobT4awBGTVH75+x8l++/5J0YIHCgYpSQ2qFtIHK\n+BkL\r\n=gatT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gitlab-client_4.0.0_1612996901198_0.2622224298476876"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-06-09T23:19:35.687Z",
+		"3.15.0": "2019-06-09T23:19:35.955Z",
+		"modified": "2021-02-10T22:42:38.697Z",
+		"4.0.0": "2021-02-10T22:41:41.504Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"407e0267d91104a81bbfc8731ef642e2\"",
+			"fetched": 1613881353511
+		}
+	},
+	"_distfiles": {
+		"gitlab-client-3.15.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/gitlab-client/-/gitlab-client-3.15.0.tgz",
+			"sha": "91f4ec8c697b5ac57f7f25bd50fe659d24aa96a6",
+			"registry": "npmjs"
+		},
+		"gitlab-client-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/gitlab-client/-/gitlab-client-4.0.0.tgz",
+			"sha": "00dad73379c7b38951d4b4ded043504c14e2b67d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-2186d8795466b74f",
+	"_id": "@lerna/gitlab-client",
+	"readme": "# `@lerna/gitlab-client`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

@@ -1,0 +1,4358 @@
+{
+	"name": "conventional-recommended-bump",
+	"versions": {
+		"0.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "0.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-parser": "0.0.17",
+				"git-raw-commits": "0.0.7",
+				"meow": "^3.1.0",
+				"object-assign": "^3.0.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.8",
+				"jscs": "^1.11.3",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.5.1"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "71facc467a8b849d58ca3645629b0a7a454c07ba",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.0.0",
+			"_shasum": "a86e2cd4e72993aed3b48803cf971ca324be3334",
+			"_from": ".",
+			"_npmVersion": "2.9.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "a86e2cd4e72993aed3b48803cf971ca324be3334",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "conventional-recommended-bump",
+			"version": "0.0.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-parser": "0.0.17",
+				"git-latest-semver-tag": "0.0.0",
+				"git-raw-commits": "0.0.7",
+				"meow": "^3.3.0",
+				"object-assign": "^3.0.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.8",
+				"jscs": "^1.11.3",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.5.1"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "a5c55525dd9713d1197f55d8d69dee0165591c11",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.0.1",
+			"_shasum": "88766ad8ef28378b8b981b1fe9c49486fb9ca8fc",
+			"_from": ".",
+			"_npmVersion": "2.9.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "88766ad8ef28378b8b981b1fe9c49486fb9ca8fc",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "conventional-recommended-bump",
+			"version": "0.0.2",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-parser": "0.0.18",
+				"git-latest-semver-tag": "0.0.0",
+				"git-raw-commits": "0.0.8",
+				"is-subset": "^0.1.1",
+				"meow": "^3.3.0",
+				"modify-values": "^1.0.0",
+				"object-assign": "^3.0.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.8",
+				"jscs": "^1.11.3",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.5.1"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "eba6fdf87a7450cd9778df6fb912eaa13d123295",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.0.2",
+			"_shasum": "f09b9501c4a08302c163341f6bad91ab12fc2a0c",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "f09b9501c4a08302c163341f6bad91ab12fc2a0c",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "conventional-recommended-bump",
+			"version": "0.0.3",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^0.1.1",
+				"conventional-commits-parser": "^0.1.0",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^0.1.2",
+				"meow": "^3.3.0",
+				"object-assign": "^3.0.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.8",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.5.1"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "9f8b841d5a8504bda91323aa037bbd71b06c2442",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.0.3",
+			"_shasum": "33b0705284ccacb7cfa11110da46b74133c05b80",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "33b0705284ccacb7cfa11110da46b74133c05b80",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "conventional-recommended-bump",
+			"version": "0.1.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^0.1.1",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "67c51e69880b1b5866bb33c77bbd9e0ac5aa6932",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.1.0",
+			"_shasum": "847bd7735804184507f3743955a69730fd8345ba",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "847bd7735804184507f3743955a69730fd8345ba",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.1.0.tgz_1454935747860_0.8918369633611292"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "conventional-recommended-bump",
+			"version": "0.1.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "d3cf4f57ef908a5daa8b79c68fbe416f9a3ac61a",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.1.1",
+			"_shasum": "a14978757b1f8802563bbbc25fee275f624986aa",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.3.1",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "a14978757b1f8802563bbbc25fee275f624986aa",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.1.1.tgz_1456217515939_0.9841336377430707"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "conventional-recommended-bump",
+			"version": "0.1.2",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "6857aaa8c2865e32681292e3aec0a155057ff843",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.1.2",
+			"_shasum": "a418b5bd13a94a225d66a6ab90d6c536729d9a37",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.3.1",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "a418b5bd13a94a225d66a6ab90d6c536729d9a37",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.1.2.tgz_1457608540636_0.7281918458174914"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "conventional-recommended-bump",
+			"version": "0.2.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/stevemao/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"core-assert": "^0.1.3",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec --timeout 20000 && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 20000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "58feb1a743bb4165271327e430cf3dfcd2e21329",
+			"bugs": {
+				"url": "https://github.com/stevemao/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.2.0",
+			"_shasum": "8b719eb856005d7d8e0aa79976ec7ce5fc252c43",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "8b719eb856005d7d8e0aa79976ec7ce5fc252c43",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.2.0.tgz_1459597277718_0.5594170140102506"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "conventional-recommended-bump",
+			"version": "0.2.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"core-assert": "^0.1.3",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec --timeout 20000 && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 20000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "a84838805eee664de812597101a6d1031144bfad",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.2.1",
+			"_shasum": "430642a8fefd431b5ddff0f2064b2211a24d0794",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "430642a8fefd431b5ddff0f2064b2211a24d0794",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.2.1.tgz_1460805391619_0.952522553037852"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "conventional-recommended-bump",
+			"version": "0.3.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-latest-semver-tag": "^1.0.0",
+				"git-raw-commits": "^1.0.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"coverage": "istanbul cover _mocha -- -R spec --timeout 20000 && rm -rf ./coverage",
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 20000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "169fbcf9df7913b45fd23a82036b780ddfcc22a3",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@0.3.0",
+			"_shasum": "e839de8f57cbb43445c8b4967401de0644c425d8",
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.4",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "e839de8f57cbb43445c8b4967401de0644c425d8",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-0.3.0.tgz_1471086854927_0.051120304968208075"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "1.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^1.0.1",
+				"git-semver-tags": "^1.2.0",
+				"git-raw-commits": "^1.2.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.0.0",
+			"_shasum": "6d303a27837ae938b7c68c8ddeed34559b4b0789",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "6d303a27837ae938b7c68c8ddeed34559b4b0789",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/conventional-recommended-bump-1.0.0.tgz_1489193794326_0.413510576589033"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "conventional-recommended-bump",
+			"version": "1.0.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^2.0.0",
+				"git-semver-tags": "^1.2.1",
+				"git-raw-commits": "^1.2.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "6.10.3",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2FrE8UJwt2EKpICi/E7P+xqyYUysdfMnFYiGV+7ANzJsixkBOrBKrKlCEV2NllCjR0XOmNfnA/mgozC5jAhhGQ==",
+				"shasum": "56b8ae553a8a1152fa069e767599e1f6948bd36c",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				},
+				{
+					"name": "tapppi",
+					"email": "moilanen.tapani@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.0.1.tgz_1500334227984_0.8470920629333705"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "conventional-recommended-bump",
+			"version": "1.0.2",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.0.0",
+				"conventional-commits-parser": "^2.0.0",
+				"git-semver-tags": "^1.2.2",
+				"git-raw-commits": "^1.2.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.0.2",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kC4EvXsc+flKpmD0Aa98qVGG7qGqLsVswVT0ijicXiNPBkGQAOMPYg+JoFjBXAWYWw4Y6RsiEDL+JKLrp0RqXQ==",
+				"shasum": "31856443ab6f9453a1827650e7cc15ec28769645",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.0.2.tgz_1506836371874_0.6141170710325241"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "conventional-recommended-bump",
+			"version": "1.0.3",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.1.0",
+				"conventional-commits-parser": "^2.0.1",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.2.3",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.0.3",
+			"_shasum": "472b69b1b8f09c5c4ed40fe28a41e63cc04bd736",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.3",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "472b69b1b8f09c5c4ed40fe28a41e63cc04bd736",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.0.3.tgz_1510532238357_0.8192881976719946"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "conventional-recommended-bump",
+			"version": "1.1.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.1.1",
+				"conventional-commits-parser": "^2.1.0",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.2.3",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.1.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "marionebl",
+				"email": "hello@mario-nebl.de"
+			},
+			"dist": {
+				"integrity": "sha512-WK0HnYnXd9e8J1YezUlfle+Pz7HB1RYvIH6gPLAXoroQTzDSfNfGM1tHHmdrJw0/4BMr+zw0U9V1WzFEfQwE3w==",
+				"shasum": "964d4fcc70fb5259d41fa9b39d3df6afdb87d253",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.1.0.tgz_1512717195703_0.08837429969571531"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "conventional-recommended-bump",
+			"version": "1.2.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.1.1",
+				"conventional-commits-parser": "^2.1.0",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.3.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.2.0",
+			"_shasum": "864fb955825d9c6056620cee4657b0dc0628a3e9",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.1",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"shasum": "864fb955825d9c6056620cee4657b0dc0628a3e9",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.2.0.tgz_1517191963334_0.3694452731870115"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "conventional-recommended-bump",
+			"version": "1.2.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-commits-filter": "^1.1.1",
+				"conventional-commits-parser": "^2.1.1",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.3.0",
+				"meow": "^3.3.0",
+				"object-assign": "^4.0.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.7.3"
+			},
+			"scripts": {
+				"lint": "jshint presets test *.js --exclude node_modules && jscs presets test *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@1.2.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-oJjG6DkRgtnr/t/VrPdzmf4XZv8c4xKVJrVT4zrSHd92KEL+EYxSbYoKq8lQ7U5yLMw7130wrcQTLRjM/T+d4w==",
+				"shasum": "1b7137efb5091f99fe009e2fe9ddb7cc490e9375",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump-1.2.1.tgz_1517801305384_0.1395074564497918"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"presets"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-changelog-preset-loader": "^1.1.2",
+				"conventional-commits-filter": "^1.1.1",
+				"conventional-commits-parser": "^2.1.1",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.3.0",
+				"meow": "^3.3.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-LY2lDBHsYTilzaVqfYaUDswhVb4bxMGwoXyBwr6UFRzE1uCp26wzRjDX865ikjvZZ2lmZQh36GE/F1CzCZNnWg==",
+				"shasum": "a11979cd7adac31dbff498ceb17d6ff2ce155bec",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 16739
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.0_1518445851900_0.955299221734994"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-changelog-preset-loader": "^1.1.2",
+				"conventional-commits-filter": "^1.1.1",
+				"conventional-commits-parser": "^2.1.1",
+				"git-raw-commits": "^1.3.0",
+				"git-semver-tags": "^1.3.0",
+				"meow": "^3.3.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@2.0.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-RnRn5kauE/tODxl/c66kJ8OSo6A+WkSc7xW1Rd7xdZ2E7++UN/Vd/NAq+6QKpP5ml5FMCliwaYM+sjhYfUJ4rQ==",
+				"shasum": "b268204932a17461ef813676e418cba8f76b485f",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 17471
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.1_1518447253938_0.20818911655163452"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.3",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-changelog-preset-loader": "^1.1.3",
+				"conventional-commits-filter": "^1.1.3",
+				"conventional-commits-parser": "^2.1.3",
+				"git-raw-commits": "^1.3.2",
+				"git-semver-tags": "^1.3.2",
+				"meow": "^3.3.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@2.0.3",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-pQRs/MyigrL8ZH0VdF1nLAvRx2uN+5dF21ESkB8JqrtLbWzca0P7LdBGRX2JF5g6yGGjnLsRTzvmSOgJrUHPOw==",
+				"shasum": "cfb2cbd6ee939b0726ffaf2ab8320a5e34551702",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.3.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18020
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.3_1518539273540_0.3065583456201235"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.4": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.4",
+			"description": "Get a recommended version bump based on conventional commits",
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-recommended-bump.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-changelog-preset-loader": "^1.1.4",
+				"conventional-commits-filter": "^1.1.3",
+				"conventional-commits-parser": "^2.1.3",
+				"git-raw-commits": "^1.3.2",
+				"git-semver-tags": "^1.3.2",
+				"meow": "^3.3.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-recommended-bump/issues"
+			},
+			"_id": "conventional-recommended-bump@2.0.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-GICSJxGywYR7Am6aEerLYS5CZoLvV1IzpOBeCl4v5WFmqyVecKVSOL62NqFuAz9mskSNqjzBjDxNIt3Lagag9g==",
+				"shasum": "5a10d8de5dd364d5d3c6eae220919e267776b382",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.4.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18295
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.4_1518545147376_0.09537567528235447"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.5": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.5",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.4.10",
+				"conventional-changelog-preset-loader": "^1.1.5",
+				"conventional-commits-filter": "^1.1.4",
+				"conventional-commits-parser": "^2.1.4",
+				"git-raw-commits": "^1.3.3",
+				"git-semver-tags": "^1.3.3",
+				"meow": "^3.3.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.6.3",
+				"mocha": "*",
+				"shelljs": "^0.7.3",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@2.0.5",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-0tK4nKxZrj0b8Atm8I9iqnA+zoHjy13+qSu/vbVXF+mZ90TbpeUsPWgnQ1Y3k+HnwevMubPZVw5qoRp+z4hvXA==",
+				"shasum": "f1dec19b6839f8b4027ff87b539d2f0a10e1a6f5",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.5.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18724
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.5_1519100434342_0.5783978773924381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.6": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.6",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^1.1.6",
+				"conventional-commits-filter": "^1.1.5",
+				"conventional-commits-parser": "^2.1.5",
+				"git-raw-commits": "^1.3.4",
+				"git-semver-tags": "^1.3.4",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@2.0.6",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-deb55+yFNqNjWvIU8Xe6EJZnp09/Q014rmJmGX3VtnIczyb8rD+RhGXpV5Mene6BFrlGuyHRlsn5e6kYXoIyOw==",
+				"shasum": "ba21d51b191fa1eb1fdff34ef9bc831443fb66d4",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.6.tgz",
+				"fileCount": 6,
+				"unpackedSize": 19161
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.6_1519510365998_0.9199711300979576"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.7": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.7",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^1.1.7",
+				"conventional-commits-filter": "^1.1.6",
+				"conventional-commits-parser": "^2.1.6",
+				"git-raw-commits": "^1.3.5",
+				"git-semver-tags": "^1.3.5",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@2.0.7",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-6zo9I7F7GG7X1anHE81AoVfl7T5bdBjEPVnpznGQ6DktHf6F1DSwR/RkFevacFb3y0BlkoHDFlFKLEieFx0TjQ==",
+				"shasum": "de1f44bfcf4ff3101212ac508f3e4ced822e9ed7",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.7.tgz",
+				"fileCount": 6,
+				"unpackedSize": 19374
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.7_1521726471253_0.4038850901137985"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.8": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.8",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^1.1.8",
+				"conventional-commits-filter": "^1.1.6",
+				"conventional-commits-parser": "^2.1.7",
+				"git-raw-commits": "^1.3.6",
+				"git-semver-tags": "^1.3.6",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@2.0.8",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-tSpiyV+D/MMxE5ALxNfo5EbXhkTrnQqpr8eQVurD+x3MP+3xMGrsBwTqf+5+i01V3aw7K+YyBTvlOibb9ejFSg==",
+				"shasum": "f7b0589fbc42061cd20ba188ee736ef1fd6e7698",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.8.tgz",
+				"fileCount": 7,
+				"unpackedSize": 20769
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.8_1522164373444_0.44364321944586704"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.9": {
+			"name": "conventional-recommended-bump",
+			"version": "2.0.9",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^1.1.8",
+				"conventional-commits-filter": "^1.1.6",
+				"conventional-commits-parser": "^2.1.7",
+				"git-raw-commits": "^1.3.6",
+				"git-semver-tags": "^1.3.6",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@2.0.9",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-YE6/o+648qkX3fTNvfBsvPW3tSnbZ6ec3gF0aBahCPgyoVHU2Mw0nUAZ1h1UN65GazpORngrgRC8QCltNYHPpQ==",
+				"shasum": "7392421e7d0e3515f3df2040572a23cc73a68a93",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.9.tgz",
+				"fileCount": 7,
+				"unpackedSize": 21045,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1KTuCRA9TVsSAnZWagAA6+QP/3/xC0WaRSt5un22HrdH\nqQ2Afez/lCxGmPSNV16wNHD58a88/VU0rtef8FGLykcbebEC0YMuKBmYBkmD\nC9QGZbiaaGftLPqK6oWEt8+fLhl3ewIds1CLipDWYFkpY37MfLtNBw8jq0pj\nkZV087JbgoqPjssjb40wbf/uQkEmOwj//9haWhCynd3zyxsPd/oo0Zds51RY\n5ITSW8QBP+QK+sKlEgpUOTRnEkAhHGxu/G1atis+y17yu34FJQvlUKKg/lBd\n9pLIUxfTQh4dKbN24lNy+GPYnhUMy6Q+vzXxIieHgoEnR/CvRmXpgGdoFeef\nf/0OW4jjv8l3fxuuGynnxu71PwjaT1jo+Q/F8BsCWmtNe5GuFevOg7sROs81\nhlyxMDPaBiDyJsZG/fMsHZLUyTh0DkpohN8t8bw7qYTW9EBrDrnHIH9W7czQ\nZOZcMc3ki5aIa0iT/VifWF4MIV7GXAL1NCpVcMBgr1uvEjsVDi/8BMXR082F\nOYE1BCdJKZROHcuE1AC7lC12x8glgGPgMEpIGdYTOaCGwiyx2P0FvV5D08Pq\nRpXc7sUFsm1j0GNS6PH9oBAue2Z8ucQFM6VAq9uV00dsvsmvGbSLzfG1qej7\npNtxVeLZteP51m1iHzkAdgcegoC6My8fXUFh+oCV2v4zTR487bP0qb8Oineu\ntcY8\r\n=6kLm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_2.0.9_1523885293979_0.14435385312147764"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "3.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^2.0.0",
+				"conventional-commits-filter": "^2.0.0",
+				"conventional-commits-parser": "^3.0.0",
+				"git-raw-commits": "^2.0.0",
+				"git-semver-tags": "^2.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@3.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-Fg7vh3BxN95MqqFLpp3rFEWSMrNd1s5g/PrFq0ZROMDSLis89aYp3eccNVQnJeb/0ht9DGICrNtGB+4pk8ZZmA==",
+				"shasum": "8cf7385fd51b226b082be9854c8040ae1b4d4026",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-3.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 21769,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDWNcCRA9TVsSAnZWagAAn0UP/3BPmuwOR7mQgJsIjmkE\nrxzn4ogVjnmokpygwgl4s3Jby25v9ilsLDRzhuvWO0cH63veLwxW2uoTfYbK\n2GqIJ3nyudxDqrS7AeO2gOsmA9uBYg2w6Y68H8LVQ9y82WkaL+zf3/RiIo2d\nocEVVOhLBkYlkq18Er6VWDIwQxX6fIRJMbLtuXClWg1l5QrFKcYVE3A8SNXx\nFmW4+D/A9EfbDS9nxaTl5o5VGj27opzB2qdCTk7wC/wx57vd0khFPqv9Kraa\nn+W2xPlPkPM3V2jm2EDmpxkqxkTgUNT8dB+tMX80ikxmaIZ3wuUNCWlrqT+E\nhOgr1Ltm2ITtY6Ox2ieQ8yR0p7ZrCR3/iSwWoQa4+Qruu/D4CrDU+5OxMn1i\ngKHxdsYgNfgS7e4LhwIL5O5buV5m8G4RuZ8WOQO1JFYGprYPE82kYkQS+xFM\n4Po2l9EuU8zl4PwBTnWMEzmAkAaXJS8Xw7AIay0T65V6+rMVHvBIJjpCBDJi\nJZKTYQAhCtT5vDfSOKFSiTmtGsuByKdLykSQb0mXkUXCqdEsBQ5qk7QFxWa3\nEr0VLAaUBg4+DHTTHDAK9maPaEU31BTsuJSbR7QAE5zTxraPoZuN6K+c3oUm\n0/D1WxnezzXYI/v1w1wU4Dl5nbDVs2fej4oamPVbKeF/h2aswA4umN73XkD9\nyxUp\r\n=t4o9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_3.0.0_1527604059716_0.48315324039871"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "4.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^2.0.0",
+				"conventional-commits-filter": "^2.0.0",
+				"conventional-commits-parser": "^3.0.0",
+				"git-raw-commits": "^2.0.0",
+				"git-semver-tags": "^2.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@4.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-M86ppH/4pZFemudSeFRF0JNGrNuSJ9hHvwTIV0M51VXrzIBqFKt8IeuMhd3YdWqHQC6NrbNdLkOh8XVHUH0NVA==",
+				"shasum": "017dd469a0dcbd9c23d26da59157977d625d3120",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 25214,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbF/A1CRA9TVsSAnZWagAAj9sP/RvjpY+eRF5VHK9uowIf\n26rUkmbLIdlskkpdLnET+lhyaunEfPszTb8B71rWw6LD1PBVszdCgJqUEqJl\nM4fhuf52VzH2GrikCA6qZlrQA1dv1Jx7vG0k9wd5syr8x/mM85ESKQ6f/r9X\nQbxcrm0E5gorXLVooyaurqP8A+IxRCRkXKxa/gwBmbbMqGyJ9LV6zJz5khTR\nbGfV6QGUVMoodiJS25gtDgErNJbk8dfwIn6Ls2TSGfI/k622+AMq1QyWZYjN\n3je2aeipICshi50i2kHB6hRo9ik5gdWwGPqg6mvwkChsZ8KcwtYZjAwF6Unx\nxn2TkdrV7fsQ9uoyGLy0YBTB1lB8ffcg8iiXY3oO8lMajLVrxVJ58/jA3leX\nofTbINDUhTuaXH5uGfEUwHe2J/sQ6RzoRtx6hr+i5FtJHdYpLqVSqg7x7HTE\n4I7OV9wp/YA+hZepJZcG5jkBvAqNeaRTP0mv+pbyB/8GpolxxEpM3q3tfaP3\nP5IRP7VjRWwcI1FpExZT5Qew4wMl+mEjrOhB/r8Amth33ieAFbVbmMqRy0Hq\nK8bNZ98R/45sCM7/VSCI4wMFq6mrt3ntNXUtva5AufjO09/r+ohnWw0VVD14\nRpSHvpNYaPlLOXdrR95phxgrYmX34jhqmZ3OPW47AbAScm0q2vabkY8c0Q6Q\nwex7\r\n=IGvt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_4.0.0_1528295476183_0.13188635767192292"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "conventional-recommended-bump",
+			"version": "4.0.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js",
+				"cli.js",
+				"preset-resolver.js"
+			],
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^2.0.1",
+				"conventional-commits-filter": "^2.0.0",
+				"conventional-commits-parser": "^3.0.0",
+				"git-raw-commits": "^2.0.0",
+				"git-semver-tags": "^2.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"devDependencies": {
+				"better-than-before": "^1.0.0",
+				"core-assert": "^0.2.0",
+				"shelljs": "^0.8.0",
+				"temp": "^0.8.3"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000 *.spec.js",
+				"test-windows": "mocha --timeout 30000 preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"_id": "conventional-recommended-bump@4.0.1",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-9waJvW01TUs4HQJ3khwGSSlTlKsY+5u7OrxHL+oWEoGNvaNO/0qL6qqnhS3J0Fq9fNKA9bmlf5cOXjCQoW+I4Q==",
+				"shasum": "304a45a412cfec050a10ea2e7e4a89320eaf3991",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 25482,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGAdCRA9TVsSAnZWagAA+acP/A/3TYkb0tuMbgpEc3T+\nws5Qq+UoCxrtkTYuzVMbm7EUqNtTklPxdYBDiq3ncxBHBipwRg4/jWyNfFiF\nI9JGBOwpvUjydSqzGShUBretRnGkTDrq4aQrKhROxddH250bBDSwM+aRJ/iL\nyWH8kYM9wy5YQg7oq2eAZENAhWVhjMwJoIltwl+XaGb/nQOA7lkh653AIoKx\nAnlUEZ/WtsxzwmBv6FPs27TWFwS8oto0oNy7mIzfmxH2g5qBHcTufHVuDBXb\nEFODJhquHcdXaEjGB1A90CX013pEzDlb1RtMBf/Onpg28l1AdNIL1ReolYEV\nJv+rCoGUiXwhbffBQxsKsdrfpzpo6hq12iP/Gn15ip3hLUk9eNezO9Bwmk3A\nOkvtEEEv8JY78VOgz3ScOPQO5gBmJ/LLzYUDouzKB/AKKL+qczr1mpjthFXh\nUQgBeV8qubI2uxR5nAyDYeENUqAY8P48gBVin76vZ/8VeOHIjZf6KBCaCFqT\nrMhgyAA+gkEBIBTR2hB87B+WLVxYYwM/1JD7H+39caf0Sxa9EwUEvmPft3k6\nuHN8GMvo0pwDeHA1uMOmpzsqR/FyEKj8+hX8cy7ikmrm/5JzSYVr6Cj/Q1/+\nbHTIyJlSAbv/St88O0xlVDI0X2uRc7Wu4V3adeXM6KRtbyhVkTbKIGYyh5Tw\nfMbN\r\n=H/FM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_4.0.1_1534877724670_0.14713146859861292"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.3": {
+			"name": "conventional-recommended-bump",
+			"version": "4.0.3",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^2.0.2",
+				"conventional-commits-filter": "^2.0.1",
+				"conventional-commits-parser": "^3.0.1",
+				"git-raw-commits": "^2.0.1",
+				"git-semver-tags": "^2.0.2",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "80ee156a3d42409c7e9d0bc3ff0eed134cb1c529",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:conventional-recommended-bump-4.0.3.tgz",
+			"_id": "conventional-recommended-bump@4.0.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-MbKC2atuL86BgPYgw/8qyxkxFeH97jKEJRwit1ywqCDBC9o37TJP3ILHHaDduk/zAi8HCwZg+A7ay/u7M35LnA==",
+				"shasum": "e80f9e42fdd15ee5b703941d49f941ca2fb8ccd6",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.3.tgz",
+				"fileCount": 7,
+				"unpackedSize": 26185,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2qAcCRA9TVsSAnZWagAAR9EP/30067V84lcY8NJUR96B\n0QUgYgJH22QKw7xTV/XCvEGJQW8q2QbMcEJg6y1H1r12ntm5H0ThfapI257V\n/wGSleDSf1lr33FDN33nByU/iikJwfltYj6cf3SDADjEdxqOs/FWr3DHQvGX\n5tNX598N+sQCENG/stHHbr9BJYY/Ll1DiotZ04Fkc0HmjsIvFlgfRU8dQmFl\nNxbrksgx/t8E0+QnM3cSw8FENmLehiFp+CLRsXTukGP0ywGD4VKqvi+WOvFe\nNfMM+T8vp3ekjm5Kflqmdti9eX1uTxkymqLMl8I4oudnGTgUfauLw7rooShV\novlTMK7S4XuvpiCyct4TUu3ZNEMKQ6vjFOh2vF1CU+V8cj61ZT7jCV3KQa+u\nCvCvENv1RhocemDGlMvmX0hnNh2WvnqIWY1/JD7rghliLmGWZcV9jc6gbrFL\ni8Xsh8JETf2wj9qkv/igpieAfRXXbjR2jdRwQm18mV+iXNzKKy0sdqCJs71W\nTQ4JU365L6o9MGTGfYCjUi22+7sS+mbCXj3sUGaguT3kOGxJvo1JymjUZnRg\nqIq+IA1mutlFLPoTu2rTBQAuPwQATl4LvDhfP3u+1gcNyQCI11VGOiBpppT9\nEagD2RwV+FqY4X+SVq3UTlRbMhYD/O/bxpylAaoLg+eO9uc8v8pcDpPeP738\nH0F8\r\n=LC+Z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_4.0.3_1541054491562_0.9804363999019805"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.4": {
+			"name": "conventional-recommended-bump",
+			"version": "4.0.4",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^1.6.0",
+				"conventional-changelog-preset-loader": "^2.0.2",
+				"conventional-commits-filter": "^2.0.1",
+				"conventional-commits-parser": "^3.0.1",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^2.0.2",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "da729f68f9dc581623deb587c705ef65d189a9f4",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:conventional-recommended-bump-4.0.4.tgz",
+			"_id": "conventional-recommended-bump@4.0.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-9mY5Yoblq+ZMqJpBzgS+RpSq+SUfP2miOR3H/NR9drGf08WCrY9B6HAGJZEm6+ThsVP917VHAahSOjM6k1vhPg==",
+				"shasum": "05540584641d3da758c8863c09788fcaeb586872",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.4.tgz",
+				"fileCount": 7,
+				"unpackedSize": 26525,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2qOVCRA9TVsSAnZWagAAPMwP/RFWM5TQIz3awyz95r3b\nTYa/QVnPxn9QSD5Bttp3LF5L85qRN2dY4SJS6RiHEi2lFdbkifRqPXOKH3rQ\n8yF9uMu5G8VyVl/CgGD0UGUURSUfvBuu2O2clSGvgK+UgguL3skreXcyqN0Y\n3c177I+0+sm2ma9kImDvMuIk8UmX9HM8bzj+5Z2AXu2Gxj9qblEW2TIWa0vy\nnpdvdstdZD+hgIhE4WACaROqQT10OOwyge6AAbRFhxBlaGs0ZR9j9cNFI8R/\nbsJSZrRJ6N90NgKgLg9CfNppOAIG3meDelWorEOoOQPzfEQtU44PZZkoi+bb\n3sTqb4cEXJMpqc/Abl1x5+Kz+JlKp9NGRS4eYFtRikDCiRRkUxJcibA4Yg2m\nDO5veIdEG1LoVhDJ9Kvfgv6oY/nIRQt89e7mK++WMga7L6CDF19u7+R6BFTD\nDyZR6hsepM2+/kmNOpCAnzbAJZw5S5p5nCRlnIOOhVr68SazkoO4FOltNP4C\noDJL2ZRyy5VQmtO82iuDk9EnUEBEIxbccOHbxbpst+0wE7sEnFopXNEbd4ci\nSDkp6ODy/z8wK26O8ot6pJKhnJgcJEXJkpd5SzpFKFEr4YebIfWeurDOEzga\nBEdxwtE8a1nyczJa01Bz5kqxjOGJEKfdIJDlNdTsU520g5rwQSLkIBYIuAS4\nGOBa\r\n=Ktsw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_4.0.4_1541055381039_0.896439238287897"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.1": {
+			"name": "conventional-recommended-bump",
+			"version": "4.1.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.1.1",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.2",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^2.0.2",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "c0314ad9cd0b30d456a65385b70988cd5f4b3410",
+			"_id": "conventional-recommended-bump@4.1.1",
+			"_nodeVersion": "11.12.0",
+			"_npmVersion": "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-JT2vKfSP9kR18RXXf55BRY1O3AHG8FPg5btP3l7LYfcWJsiXI6MCf30DepQ98E8Qhowvgv7a8iev0J1bEDkTFA==",
+				"shasum": "37014fadeda267d0607e2fc81124da840a585127",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.1.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 28260,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcr7pHCRA9TVsSAnZWagAAJw4P/1Q0Sd2IT9N8SF1P7E8Z\nW9/6VJ9Ckm4wc0e1GX/gFdA+rTOjdJSTylp9TlDn6vCbz6WHM32nlYfDgiBi\nb3lpWh7D7/o8tC1HkTRHMSsPwgKBmZmtl+K0NnZGpEZpfNWOjyx1vVxuNtd1\neK04xPiYBgbwHX/0Mq03lkSOACQpeDN5QC7RFu1R29lwWiM7Xdgohgo1BG6A\nbOHhLIrdtPpfpK1rbqc1jt6ew9Q/dEThfkpwg2HfGvP46mA2li0N/uDtFNtx\njyaiA1L82weXJbJ1laFCB2jcAYgGWphBpuLEJD1bQYXNyZhst5pcp4CprIFx\nYGgtVR0pU6f7UVzad8trdCHfvID0xr7ClVcezgK65x73P8u1Re2pZD+uiZUO\nPCvSRWkjwDGykB8CShjcet0fmZeaxzJ7UtOw2qLIamTGDj1hSMJRiIL2jc75\n8eIs+zIMuOmsce2LfwGC785+uNn4Rz8Bvh4Cr853Qc482MkrKwW5UZXtSFNm\nxteIwgxFYtY5s23YcASVoCKCzRn4nYBnTszMqpZSvK9nxTw7dHWX3t07r4Ic\noZ4bCFuGKbeFHjpko+z+F3ikDj4Z796PLXe8BF2G5A8HWnKjkRHsSWd1DrJM\nU02bZHGPH1m2RDRFcXsGrrYcY4yIglJFEq69NPSgzjg6/gQ8TFWN9FrAx0Fo\nb5hu\r\n=7UPE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_4.1.1_1555020359071_0.2827426961194175"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "5.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.1.1",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.2",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^2.0.2",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "83a7c3dac05e1d0a3402c6124318e584e4030c57",
+			"_id": "conventional-recommended-bump@5.0.0",
+			"_nodeVersion": "11.12.0",
+			"_npmVersion": "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-CsfdICpbUe0pmM4MTG90GPUqnFgB1SWIR2HAh+vS+JhhJdPWvc0brs8oadWoYGhFOQpQwe57JnvzWEWU0m2OSg==",
+				"shasum": "019d45a1f3d2cc14a26e9bad1992406ded5baa23",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-5.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 28819,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyzLICRA9TVsSAnZWagAAGsQQAJJQbFhOuhUixnImn3HQ\nkgtyNnJKU6+laa78yY8fp+6vOIbqSEGIqG0aHGkznPnFhxInIt7Mjmnw2Jiv\nSQKzZKePgJZGtifxd37LiMSzpSVou80sV1WtrvX9yq2khwCDhH3JTXREQUX0\nBZMvyWhAAX6JrjQWigew/oFG+nvuM+LU7k5a8u7cv6Ha00RjqJYCkS/Z2s/Q\nbFqvSS1hzc3f1paO/sd6tAtulDsvDyVW6vbqMhpUzRek6CwQZvJyLF99T7yk\ndpXryNfeGOKEltkMrpAKfo7ovjVwVmq9XQLGUGYAmD2M2CiXrCqsrHoEfEmL\ngbFj4Y2iMasTlIxFf5uofaZ3giUjRWlDYYNul+0LFi16YY6pxSrYh3V4wVyc\nbDV7dwMg7MHe97uwuo0JKPnr6B3yJqP2fw0CnWY3B99bFXfgJCLbCJGD0eY1\nRN5gFTfOY8rqBQ5/pJPFON+ROWMVt9p27WmMeJWG3+bsE6F5GiyLE8wWxrPq\nh1uGLLYH9+2DOU/w1aAQpxzWmIa1LlME9ny1Fs4oO7ZVOJAofcrfp2tw1Avq\nxV/CF8oIf3QkuwFpQL9nZape8uf63zwwogtX9qe0UllIQwt3+ifKRLVC/u+v\nEFi/vS2VrxxRJ2fyP59q2PHxeLJ8RsdP5Q5O+d2KVTHfkE7azXybda+2vfnC\nTKz8\r\n=s/5D\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_5.0.0_1556820680186_0.6348889684928911"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "conventional-recommended-bump",
+			"version": "5.0.1",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.1.1",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.3",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^2.0.3",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "38f5508191f8afc1a8503d1fd24e2de6d05b8738",
+			"readmeFilename": "README.md",
+			"_id": "conventional-recommended-bump@5.0.1",
+			"_nodeVersion": "11.12.0",
+			"_npmVersion": "lerna/3.13.4/node@v11.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RVdt0elRcCxL90IrNP0fYCpq1uGt2MALko0eyeQ+zQuDVWtMGAy9ng6yYn3kax42lCj9+XBxQ8ZN6S9bdKxDhQ==",
+				"shasum": "5af63903947b6e089e77767601cb592cabb106ba",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-5.0.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 29255,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc4G/UCRA9TVsSAnZWagAAgCUP/35mEOLdKRj4hFJlURW5\nejRPIwgQ0UXu14X2zyRODP7TTKhV3Kd4CxX2N8tmZ9jOR/VzxqoLk0n1k1eN\nK/iybvcnp+wzts8r9YK9Etlft2+I7zILlO2I25q66/5D2L2Z3OfiPGMRn4zv\nH6K8cgXeSDrfmjJSMiHORkQOHJ3IhfVr4BFExpskt5UXTI9FkBrrxA0gCyWd\nmGW9rAzGE2XjuMz1ck3YX2nenxSDfXZSzLBrPerV+sp9Fkqf1EfZy5tL+AMa\nVC4kLFDZRmAkam8ffgE9cdgrVcZ2yEqOo3lgdbG9FpbPM4Dod20zzJkhMZ8i\nNboBcwDuMXaTn7je+xso2T9hGhMU/hmeGLcFsmRjV2wLlx9VAPlCdIyOfjhs\nbIgmX+Lz5R0MEx+gV45gC/5wL3k+NF8cM6HU51wdwm25dGi4Gk9VuYgBWkUA\nJ4Z9AGeV3sk17AbSiJ7Z3bF5Km2x3snp2VkX73ympPZ7GvuZOxOAGK2JhQM6\nG4Om1XOzMW/2XA/zGpHAGoodBhWqab72VZhRom4EZRYQ6CeoEY7Zwo9YEYga\n+q83UoTCplAsQJ7z5xPKB5Nu/Sw1vwnEoFWJ8Ogf9lRn33SEHl2LioUvCylz\nGGOR7/mmaKz6QcOhWCwMQ6Sx+YRJhhRXGekaGBn5byFVh9g8/vwLpFCpMzIV\n2T1d\r\n=1Uou\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_5.0.1_1558212563671_0.6302258081927217"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.2.0",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.3",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^3.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "dadbbf8b1acbe4b3a8f345633bde3f4a4ad0bea4",
+			"_id": "conventional-recommended-bump@6.0.0",
+			"_nodeVersion": "12.4.0",
+			"_npmVersion": "lerna/3.16.4/node@v12.4.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-iIHkDOuWCC49J/E4WXvXBCCrO2NoGqwjfhm2iUOHPPEik8TVHxczt/hFaWY+4MXeZ/nC53BNfjmlr8+EXOrlvA==",
+				"shasum": "bdafad56bc32bc04d58dbbd8bd6b750375500edc",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 29757,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdPofSCRA9TVsSAnZWagAACicP/Ayb+DseloBWiht/ktUL\nPzLd2tzV3ZNaYqhWDWkkjN/T7g/cFSOaH/gLsDyep95UdxlphlwSjM/c19tV\nYUz6E1sYhkx7n5hSg6p95uRiDtmELywZ+FAMV/CTbyOYNJsEB7AjfNk7bXQZ\n00pvhf4HmQyQLaouxmB20j5OztwEm8jjO1Zl7u79DBgAA5vkBZtfcTli055f\n0+zPRe3voKZdZ2eUgf2fFYeSeCKTIHuUZmnrgoBM3UicuQZWoM/seNiBd9Nv\nypRsAd5mfMKffAFRJ5UjoqfsltMfDSAVM6aCesjKrGIHRUUkG9/0Pv3LcJaO\n+Zyp0Qi3yeEzyEGHjCtsmrykPejd0ncZf0PBScGWxlsCZjsaMRpYcrTCUYYK\n75uZn9NquHtzpmBCXzvdFhz6g6S0JiHeOMlbDjcVyryPWtd+B51n489De2Yy\nUMgvpyKGAHFa078usCgtfJ6nBzgKE1Z3xPP3kmXlPSdf86peQ9pxPUoZKXG5\n+g7A83oubdE+xvA9SXH8xKSRN2EsvI1c1KYkBD/kiwf6J5s8RtJrS7jxwKtD\ngS7Z4arNUCDx4IapaVu6XrsTMb824VQX2lt+jBzbGxqibKSAE8EN22c3Z5X1\nMCBMPnYKZgkNDjbNcV5WgNzXi9hJyGBWcc0I9dlkZZ5wIhWzRl2ZuVdNixVX\nuBYO\r\n=kNqr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.0_1564379089584_0.06669298032880411"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.2",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.2.0",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.5",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^3.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "7c1c8ad819b05c12c7d58c92ac386b45ada6f6a8",
+			"_id": "conventional-recommended-bump@6.0.2",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.4/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-9qWhAweJbT6CAHcCprBYzUb3tySsaRrUx0ckpMprHbtWOBfl3gxakUCBNd/4T3m2Iv9Cb8Y4P2Px3cR5ysXPDw==",
+				"shasum": "086e3380e8d66ca2b962d84af863a28d532f355a",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 30005,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdlh9ACRA9TVsSAnZWagAAmIQQAI84FSZtzUDDPGu1g24L\neAI2nkgs1W2vJ7gz4aotu1tP1wYr/Z1dVPvcYAC1AOUY17El/zdoNYn4S9c8\n4YKqBwzqUM1qcccl7HCzWTcJq/1ed7mdxT0ocyFW1d3uYSCvULmMubMSTS6w\n6waqvuTMY7QM4FXpB3C76AhEsTJsE6PZgqXmq158lDcXtuFhvHkV+X3ES2j4\nkc+knKCM3xPh9R9CXmjYuHWm2T1RFzs9lNOXoYJGWeqQEwBgGGUh2gZLgCRO\n6p5l19GAqkBXZbYQeJc83FPfF3onzY03mzGd0gTRbB5+jay+7onl6ZYI/pAd\nz3royhVDpXxqBfC69MFbHtHVwI4An3VwqLqVBMxfdhaA6efcLF15Zcai8ZtB\niMpHQyYw0fkBEzn/lkYK198cvbX3PxIO4+eNE93yPtCyQ8MlSiqFchBxrhIP\nxKQGPulkDltf6BrLpH1gNDP+oa+4WtVfZwJllvipzdtJY6XQSlTQorXkQM3b\n1bElS+2XgeUepG18GRg3YGxlMbd7u2ABFLeRn7A597uDqyHFEOBX+JjD5jpx\nGkqlcYtofL7/oVAFmcxQUOySugDA8Brat2/ddq3WqyjWP2LReaMZe0csoQ5H\niH85eRQ4ZcA5ujPWZevGy60nA31FaN8p5/Bzdg58OYB/JsISszCVacNGaFC1\ndFqK\r\n=cLwe\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.2_1570119487861_0.7344756341043943"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.3": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.3",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.0",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.6",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^3.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "e865af4df8d06795cebc7af09364ade19119e089",
+			"readmeFilename": "README.md",
+			"_id": "conventional-recommended-bump@6.0.3",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.18.2/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-J+BLXxZsGnkAwiu7SOpi0FDB2kceOAlalDFp6J8uk03LKjXEbjMAfKzsF5pfRoK4YFd2BBeAN32LT/6sPRnkug==",
+				"shasum": "78f4c8f6d7d01628d05947bb6780fbff74372918",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.3.tgz",
+				"fileCount": 7,
+				"unpackedSize": 30253,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdsVogCRA9TVsSAnZWagAAYhsQAIQ6bsvcYqTCZVSPiXB3\nPTdlZndP2qAot0ZCmSzoDyXSL/hFiYv9BsAhvXu1G7zxo7aMfgrwvU/HqlOn\njEe+4jfJhqTtTy+umzfe5+jg776LBfNCgGIuwDRS0ebXoeydNoAGPZ37bu2j\nbttTFrzAYVweAnrSp+rMpazLO8698IIyx8AzIgxqSyQFLRu/H757aOq4Gdzi\n3Q3Rj2ySbff09I0cNeMXbgRfM5Mw4tW7NIWlszlCE1OwQvuNF4OtsPBx+OUS\n4QduCNsluKgHft4KRKz6bKzYZ1QMA+vo+564i2QoE4C1uLd0M76swwH/SG4d\nv16s+dkleEgbksoxXPlyREoXllj17MOvHpdP45wExNQidepphi79tk3Nt69H\n4CG1uhYkktLw45PW15LFLtPBfddCwhvArgxHyGUNpZuLDii8NNcvzjQ5W9J/\nFMLyOYF8xLaNDgOehP9awEZIoJPD3ohUuqSst9rC5MAYXpS/X0/OAOkl87Ur\nvHCAWJIPiHnFupqFx0Iu2EenIOzN3MIrxNo/GBFgmBJqUouZq9qu+FQqSLQs\nk3371d71UvcjAX+bXahRkGqDG48HwXlEv+grvgTMP0PI29j+bc/qI0tKJkh7\nSRPtbtVXQbspAULEhjoHZUwyvRmHPogQmUHBZ8jn3GlOeGcoEQ0ZLzNfMrOp\ncIh6\r\n=0q+3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.3_1571904032436_0.08032174623478405"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.4": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.4",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.0",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.7",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^3.0.0",
+				"meow": "^4.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "741e90744cdb58e82e71feb36018047d7baca768",
+			"_id": "conventional-recommended-bump@6.0.4",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.18.2/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-JAcXhF+6f1BJ0WhJVHJ9sja/yd+85dZoI2PZ7c/Lpjo4yWR67/IZcnKDqRsVAR2k8iz3Sgm5lzQI3BUGB4hDJQ==",
+				"shasum": "251d7dbd48f1afb63270e93bd4ed42c4145a46bf",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.4.tgz",
+				"fileCount": 7,
+				"unpackedSize": 30707,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdw9VKCRA9TVsSAnZWagAAGocP/2NGtFXu93Q0bgtYgGk9\nSg/eOKCSgGdrm4kQONgvph0DYCc6+UfR3s3Srn10GlXFedrYSYBjmms3Tsfq\n8mGUaO0pw1ty1OX0XTeo1a188t19L+aGybPWExRMSi5cD3Xxq1G/6WOf2V6v\n1CYCJMruO+YIaLfEdwirLpNTWShY9Kc2LN6b/etU0F7j6UjyPvDiz7FIgG8H\nZJxgmEHaDi3RVbztJwBc+K/UwN/dtXoITswGXeNP79NYhwfUZK5dri/zeKEX\nvKLsIkwKOp5zP5ewBsKOfTz4mXkPxBm0RVZjwEInjzTZcDearVVwUcrmpgs5\nj0ybV50GaNCu4vj9uWqf6MBJx8NvbYkNp2B7cDIC0Tx7TYbuGiA5AkkjPQ2j\nbqEMtUByuKePI9gXCA+RJ5w+OO3KOtgm/RP4HMRKhhYxlTe1+Jrfno7B75P9\ndpDuj4INxjCPOfVUVs06ooyyTCxGRvAHzM9VVM6C6yDQ59ZHw1ILGtMRTS1x\nL+nPWtiNcORi9wPV2R4oonk5Y8mn/ed1tTrmZHdKI+KEStMJvBd3I04qiPy8\nKFj/vdfBpzLRUPpALkz9fypS2raxrM6Px/VqBHJJWxmhzHvXT5niWBjOjFmI\nMxTiOwr/3z/xjx/hP7hJOK6UbN5g+jq8xyp/XDqHKhuT9y5QeGFwdQnfVSs+\nyc5t\r\n=IqEz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.4_1573115210248_0.3726310534551931"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.5": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.5",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.0",
+				"conventional-commits-filter": "^2.0.2",
+				"conventional-commits-parser": "^3.0.8",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^3.0.1",
+				"meow": "^5.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "79217815a7ce5f3d3f833961ce9a14bd454e5789",
+			"_id": "conventional-recommended-bump@6.0.5",
+			"_nodeVersion": "12.12.0",
+			"_npmVersion": "lerna/3.18.4/node@v12.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-srkferrB4kACPEbKYltZwX1CQZAEqbQkabKN444mavLRVMetzwJFJf23/+pwvtMsWbd+cc4HaleV1nHke0f8Rw==",
+				"shasum": "be7ec24b43bef57108042ea1d49758b58beabc03",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.5.tgz",
+				"fileCount": 7,
+				"unpackedSize": 30955,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdzdBwCRA9TVsSAnZWagAA1ZwP/j2miYHuikgLAfG54pNi\nV+xb1kejB+yz0+Ua35WDvnLSxvCJrCdfrOnhIdcGHgO09Dw2Ev1bP/IYWlYt\n/NJXfBhUpzOox1yyTBovXyoYsjRiLYEsDhSD8G2SIeIJ/F6Cpq89awG0iJ5T\nShSrOkLt8b06ZPtAkJqT+4QnbcK17gkQkbzYjCnvMjXngX3rj+M5o6vyPeHq\nGAqBF6pImYDoos3rj4Oj6Ec2arujeK75GbuIENcJbdpGky4o31kFhcFHjNsG\nPLV6TLenELSd1deI1x39q9N7cboQ6fs/1QK3NMyUr86CKRrxcCm+P66EVl+r\n/bU5U7XAtvdEl/ZIAq6ZnbHRddk3u5Li3kWQMf0Bpe2Mt2W5x1jz2wIFHatB\n/Y4ZiA9CTt/HSpyHJpL/pYtKb7Ex9QoT1nmZOVQGOwyKXJoOcrUNBpIyzLMT\na7e77X1w9iiR3UBl0lKP6DMrzNhCnT38+a2MnZoRs+O9MjoX+DTKvtZj04oP\nH5TbQPewHircI9qn+npq+qrNTGEIueIX/CEM8FvJK33WkcI7gA4kbhMOsZrN\nmVHfT7VwXK5uQ6aUeInSK0mb0rFzKUfEzkZLh8G6C12W4b8+DjcfYxdD3teF\nFQ5WuCo1Mwr+LiHXWkj4vcq6TL5w/l7q/feF1W3dLB8AVuh+7v8OyiCjavhK\n+Ptj\r\n=HmUt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.5_1573769328435_0.7749388479033144"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.9": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.9",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.4",
+				"conventional-commits-filter": "^2.0.6",
+				"conventional-commits-parser": "^3.1.0",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^4.0.0",
+				"meow": "^7.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "83643c5a0d2c4d7c9ba14cbf990ffbc577a51e8c",
+			"_id": "conventional-recommended-bump@6.0.9",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-DpRmW1k8CpRrcsXHOPGgHgOd4BMGiq2gtXAveGM8B9pSd9b4r4WKnqp1Fd0vkDtk8l973mIk8KKKUYnKRr9SFw==",
+				"shasum": "49ee74f52fbafcc63e89e2297d020279fea318f0",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.9.tgz",
+				"fileCount": 7,
+				"unpackedSize": 31737,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJetbPdCRA9TVsSAnZWagAA/YIP/1UBI1p+b6McHEvtgOzE\naVnvR/dtB4ZKaOhNAmh7dtn6whRoTl6fOVIypV8PX+x2cMJ48AirBkTvqScb\n2bk0OWEKeONFZ+roeHNZfJGb3W90ITBT7CE+KnaGi1MDWj3ewI6G5IWwNsVN\nmCIr+W3QSGXGHuOvxohIOdmK+qq4BsTXoIe1Ev42Z8gqS6rt0q2I5QMX0gkL\nDYXUaZLs7mfgXvooyDWS/VmVQq/2lbPqMbGcggjDpwuEKeJTnawxuSrDa4Qc\nixRu7S/gxs/ReBv6E7wYmbysYXsjIk6Vit6BzxrAoxuDWohbdbK4YYBkSylB\n61udPffEH6UEOOsqM+ZUdjM4IZaWANcvPfDOIQbLG9bqWmdey5PilGoQhkiC\nymY+qlJ8Io88jQH4/4Q6DUPcFSDVigzHfUUXVo+4a36aeP4PSnaGK5H8hdYk\n7myhOQCXzlf9IHnRdZ0BF6yjpUOZ0KDcTxmzTwz2tYDSlKYxamfcvvni6Vgu\nqYyqjK4dwG15PREwBtstLWNnr9PjZ75GpJVIOA9MYmuByN0KU4JqiGRQ9ffc\nuzEtYWohlwOD5TYNSSdE9Aloe9VlWScS/NbWcACKMu3sSpvApZwf99a29xJT\n5RFygrp7yL+n7Wcymoq81n7ahQ0xO8xUdIty7wIdhUmGAkA6v+tyNG/64cA2\nLRFg\r\n=Gpm3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.9_1588966364636_0.2117664596614348"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.10": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.10",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.4",
+				"conventional-commits-filter": "^2.0.6",
+				"conventional-commits-parser": "^3.1.0",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^4.1.0",
+				"meow": "^7.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "be1246c68f5dc4e6f28996129951a75bbf1cf307",
+			"_id": "conventional-recommended-bump@6.0.10",
+			"_nodeVersion": "12.18.2",
+			"_npmVersion": "lerna/3.22.1/node@v12.18.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-2ibrqAFMN3ZA369JgVoSbajdD/BHN6zjY7DZFKTHzyzuQejDUCjQ85S5KHxCRxNwsbDJhTPD5hOKcis/jQhRgg==",
+				"shasum": "ac2fb3e31bad2aeda80086b345bf0c52edd1d1b3",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.10.tgz",
+				"fileCount": 7,
+				"unpackedSize": 31988,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfM4F8CRA9TVsSAnZWagAAEBYP/0DVfV19/I/dv0fE34eC\nPzdkNP1JURMFSIWCwO4wQL3ut/vsTwPs4sG9QjTmU3zsagMjPSisoUuw+0PD\npED3kCA7LfKJNa2wRAE5ChhuVjrAGCX6ez9/Z2UuHq0slVahG3n+cA16Sa2U\n3KRNCASVgxepO9mdn9eYgL2Nbbl1mg2dZkazYjoPXMkdwmFYFS7wl+HFXBmW\nUF+8cgYFPueUsl55W48IzZyPIeHXL1yts7yxckzOSvsaXNUmdJCVxgFCX+eM\n35+azq70i969OqRZP1OshrXhAtpGSQ+tJb6xbzws6PUXXkaI9692GatyDnQ/\nSVMjq3YfGPMF0sUPUhFAaOrhaGE3ueIodEVtABspvPuiSz+tU6JhSRC1KkAC\n3XPd4iB862swf1pUtUPZwk1/emIyTkyMlpDpnAoyezM+/7fZFxzS8K75RQVz\nC9foI9eu3oqrELDK6ZYJPoE7Ka89h7aLeDmy2ro/VIobXmWxxCw8UbAesYJv\niwFNuAsbp35NW1tBuKUW+Lri8z19iEj8/HiY/9KVG9Q+4jmlMXgJe2jR8ejd\nyoY75uf/8gcAWAjc4I/VIxE33G5truo5Vq/ALrwW+sE1S9Y0aHwr8l5Itvp/\nDCNiUXdien7qFzHsNPvuNTcY77s/4sNgJuY7ly1BTKrbja1L3bVN/SOlrE1d\ncvhG\r\n=i0p+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "bencoe+oss-bot@gmail.com",
+					"name": "oss-bot"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.10_1597211003782_0.9734486144420544"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.11": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.11",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.4",
+				"conventional-commits-filter": "^2.0.7",
+				"conventional-commits-parser": "^3.2.0",
+				"git-raw-commits": "2.0.0",
+				"git-semver-tags": "^4.1.1",
+				"meow": "^8.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"gitHead": "cc567b98facf71315f4b1620d81ce01d155efaca",
+			"readmeFilename": "README.md",
+			"_id": "conventional-recommended-bump@6.0.11",
+			"_nodeVersion": "10.21.0",
+			"_npmVersion": "lerna/3.22.1/node@v10.21.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-FciYBMwzwwBZ1K4NS8c57rsOfSc51e1V6UVSNIosrjH+A6xXkyiA4ELwoWyRKdMhJ+m3O6ru9ZJ7F2QFjjYJdQ==",
+				"shasum": "fcc39acb51d1946b63fc478737d1e52712f36356",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.11.tgz",
+				"fileCount": 7,
+				"unpackedSize": 32239,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfo1SDCRA9TVsSAnZWagAAMxoQAJOS1b4/mzKH3SVouib6\nSXOcQ2dhbpg93AH7AxK8RnnREq7Do3m6pwRM62JnRiEnPOzePiiLNSJoJi4v\nE9L4UKkz8vWL0NLPzM5ggt/RE6A3aJpWNgKc+yp5c1OinI4wwHvPWurv1S2M\nm8E+G4YEgcwWWIRdvInF2eGH7xXXdyh86cTPgAZ6Qif3P/Vk9MXdgpJtPSu1\n3TY7iSkZO58NNIq1gpkOyr7X/fwu2t4h5uwQav2w7IBsGRE4Rgr6S9tyhkCm\n+occCWIGlXTrT9XGvW6QQJtlSc9DDpTACo75ZSO8aIOxH5fcNkKpGSdpFHOd\nd/L3ja32HdU+g+0CgUaObPtmBowCXv9xeDpn+Q0nOyj/lEMMaCM7TM8I0HaN\nz95fcEWUfCNLu8/BJYqc99k7RkMidi//Ddq7UxASybN7E2IZPe1mbMaXIXxZ\nYKKHHyEXgFrUGhbVHXQxeC8Lwbx1ICoUAyPbRFf3NmED/C6enq2SqpJsNSmQ\nzGLhQjBKgkP/ScMMJ2wu1mE/WW8yaGXqNN6/EAi9XimdWvguh2L39ky6DONy\nTtUEAtKWUgHXwnMqg2XMMVs/uLNjJVFvYNnMMCxJ3d2X9ABw7q0r3WcqPYOo\nF1/ASRWZu+OdCGCFl+ysE7ke6SJpb3FNgCtaaXRmB9kBfu3u/8uMjKQMkV2A\njIV5\r\n=I+DK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "tommywo",
+					"email": "tommywo@o2.pl"
+				},
+				{
+					"name": "hutson",
+					"email": "hutson@hyper-expanse.net"
+				},
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "dlmr",
+					"email": "gustaf.dalemar@gmail.com"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				},
+				{
+					"name": "tapppi",
+					"email": "moilanen.tapani@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.11_1604539522665_0.29540362355374583"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.12": {
+			"name": "conventional-recommended-bump",
+			"version": "6.0.12",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.4",
+				"conventional-commits-filter": "^2.0.7",
+				"conventional-commits-parser": "^3.2.0",
+				"git-raw-commits": "^2.0.8",
+				"git-semver-tags": "^4.1.1",
+				"meow": "^8.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"devDependencies": {
+				"conventional-changelog-conventionalcommits": "^4.5.0"
+			},
+			"_id": "conventional-recommended-bump@6.0.12",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-4vZ1+Ps5CIF/3cTWn/XElw3/PeY58ty1n4J8k3rNK9XVO8Q1IfV4DK8SBUTThNy846FEIEveneJduHSIAaRy+w==",
+				"shasum": "6b8b948c5630866c5c952e87f6cf48cb9fbe69b6",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.12.tgz",
+				"fileCount": 7,
+				"unpackedSize": 32715,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf681eCRA9TVsSAnZWagAAj4IQAI1OCgpeNGiAvL6mVh6E\ntfl50NEnWX1D9LaIeZrGNQApTyS3Nboic5RLWSGiGq+JM/CmFhmPym1uEyn6\nk457sn2D1k97PwhLa8QQYhe5iFVixIvzxIHRxAeBquD+LXpmR3sZ9EOctYaT\nQf4BjT7F/vHotTZ9bN2RiTJqQ7STLRA413+EEe8lKAeFkQKQif8w+Q2MC40D\nltxOdpt9Da1DRvmJs2CPDqiDeHbfdkUw5HlctIo4AWU3TfWh5T1Jd6mGYaeW\nO4qFsgR9ZshB4O5bNc2eUHCadDjHRj8WLDcOt3uiEzfczZnQ+HNCgs0exSaR\n2oH3kVjDbNmf7YItpT6wHiELbdHbmicZYhUNmGcJLUlV8tO0dq9CkDmBXdww\n60IsqEjOI3YD9TnoRxbEGZ8rGrMb/mbzSyScBBPmb//WdhXsid6Xm0yHxwxp\npUvEdVG97gNliQKLWILem6atWBPlW6nlzxx20cUEX/ZMfeJuuyIdhC5dy/wx\nS2IVqM+8fgE8TCKMOUb46emKrP37J1seYy+1DE7Rdg/1vm7zUUgVRIMSk8R7\n6vNuF2RNsLS/wVOxYiJpfC/47WOMSNkz96mSyB61BwC9CEO55kukWbKlxOM5\n1l21mUYAyS49ETbcOU6WxF9stAby9+b9Hdn0alFIW+fsNUn+fzZwqyT2DIuj\nIkqd\r\n=F2qe\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "oss-bot",
+				"email": "bencoe+oss-bot@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				},
+				{
+					"name": "tapppi",
+					"email": "moilanen.tapani@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.0.12_1609289053835_0.5569713238540208"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.1.0": {
+			"name": "conventional-recommended-bump",
+			"version": "6.1.0",
+			"description": "Get a recommended version bump based on conventional commits",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"conventional-recommended-bump",
+				"recommend",
+				"conventional",
+				"bump"
+			],
+			"dependencies": {
+				"concat-stream": "^2.0.0",
+				"conventional-changelog-preset-loader": "^2.3.4",
+				"conventional-commits-filter": "^2.0.7",
+				"conventional-commits-parser": "^3.2.0",
+				"git-raw-commits": "^2.0.8",
+				"git-semver-tags": "^4.1.1",
+				"meow": "^8.0.0",
+				"q": "^1.5.1"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000 ./test/preset-resolver.spec.js"
+			},
+			"bin": {
+				"conventional-recommended-bump": "cli.js"
+			},
+			"devDependencies": {
+				"conventional-changelog-conventionalcommits": "^4.5.0"
+			},
+			"_id": "conventional-recommended-bump@6.1.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-uiApbSiNGM/kkdL9GTOLAqC4hbptObFo4wW2QRyHsKciGAfQuLU1ShZ1BIVI/+K2BE/W1AWYQMCXAsv4dyKPaw==",
+				"shasum": "cfa623285d1de554012f2ffde70d9c8a22231f55",
+				"tarball": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.1.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 33481,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf7LHcCRA9TVsSAnZWagAA6uMP/iwgArlXmfhb92i5SXqv\n04rGs155P1f68aY5Jn/nFq4jUokMJGomBBXQJTDwerNNf00uRXH2DNNGYgHC\nu35cnAAxNa8LqdbS4oeHzkxX5a0ll3x/LRKSr41C0UcG8rAruDWb9G7mNgRb\nuuL3u+6+9PSBMaB+dapvPr9lIXgiqcfXaVDzl1jKyh/fv17nBPremevS4hmB\ni0KS8vZgNAMKIUnyUijnZyeWEVIAG6iqF4Vvn5QYLpf9kCD0M+1KdBnH/Gy2\nZMzfthGQUULnmjLZM4tSFx0ZxsyEf57gX9DhLWQSmro/YbyGvXYkgLToNXGj\n9k0y2kbBQwiFKiXvZIY2g2yY7kDzIPg8g4yB72O90eb7xSd7cDU5W7nq7T7U\ny1HaNUzTniN7o8/y7un3EKd9zmorB3ckxo4MnVBhgWJfNnFI0CxAmPCVO/If\nP6Y4RiKkbBbWLU2zCZe2JyV9GV9QJnG7Qeuj2wOaF/f/gOQeuZapVuDHMnEr\n3yXlWWkQwk77LNmK1RWUSnmMARBwVUtXWWtPbnqBHhnBu5jd2UDWkcu1zZ9B\ntf8Rn6isrctrpDZzt60I2u9XOISatB2hyou2L7LCMqOUm3rYJErKdhYgp21m\niPcnDBldP3dNdVfu99Yyp4o6S+6RRUhhCKM5HJr5Rm0zVqPk8Yo/u3nCOpp9\nXYbA\r\n=JKtH\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "oss-bot",
+				"email": "bencoe+oss-bot@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				},
+				{
+					"name": "tapppi",
+					"email": "moilanen.tapani@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-recommended-bump_6.1.0_1609347548112_0.7817053130790508"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-12-30T16:59:12.597Z",
+		"created": "2015-06-17T03:50:44.787Z",
+		"0.0.0": "2015-06-17T03:50:44.787Z",
+		"0.0.1": "2015-06-22T04:09:12.221Z",
+		"0.0.2": "2015-07-03T07:51:50.135Z",
+		"0.0.3": "2015-08-12T12:43:33.481Z",
+		"0.1.0": "2016-02-08T12:49:08.779Z",
+		"0.1.1": "2016-02-23T08:51:59.145Z",
+		"0.1.2": "2016-03-10T11:15:41.007Z",
+		"0.2.0": "2016-04-02T11:41:18.182Z",
+		"0.2.1": "2016-04-16T11:16:33.691Z",
+		"0.3.0": "2016-08-13T11:14:15.187Z",
+		"1.0.0": "2017-03-11T00:56:34.585Z",
+		"1.0.1": "2017-07-17T23:30:28.068Z",
+		"1.0.2": "2017-10-01T05:39:31.932Z",
+		"1.0.3": "2017-11-13T00:17:18.419Z",
+		"1.1.0": "2017-12-08T07:13:16.617Z",
+		"1.2.0": "2018-01-29T02:12:43.488Z",
+		"1.2.1": "2018-02-05T03:28:26.308Z",
+		"2.0.0": "2018-02-12T14:30:52.568Z",
+		"2.0.1": "2018-02-12T14:54:14.698Z",
+		"2.0.3": "2018-02-13T16:27:53.594Z",
+		"2.0.4": "2018-02-13T18:05:47.421Z",
+		"2.0.5": "2018-02-20T04:20:34.393Z",
+		"2.0.6": "2018-02-24T22:12:46.046Z",
+		"2.0.7": "2018-03-22T13:47:51.328Z",
+		"2.0.8": "2018-03-27T15:26:13.536Z",
+		"2.0.9": "2018-04-16T13:28:14.070Z",
+		"3.0.0": "2018-05-29T14:27:39.784Z",
+		"4.0.0": "2018-06-06T14:31:16.237Z",
+		"4.0.1": "2018-08-21T18:55:24.767Z",
+		"4.0.3": "2018-11-01T06:41:31.653Z",
+		"4.0.4": "2018-11-01T06:56:21.168Z",
+		"4.1.1": "2019-04-11T22:05:59.246Z",
+		"5.0.0": "2019-05-02T18:11:20.331Z",
+		"5.0.1": "2019-05-18T20:49:23.780Z",
+		"6.0.0": "2019-07-29T05:44:49.759Z",
+		"6.0.2": "2019-10-03T16:18:08.142Z",
+		"6.0.3": "2019-10-24T08:00:32.547Z",
+		"6.0.4": "2019-11-07T08:26:50.434Z",
+		"6.0.5": "2019-11-14T22:08:48.619Z",
+		"6.0.9": "2020-05-08T19:32:44.721Z",
+		"6.0.10": "2020-08-12T05:43:23.905Z",
+		"6.0.11": "2020-11-05T01:25:22.841Z",
+		"6.0.12": "2020-12-30T00:44:14.014Z",
+		"6.1.0": "2020-12-30T16:59:08.298Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.1.0",
+		"next": "6.0.11"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9f78e10d4bf315907487da400265f904\"",
+			"fetched": 1613881360156
+		}
+	},
+	"_distfiles": {
+		"conventional-recommended-bump-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.0.tgz",
+			"sha": "a86e2cd4e72993aed3b48803cf971ca324be3334",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.1.tgz",
+			"sha": "88766ad8ef28378b8b981b1fe9c49486fb9ca8fc",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.2.tgz",
+			"sha": "f09b9501c4a08302c163341f6bad91ab12fc2a0c",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.0.3.tgz",
+			"sha": "33b0705284ccacb7cfa11110da46b74133c05b80",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.0.tgz",
+			"sha": "847bd7735804184507f3743955a69730fd8345ba",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.1.tgz",
+			"sha": "a14978757b1f8802563bbbc25fee275f624986aa",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.1.2.tgz",
+			"sha": "a418b5bd13a94a225d66a6ab90d6c536729d9a37",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.2.0.tgz",
+			"sha": "8b719eb856005d7d8e0aa79976ec7ce5fc252c43",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.2.1.tgz",
+			"sha": "430642a8fefd431b5ddff0f2064b2211a24d0794",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-0.3.0.tgz",
+			"sha": "e839de8f57cbb43445c8b4967401de0644c425d8",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.0.tgz",
+			"sha": "6d303a27837ae938b7c68c8ddeed34559b4b0789",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.1.tgz",
+			"sha": "56b8ae553a8a1152fa069e767599e1f6948bd36c",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.2.tgz",
+			"sha": "31856443ab6f9453a1827650e7cc15ec28769645",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.0.3.tgz",
+			"sha": "472b69b1b8f09c5c4ed40fe28a41e63cc04bd736",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.1.0.tgz",
+			"sha": "964d4fcc70fb5259d41fa9b39d3df6afdb87d253",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.2.0.tgz",
+			"sha": "864fb955825d9c6056620cee4657b0dc0628a3e9",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-1.2.1.tgz",
+			"sha": "1b7137efb5091f99fe009e2fe9ddb7cc490e9375",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.0.tgz",
+			"sha": "a11979cd7adac31dbff498ceb17d6ff2ce155bec",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.1.tgz",
+			"sha": "b268204932a17461ef813676e418cba8f76b485f",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.3.tgz",
+			"sha": "cfb2cbd6ee939b0726ffaf2ab8320a5e34551702",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.4.tgz",
+			"sha": "5a10d8de5dd364d5d3c6eae220919e267776b382",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.5.tgz",
+			"sha": "f1dec19b6839f8b4027ff87b539d2f0a10e1a6f5",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.6.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.6.tgz",
+			"sha": "ba21d51b191fa1eb1fdff34ef9bc831443fb66d4",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.7.tgz",
+			"sha": "de1f44bfcf4ff3101212ac508f3e4ced822e9ed7",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.8.tgz",
+			"sha": "f7b0589fbc42061cd20ba188ee736ef1fd6e7698",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-2.0.9.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-2.0.9.tgz",
+			"sha": "7392421e7d0e3515f3df2040572a23cc73a68a93",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-3.0.0.tgz",
+			"sha": "8cf7385fd51b226b082be9854c8040ae1b4d4026",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.0.tgz",
+			"sha": "017dd469a0dcbd9c23d26da59157977d625d3120",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.1.tgz",
+			"sha": "304a45a412cfec050a10ea2e7e4a89320eaf3991",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.3.tgz",
+			"sha": "e80f9e42fdd15ee5b703941d49f941ca2fb8ccd6",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-4.0.4.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.0.4.tgz",
+			"sha": "05540584641d3da758c8863c09788fcaeb586872",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-4.1.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-4.1.1.tgz",
+			"sha": "37014fadeda267d0607e2fc81124da840a585127",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-5.0.0.tgz",
+			"sha": "019d45a1f3d2cc14a26e9bad1992406ded5baa23",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-5.0.1.tgz",
+			"sha": "5af63903947b6e089e77767601cb592cabb106ba",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.0.tgz",
+			"sha": "bdafad56bc32bc04d58dbbd8bd6b750375500edc",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.2.tgz",
+			"sha": "086e3380e8d66ca2b962d84af863a28d532f355a",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.3.tgz",
+			"sha": "78f4c8f6d7d01628d05947bb6780fbff74372918",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.4.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.4.tgz",
+			"sha": "251d7dbd48f1afb63270e93bd4ed42c4145a46bf",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.5.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.5.tgz",
+			"sha": "be7ec24b43bef57108042ea1d49758b58beabc03",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.9.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.9.tgz",
+			"sha": "49ee74f52fbafcc63e89e2297d020279fea318f0",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.10.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.10.tgz",
+			"sha": "ac2fb3e31bad2aeda80086b345bf0c52edd1d1b3",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.11.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.11.tgz",
+			"sha": "fcc39acb51d1946b63fc478737d1e52712f36356",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.0.12.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.0.12.tgz",
+			"sha": "6b8b948c5630866c5c952e87f6cf48cb9fbe69b6",
+			"registry": "npmjs"
+		},
+		"conventional-recommended-bump-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-recommended-bump/-/conventional-recommended-bump-6.1.0.tgz",
+			"sha": "cfa623285d1de554012f2ffde70d9c8a22231f55",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-60c9f79595200956",
+	"_id": "conventional-recommended-bump",
+	"readme": "# conventional-recommended-bump\n\n> Get a recommended version bump based on conventional commits.\n\nGot the idea from https://github.com/conventional-changelog/conventional-changelog/pull/29\n\n## Table of Contents\n<!-- START doctoc generated TOC please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\n\n\n- [Install](#install)\n- [Usage](#usage)\n- [API](#api)\n    - [options](#options)\n      - [ignoreReverted](#ignorereverted)\n      - [preset](#preset)\n      - [config](#config)\n      - [whatBump](#whatbump)\n      - [tagPrefix](#tagprefix)\n      - [skipUnstable](#skipunstable)\n      - [lernaPackage](#lernapackage)\n      - [path](#path)\n    - [parserOpts](#parseropts)\n    - [callback](#callback)\n- [License](#license)\n\n<!-- END doctoc generated TOC please keep comment here to allow auto update -->\n\n## Install\n\n```bash\nnpm install conventional-recommended-bump\n```\n\n## Usage\n\n```javascript\nconst conventionalRecommendedBump = require(`conventional-recommended-bump`);\n\nconventionalRecommendedBump({\n  preset: `angular`\n}, (error, recommendation) => {\n  console.log(recommendation.releaseType); // 'major'\n});\n```\n\n```bash\nnpm install --global conventional-recommended-bump\nconventional-recommended-bump --help\n```\n\n## API\n\n```javascript\nconventionalRecommendedBump(options, [parserOpts,] callback);\n```\n\n`parserOpts` is optional.\n\nIn the case you don't want to provide `parserOpts`, then `callback` must be provided as the second argument.\n\n#### options\n\n`options` is an object with the following properties:\n\n* ignoreReverted\n* preset\n* config\n* whatBump\n\n##### ignoreReverted\n\n**Type:** `boolean` **Default:** `true`\n\nIf `true`, reverted commits will be ignored.\n\n##### preset\n\n**Type:** `string`\n\nIt's recommended to use a preset so you don't have to define everything yourself.\n\nThe value is passed to [`conventional-changelog-preset-loader`](https://www.npmjs.com/package/conventional-changelog-preset-loader).\n\n##### config\n\n**Type:** `object`\n\nThis should serve as default values for other arguments of `conventional-recommended-bump` so you don't need to rewrite the same or similar config across your projects.\n\n**NOTE:** `config` option will be overwritten by the value loaded by `conventional-changelog-preset-loader` if the `preset` options is set.\n\n##### whatBump\n\n**Type:** `function`\n\nA function that takes parsed commits as an argument.\n\n```javascript\nwhatBump(commits) {};\n```\n\n`commits` is an array of all commits from last semver tag to `HEAD` as parsed by [conventional-commits-parser](https://github.com/conventional-changelog/conventional-commits-parser)\n\nThis should return an object including but not limited to `level` and `reason`. `level` is a `number` indicating what bump it should be and `reason` is the reason of such release.\n\n##### tagPrefix\n\n**Type:** `string`\n\nSpecify a prefix for the git tag that will be taken into account during the comparison.\n\nFor instance if your version tag is prefixed by `version/` instead of `v` you would specifying `--tagPrefix=version/` using the CLI, or `version/` as the value of the `tagPrefix` option.\n\n##### skipUnstable\n\n**Type:** `boolean`\n\nIf true, unstable tags will be skipped, e.g., x.x.x-alpha.1, x.x.x-rc.2\n\n##### lernaPackage\n\n**Type:** `string`\n\nSpecify the name of a package in a [Lerna](https://lernajs.io/)-managed repository. The package name will be used when fetching all changes to a package since the last time that package was released.\n\nFor instance if your project contained a package named `conventional-changelog`, you could have only commits that have happened since the last release of `conventional-changelog` was tagged by specifying `--lernaPackage=conventional-changelog` using the CLI, or `conventional-changelog` as the value of the `lernaPackage` option.\n\n##### path\n\n**Type:** `string`\n\nSpecify the path to only calculate with git commits related to the path. If you want to calculate recommended bumps of packages in a [Lerna](https://lernajs.io/)-managed repository, `path` should be use along with `lernaPackage` for each of the package.\n\n#### parserOpts\n\n**Type:** `object`\n\nSee the [conventional-commits-parser](https://github.com/conventional-changelog/conventional-commits-parser) documentation for available options.\n\n#### callback\n\n**Type:** `function`\n\n```javascript\ncallback(error, recommendation) {};\n```\n\n`recommendation` is an `object` with a single property, `releaseType`.\n\n`releaseType` is a `string`: Possible values: `major`, `minor` and `patch`, or `undefined` if `whatBump` does not return sa valid `level` property, or the `level` property is not set by `whatBump`.\n\n## Debugging\n\nTo assist users of `conventional-recommended-bump` with debugging the behavior of this module we use the [debug](https://www.npmjs.com/package/debug) utility package to print information about the release process to the console. To enable debug message printing, the environment variable `DEBUG`, which is the variable used by the `debug` package, must be set to a value configured by the package containing the debug messages to be printed.\n\nTo print debug messages on a unix system set the environment variable `DEBUG` with the name of this package prior to executing `conventional-recommended-bump`:\n\n```bash\nDEBUG=conventional-recommended-bump conventional-recommended-bump\n```\n\nOn the Windows command line you may do:\n\n```bash\nset DEBUG=conventional-recommended-bump\nconventional-recommended-bump\n```\n\n## Node Support Policy\n\nWe only support [Long-Term Support](https://github.com/nodejs/Release) versions of Node.\n\nWe specifically limit our support to LTS versions of Node, not because this package won't work on other versions, but because we have a limited amount of time, and supporting LTS offers the greatest return on that investment.\n\nIt's possible this package will work correctly on newer versions of Node. It may even be possible to use this package on older versions of Node, though that's more unlikely as we'll make every effort to take advantage of features available in the oldest LTS version we support.\n\nAs each Node LTS version reaches its end-of-life we will remove that version from the `node` `engines` property of our package's `package.json` file. Removing a Node version is considered a breaking change and will entail the publishing of a new major version of this package. We will not accept any requests to support an end-of-life version of Node. Any merge requests or issues supporting an end-of-life version of Node will be closed.\n\nWe will accept code that allows this package to run on newer, non-LTS, versions of Node. Furthermore, we will attempt to ensure our own changes work on the latest version of Node. To help in that commitment, our continuous integration setup runs against all LTS versions of Node in addition the most recent Node release; called _current_.\n\nJavaScript package managers should allow you to install this package with any version of Node, with, at most, a warning if your version of Node does not fall within the range specified by our `node` `engines` property. If you encounter issues installing this package, please report the issue to your package manager.\n\n## Contributing\n\nPlease read our [contributing guide](https://github.com/conventional-changelog/conventional-changelog/blob/master/CONTRIBUTING.md) to see how you may contribute to this project.\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)"
+}

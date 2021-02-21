@@ -1,0 +1,257 @@
+{
+	"name": "@lerna/info",
+	"versions": {
+		"3.20.0": {
+			"name": "@lerna/info",
+			"version": "3.20.0",
+			"description": "Prints local environnment information",
+			"keywords": [
+				"lerna",
+				"command"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/commands/info#readme",
+			"license": "MIT",
+			"author": {
+				"name": "James George",
+				"url": "https://github.com/jamesgeorge007"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "commands/info"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/command": "3.18.5",
+				"@lerna/output": "3.13.0",
+				"envinfo": "^7.3.1"
+			},
+			"gitHead": "b90f4d3618b2327716840aa2a2619497c793c8aa",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/info@3.20.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.20.0/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Rsz+KQF9mczbGUbPTrtOed1N0C+cA08Qz0eX/oI+NNjvsryZIju/o7uedG4I3P55MBiAioNrJI88fHH3eTgYug==",
+				"shasum": "3a5212f3029f2bc6255f9533bdf4bcb120ef329a",
+				"tarball": "https://registry.npmjs.org/@lerna/info/-/info-3.20.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 4030,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeBnK5CRA9TVsSAnZWagAAMB8P/jMI3A9Ii57zJEiLZYn4\nx4RjaSUcbRisv27yOEt23sNT/juraJs95uBP9RnSSNNsJUGaOh97d+S57NM6\nNRYdook7gGVMh04SRJVSxgqjmNlDagI6uSrErzcH2IGg4LBAZpPCUvWdzGsC\n64X+j3OGGWbjyEny5p3e0XKtf0CMkD+hMix4i9OrSmMLye3OYkC2M0yvVNxf\nJZBziWggkCJswefutHBiVMZ+8tf80YM+sEfW8kZxK3vSoUlF/BOwzwbj2mcB\n9OmbLEEA18o/2AqPYGugYGtKreaifnq2/uzIG04DpGSNzfSSdiErNoP8d34D\nbB5LZBMXm9hH3lGopWCx4fh3HErSn6gjBvP1PZ45QPA1/2QfZ9oF9SE1I9e0\n8VWRWWvGOsI0JTajJLO0/HhQDH0ZoM8vuaPu55OcSaFf/5RYJoRPSpavWcR9\nbH/cV+tDeiSkYxmdjXnle4hlqHw9IXZe1kXPxg6p9QYFNblu5ec1Umy0nR8u\n2JZrtjsNV94hkNKSnso3LbOufFVdEbzm/vOz4nMAYy61tpNQX5C9+GPFzzyW\nKqlFb1AKIEc4ZB6Ny95WhXUKsYez9NJ5v7p/02WU2yYDkDVT6cBwz7N5ItsP\nisBgHpLt8PHzpAJ1RoYnFcW32GKlmRyYDeQYhTBm1yX0Z9dgWOd5vUWeSLnE\nG+e2\r\n=A6v7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/info_3.20.0_1577480889092_0.1420861913183631"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.21.0": {
+			"name": "@lerna/info",
+			"version": "3.21.0",
+			"description": "Prints local environnment information",
+			"keywords": [
+				"lerna",
+				"command"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/commands/info#readme",
+			"license": "MIT",
+			"author": {
+				"name": "James George",
+				"url": "https://github.com/jamesgeorge007"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "commands/info"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/command": "3.21.0",
+				"@lerna/output": "3.13.0",
+				"envinfo": "^7.3.1"
+			},
+			"gitHead": "3367257cabe1540a3b9468acbfa0d01ba391077d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/info@3.21.0",
+			"_nodeVersion": "10.19.0",
+			"_npmVersion": "lerna/3.20.2/node@v10.19.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-0XDqGYVBgWxUquFaIptW2bYSIu6jOs1BtkvRTWDDhw4zyEdp6q4eaMvqdSap1CG+7wM5jeLCi6z94wS0AuiuwA==",
+				"shasum": "76696b676fdb0f35d48c83c63c1e32bb5e37814f",
+				"tarball": "https://registry.npmjs.org/@lerna/info/-/info-3.21.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 4170,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeu0RuCRA9TVsSAnZWagAADV0P+gM6LkEk7MSAoPV/U3w4\nK7uiFO4CsuTtOEiunOqeqeCMagu60uNOlx17PXT2DLEKYn3HbiNzcl++qZQm\ni2+wW9UxtMpQ4g8QgPqiy6OUM1bKmDhiK2L5dNrDpl8IS+HYDGugc+DQXHmA\nnrGyColMvQ0J/HC0004SQ2Sg70vMXIVRB6eheUPKnTIOop7Fpbz+6QBtNlPX\nI/QFmIoSco5TR4ZwjxmQKbch7Op5+/ou8QBqP+uWTXTzWDFi737MnciYAwmE\ntYixRWaHucWwQER2f9WRHCcXmGWWnl3SC6rtJtx71rOOyRMk3JMczzUJTdTH\n1ccMsdhnrUJ0JqpnsPPWXaYoR+HqHemGqItzvZkSqC3hIM8caU5WAQ0LNEM3\nLmkB2eL1V4qO7M4cDMSF8meKPSlOB/Bc9LuDs0gmcfbecR+o60zQAHFkK/ua\n2odDElwxOgRFZjN6zhie/w3+DGvgimhsl1uHP411nDzEyb+ZVpLjAc8B06hO\nZcBPCkEgWuL/zBQdm4yoxpENFy+d168FINGxtKM36PMGAB2obKp6p+hB3/P2\n8eAWeVbvuPVA4S+Rm1EZ3bqg7BcTCiRRFcVqUlQsZVqq9NGvpwLR+Yq8/0zw\nCT5gkuZEiP9652xR2DUb1oIJC/jwVDYFnFjhh6wkwKGMcDHGYjFNfJaHZS2L\nfGWf\r\n=NJOL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/info_3.21.0_1589331054450_0.056226631263456506"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/info",
+			"version": "4.0.0",
+			"description": "Prints local environnment information",
+			"keywords": [
+				"lerna",
+				"command"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/commands/info#readme",
+			"license": "MIT",
+			"author": {
+				"name": "James George",
+				"url": "https://github.com/jamesgeorge007"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "commands/info"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/command": "4.0.0",
+				"@lerna/output": "4.0.0",
+				"envinfo": "^7.7.4"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/info@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-8Uboa12kaCSZEn4XRfPz5KU9XXoexSPS4oeYGj76s2UQb1O1GdnEyfjyNWoUl1KlJ2i/8nxUskpXIftoFYH0/Q==",
+				"shasum": "b9fb0e479d60efe1623603958a831a88b1d7f1fc",
+				"tarball": "https://registry.npmjs.org/@lerna/info/-/info-4.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 5019,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGFHCRA9TVsSAnZWagAALeEQAKLiyrlu3pJ3QvVv5GZ5\nPT3OgMcuhW2rrobCvGfNd0WFciOeO6MKwtxuSd3bnK///zcqfAfEtFTcgMf0\nhSTZwalwX3403rdV7KHNoIQnweRudcizgRSZ5YGNsX9LWr3r6kuWNoZ5qwm4\nRc+uCrUNt3I/x4Svb/cPL9HTU1wuNtj8tJZDR1kZP0fTPnG/esOkJlGzELCf\n2OIjFLcjpx7t6W3C1/jH7EZhcxRHoEent4hWsrz0jha0vcBtyree4KL1CA20\nIhCva6OQ8DVZ+096sTNeQUAXEL7UOjrnpvpcgMLM5bqhdeYx+wdOLMx1aN6J\nqj0k0CHR5ozyy1l5ups24HzhDXXc4S/+QRBgX8ipRRTGP0b8ALPIN9p12PyU\ndhoC3PYwgxeMgM5/RXc4bOxyfWoHh3jbta52wIOKG9lqr+kR2iRaesEsdxhW\nHYUoumn8oVm5VnAf7Tsg8mp3SZicNTm5FMPQdrmSAhQFrS1wSghvqnwOwiiu\nWSnYxnvt3UvIruID2aFbjxE5IzE9Uq3tjBu9Bnxh7eFkcY7AmKu3zF+ZH3jl\ntWLywQF9iGfDE7ZsTZF9jQEenIhOgRuujWQDdwAlE90b31FzuzGF74dK191+\ndVKaXDZ5H7A/ww9+h5Ml1uosMb32G1Deaspp1EgL+1JjbDbWWKO+W1ChLUKO\nX4UJ\r\n=JB0D\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/info_4.0.0_1612996935121_0.5539766293817212"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-12-27T21:08:08.975Z",
+		"3.20.0": "2019-12-27T21:08:09.205Z",
+		"modified": "2021-02-10T22:42:44.926Z",
+		"3.21.0": "2020-05-13T00:50:54.680Z",
+		"4.0.0": "2021-02-10T22:42:15.269Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"c76c8b946499da9240e58a9ba9460746\"",
+			"fetched": 1613881352216
+		}
+	},
+	"_distfiles": {
+		"info-3.20.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/info/-/info-3.20.0.tgz",
+			"sha": "3a5212f3029f2bc6255f9533bdf4bcb120ef329a",
+			"registry": "npmjs"
+		},
+		"info-3.21.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/info/-/info-3.21.0.tgz",
+			"sha": "76696b676fdb0f35d48c83c63c1e32bb5e37814f",
+			"registry": "npmjs"
+		},
+		"info-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/info/-/info-4.0.0.tgz",
+			"sha": "b9fb0e479d60efe1623603958a831a88b1d7f1fc",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-2e5f0d06e610fcd0",
+	"_id": "@lerna/info",
+	"readme": "# `@lerna/info`\n\n> Print local environment information\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI.\n\n## Usage\n\nThe `info` prints local environment information that proves to be useful especially while submitting bug reports.\n\n`lerna info`\n\n```bash\nEnvironment Info:\n\n  System:\n    OS: Linux 4.18 Ubuntu 18.10 (Cosmic Cuttlefish)\n    CPU: (4) x64 Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz\n  Binaries:\n    Node: 8.11.4 - /usr/bin/node\n    Yarn: 1.17.0-0 - /usr/local/bin/yarn\n    npm: 6.9.0 - /usr/local/bin/npm\n  Browsers:\n    Chrome: 74.0.3729.157\n    Firefox: 66.0.5\n  npmPackages:\n    lerna: 3.14.1\n```"
+}

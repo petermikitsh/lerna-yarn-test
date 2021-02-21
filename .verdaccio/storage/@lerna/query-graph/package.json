@@ -1,0 +1,405 @@
+{
+	"name": "@lerna/query-graph",
+	"versions": {
+		"3.14.0": {
+			"name": "@lerna/query-graph",
+			"version": "3.14.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/query-graph#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "query-graph.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/query-graph"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package-graph": "3.14.0",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/query-graph@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-6YTh3vDMW2hUxHdKeRvx4bosc9lZClKaN+DzC1XKTkwDbWrsjmEzLcemKL6QnyyeuryN2f/eto7P9iSe3z3pQQ==",
+				"shasum": "2abb36f445bd924d0f85ac7aec1445e9ef1e2c6c",
+				"tarball": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6147,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209WCRA9TVsSAnZWagAATLMP/2GjaHZyM1WZe47xfR3h\nkiEaiiuZawGTYwe+icluCDpwDQYRAPwWj7IluvYrZDonp3W7SyCXfefn7+Rm\nURj8qZu9e/KGPrYpKxZ7QcQhKTFd/8J2jBZ00GxUlpxKC/VPiuE3xDcdqyBY\nwsBrqnu0KkIvjiO3mAWDiR3eLfNP/7nAxbjyranoRPWbPaEYudouaQRFE+l/\nC+tx8BKJrZHh4XM21iDQ6you3I82eThR00uje58BFUphNjV0hFNzB7O7RsIL\nhLkxjgyNRIMoJVmH0exX8k1nxi1LsFlmt0emZqFpc/A27fVirbAa3y4cDp19\nwcJ4EpRQzK3r1dGNfdzCCeUcLmcP+N6Qjd30WdhTIrtlyC4LvXVd9QXW5r2m\n54KgzhVbdilrHW6AWm+ekFStwFybeah5rbFtUIzhEs16hQT4CJNxBPsHfxAm\nG5y3XqnRCHgAQj5G2HB/ujlZd1RUGJ27/7GAAGc+QJAS+Zo37Wo5HaZS/q4Y\nCmyYavzTaoSsKZLS2ycaPc/6eXmSajJAHrIF1+u2PXAlGN+BMO2xoe9h3JfR\nPajTd/4KGOWob9wHVq+pU1t49cA6M0IarYQC5ZiVKsT80Tm0p/stNL1ehTTQ\nnm75wRMGcUl3sDqyRuo4zx6eJRoyPeMxCR5Cag+htwqJf2pYH0/28Ym36iS7\nJxql\r\n=aaic\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/query-graph_3.14.0_1557876566262_0.4748648163203877"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/query-graph",
+			"version": "3.16.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/query-graph#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "query-graph.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/query-graph"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package-graph": "3.16.0",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/query-graph@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-p0RO+xmHDO95ChJdWkcy9TNLysLkoDARXeRHzY5U54VCwl3Ot/2q8fMCVlA5UeGXDutEyyByl3URqEpcQCWI7Q==",
+				"shasum": "e6a46ebcd9d5b03f018a06eca2b471735353953c",
+				"tarball": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5521,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQReCRA9TVsSAnZWagAAkeQP/Rj7zNqBnP6qK4TZ3q1B\n0zt2pxEYNRatR6LQm+6OO7JEdoeZy9JCr55IfVqnaWBbKc5Olk3cPB2F9f7c\n5iCAwnGpSfHWNvkM0eP3ynuhgAezx85W04P2nTPhhBxGMKO7RMHN/e+P7HI9\nzjK/lRPSQaJx3/+U5UoiuNw51FGC0HzEm4pfa/XPKygov+kaRFhoUWy6/0ZT\nNc4zRGzDeOJm5z+9hJOCMHIMD+PpMn+ue9qHXR9IDLUHLyGXXqu9oKvstgvT\nnE9J5SMmAVsD0EThRIetsT7azg08dMfK+wEQlLck1uIQHOTdJDdu26SppDVS\naZRRKHzYfo7HSER4ABAJJIwjPm3IpGBaaLVwit318IknuO9Jz8qsVK/rEC3N\nD2jRnSL+HYh4SIlnrWRk2k3Uv8ye+Rvj9ihcELXip9PD4LDIlKVfVHO/Otn3\n2eMLJYdeWlLZMgl9HJzgpu4pzC0gdmQreeIZXeIbZJ8FoBd57h0h7EarwLX6\ndL58Wl7lnPZQht9OU969d4kyRvOhFpxU1PHinrbCV7HmwBaKdu0pFULCOtev\nwUTEnPf5MrJ+g0DSY9/vjdu8eZbhNkz8GbnNC4ait8A+QMybvor/q30wfm1G\nVnYuAgX/bEUCJvof1RWR+57VpjjwFiFJXoO/c06MlH4f5KX+X9zqtBJ/fiRH\nNbVw\r\n=Drrl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/query-graph_3.16.0_1563493469418_0.8366467223173102"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.18.0": {
+			"name": "@lerna/query-graph",
+			"version": "3.18.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/query-graph#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "query-graph.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/query-graph"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package-graph": "3.18.0",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "0ea8fb136f408fb4de3fd39bb7069d976235d53d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/query-graph@3.18.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.17.0/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-fgUhLx6V0jDuKZaKj562jkuuhrfVcjl5sscdfttJ8dXNVADfDz76nzzwLY0ZU7/0m69jDedohn5Fx5p7hDEVEg==",
+				"shasum": "43801a2f1b80a0ea0bfd9d42d470605326a3035d",
+				"tarball": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.18.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5668,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdpiZoCRA9TVsSAnZWagAA1QkP/A2cl2b11r53KglW290e\nBwP2zP0U71l3hjoQ59dw+V0utx/DaZVyTqUz7Uj1eeVviv8rAkL8nX8mDzZx\n6qSqlgJirVXILLXRa76oP4pH8ziQD+L8r2skaP6xK1lYsIsmg1bqirA4pFbr\n142MZewNY6YhUU7cQ6M7DHWU2DxUgIOtuwbAXCPup3sYzBROCYM0RNkLt+sX\n12X9toGDxo4IJMQbt4ot1cfzYkrBS1T/8/ixPloNmhFl9JGtnz+wjJq8U7Nn\nt6yF4znCPKOOAs8jrjUIJnPZeyWdnIL28bGHRBnN408abc2drS8wvWtSehRu\n9CvYnHKSiUUPsyh/iusozNUbI4fEw3DrXW7zbgD9S949fAZfgiioafOsGZdh\nNBvzSYpUBm/8vLUrp+BOABpcCQzlyuhsuzNifkaiRlDSc+GE9/CJUtbe/0OG\nSv+KF8vmqKiPrgQbG6d455qJFJCaDZ8vUlexWa/xVBu1G1MwpGr5A68LJvb0\n3XdUpxmtZfkCf+i5wCznr5pU8k3BsDrV6pw5Z+YiEfdd6ntKhw84icF7qn0J\nWpyFQP4mMXllg6bA1MRHOFaJlITh3GhjcQWulH38pT/puL5Fu7/DbCX1xF/o\nOmsKKC7sM1eHOvsWrbaQtL1YtmvQwxUmsp1InTHBqT1pL7k164jsU59zWSyx\nMZSO\r\n=eHfN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/query-graph_3.18.0_1571169896315_0.07702538884148691"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.18.5": {
+			"name": "@lerna/query-graph",
+			"version": "3.18.5",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/query-graph#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "query-graph.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/query-graph"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package-graph": "3.18.5",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "2612f51e7eecec58eacf0571724e6989e4b8e42d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/query-graph@3.18.5",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "lerna/3.18.4/node@v10.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-50Lf4uuMpMWvJ306be3oQDHrWV42nai9gbIVByPBYJuVW8dT8O8pA3EzitNYBUdLL9/qEVbrR0ry1HD7EXwtRA==",
+				"shasum": "df4830bb5155273003bf35e8dda1c32d0927bd86",
+				"tarball": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.18.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5816,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd1JYNCRA9TVsSAnZWagAAryoP/j7Bo4MMCExCxqsELffE\n8JEnnLFzF762lDOU/FkHCXAbHr+D/hk+itpm2zve5UKJILGifTg3D8YgJmBJ\ne8dNT/jhBtJ7PbdMdSvC+smjLDn2WfLa52c6rYl23zDS9PpAFMB8S94vl84N\n9OpnXs1DwsCZEqDl3bjTXtjav+5VPAOFn4DA6AzZzoqRWp71cUKSg5OtmbUX\nqzYd+2DvKDm7rXHPS0aD4g1GucDBYbn2YP1rw0OJx1iqUcaqTW2Tvc+fQ6s+\nCafx4k5oTrt7IPU1EAZGbGNDgk+U/lEu5yF1ZWKPtsM2aAfQvM0sCdeVeSIj\nHxgjVH9RAK0meANoy4WEMg5II6FO43te/r/R4WMOVwVK1uw/rUMaAhmfVK7i\nBdMCqEPGPTfpz/JO6rx57P1Ce+yS8xKWk4Ik6yXWEdzv2wfhMPHqjCnURqO8\naAtSmi6isrntYzom5oFcykl53s9FUdfZIxDWcjHnj5J7fdpryyoPXIeTDYDi\nBwOHAwzjk5IIe6sF572tn+VvJYSrm/0KqZteLfImHyXgWQ4TVSu0F6IOKEVV\no6MhLiRVSuNAnhqsjG3lt85xzGZRqdjcCEVqEAD+XMpGITYMw6+5ooHnHBwr\nWaFVCfOiT3ksi9CKs0+DFIdVnNe5F5fifaxc4Lv0AFgwrgSwlZK1LqAHbpdn\n4B3x\r\n=ep5Z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/query-graph_3.18.5_1574213133144_0.2638291012331231"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/query-graph",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/query-graph#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "query-graph.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/query-graph"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package-graph": "4.0.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/query-graph@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-YlP6yI3tM4WbBmL9GCmNDoeQyzcyg1e4W96y/PKMZa5GbyUvkS2+Jc2kwPD+5KcXou3wQZxSPzR3Te5OenaDdg==",
+				"shasum": "09dd1c819ac5ee3f38db23931143701f8a6eef63",
+				"tarball": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7066,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGE/CRA9TVsSAnZWagAAN3IP/j0ZCCb03A6f3YWyHZsq\n1W+kUeiB/qEpCYeWBk9VoqL/zuOSDNMB54IrWlAir2KMyMYmUJ3saLXhzLIz\nwDu+YU+5qize4xkws1Aatm7BMjtZYPTcR4uvn96liZQBrPr47ZLbuELdRote\n/h/o+Ck0bBXHiTXU0vES2cyfEwMwDOK9cGnMyVpJoebUAobMPZpr/X9IaJHd\nvR+yHFpi/DFxjQKX75N+o5ONBFKTZp8d6lmJTPlnLU3HzbZv7jQqPCFJbhY6\nHRbFm9zQVTH4SVolQoH6QtnCl6apecMPmfHWW/N9rkwUGDWyKmxqNyt5tDgD\np06aC5zyU3gkXgm65PgpN4cL10gMWom4Pyosl9LcjXXv3Kok4iEhmbwawl/E\nOZ1trzAwGgwRgp54PRlOSb8TZDbvxdlDUtYvUK7AngUE57aBXRUEsXlDFryO\nEU4hpxoiC1+PRoQmndnSUUmheqEr34694cTTRPEECzyC6qNk+im6klXB63wM\nq5L5pk9iA7etoUxi5arJumyKBMBa7LX3JGZ+D+XVl/HxOZqGZoVsvhGb4fp8\nhauXBryYTUJ0rbY1durTv264XuyLNoanpjR3VhsC0qnckHGTznlt3SqpFZZO\no+ttbmQVUuyoDBSbfE3/5qPp8omsHaBHFGK6KVW+RKEDOTzoZCgiS28wShl+\nH4BF\r\n=d4Dz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/query-graph_4.0.0_1612996926754_0.10183062796012421"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-05-14T23:29:26.088Z",
+		"3.14.0": "2019-05-14T23:29:26.394Z",
+		"modified": "2021-02-10T22:42:43.124Z",
+		"3.16.0": "2019-07-18T23:44:29.506Z",
+		"3.18.0": "2019-10-15T20:04:56.440Z",
+		"3.18.5": "2019-11-20T01:25:33.278Z",
+		"4.0.0": "2021-02-10T22:42:06.863Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"715e200287669455fba1f4aeff06e55d\"",
+			"fetched": 1613881359012
+		}
+	},
+	"_distfiles": {
+		"query-graph-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.14.0.tgz",
+			"sha": "2abb36f445bd924d0f85ac7aec1445e9ef1e2c6c",
+			"registry": "npmjs"
+		},
+		"query-graph-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.16.0.tgz",
+			"sha": "e6a46ebcd9d5b03f018a06eca2b471735353953c",
+			"registry": "npmjs"
+		},
+		"query-graph-3.18.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.18.0.tgz",
+			"sha": "43801a2f1b80a0ea0bfd9d42d470605326a3035d",
+			"registry": "npmjs"
+		},
+		"query-graph-3.18.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-3.18.5.tgz",
+			"sha": "df4830bb5155273003bf35e8dda1c32d0927bd86",
+			"registry": "npmjs"
+		},
+		"query-graph-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/query-graph/-/query-graph-4.0.0.tgz",
+			"sha": "09dd1c819ac5ee3f38db23931143701f8a6eef63",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-cde75b456822fb86",
+	"_id": "@lerna/query-graph",
+	"readme": "# `@lerna/query-graph`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

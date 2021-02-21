@@ -1,0 +1,500 @@
+{
+	"name": "is-ssh",
+	"versions": {
+		"1.0.0": {
+			"name": "is-ssh",
+			"version": "1.0.0",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "c571b2ea56cf4d8a0eebbc7a5fbfbbc2a6faa818",
+			"_id": "is-ssh@1.0.0",
+			"_shasum": "eb69cf3d6e9d5979bd93caa6adc820c2008dd299",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "eb69cf3d6e9d5979bd93caa6adc820c2008dd299",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "is-ssh",
+			"version": "1.1.0",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "3e62ac8f4cdfef988d7de740835121da355b70bc",
+			"_id": "is-ssh@1.1.0",
+			"_shasum": "58d13aed2ce7aa5a04165a3e91611b7a5ca91f9e",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "58d13aed2ce7aa5a04165a3e91611b7a5ca91f9e",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "is-ssh",
+			"version": "1.2.0",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "61d2dcc40c4df20cb9de8c3fa89ea413f36e11d8",
+			"_id": "is-ssh@1.2.0",
+			"_shasum": "3f4e8ead07e151f8db26980c25cfebb38a5e8ab2",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3f4e8ead07e151f8db26980c25cfebb38a5e8ab2",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.2.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "is-ssh",
+			"version": "1.2.1",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "97bb84d12910eaeaa9b034607c1c7eff5314c887",
+			"_id": "is-ssh@1.2.1",
+			"_shasum": "d50aba4c065a148de2f63f5e16b0b592fe6c7f3b",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d50aba4c065a148de2f63f5e16b0b592fe6c7f3b",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.2.1.tgz"
+			},
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "is-ssh",
+			"version": "1.3.0",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "4d0e9b742fc3a4820d7b7c1e8c9003195913a345",
+			"_id": "is-ssh@1.3.0",
+			"_shasum": "ebea1169a2614da392a63740366c3ce049d8dff6",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ebea1169a2614da392a63740366c3ce049d8dff6",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.3.1": {
+			"name": "is-ssh",
+			"version": "1.3.1",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "09abffdd142c4f81274e8698d75e74d2079f7976",
+			"_id": "is-ssh@1.3.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-0eRIASHZt1E68/ixClI8bp2YK2wmBPVWEismTs6M+M099jKgrzl/3E976zIbImSIob48N2/XGe9y7ZiYdImSlg==",
+				"shasum": "f349a8cadd24e65298037a522cf7520f2e81a0f3",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 15855,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLkMuCRA9TVsSAnZWagAA/aQP/1mL8vHC/KLXCjeQuYyR\n30uWDAQwnGNf0qz5qVpMMNUApJ0mzDGAN7kSphjODOt9M2gHasvLbQ3J872d\nUFR5bieGNUnNdNYLk21UjXc3zc4C5nLZKLlmC97zaH6BbXmjq50eFhs/qd12\nVBVLbIBXfLKFpUsmcegvf/PfP22toWd1g76xK/aH+Hk+qbsCAx/d13Z0t1Fy\ndyXspbmAumJR6dllkTDn3ku5zFKKC8PnJ2QqUG00Z9ouehUriTMQVcJ8qvWx\ndzh2kTPumxDhklZdt7xRWMLtydnOjw0BOoPpoZHRGKtJ1z1fB4/1JaYS2tF6\nG7xE7PQC1B9uNuF8/4PJezD70lVQmlLi8eYAuOi4h/TfrDVPu25jtU5CfV79\nOPELMhstp++VbygwV2Ofm7x2gfoTAToi2UdbMmOlQlcSIT18lXW/GF/C5bIj\nxl4ZrEPUlEcnCDIt8fKPxg6xN0KMNDSt8eaJid3dGbe1NURMJzgaXiV1XoXe\nuuELifqr3uEhpG6h5vqHzp/6cXR0yhS+3xCNR0oS9EXQpDjfNGtC8Tg+ataX\nr1b4SKcvjxdBfmDa1Kf8WUrtpkk1ieeYiTTuFnkg0e4jAaOPlYvRaF+gnh5c\nBNG8pMUS7svfrLLczyu/NZndhuhTAm+vnjC9DvBE1EK0jnCxY1l8ChtGwy/Z\nse5Z\r\n=E47J\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-ssh_1.3.1_1546535725509_0.6619978265060806"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "is-ssh",
+			"version": "1.3.2",
+			"description": "Check if an input value is a ssh url or not.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-is-ssh.git"
+			},
+			"keywords": [
+				"ssh",
+				"url",
+				"check",
+				"parser"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-is-ssh/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-is-ssh",
+			"dependencies": {
+				"protocols": "^1.1.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "7818fcbd054d8c551c06d0cdcf2b07d039e2ccf6",
+			"_id": "is-ssh@1.3.2",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-elEw0/0c2UscLrNG+OAorbP539E3rhliKPg+hDMWN9VwrDXfYK+4PBEykDPfxlYYtQvl84TascnQyobfQLHEhQ==",
+				"shasum": "a4b82ab63d73976fd8263cceee27f99a88bdae2b",
+				"tarball": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.2.tgz",
+				"fileCount": 8,
+				"unpackedSize": 15219,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfL+1RCRA9TVsSAnZWagAAKh0P/iTsbydb+vF1Y/soP8BD\nmLlNCpPIx0mByRkMHq+ctnG1pl3hEUN2nw2acmM+yWLXbhPUe9xi3Ay3H6AB\n4Fhum6NAgEcYOUBYsYmKM8mYMbSjTYrVuTMAm5BsCIGJdpmuQFNw5YFHGV00\nXCzt0dpzfsORsNW7SQtyVBgYj3r3HaKN+fjc7EM/qGRH0N8uCVXnDLUXm8nr\nr6dobKuHcMNq6JCmW/gUJqU9t2qDaAscotRe3iVUvFeq4dSKpH7eGqYnjTIi\nPxF/BpijbzpwEvMpGz0l3/BEIuXfb/hNrv8M1E5OYxjxaTy1Kc5QL2/L54Ft\nFg2yYDHfN2Dxqct2gIQ63Shyn32344LlISC/DMrJBreclNsh3FseT20XjXaD\nFpT6dRY6riCF+Z+qAj3KloZ0HBlnPzFhUsF3PGZA+gjmIMmhXTlBtaMVTaXO\ncTngYJMoEu2XDJJ269TVcBFklVI4nuWYTFK1nNKqj59rMjsMbt8WTkkdqemv\nvP9Xox55Jk68+xxMj3Yg3YXMvUkDgRUgie+chAuygvvAKcNqQ1XkOz9zcgqa\npypLJAigcslHWjRKo043TZats8jzCQf8pl6F3V/G2BZOKw9n1nz4oW/ZunG0\nOHO6CrCexo4fBxXxKWfh18RX+Qzvrz55CoXs+WHInt/mu0slUsg7ibCOrPlo\ndjj2\r\n=UHAO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-ssh_1.3.2_1596976464596_0.24050965513442257"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-08-09T12:34:27.040Z",
+		"created": "2015-08-06T07:07:00.323Z",
+		"1.0.0": "2015-08-06T07:07:00.323Z",
+		"1.1.0": "2015-11-12T14:04:07.879Z",
+		"1.2.0": "2015-12-03T14:02:50.220Z",
+		"1.2.1": "2016-01-14T11:39:48.028Z",
+		"1.3.0": "2016-01-18T09:28:32.016Z",
+		"1.3.1": "2019-01-03T17:15:25.611Z",
+		"1.3.2": "2020-08-09T12:34:24.682Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.3.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a0e36be0a3c760d766c012870afae1f0\"",
+			"fetched": 1613881363886
+		}
+	},
+	"_distfiles": {
+		"is-ssh-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.0.0.tgz",
+			"sha": "eb69cf3d6e9d5979bd93caa6adc820c2008dd299",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.1.0.tgz",
+			"sha": "58d13aed2ce7aa5a04165a3e91611b7a5ca91f9e",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.2.0.tgz",
+			"sha": "3f4e8ead07e151f8db26980c25cfebb38a5e8ab2",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.2.1.tgz",
+			"sha": "d50aba4c065a148de2f63f5e16b0b592fe6c7f3b",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.0.tgz",
+			"sha": "ebea1169a2614da392a63740366c3ce049d8dff6",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.1.tgz",
+			"sha": "f349a8cadd24e65298037a522cf7520f2e81a0f3",
+			"registry": "npmjs"
+		},
+		"is-ssh-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/is-ssh/-/is-ssh-1.3.2.tgz",
+			"sha": "a4b82ab63d73976fd8263cceee27f99a88bdae2b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-4d61b5365cea71a5",
+	"_id": "is-ssh",
+	"readme": "<!-- Please do not edit this file. Edit the `blah` field in the `package.json` instead. If in doubt, open an issue. -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# is-ssh\n\n [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/is-ssh.svg)](https://www.npmjs.com/package/is-ssh) [![Downloads](https://img.shields.io/npm/dt/is-ssh.svg)](https://www.npmjs.com/package/is-ssh) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)\n\n<a href=\"https://www.buymeacoffee.com/H96WwChMy\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\"></a>\n\n\n\n\n\n\n\n> Check if an input value is a ssh url or not.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :cloud: Installation\n\n```sh\n# Using npm\nnpm install --save is-ssh\n\n# Using yarn\nyarn add is-ssh\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :clipboard: Example\n\n\n\n```js\n// Dependencies\nconst isSsh = require(\"is-ssh\");\n\n// Secure Shell Transport Protocol (SSH)\nconsole.log(isSsh(\"ssh://user@host.xz:port/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://user@host.xz/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://host.xz:port/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://host.xz/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://user@host.xz/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://host.xz/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://user@host.xz/~user/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://host.xz/~user/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"ssh://user@host.xz/~/path/to/repo.git\"));\n// true\n\nconsole.log(isSsh(\"ssh://host.xz/~/path/to/repo.git\"));\n// true\n\n\nconsole.log(isSsh(\"user@host.xz:/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"user@host.xz:~user/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"user@host.xz:path/to/repo.git\"));\n// true\n\n\nconsole.log(isSsh(\"host.xz:/path/to/repo.git/\"));\n// true\n\nconsole.log(isSsh(\"host.xz:path/to/repo.git\"));\n// true\n\nconsole.log(isSsh(\"host.xz:~user/path/to/repo.git/\"));\n// true\n\n\nconsole.log(isSsh(\"rsync://host.xz/path/to/repo.git/\"));\n// true\n\n\n// Git Transport Protocol\nconsole.log(isSsh(\"git://host.xz/path/to/repo.git/\"));\n// false\n\nconsole.log(isSsh(\"git://host.xz/~user/path/to/repo.git/\"));\n// false\n\n// HTTP/S Transport Protocol\nconsole.log(isSsh(\"http://host.xz/path/to/repo.git/\"));\n// false\n\nconsole.log(isSsh(\"https://host.xz/path/to/repo.git/\"));\n// false\n\n// Local (Filesystem) Transport Protocol\nconsole.log(isSsh(\"/path/to/repo.git/\"));\n// false\n\nconsole.log(isSsh(\"path/to/repo.git/\"));\n// false\n\nconsole.log(isSsh(\"~/path/to/repo.git\"));\n// false\n\nconsole.log(isSsh(\"file:///path/to/repo.git/\"));\n// false\n\nconsole.log(isSsh(\"file://~/path/to/repo.git/\"));\n// false\n```\n\n\n\n\n\n\n\n\n\n\n\n## :question: Get Help\n\nThere are few ways to get help:\n\n\n\n 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.\n 2. For bug reports and feature requests, open issues. :bug:\n 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:\n\n\n\n\n\n## :memo: Documentation\n\n\n### `isSsh(input)`\nChecks if an input value is a ssh url or not.\n\n#### Params\n\n- **String|Array** `input`: The input url or an array of protocols.\n\n#### Return\n- **Boolean** `true` if the input is a ssh url, `false` otherwise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :yum: How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n## :sparkling_heart: Support my projects\nI open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,\nthis takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).\n\nHowever, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:\n\n\n - Starring and sharing the projects you like :rocket:\n - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:\n - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:\n - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).\n - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`\n\n    ![](https://i.imgur.com/z6OQI95.png)\n\n\nThanks! :heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :dizzy: Where is this library used?\nIf you are using this library in one of your projects, add it in this list. :sparkles:\n\n - `parse-url`\n - `parse-path`\n - `git-up`\n - `nodegit-clone`\n - `bb-git-up`\n - `bb-parse-url`\n - `normalize-ssh`\n - `xl-git-up`\n - `@hawkingnetwork/react-native-tab-view`\n - `miguelcostero-ng2-toasty`\n - `npm-all-packages`\n - `@apardellass/react-native-audio-stream`\n - `l2forlerna`\n - `react-native-plugpag-wrapper`\n\n\n\n\n\n\n\n\n\n\n\n## :scroll: License\n\n[MIT][license] © [Ionică Bizău][website]\n\n\n\n\n\n\n[license]: /LICENSE\n[website]: http://ionicabizau.net\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg\n[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg\n[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg\n[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg\n[patreon]: https://www.patreon.com/ionicabizau\n[amazon]: http://amzn.eu/hRo9sIZ\n[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW"
+}

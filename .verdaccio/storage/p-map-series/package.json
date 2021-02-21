@@ -1,0 +1,273 @@
+{
+	"name": "p-map-series",
+	"versions": {
+		"1.0.0": {
+			"name": "p-map-series",
+			"version": "1.0.0",
+			"description": "Map over promises serially",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-map-series.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"map",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"serial",
+				"serially",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-reduce": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"delay": "^1.3.1",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "fbaef9ebce16944e28510a05f6928b1f162ea30d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-map-series/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-map-series#readme",
+			"_id": "p-map-series@1.0.0",
+			"_shasum": "bf98fe575705658a9e1351befb85ae4c1f07bdca",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "bf98fe575705658a9e1351befb85ae4c1f07bdca",
+				"tarball": "https://registry.npmjs.org/p-map-series/-/p-map-series-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/p-map-series-1.0.0.tgz_1477024551917_0.27259076246991754"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "p-map-series",
+			"version": "2.0.0",
+			"description": "Map over promises serially",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-map-series.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"promise",
+				"map",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"serial",
+				"serially",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "^1.3.1",
+				"delay": "^4.1.0",
+				"time-span": "^3.0.0",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "23e6cf899da2bbfa25846cbbb9cb9e77e4ba331a",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-map-series/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-map-series#readme",
+			"_id": "p-map-series@2.0.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-nQEtKwL3aEaCRHeHBnMj2kWnDGLSUZUEtf7LHlrzm6i0dMEiSahsuRDf37yTtO+BpMhcHPWEjLvnDD0YUIZ0FA==",
+				"shasum": "c9bb0d98c0093cbfa27187781bf593069bc9ed08",
+				"tarball": "https://registry.npmjs.org/p-map-series/-/p-map-series-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4584,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJci1wyCRA9TVsSAnZWagAAAGgP/3S0IHDyj4xyPgC9ThWg\nUlEcvl1ff5MOMMbpNwm+p5gXDZCxNCuGFbTOH8FDU78BzXNcskIIBLHftz6t\n5BjbYK9fA+o0W7mp261P0wUolrFFyAMB0BiJeqLsMFnwGw4uFCfLeRNz0ckh\nrHwNyvBfs+FthXgdGWYhO81btZqb2Z4CixJyOY7GC63L4ZC3/kpD93ap+4in\nmpi4/0RPOFIsYSlxBXDNBmE/mrNjPHMRrsrxCdAiiMPXx/SmSzZOtke162L3\nZl1hYUpAMwGctlaM+3nAwSrekhU9f+4okRdRFh9hOFf+T5blCS4SPv6MsenL\nq1bLLBTTT+UPTaYxis8xbSp4tW0iSdxtnGvFdUwxv25sf/+TLngAijtvUe+5\n7zCmB8HmNRXGZsNjEtj6aV6W0WDePs0ZB+0MVFVRoo/MzMUoHpFH1VkAUxf/\nRUdg2yur4ft4vpzgvyi2DWc3uwry8lwpMYGV/6x0DZ05KCDSqXuWAbG7cQTq\nCqeDIY99p1Df9Jz/pym3k/bBmhnm6F9AXbZwIV8Qr1KoTebP1GUXOfeE3Kna\ngP1xdonJOwvR4Yf3QgchDNDDl8jzPpKvhat/Sn9RjZCCNUwxlKSiW6oJnrWi\nQM2xVwt2XZvGo1kwKmlBfEY7fUbakMm1jW3m/MmV/WH6gWmMELSqweWQnmXA\nONb6\r\n=Txxb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-map-series_2.0.0_1552636977459_0.015901539918462326"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "p-map-series",
+			"version": "2.1.0",
+			"description": "Map over promises serially",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-map-series.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"map",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"serial",
+				"serially",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"delay": "^4.1.0",
+				"time-span": "^3.0.0",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "86caaee6bb1bc07c280974468b92d5012d8f4a12",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-map-series/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-map-series#readme",
+			"_id": "p-map-series@2.1.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RpYIIK1zXSNEOdwxcfe7FdvGcs7+y5n8rifMhMNWvaxRNMPINJHF5GDeuVxWqnfrcHPSCnp7Oo5yNXHId9Av2Q==",
+				"shasum": "7560d4c452d9da0c07e692fdbfe6e2c81a2a91f2",
+				"tarball": "https://registry.npmjs.org/p-map-series/-/p-map-series-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5628,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpEJqCRA9TVsSAnZWagAA/a4P/0fwrAqgiMYullDvv0Xg\nHD9ZrvK1KIIZB/TcoSAnMpqJQyi2eakLGhByeWItlrJO10zH2kdzTGzYNpH0\n41UBYfdxCjxq+DGabh07TVvlDwdQ3DDwktEaxDF5PiEoOyEXQcqA0oFST40c\nnW4bR9judZFqNSr9MULDt2afr1owxd/ht94tZWW43a34E4l1Rq37uzDmw5EK\n2Y1OTiuWUWT318GyRrGY6F6/yPOFcjH2ZSnmK5+IZNdxRVeZJTVuyrXGrTFb\nsWssH0xhejKvkp6b2KO2BKXF4efo6GdkcAuPmMZ/bH+bjsj6XD+jtdrD3PxS\n402zOTepNwEfeP5nW83hgShqE2ab2XHOLkU4AnFgQy/mc5zBCiIMys+CGARk\n0J1xRjIrHn794wPkDb4f3/UZifigoHnG861zLnIW2mUe3VR83bvmVgFmSp5k\nqkz4vU2v+5f21p/idbWuKUQ0WcG6puAg++NCVONuMof+wYMTeoSnRQScF+4d\n765uPBZGXPGXd/1Ram18KG+6HCJ2ooN+PGgjbcrhzlz5+FRJNh+zSxJPYmtM\nTfNMBeKs6WiNIUTKFAgj4tyiwImVuC3eytZvdSzExkd3ls0RctHkCCjU9hlV\npBUfG7xW0RcXo5GzYA72qc6Ff2JqJUnhhhyj3TPPOHvDbe4y1CagoYeWRAPh\n4CxA\r\n=nnLN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-map-series_2.1.0_1554268777469_0.18405653710035752"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-04-03T05:19:40.603Z",
+		"created": "2016-10-21T04:35:52.144Z",
+		"1.0.0": "2016-10-21T04:35:52.144Z",
+		"2.0.0": "2019-03-15T08:02:57.597Z",
+		"2.1.0": "2019-04-03T05:19:37.928Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9fc4e022a9a4e4877618eecff86c16fa\"",
+			"fetched": 1613881352573
+		}
+	},
+	"_distfiles": {
+		"p-map-series-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-map-series/-/p-map-series-1.0.0.tgz",
+			"sha": "bf98fe575705658a9e1351befb85ae4c1f07bdca",
+			"registry": "npmjs"
+		},
+		"p-map-series-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-map-series/-/p-map-series-2.0.0.tgz",
+			"sha": "c9bb0d98c0093cbfa27187781bf593069bc9ed08",
+			"registry": "npmjs"
+		},
+		"p-map-series-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-map-series/-/p-map-series-2.1.0.tgz",
+			"sha": "7560d4c452d9da0c07e692fdbfe6e2c81a2a91f2",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-61118cb127a0e9c1",
+	"_id": "p-map-series",
+	"readme": "# p-map-series [![Build Status](https://travis-ci.org/sindresorhus/p-map-series.svg?branch=master)](https://travis-ci.org/sindresorhus/p-map-series)\n\n> Map over promises serially\n\nUseful as a side-effect mapper. Use [`p-map`](https://github.com/sindresorhus/p-map) if you don't need side-effects, as it's concurrent.\n\n\n## Install\n\n```\n$ npm install p-map-series\n```\n\n\n## Usage\n\n```js\nconst pMapSeries = require('p-map-series');\n\nconst keywords = [\n\tgetTopKeyword() //=> Promise\n\t'rainbow',\n\t'pony'\n];\n\nlet scores = [];\n\nconst mapper = async keyword => {\n\tconst score = await fetchScore(keyword);\n\tscores.push(score);\n\treturn {keyword, score};\n});\n\n(async () => {\n\tconsole.log(await pMapSeries(keywords, mapper));\n\t/*\n\t[\n\t\t{\n\t\t\tkeyword: 'unicorn',\n\t\t\tscore: 99\n\t\t},\n\t\t{\n\t\t\tkeyword: 'rainbow',\n\t\t\tscore: 70\n\t\t},\n\t\t{\n\t\t\tkeyword: 'pony',\n\t\t\tscore: 79\n\t\t}\n\t]\n\t*/\n})();\n```\n\n\n## API\n\n### pMapSeries(input, mapper)\n\nReturns a `Promise` that is fulfilled when all promises in `input` and ones returned from `mapper` are fulfilled, or rejects if any of the promises reject. The fulfilled value is an `Array` of the `mapper` created promises fulfillment values.\n\n#### input\n\nType: `Iterable<Promise | unknown>`\n\nMapped over serially in the `mapper` function.\n\n#### mapper(element, index)\n\nType: `Function`\n\nExpected to return a value. If it's a `Promise`, it's awaited before continuing with the next iteration.\n\n\n## Related\n\n- [p-each-series](https://github.com/sindresorhus/p-each-series) - Iterate over promises serially\n- [p-reduce](https://github.com/sindresorhus/p-reduce) - Reduce a list of values using promises into a promise for a value\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}

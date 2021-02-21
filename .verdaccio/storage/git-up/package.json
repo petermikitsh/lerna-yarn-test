@@ -1,0 +1,1578 @@
+{
+	"name": "git-up",
+	"versions": {
+		"1.0.0": {
+			"name": "git-up",
+			"version": "1.0.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/IonicaBizau/node-git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-up",
+			"dependencies": {
+				"is-ssh": "^1.0.0",
+				"parse-url": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "6a05893d2c0381886c468fc8f83677e5e20534f9",
+			"_id": "git-up@1.0.0",
+			"_shasum": "45784589e5cfa8680aeba2e473007755bef9283c",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "45784589e5cfa8680aeba2e473007755bef9283c",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "git-up",
+			"version": "1.1.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/node-git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-up",
+			"dependencies": {
+				"is-ssh": "^1.0.0",
+				"parse-url": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "c04e2ef6821fdf036c8e7daefc825cbb38992ceb",
+			"_id": "git-up@1.1.0",
+			"_shasum": "ab503f7077c69052147637e004db07850500d48f",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ab503f7077c69052147637e004db07850500d48f",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-1.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "git-up",
+			"version": "1.2.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/node-git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-up",
+			"dependencies": {
+				"is-ssh": "^1.0.0",
+				"parse-url": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "a060900e563a6c4014ff0fc70a0a7bdaea14fd38",
+			"_id": "git-up@1.2.0",
+			"_shasum": "369107881d186cb1b80ecbec22ff32e3d090bf3e",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "369107881d186cb1b80ecbec22ff32e3d090bf3e",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-1.2.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "git-up",
+			"version": "1.2.1",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/node-git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-up",
+			"dependencies": {
+				"is-ssh": "^1.0.0",
+				"parse-url": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "8c87407c6167dd3112ee705a5778d8ad68f67b91",
+			"_id": "git-up@1.2.1",
+			"_shasum": "264480a006b1d84261ac1fe09a3a5169c57ea19d",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "264480a006b1d84261ac1fe09a3a5169c57ea19d",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-1.2.1.tgz"
+			},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "git-up",
+			"version": "2.0.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "c33a0634d54f8362d3ca1915708129ea4cb6d000",
+			"_id": "git-up@2.0.0",
+			"_shasum": "6c80b0f3dc4ee8a670c5c3fdddf8b3ab59625c9d",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6c80b0f3dc4ee8a670c5c3fdddf8b3ab59625c9d",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.0.tgz_1456043046098_0.5641643537674099"
+			},
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "git-up",
+			"version": "2.0.1",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "ec2adeee7ee4612146a0a840479346d13609cf1e",
+			"_id": "git-up@2.0.1",
+			"_shasum": "2868ded7e0cc225f62e3f9a4f191fddf53b314dc",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2868ded7e0cc225f62e3f9a4f191fddf53b314dc",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.1.tgz_1461646574367_0.4585883840918541"
+			},
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "git-up",
+			"version": "2.0.2",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "bc23f9e35aec1639abdac4dd3e072152e1d38602",
+			"_id": "git-up@2.0.2",
+			"_shasum": "8771d3435ce36b590c8f16fd55fe56dce367e5df",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8771d3435ce36b590c8f16fd55fe56dce367e5df",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.2.tgz_1464169722687_0.08930909703485668"
+			},
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "git-up",
+			"version": "2.0.3",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "35ac26edb3b8604e64a3b8c208cfe8c295f872f2",
+			"_id": "git-up@2.0.3",
+			"_shasum": "03d926552ad4c7e58c2112f706867adb19b14301",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "03d926552ad4c7e58c2112f706867adb19b14301",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.3.tgz_1476037660830_0.23055650433525443"
+			},
+			"contributors": []
+		},
+		"2.0.4": {
+			"name": "git-up",
+			"version": "2.0.4",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "cfb6031072f7229fe46f3e69d04c2b08f995cdf2",
+			"_id": "git-up@2.0.4",
+			"_shasum": "ee738de1a38f0bb255d22f15a5bf987eceb07a85",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ee738de1a38f0bb255d22f15a5bf987eceb07a85",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.4.tgz_1476112693642_0.2804793347604573"
+			},
+			"contributors": []
+		},
+		"2.0.5": {
+			"name": "git-up",
+			"version": "2.0.5",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "ce36bc6f5e0b11f6a37583068ac25af8d671c2b0",
+			"_id": "git-up@2.0.5",
+			"_shasum": "9689288a348a4a217e9a3f91c30c6370dbf57e3b",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9689288a348a4a217e9a3f91c30c6370dbf57e3b",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.5.tgz_1476113392663_0.1318599130026996"
+			},
+			"contributors": []
+		},
+		"2.0.6": {
+			"name": "git-up",
+			"version": "2.0.6",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"build/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"blah": {},
+			"gitHead": "c86e974d547327ef62f8479d1600de4a59e51dc8",
+			"_id": "git-up@2.0.6",
+			"_shasum": "38d6dddc5db720de83ef09ef3865e748f5887e12",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "38d6dddc5db720de83ef09ef3865e748f5887e12",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.6.tgz_1476192875309_0.6500417322386056"
+			},
+			"contributors": []
+		},
+		"2.0.7": {
+			"name": "git-up",
+			"version": "2.0.7",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"blah": {},
+			"gitHead": "157ec34d9447a2da4efcfaf2aa2719448b810dce",
+			"_id": "git-up@2.0.7",
+			"_shasum": "a503143b0e86d4f94d4f6470b73c7e5eaaad278e",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a503143b0e86d4f94d4f6470b73c7e5eaaad278e",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.7.tgz_1490030565051_0.6364507903344929"
+			},
+			"contributors": []
+		},
+		"2.0.8": {
+			"name": "git-up",
+			"version": "2.0.8",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"blah": {},
+			"gitHead": "829a68d2cdc182b8e3827e5c1fcae6cf60628b3a",
+			"_id": "git-up@2.0.8",
+			"_shasum": "24be049c9f0b193481d2df4e016a16530a5f4ef4",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "24be049c9f0b193481d2df4e016a16530a5f4ef4",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.8.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-up-2.0.8.tgz_1490282509772_0.06969005451537669"
+			},
+			"contributors": []
+		},
+		"2.0.9": {
+			"name": "git-up",
+			"version": "2.0.9",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"blah": {},
+			"gitHead": "ca7839978807c87c7851c65e1939048b0c9ccb44",
+			"_id": "git-up@2.0.9",
+			"_shasum": "219bfd27c82daeead8495beb386dc18eae63636d",
+			"_from": ".",
+			"_npmVersion": "4.1.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "219bfd27c82daeead8495beb386dc18eae63636d",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up-2.0.9.tgz_1504868392680_0.8264625610318035"
+			},
+			"contributors": []
+		},
+		"2.0.10": {
+			"name": "git-up",
+			"version": "2.0.10",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^1.3.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"blah": {},
+			"gitHead": "470da403efc2ef132eff267959fcd580bfee32f5",
+			"_id": "git-up@2.0.10",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2v4UN3qV2RGypD9QpmUjpk+4+RlYpW8GFuiZqQnKmvei08HsFPd0RfbDvEhnE4wBvnYs8ORVtYpOFuuCEmBVBw==",
+				"shasum": "20fe6bafbef4384cae253dc4f463c49a0c3bd2ec",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.0.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up-2.0.10.tgz_1514146792150_0.9223717888817191"
+			},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "git-up",
+			"version": "2.1.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^3.0.2"
+			},
+			"devDependencies": {
+				"tester": "^1.4.3"
+			},
+			"blah": {},
+			"gitHead": "e6086c1e206e619882b8cc13ccb021e3f9b2201f",
+			"_id": "git-up@2.1.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-MJgwfcSd9qxgDyEYpRU/CDxNpUadrK80JHuEQDG4Urn0m7tpSOgCBrtiSIa9S9KH8Tbuo/TN8SSQmJBvsw1HkA==",
+				"shasum": "2f14cfe78327e7c4a2b92fcac7bfc674fdfad40c",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-2.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9103,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbzzwTCRA9TVsSAnZWagAARVkP/j8vk29NihTnqm5f7eMf\niX8hNZgt0OWvhRhrGKAgbjMeaOngKd6Z19lr/zvKP+nQ6ps5SQn7VkhKPVZ1\nmAynggCcZ/GUCxGtretMKTeQBdcQeYVB7lF2zm9L3T5IMThSu+ETuxMw/FIk\n6vRyATuYucWZe37QukghKNCfWO3rcwyPEvqKwDAX9+g1uzSMRa0vf0QRfK5f\nvnGXSnGx0shj3/MvpGxLDKxS3aa8cWSdJBcWMIdvjL33d4PuzTZKQxbcIBgG\na8NbUICfmuALNy3D4jmpfbTplVM1KcX7vbY0YYPZrFLkMY9n0xdN8Z6dhulU\n7kPHngZDfQdjw8Vp5Af4AJL+CQ02laW2TAvMQGIkXEYwvHmr702wZ3998iRJ\nE1sNPZcpN8TLoTc96Szsp22eqJEO3GIVRq07y8AlT6mIWwyeWUQ4V9RP1DMM\nXDXnBpEXusg0NkZuC7Fw9lY7LQJjbXPqtOGjoNKlRXwEeERTtiNG+SB/30wz\nRQXKRq2kKI5iOtjj2WrY48f9cI2XSxodjKhgLWDvcOW9X4jzAyJskjq7XQky\nwadKaZdoxvZMYeALIuoicXu6D82WTk4feyvlnbcUgCL9XT2OFG+Nz6tpTfpo\ntNkVxoFAUFGlcXSqLZcAzkSdr4MzOXdsdLOqtqb63KuY4G0KuXWrlXNJZjw4\n2o4f\r\n=UzCZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up_2.1.0_1540307986254_0.41417063719289615"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "git-up",
+			"version": "3.0.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^5.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.4.3"
+			},
+			"blah": {},
+			"gitHead": "b1bd7e741f180d9e1199bdebca6cbb97c83d5c04",
+			"_id": "git-up@3.0.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ARP0SW1VdJUQYOBrlfbJ49gPgKJzEIW1a5IKwkXX2J+wMGpDBh66n4aA5vf4Anvui+73AXITUmiF9uGNG4+CDQ==",
+				"shasum": "4073d78f375bd62efa68416c5c4c8542b7e9e857",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-3.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9153,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1enLCRA9TVsSAnZWagAABpYP/3p6yVYtL5Ps+7ewJP8O\n6edZRCsuyIz+hWWd/L1EYJOIiIWTlsdbg5sRgKq+qBKUJVE18WDuF8vjU0Mm\nWZm2CJofB5HmvB25KyinTdC2qQnhUePdrlJXGLF6zFO1qeYB+yzAP9L/L7eG\n7rnoDHzIFSDHOTHuNGtu5YnLu7WGmKOk7sdw7UMQielFXBZCSC6TK8kb7zo/\nl6kzD/esxSJ6baBSFFaYtVLNIq9LMwtpgPtRcYA/60Phg5AzB6Uh+WqYzJIt\nMnVIcx3zIxF8wv7vGWlc8F7nXq02PswbnD5/rUGcJE4c4WFCQiQ2snIsPX6G\nAoMAcxZaaGIHhkT1LA1iFZbuzM0SoYzMuezQTnzhtOBbDVILcKqZmVd3vVst\nJONG69z2tEFixt+5AIBb3gg5L98oUFRoaH8EFC+i76B704ijUgngO5r6R22y\nPZ9oT0su4Elaxq7AnMz9NECV5GjZrGyYc6A+ZYN4m5eum4IiPQVOWDIWQck9\n+cm23ytgpG/toR8pGnUq99BS8mXRUf83GbHLM3R8yaEUir1FLlNkGw9lZzQ8\nwwaEYPWtJfc/MGfvMzKOtCCeo9fC+zIucZxPiG8hB2VcOeQpdBeJMsscUfOn\nKcmXpzAwpkSjwitNxySiEFbLZVsvq9Uz3salgvcrKj8bFxzM/S3Ce1djgJTj\nF5G1\r\n=aWJE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up_3.0.0_1540745674313_0.7832350486503834"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "git-up",
+			"version": "4.0.0",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^5.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.4.3"
+			},
+			"blah": {},
+			"gitHead": "ab524e08533075b40d411f37fd677380d1a046f0",
+			"_id": "git-up@4.0.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zoRfnGaUmRfp2tbVF5tynNFLalKDk3CwlTepXt6ZtFDaWP7xY/pzHjI2YrLiaz503tEnzZWURN4QmcfUtEd0YA==",
+				"shasum": "6c17040afa488fafc118400d5e0f12c079974aba",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9153,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1erZCRA9TVsSAnZWagAADTMP/if7U1W3zZL5H89HgvGR\nicxBoOybBC81pYX7ka5Yn0ChfivTktZ2HPub3Jgd9k+q78vKiqK45e4NK4re\nLmOXt0Ss8+rlSTjoY10FGNeR4wwn9rcuSzTNCZlqhx2eOYQ8EoD4fou54Jme\nvlWsYCcwbEBpZWp6usqfMntjIRzfI3zGprLcAsdLStZ6JlrTFYeW8Ss7OWtH\nonwZ22Hzlfn/ILgEtVAzRf10uizl2AoVkqPJulPHrbq3hA0T5Byg2xuMfoDh\ngmwbkhB96KXByDPpGajbBsp2O9XHS4QAGV0C3cqzRVZNgBY1zCtXafMBeDWB\nMitwYn6XNiteC4aTIXQEHylrUxqoyI2KlYYctQ7sMqAO8HtpnY78O6IyyJyC\n6WhtAqfWS+0N137c1kzIKsETM//lyb7R27scr1EEZjRY9Mjcm9ZZd+a8dmvf\nNT4iXEvsUUoLpZjZcORQ2ul9I4XUZjvTZmJQy9m+AzVjON/P9w5eKjtZDye/\nNaLfCnH8TOTMXVv9tLu/DCtiKikFRS3h+1BDrJp9CAO/4/80xjo9ejY/zD4K\nui90HihIr457bNlrRIXi2OhtyUzoKGU12WuLc9n2txpcBBS/LvXzH6kYvLa2\nLxu9yWbItwB3TovNMfflZ9nenFarTT4zc+lH9A9An4AC10I5yxLPBLCGpFhL\n4fsf\r\n=ev1t\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up_4.0.0_1540745944438_0.8831027177216948"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "git-up",
+			"version": "4.0.1",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^5.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.4.3"
+			},
+			"blah": {},
+			"gitHead": "60e6a4ff93d50360bbb80953bfab2f82d3418900",
+			"_id": "git-up@4.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LFTZZrBlrCrGCG07/dm1aCjjpL1z9L3+5aEeI9SBhAqSc+kiA9Or1bgZhQFNppJX6h/f5McrvJt1mQXTFm6Qrw==",
+				"shasum": "cb2ef086653640e721d2042fe3104857d89007c0",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-4.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9479,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLjxcCRA9TVsSAnZWagAAugwP/1GguJw7ztIH3DySABvf\nQsq69JjeGERh68YBdy4BfTNGP7uYwJQfNnMJpPg1DUp5n1QYGKoyQBOjrPjj\nP/E7lGzo97WOBo/WVU6Q8FFugNQejPeJSiX6nV/aUr7aTBOlioukqONKoJmN\nLN6ieXicIoK+l5Ym2Orfs+GpYqVjTT0VxU6YIul+FjSvC+mwBK6kqnaG/VPH\nkoim8UGYXHrHMRbS5rbrCze9b+Pfp4Iusmzg492XzMdInHFLqHinEgjwCsYz\nO89cvgRc2v/ejTorb9gIkB7ciH1Gz/BIiK6qOIQFa8duigncFouBcCaWOFlv\nDSZWqYxieCI1WE1/UkG5PqhUwuk+8W+TU4FO+glHbC/5vtFZo0mVCMwPR7V/\n5DDhZfV415Pkk0OXa6A/1cqb5W450jJyVNKsj1ZuBJtoWHMMainvt8gAIqsv\n0VVWVe+hDTc3f76mFOKpm8thabGj5FfIbqmzcG/I+BQ/3/b1LiMg5fwrPPI8\n3fnc8ubeRHu3hYKEpBupSHdVKu072gH980rI2WAX2jSGDQ3oLyl4KrEkPxbC\n8sqiWCwwsymeqEgF/c0U/knAmHQkBhQAum9rTwpoT5SLbPuQlUdTEZRVRVE9\nBnELZDIbMpo5j8YvV5vg0nlxkc29YcQHSwT2RvWZC2tVt1UylAxCM/6U9Xla\nhVnb\r\n=GT3/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up_4.0.1_1546533978884_0.6586470414287249"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.2": {
+			"name": "git-up",
+			"version": "4.0.2",
+			"description": "A low level git url parser.",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/IonicaBizau/git-up.git"
+			},
+			"keywords": [
+				"git",
+				"url",
+				"parser",
+				"parsing"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-up/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-up",
+			"dependencies": {
+				"is-ssh": "^1.3.0",
+				"parse-url": "^5.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.4.3"
+			},
+			"blah": {},
+			"gitHead": "b37e5d40a65155d45483535e8532a07183f5dabe",
+			"_id": "git-up@4.0.2",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-kbuvus1dWQB2sSW4cbfTeGpCMd8ge9jx9RKnhXhuJ7tnvT+NIrTVfYZxjtflZddQYcmdOTlkAcjmx7bor+15AQ==",
+				"shasum": "10c3d731051b366dc19d3df454bfca3f77913a7c",
+				"tarball": "https://registry.npmjs.org/git-up/-/git-up-4.0.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9121,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfL+YbCRA9TVsSAnZWagAA1RcP/iNMLNASBkx4QqhJht+n\nM9c1GDKFTUt4ZmMAZ9P9Ipik0OdmlbW+Z+kJYqHDCImCbtoazklCJtxvan39\ngvpqY6kt8FqF0cJkYTKDhebq/2AIiumLZBqYV2ySwA82NrqWPlFJ+J5ut5Wt\nNGEGBg36mGlEO+rYarGLxSSnZ6worS/6z7//2ABkElVsKc9TOSyWz/OpdcpM\nn274VBmPaCzqjN0KUOL5YFeGjhtxezKLHOips2pWbnqYgoQDY8V4guCu1oFz\nW1znptkJiamUQjfvi8o8xP+QQjXNcvatzuScEnNyUAGXDcey2LH0gVlnB5LZ\nQvohvfSbcf2GnqYb613VWA87e2GTVJYF4W5doIsPlDIYXl+TxgC5YkQ9wNTl\nkalX5uf412wbW6uh+c3ILTMu1AsHYs4iU+CSBPw01ho/WjH8DmRWn4IWGvLY\nxuJHDoVD85pAepbmyfjHuPNV2f2MX96Ec711HrcqNoCy1jwhuTJDn/kv9w/W\n1HbLIxD0xWgwAIsBNbPv7PNzqwDLB/KllR/Fd63KR7FIc0Sm7ARr5Zmhy+4G\n8uGNSkr/GCPfwCeFQGUmQbycwbXvvSXwsRLNht+4WJMCLT8tnXRyDHEJnUmL\ne+rFy4idTIsiY85v8FEOxbMi3vEw3fn3Rv1pnxA2DtGy3+NyQecSRKcS6up+\nBbJj\r\n=rKcJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-up_4.0.2_1596974618639_0.20759912282905457"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-08-09T12:03:40.950Z",
+		"created": "2015-08-06T15:10:19.535Z",
+		"1.0.0": "2015-08-06T15:10:19.535Z",
+		"1.1.0": "2015-11-12T14:01:47.764Z",
+		"1.2.0": "2015-12-03T13:57:11.769Z",
+		"1.2.1": "2016-01-14T11:34:41.095Z",
+		"2.0.0": "2016-02-21T08:24:10.774Z",
+		"2.0.1": "2016-04-26T04:56:16.671Z",
+		"2.0.2": "2016-05-25T09:48:44.032Z",
+		"2.0.3": "2016-10-09T18:27:42.677Z",
+		"2.0.4": "2016-10-10T15:18:14.728Z",
+		"2.0.5": "2016-10-10T15:29:53.717Z",
+		"2.0.6": "2016-10-11T13:34:35.977Z",
+		"2.0.7": "2017-03-20T17:22:45.702Z",
+		"2.0.8": "2017-03-23T15:21:51.689Z",
+		"2.0.9": "2017-09-08T10:59:53.569Z",
+		"2.0.10": "2017-12-24T20:19:53.791Z",
+		"2.1.0": "2018-10-23T15:19:46.386Z",
+		"3.0.0": "2018-10-28T16:54:34.437Z",
+		"4.0.0": "2018-10-28T16:59:04.607Z",
+		"4.0.1": "2019-01-03T16:46:20.019Z",
+		"4.0.2": "2020-08-09T12:03:38.729Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"328972fa669e76551bf34f6df2449766\"",
+			"fetched": 1613881362180
+		}
+	},
+	"_distfiles": {
+		"git-up-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-1.0.0.tgz",
+			"sha": "45784589e5cfa8680aeba2e473007755bef9283c",
+			"registry": "npmjs"
+		},
+		"git-up-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-1.1.0.tgz",
+			"sha": "ab503f7077c69052147637e004db07850500d48f",
+			"registry": "npmjs"
+		},
+		"git-up-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-1.2.0.tgz",
+			"sha": "369107881d186cb1b80ecbec22ff32e3d090bf3e",
+			"registry": "npmjs"
+		},
+		"git-up-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-1.2.1.tgz",
+			"sha": "264480a006b1d84261ac1fe09a3a5169c57ea19d",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.0.tgz",
+			"sha": "6c80b0f3dc4ee8a670c5c3fdddf8b3ab59625c9d",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.1.tgz",
+			"sha": "2868ded7e0cc225f62e3f9a4f191fddf53b314dc",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.2.tgz",
+			"sha": "8771d3435ce36b590c8f16fd55fe56dce367e5df",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.3.tgz",
+			"sha": "03d926552ad4c7e58c2112f706867adb19b14301",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.4.tgz",
+			"sha": "ee738de1a38f0bb255d22f15a5bf987eceb07a85",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.5.tgz",
+			"sha": "9689288a348a4a217e9a3f91c30c6370dbf57e3b",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.6.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.6.tgz",
+			"sha": "38d6dddc5db720de83ef09ef3865e748f5887e12",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.7.tgz",
+			"sha": "a503143b0e86d4f94d4f6470b73c7e5eaaad278e",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.8.tgz",
+			"sha": "24be049c9f0b193481d2df4e016a16530a5f4ef4",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.9.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.9.tgz",
+			"sha": "219bfd27c82daeead8495beb386dc18eae63636d",
+			"registry": "npmjs"
+		},
+		"git-up-2.0.10.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.0.10.tgz",
+			"sha": "20fe6bafbef4384cae253dc4f463c49a0c3bd2ec",
+			"registry": "npmjs"
+		},
+		"git-up-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-2.1.0.tgz",
+			"sha": "2f14cfe78327e7c4a2b92fcac7bfc674fdfad40c",
+			"registry": "npmjs"
+		},
+		"git-up-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-3.0.0.tgz",
+			"sha": "4073d78f375bd62efa68416c5c4c8542b7e9e857",
+			"registry": "npmjs"
+		},
+		"git-up-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-4.0.0.tgz",
+			"sha": "6c17040afa488fafc118400d5e0f12c079974aba",
+			"registry": "npmjs"
+		},
+		"git-up-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-4.0.1.tgz",
+			"sha": "cb2ef086653640e721d2042fe3104857d89007c0",
+			"registry": "npmjs"
+		},
+		"git-up-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-up/-/git-up-4.0.2.tgz",
+			"sha": "10c3d731051b366dc19d3df454bfca3f77913a7c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-bb94f10a04a5cb1a",
+	"_id": "git-up",
+	"readme": "<!-- Please do not edit this file. Edit the `blah` field in the `package.json` instead. If in doubt, open an issue. -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# git-up\n\n [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/git-up.svg)](https://www.npmjs.com/package/git-up) [![Downloads](https://img.shields.io/npm/dt/git-up.svg)](https://www.npmjs.com/package/git-up) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)\n\n<a href=\"https://www.buymeacoffee.com/H96WwChMy\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\"></a>\n\n\n\n\n\n\n\n> A low level git url parser.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :cloud: Installation\n\n```sh\n# Using npm\nnpm install --save git-up\n\n# Using yarn\nyarn add git-up\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :clipboard: Example\n\n\n\n```js\n// Dependencies\nvar gitUp = require(\"git-up\");\n\nconsole.log(gitUp(\"git@github.com:IonicaBizau/node-parse-url.git\"));\n// => {\n//     protocols: []\n//   , port: null\n//   , resource: \"github.com\"\n//   , user: \"git\"\n//   , pathname: \"/IonicaBizau/node-parse-url.git\"\n//   , hash: \"\"\n//   , search: \"\"\n//   , href: \"git@github.com:IonicaBizau/node-parse-url.git\"\n//   , protocol: \"ssh\"\n// }\n\nconsole.log(gitUp(\"https://github.com/IonicaBizau/node-parse-url.git\"));\n// => {\n//     protocols: [ \"https\" ]\n//   , port: null\n//   , resource: \"github.com\"\n//   , user: \"\"\n//   , pathname: \"/IonicaBizau/node-parse-url.git\"\n//   , hash: \"\"\n//   , search: \"\"\n//   , href: \"https://github.com/IonicaBizau/node-parse-url.git\"\n//   , protocol: \"https\"\n// }\n```\n\n\n\n\n\n\n\n\n\n\n\n## :question: Get Help\n\nThere are few ways to get help:\n\n\n\n 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.\n 2. For bug reports and feature requests, open issues. :bug:\n 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:\n\n\n\n\n\n## :memo: Documentation\n\n\n### `gitUp(input)`\nParses the input url.\n\n#### Params\n\n- **String** `input`: The input url.\n\n#### Return\n- **Object** An object containing the following fields:\n - `protocols` (Array): An array with the url protocols (usually it has one element).\n - `port` (null|Number): The domain port.\n - `resource` (String): The url domain (including subdomains).\n - `user` (String): The authentication user (usually for ssh urls).\n - `pathname` (String): The url pathname.\n - `hash` (String): The url hash.\n - `search` (String): The url querystring value.\n - `href` (String): The input url.\n - `protocol` (String): The git url protocol.\n - `token` (String): The oauth token (could appear in the https urls).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :yum: How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n## :sparkling_heart: Support my projects\nI open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,\nthis takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).\n\nHowever, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:\n\n\n - Starring and sharing the projects you like :rocket:\n - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:\n - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:\n - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).\n - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`\n\n    ![](https://i.imgur.com/z6OQI95.png)\n\n\nThanks! :heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :dizzy: Where is this library used?\nIf you are using this library in one of your projects, add it in this list. :sparkles:\n\n - `git-url-parse`\n - `gatsby-telemetry`\n - `@jamo/gatsby-telemetry`\n - `@hawkingnetwork/react-native-tab-view`\n - `miguelcostero-ng2-toasty`\n - `front-end-styleguide-cli`\n - `front-end-styleguide-init`\n - `codelofts-git-url-parse`\n - `hubgit`\n - `gb-notifications`\n - `@apardellass/react-native-audio-stream`\n - `l2forlerna`\n - `erxes-telemetry`\n - `react-native-plugpag-wrapper`\n - `ship-release`\n\n\n\n\n\n\n\n\n\n\n\n## :scroll: License\n\n[MIT][license] © [Ionică Bizău][website]\n\n\n\n\n\n\n[license]: /LICENSE\n[website]: https://ionicabizau.net\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg\n[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg\n[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg\n[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg\n[patreon]: https://www.patreon.com/ionicabizau\n[amazon]: http://amzn.eu/hRo9sIZ\n[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW"
+}

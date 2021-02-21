@@ -1,0 +1,376 @@
+{
+	"name": "p-waterfall",
+	"versions": {
+		"1.0.0": {
+			"name": "p-waterfall",
+			"version": "1.0.0",
+			"description": "Run promise-returning & async functions in series, each passing its result to the next",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-waterfall.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"waterfall",
+				"series",
+				"serial",
+				"sequence",
+				"sequential",
+				"ordered",
+				"task",
+				"tasks",
+				"array",
+				"collection",
+				"iterable",
+				"iterator",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-reduce": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "6905c126059359d1c6ad973dde2e168843f5413f",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-waterfall/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-waterfall#readme",
+			"_id": "p-waterfall@1.0.0",
+			"_shasum": "7ed94b3ceb3332782353af6aae11aa9fc235bb00",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "7ed94b3ceb3332782353af6aae11aa9fc235bb00",
+				"tarball": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/p-waterfall-1.0.0.tgz_1479800485689_0.9512806851416826"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "p-waterfall",
+			"version": "2.0.0",
+			"description": "Run promise-returning & async functions in series, each passing its result to the next",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-waterfall.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"promise",
+				"waterfall",
+				"series",
+				"serial",
+				"sequence",
+				"sequential",
+				"ordered",
+				"task",
+				"tasks",
+				"array",
+				"collection",
+				"iterable",
+				"iterator",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-reduce": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.3.1",
+				"tsd-check": "^0.5.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "097b16d202b6bd24bc334d260723435a48101284",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-waterfall/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-waterfall#readme",
+			"_id": "p-waterfall@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-DWcvWf71iye0Op1cVxNbWs6b4f48vHdzQ+BKB30r0hja/3Sg8kd6xr9YU5fEIngs4ikraMeZlcdYc45d/7zuLw==",
+				"shasum": "0ab849c3db232b642f29df4aa8449823544a3feb",
+				"tarball": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcj8svCRA9TVsSAnZWagAAFxUP/1vJ92XT92RulxAn2dTN\nF5YX43remVj7b2TqxQwbdxHaXdgshD8ucxbjARmmB0D+ZxWRQwpTK6E3r6kk\n6FlBg84awAh/RrCb+ZhRyC9nvzoznr64e3H4lj06Q1/rVhA4FTYdbrGhn5ix\nZ1Gjn3H5rjcWeuhEidoLgGPXKCo5PENJAL8TLV/fxfdRouPaK3d0a/fW3RPG\n3D8dX6AOiw1nXZFkb4PdiAeoND6Z3oB39Qr9ZfZ6dauw7mz59qYZtCt49xEr\nVWh0griln9IwcKTCbjtJyDmqAyaha80ApS0MXaIHQDXE/Z6fuhP0xl8h2FSh\nodqy4/bj11ssQDdWxfgklCg5k1A4/f3gRilJpn7BkMfvWVNvJKDmN4rLPbKW\nYTXkXjWgiKwJJSu1SB9dvW6Gat7DusnMgN/aDqkNDL/TeVZ64mMayQ69T7l3\nvkwwWhp+qTtiTvTLyuMIG7GKHF9jYqQIcY2d+B9yNTKyyAVnu4uKqBuytia+\nSOgWIirwhkqAGbaPTb40BpBFfJ/Db7UGCvd2ki0vv7c/vABJPEVHUe/pZDfO\nbUp0r3qmMb5tQ4yJC3cR3afeOPNtkAARawOemyspyHkuKzkfjZvksJEfeseZ\nN68SDjN/P2hNb1HBUredU7IlyA+emNtxZSj9brklelUbICxiLxxCfBnV0630\nL86v\r\n=go6p\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-waterfall_2.0.0_1552927534892_0.6401447346682732"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "p-waterfall",
+			"version": "2.1.0",
+			"description": "Run promise-returning & async functions in series, each passing its result to the next",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-waterfall.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"waterfall",
+				"series",
+				"serial",
+				"sequence",
+				"sequential",
+				"ordered",
+				"task",
+				"tasks",
+				"array",
+				"collection",
+				"iterable",
+				"iterator",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-reduce": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "d9726a2c1b5b146350289c50b1cc92b4d91730c8",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-waterfall/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-waterfall#readme",
+			"_id": "p-waterfall@2.1.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ou2oTMqAdu9CuYXr/RV1kTfovMfJncbmxr3MLe+vm8/RXtT/NciGaKtihLexy7p7JxC5wAy49ib233Yf5hwnPA==",
+				"shasum": "4d4bdd1729c7e790593797e79d0ab71d16ff9ec2",
+				"tarball": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9943,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpENbCRA9TVsSAnZWagAAQuQQAIeNNX3+857eowjcE3JC\n75F+zEg5GcvlklP/3nsnT6obiamUxKBOqVmAza/SO3nJAuu6EAjHYoYW+GJx\nBEfY76G/+IV/AYshWsY36mB9j1t+3ddajBxvnKAJcZZ3e3MXZXMkCt7P8hBf\nLdgnd46xv2AsE4Qi36dZeJH8UGSmQ+9TWH5aqqHufDlWwqa9THmpg31DkBkp\na2e2eqFEN3aWPTo+HE/BUToI5qJw/0i8X0NYaKvbgkcuK7PCR9s5ywb+vv2i\nEbdf8HvXUBMlOF3Np9vIipM+AKdMuMdg9LWL1nbJwixxd6z9TJzGCwfTHGjn\nicAjC8i1zJ+XYDd3r3ntlUdaCdc2ihQCglbgPX/CE0vCHjLTgpgFXqQzYkAv\nSr1ixFYCJk2pMZjOO6hXJvF/aBb06VEuWBraeoSt0WlbFy556tLix4Nb4QXC\nselEpFYpd6YnNdsxTIO+PubiDzUqb3JViikLCc0nsv+Okg/UQJWL1TXfON6O\nhGc/6aNxjLLZHYeV2oo8otytpbl2UOW4Y/XUtHe1O/CHQ/yjHnbHeoH8fZmK\ngrc1J7MYzh9kJn7j6f2iTXrr4b/W6MgxArMqjDGzOX4XVmrR/R1OIT3UfMhO\nDUnejxwI6RvYoEmeoGm57DBCZ/zLDKIT1yMGzc8jRRkq6fwnohrdxqyGMQuZ\nP3kg\r\n=Bhci\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-waterfall_2.1.0_1554269019239_0.4172843649691138"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "p-waterfall",
+			"version": "2.1.1",
+			"description": "Run promise-returning & async functions in series, each passing its result to the next",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-waterfall.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"waterfall",
+				"series",
+				"serial",
+				"sequence",
+				"sequential",
+				"ordered",
+				"task",
+				"tasks",
+				"array",
+				"collection",
+				"iterable",
+				"iterator",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-reduce": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "3fd82480f4ebee2d434c9d50d923e35106d89b54",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-waterfall/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-waterfall#readme",
+			"_id": "p-waterfall@2.1.1",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RRTnDb2TBG/epPRI2yYXsimO0v3BXC8Yd3ogr1545IaqKK17VGhbWVeGGN+XfCm/08OK8635nH31c8bATkHuSw==",
+				"shasum": "63153a774f472ccdc4eb281cdb2967fcf158b2ee",
+				"tarball": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.1.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10413,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf3JCwCRA9TVsSAnZWagAAlmEP/1hc7K30FvoiZy1QMH8U\nCEijaOEr0AIfFpqN+uS869PxRFcf6mFkBuGREYepPurJiLiyIiyzwNRUr0qM\nZP+eb6o/RsKDCy/YrfW5nn1V7bUOYJxGSMBRxwLS/FuZeyv6B4VKsLQCu/0S\n1OINcOwrRodZ9trlMGQnOrLRSc5bQllae5XbAfvy7unbmx82w8/lTVeoliRz\npRglcehwPb+VMWk+FIxmuXe9+C/OV3Aj6co4j1tYE8nDrJQeFHMPxrzXMiZW\n0xUIQKjchhQc5Dwjl9K6WlVqqDFhYxFsVw0y7/V2/KlJDw2GxKOsxMfFmSaf\nstiEblmjCmw3ywg64xnWiMFrc9hOlLmpihGgHp0i5FuqFleVPQlhTadDQivl\n1CHnH1NwteR0xb9z+i8yBxAt5kucVBFGxJwHx1ETTc1C75IpAoiOy4ga/a5T\n8P7rSw0rNEBm19BACmSKDZVtKlwf//jYDpJEvBMxGU1cBMrF+nWGTxRMgJtt\nJyKIDFqnIElP76SjCDgbsVH0PnIDcxjXeZZP2tSpSJHU97v0Ip3/o3XR7HLD\nwfsOABzorFgOTbikv+gu6zXYfasnYvBfbYSNp1ThsP1OLzlz9rsv7d/k0F5z\nOjx/7HGgeN9Jzn/gk9cXUgPSf8O1t0/qtdzV36EtEckdhurAmZXL0JZcbdSk\npqGB\r\n=9b70\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-waterfall_2.1.1_1608290478906_0.19685188544092513"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-12-18T11:21:22.185Z",
+		"created": "2016-11-22T07:41:27.598Z",
+		"1.0.0": "2016-11-22T07:41:27.598Z",
+		"2.0.0": "2019-03-18T16:45:35.055Z",
+		"2.1.0": "2019-04-03T05:23:39.356Z",
+		"2.1.1": "2020-12-18T11:21:19.108Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5cbbfadbed5d77236944c50037c79389\"",
+			"fetched": 1613881352610
+		}
+	},
+	"_distfiles": {
+		"p-waterfall-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-1.0.0.tgz",
+			"sha": "7ed94b3ceb3332782353af6aae11aa9fc235bb00",
+			"registry": "npmjs"
+		},
+		"p-waterfall-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.0.0.tgz",
+			"sha": "0ab849c3db232b642f29df4aa8449823544a3feb",
+			"registry": "npmjs"
+		},
+		"p-waterfall-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.1.0.tgz",
+			"sha": "4d4bdd1729c7e790593797e79d0ab71d16ff9ec2",
+			"registry": "npmjs"
+		},
+		"p-waterfall-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/p-waterfall/-/p-waterfall-2.1.1.tgz",
+			"sha": "63153a774f472ccdc4eb281cdb2967fcf158b2ee",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-757f27deac3be4b1",
+	"_id": "p-waterfall",
+	"readme": "# p-waterfall\n\n> Run promise-returning & async functions in series, each passing its result to the next\n\n## Install\n\n```\n$ npm install p-waterfall\n```\n\n## Usage\n\n```js\nconst pWaterfall = require('p-waterfall');\n\n(async () => {\n\tconst tasks = [\n\t\tinitialValue => getEmoji(initialValue),\n\t\tpreviousValue => `I ❤️ ${previousValue}`\n\t];\n\n\tconsole.log(await pWaterfall(tasks, 'unicorn'));\n\t//=> 'I ❤️ 🦄'\n})();\n```\n\n## API\n\n### pWaterfall(tasks, initialValue?)\n\nReturns a `Promise` that is fulfilled when all promises returned from calling the functions in `tasks` are fulfilled, or rejects if any of the promises reject. The fulfilled value is the value returned from the last task.\n\n#### tasks\n\nType: `Iterable<Function>`\n\nFunctions are expected to return a value. If a `Promise` is returned, it's awaited before continuing with the next task.\n\n#### initialValue\n\nType: `unknown`\n\nValue to use as `previousValue` in the first task.\n\n## Related\n\n- [p-series](https://github.com/sindresorhus/p-series) - Run promise-returning & async functions in series\n- [p-each-series](https://github.com/sindresorhus/p-each-series) - Iterate over promises serially\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-p-waterfall?utm_source=npm-p-waterfall&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
+}

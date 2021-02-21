@@ -1,0 +1,1637 @@
+{
+	"name": "npm-lifecycle",
+	"versions": {
+		"1.0.0": {
+			"name": "npm-lifecycle",
+			"version": "1.0.0",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"graceful-fs": "^4.1.11",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "500c15b62cfa07c33fad1d9eba01156e185d265a",
+			"_id": "npm-lifecycle@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "kat@sykosomatic.org"
+			},
+			"dist": {
+				"integrity": "sha512-Sru84trCVlaptxZR5kNjtljKzcSlOrJT2hTh7MiKD5rx+M77XFxf86kZ1s7wTqOcUHq4Hb1T1QmsTLkiCooHYg==",
+				"shasum": "9a478e805d2d5aba6486e24ce39c646f3e9839a2",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "zkat",
+					"email": "kat@sykosomatic.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle-1.0.0.tgz_1502843319884_0.5116842465940863"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "npm-lifecycle",
+			"version": "1.0.1",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"graceful-fs": "^4.1.11",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "0329828b5e865710b5f7551af8661de3c3273d99",
+			"_id": "npm-lifecycle@1.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "kat@sykosomatic.org"
+			},
+			"dist": {
+				"integrity": "sha512-Pw/qy5rAo5wo+H2SaMg8Qap57kU1npoMdLm1bI0vXEP0szWL1KeWbC4KKZyuVrHfxr0tbCmeXa27/yrE7T9aQA==",
+				"shasum": "21d9505650f74550c2060a06c05370d2f4bbf9da",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "zkat",
+					"email": "kat@sykosomatic.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle-1.0.1.tgz_1502849463619_0.8950041274074465"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "npm-lifecycle",
+			"version": "1.0.2",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"graceful-fs": "^4.1.11",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js"
+			],
+			"gitHead": "85be194b4c69ae72faf509a5eb7bd642e4ed39e8",
+			"_id": "npm-lifecycle@1.0.2",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.3.0",
+			"_npmUser": {
+				"name": "iarna",
+				"email": "me@re-becca.org"
+			},
+			"dist": {
+				"integrity": "sha512-tuSfwKmTiJMVeQdvAfYJ1I+sC6tTpN2W6UWuHPkCy4FtM29Oc+DsuMDdTSaJTmbTairCtx9gXPI8DqZL42GF5g==",
+				"shasum": "1ff54561a7cec3813e89c22a362de4a1ed7e2ae5",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle-1.0.2.tgz_1503007623056_0.7617920208722353"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "npm-lifecycle",
+			"version": "1.0.3",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"graceful-fs": "^4.1.11",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js"
+			],
+			"gitHead": "3526a0a83f9f69eb4ed1e0589a3e2765e1de1bd5",
+			"_id": "npm-lifecycle@1.0.3",
+			"_npmVersion": "5.4.0",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "kat@sykosomatic.org"
+			},
+			"dist": {
+				"integrity": "sha512-CsdargNux7vbv2oeJg7Jb3AH6LPydR06s051A/6tNBGtHo4USlCzfbRn6mSaJELA0sZpaWfqVUNFQ1arOb6rIg==",
+				"shasum": "4cd60543247dbba631281e48ce665ffd52380cce",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle-1.0.3.tgz_1504272353320_0.7481175009161234"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "npm-lifecycle",
+			"version": "2.0.0",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.11",
+				"node-gyp": "^3.6.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"sinon": "^4.0.1",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js",
+				"node-gyp-bin"
+			],
+			"gitHead": "ca5f92074f2861be437c0102a74826a48d7c773f",
+			"_id": "npm-lifecycle@2.0.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.5.0",
+			"_npmUser": {
+				"name": "iarna",
+				"email": "me@re-becca.org"
+			},
+			"dist": {
+				"integrity": "sha512-aE7H012O01GKXT9BWnsGMLVci+MOgkhpSwq02ok20aXcNHxFs7enfampNMkiOV1DJEU0LynzemwdjbtXahXKcw==",
+				"shasum": "d66fba59e7098dbb5862df66c0d81ed75108f1c6",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle-2.0.0.tgz_1510952793193_0.9286923296749592"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "npm-lifecycle",
+			"version": "2.0.1",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.11",
+				"node-gyp": "^3.6.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"sinon": "^4.0.1",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js",
+				"node-gyp-bin"
+			],
+			"gitHead": "5c70e52c075c7cd5b88361d6b9414cce72824cde",
+			"_id": "npm-lifecycle@2.0.1",
+			"_npmVersion": "5.7.1-canary.13",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "kzm@sykosomatic.org"
+			},
+			"dist": {
+				"integrity": "sha512-6CypRO6iNsSfrWOUajeQnesouUgkeh7clByYDORUV6AhwRaGfHYh+5rFdDCIqzmMqomGlyDsSpazthNPG2BAOA==",
+				"shasum": "897313f05ed24db8e28d99fa8b42c31b625e6237",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 30782
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_2.0.1_1520473345712_0.6195919833284764"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "npm-lifecycle",
+			"version": "2.0.2",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.11",
+				"node-gyp": "^3.6.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.1.0",
+				"sinon": "^4.0.1",
+				"standard": "^10.0.3",
+				"standard-version": "^4.2.0",
+				"tap": "^10.7.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js",
+				"node-gyp-bin"
+			],
+			"gitHead": "cb3573c0ff78453d7215432fd22784bd1d218828",
+			"_id": "npm-lifecycle@2.0.2",
+			"_npmVersion": "6.0.1",
+			"_nodeVersion": "7.10.1",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "npm@zkat.tech"
+			},
+			"dist": {
+				"integrity": "sha512-PP1D2YDolGzn0/zscSoUtx399nfRhKf51/tdi3h8FtAmvb5lP0O+UezkynyBqgU3fx+X2B2GefU9mv13y1Xo9A==",
+				"shasum": "2d2b944be5f7a807491b31304745b25dccfe4831",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.2.tgz",
+				"fileCount": 8,
+				"unpackedSize": 31943,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/HuDCRA9TVsSAnZWagAAniAP/1Los+1n7ZgtUSSbyiP1\no+e3pRjPPFkx/wGQSXivt6z1p5I1T8oM99jBIZQI2cKka8zK0wMzpHNdWjEe\n1kZ96E1H9DWQCI9zgPJ/5qX8bJOTGLIsc7JzA8fF2glEBWTsakE1S+2lFZeu\n1QaoWjv91lkBt9vvnuxi//P0/Igu5fjBqfLjB6R2HntWEfBQ0lGZFuILD8k0\nD5w9EzgT+kCmfBvBXBKxhyJe9YNOFM2E6YQB5HTdVymSpw1Eq1OblkxbEeN3\niToP9rAaX9T3/diIr3EgQ6fE9sYhYdoxHOBNtQ8UdLC2/lEtceyIBu898OGE\neccufaSB8Jw/09vhX5FynGa/DRj95yqoYdhdfsfVCVCBSzoqc0fwZuimROVQ\n4Uc8QEnf7kiW75aG9XTQ5soqKmbM72MMUPCqwnrF+wTyEKBaxLW+TyxA0CVf\nQJ9EAy1cB9KmxbRPEDzx5HwsKIJ9Gm7pNsCZ3pjnGM7fEDlYRl0iF0CxS2Lk\n00HoWGVaqK8yib22PB6oUbiQ7saP1DXsx7eHVWdRNTq2fyx5XWUBhCPMVMkD\nAzqQA3Bi/LKcoZChCK6VCRrIt2ybZqPFcoAXtqJgh9WrHqXyrcC1L20pqYMz\nb24qy1E08CaNaebXoVChTrLp7KbYGXNk17/qUIK5oMY50r4+C2kwXUqeWQgt\nWob3\r\n=WKmT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_2.0.2_1526496129702_0.23081916734091967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "npm-lifecycle",
+			"version": "2.0.3",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.11",
+				"node-gyp": "^3.6.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.0"
+			},
+			"devDependencies": {
+				"nyc": "^11.8.0",
+				"sinon": "^4.0.1",
+				"standard": "^11.0.1",
+				"standard-version": "^4.3.0",
+				"tap": "^11.1.5",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js",
+				"node-gyp-bin"
+			],
+			"gitHead": "94c1a4579d388c1cd9765cb200dfbb1ef823828b",
+			"_id": "npm-lifecycle@2.0.3",
+			"_npmVersion": "6.0.1",
+			"_nodeVersion": "7.10.1",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "npm@zkat.tech"
+			},
+			"dist": {
+				"integrity": "sha512-0U4Iim5ix2NHUT672G7FBpldJX0N2xKBjJqRTAzioEJjb6I6KpQXq+y1sB5EDSjKaAX8VCC9qPK31Jy+p3ix5A==",
+				"shasum": "696bedf1143371163e9cc16fe872357e25d8d90e",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.3.tgz",
+				"fileCount": 8,
+				"unpackedSize": 32013,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/HxmCRA9TVsSAnZWagAAaKMP/jLD5JRtGTvGW/PgvKgc\n4Qb+r5UVVWxExOK+lez6h0UqwCr+SAHYnD3qov5RM5D0aJkQXsox+hOVJPmE\n+68qRVat5Gsej8U3xo6rUjunjxBJEdeihFj7J5/NZOawnZvPvgWPjkPj2WSK\nxsgYdMotpmrzz43KID288zyfLmMgiz+IYuQwscodFm3P1H8LX9WmRCjvLaGX\nZIEQ5VExxWlJpGwCek7JRu1iDLTzqckguDDocGp729+IQSqRcgaKHCje455g\nEG6xgXD2lIR8Rhm6s4yp1QUpOIpOcBJs49ZND2+lD1A8ByHpHedKAzC4uXAq\n1UDdXsoOYAMrEDGViQBXK1qSjHMVsf68M5jj7C9QgPEq3v7reNPRAHLoHXfB\nA+1LBVLPG0GlBw/vmlqK6UMDh4lvRd2NG2xRWLPoE2oMyGgj3PZ9xcJnMU37\nUSw5gWFFz3Cp9H5Ckh6Ao+MICialvf/3fBma8ZqYAnnWGv63gpsKN+ey8bLV\nRYN4NjWESGjddUOHEvRedSl6bQAxD1v0cJCW0IUcUpUQi0FHWRbp9hktMmBV\nM49N6OjsGO5ax4zz2F5f7f6evnQqs6g2d6flNnBf5Qm++LtCZ8hzuKTzXwt7\n9zJ/rkkY2KWfBmVDhIiH68OsWg/Mx3SUpX/FRvzzI6qXo65Fu8ngYLjJlJB/\n0vh5\r\n=g4AF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_2.0.3_1526496356947_0.29204121281522055"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "npm-lifecycle",
+			"version": "2.1.0",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --coverage test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.11",
+				"node-gyp": "^3.8.0",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^12.0.2",
+				"sinon": "^6.1.5",
+				"standard": "^11.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.0.1",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"files": [
+				"index.js",
+				"lib/spawn.js",
+				"node-gyp-bin"
+			],
+			"gitHead": "d7a014f9393da76ee0ecf6701be84ed1ea613b83",
+			"_id": "npm-lifecycle@2.1.0",
+			"_npmVersion": "6.4.0-next.0",
+			"_nodeVersion": "7.10.1",
+			"_npmUser": {
+				"name": "zkat",
+				"email": "npm@zkat.tech"
+			},
+			"dist": {
+				"integrity": "sha512-QbBfLlGBKsktwBZLj6AviHC6Q9Y3R/AY4a2PYSIRhSKSS0/CxRyD/PfxEX6tPeOCXQgMSNdwGeECacstgptc+g==",
+				"shasum": "1eda2eedb82db929e3a0c50341ab0aad140ed569",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.1.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 32389,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbcdSfCRA9TVsSAnZWagAA5dMQAJM/1e9ROkPScAi6OnTF\nvxkzVhlajSo9wDE1Dt6ekzjhAutttIMylmrmni0xKeMyXZ7TNci1V1sZDn/z\nXU71439CfrS+SWBk9S9F4IEQptEiGK3YSxoPz6+QD4+biN4Jz4EvW3KCtC9R\nzQirG5FZcqJBrBa//kQRpfGBFscq9ln5acT/2oIDTxzl+Vvp7TxWYSe3vNqt\n0vuxLH5o9eGH9EWTmSANKGUVJSDNtiQr3RdjQoGKrRhfUzrPrXdtaZHgV5pq\n0zYhm3/UZvAYbJrgxIsHw3BywYGbxU5dmb+GglB8XnQJUf0nLeMRhIQT38Xd\n+rnArVIUkZ8iu7zPI/kHIeTuAmOeXJeno1VHzUfVYPO78Aa+yMmpiao5s9wy\nmbABASk0VhkHq/CAO9u4smx1qhv0Qjc3pz76IcE1Hudeq4f4ICjEsHUvhP++\ndTg/XEIobodFwgVdKOBvFEYxqI/4ZfTv/LVOxeKP770PrSlW/t0Y2t6e3Hdq\nAxkumbdRRpt/aH1n/ZvzncL/XV4rWygbOt+mHz8YUFO/LR7aeI+tpTqXjEwn\np/vpziJIivmDwFzOM7Muzm0+2M1fzDwWbbH1NlVueSL2EcizIlN1v+e5QRI2\nfoynVzs+2poBHv+zPIdO/0IRKrZJ1HVj4KIO19AL46dtrU5s5focwGnxblJh\nQkJn\r\n=7ne1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "kat@sykosomatic.org",
+					"name": "zkat"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_2.1.0_1534186655041_0.9955370483871246"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "npm-lifecycle",
+			"version": "2.1.1",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^4.0.0",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^13.1.3",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "cf5f5ca6d2bd095cffc0b995195a688df644dded",
+			"_id": "npm-lifecycle@2.1.1",
+			"_nodeVersion": "12.0.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-+Vg6I60Z75V/09pdcH5iUo/99Q/vop35PaI99elvxk56azSVVsdsSsS/sXqKDNwbRRNN1qSxkcO45ZOu0yOWew==",
+				"shasum": "0027c09646f0fd346c5c93377bdaba59c6748fdf",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.1.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 32601,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc00GuCRA9TVsSAnZWagAATPIQAIR/Xe902g1OeSqEKMYg\n3RDLOXWRegkkVQi09l/iJ2wuKfokn3CPuenm13Wn7oBueBLJ6rsgdgyaOsIG\nNuMk7xhDx8mC51xCKFfcF4ZbuXcBh7i6O/uBzeRK4Re6Pq+PSOJvWnHo3Kwh\naJOjRaK1/Bsz3WTccVAb58Lt+rv5d6QaJJKT94Z9FAqnOenPsjtnj2k3x4uE\nnJvzfpruDlV06ioKO1ZwTi04GxDcAR+l17Qe6lzjhjBan+BSCVczoHQ6By4I\nnACN9EE96KtZX3TJLWKB9DtUWdJ/1J97r81/qJeOSC5o1EBftwYKB1381eiQ\nRIkTyzt+YWV1xZjHLAEqjkVwSp4JDxMt7mku5bawhrFKgZWJehN8oMwHg8hy\nTTDGVyaLjimo3u+jq7N4vM32O11AAM4FvicNdM86svlwSil5XVf+b1utFl3z\nInAXNfgvqbJueJ9iLQIyIA1o2VgL/92ZS899zW44e/b7bSBUVBVgwLK2Bc2K\n7bWQ5t4p2yRUC2faJDEwmFVSdsIEKoiWQWJM/nv405F73XXnKGx3fpC2vEwG\napc3Yusc5kBO5/B5E1a9S1sidMghv5G7yvGfYV6tqknSBHwqSrCMh8qkU+Po\nG35+N+dXVuhf1YPyEqIWw29TYd/b4FZUlZ9Id0EXZJg4wm74Zx7ScRr+1QrH\nCAku\r\n=vpxB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				},
+				{
+					"email": "npm@zkat.tech",
+					"name": "zkat"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_2.1.1_1557348781835_0.37003869159604297"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "npm-lifecycle",
+			"version": "3.0.0",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "b6260aa3015b61fbefcc2233504f7d9e8a3d3349",
+			"_id": "npm-lifecycle@3.0.0",
+			"_nodeVersion": "12.4.0",
+			"_npmVersion": "6.10.1-next.1",
+			"dist": {
+				"integrity": "sha512-/x/8zxo5Tn3qWj1eSUXgyr2pLBnEoFkpJQE/8pRwrEpJI4irZM0+YSp7W8NGDLzN6SaBOGOPaJV9O2dhY1IWwQ==",
+				"shasum": "a3018cb8f1bc5e63a7f85d79f58f7701b2699ac2",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.0.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 33131,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJkcVCRA9TVsSAnZWagAAGxQQAJd7OHHySBodcFGTT/8n\nmPYoJci01rYpeiJ2G+HF/G1u2cjA0wvyDYNcusv2A+isZ/0D3A0j7gRxWe/W\nqcdqt0YL4lHKjnUTTl32KrGcrNRC62R4c/Kd+RRkrcNSov5MhLqtGOAp47K6\n17AQosGh1qxQj/dCIbwfa6MVkerjy829XHol3CYbDp/2DDyumj0MtJVw+q2r\n8HnsAIX2Vf3vdEn2RqNlYAXov8DPJuRlzUU4Gk/ziNVC/wHNYpk/f91t/83f\n1U52OM8D8iybrsgKKTVVXwIf9wZb6m4aZwtIoomiYDWEA5GHQA/Uwong8FMK\nrLTSHsKeHwjcO4YK+EMQ5WLvSf9Nt4Ozxaz0R6Vfut807PCwIAZrYhLWPYbN\nN/zLq5rDM4JNmbFzatPQTShJ6+iyOA9SRremlPNkww5++6xYDzo9Cw+2KuPz\nCCfDHfhjXR7OfcDz2Z2Fep1luLWxcdmfytzRrEJirZIL0889JQdVUh3jgOGN\nBYgTWEYB56hdK/WVQXTXyez8RGMkqscEXCGQgS4P07omoziCZteyVULeHsiG\nAiEzKRybJAKHhhLHTSOaimcWipv+n3pMvze7ypD6mN2NRQY1K01WTtzmuIvZ\nMIG3To7M5GChfcVFVFk2+ujhrAhRASOufS4EeL7DnDwMbEBgDP9yq2ih4m5+\nJC7k\r\n=NoLS\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				},
+				{
+					"email": "npm@zkat.tech",
+					"name": "zkat"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.0.0_1562789652838_0.13579711675106387"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "npm-lifecycle",
+			"version": "3.1.0",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "d97ded5812e6a311b406def13b06d35bd18c3bf3",
+			"_id": "npm-lifecycle@3.1.0",
+			"_nodeVersion": "12.4.0",
+			"_npmVersion": "6.10.2-next.0",
+			"dist": {
+				"integrity": "sha512-G11f/KhHvvrBN9uPG9rj/3plT5eu2T4NKurP4diIDnHQHleppPhT2SaCJq0DQG2WHrAgI+8pH0kKQlwbAwHQNg==",
+				"shasum": "684d8340e85c8ad1893c231e50903d1b78f46af4",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 34510,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLssgCRA9TVsSAnZWagAASAIP/jszMgURgqpcxWJiq3sF\nb8BODFh+X1H+nrkzyDN5Y5CSzpUp7PellLkQULyGt0mUB8QgHQKtGyTBsUrQ\nXC/itWg9QHglLpvtvdIj50BCLKZ+TLb964y/vxyRJthUotR6lIlLo2a2wI3x\nsl+xyLY35GbFOCGayUWSCwVbc1lLjI0goOlhXhmqa0rl5CLlPErGSLPQRRv6\nliau+/IiGzNl8QJ6xQvfWYhPTdwcEvvrzXscBXw86wjGVUEpnZkJli8/2o+S\n8HdH40mfaZcyCFBi6zn2w6y5R684OUmKaUrzLhJ2v9TZQCkJdR0+eo40JeEI\nBI2Zpyvo3kfAurQCrgXZjb/1q8lTBRnOAZR933fSAYefzf7qjOFudazejENE\ni4yMrNl32yNM9qRSCsVozoSoDstYj3yPJHSnlXvUomk2z1bt0lZGh+rlZ7cj\nUJAWggTJSnM/VGX2f5h1d+yJS1EtqFxWAFgWhlSmFJAmyIbnhcahr6Nh31AA\n/VZ3FRFiN6b50M2RwdZezf9fZd2B98PBHToW9dyD/BPWeQefFFEygaWDSB13\n3ONeXYxKVV8LQy4HoQ+dnaI3n2wuL6nuMyL7lKoxFLxsMspvZHX4DGyps1aQ\nNMk/Lo0tcz3HmuKZsqzTgqPGYUkDVQjKhAtBPs2Nj9+9z9/j15yX7/FvoLHD\n8HUN\r\n=2vin\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "me@re-becca.org",
+					"name": "iarna"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				},
+				{
+					"email": "npm@zkat.tech",
+					"name": "zkat"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.0_1563347744169_0.8935594935839921"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.1": {
+			"name": "npm-lifecycle",
+			"version": "3.1.1",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"snap": "TAP_SNAPSHOT=1 npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "30ffaa661c9b22250a5512aa96837fb05d3e5790",
+			"_id": "npm-lifecycle@3.1.1",
+			"_nodeVersion": "12.6.0",
+			"_npmVersion": "6.10.2-next.2",
+			"dist": {
+				"integrity": "sha512-P3Fwxsm9vpirj9POftyAQchbdaxvQWsd43HUvxQmvy5wlK2MgdG5QIWDA74zVR6rmgnTEukGyo3U3OcEToDiLQ==",
+				"shasum": "706513ae8194f24ea6420ef4d8d2ecf746e08b74",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 35112,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdNioQCRA9TVsSAnZWagAAmFUP/13bKuqP6YZ7+9Szezls\nQDizWUiNWgNHyAq3j2Z8DYvgvAlVqTueIxY8XOeAv1Ssd/F0G/WNnbwOT/SA\nrtFqaFehKnnPdU4nB2Uoh5xInZ25op/5J92+gxoNj9K1V4hczZqaYqujekWK\nQV5OqgECrx7elNOFumLO59rJFgbsqggWX/g2Sc6nCPZ9e6WIrHv1bigbCb6q\njPl0k1hYW7Z4Ed7dweRsGxZ7ctOX+wlmqSrEHa6erEJn50eIY3UZUn1ucDmy\nJfauHU+JoboVuVCH7QRgeeVPqKDJS3UupIlk+pa0mjVM3C7u3os2NvloBrSe\nJx4szSTDRkEvfGUUuF+rkXTjFXkjhLgCWAyQk3J6y3AT2ZEsohVt+uXl8DIc\nen4BbyBPe9z3IeGQRVvmdUc5m9ARnyMBx121cYPpCC36vtbdCP/hGuJoraFe\n42a535wYs2ONiUHECZ8cm1UGQfy18Xu6sHDfzpSwXica8jRYjctrDCAIbszx\nepd1nuU3titpuafKL4VeapmgsOJfEqzMuDYTuLcjR61dq2WvOKVyslSZZjon\nYdLcH2wLWdCzJw7Zfji3Ezdix36yY8megy+aZm2SK3xsvT0ZVe8ZmK1O1ho/\neqOXIxR7vQTT57i7edRuv3svYPZpBf75QWEF0YYqMK6ZTFD0TUrlK2r0/CjY\nuYc3\r\n=rLl0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "evilpacket@gmail.com",
+					"name": "adam_baldwin"
+				},
+				{
+					"email": "ahmad@ahmadnassri.com",
+					"name": "ahmadnassri"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.1_1563830799636_0.39854283276504"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.2": {
+			"name": "npm-lifecycle",
+			"version": "3.1.2",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"snap": "TAP_SNAPSHOT=1 npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "355ad533f27046c1f15111bf424d06d86afb320f",
+			"_id": "npm-lifecycle@3.1.2",
+			"_nodeVersion": "12.6.0",
+			"_npmVersion": "6.10.2-next.2",
+			"dist": {
+				"integrity": "sha512-nhfOcoTHrW1lJJlM2o77vTE2RWR4YOVyj7YzmY0y5itsMjEuoJHteio/ez0BliENEPsNxIUQgwhyEW9dShj3Ww==",
+				"shasum": "06f2253ea3b9e122ce3e55e3496670a810afcc84",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.2.tgz",
+				"fileCount": 8,
+				"unpackedSize": 35306,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdNjiQCRA9TVsSAnZWagAAlVEQAJdyRAAo1nh+gDPMrAeo\ndWy8N5cts2f57r3VTrYycE7ElUIUamAXURNTrfY7BLHdsc987rHZj8XcfoIN\n5ApaCB2PBBX0J9hNMB/hxMpvk7QXyjIsXSab5ehYVqkGK0Z482YThokJm2Hv\nilYRzHA+J2nYB5ahpjUdDoP8+nBrlP00YGCsAnNuDzxKqXoC0KTw+i+NFcam\nAmQXeVuzzskRyhFMhodf+h+0GP0QTCBtcvu/rDHrXaNrwlr6+fHN3LmA125N\nIorQ6C5hh+xQTSu8Wg/P2XW7y9gvqjmgkpstnFDwo2b0vaTqkyXPKOiCjFHt\n1sK8HBbh8v58oL+eqmWpsT34or5EQ2Mgj9cG5tedwFnJkdDrE6L2CjMbW4Dz\nAl7j9izKMFqjjhj3aodcSgMxK4G5wLVVIXua9dIAEMO1ECgQm88hDd362SEA\ngachwsosFXR0/D31MmvBXMOhE1aauiTdR7p6+aIDIrWP/hEVnIfP1/wg3p3E\ngbw8a9SNDNqXYy1HxyRFdDq7qPOAcWReeza/dsiGkROXRcf36Bbv0z9FYlGl\noWCRB7zTzDwy+Hg0UcfMydHGG38OTEnQrhy6+19EGvx93MPHsASnls+aKV9o\nE+C8FIHcBt0BlF8Dq1yUnIG5reZ5PO8jPRmv67jjrBFaWSMn1bt7sryw7tT1\nvvsd\r\n=fjgo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "evilpacket@gmail.com",
+					"name": "adam_baldwin"
+				},
+				{
+					"email": "ahmad@ahmadnassri.com",
+					"name": "ahmadnassri"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.2_1563834511925_0.9922594728234242"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.3": {
+			"name": "npm-lifecycle",
+			"version": "3.1.3",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"snap": "TAP_SNAPSHOT=1 npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "188414aeac20e9d47085359c5255a4c27eb230b0",
+			"_id": "npm-lifecycle@3.1.3",
+			"_nodeVersion": "12.6.0",
+			"_npmVersion": "6.10.3",
+			"dist": {
+				"integrity": "sha512-M0QmmqbEHBXxDrmc6X3+eKjW9+F7Edg1ENau92WkYw1sox6wojHzEZJIRm1ItljEiaigZlKL8mXni/4ylAy1Dg==",
+				"shasum": "09e9b0b6686e85fd53bab82364386222d97a3730",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.3.tgz",
+				"fileCount": 8,
+				"unpackedSize": 35673,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUdMSCRA9TVsSAnZWagAADc8P/2JMjvRsaFQnyN/UReZ4\nHaC+jXFq2od5tJvDzUAT72YBzZL9Ps/c8CV/TliO6gGmzvUb0vIdjuJc537F\nFywMutnqZ+BpwaWTjM2uVEDHg/ZVSqGI/AYUl5zwlChqVEGbSJSgiVmbhDWn\nMSX8Tz2yONcLHDC/rzun9quYmejPeDzvJu+/o6kbr5YkorNjkVKxHLBaykv3\nqeQ5XsCy4PLZ3AtX2R0/HfLUbbDxu4PjxGTt532dsiKORb+/ikeAIkwVMlyE\nrnae/zfvD3fK6GhQ8F9yMHBu7Sqtm+1QbFm4N2XkUfrPmT0/uRM50V1Abv6q\nfFFIkWgkwQcncQvQ1pYtHzcHU19LmZc9KSR7dAqyid+ReJVU7wxMh9PlAG+s\nm+f07p8i1+dhTD33BUBYmIQZwsYGyFmbgDWrm1Gs3kpIEFQT+EBFrCXXA6Jb\n+H4lTGh739l16eSOMzWjOlEe530nOgGz1ZZ02bFiB6gFRrigqMhBzxAl9R3E\nyvPOkl/RqBE0x867cjgDKQ7d4yaIav23cXNKAqb517EeYYL52ALWcGIyCIX3\nXn6sjh6E06wJG7oW6po6mAqZR5Ld+kP+lfS3b13RWJKlSv0GsUEzhf9XkkvL\n8yua0a9evXaM/0QylL4ZtLzN3hq3dLZ86rT6EZ4LSbjw+cavjM19G+gLreO9\nzOJm\r\n=8bWK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "evilpacket@gmail.com",
+					"name": "adam_baldwin"
+				},
+				{
+					"email": "ahmad@ahmadnassri.com",
+					"name": "ahmadnassri"
+				},
+				{
+					"email": "anne@npmjs.com",
+					"name": "annekimsey"
+				},
+				{
+					"email": "cghr1990@gmail.com",
+					"name": "claudiahdz"
+				},
+				{
+					"email": "darcy@darcyclarke.me",
+					"name": "darcyclarke"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.3_1565643537657_0.48571698783147643"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.4": {
+			"name": "npm-lifecycle",
+			"version": "3.1.4",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"snap": "TAP_SNAPSHOT=1 npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.8"
+			},
+			"gitHead": "e2270ff3fd49ca8d0af2af13d404e60e296b4244",
+			"_id": "npm-lifecycle@3.1.4",
+			"_nodeVersion": "12.8.1",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-tgs1PaucZwkxECGKhC/stbEgFyc3TGh2TJcg2CDr6jbvQRdteHNhmMeljRzpe4wgFAXQADoy1cSqqi7mtiAa5A==",
+				"shasum": "de6975c7d8df65f5150db110b57cce498b0b604c",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.4.tgz",
+				"fileCount": 8,
+				"unpackedSize": 35994,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdgmS1CRA9TVsSAnZWagAAJsUP/2fEW8hhjBEA+i78WZ1o\nAfhRvElsCvw83A+FYTZ+OfEurZDMwIT2jlwm0lxsjbwrH9J/GXHneMkxUYjH\nXkVxMBEhNrSjQTfx2yozDhNt3uHlGDBwW1c4qnt4aMrwgiHx7h8lZHV7ij+S\nFLjOPOqoMbzqXKZctBLc9NRplI0Z5yqHeSgbROhizwNdQV25PVUu5uWeGBhW\ncn77sy3BO7IORXNiaUsBX36OnlTmOCwNmPx7X4k78WLGf1q4MwGb290ThYSl\nT/Xm2SvPhpONuY2KT7XeUMtw7tG20s3MMqJQzBvVQSe8vSg2rORmNocWL7CT\nTx25yuFYrlCuZIEIPKQgqjQ/aImintx4AkSqMT4VL09ngiDRBkszvWy5i9TB\nPRZOnimqSvLFMaNMo0F+FRM3xQVU68fv5L8h16VqfmJW+Kg1UbXpJ/GesDyw\n2nNKdbFmT3Dk+z5yw2qG2FqxdNQlmeKZMaQN3seqUFg1Na5hrrKd5ozudkyn\nEKuDk5aUf2brBWuHVEmTDDk8uKi+tjvDpun3w3Aa+gsT7TguJPkUBstZ3sIN\nxxL0+2kkGikS9AP9cKzSO0jwGmCRwBOoY+8DgC/LV8U4D3Iz76IJUhOawxhL\nANpaVZjrlksEK9YF3e8cJ0Q+oT8CeoKSswBepf5AnHh8DQq6T0nXb3cHPLm3\nXaAV\r\n=UGwe\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "evilpacket@gmail.com",
+					"name": "adam_baldwin"
+				},
+				{
+					"email": "ahmad@ahmadnassri.com",
+					"name": "ahmadnassri"
+				},
+				{
+					"email": "anne@npmjs.com",
+					"name": "annekimsey"
+				},
+				{
+					"email": "billatnpm@gmail.com",
+					"name": "billatnpm"
+				},
+				{
+					"email": "cghr1990@gmail.com",
+					"name": "claudiahdz"
+				},
+				{
+					"email": "darcy@darcyclarke.me",
+					"name": "darcyclarke"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				},
+				{
+					"email": "mike@mikecorp.ca",
+					"name": "mikemimik"
+				},
+				{
+					"email": "ruyadorno@hotmail.com",
+					"name": "ruyadorno"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.4_1568826546613_0.007987659445369832"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.5": {
+			"name": "npm-lifecycle",
+			"version": "3.1.5",
+			"description": "JavaScript package lifecycle hook runner",
+			"main": "index.js",
+			"scripts": {
+				"prerelease": "npm t",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"release": "standard-version -s",
+				"test": "tap -J --cov test/*.js",
+				"snap": "TAP_SNAPSHOT=1 npm test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/npm/lifecycle.git"
+			},
+			"keywords": [
+				"npm",
+				"lifecycle",
+				"hook",
+				"runner"
+			],
+			"author": {
+				"name": "Mike Sherov"
+			},
+			"license": "Artistic-2.0",
+			"bugs": {
+				"url": "https://github.com/npm/lifecycle/issues"
+			},
+			"homepage": "https://github.com/npm/lifecycle#readme",
+			"dependencies": {
+				"byline": "^5.0.0",
+				"graceful-fs": "^4.1.15",
+				"node-gyp": "^5.0.2",
+				"resolve-from": "^4.0.0",
+				"slide": "^1.1.6",
+				"uid-number": "0.0.6",
+				"umask": "^1.1.0",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nyc": "^14.1.0",
+				"sinon": "^7.2.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tap": "^12.7.0"
+			},
+			"gitHead": "bfb6f73853a222a3f35a1a6651b0756816e2ed87",
+			"_id": "npm-lifecycle@3.1.5",
+			"_nodeVersion": "13.10.1",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-lDLVkjfZmvmfvpvBzA4vzee9cn+Me4orq0QF8glbswJVEbIcSNWib7qGOffolysc3teCqbbPZZkzbr3GQZTL1g==",
+				"shasum": "9882d3642b8c82c815782a12e6a1bfeed0026309",
+				"tarball": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.5.tgz",
+				"fileCount": 8,
+				"unpackedSize": 35053,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJee/OACRA9TVsSAnZWagAAi/cQAI2mSt48bUHnGWgXCCif\nSV/oD15KQQTjZGLd8lrz8GnjBjvFsDPARW7LcqSQ9Gr8WVWOltRfJa6ZvF2m\nxXpbyQnUk+pXlOJ3T4m+tyTeri5detUp2p08bkacZY84FJ9F64guAPugIQ7Z\n93nlFOrsOHokKog4VEQaEesEqnnUH6CHQE0bRccYmemtN0619Vdn4ZSzvggP\nEMWnAlxVlFXK1CPkahjvwYeETRp5Teb6WcQD+ZhNHZKjQIT1EyXFeM2f6sU6\nuMIjrASVrNQ+wuooSGwGMxV6vyPF3kU8CLbA0dvqVLb6/8YNSa4Bvz82purs\nK+5sNfCgtDeI6J/Kxqm5IuFiPx9rhsLtJwd6RNvHzHMZ7IelkKnPS4a1f/vW\ne3jVZ0JLp2vf7ukIlauBOODeFTcfPb35gttZg1t2B8a2qC3YpU/W3Xnh70xj\nWU6JlgXQtAV+MebUiwhfnwMWNNBbzwSSpxtpa7L6JdZVQvDX0bb6CB6RYs4W\nsQrFGHY0ZP37sUd01QO6Aoa1UOtHWTSAi9Ab7w+oIImKiThjYipFxtBjXio4\n7AlB1LZkuh3kqxugU4XcVJPP+S3YZrchpM/VbYhbJwlad/rMtxd9vv1Cs7tW\nB+MQqqA1iO9qBaF5Ww4twxki0t1XyMJ3KR2WbaRqSqMkDpSZ2UVbuc0K4f8a\nXNfT\r\n=HHKN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "evilpacket@gmail.com",
+					"name": "adam_baldwin"
+				},
+				{
+					"email": "cghr1990@gmail.com",
+					"name": "claudiahdz"
+				},
+				{
+					"email": "darcy@darcyclarke.me",
+					"name": "darcyclarke"
+				},
+				{
+					"email": "i@izs.me",
+					"name": "isaacs"
+				},
+				{
+					"email": "ruyadorno@hotmail.com",
+					"name": "ruyadorno"
+				}
+			],
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npm-lifecycle_3.1.5_1585181567777_0.808357888947381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-01-04T16:48:13.051Z",
+		"created": "2017-08-16T00:28:40.160Z",
+		"1.0.0": "2017-08-16T00:28:40.160Z",
+		"1.0.1": "2017-08-16T02:11:04.545Z",
+		"1.0.2": "2017-08-17T22:07:03.157Z",
+		"1.0.3": "2017-09-01T13:25:54.560Z",
+		"2.0.0": "2017-11-17T21:06:33.849Z",
+		"2.0.1": "2018-03-08T01:42:25.911Z",
+		"2.0.2": "2018-05-16T18:42:09.798Z",
+		"2.0.3": "2018-05-16T18:45:57.044Z",
+		"2.1.0": "2018-08-13T18:57:35.147Z",
+		"2.1.1": "2019-05-08T20:53:01.986Z",
+		"3.0.0": "2019-07-10T20:14:13.045Z",
+		"3.1.0": "2019-07-17T07:15:44.285Z",
+		"3.1.1": "2019-07-22T21:26:39.782Z",
+		"3.1.2": "2019-07-22T22:28:32.135Z",
+		"3.1.3": "2019-08-12T20:58:57.908Z",
+		"3.1.4": "2019-09-18T17:09:06.801Z",
+		"3.1.5": "2020-03-26T00:12:47.907Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.1.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"272bcbb2d07138969e062e7029e0d469\"",
+			"fetched": 1613881359082
+		}
+	},
+	"_distfiles": {
+		"npm-lifecycle-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.0.tgz",
+			"sha": "9a478e805d2d5aba6486e24ce39c646f3e9839a2",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.1.tgz",
+			"sha": "21d9505650f74550c2060a06c05370d2f4bbf9da",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.2.tgz",
+			"sha": "1ff54561a7cec3813e89c22a362de4a1ed7e2ae5",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-1.0.3.tgz",
+			"sha": "4cd60543247dbba631281e48ce665ffd52380cce",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.0.tgz",
+			"sha": "d66fba59e7098dbb5862df66c0d81ed75108f1c6",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.1.tgz",
+			"sha": "897313f05ed24db8e28d99fa8b42c31b625e6237",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.2.tgz",
+			"sha": "2d2b944be5f7a807491b31304745b25dccfe4831",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.0.3.tgz",
+			"sha": "696bedf1143371163e9cc16fe872357e25d8d90e",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.1.0.tgz",
+			"sha": "1eda2eedb82db929e3a0c50341ab0aad140ed569",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-2.1.1.tgz",
+			"sha": "0027c09646f0fd346c5c93377bdaba59c6748fdf",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.0.0.tgz",
+			"sha": "a3018cb8f1bc5e63a7f85d79f58f7701b2699ac2",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.0.tgz",
+			"sha": "684d8340e85c8ad1893c231e50903d1b78f46af4",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.1.tgz",
+			"sha": "706513ae8194f24ea6420ef4d8d2ecf746e08b74",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.2.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.2.tgz",
+			"sha": "06f2253ea3b9e122ce3e55e3496670a810afcc84",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.3.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.3.tgz",
+			"sha": "09e9b0b6686e85fd53bab82364386222d97a3730",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.4.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.4.tgz",
+			"sha": "de6975c7d8df65f5150db110b57cce498b0b604c",
+			"registry": "npmjs"
+		},
+		"npm-lifecycle-3.1.5.tgz": {
+			"url": "https://registry.npmjs.org/npm-lifecycle/-/npm-lifecycle-3.1.5.tgz",
+			"sha": "9882d3642b8c82c815782a12e6a1bfeed0026309",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-1084df0375577f7d",
+	"_id": "npm-lifecycle",
+	"readme": "# Note: pending imminent deprecation\n\n**This module will be deprecated once npm v7 is released.  Please do not rely\non it more than absolutely necessary.**\n\nThe lifecycle script runner used in npm v7 is\n[@npmcli/run-script](http://npm.im/@npmcli/run-script).  Please use that\nmodule moving forward.\n\n-----\n\n# npm-lifecycle\n\n[`npm-lifecycle`](https://github.com/npm/npm-lifecycle) is a standalone library for\nexecuting packages' lifecycle scripts. It is extracted from npm itself and\nintended to be fully compatible with the way npm executes individual scripts.\n\n## Install\n\n`$ npm install npm-lifecycle`\n\n## Table of Contents\n\n* [Example](#example)\n* [Features](#features)\n* [Contributing](#contributing)\n* [API](#api)\n  * [`lifecycle`](#lifecycle)\n\n### Example\n\n```javascript\n// idk yet\n```\n\n### API\n\n#### <a name=\"lifecycle\"></a> `> lifecycle(name, pkg, wd, [opts]) -> Promise`\n\n##### Arguments\n\n* `opts.stdio` - the [stdio](https://nodejs.org/api/child_process.html#child_process_options_stdio)\npassed to the child process. `[0, 1, 2]` by default.\n\n##### Example\n\n```javascript\nlifecycle()\n```"
+}

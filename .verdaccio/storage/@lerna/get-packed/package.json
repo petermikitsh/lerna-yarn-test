@@ -1,0 +1,327 @@
+{
+	"name": "@lerna/get-packed",
+	"versions": {
+		"3.7.0": {
+			"name": "@lerna/get-packed",
+			"version": "3.7.0",
+			"description": "Read contents of package tarball created by npm pack",
+			"keywords": [
+				"lerna",
+				"npm",
+				"pack",
+				"tarball"
+			],
+			"author": "Daniel Stockman <daniel.stockman@gmail.com>",
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/get-packed#readme",
+			"license": "MIT",
+			"main": "lib/get-packed.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"fs-extra": "^7.0.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.8"
+			},
+			"gitHead": "89b53ff2b561e69fad3a3e8671d7dcd0f1c09c3e",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.6.0/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/get-packed@3.7.0",
+			"dist": {
+				"integrity": "sha512-yuFtjsUZIHjeIvIYQ/QuytC+FQcHwo3peB+yGBST2uWCLUCR5rx6knoQcPzbxdFDCuUb5IFccFGd3B1fHFg3RQ==",
+				"shasum": "549c7738f7be5e3b1433e82ed9cda9123bcd1ed5",
+				"tarball": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.7.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4131,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGqe/CRA9TVsSAnZWagAAv5kP/2Hd2L4WdRfSbqyWhJso\nWKEPmfP4lZUllf80mHnGl8QD1+NYD/xbq7JA3cTgeGvTuuyDic7eskFdBbkR\nWF4LZ4i4GUd5qIzEmGCiZ43Khbm8WitZ3RGBgNqZaqs/vphvoGq39YNE9Qw3\nRIjEmvBkk8yuvzK6CoalfAoR999uJ/34SzboxZKnxM47PhzF1O8Kg9QSOaVT\nXy9MZuht51HVVWQG9E4RNCUeL3iERgIWqPHC0rk1Ndl0RBM86WbCqCIAUfdb\nB8q4ISKC1Iiwye8R9v89KmJE1uop0iRNHEcwonoPF+sZVxstRR5Ia9a5fOo3\ni5Vslc9rTOstNX2lP98Cgd1UmHepzxGJN1LW9hLlVs+J7mkpfgefiJ3j+XdA\nx6KK/yAElRJLkQNUkUwXCRIIBWUG/m5ahcsPAsFzpGOGo198DXLsi7YTZS6b\nz/I/9F6v2GYbKE6rhhDtSH1/hLQEKFUttlfgWQyNWxc8VF0G/qikKlPcvlW6\nygNZVuGQ1tC5uMr7Gf6hVKAdTWGN6Y4ONeC3PWgBv90kAHUhVfdfOc5D+zEF\niqNewP/pBGDk9LpHFpnJCCt/depU0kE6C4EUmSXEzDKjuyUoIU/bVtjynCOz\n5xMDSSHHJGGWMB5vWg3ZuBA7YUFwX7r/X7KdyRR3VE25Hgujw0BMBWeZSxs8\nhZHd\r\n=iNcj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-packed_3.7.0_1545250750860_0.03946733370120481"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/get-packed",
+			"version": "3.13.0",
+			"description": "Read contents of package tarball created by npm pack",
+			"keywords": [
+				"lerna",
+				"npm",
+				"pack",
+				"tarball"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/get-packed#readme",
+			"license": "MIT",
+			"main": "lib/get-packed.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/get-packed"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"fs-extra": "^7.0.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.8"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/get-packed@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-EgSim24sjIjqQDC57bgXD9l22/HCS93uQBbGpkzEOzxAVzEgpZVm7Fm1t8BVlRcT2P2zwGnRadIvxTbpQuDPTg==",
+				"shasum": "335e40d77f3c1855aa248587d3e0b2d8f4b06e16",
+				"tarball": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4438,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhq3CRA9TVsSAnZWagAAbEYP/3yBtVrvYXFEwnXKcF62\nuuUYQyRLfOISMJBfa8A87hFikHlmvt67HucgWIoDpDfDnxCydpIJQF+HgAao\nJaRAsEWRikfCRMq3cAZ7keY7lHqrGtmbu4SK/3jgRsnQ9tSy4KvpSLW9xGNB\nzT0mqQFqzKLaDw2Bz2g/LDBqVNODavzBC8IxqYpd7c/OA/9YRvw16lifMOQv\nv7SLlePp4ovdePXuE267zqgA9hsP/oSLGm8gCn2kH7t5NneoPgXUQd7VDX9i\nKVzbxNuJK0OxaVvQdxGtVGgz3uAC7gMin/CBgkEEgrFTDts98ozMnMMWDo+6\nce5E17MoMTqhAGylNuEdix/TO6ZbmX32cUrTnFEHXYlAvpNSiksytWxEK577\nn3WbW7kQj9J4NMshKN3PWEq4Uo8M9bi0DiqMctcGYTYSV3dQ8OIMJF02CrI+\n2eTOa5CO/WlzylHKIjZxyzsikXAzzE0ANKPkbmN0JIIitYr3LrrBsf/fZ+S3\n4GujfnfCVgyHFamLRCUC0wK7LFfyBXQUGv5xl1V1ji7MePRZF0Thl6Wl3uNj\n6cqz6nr3sKctRV+Nzg6Omp4/fxhuvSdm5Pb8A8Mpf5OSzNzPuUwJGDzmCucQ\nJPQ8jErgGfQVKt05K6ExD4HOge7ZE2HuxNEzXWtrLWw2mUpfLSpOWzWw2G75\nNIxw\r\n=RRdW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-packed_3.13.0_1550195382581_0.9754321309492016"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/get-packed",
+			"version": "3.16.0",
+			"description": "Read contents of package tarball created by npm pack",
+			"keywords": [
+				"lerna",
+				"npm",
+				"pack",
+				"tarball"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/get-packed#readme",
+			"license": "MIT",
+			"main": "lib/get-packed.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/get-packed"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"fs-extra": "^8.1.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.8"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/get-packed@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-AjsFiaJzo1GCPnJUJZiTW6J1EihrPkc2y3nMu6m3uWFxoleklsSCyImumzVZJssxMi3CPpztj8LmADLedl9kXw==",
+				"shasum": "1b316b706dcee86c7baa55e50b087959447852ff",
+				"tarball": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4630,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRPCRA9TVsSAnZWagAAKioP+QAX5FoBv8MqhwLkgFbT\n5d8PpikfoqG9syLdyAr5F7YD/CDPqVzVjuMcuahC/bKq3K1XJSNx3uem3vkH\nhIlKijfL1ukx1vRTDUS6QYDn7UyIk/elJ3UlNy6OVmDp9h7poCTeiEfvdIek\nNpL4IqA0Q3MVCj4UPmzkhO/QRR+NMFAGQNyIUPAKp9/mAzt2rzy50BaT15D3\nbo3hPcnozjW50i3GFieGJwEJ+e4YhedtH7i9zR1/kGvXhmjaiN428QSgDt1J\nnzaNOM0gMn6dx8JCbNDTNa6Hoh02MBFjTRJeaBtOgJQL2oqnnsqlJmWrRB2N\nl4ZyGLMs8Zzu0SinMQvYL8I8rLWF91KvyoOWqEFoeXi+aG97nV9XSmi1gPly\ni392kkrejcdsCTafa6E+40vbSNz2ELXbFRZrbSSLBgnsQHUnkGVkhdgXUiPK\n/ugoQKLQeXVkREoh0iAzIRFTfBnEnELjW2rB4n3C8Td48hz/zc8cLMbaQc78\nu/ImRAaRASbPzO1iKumoWt3+Tsr35zzooHTUJpsrilAkH4y2511F+mWPTjc5\nw3Z107QcSBusDfo7njwyo2pubQHNBQuoCQ+DnUJFPyO6ccWa8cLWFEPPtV2l\nfQMp5m6h9ttZ61NgAE02dstBy3tFocnH+r0zEvKX4pee8XoUKhNUuV37gGw8\n6wau\r\n=ndrc\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-packed_3.16.0_1563493448539_0.7385562624784789"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/get-packed",
+			"version": "4.0.0",
+			"description": "Read contents of package tarball created by npm pack",
+			"keywords": [
+				"lerna",
+				"npm",
+				"pack",
+				"tarball"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/get-packed#readme",
+			"license": "MIT",
+			"main": "lib/get-packed.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/get-packed"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"fs-extra": "^9.1.0",
+				"ssri": "^8.0.1",
+				"tar": "^6.1.0"
+			},
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/get-packed@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-rfWONRsEIGyPJTxFzC8ECb3ZbsDXJbfqWYyeeQQDrJRPnEJErlltRLPLgC2QWbxFgFPsoDLeQmFHJnf0iDfd8w==",
+				"shasum": "0989d61624ac1f97e393bdad2137c49cd7a37823",
+				"tarball": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6181,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEgCRA9TVsSAnZWagAAXa0P/15kWM8sfbj5GALX24JX\njPOdeJABFtEmglIM2ljPaGVhevxop+TJtwU/ehtE99rLlm/HTQ356UKShm+2\nD77gWf4DAuBywwnolvdolC1Hl4dKjxGfhOOaWHUGwSD8HxjtE3eal8Pj0jir\noEmi5RCpX5uksyM2TgOM0i04hRmxxZQz18x9YSwJi8JQ9nzTXad52ApAiBD1\nOY0Ivqpt9CdFpqE9UH6gFT7x/uoDYKPs2NZiSgY0RD9LZmtqyGPClIdPVEwu\nPbMT0BoITBBzabKjPxlSd9qsPFP1mxhP4mNKoJ8WAXrfWE9M9qfX5RSCcsTI\n08juZa8I9Zy1mwZMPJBoc+glMooj7wZRU9VNZ7J+z+yYosC7iinFuZk9dvR4\nNxCvbVBbbdieC0mCd2RCNoN7oRvHvebL60C0efcbSET2zE9BcJl/pzdKckAV\ny9+u5CZY6rt99TnJ9vQ8e4yCrUDzs3PzQ+Mw/Jp9i4ynlfe/BY7lk82B9Ixe\n8OEKfMnhqdrCsTpmsXoW4kCja/6iLTqsyVkZLLNOp4Z45JekVNcn9Rtl2YOb\nV7TUeS2hr8ZoG4IwzNIQwLXO+sWIpTL/ss3I+Wi6maSc1EfAwIUNZnTU177P\nlKRzsucsUqVpkNO4duOeG8t2ueRJFF96TV4TFy+adWyA2w4ubVAFIjUKydaI\nTLdI\r\n=GC0h\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-packed_4.0.0_1612996896183_0.822627485145927"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-12-19T20:19:10.656Z",
+		"3.7.0": "2018-12-19T20:19:11.041Z",
+		"modified": "2021-02-10T22:42:37.658Z",
+		"3.13.0": "2019-02-15T01:49:42.703Z",
+		"3.16.0": "2019-07-18T23:44:08.635Z",
+		"4.0.0": "2021-02-10T22:41:36.306Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"77ede6d0c8f7d490bcba87b79875f64d\"",
+			"fetched": 1613881359861
+		}
+	},
+	"_distfiles": {
+		"get-packed-3.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.7.0.tgz",
+			"sha": "549c7738f7be5e3b1433e82ed9cda9123bcd1ed5",
+			"registry": "npmjs"
+		},
+		"get-packed-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.13.0.tgz",
+			"sha": "335e40d77f3c1855aa248587d3e0b2d8f4b06e16",
+			"registry": "npmjs"
+		},
+		"get-packed-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-3.16.0.tgz",
+			"sha": "1b316b706dcee86c7baa55e50b087959447852ff",
+			"registry": "npmjs"
+		},
+		"get-packed-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/get-packed/-/get-packed-4.0.0.tgz",
+			"sha": "0989d61624ac1f97e393bdad2137c49cd7a37823",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-0be0838715543ecc",
+	"_id": "@lerna/get-packed",
+	"readme": "# `@lerna/get-packed`\n\n> Read contents of package tarball created by npm pack\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

@@ -1,0 +1,448 @@
+{
+	"name": "@lerna/collect-uncommitted",
+	"versions": {
+		"3.14.0": {
+			"name": "@lerna/collect-uncommitted",
+			"version": "3.14.0",
+			"description": "Collect uncommitted changes to working tree for display in error messages",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Pedro De Ona",
+					"email": "p.deona001@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/collect-uncommitted#readme",
+			"license": "MIT",
+			"main": "lib/collect-uncommitted.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/collect-uncommitted"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.3",
+				"chalk": "^2.3.1"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/collect-uncommitted@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ermeTGemXEBx1buBDjvQT7ghN32rgOm7nbdxq+TvwVOS52F/c1QVsvN3xu/ZJVMBFXug72cnbJeaHCddl0zhIw==",
+				"shasum": "7fb4f1eee205de4168aba5218ac81cfc9aeeff9c",
+				"tarball": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4234,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209HCRA9TVsSAnZWagAAsEgP/3bx7gfjd6ZUiHdmsvLX\nroGk74CcJg4W3xdObM9lWNQ4llr3auDjWQfISZLMx8qWMLnswEn7pgD3FBau\ndHYqrgQY19jI1wn1vvIJKqQN5c3twnQNDzCGf2yuZd1GlWk1jZ3plwG4pk7S\nmaNqme0rQzJ2LzisF+63hfHFOXXWh5ALdlDY7f6VkE00bD766gdNgkqsaBtk\nIAmt5AnMYgXTSVICsCA+2NzwuVPeupD0hfMC9vlm7T5KcLUD6HbWdAXCsZMU\nr8+EK3sylIm9LMtZ7BlYK7e50n4Rs/hV7w7qJA1D8rdGZGd/KglanUPYLsw1\n0VI2mkJ/CsP2cWP35uKqierQ+TTLh6rSCvMAQHp9Ugw0s8McD8/rwm9XhaDj\nT7qEDLnoI0u9xViEIjwhevKMT+G7x6/2j3K8Xv6BxYSv1IBSILgutimqs9xq\nmGKVlEbr3GV+3mN9f000ABzA4K1KbzCWY/UeZXiyY7Z9zICwiQcH76+YYvCw\nBZoyRkmvOGxENt6Pwv6Uflhl65h+VS6goPrAaDatvW106CdaTjCwU7q03Uj1\ncN9k/HnxxD8c8UJNtKpWiEVwYwcMXCdLIn75AdUvYRdeBwpbu5y5x61BTYIv\nVyRwLN3KM9W640MJ07jwz6JdZ7rctnMMaabWoT1IJ7MPULo3kHVfXYyTASS8\ndJXM\r\n=/jlE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/collect-uncommitted_3.14.0_1557876551411_0.09937070263353576"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.14.1": {
+			"name": "@lerna/collect-uncommitted",
+			"version": "3.14.1",
+			"description": "Collect uncommitted changes to working tree for display in error messages",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Pedro De Ona",
+					"email": "p.deona001@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/collect-uncommitted#readme",
+			"license": "MIT",
+			"main": "lib/collect-uncommitted.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/collect-uncommitted"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.3",
+				"chalk": "^2.3.1",
+				"figgy-pudding": "^3.5.1",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "d87a67bf2beb1ac9558e0c1adfd47d937f5240f3",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/collect-uncommitted@3.14.1",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-hQ67S+nlSJwsPylXbWlrQSZUcWa8tTNIdcMd9OY4+QxdJlZUG7CLbWSyaxi0g11WdoRJHT163mr9xQyAvIVT1A==",
+				"shasum": "b3498c4c7f46efc79092ce4aa0a24edc535e5d1a",
+				"tarball": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4979,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3FQnCRA9TVsSAnZWagAAc2QP/RIsBnjmLDcj87za5UqJ\nzMId29Bal+Nq9Vb3CVhTE3fd4wZ9cyIhNAsYrLKVXTxlbNl1ro4gOFHEIcjH\nHTiKdZeYg61OqUYdCoxwrjE8FOFnpArI5Jae0sPHw0GWONfiVc5m2Vi/kniM\nrpbg3G+/30DWer1jWGdWrXfjm1+kKhlb2/SFg+NDEqydg557pKfkDFzymJK2\n5Kwu2jDl6TWg1RGG3hgIEH84YEwx1FkHZwx1nJhb3DGtbtCT8t/aPtH900HM\nBv2jM9oHO7N2rNWZS3P8kPbo4ro8BRc18a2Hxw75K+FqzfXtzAT6JaOLpZM2\nZytfp+l7DkCZ1iugLPbMIHpQgEuuOX5w2DGebMaSh2ZML6jZxHXnBjkq9txO\nYt2khYNVkEo+S1RozrWJ+Uk8gRVtfSpAm9aVo6NGGBq0X4whi+FnfNI5Ime7\nV1Ypj1h+HRt2a5VlJJSWO0SfJfEBOkl4C1fMIydPxoHRSjRLMf6pM+RDILJ/\n/65CTfS4ifWL7qTK/RWa2j7t6k7G9QTe9KOW7bZH520pEtpiTAygXuVz8Vd1\nNp2pbZkBwgrbMWwYCNzXiohRSSUT2jKwtW0guKUT+U768IDe4xV+Fqe0pi7Z\nUcooQV0O834G8chwuF6lv0+uowNqlRdpVCnZRxIGGJO7owAqs7puqbG60afq\nk/Of\r\n=Q1XJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/collect-uncommitted_3.14.1_1557943334875_0.7012271910423014"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.14.2": {
+			"name": "@lerna/collect-uncommitted",
+			"version": "3.14.2",
+			"description": "Collect uncommitted changes to working tree for display in error messages",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Pedro De Ona",
+					"email": "p.deona001@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/collect-uncommitted#readme",
+			"license": "MIT",
+			"main": "lib/collect-uncommitted.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/collect-uncommitted"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.14.2",
+				"chalk": "^2.3.1",
+				"figgy-pudding": "^3.5.1",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/collect-uncommitted@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-4EkQu4jIOdNL2BMzy/N0ydHB8+Z6syu6xiiKXOoFl0WoWU9H1jEJCX4TH7CmVxXL1+jcs8FIS2pfQz4oew99Eg==",
+				"shasum": "b5ed00d800bea26bb0d18404432b051eee8d030e",
+				"tarball": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5135,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkVCRA9TVsSAnZWagAAihsQAJaQhGNcrgKtqL6cKBTh\nQJzM5LEwQ4bpDAxa+J9QqCtMjvDBh4xqu3pSErEwbUW2ZI7eXoe3izE4brSi\ngLHdppUHAPLwV7OMt1rAvSQjRMqpxy0JUz6vzl4lUUdG0EgfPHmg5xbHWIxY\n/trwCJ/coVA9iWf8gV/FrkiTyyeWotZ1eBLFrNDrGAnTHPpzKERKRilkxflC\n71ZZhAYG1OtPaM27YTBArlkYNajsemkICMI8KXWZ+3uOBR34abhiU+93PqG6\nrBQYGfBMC7jT8DcKWRIrCiy73gGSlLqWrV4pur8C2U0TitcVxxx3ge2JpbZy\nlsHyZ0/DmqQH4IMLn7xgXvT2gL6l2R0Tsj0mBAom6LEupDHc2KLFrYtFtW5J\ngix14i9EXmQjF44YG2dOjb4DsttkZbwGG/Zl8/Pa0MA/FUdPT+/vHW1fMRk3\nz6gwQMzKCBiTdRArSMWognurb8mT0kMsLDYd1yYLQob7GYGlmuMMQk9WeXKG\n7jUx0e170i+Vdd272AaDUzBt3gdq/CFWXdXxo00ouBNP7soO7R43rpMMAFpK\nGQmcOWh1pWLc0ErSNNTq3hubx3dRjPOG+PG5+DA6SBfUqhru7k7UyIDsn0EX\nGFPhmIQdbGEQoWAokwyjlVGrv+6yuHaS4QPcIq6mfyM4IcaNlr+xalANILr3\neMAB\r\n=5Tb8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/collect-uncommitted_3.14.2_1560119572425_0.25120242879853794"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.16.5": {
+			"name": "@lerna/collect-uncommitted",
+			"version": "3.16.5",
+			"description": "Collect uncommitted changes to working tree for display in error messages",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Pedro De Ona",
+					"email": "p.deona001@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/collect-uncommitted#readme",
+			"license": "MIT",
+			"main": "lib/collect-uncommitted.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/collect-uncommitted"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.16.5",
+				"chalk": "^2.3.1",
+				"figgy-pudding": "^3.5.1",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "f0574092a2db90142b3a27ec1a4941cddbdcdf62",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/collect-uncommitted@3.16.5",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.4/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ZgqnGwpDZiWyzIQVZtQaj9tRizsL4dUOhuOStWgTAw1EMe47cvAY2kL709DzxFhjr6JpJSjXV5rZEAeU3VE0Hg==",
+				"shasum": "a494d61aac31cdc7aec4bbe52c96550274132e63",
+				"tarball": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.16.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5291,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdm8IECRA9TVsSAnZWagAAiPEP+wcNOmSaulihYjaJCEkP\nWzvh7ALDoufOYyHKvjcVf0AY56NmGkNOrfHH57Dy1IGX9nLNs3QQsBZCudpR\n7CPFvWUWpgmTei3kL14PnGbqsqsNYI1JP+duCGAlHOiMhUgqluss4AZ1wdzS\n3vzq6hU+B/Y0YSm+HH21Zj6cr6jBxcYsn6r8UsySR74JN7PGuo0a0iMNqA7t\nxLahNEPwR/8VninvAWUybGqbx9MvyJacqiuYVOgV6k0bdtNZ417BvXrbDgk3\n0I5sOLK4poCYNSIwDbieHwaxffGZXO4kHdl4KFpYF0+vq4BWCO95JfXCt3b2\nBXLQF9jYXe9hZ+QbC1FrFVQ+EdyJtUWupPfroS3LEAM/y8jEpuInOaJNkhDu\nX+eMfFST+8y1lGMZOr+sv6k5pooa8y+qlWwGsFU7fldw5DEJoZ2X9Z7+XFDr\nneKOUHDmA+JKXS+8oK1aDa3bfwS0nm3cUbQmSElOpSvke8r5Z4Az1Umfcv6B\nmg3rF3qoqxLOzfkcqS2urCjst801PjWxNI1mrJUCaj3Axz7eQahMEkQGxd8N\nEH7ME3dSshd9XBBGz6UHWMpfXh8g+yrZR0/1JDDucC4qxCrg0ezdE+VL9kig\nK7I+UaCb56s8cBbm4riba5AIOfDlXKyXYTsMxjzPWFmD3+7v7s7J56tv9AvZ\nnN7k\r\n=XzP3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/collect-uncommitted_3.16.5_1570488835980_0.9372598307432634"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"name": "@lerna/collect-uncommitted",
+			"version": "4.0.0",
+			"description": "Collect uncommitted changes to working tree for display in error messages",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Pedro De Ona",
+					"email": "p.deona001@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/collect-uncommitted#readme",
+			"license": "MIT",
+			"main": "lib/collect-uncommitted.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/collect-uncommitted"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "4.0.0",
+				"chalk": "^4.1.0",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/collect-uncommitted@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ufSTfHZzbx69YNj7KXQ3o66V4RC76ffOjwLX0q/ab//61bObJ41n03SiQEhSlmpP+gmFbTJ3/7pTe04AHX9m/g==",
+				"shasum": "855cd64612969371cfc2453b90593053ff1ba779",
+				"tarball": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6841,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEuCRA9TVsSAnZWagAAKpMP/ikp+hQJr3UEzuyk+9wk\nZcb1jagi2KfWSkNnFR4uuaf6pt2+gR3aE6mk2ur/jh0UDG44utFIwhPDIw5+\nbGaqWYjFI7nmVAC3vPfgaa5htVObsn3+Dr3iwJVGnUBiBQGqYN8BmISKshH8\nN2HYKT2KjTyzPvcnlr+IwYU5sO/WEyK9vjby6YwXMjpElkoF211wrtCa7y2+\n13ji4Z1H97V7xyPlTfkvyek//T0hO35lmTXaItWjgjs3EYfaZ7tIpzLH4K6N\nA/183KlGD0gSHo8qozpm3xH3KetjL91rP5UlsGYC+Hd4FORnhHfpHlyteakj\nIl1GA7CWUlqxtnYmLxLlgYq4VT6LDlOLuU6hIBtjppOcorJ7w0SLjffI9a95\nb76Sb2FWyQ0ziLJAeCztKiOJOA+iFZ2Tsu+63Fuq8Kiq90UX3YcVikrf0Ovu\nj9hKr7B31abkVVYCdwoaPHp2W5IUo4Y1A0AmFS5VAn1fjTjMd4h1vri6vrVR\nrhisTAqV1466sWb5GvRD5J5vyhTX7kxH5RFN04ybR4CYkS7GwE6Zk5ud4TCa\nQAgK42JuLiNWqtSodAcyZWpAMmMBj1Lsjngzx8ImHUMTPvJvTXLPje+K0Fiv\nsOnOJrjbLTDExJlyghbjGPYQmAGcWfoYbzlAq7bdpXvwVF00a40n7/hUYuGp\ne75B\r\n=S+t6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/collect-uncommitted_4.0.0_1612996909706_0.32246763263223555"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-05-14T23:29:11.077Z",
+		"3.14.0": "2019-05-14T23:29:11.538Z",
+		"modified": "2021-02-10T22:42:39.799Z",
+		"3.14.1": "2019-05-15T18:02:14.997Z",
+		"3.14.2": "2019-06-09T22:32:52.563Z",
+		"3.16.5": "2019-10-07T22:53:56.077Z",
+		"4.0.0": "2021-02-10T22:41:49.886Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"0301977764e80af1b32448f5002c9a62\"",
+			"fetched": 1613881359812
+		}
+	},
+	"_distfiles": {
+		"collect-uncommitted-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.0.tgz",
+			"sha": "7fb4f1eee205de4168aba5218ac81cfc9aeeff9c",
+			"registry": "npmjs"
+		},
+		"collect-uncommitted-3.14.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.1.tgz",
+			"sha": "b3498c4c7f46efc79092ce4aa0a24edc535e5d1a",
+			"registry": "npmjs"
+		},
+		"collect-uncommitted-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.14.2.tgz",
+			"sha": "b5ed00d800bea26bb0d18404432b051eee8d030e",
+			"registry": "npmjs"
+		},
+		"collect-uncommitted-3.16.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-3.16.5.tgz",
+			"sha": "a494d61aac31cdc7aec4bbe52c96550274132e63",
+			"registry": "npmjs"
+		},
+		"collect-uncommitted-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/collect-uncommitted/-/collect-uncommitted-4.0.0.tgz",
+			"sha": "855cd64612969371cfc2453b90593053ff1ba779",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-900d07895ac83903",
+	"_id": "@lerna/collect-uncommitted",
+	"readme": "# `@lerna/collect-uncommitted`\n\n> Check git working tree status and collect uncommitted changes for display\n\n## Usage\n\n```js\nconst { collectUncommitted } = require(\"@lerna/collect-uncommitted\");\n\n// values listed here are their defaults\nconst options = {\n  cwd: process.cwd(),\n  log: require(\"npmlog\"),\n};\n\n(async () => {\n  try {\n    const results = await collectUncommitted(options);\n    console.log(`Uncommitted changes on CWD ${options.cwd}: ${results.join(\"\\n\")}`);\n  } catch (err) {\n    console.error(err.message);\n  }\n})();\n```\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

@@ -1,0 +1,2357 @@
+{
+	"name": "@octokit/openapi-types",
+	"versions": {
+		"1.0.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.0.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "curl https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json --output cache/openapi-schema.json",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.3.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"gitHead": "62e5afea751ce7117777e3c5e978b7ccba621cb1",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.0.0",
+			"_nodeVersion": "10.22.1",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-dUDYYWSMqS0zDSg577nHZI4/wXnKM8zdB8jsx1vN0P/Mn/KRfZL90yBZfjn+nAl6uKWDNlwXLSCcHGCkDzyNeg==",
+				"shasum": "b12b1aec897779957600ca7df04524fc0411bdb2",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4211268,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfmgb2CRA9TVsSAnZWagAAXF8P/09RjFsnXszJyRDvpmh2\nJfCa8q1Puch9ukL/4bcoukXNDR2/akiN1iKNLJUx7yPOIAbHocnD3rtc+4y6\nSMCCC2PVX8LGyeT9ak+UNIVxqXwJGLPb9tu0mVTST/tDU0a3zS1Jd5ibV3bi\nOWoGBjzlJGNA+nT1KZCXcu+SgYZddcl8cKAYGoG+HahjONz2cKNQ9zLXA4/h\nW/ze2+L0nFd51jBJmw9Wf7DLBPU6GQnmRArt4y8Q7cUdJXgVetffToSbk41W\nxZXjBOLyFZTzi4StmD+j85G1mHMhc+SEW0AlZ06tCQSXSW8GFueGEFOwbzUj\nA2ZKoR+ZFSvniG6jv07BQwRAmArWVQC4B+uRTskNCthv8Pfu7vGwIA0aN0A/\nVDrCoYBZza6wUpTCNllmrWoxxfqp7usrnGxw4sDkkyH2YtJE1dhyaAueD4tM\nQm25K8vPnsq3atGOURL7u9mvSXv0wQSH2RhVZvdUtILO1sKNXWDgkC//2O6C\nGqyv4b6jCcZywORURt+NgnDVHLHV88i7xdaXedRMIbzuDpl4ae7vPUomZyV1\nv5nYxoOZouy+dur0L+lUkyYSOLvzpIjyrcAV8jxAtvS0qZ0dtt6a8aeJwIlu\nlkfoQF9lro3Gcsqc3/48fF323wODmIYrZkKauANAG7vAseCIb7n5xzn6v0kb\nOYSQ\r\n=NM2K\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.0.0_1603929845355_0.9640891635462872"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.0.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "curl https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json --output cache/openapi-schema.json",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.3.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"gitHead": "0522b4b834e48196b92c98db0ab285af81fd2a43",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.0.1",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-L2GiqUDPO6RISWO5HaeBk/8BXKqBbW5Igwu7wkZL6QMVnyXS3f1QGsKgA2Cg/ilcs/4tV4d2f9QiHQ3+RFRZ2w==",
+				"shasum": "5d5c7c2411ab209b26adf2e7ab4c78cce3ca120a",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.1.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4211289,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfqXvkCRA9TVsSAnZWagAApWQQAIdLzcUyqg4tZ+bf5N82\nMziYHJxfuNg1gPjaCY+ZU2nKQt6ky5ojDgXa/Kmv0MV7y5bdK2EjqtQEBkx2\n+ikmd4CxA4lqRHgfRo0g090nrXJRUWBS3iKdo08WcAZ8ciDFVFVfJlEuUPnX\nRL7r1m+XW9VUzZBRsEpWiPf+jn92w7fkEXQfBtPq3SOmzhIiBqYIHvBXbOhN\nOwow4BX/+D/7rZy+vSpsmAN7IDhPJSpH2v1t1PDwF8IzPxTueEx6SW09kQ5I\nM5cfgz0pKAmpQmJ7qaxShFz6HjHT9X/Q0GaheBR/k5HQk6IX8Df5m1yIv0rV\nQyZJ32ydXJCeyf+jdoYm0bkA5nhkW5Wc4pIPAfsI9ztPK4d4MMbeb90l8mXO\nNnAnFY61Rg1wigDRsOuj7DDCO1t63+64zJ2jcbmNH58onIAcxD7OzGfo/5Mr\nL3IpKYxbV488nZWrQyhc69jnRaZ97CMW0928j91R/xUCaPievGTvbEzUOJEY\nl5f35fCsn5yrzCVzY2mYpfPvAvsYSlhcKYATjll2JW2sxmNaMHR8fs3mdB38\ncmxQgnQK02BJqhjIeKS2Br0C011NBUFmuVfkDEBFAewa6D+5veA2riw0uPL7\nAmtU8V39xW9ZNwxmdeDufvfmxuzPQnVEhqpop5/R8cU5SdixX53z17UKxQ2L\nSKyT\r\n=RhIQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.0.1_1604942820117_0.8313596632172102"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.0.2",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "curl https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json --output cache/openapi-schema.json",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.3.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"gitHead": "a3bbe1af7968f7856d7d33e2dfda5abdc736b4d9",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.0.2",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-8bIpz+r//2m4gIZZMATUZ8lAiShe5bcNmkhy3+HilWSeDArAAT2+T6BhXSseeH+Ycod681Y+0WPEC+2m6AyACA==",
+				"shasum": "97aa2699042c148ec3e11fc8610d473af486dd01",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4211695,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfqZBVCRA9TVsSAnZWagAAL+gP/0/1EurJZWtwq4w+PZeU\nE4hLKJ+ZbJ1R7qGDiJJEsFx3aMfCbi5RaiSnV7vu4rLD5ZKg1cq7T4ldd4jC\neekjtOstO6SHj11imUplIsbzVOgKAIRiGhjUzZ00KS1As6TYF7inFCZzN8Tj\nG5rFobKr7ODCkZ+HkS/2tCSsryhGonqjA8inJb5HaJOPp94bxCYXW90wRXK1\nW+Fa85KL5lNJWhzZ1epmn4JjNgwNw2VGJmdp/EewrDBksCbdC4jKSunHEbsM\nYRvFMm50Q6ZbsWKF7qtWSs7taoCUAanYvJkD3vPgdtkAzgfFGK9EFlFTQsB5\nh6w6efQmx+oWI54w5Cv/XMZs4FM5WLOY2zA1s9HBHi8PLX1va0N1cgNw6Shh\nJrijHuWyYoHJHqDwlDMIOLBfkF+8rcIeLpn4SsGE2lvRV4AZmRM/oZ4fUEhj\n9cP2YFm8ALCM7lNSTR9oZ0VcwES2WL1N6gxsf0DHg0Wi34bRPJUreMdtwp4Z\nmW8lxHjkIDSG0d3dMG09alUwroJO6lhCBieGdCP5abF9cBuSTtOhcmqetjzI\nr683GvpaNaT3vIERxCvPz8MKIy1gIEZBaNgIc7m0wY6TzFQPu+2M9NLkihQW\niBnXq56anHbsFdIprqLRlljhEIfJXWnY8lBdZGeFDWCBbjfufaArSWPKfSy9\nSRQF\r\n=4yaj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.0.2_1604948052803_0.3385285852869173"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.0.3",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "curl https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json --output cache/openapi-schema.json",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.3.3"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"gitHead": "36baf50bddd8b3baecd6601ea3301e82e6b225d7",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.0.3",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-iknB/IHQDS/NVg2FBfHWD1+/YjXzbnSxTwMpkM5Mr6mMJRgvnh08LAZTBrvSDy9XhVieeVm5KtVIFoJJbkJcbA==",
+				"shasum": "c89f2dad278b9bd63e7824e31e8b03f584db4d17",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.3.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4212304,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfqxwdCRA9TVsSAnZWagAAAqgQAIDSG8Lt5fzMOJjHA8UP\n+MtM1gz9P5dELxnk0tAZsZ4B9nqD0crW+m5CilZlkWHg+8oCGQXhijlUedU1\ngH9Ndk8oK8XZCzGsRYfFH6uN9lAmyBNlqoGhieKabwxDpogByaMUDQZJafEs\nC99p9vgsakwDhlK8hm7jhUp7jaat5Kk78IpF4UkOEI05Zn5+kXDLtBliQpUu\n/hmsByxxuTySjQQfsIfONG43LK5t6PB2ZgBzw0OMBUEqPSbkiNl6QSZpTe8y\nt4kYKrcl+xKNMLDOThvRzo8lEFakynVLzwBvptAXRD/MV/yoNmY3vmD0tHg7\nEpRTUJbMOKGHQQOsYqJHgoZHB/2HztmhJ0pOoFwdcP9m6aEgp94vr94AktgF\nx7Mb8DUBDso5zsba92h+LNSTuv9afS3cEY/QRIPMvEcaddhX/CKehR+GrsB0\nD2V5rTyauRCFvF6PxHsoojVs6FTA4PaTXAz39+SplKwyRlFRD1RUm4BcYP0U\nK9AKBbG/6C4/qF8sCXj/8uMLhCn/YpGEXs8jSf8gOT24Gk7p2PbzsEUdfUBF\n1N3z0kX4jBC0Expp26uyopTj576G4IuEKhYViKudDsKLkYlcuPa98wajcqtE\nt7hXuXUBZAc8ItAFZyNH9ZyMFTMDNw05kfVY41EZQ089K9F5ELa3NRdHKJuq\nAkAn\r\n=sODL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.0.3_1605049372932_0.8902099213479726"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.1.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "curl https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json --output cache/openapi-schema.json",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"gitHead": "1bbac3ac09dc1b9d4695cd0e25ecd0868513259e",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.1.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-Xof7y1PHdZf/doKbIT6UCyfJz83yrvJL4f56qzZI0PBXXYC2iJKlx87t9sLBmwzCeL7R1ltiXt33/+ex3mRe9g==",
+				"shasum": "d9ec3645bbf5eabd162be3d897072441baa78033",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.1.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4249447,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfvp12CRA9TVsSAnZWagAAXHwQAKS9oLIMIJokptHwClKv\n5CAusixbGbaRSRlDNaO6W3ZeE9iOAbpYYAckbhponXzDY9wRoICvTa6kF1Rz\nlnzAVu9wo/XOnUSuEZRowGfs+b5IGcExBEb4414MyIqEuoikv5Mf+JA1e5s0\nBWvKUVz7/zRdq3do0Ld74bqmEJ6CTLXbITPpGqAyXxq4rJM+bGWyT8GGoPZ2\nlk9GPCc/OzumkZtcddFrrsjM6cYU2e62BOeeAS6YTTrAfvNV6aYQXhZfS0Nm\n1a7KH1ux8bk7mCiO4pNGlUY4IMW5FX5gkWVM113iwK92mQXNSvApbBL78YIm\noGUy6KHV8TxOnI/7yVBNoQzkSjIrFe9sr3SJaPmCdNPpqduFL/xiKYgr2O/Y\nC+LdefhHxMchmThGxVaejfwVAy60OPBQWVLlAebraYHAjO6IJ75hcHzTI8kt\nvKy4YkQJ1c4Q6jk5/6yHJL0aRzTnHpOb67JG2xNpd9KQtAB+VlB73S+qKVPz\nUevsVcw2ajXntiourE2E8g+49STkP8VRUh8EjUjDo9wxiPlw0y22naMcWoBp\nQ7rNGZdeyfgGlKedbQBu0hG/CcyukubimQxz+ZPcr0EOjwJfsR2DfSTMhprS\nIZf+GQJuRzSMh9LHpuoXadd9SBF9SLDI1KUgMLi6ehKT9c2Fz3c2gWH8zMtf\nxoFM\r\n=v1z+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.1.0_1606327669569_0.7382529918623832"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.2.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2",
+				"prettier": "^2.2.1"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "1.0.1"
+			},
+			"gitHead": "d367820ebed5d74180356e090c93685588176ce3",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.2.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-8sfrfr622pv2cXxX3X13KY8hOgIqQE5dAuGw5xRrw3/aQZk1xAtaBCeMQz079bGqa7ZndQfJmHXtk4T5cBYY6w==",
+				"shasum": "fb4351aa02849c06b8762910828293a228aea5ef",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4008929,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxW54CRA9TVsSAnZWagAAMaYP/A0UAQdsz98pWf5y4nzH\n3nKW4N250vya+VGwno28rzkXVnMyew7T7Lz/l8Sc3NYwOgHAhyHIZuNDnIuJ\nz2pm/G6wjvaY+3dn6Yri5oMxVVRpF5Bv6NTjdeaYkhMZnCvpQH0DkaoO6JvM\nr82Mz4AxjVh+PpDr3G8xrzpmTM46kkvLNrZgcVBhAtrC9jEFV+hCSMcw4QqJ\n8+E9dZNWWKszQotpd2odwZo2SFTmBKYUjwVvG3wOhcryz9Mly41OBMEhXI/k\nGE5lfS9QNWevPTtICu5oQ/xzzgRQ9p63BcqIbumubUTxx+XkR+XQ+F3j4+oH\nCH4I6vJXJI7ujbf6yN3AoTvv4sY2iO4ZKZFskuJyYqBeQk8FJg01qYCQ9bef\n1T04bxP/SuA/j/LvdciXgY6owyxowa3/fx2BQyXZhffWWdDsg7yviX6VlQ//\nBHqeJp+IikkL6PmysUrUlpCyF2yOIjkIm6Be/hgCUVi621FXLuSz8FjCLZla\nAZLvftEAo3HRKO1qv6+Cfsh3t8+DzW0XrsgmVU/1JGZPBgR9HC4ba+y4LG5S\nz5ynspG2Srt6KcfHEh7wmX/ENXX0fkC5f60kssjEH9A4rMZPUH/J92fVFF/H\ncj+4/mBCKz2NZKjvz6okMibHOlBOCY5QRiL33S75u4BFS0K9lVE3IFy34qFF\nvsxW\r\n=jaaU\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.2.0_1606774392053_0.4184900271035703"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.2.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "1.0.2"
+			},
+			"gitHead": "e7d02db6bf6ead963518f63478c0ffcaa8c354ac",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.2.1",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-u5IH2XLvd0R47V6sfon4mfslz3FLY2a+J23GTANOtjltb3+j61hoc9ADEtv13bNuxTdBu2tm4p44CLZE2s7fNg==",
+				"shasum": "73174494fb2eb3adf37a0730685551c68e9831c2",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.1.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4008894,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxYnRCRA9TVsSAnZWagAAdIUP+QCjT1DLitSk+bTEwNCy\nMHrbMrhuaNaw4Q04hUedJMsCZWSu2xiFCpVSCGScIiCK4SLKoY2IOIc+9SOQ\nctWG77gHj7Ii8rLgp1yXjFDWB/TCLfDUygiNgDoqweAmhm2ng6Ef8tj+b/89\nmhxY9MCSuhwToH3UKzlR8BSr353bRIENfq5V3xmnEmLCwpu3GmI8dJSfQyY1\nwM4a9dODakdPh3XWr6RleuvfVSC/wQxaFSictFkEPcwy4a1fnJxJuWjXk2+K\nLKNA/qfGLVoKWhKaiW+mEPLR9uZX7ZSZtk4Sa5fSrJapwhPyVi2P1QC4sPYs\nb9Qm03PFJap9Ltc165Kf7QarwPHD3TPGFNLOI3qy8vcSwZPx9feUHKUbImvR\nVq6Q7Di03P8rd5H5Jt2rQqLeUIxD6P+FSwJiIUOLqZeyHd8AFbgMaaYaUBlL\nOGvAmkxwHe5b1edpaHmDibrkYZJ/jBGetJ0uOdDTIHuJcsebdpXRO7xIvKX1\nUHcyIOJDPQbuDJ5r963umsDzJi7dznjcE2RwwWIOsw9RceQxgd8kPuHEeDYT\nXMM/Nbrum6HW/1tCuUuV2gKhcQ4m1kjG/+NfYUMrINoT2377+8EGnU9QYNap\np3jb/G8rb5mMpNR6tPCeDWj6e8YrZMAoSBwBjae01J0bnjDluADYWI5taHXC\n80WA\r\n=h3oC\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.2.1_1606781392598_0.7078435007925965"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.2": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "1.2.2",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "1.0.3"
+			},
+			"gitHead": "cd7e79db6f6a18c3523538c6f3e7aa7c37bf7109",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@1.2.2",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-vrKDLd/Rq4IE16oT+jJkDBx0r29NFkdkU8GwqVSP4RajsAvP23CMGtFhVK0pedUhAiMvG1bGnFcTC/xCKaKgmw==",
+				"shasum": "55d927436c07ef148ec927fbf4d55580a19bd68e",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.2.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4008912,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxY+XCRA9TVsSAnZWagAADVEQAIFDl0Ed/TwBHCqf/G4n\nxs7WaSH6wu5gX4Xph/+dzmVgMXcdkCbujTe9ZZIGKFjFPPdASjdKbMjLjeDM\nfP8fwC3nT6rBgsj03x0odqg2aiJBF6ZcxaiQg+ghI5XNE9wit8kdrJyWptyA\n/mACNeMBKJBqWw0C41KBxXz571wXPmbfdZ9TwFPP0Dh1erR9Ono4nwjdfT8Z\nYdDVygyYTAZPD88WaDFt/PHGVbZE8p41TbFdgVyjI1QcDn+Sse+MZoomS4A3\nKi0iRriHBEdKJjVyMQxsjUURAsDMcSocw7XLdByoqFpNdO7RF5ewpdhlmO6R\n5QSUY0Y4yD7ereMxNWWDQzbd6CZLnzmR15zfP6Ahg7zuvCMCc+/QUsri7RAV\nXkqaeiLLpoowSdDJI+n7ybH7EB3WknN8NPGCaBu8FQ6rmRhPqDK5/u8t3iK7\nJOALvPOI+JnxxD3mdjFAaLikCcMO3rJK6/IDDDJxnjRjyUiIVnBrCyng5nsC\nVGB7FuA6I2gTf8EC7vlS5eMHQ3objwu9Zh3sqpaQrFpmYtdfVKSxBHrPxhmw\n0fyxy9qZLI4gr8U2CavDgxTvQgGUfitoGapgBMOIA79Bd0lutvc5XAJFKmqf\ng4itl76nv7+wCbGQ0rzZSC/85VfaCgQqgtI2S+QW/mlwUqWkqoC6tSHKCjwJ\nsMci\r\n=purn\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_1.2.2_1606782870568_0.4190349223267742"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.0.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.0.0"
+			},
+			"gitHead": "af9bbf8e6bf8bc9b803c7736eec3290cc3db7940",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.0.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-J4bfM7lf8oZvEAdpS71oTvC1ofKxfEZgU5vKVwzZKi4QPiL82udjpseJwxPid9Pu2FNmyRQOX4iEj6W1iOSnPw==",
+				"shasum": "6d8f8ad9db3b75a39115f5def2654df8bed39f28",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.0.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4026257,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfySq2CRA9TVsSAnZWagAA5DMP/Aju8pDqZhUBgCTca3L6\nUWw+srO6rRavT45c3mtgwstdUt7kJOLFHrp23n/eH2395214XurzXwjT/F7b\n3sVHKDuTh93pVTRPHYi3ihRr1oVP9CL/IBmUiw3rypvPlhcWmVX1+fs9eUIQ\nFDWOYVmbymQ7OpLkDsw9nfpGgpcyfJTUXWN5qhhlVOYNJKfGi8+uaU6bRhsg\n550EsoqIwpudkIC2n7Qole6xw3uA1mJqK5COfV6vBuGkDsZZg7HpjWZ3yvdE\nnG2QT0FrgjpOr4gIHYBQPIfV0YZgkcuJ3si8eC+0ze4jeLbg2RiTFrVuJymQ\nt+vxysoiLJU7UFA+XPtYS0gvOigPbcW5rvs+0Gj+waxUmx5WY1K7B8QLgkbp\nZjZoykt0in93uE7Ihumjj4Fr9kMUO2p5Es7HyJh0B23BLXbk2rOrqHeW9Oih\nUJK7I3uxzRC0aGFVXIqkO++XXFfPpC54RozybJ4/jvH5KemFV1SIZVhI0Mwv\neNY+NXgCBoRDQjdYS7RhtYTCyGqlk6km6tJmPocv1FSaWIBTGj8BEu2hL7hi\nOzvJLL5XRr/EGyk19pmUYKMz9l5URII9zUyZ81YLJXp5CSFJUoFBc57iIs9c\npPaJ7Yo+jkUJkFq3A/f17mpjGDhyIhh4Ssh5DJvJm3VRa8VUr9kizmp4jAYY\nhg3g\r\n=d+ux\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.0.0_1607019189799_0.4173298647040402"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.0.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.0.0"
+			},
+			"gitHead": "7cd816bd4fd88fdf3df30374cf0a03b7141a0b83",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.0.1",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-9AuC04PUnZrjoLiw3uPtwGh9FE4Q3rTqs51oNlQ0rkwgE8ftYsOC+lsrQyvCvWm85smBbSc0FNRKKumvGyb44Q==",
+				"shasum": "7453d8281ce66b8ed1607f7ac7d751c3baffd2cc",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.0.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4026063,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf37o2CRA9TVsSAnZWagAA0qAP/0nUwT0Pj/w2+c4js6ZF\nh8EOt45DrekjERf6h/gvMnuQMEre3fJ4RZPNDuNqIS5VU7vNywJvoRgpC1cZ\ncAIiJ7efoup49PkKRCUwYR9IcX214dLH3N7KDaHNbWpD8lweYwmxUe0BpujT\nMHsHhazou55xxInueQ+g8TKqRaNcvYmf8f4pn8R7St9GufI+ubesQq7mD1YD\nOhwN+SR+8WVypSGELBuu4KjawZd5L35uzg+Ut2h/SdEv25BCkxCDm783ZUKh\n23FFMj7XpyxH5oloISxtr6cUInFL+dTKV5cHCTJyPb7Oj/WTdO5el9rD0+P/\nfWP2FrlL8wA0ADKtWBTGVs+q0KEwbVeAXUWcxkzJB/kMhWK0vm9m24knkyCn\nB4TzZADH4o1ef3/Vg9iqtTA7Ttdh2iHK9sZp97tvxph6idOXGhn0n+ttURa/\nyJsutjVus7NkVpps6UsoPLGYJMmXOBGjQXQ3gMFY0jrrAquCNXjSeBp/0Zcc\n1/C0w4ettUSahOOAA/fkuT/CvX42TzopIRBWf0vuPoz2CFvZ/6FtGCvfXSsk\nOUqlnCQsc3r6C8XeKPWPi4YmQAEVrFfKYKOEAKCdDQetHZGLVRL9VRzGAuey\nCyPMYLwvHqNKQ7vSjPG6QUMam9aNuV8Pj8yLWqJmj81IUEXaayoWkEIK/yNM\n9Tfw\r\n=gDTv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.0.1_1608497718232_0.6541954219886781"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.1.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.1.0"
+			},
+			"gitHead": "78c4d13a8d9731eb9aceb2cf4857130014dcced4",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.1.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-TDAKDk+bAjKctvnxkyqDK3ba4l0Pkl4JcZUn9g/j7Yg4KNYAcFolyH1LBgt/MKVYM/NFtW1mHSYv7l+iTWf3Wg==",
+				"shasum": "02eca358f0a677e507d0986edeefe28096349aa1",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.1.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4035076,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf9LwQCRA9TVsSAnZWagAAwHwQAKGyhWA1/s9oh3fFk6+3\nXvEmehbFSfWezWxohGCx5aFwfwi0m1GjwIXtqTREaCgwsNZ05zj0KsPK+GL8\nbDrhuibUVPkfbHcMcKQIBr/Of59IG+iNB3m/QO4/sVLnCaTu1042YpPsyfwL\nKdWkokduQ8ACmrTNQS5+FJjZhEcF7PlRXb70dpoq4b0igLbzVlYAIS1e05Rw\n/0tTAheflfN+/nLyyKFGMTOBm9E/qwMTlGf1rsrzbokG/2aQ/bbbLXwBUnxg\nlzDxSqQSSVxYP9YrglzJDAzEMJT7yW8nMlNLmua5wlq1q6B1arOjfn+jV4CC\no8uS2PTuedm2DiZCfwK2SHrsEm28atKii4vNet81t4uEMF5msEMeQdNTvI1K\n6bJCXkbU91aJpi+0ao8evMfKdi1TzMPpQQFoStPcITfk64M2qQgqKM0Y2e4I\nMBajp7CAxDuF3DdpjAJadSt0HprJc2tArlruBCUv/DWfqaZqEmAEPu+jzSJR\n4yqZm3kYcxyKOa3RLepgcDfKYL/JvGyT5Qb7xkfeej+ii9Ml00DPpSRv+o7k\nZyZRw6SavDQWiuMKfzTzo7aRo9Bb5q8nTdE9OuR0nGXcfo0AYfumhFwY5Ph/\nN/BPeHLfNpKVw0h+f2TWalFaxZ3N5YmOur5DagKYFetroD0C+IW75LbIGlLr\n3SpJ\r\n=a9v7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.1.0_1609874448119_0.1489992429734215"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.2.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.2.0"
+			},
+			"gitHead": "4e0abb4ef38bc01e8fb40e558fa96a59d2dbd6ec",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.2.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-274lNUDonw10kT8wHg8fCcUc1ZjZHbWv0/TbAwb0ojhBQqZYc1cQ/4yqTVTtPMDeZ//g7xVEYe/s3vURkRghPg==",
+				"shasum": "123e0438a0bc718ccdac3b5a2e69b3dd00daa85b",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.2.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4037024,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf9MTxCRA9TVsSAnZWagAAmPgP/03OohS3KoOS7uTABm9S\n4nkHnlor5DF9vtslGtSTb6Hk2I2fZDQlN28RngggyoPiAdMz7gage8VGgysg\n/83FNYq+IM4lDAGejQ3RLXRgi0RiXbZMKikQ9T4sWMEEQK9tpgS8HOuz/y76\nivCz07/LVNrTainU4mB/milMLZpTwWI8oHTLeWsieMH3uDIaKAa6p731IhUh\nPXfJGrxCPlnonRyhDu4vziBCx/4Pm2wBAo9lJdMZ+mFdo+19ZxkDXcfILKuo\nXIfEpFQVx1t05tHeZ10rnx0BGTvgrf4TMsO/yTrb65r+lWe/IyBK3lA3s42q\nfyGA1VDssDZoGc1Q+dJamxhSD6TNIM3Gx7tnTbGrdCT48J/dhubuQJjG8r6u\n/6wKlQoiqpX9qAMxgT43qn5ZwGWflhTHbE9SchCnmrRhj7rQMmZr1zQAprsp\nJkw9/jS11ATKv6LjZ7zid1R7flOm5P5goGmrMcB2X9afvCueIVQbIHVoDNeV\nySgWvoPXJJG50ypn69jxkDnGIDodUEWFkqR77Hn3T/XZrdVNU9pK+94uNcrq\nyQzz3bW3/eLYeTjMAGMhan1VzRSVMHU+l2/bHiFSccg9EcrL9UVAm/Uo3qzx\nafuwTR48WuiGAD3ncM5SmvkGXoMuBFstDF+q0uk4ZNvh4bc4/IwOLjsYhjJr\nJjvT\r\n=VYov\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.2.0_1609876720891_0.8319366345634605"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.3.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.3.0"
+			},
+			"gitHead": "6d3f95a26629cd8f04424378b7b291bf6993830d",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.3.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-Own8lHWVi5eEfLOnsIzAx16BoRbpkzac3QDUCxIqYMf4bjz+AGpv17UfRn1Va4lVmjwOpvZglpFI3mmxuQ+sIQ==",
+				"shasum": "075c4e5a1d05d0b62cd8048b71764537aa870c00",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.3.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4097023,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgAOnjCRA9TVsSAnZWagAAvd4QAJ9kT3/ta/rry9jM/qjH\nsouEMQtzWbPVHSV27W9oUdpiOi0ArKbCOZR8Z5bwgIH/Tqk3QPhjJtI+ueQG\nMoW/LkEFJtmeQUd51GWCFueDojAEL74DkBvY3O7fxcxUOZAEuWW+xYlYff1g\n2moS5T9b3r9bsh/+JhEeplwdlLWixiqPC6nV9YeDiXp1t/9vnd/RhzqyFNPV\nvfipLLyHULwGxsgH62fGMAHJ2u9QMdTXDw3pQVt5/2YaCy9lXR54iRal2Wxn\nCCRtgco9UBIoR2FAHApUKGpIh5UFCXIvqNWhre0IfHOS6nBh70khDczikx/X\nBgze2E9XTcQhb6mzEmp2Ov3XlSTNxedmuIMn0msEcFP/1jfoSbbZFn50rXRj\nUu8zRVvZNcpveqZtb+PRJGWzmYyJD23P01V+OClO91sDT8qojRBPxB3smX8W\nYI7L+ASuZyXAH13Q0QXkNuHBuWKI0/XeBaUSrCR5veUsP2I4GGX3aMweSj0d\nm0JL1opPlevR4Jm75sLlFYnHkzx/t5/qBOE+WvbE4uWp+Abeso3OEjDzbUTx\nD+De+PiJlOq8Y7Mz4W+Jmuhw/5zFLmC15SCDKDRDWzuowbrORMrWHydsNz7Q\ndA8kh+i2NVza8NJDpdU9ZsSZrgeIZfwD7tVyoB1spWzDocRvl2uX9X9CJdTf\n1QOj\r\n=Szw8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.3.0_1610672611216_0.5961018092236285"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "2.3.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.3.1"
+			},
+			"gitHead": "4c7b3df05f7c469aa22f6e19ae732686f8afd028",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@2.3.1",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-KTzpRDT07euvbBYbPs121YDqq5DT94nBDFIyogsDhOnWL8yDCHev6myeiPTgS+VLmyUbdNCYu6L/gVj+Bd1q8Q==",
+				"shasum": "4e06e97bfcce5ad64fe89a1b5bdbed05e31ed1ab",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.3.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4097863,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgBdDJCRA9TVsSAnZWagAAmn8P/A80ayMadpLmGdSKb8Dk\nYLMSruMnnzwcRdozFNS2LpzwVBxs/saNvdlaK8rRy5Yy523Mm/fIzc+4ocCq\nBDP//Lvfz/nXncRNJjDIbhwaRMVae+9XiQLxFx3AC50nNTBTqoK89hD3bi+9\nxJCWk5iZfY8vZ35munPaNvY6mbtYmxE7knG9MclwMTPZw9LuYLCErR1DF3Uq\nt0n0cqATyMoRbI+hH1hnoIForENGkCGcreC6Jsd1YpCiP+d2iwnhovNBh4l/\nUr8N8Cw1q8sppyzSaO4RzekW4KahanqLpynBA6JQ78+fBRRrjX8eRCm41ezS\nLa7B9ulax8THYwM8Rj8RntWTyPVkDgn5yn1fr0E5kGE233NuvyQb1Yk3otQj\np+MOvaFacgXmcnaEE6VM+5eNDS1AnCXH5oeCAiSXtz/YKXorY0GGLn/mMipn\nDMzb9Dx9ZaNxfj1gDFEL+lKKPoLuHmKfXPqQwGTB5H/IHRMBvK6/OAwDmh4Z\n1wxY29AdPBrJuI7+2b0KgxAPhrqAt6VTNalo1UYGZ2m0q7TymVrTW/KPfSGR\nnKgk54PWAMzNm+5994hMibZQ3QKVdtMGlPHrqlTMnXvrN462JZWgfKhrfOkm\nCh6qIrckWIimtUyVTNFM5ah9bivNrQab0JXrNgeTNAnpQZJ8bVHK9mMLGfGg\nShlm\r\n=3QPO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_2.3.1_1610993864953_0.538710176892506"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.0.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.4.0"
+			},
+			"gitHead": "2eae5c7a5e281c8b751a5af05c563fb3570070d3",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.0.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-jOp1CVRw+OBJaZtG9QzZggvJXvyzgDXuW948SWsDiwmyDuCjeYCiF3TDD/qvhpF580RfP7iBIos4AVU6yhgMlA==",
+				"shasum": "f73d48af2d21bf4f97fbf38fae43b54699e0dbba",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.0.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4101531,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgCMkSCRA9TVsSAnZWagAAWwEP/0ou8DXWV2vcEwsIJ5Qy\nSaER9aGzMHnRnCV+uViDXMGh8xbcMR8CuWZObW1Y2ISABxwt5rXO26GpMIyQ\nzdba38Vtdc2SXFEOdodt+e9hRI+9TWHpoQf7KqYr6RobeVl0nVCJhwEj0/RB\nP/zQAfQeIa6azT8YoCqUEbSIIUBRSlxxsGBVtCE4mcVjn7IFmiT/gjOv6Y9V\nQxUPGYFboOm8GcvGRS5cQh5Zg/peUTnd+qEV7e3658Q3H7YhomOWKnESz7yw\n2X5mGJAB9oKvLat4lnJdNrJo2c6XqvPxTktsSR7XgDMgYscU4xAc3QSVsH76\narEZmtwtgeuaT6RcrYhLzARy+RevSkTlMzzOExlJPMw2n0DkfyiwuT5R1yfk\nk9pLHFnvudBDWNZ8lnnGSGvw+EkoETGmQRnwPNc3r3ZasKH3Gf63+5ApyQoP\nKH5VUOp7ZPx2Oxl4AB/COHAM5IdEkMFsFhguEzCBt+KyMnh2g9pmK1Tv83w9\nbPYSCrqeDAr6biEj7FZKIkzH9Wu8T+lyuvuXLn0rU7C3XwkOzKC/9jgAA8Kd\nRo7/bdKnre6YSN0I7LipMjjJ84bGrnkT98NV0/HEz6p/MAfuikMHeyqcFrBV\nYVXrGQlaq+OsPMbg1zLJbI8sFYbG+KmJSMfbOqZRFBEyf7YsJnDSuTFywCTT\neczt\r\n=/1h4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.0.0_1611188497724_0.30665830924385906"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.1.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.4.1"
+			},
+			"gitHead": "7023f50b84110d1512a5e86e3c9feeda6d915786",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.1.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-Ye3DO1NM2EXUxy+/j23/QNHq3TxxQJp54r5WYF6SplA8mifHLY0Ayysoky9PlwG+XN6E7fPv3HRZ4n2Ff3gAlw==",
+				"shasum": "3e112b7bb92a19970345bbd45c1d53b0d8140ed0",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.1.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4102893,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgCd2/CRA9TVsSAnZWagAAXkgP/2o5qWwdmedtiICw2vLo\n/s4R8Or/YLgjwmcwm10RDZUjxDVkAPjJn5heDeB0KmfOyJe16ABasr2fNVha\n5Rfm7V6HwgrYyImP+qpY06+KdxJw0q7UwCapudgSDa5h5iZHcu94XU/V+rgi\nw32pb5FgT8IrwYSQCDd0N5YRkLlL0ZPE3zwyG0iOnU5GwLoxDD3C+jKOPhq4\nxZ7CKhrmi06VADRZrceDOpvysdO/urmsXZc+/ir0HJu58LHRq+nKbKTXKoAX\nQAoibaZYdcBwhkYwz5Zo/rOiihxKvLqr5iUCY6EQPLqNbClehwahJQZto7A/\nvr6d5eJTdw195A6nFrbfm/w5EoBGVKquK0w5AyeCYviuCKPhrdpHfYfhWXme\n0xak/KCCOg95TSYiXL7IDEfxV3EoSyawOJA7ODwkNuUm2CSkH5ffemE50z3Y\nf06A95hQ2NEHBILNFv3/YxZYe/k/jJa9Vm4UO6JrynDKMR74gn5u74uHkVNO\n/l+KvKIQNsvMU04oh2ilVPNiW7olWGIIJz8Z2wS+dPib9P95ZluFnY/73A8D\nzlM5yUCz13xml0As/FQY9dGJSE+qN3UnVEeFvY0LXhNV5DDLQcmqS3k2YkUU\nMPZfVAC+Ya2o4prXR1NHciuJdSZcQaszaHi2OjuKlIOl45h8yhgPChR3ZbDa\nWksO\r\n=7gKt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.1.0_1611259327310_0.1958223538839452"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.1.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.4.2"
+			},
+			"gitHead": "4649d1a4ec8a26c7e77bc420f755e2cfd370b14d",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.1.1",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-4BsrIf9/WLRbl0IVPEPLDTROduvYR57xCldy47YFQp/TZ9DbREQZbeCrJIe7a+Qjb3qk0KwZmxNYYW8mNQY/HQ==",
+				"shasum": "628f81b87cf4390f9f2b0ad3d89ef5524ddd10fe",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.1.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4091909,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgCetUCRA9TVsSAnZWagAAuW4P+gO1oU5rCMW+yEj5zh/6\nKQcKG6xPQDKlvUAVurfyRPrcdcO079OJnNloBTkFvHLC41NQLMMWc/OElRDn\na8OwCJ/o4YYkGIidecwIgEDPY4gZBNFP37botf75hsKIRMoBoLCyM2ZnF2Np\nM7rOcjd6pGC4lgCwsTkWfn5RrH2TrquOBlujogobR6tCl7aQDxo7AQqiE6Nk\nqNbWjMGtu80CN7LolMlIN8gbUyBaz3cLe3pfA3yiWnec7e6gBKTUwVhHzwPX\nE/Q/KLxwzZ/jXF0rKv6eeUY7AV8T+bNqsxcnfiEc75EeMDTRvgYX7mTL8vFV\n+pWakcGLTBIN0QoVwtEK7oE/DuYgoCd765oufcEHcAK6miNJpH4JBwPpkW2k\nWA+dPCow2glJfxTFxOk1aSlyT9xjpiPKKwTagfpChaiV2vv0N9E0HNPzGHy3\nFtwXRx15YaF0MZUmwPDNPeFpFbLQvcjQ7bFkVf5Xv6lb6fo7LGIqOnoMORGF\noWPUjxiPRt3gRYZEh8IoNjMZqxTNBry5fw01fQ/rPAXw7nG1NQ7Il8ahuydl\nbuX97lDxYuN5dkusZkMoDUtfGNzO5zmYG0z3K5HJaOJ9JqqaqyFPyxLu3c1f\n0N+r281IAV7C6ufiJ3W0i/I8iRenYQCvFPML+vJPa7Hcx+E6+Fbwy4K3JhgZ\n69Vr\r\n=/+2L\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.1.1_1611262803512_0.8798999873298574"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.2.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^2.4.2"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.5.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "5c30618140cafeeae0e8542d6927e05643f12535",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.2.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-X7yW/fpzF3uTAE+LbPD3HEeeU+/49o0V4kNA/yv8jQ3BDpFayv/osTOhY1y1mLXljW2bOJcOCSGZo4jFKPJ6Vw==",
+				"shasum": "d62d0ff7147dbf4d218616b2484ee2a5d023055d",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.2.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4096366,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgCnKUCRA9TVsSAnZWagAAFlQQAJts2QkSiNeToy0VucsB\n+pJTiK/hS2lj1OkNMk6HTJiHcMmKt7Xg1fUdHmXwwvR79l9Kre1bwJUbA+PB\nrpvX8PjopIPSAzrSQnwPGlM4GWL6cfFUMqZ7DzNUuUQBbBea0wgEocpumYeC\ngdOXjdS2jiFqaFxOf01szebtyCTXcayB9TUOuoHOYkz9tBIuetxSXKCHCPl6\nod22G2rqK5/2jZHe8m9RSPZNPV9hQGeMzoHtl6rpMkK3w9mxO7YN7gnBbYXb\nD8OlV/mo5vnWhbqSakGKUC0R5SDV/ziVTTh9LtOcFrK2CY/qxAUxx6DWfNX1\nEqUXdWrUgKLl2O0OEaNhxeVioOn8K9GSvGHQbmc3/ieqCxvcuNXAB7vDSw4h\nk30nchUcasYpK/YfZfYg631oXeuaW2MuR91faZom13TbnooCwluHCmDgCIHi\n8guBhsJX0hKvMiw0R9zFIh8JUIL2cosDmE/zqhLZOILpxouzUHzba5RcqJgl\nQGZH3V4Ttf/B3ZMphGboZ/rj0VMVVwjVGLdeXHkou7EF9uyCmCmkHXkGcdjM\n2IAYTCIl5/2vAVb5LAx3imY9ep2HKwV9MpMqHK8Rh2X5nWa7RC+k+uxG/bE0\nzUebD3AQaXhBpQ12ML7Prm0BtivRJvRv9FIy2vnTwwMdio0Q9TJu5apMD2dG\nQ7LI\r\n=rJ4u\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.2.0_1611297427699_0.30302929866713435"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.2.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.5.2"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "c8a4653a5dbe946dbebe022661f1094be656f00b",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.2.1",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-OOXW6e+vSIpA63Zp5Q+hio3tnQsWFnn9xx1xco0arjTOBcKW/NwFsmhpmj4Yt5IddUS1V7PVGSfRRDO5qZhEqQ==",
+				"shasum": "5bf4fffe2c66bb3f7306351fdcdcb51c8b3a6538",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.2.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4472351,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgDz7tCRA9TVsSAnZWagAA1F4QAI0O14Dw1RfyQjUc+YrK\nPGzDypGhjZfoxLgUnhFRIDXd6LTeMJkMg1794Pgh+tyRDU6h2jlu7Nn+ndrN\nO0jixLbzBvOcamN2GIxMEO8I40mtUoz5B1NWU8CoLhOPHwGRJ9Rc0+fe1Arm\ntQeHHupXYD21kbvI6acSomqSX1ZH+sn//eZfuM1HrgiBRB/+//PAMWH9hXHR\nsn0ZYJR7y6LyaGZw+OOxs/p7+Y/MT4SX6ecbfXZ5f0dp02Pg41QH1TfVCafk\nKsSMfqj+S7VQ6meLO0RWCvGSjtIAyBcX/yjGY08wk4G1G0nwPvsq++oEJzqG\n1CsxuL6nvftjHy90HMWqwB1/Jpylv9EF480S0lYp2QgkjdNtUs9ExF6uZZsZ\nTm5iyXKA0bdpbHtbctC8OscjebAykWK6uzaOZZU9a3ccue002dqRdksIbcY6\n9ecjjhRPTy4jOyWqZe8gNSAvBDZRPOQnXu6xJK5e6LcTJ55QdlHIlw1ICU9Y\njf/YzMHahNl35rb0x+tlEVR/M9ujS3TL8x87yisYHeyFQoaMGEB8eazgpKrs\n0LthlfsPXwAcMoXgGxKcPQDoswJcS3kgZ4hMMZPvJ62PM8bRrfZQOKuuyWrC\n6vWfJrL8NSZv1OZyG8b338+PSuknnVZuow9A+sSrSFXHihHdasiFf4uNXOHW\nXHrg\r\n=fKPg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.2.1_1611611884604_0.851331986299404"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.3.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.6.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "f805026380fece02c4dae543f5a3a29f164909c2",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.3.0",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-s3dd32gagPmKaSLNJ9aPNok7U+tl69YLESf6DgQz5Ml/iipPZtif3GLvWpNXoA6qspFm1LFUZX+C3SqWX/Y/TQ==",
+				"shasum": "8797af01feb524e3f4978e1c9bf7bc7c18ef9d25",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.3.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4473830,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgEKBpCRA9TVsSAnZWagAAaZQP/2w/z6JKDiKxWto1Jc8E\nzK8aAo2fRp8JoCqx9Gxdu2wBRIiJBO4dQ5C4cbJit5vovRV0BJnXIqcxI1VI\nbfdnZFXlCP1z657XF1mlJjjgOpMi/Ts2Y/JciKSTZL7/jFPyHvTPOQD1dpyk\nNpwA8HGZbq3X9wd02854lEGRYxhmkGk1skpItzPjD594QYfwe9FZJBhLGN96\n+8rE3VfRIdSyl5A+eDt82CPJlIBYmA2LTb5IsP4CAUIGBOidhDKNV5Dp7dQm\nj1Kk+d3rMSXLi474cvCXWabCAG9xyuyqjS1ZpkPjlOsGRvPimKwM7hlwB7Nu\nC098j7wL7IFZpqeVQjU6FhooONj477H5RPosnsAr0CnVQqRL16egbdB/kfvA\nwQPS5Iu5Hprnh5FOiZ6MsyXqmeEoZ7IeCEKLvpzR8mAaOltRVNOuI/n88FKR\n6gUVpjEEAWzt8vJk8foGhbfF2Aq5p4AJ+4pOgIfy208xClnzBd8zSzAYvtDM\nvTynnYfRu7xj9GixLeCqKcGkTq9AkBsEpFGgXeByuJgbpgy7nTt3BX6edF78\nlm4ipEUGG1Ricus+FQa4l1gBjuuVooEafU2atdkLMv64NdIvvQvsrud8oc2N\nxFVRxeWK5urDRQknvLclGN3tAvKgyVsSMBZAPkmEUgX5/IS2M/Akyn98rwtM\nVxt+\r\n=Zjp+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.3.0_1611702377008_0.3727431684566671"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.4.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.7.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "52bf6e309531c623013edd792534c7c64520d6cd",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.4.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-u/8IYN6yCso42vlby0weRErF2+Avj4KG+wBFXty+vvPRokWiYSAeG4ySYlAPFXPaLd4xRPIvsYP1vHtwbRqELg==",
+				"shasum": "bafe7d60fcae4ffeb22515518b9035cfc4bb9a21",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.4.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4474621,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgFx1eCRA9TVsSAnZWagAAhQcP/RYBYI4h+3wN1cdZBzmN\n4PBEs4Td/8KOxHSpQF63ZjSFmnYi6xdYiX7xqqDTYEn2t4lQItq/v4aPtt5U\nHSpXZwJbc2pN3vjXn/IuFJ3x84BBQKK/9Fudzlr2AU7+wNQka8z3s7i6yB+R\nRV96ZP+s4jUraNWYUzXR4Igs1O3g4+l1Ff3Rbl8TpFwhECfp01zFBQkV5z6t\na7p91TjaIuf2mjBzM385pQg5SuIKkLVYSGKhCXdAJhnq8sKnfWtdfrWo/Bw8\n872l3fJanr9sgXOxjoamHI+01kb9/Qbbvf8bSVzhL1mhIRtnV8Ej+zFINDlN\nnbPV3tOabyxbsE4jSAKTpXxoGsyVrQ0bHu5eRihbDwJ6bhS9BfCNE1Are1jN\nouiaEkz05orO+zTF1X497kFXhk3P11FXdcP2KwMzdbCxWm7LvOZlX6AHgD8B\n8FQQFrA7kNYATugHa5JfgtFO737eD5dRC//S+ZHbefV8hEx23FkYCJ7thjOy\nuRTx1t14CXMOO4eo9xShMKr+KiGi8SiOWkcKU6XMI7aFAWdsB2EW8/ZpFPLo\n7HpY2k54+tjegAM8o6/pidUfBwAwSyod6Csmd6jB58lXfbtohtzXZ86kbxpE\nyOYVqv+bDXTBbDeYaEdf6AJrtWrStmFu7V6Wgqbv09eoxIHQ0qiOggsRIQoI\nPUjR\r\n=6OPJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.4.0_1612127582132_0.5168919204217381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.4.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.7.1"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "0c8b894232971dc2d13bb9353e5d11a8f0d2777d",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.4.1",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-7Sjm3UwEAM11f+ck9+qlyEfgl8hCk5sSZBU2qcWY8+8ibowjqcwxhhtvY0/pjHPF8mcvmedFpGmmIYs2qM9/+Q==",
+				"shasum": "317f78cede7f387046e6bad2041e01ddf9607e96",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.4.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4474707,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgFyHvCRA9TVsSAnZWagAA2qQP+QDtrQcqRcvRqU5pl4z5\njEZu98/1dCsNwioq2jfz3kzN3v6fHgvw6qOGycTB3MUcstMyJjy6ieY6VT8G\nE//qhSFkjyWwza4ciclGifD30sSvNz9euOs/ibpfIU90xmS9I6tBmSXQgIU0\nIzS9JYnygZ4Q19RlGMDyjMjXKmNbe7Km0I9DFBnFR9pXpTQzxcfCJJxXXA0w\n3bnIqwS5whS7cUoRej7ZtpmHqf6DXrlm2J4SEbe7O7mnRqbs3QbNuFInjHP3\nRncsETOqmC4B5DqKjWsDhWG3HutXX0kfu3uKS396fAmWU8t7IOieBgp6+BBO\nkEqdwFR/UPI4JkVYtago556DoPzhKZftgqYEuLgffLCTaWkSOVP1e6DbeiSl\n7pOscDJN3bquTbgS1rkQTeQYtaAosna7Jkz+YwyNe8eTk25BtefPHsdghmcE\nizviAC3fesM+RZO5PzG2baLdqVifgVZ/OxmRsGja9xolz73wFcoTv1xXnmPd\nQM74ETX1m+TUalRZLJeWpH0Z/og9zSVnQM5UmZASrQWqo/6syI7HNxnbK+r9\nMBfGpX8+QFgWcTyQdsFxdW+/HRFocpi9nnxDKhRP+j0lqQm/tbSZywGu+jxa\n84svNeL+R1F3AbOfzghUIbgl3IAPcblKyDPRVli+37J9SaQjI/DGhSmeNXo/\n8zqX\r\n=1pwK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.4.1_1612128751040_0.4959989834701162"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "3.5.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.8.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "d32ba85c3315765ebb0b81d6c20d82482d9c5cfe",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@3.5.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-LP15nQhxVblxoA9sKxSnrnJVIZEwTV9DZ16s01DtpttKWvg2lfg+zSWjveuO81c7CiX+HpBYPdUuzM2rvv1+Sw==",
+				"shasum": "ecd6f1a5b6421e24f06f8c5c02eb977c51397f09",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.5.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4476362,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGbV2CRA9TVsSAnZWagAAfXgP/jYqUJmCBlaS51hTewyy\nKu3GF6/VlzQQcCU0RH6BpchgsNqvw847z5g6mCPhDHEEIqzdwieWPAgKCfeL\nDqg0GpGIPosoPvZZqmVnTzQIgczwxkveEH5GNbVyd15JxArt+e9Y4QJNY2bA\nQSTNxfc9wjLmgwABOiSF2UcODJoVZdYyOrf4jkwZdJ8z2N5XR7P4fEh6svE9\nETvEcoFPvgdNhSjs4e6pCKa+2Ac05UsMb8Npttzw25Zd+C7tsl6NiyeIaUjg\n9bIO0bKpPHPnk9xxC3Z+qLz5pyQqi7wGW4vErwXynA8Xfme7UR8AVuS5GxYZ\nbcHFWpofcIZvstkOJppdqc9oVQKW9JVsaTIrUpYrbDpPV7bGa8/BakgWZdIK\nbhtaGeeyo8aPVunHdh95eStVedt1jhj1uWPkaJwpAIX2Kxl7prSOuUU3/wBY\nFZV8kXxLteD5vlyC/H2xdeFsr0Ydea4J+neK72RDYNsPjMOkIW+cbPXeAhrK\nUVtIZzD5auSv5iyEkV3et3fwg2mH9G3Lsjl7fZT/QBq5+nhYUsCKT3r8wsP6\nEC2ELDUUYw8QwafRWduEnEv7Y/HZotNTwnXSEfdF2AgeeQ16zK1Y9NENU1V9\nVSkHw2AMwmqo8/cQ5iO7oap97nLKTxm1aqy3jps+cjtHbLT0KWMiDgtj/fy4\nDXWR\r\n=KPSZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_3.5.0_1612297589557_0.15638181258967987"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "4.0.0",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.ts",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.9.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "4c5d99a2ca23bb36d3d306d9eb34ac53f621c3cd",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@4.0.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-o4Q9VPYaIdzxskfVuWk7Dcb6Ldq2xbd1QKmPCRx29nFdFxm+2Py74QLfbB3CgankZerHnNJ9wgINOkwa/O2qRg==",
+				"shasum": "40af33247d6acb17d942c513ec361ba9fe37d38f",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 4477175,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGc6WCRA9TVsSAnZWagAAW9sQAJFhjgQzziPtyXTQsO16\nkJ10OrMGNeqx2CpsJVUn28jwBYqRc4Jt1mci29QmR4RG5t660yyRxhL6IIaG\nLxADW0bkjUYmFQnVqSvi9KhrRJj3FA9cAPsMREMBpoOO9FjO3tQ5Ln0JzA2t\n090c1IcGb0L6O/sCwdGsYEWSdQsBcKRwYxOSyl4E7qbvnP3m3rgkEUFBTx+5\nMUkWDApC8iOkLkIc2VyleSKQ1xBSynfn16k4MZtO31XrNrUPjVnazjRktDAa\nfaqO3g+ul6yF0+l+Goru50TgcONxtU6QXHd5ds9n0t3NrjdbEZ1NmYwf9yAb\nWUDaV3HWX39gj7tqvXcOoKIsUrJMCziNrtXJPg+mCq9qoY4UNdy7KmUCQ17E\nXao3toX0CiPS2ANRIaNsxipZ+iqnHuMB9la7s3o13ulJsv8CAAlNlJFUyoS4\ni4UivBx82xoje/T5SQTAJ+wS14MscOP2ub3+CKHGGGHp8ZcmZQEU62e+desD\n6dLZW6ZTcrgY0pXJc/ej23UBK71y6Toia+Qr0TYAHdmS7VdIXMuu4NZMguQj\ne5wABRQv7gWeqEv2bnnZBnzdxUhUale16q475rISAgVBT2k3kTBQAytXnOsR\nXLcge/G1hM5B0dFvk/2lawPc/AU4/dvFDpthwQZ7BmmBM2SZjw0ZFOv4Ly3Y\n8hGs\r\n=oK2B\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_4.0.0_1612304021576_0.6566602082944704"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "4.0.1",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.js",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.9.0"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "ef4ea6bdb24d85cb094bba8751829bbecc835ffd",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@4.0.1",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-k2hRcfcLRyPJjtYfJLzg404n7HZ6sUpAWAR/uNI8tf96NgatWOpw1ocdF+WFfx/trO1ivBh7ckynO1rn+xAw/Q==",
+				"shasum": "bafd3d173974827ba0b733fcca7f1860cb71a9aa",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.1.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4477255,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGwrQCRA9TVsSAnZWagAAquoQAIMClu1wgpIyMVRUCtG8\nr/n6KF/fiqDX/7MkjzMoWWM674ifA/wL8eY1Gf6XEg6vlOvGJEA/ExpUwApr\nhur6vrvMQLnW7YZL58+TAk6TO0lp4TSULYy/CeQZsfGb97iXUjPiFJ/42N29\nTKFsnpOJmL5b9OEjzz5/WYt0wkJmQHNo7rTF3xGKQI8HbzuhqB9hZep3h45w\n9NeDiJVBDHuqRUKYKh9/nShPa02HnnaBailNaR8dEVl1uh2OpvoaVEYGgnTG\njgOA9eMrY18RaB7xETl86HY+nxaM+YmRc8BEn57Wo8w8zubemkuizMpA1E5p\nJqTQY3jGG5NMy9MRohp+ejtryhltfG4h27ca7F/paBRdxV9wD8Z+QWlc8H7K\ni/3LRqCBGwORqg48HvWPaITiDOMXNqmeiv8scPbn0qbCDwgjg91Rb3uLW8Y4\nImCB06EQNtiDXdz5PKkxTlTHjuSV2dMnjroJ/tRgvvRaVytgsoB5pP2Nhr1C\neumEyDNQLS3PiO6IRa/U0/WRgANwNunsiR9WEoQ6kq6m4CMfTdozNiCX1N1F\nmo8tslwaHiQwC6ekdCy/jWC3LEKTYbRd+p8uyAcaZQhOI569My+rKSJCw/mG\np7D7LcLdiLxbv+VwDqssvyFthFczN1sJ3p4bB5WyI6MAfh/TkxBhqn0b+OGk\nzWJn\r\n=6qOG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_4.0.1_1612384975933_0.759865706345775"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.2": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "4.0.2",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.js",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.9.1"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "bfe2f0a7b0bba1d2ba1e7cc450729cef69ecca0c",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@4.0.2",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-quqmeGTjcVks8YaatVGCpt7QpUTs2PK0D3mW5aEQqmFKOuIZ/CxwWrgnggPjqP3CNp6eALdQRgf0jUpcG8X1/Q==",
+				"shasum": "4b2bb553a16ab9e0fdeb29bd453b1c88cf129929",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.2.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4498815,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJCxYCRA9TVsSAnZWagAA8bwP/1J5gqUVdiU+8bDVDPE4\nS6EnxDfDQSnKWTIsj1gsauOnY9jGVp8lWPMOOInSY2T4pWbPtQqN5CiiPNLg\nPbBDxcrCaWYPlJU8yEseDr06ns7+avm3KI0IFUtERmdcTkDwr40J70zcSQ/P\nuqxcZQnkkbQKJyvi7Bm2YARq7W19YHg5cjB9BG/C1XE2yvnK5z5r0jBkJ6u8\nRC7b/GdulnhjKUGkWiIYggnpvP+jLyf71CrM9E3nMJ6GqhHuoKwUwTxDmCra\nYCl/4nw4iubSYlyMtda0S/YooUPUTtyN8WceiSkWyWXD9UBPh7x29PDJK3h5\nJMHy9wkMIn90T8hmD1rOMT+h0wCA6oq1YrgduP7VBJEHO95DGuEidez+JnBF\nMA17msx4VWYYdlpT/7ih4WLoA/WbpCvRBsDx3wtgKEFsA/nyA0/Tu3ep+miB\naekkdIFmagAJUDcgQZQyq1945a4h8z5p/fGRX6VdX1WTZdk/zv/ydZGjbdwc\nZOGPI98Eh/gXs6UGONCsTqG93xX3OX7foJ+SDE3dnxURbWIdOroZh2fqmEXT\nod0ArPQQgR6Du2tIRJZJLY8KVKSnXieB5WEoao8cmSWECR8U2MfwkfgvTDmQ\n/SUUzPtBQeazVqI9EGU3B/Mkes/UeBhVKtg0t8S+7V66nGoomkNszAQ5qqJI\n3v7k\r\n=YaJE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_4.0.2_1612983383920_0.17667794170394213"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.3": {
+			"name": "@octokit/openapi-types",
+			"publishConfig": {
+				"access": "public"
+			},
+			"version": "4.0.3",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"main": "generated/types.js",
+			"types": "generated/types.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://twitter.com/gr2m"
+			},
+			"license": "MIT",
+			"scripts": {
+				"download": "node scripts/download",
+				"generate-types": "npx openapi-typescript cache/openapi-schema.json -o generated/types.ts",
+				"postgenerate-types": "node scripts/update-package"
+			},
+			"devDependencies": {
+				"openapi-typescript": "^3.0.0"
+			},
+			"release": {
+				"branches": "main"
+			},
+			"octokit": {
+				"openapi-version": "2.9.2"
+			},
+			"renovate": {
+				"extends": [
+					"github>octokit/.github"
+				]
+			},
+			"gitHead": "5d68eda9e7f179da37c3bcf0167f7c36265aa698",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@4.0.3",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-CXCe1Zzc/WhjpuAEgoUktAinZJ02l6W8q1hDkwBtaonEtO6cjo/3Pyb2J1t5y2q/SvjESDJ77xZ9UVHqQVvihw==",
+				"shasum": "857335b0ddb3400fd19f8917b2affb5ee897dd3f",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.3.tgz",
+				"fileCount": 12,
+				"unpackedSize": 4499001,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJvjICRA9TVsSAnZWagAAHxYP/RMDRVIgSMq0nP/cOG0E\n+qmmiOvXPQaK5Lp+Rz03ACyRUifaYUKH2Ofe/oHW6YaZntDdMcGfkqOxOjwO\nbdUK+2QgJaGrl/Ed9VLN6y/n3FoIfgDxUYGLrQqZEF+Ud7w3yTJPz7bPQFF4\nLzkAhZwbA/d8qhmPpBRPPhlHf73QLHxf/hL1iyVumOPqrD8bQkau6L9Qq7xd\nzGiL5fIAHt8BT+/v75nOtyCJKysvXYZ0JpJfvgvq4xD47c8i2JPDuhh5pcu/\nnL/hIpmjlcKB/9XXvnsypb91cfvdcWeYa+YbyH/fwmZQZ6XT3XiDsZ5xDHe5\n2lBeaVO+qIpy+GokqIRsBM7piwfDd4XP4z/PvdFTKFe6h8rcgd7FVJmmJOc0\nguxDoSKpTgl0ilvgdpmXRFJN0aT5a1GhKxUZjnc0ZFmVc+96VPLhiJRDmIuK\nD0qfwSNDKZ8Jcze+U1d4za+ewJUk4J2Tgtz9ORZvh1+uRBmXOeKOKBGgzeFA\n9SotaNasKdEPLxTSsEcFu3fDVEJKHlHV4YGC4fpLYDX6YBcaK1Oc22vAmU4h\nnsxAvDzXqUO5S1xqvr+b3uNrvpK2AxXtzMKjrIASbmAuXS0rlbGBcWwV4EAO\n/DdTLtFZ6DdFfjmXeEw2Hmb64+a0jTu1+VQdUZ7hmsLdpvjeBgYXHWvwEe+d\nzp87\r\n=lNAF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_4.0.3_1613166792197_0.32244415656514636"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.4": {
+			"name": "@octokit/openapi-types",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"version": "4.0.4",
+			"license": "MIT",
+			"pika": true,
+			"sideEffects": false,
+			"keywords": [],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/tsconfig": "^1.0.2",
+				"@pika/pack": "^0.5.0",
+				"@pika/plugin-build-node": "^0.9.2",
+				"@pika/plugin-build-web": "^0.9.2",
+				"@pika/plugin-ts-standard-pkg": "^0.9.2",
+				"openapi-typescript": "^3.0.0",
+				"pika-plugin-merge-properties": "^1.0.6",
+				"semantic-release-plugin-update-version-in-files": "^1.1.0",
+				"typescript": "^4.1.5"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"source": "dist-src/index.js",
+			"types": "dist-types/index.d.ts",
+			"octokit": {
+				"openapi-version": "2.9.2"
+			},
+			"main": "dist-node/index.js",
+			"module": "dist-web/index.js",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@4.0.4",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-31zY8JIuz3h6RAFOnyA8FbOwhILILiBu1qD81RyZZWY7oMBhIdBn6MaAmnnptLhB4jk0g50nkQkUVP4kUzppcA==",
+				"shasum": "96fcce11e929802898646205ac567e5df592f82b",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.4.tgz",
+				"fileCount": 13,
+				"unpackedSize": 1504752,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgKaloCRA9TVsSAnZWagAAxD8QAI8BTDTe/Z7sMQ7VKLci\nFyIGmTEolWLKtglj30Cc7sA2k0CGKqn6WWdFNk9/W2spL35s7MXtPqQ+/Wt5\njXk7aHX6s4EJ+JNQAXVQ06zWhwqbYnxO6kyCiq4EoiXIFpwRcPhTdOUkzRaD\n+RHOd0S4+ti3A9VDeV875dNDMksHNhrP/jzK2FhfD6aQ0WifCXqbnZpF5Emb\nbKKAPjKwfx5m/A7I66G1dVeD2J2lvYERD5CAJMZTtVXSCPa/eWjDXhznn4rG\n9XPPqD1x1kNZEXnO1xq4n24bwa9Mm8hyF56cwDfFx1sNX2a506HohxEs/grx\nIgfhPbi473u0sOMvXwpFOYPFOARY34Z4dvMG6oyq4CBywXFpIGwQ7dz5nyaR\nKhmu5hUIeOzvPCTcanD92kStEgapo+zdcZBifgTxu0B7e+gnrQ3nyihB8tOD\nTX0hkIX9ZEVKh26gwDf0cLUA/Q7EKc/vGcLu7dYqczM6LI39OrkVDxrqqDj9\n+gAm32z7ZraNf/7Wjy3SijYvW0RlEwLe0jPV41M9jQSkHNpvoLcNxD5XsECo\n+nP9rly6hSaffTwVc4FdY6iyyv31vqJbPNrfeG4wjyAsDjkbPoq9TwfwAPZe\nrJ3AJIa+PdujMQNrslNh2UjROMmKWbqJqYoFxaM865IzMcS8fyQny+cbb+XG\nm2Fe\r\n=cinh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_4.0.4_1613343080312_0.38167977228156746"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "@octokit/openapi-types",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"version": "5.0.0",
+			"license": "MIT",
+			"pika": true,
+			"sideEffects": false,
+			"keywords": [],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/tsconfig": "^1.0.2",
+				"@pika/pack": "^0.5.0",
+				"@pika/plugin-build-node": "^0.9.2",
+				"@pika/plugin-build-web": "^0.9.2",
+				"@pika/plugin-ts-standard-pkg": "^0.9.2",
+				"openapi-typescript": "^3.0.0",
+				"pika-plugin-merge-properties": "^1.0.6",
+				"semantic-release-plugin-update-version-in-files": "^1.1.0",
+				"typescript": "^4.1.5"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"source": "dist-src/index.js",
+			"types": "dist-types/index.d.ts",
+			"octokit": {
+				"openapi-version": "2.10.0"
+			},
+			"main": "dist-node/index.js",
+			"module": "dist-web/index.js",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@5.0.0",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-QXpwbGjidE+XhgCEeXpffQk/XGiexgne8czTebwU359Eoko8FJzAED4aizrQlL9t4n6tMx/1Ka1vwZbP6rayFA==",
+				"shasum": "420853cc6d97a12521fa1d105ecc277112b32935",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-5.0.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 1534207,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgLVfrCRA9TVsSAnZWagAA89sP/0fvnMOJp1G8MyHI/9v1\ntMKYphSgmWdNtXKb98Km67weUlkaz431VkSedBy0QHe/GGl24f1M2H5AVzPF\n5y/QQX+Fm4Qg2UikrKE1FIdtsvOn8sd1nyzF1gwVpMNMeSAOJlQVlD6klj9N\nTt6sohRaQuTw5Iwb2lIzRsCmOHtnu17TXnzQfVtASHmfURgXC8LCZtSTvQW6\nIp0V3avCTpwVZePZI58Bw758fzI/SV+R/LmuWrQ8Z+38HYHvyn3dAlr3wPSL\nhexc0JncrnOAHSMuPnk0JMe+Sp19u27tNTmZhbv9RkN9H/xk0AubeRbwe270\nmX9Bf9qZqA6dhn6dTQshMLErhnhwcX56xZFMhOvosYXHxT9rTmdGmzMWFD1O\nApHzSGU3tpIihvBh9/2Tcj8u4qPs6MkAvC3Z3vEbIfOdvHCWI/ckXn68lxIi\ncWjRkjN0oSwOvYzi9c89Cmag45kvslIzW5saxl31VsqZ1L2apFq8oesXX8cp\neTENUKYTTqzmi3iR7Tu7wDwIuK0JS7IDuSw+V+zdZh8OV/yrZMfepSO68vIV\napz55RU09oFKUDiLzf+jtM9s0fuq5/2JxtWIfYaVYceF1olTnCvx6FPQ8mOY\ngYRPJ+u4S5oRpvRPbHVFbR7oKXXZ98gY3DXn//L0NSLlmgsYmeTBOSNHJp5I\n5+ZS\r\n=UDEh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_5.0.0_1613584363140_0.8642792405137896"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "@octokit/openapi-types",
+			"description": "Generated TypeScript definitions based on GitHub's OpenAPI spec",
+			"version": "5.1.0",
+			"license": "MIT",
+			"pika": true,
+			"sideEffects": false,
+			"keywords": [],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/openapi-types.ts.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/tsconfig": "^1.0.2",
+				"@pika/pack": "^0.5.0",
+				"@pika/plugin-build-node": "^0.9.2",
+				"@pika/plugin-build-web": "^0.9.2",
+				"@pika/plugin-ts-standard-pkg": "^0.9.2",
+				"openapi-typescript": "^3.0.0",
+				"pika-plugin-merge-properties": "^1.0.6",
+				"semantic-release-plugin-update-version-in-files": "^1.1.0",
+				"typescript": "^4.1.5"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"source": "dist-src/index.js",
+			"types": "dist-types/index.d.ts",
+			"octokit": {
+				"openapi-version": "2.11.0"
+			},
+			"main": "dist-node/index.js",
+			"module": "dist-web/index.js",
+			"bugs": {
+				"url": "https://github.com/octokit/openapi-types.ts/issues"
+			},
+			"homepage": "https://github.com/octokit/openapi-types.ts#readme",
+			"_id": "@octokit/openapi-types@5.1.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-bodZvSYgycbUuuKrC/anCBUExvaSSWzMMFz0xl7pcJujxnmGxvqvcFHktjx1ZOSyeNKLfYF0QCgibaHUGsZTng==",
+				"shasum": "661fd03c7d55fbcb0a0937d3353d87dea012f52c",
+				"tarball": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-5.1.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 1571494,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgLuRmCRA9TVsSAnZWagAAmNYP/3wqnQhYSU8NpAObFc1N\nSSFQle1WpDl8CAiH3xVCNrHJS9FKKJwvDOmNwFpr5wLMx4pd1g3p7kFjgiTY\nxSJMN1EkAj9ktb6iGVvWUbBl/1w++kj2tTsizS+pg6cIFUZMC11DdYZpirDP\n5z2OkJVXMhkrc7Erta9HOBkRLQOq/0E+i89xgbthTXth41viQe3c5vUImXQI\nqkTyIQ7kgzTs9Bd6r5GGtXs0V/8tlQQbcSD5yj3rmz4jHPidNedkVdOzwcMS\n3Ir/F0uo2uP0tRkIGgb7KdSfFksxKZHLWHAiX9G+w7caI0g2MNInUPzwW1Yt\nK6vI90eBj0wsiPjGEXg55KjDzeE/vUw2cNAkEKcHYvydtPYUTGKPp425vBQM\nC9YN0FjWKtNLwGHgDy3i1UZpYk5dLv/ix7zc4SYygsAQtb2jmU0E7YlG598z\nv5W4dcwhlyTpeV5KA/rIuOwEcvlGGxYDDFo0NKTzVJJBDHejKB2dPo6Wu7cA\n/jqDC0qSORAb+0Oa7YGREoxPWHvVtASQQZdijNuIYPFiILRqmeEmj+qIVEqk\n/ol+xGH8WFn6KnlbHLrutojFHAndrD/86tQiJ/d5OpGUJDnuOlU8o6ZbBK71\nxzoRl7qUs4Dxa3j4zL8Jkh7q3nEJJ5SEEyVeVhYIg50OK1/Bdd/dldqA9wrL\nEDQU\r\n=iX0V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/openapi-types_5.1.0_1613685862364_0.23648762052724814"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-10-29T00:04:05.198Z",
+		"1.0.0": "2020-10-29T00:04:05.606Z",
+		"modified": "2021-02-18T22:04:24.849Z",
+		"1.0.1": "2020-11-09T17:27:00.341Z",
+		"1.0.2": "2020-11-09T18:54:13.051Z",
+		"1.0.3": "2020-11-10T23:02:53.153Z",
+		"1.1.0": "2020-11-25T18:07:49.753Z",
+		"1.2.0": "2020-11-30T22:13:12.351Z",
+		"1.2.1": "2020-12-01T00:09:52.810Z",
+		"1.2.2": "2020-12-01T00:34:30.841Z",
+		"2.0.0": "2020-12-03T18:13:10.035Z",
+		"2.0.1": "2020-12-20T20:55:18.392Z",
+		"2.1.0": "2021-01-05T19:20:48.269Z",
+		"2.2.0": "2021-01-05T19:58:41.181Z",
+		"2.3.0": "2021-01-15T01:03:31.498Z",
+		"2.3.1": "2021-01-18T18:17:45.148Z",
+		"3.0.0": "2021-01-21T00:21:38.186Z",
+		"3.1.0": "2021-01-21T20:02:07.481Z",
+		"3.1.1": "2021-01-21T21:00:03.799Z",
+		"3.2.0": "2021-01-22T06:37:07.924Z",
+		"3.2.1": "2021-01-25T21:58:04.799Z",
+		"3.3.0": "2021-01-26T23:06:17.179Z",
+		"3.4.0": "2021-01-31T21:13:02.276Z",
+		"3.4.1": "2021-01-31T21:32:31.205Z",
+		"3.5.0": "2021-02-02T20:26:29.731Z",
+		"4.0.0": "2021-02-02T22:13:41.767Z",
+		"4.0.1": "2021-02-03T20:42:56.195Z",
+		"4.0.2": "2021-02-10T18:56:24.095Z",
+		"4.0.3": "2021-02-12T21:53:12.365Z",
+		"4.0.4": "2021-02-14T22:51:20.455Z",
+		"5.0.0": "2021-02-17T17:52:43.293Z",
+		"5.1.0": "2021-02-18T22:04:22.552Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"4e0134a878387c592b10fb44304ab729\"",
+			"fetched": 1613881365564
+		}
+	},
+	"_distfiles": {
+		"openapi-types-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.0.tgz",
+			"sha": "b12b1aec897779957600ca7df04524fc0411bdb2",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.1.tgz",
+			"sha": "5d5c7c2411ab209b26adf2e7ab4c78cce3ca120a",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.2.tgz",
+			"sha": "97aa2699042c148ec3e11fc8610d473af486dd01",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.0.3.tgz",
+			"sha": "c89f2dad278b9bd63e7824e31e8b03f584db4d17",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.1.0.tgz",
+			"sha": "d9ec3645bbf5eabd162be3d897072441baa78033",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.0.tgz",
+			"sha": "fb4351aa02849c06b8762910828293a228aea5ef",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.1.tgz",
+			"sha": "73174494fb2eb3adf37a0730685551c68e9831c2",
+			"registry": "npmjs"
+		},
+		"openapi-types-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-1.2.2.tgz",
+			"sha": "55d927436c07ef148ec927fbf4d55580a19bd68e",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.0.0.tgz",
+			"sha": "6d8f8ad9db3b75a39115f5def2654df8bed39f28",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.0.1.tgz",
+			"sha": "7453d8281ce66b8ed1607f7ac7d751c3baffd2cc",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.1.0.tgz",
+			"sha": "02eca358f0a677e507d0986edeefe28096349aa1",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.2.0.tgz",
+			"sha": "123e0438a0bc718ccdac3b5a2e69b3dd00daa85b",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.3.0.tgz",
+			"sha": "075c4e5a1d05d0b62cd8048b71764537aa870c00",
+			"registry": "npmjs"
+		},
+		"openapi-types-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-2.3.1.tgz",
+			"sha": "4e06e97bfcce5ad64fe89a1b5bdbed05e31ed1ab",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.0.0.tgz",
+			"sha": "f73d48af2d21bf4f97fbf38fae43b54699e0dbba",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.1.0.tgz",
+			"sha": "3e112b7bb92a19970345bbd45c1d53b0d8140ed0",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.1.1.tgz",
+			"sha": "628f81b87cf4390f9f2b0ad3d89ef5524ddd10fe",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.2.0.tgz",
+			"sha": "d62d0ff7147dbf4d218616b2484ee2a5d023055d",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.2.1.tgz",
+			"sha": "5bf4fffe2c66bb3f7306351fdcdcb51c8b3a6538",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.3.0.tgz",
+			"sha": "8797af01feb524e3f4978e1c9bf7bc7c18ef9d25",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.4.0.tgz",
+			"sha": "bafe7d60fcae4ffeb22515518b9035cfc4bb9a21",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.4.1.tgz",
+			"sha": "317f78cede7f387046e6bad2041e01ddf9607e96",
+			"registry": "npmjs"
+		},
+		"openapi-types-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-3.5.0.tgz",
+			"sha": "ecd6f1a5b6421e24f06f8c5c02eb977c51397f09",
+			"registry": "npmjs"
+		},
+		"openapi-types-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.0.tgz",
+			"sha": "40af33247d6acb17d942c513ec361ba9fe37d38f",
+			"registry": "npmjs"
+		},
+		"openapi-types-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.1.tgz",
+			"sha": "bafd3d173974827ba0b733fcca7f1860cb71a9aa",
+			"registry": "npmjs"
+		},
+		"openapi-types-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.2.tgz",
+			"sha": "4b2bb553a16ab9e0fdeb29bd453b1c88cf129929",
+			"registry": "npmjs"
+		},
+		"openapi-types-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.3.tgz",
+			"sha": "857335b0ddb3400fd19f8917b2affb5ee897dd3f",
+			"registry": "npmjs"
+		},
+		"openapi-types-4.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-4.0.4.tgz",
+			"sha": "96fcce11e929802898646205ac567e5df592f82b",
+			"registry": "npmjs"
+		},
+		"openapi-types-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-5.0.0.tgz",
+			"sha": "420853cc6d97a12521fa1d105ecc277112b32935",
+			"registry": "npmjs"
+		},
+		"openapi-types-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-5.1.0.tgz",
+			"sha": "661fd03c7d55fbcb0a0937d3353d87dea012f52c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-efa300e951b6ae74",
+	"_id": "@octokit/openapi-types",
+	"readme": "# openapi-types.ts\n\n> Generated TypeScript definitions based on GitHub's OpenAPI spec\n\nThis repository continously converts [GitHub's OpenAPI specification](https://github.com/github/rest-api-description/) into TypeScript definitions and publishes them to npm as `@octokit/openapi-types`\n\n## License\n\n[MIT](LICENSE)"
+}

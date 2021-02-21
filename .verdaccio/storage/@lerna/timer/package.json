@@ -1,0 +1,244 @@
+{
+	"name": "@lerna/timer",
+	"versions": {
+		"3.5.0": {
+			"name": "@lerna/timer",
+			"version": "3.5.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Kevin Verdieck",
+				"url": "https://github.com/nomcopter"
+			},
+			"main": "timer.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"gitHead": "1c142db1ecb50120f0ddce8ff8a7d9cde1bee278",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-timer-3.5.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/timer@3.5.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-TAb99hqQN6E3JBGtG9iyZNPq1/DbmqgBOeNrKtdJsGvIeX/NGLgUDWMrj2h04V4O+jpBFmSf6HIld6triKmxCA==",
+				"shasum": "8dee6acf002c55de64678c66ef37ca52143f1b9b",
+				"tarball": "https://registry.npmjs.org/@lerna/timer/-/timer-3.5.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2607,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/aMiCRA9TVsSAnZWagAAU2UQAJCptD3+ES47xDLlaFy8\nY0CZ8srBizy4tq2ue+A0xqhYNa+d0p9yfYz92RZ9YmfWGlCtMG37AdDQ7wwc\n0Zli2RsXCWxMhZk6k+aOlMIx0DS2NGYpTdpZ+3BJ1L4rjSBLu6XHMFI07Yj6\n2NaBwZqYPS0XQjue17tyO4193RyhJz2DHbEAphImHwxPCL3XGHqUtgsWvN6Y\nGlZ3JS98Yluwdig6jdtFBqMR/4LxxNLnyh/P1WCUQsRqdq56MZ3TNsq+IFVc\n3CNqx+Tgf5V/VSgIlwEFRP/ESqmRV6rOBcxGR26f7cXY51EGKc352UuYgD72\n+PSDyWT6u2roYGCwtQ7sAkkH3Af+p3O2CeROm8DnNLjQZL9kCCfogDJl2o4L\n3rRN9DSClUgSB9v7ccZqGsKq0rVjHrDsa7Oynjz7+bU5zcE9ScJK/6hhFKjp\nrsO4UV2MKmRF1a1VC5nJqjIxef8c0nfjb9LPjE0qASx2BrquXWzrtoL0dS3b\nJ1jC6GH7j7Y0PRrrAwzLeNfIOZLWcIkj7RorVhvC31Xx68m8Zk1m3zG62d6l\nLOFwynStW0GDiUp0Dixlm6P7qwkupnpS+RhLgK4FQjTSuTmu5SJVNJF093W9\nAfwZWHsgf50O6G7W/bmNWuFi1F/BQF5He1KtUBaIO1C5JTg2PAQi0Mh+ou9l\n6uF6\r\n=4OT8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/timer_3.5.0_1543349025529_0.6659423372138062"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/timer",
+			"version": "3.13.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/timer#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Kevin Verdieck",
+				"url": "https://github.com/nomcopter"
+			},
+			"main": "timer.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/timer"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/timer@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RHWrDl8U4XNPqY5MQHkToWS9jHPnkLZEt5VD+uunCKTfzlxGnRCr3/zVr8VGy/uENMYpVP3wJa4RKGY6M0vkRw==",
+				"shasum": "bcd0904551db16e08364d6c18e5e2160fc870781",
+				"tarball": "https://registry.npmjs.org/@lerna/timer/-/timer-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3005,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhq/CRA9TVsSAnZWagAAxRMP/jMzwlPYSijl/YH8XJSu\nVHwLAmtufTe1+7uJPKTg0mBOUOQc3wmPSzJWHObW68TxJiy62l14vkrJrTvg\nhdoDUKl5ie3WOZTPyY4njAc4wu7ofX2ZZ6Nzz8F6/7sZARL/6iOyHBXmTCBg\nK4vtEZLs8HHNU4M6Z1nXa/qBveuHX9XrHUkgLz4qSbOsxZI1NGB/f+YHAgPw\nKtUkjAUZVecMllndI+5SvNTeq5XzZNXGOcsh4MpiPszD25V3p1Vhqxx5PM4J\ncit8pArtYHWBOif7sQO8ifR8bmX8niExMiLe8kHz0Ai00Z3nta+qamzOrzYt\ngdLmowKyp4alcbETbC7mmsUQbMrK8pqq0kUZ1mKPcm6KMnLKnCH2bWxz9XVt\nMvau10e+x7RGzDotrW5Zp89XJTEFs6bq4u4eVxM+IG4nIt47oHF+7gej+QUb\nKvOqZMclDr8cF50jvDdOLmzoYQoL7VPy6bmgvx+DYWGG61Ncq/pNG58F3DOT\nEofygIw3yiLPiXH3dRIjNUkzd+guUNqoEyCLa1nspIklx7n1g7g100s+5Z2b\n5cB/LuIR43bXwUm8IiYW6XVi3NPvDn5mQjBZS8jxU8UAzpKEVYnjnp/eWQI9\nf8mCuI7IBVNZm0PepJdfmE8uCn3euDXW0ze3YvynWQC+amveEf63EU9069HR\nnV3V\r\n=AgNz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/timer_3.13.0_1550195390907_0.1739963993394953"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/timer",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/timer#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Kevin Verdieck",
+				"url": "https://github.com/nomcopter"
+			},
+			"main": "timer.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/timer"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/timer@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-WFsnlaE7SdOvjuyd05oKt8Leg3ENHICnvX3uYKKdByA+S3g+TCz38JsNs7OUZVt+ba63nC2nbXDlUnuT2Xbsfg==",
+				"shasum": "a52e51bfcd39bfd768988049ace7b15c1fd7a6da",
+				"tarball": "https://registry.npmjs.org/@lerna/timer/-/timer-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3901,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEtCRA9TVsSAnZWagAAUvsP/A2YpFEG07DhtXs/R0yx\nnqZTrMIEniLRe139ZYtPXgvA0SXJpMd+OProBckx50YAdsDVgTOf0huXqquf\nGbm16r4/Dzx7do7N92xzs9YZbkAeUfe0EHbQuJuVbYtpt9ZEMHZiRCqY31Yt\nif/lBUiXq3Uy4pwAJdzQmP/lEyixJ+0x/LKnKV0LgO/U+2JSUXkQsZNHHjFz\nvN9HTK030rHcC1VEZGKj49S9R9M+DLsEklD9nTDIMzglTKXSSvDo1c5tQcDr\nDN+W4xgT4YZrMyxoUGtuByNS39/kpU5B+YsFD/QD+z49fOFhXMJ4LFI0wt0l\nuZOKqfpcTjwM793pQmh31SESMkNJ7SczMC/7Ogv2Int9aiKFib5WizrwNOjD\nipCfrqiUJStaYtVcq4DTG2SJV2al/dZs9o2KTPMEON03leBtBu7M9DXahCjk\npntwJ/SDYhSIu73zBhg4jLUiCCcQwWZzu3eAwXtt4Nf0N0OS7M2np3BmaFyZ\nyz/k7nEQPf6yfcuEUDMqNXyl1O5dePCRsaQsJxH7fPWJxKozr53H4Y2znBof\nuYbdRm4QvBNrkBamtU3lc5h5dp3cx+vA3wsR/r6kFYUukH6OVhznZvegc3v0\n8TGpyAfRtBHJ6xhPRqvT81AeK2W5FQ3DKuyg76eDtkoXmNfbwhfHie1k5+QN\nBpFy\r\n=W/fv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/timer_4.0.0_1612996909143_0.9191983057023778"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-11-27T20:03:45.420Z",
+		"3.5.0": "2018-11-27T20:03:45.639Z",
+		"modified": "2021-02-10T22:42:39.794Z",
+		"3.13.0": "2019-02-15T01:49:51.114Z",
+		"4.0.0": "2021-02-10T22:41:49.272Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3edd1b50fd2077e23f680974a7fb2b07\"",
+			"fetched": 1613881353403
+		}
+	},
+	"_distfiles": {
+		"timer-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/timer/-/timer-3.5.0.tgz",
+			"sha": "8dee6acf002c55de64678c66ef37ca52143f1b9b",
+			"registry": "npmjs"
+		},
+		"timer-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/timer/-/timer-3.13.0.tgz",
+			"sha": "bcd0904551db16e08364d6c18e5e2160fc870781",
+			"registry": "npmjs"
+		},
+		"timer-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/timer/-/timer-4.0.0.tgz",
+			"sha": "a52e51bfcd39bfd768988049ace7b15c1fd7a6da",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-ad9098c3c88e8d5d",
+	"_id": "@lerna/timer",
+	"readme": "# `@lerna/timer`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

@@ -1,0 +1,645 @@
+{
+	"name": "macos-release",
+	"versions": {
+		"1.0.0": {
+			"name": "macos-release",
+			"version": "1.0.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"os",
+				"macos",
+				"osx",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "4a79656e9c3072d5bac6aa1c6a26d0bf09464da4",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@1.0.0",
+			"_shasum": "e168ce8f4d934399ab1acb92a6c309273072eb1b",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "e168ce8f4d934399ab1acb92a6c309273072eb1b",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/macos-release-1.0.0.tgz_1466368661731_0.42513905256055295"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "macos-release",
+			"version": "1.1.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"os",
+				"macos",
+				"osx",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "f39133483defff1d33d44ebac7f13ca44ff7b4af",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@1.1.0",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-mmLbumEYMi5nXReB9js3WGsB8UE6cDBWyIO62Z4DNx6GbRhDxHNjA1MlzSpJ2S2KM1wyiPRA0d19uHWYYvMHjA==",
+				"shasum": "831945e29365b470aa8724b0ab36c8f8959d10fb",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release-1.1.0.tgz_1497262572278_0.40303571335971355"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "macos-release",
+			"version": "2.0.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"os",
+				"macos",
+				"osx",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "d0cc866a28745391d6f755e70e7dd95466f2f3b9",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.0.0",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-iCM3ZGeqIzlrH7KxYK+fphlJpCCczyHXc+HhRVbEu9uNTCrzYJjvvtefzeKTCVHd5AP/aD/fzC80JZ4ZP+dQ/A==",
+				"shasum": "7dddf4caf79001a851eb4fba7fb6034f251276ab",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3746,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbFjywCRA9TVsSAnZWagAArCYP/j8mjsuygepZMs5pUgnS\n2uKFEgf8BrQsurrQ2zPKyzmIp6NUzJaOGIZP6XbbQKpjBXv7SHcc+5+PRK/C\nv69sGBMHOOjs4MSBV3YqN12LRrqnivdMM1L54o3YChk/8oeU62j/R6RxWP9+\nnXxp4WkIuQ8ah2dXSdX4N9T3Q2qhr25hdvCAm/c/qxwyE/dhQZ+tEtPngW0T\nkQshNN9IelZaEmcAs7bbqg0ns5pxQePIJ1blAKjszLw1TeMMVZ9rYr2Oglyr\niDaexmyDAqGSQvdMFQxJNW3+oF1OZhsBJN2m7lM5vribL0xtbZJ2O0djsZtE\nmFp3mdu5MRnM3W+dfTCD93GqJDUoh8fS6mkzAtxGaghOx+9c9prhfsFlIO0H\nm1fmJReFAKQ5HxWnCUgk2iClg1yEAERAGCBsP1CwBnJNNFaqSDaZrSHHNlVg\nbuMZZx1W0aipuB8Le1q5YgoaLQ6OtRHWund6peIbwWKMfUOXRX8upy64gytx\nKZAmbVfWWfttR2quQZHmQX7WpvuREVhPMch/JbSVhrJwWqCEF0jn+QCJq+E2\nwVPdHpCSnig3xn6DKw0Rq51GQfPe15bpI6bcf2725VLXDHuPU7o205zr6rcc\nvhDm0lOkjKITBmcEfOOGRUzOLkYQvjxGsiOCOvrs6TOA5MSOuML+C1S/Opdz\ndvJ5\r\n=BZG4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.0.0_1528183984590_0.2572244344958987"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "macos-release",
+			"version": "2.1.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"macos",
+				"os",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "^1.3.1",
+				"tsd-check": "^0.5.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "be63c3e585fd771c4f3d33fff82c9f98c87a070c",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.1.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-8TCbwvN1mfNxbBv0yBtfyIFMo3m1QsNbKHv7PYIp/abRBKVQBXN7ecu3aeGGgT18VC/Tf397LBDGZF9KBGJFFw==",
+				"shasum": "c87935891fbeb0dba7537913fc66f469fee9d662",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4302,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjoOJCRA9TVsSAnZWagAAYAgP/RN6SnakQlBbu1KSHSEi\n2mvAOodGCiJVzA68D8FjBdgINoYtT5/KS/XWga9LaU4EYKbEUFnBJNtJX1K+\nY/UAiinb5rkh2B4uPZrSuYvqaqjukM7ixu2LEoSxdMrDZxwc9+pSuFAUDw5N\nHzPcDTYf172hRsM85Und1Y4BUg+W+LpDlDQWIz2MGbE95GS5Gvae6ggwgTYO\n5RQodt4+AP/Ngie0030Pg6+9G5iiZi3LhdzGtFSpkwmQIILnbWuvpnG47yPS\nkCc5y1h3fdQ4+wfi/V2TjTb1oNE6tGVDE9oJQmOoH58p+hCcfgXtACbHK9Bi\nj6Epn7iftcl2aTQBPxvBuokfciYk5VasoWj3o7P/ufLEc1NE0XYygwWcVzPK\nYGrWCIYK5MTBIPSUHocAjElxQ8LciicJucwUc7Z0abDYl5j3OUtUcZQ4f4TG\nPqqHlvg8r2byXcGui1pDRSShLJHi/MtCVlUb07vYGl32guqSsiB7a05liZNJ\nXCaonbrPHnqa95SLp1s/jfodyL3AZ03D7gRxvMJkUJijmdgGCltW1MqeMfIx\nxDllhGI/bwMfkRxz2VIMpcQN22sU9G+jPcE/2Whh/chgkhyu3bfLpkNOaXRc\no5pDSIRypw1hHgMuMuvYAmtgpgOTmESmUY76ahPAwVxhF5jZ2WCuF5voTgn6\nZhOx\r\n=Abzk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.1.0_1552843656895_0.8939299106229306"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "macos-release",
+			"version": "2.2.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"macos",
+				"os",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.1",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "96afc2cbd94a8f09a5daf9c1356ff500a9033c67",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.2.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-iV2IDxZaX8dIcM7fG6cI46uNmHUxHE4yN+Z8tKHAW1TBPMZDIKHf/3L+YnOuj/FK9il14UaVdHmiQ1tsi90ltA==",
+				"shasum": "ab58d55dd4714f0a05ad4b0e90f4370fef5cdea8",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4959,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoLMQCRA9TVsSAnZWagAA8BkP/0QA8vCcg5WwTTod0Efz\n6vr8tLbkgGNt6OPWEF3gHVwMInM77hP0nBWiUM98gKENBmnVPdBEj6xpzBBk\n+IcPBJQXeqP/ZbkBaDMiM5N5PTobBo+RY3/kkgnQKGadw2lQIr3LIKEEizSc\nc28R3V5wGsiXtO/ng6AOrG+/xibnSQ+85pL7OVlKRpA94vvey2txBYme5eCm\ns/XcGBRf+He6YUlI5KQdVFniqsTYHMPzcAU6fsRSDRwWD+LUj8B7xKQHAPMn\n6rgOnhv41Kbv2GCSw7yklZJXJSpYWRv8E3dhAvAsRTmSaot6wzCRxt2Zllti\n9eAtOo7IeIPp5KtUf12GyVhFXscYrs+3mmyevYZDZbHIrVL0a15A/Rw4XBSg\nLheRrKl7UOWZSCroUNNzQUDPe0DgWijGghJMWVqO9xeNiDthnSujSjgsSR+n\n73eWOJo7kgcSkD9CK2BKkXs1bMi3LAeZNyXJpDhb847XuZVsSXYQuy2xj3I9\nO948R24qpJ2e2+an7vGcHIYkkgNu31O8YJWVrOKvRQtq6trw1p+cohOcD+kF\nhqvdZtroynYvMRLho/OFDHYyCaCvIO21BPubFpfCN2BBWmGyXC8MmfirqRex\nP/leeYjMIJFSDfw0WfMTGtxb9n7dLpyJCDLqtOPfKaU9DvhyPFKDXUyXIkOD\n6F21\r\n=PKk2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.2.0_1554035471486_0.17345447678299042"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "macos-release",
+			"version": "2.3.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"macos",
+				"os",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.1",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "0cc3270917527134fbe84dd9e8583cbc4866d71b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.3.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==",
+				"shasum": "eb1930b036c0800adebccd5f17bc4c12de8bb71f",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4978,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/htTCRA9TVsSAnZWagAAOccP/3cwfHs0I7MnZmM7o7tT\n3ZLNgLnp4SgcW7hLvFuNQj9DJlt1PMjLs/lfRK7WDXdLX5nsk6HS5UIfcaqm\nh11bk5ZKy3C5GscjA/aEanHGRHmbU5OUjAFS2YTc+/W2NMtGVcDeY2WnHSNV\nTffQ7P+/a++CtB16DiMixbXbnFMMtuGtr1DCtyE0ktFMJhgLC8REeIayFGef\nNJIfRbNCr4ZTFIF6ERQWe38dYpYr7JcFDlElTo+bvgjKs6mQkBSs746vWMXK\neoqZNk+QYM1Z/dyhGkAmuW95T2ulmJ7Wjk7zIf1WgQRMpBHauRcDD4FiJOUb\nKH9bO4jyPPhuzlXZO5HO7CrfkS2JheZ13wasxNnw5+mO7nevt2ARt95+/Wub\n6ODwzyOz7BNHqm4zPSJOhaRUcbH3xhYi8U+SQIbrO8fma9P1paRKMuduui4c\n+HEzrVDHESa6gCFlu/wlgTxSJap80loteWLhVLluyp6KNpZNixVUP11mDDYv\nbnfVCBLacGbcCHQOOlgNjW9YHltyqvyxB+LQ3Eba3lacn76TtA5V8k6yaCgW\nq/pk9cUzwn1ZuoumWmjJAjjEwEECoka6Zyy5sATYRstYpa5tP7wgfoq+MpHp\nuZYYJU66RZaAa/vyX0Brf17tp/VvYgrVczO3afKs6dlLmDf8SnC50t6SCjNI\nsXOV\r\n=36gy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.3.0_1560157010567_0.9738404545539197"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.4.0": {
+			"name": "macos-release",
+			"version": "2.4.0",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"macos",
+				"os",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.1",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "70f782f6a2c80f13c98245400b43d668edc91736",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.4.0",
+			"_nodeVersion": "14.4.0",
+			"_npmVersion": "6.14.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ko6deozZYiAkqa/0gmcsz+p4jSy3gY7/ZsCEokPaYd8k+6/aXGkiTgr61+Owup7Sf+xjqW8u2ElhoM9SEcEfuA==",
+				"shasum": "837b39fc01785c3584f103c5599e0f0c8068b49e",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.4.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5747,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe+5qcCRA9TVsSAnZWagAA+XEP/0Rfm2qgclzx1A3rbjZV\n7PlKUToAMW6Zlozj+fmg31fz+lyEpA0FJChR0vjCIVfAd6BYqKrUIJ5458Jh\nqkhK2WYTfB3hfwedIfuTnggA68oj6VrjAY5aq74aYCFhiPpE8ySd2kd3Rb6+\nyJX0mYur98if+3ik+tKGg2Rrf90qJ0fgoA47Fz3XxNs3kVvRbo7JDe9BNYR6\nQ0FzGFfRFhSyxFeKXTOCPUR//F5Y7OCQcwaAFk1Eidl8bfqOL02hPGvzPVnx\nywiLu05KcUCqnL9w1QKMrSec7zvL7b/e9niHjkHIPbxXHZ4e2WfFDw9X59AF\nq6SekkQNPifOYrERL//eX/Zy/qWsYvbeXvW5aCmPGseDIc0Mj4vgCMb02zNz\nQ3wZQMtKRHs45/Nbx2bRp+y58gmowlD0c8taqVpkrJbpH6jA0CXCpKn8sCe0\nAO2Gr8J+KaILS8alYbfZpEbaH7EUjmtOhtIA0/s++K+EDb51v4STHnFiONh7\nKJij04tOTECKHmTrx0IrZ8ccbiaIXDkbrY4W0+IcL5J7yxbBqE2jvPJTp9tG\n3OP172nk+Ik69HHpEzViujDe4fPE8ixOIjj5jpaKeHdh7MoqicIcTEGBrQsV\nv136VBgTmNwl9Zufv86aOJyH+VkKSdTXolUFMM3i8ILtu8Vb+cSNcrA/bYA2\nnu6k\r\n=C+MA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.4.0_1593547419589_0.02882971470958351"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.4.1": {
+			"name": "macos-release",
+			"version": "2.4.1",
+			"description": "Get the name and version of a macOS release from the Darwin version",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/macos-release.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"macos",
+				"os",
+				"darwin",
+				"operating",
+				"system",
+				"platform",
+				"name",
+				"title",
+				"release",
+				"version"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.1",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "290f24dd5afb18ede673bd78f0a730e5408b5a10",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/macos-release/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/macos-release#readme",
+			"_id": "macos-release@2.4.1",
+			"_nodeVersion": "14.5.0",
+			"_npmVersion": "6.14.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-H/QHeBIN1fIGJX517pvK8IEK53yQOW7YcEI55oYtgjDdoCQQz7eJS94qt5kNrscReEyuD/JcdFCm2XBEcGOITg==",
+				"shasum": "64033d0ec6a5e6375155a74b1a1eba8e509820ac",
+				"tarball": "https://registry.npmjs.org/macos-release/-/macos-release-2.4.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5797,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfGHrJCRA9TVsSAnZWagAAqeYP/06kq77sC8KjGAf7wK7K\nU9Bk39YSp0UR4mE1wI+QeBIOGvMbwv60DuIP7hr+dAls5mYpB2+mpRxFfeVs\ne1nuH5eGskXLwEYSWdAUetxA1q/ItHqmc0Zpx6Jfxs+bhMU8TZs3NEEG+iEm\nvqDRlCffD/fziQCLSsX1wrG+TPQbnK5XP9RVXzyEjsW+gKN+fqlnuC72SJwO\nRfAHQgdfKu40Pt+nmAr7WG+EIVyS88mB92kPsQZvEY4K0CQ4fkr7tNURU8hg\nHYznQFkh4MmeyAh10b0F+bqp0IVpynuREjK456oIyszvPpQCq7L8313YyxCn\nw4YEioXM+k8k70EpNXTikTnEc9hNDsVmU5bBrEb/1cD+MKd6aYU6A1xaEy/N\nUbYQQnM4Ofk1dgCEhUBrNlGJUEyDyxm/GOe4qEgH1z4h3sMfC91rwPpHIfDs\nQISv4y6w0dMircRMNEemOQlj7GUx4pjgtNo4fL6jlzdGBmtJ2qmlExpAEPnL\nQ8a7i9zIrDXuKmyVgWTrkACUSsiU4OOsjcZkzKlfF6EsUtOj2cQSibJa4VCc\no8xlEV6g85pgkFRpuYmmkQ7p9PS8AjDNd6RAJg6+yNCCBv2l7GCu7BBIk/kT\nQFM3Dn9pn8tedVuDO4BkhnDWQjq3VEWCHFtC4UI/gtRhjHAYvPJvn4krNWoB\nxMMN\r\n=FOpd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/macos-release_2.4.1_1595439816790_0.03145067547861524"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-07-22T17:43:42.206Z",
+		"created": "2016-06-19T20:37:42.961Z",
+		"1.0.0": "2016-06-19T20:37:42.961Z",
+		"1.1.0": "2017-06-12T10:16:13.309Z",
+		"2.0.0": "2018-06-05T07:33:04.659Z",
+		"2.1.0": "2019-03-17T17:27:37.047Z",
+		"2.2.0": "2019-03-31T12:31:12.081Z",
+		"2.3.0": "2019-06-10T08:56:50.692Z",
+		"2.4.0": "2020-06-30T20:03:39.703Z",
+		"2.4.1": "2020-07-22T17:43:36.944Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.4.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"cd19647ea3bcb34451b0b8e9fa8aa909\"",
+			"fetched": 1613881365415
+		}
+	},
+	"_distfiles": {
+		"macos-release-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-1.0.0.tgz",
+			"sha": "e168ce8f4d934399ab1acb92a6c309273072eb1b",
+			"registry": "npmjs"
+		},
+		"macos-release-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-1.1.0.tgz",
+			"sha": "831945e29365b470aa8724b0ab36c8f8959d10fb",
+			"registry": "npmjs"
+		},
+		"macos-release-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.0.0.tgz",
+			"sha": "7dddf4caf79001a851eb4fba7fb6034f251276ab",
+			"registry": "npmjs"
+		},
+		"macos-release-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.1.0.tgz",
+			"sha": "c87935891fbeb0dba7537913fc66f469fee9d662",
+			"registry": "npmjs"
+		},
+		"macos-release-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.2.0.tgz",
+			"sha": "ab58d55dd4714f0a05ad4b0e90f4370fef5cdea8",
+			"registry": "npmjs"
+		},
+		"macos-release-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.3.0.tgz",
+			"sha": "eb1930b036c0800adebccd5f17bc4c12de8bb71f",
+			"registry": "npmjs"
+		},
+		"macos-release-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.4.0.tgz",
+			"sha": "837b39fc01785c3584f103c5599e0f0c8068b49e",
+			"registry": "npmjs"
+		},
+		"macos-release-2.4.1.tgz": {
+			"url": "https://registry.npmjs.org/macos-release/-/macos-release-2.4.1.tgz",
+			"sha": "64033d0ec6a5e6375155a74b1a1eba8e509820ac",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-0bf3df909d9fd5fa",
+	"_id": "macos-release",
+	"readme": "# macos-release [![Build Status](https://travis-ci.com/sindresorhus/macos-release.svg?branch=master)](https://travis-ci.com/github/sindresorhus/macos-release)\n\n> Get the name and version of a macOS release from the Darwin version\\\n> Example: `13.2.0` → `{name: 'Mavericks', version: '10.9'}`\n\n## Install\n\n```\n$ npm install macos-release\n```\n\n## Usage\n\n```js\nconst os = require('os');\nconst macosRelease = require('macos-release');\n\n// On a macOS Sierra system\n\nmacosRelease();\n//=> {name: 'Sierra', version: '10.12'}\n\nos.release();\n//=> 13.2.0\n// This is the Darwin kernel version\n\nmacosRelease(os.release());\n//=> {name: 'Sierra', version: '10.12'}\n\nmacosRelease('14.0.0');\n//=> {name: 'Yosemite', version: '10.10'}\n\nmacosRelease('20.0.0');\n//=> {name: 'Big Sur', version: '11'}\n```\n\n## API\n\n### macosRelease(release?)\n\n#### release\n\nType: `string`\n\nBy default, the current operating system is used, but you can supply a custom [Darwin kernel version](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29#Release_history), which is the output of [`os.release()`](https://nodejs.org/api/os.html#os_os_release).\n\n## Related\n\n- [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system. Example: `macOS Sierra`\n- [macos-version](https://github.com/sindresorhus/macos-version) - Get the macOS version of the current system. Example: `10.9.3`\n- [win-release](https://github.com/sindresorhus/win-release) - Get the name of a Windows version from the release number: `5.1.2600` → `XP`\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-macos-release?utm_source=npm-macos-release&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
+}

@@ -1,0 +1,725 @@
+{
+	"name": "@lerna/has-npm-version",
+	"versions": {
+		"3.0.4": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.0.4",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"files": [
+				"lib"
+			],
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "eea9c5f5cbb3c831350af080b8b71b4fad8df91f",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-has-npm-version-3.0.4.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.0.4",
+			"_npmVersion": "5.10.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RisEWZBROi8corPb/PUIQqT+xGPLeriJ/n6VCeO6GROCO1fyYBX7kgFmVpFOytufWFkI04qBgLaUs+CEc8Yspg==",
+				"shasum": "d8c639a9a07a3fe0e9539585da074661adf69353",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.0.4.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3360,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbci0nCRA9TVsSAnZWagAA46AP/0KT1gbBvdms3jikOI67\nn9Xj/aWRl8D+fzqVG8FaZQQnuHlyW5SsBbxNJTWyXA9F15KvEEwYuum2bcns\ng92/FnZDnxbAut1YyIyxz4NbY+1/vuJ+Fx5mgpMQihR/N6eXScaWcRgPK8lx\nm89o2biLTBCT3/Ch7L8g7UXZNUdhIXSmMC700z070PufvAcoI60MSo2Bk/aF\nGL6yvZj+8utiYas+Am966nnr0e3NIKe36VRYXqrWRKkz1N8STUFDKM69kBhU\n+6Um6vBmLEYk/SrlZ46g+57r70IhuT5IDfP7aU0+n0KhD7aDEH/n8wa/Igil\nO05tgf2OJAHuCsZ78a48BiToZubTcTUwfU07UUOAom9RluNqQUlDleBoq3Vo\ntpnX08VNIxAaVZ9dlVnduKv/eelPgjR+iCqJD/3boTr3m8VkHm75Qq5TCtr7\nleY2xJZFCoyRKho7yLOYXXxCidA20zBsZPtZeeOukTDJTVk44fL7soWphVxP\nhjxdUasd7844axebWhdj08uZUUDymfQddVifAcek6AiUznCMD2devGScZbOp\nmqlcv6YyN14AuF0LtLRONIJU/u171ZFBp2Q8UtU2xq0IgeQ91zZ89J99S4rK\n+GPYsl25jlRfik6uTbkgdBJN7xa0DFmpQW0MeYcn3GQqQAfy4TZX1fqoz2zs\n9Bcz\r\n=efRC\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.0.4_1534209319067_0.9490162396386022"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.3.0",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.3.0",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "901e6d54a47151dfed3d6ed2912804b97d05c6b5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-has-npm-version-3.3.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-GX7omRep1eBRZHgjZLRw3MpBJSdA5gPZFz95P7rxhpvsiG384Tdrr/cKFMhm0A09yq27Tk/nuYTaZIj7HsVE6g==",
+				"shasum": "8a73c2c437a0e1e68a19ccbd0dd3c014d4d39135",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3513,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkIPDCRA9TVsSAnZWagAAGRYP/1LL9ulsKJrpXkdA8wrZ\nhMtfORhYa1lz10ktYarmk9z2SVFITIK+QXI1tNB6exaq46jzvkFKoYPbFcCq\n6fAABL1nr+x+6frb7Gt2bzC22RCgGJS9baxAbRmnYWkjj6tvYHWEg6CBlfoj\nTfBzHP085KulA2JFippi/x96XXS7RVTWGzVuC5vffeT4eVivF5xL85S5aGv+\nuVqRlg3XzMx+Xl0XcCvIgY/vS5KDcKQa5DV9al5BFjsf5K3s/eAwS7eRfuR0\nTO2HacpLwC9JdKwPOYMOYREUxmmhygLlqVuXAgIbMT1bd8mPLr3FAmpJVeCe\nOhfRckA5O2YtSf7tm72Gu0g/A8jTJJPxMzqNp/+mVv/KqCscaHPGNi3Y07d0\nFlBKh+Oaja8r/ZZfZU1BdxvZUp4cFqoBEIYI6QRI3bJsvRXyrsrs/Byk0v+l\nX5hWxtuq5dgfYUqMnK6alkzwgN4+w6il625YKhLI3CnffzDcIaZyIN83idYe\nPhwwfWG361dKb9o16G7HvB8S1rY4RH2Utplg39UQTmmqKSXVJi9jXWzVYMZE\np02Kq5NnRUn2s/a+O8Dz4aAtAMgpb9GJqjF8L6fUtE0SgRxBcf78WmZQx6zp\nGv3mEZYyqIiLN4lBqaZuZPeI0JCGAeJJ40M5P8zjjnHiBfGoaOjD14DPtfgA\n1jvN\r\n=18Yx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.3.0_1536197570688_0.9405048804527072"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.10.0": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.10.0",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.3.0",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.10.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.10.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-N4RRYxGeivuaKgPDzrhkQOQs1Sg4tOnxnEe3akfqu1wDA4Ng5V6Y2uW3DbkAjFL3aNJhWF5Vbf7sBsGtfgDQ8w==",
+				"shasum": "d3a73c0fedd2f2e9c6fbe166c41809131dc939d2",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.10.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3663,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNSCACRA9TVsSAnZWagAAWBUP/ixUHB0N+XRAggfVGFcz\nvTMhOVtew1dNW84pWrEspy/7tWSmPBz9cCRDLqFMZj4YmuL4N6byVMQOOxOC\nJFRf7jsldOS9soDMH3QT0YO8osMNfvlnphT/ceNWCYvlMX1CcXaQJ5ivSkFo\nykOqQ/E0riJG0mYleCoBJTUyy1L4RPXWOlR1cbRxNPiJIdw0mujd8SXyYltX\nKhDiaECvfcCtcjMmGClgkc2mjkaQiZsz/YH1gJ92WRB9/+krecZlP1C81YG+\n9Du8iFIBceAKb9VuhWRSpvUFMho0klOWzzSLBTBHb7J2PDTmMOPKIyFPQh+e\nAC+r1RV50j12ssfCSOu6ij6FR5j6uIShakjzn9NTNBVfObGNidS6nWbXDRgH\nCIrf08/0pFUUhA7k7al2168K9v1ypPV/+8iP8F1UqEVLus25p9eOqBEXC2Of\nWcB/X0WdqS2F/GIso2Z5eeutr4qTwuS3TRI50iXC9BLNPs2QJbirBjjrF79N\nCqfTtRTk6hkQKxlFfROhWDh3dvwFvMTwOIC+dRcJp/aHnd4ihoCjQ108drhr\nh2BH3enmW0y7KO1MOVubrOfqM22zX1ocDSiPumm/sMoVLBQOGGlzaIW1cAJl\nrAeSqVwbXkjv/NnJKjJzaqYLhRPVjtwaSHvRT+Q04jbQVNfD5h4AawrhWHT7\n5UFM\r\n=uOQr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.10.0_1546985599605_0.39024646972176535"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.13.0",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.0",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Oqu7DGLnrMENPm+bPFGOHnqxK8lCnuYr6bk3g/CoNn8/U0qgFvHcq6Iv8/Z04TsvleX+3/RgauSD2kMfRmbypg==",
+				"shasum": "6e1f7e9336cce3e029066f0175f06dd9d51ad09f",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4014,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhrFCRA9TVsSAnZWagAADCUQAJJRSJNJbC2QZ7Z9gVs/\nHglvIhSLNbXrRxzViMAb4y5OCuFvSMzmC0kw8N5tfngRg6v8pNzh02XZbSFR\nRQYVhd5mbsMy5ny+2cO7qVKFryy9e/bGgQJ1cI4w1mLCeLs3/TRV9/NC6ZFe\nDw+SHZaR6p0zvES+e2Eng10vW0wZBiJkuXeLhNp7lB0/hOEq1EmeEkIv+P3D\nPtd/K7FeXbM0/YSDxkcsIvrUHA3p1kbWYu4TIh9XRT6ffVJEOMc3CXgyXpaQ\nFJ3JsTOw0BH+/JofkSPBgMhYRXoqeOgVnfIA/WjzozvGdwY03OjW4iKzjgsp\nUrczJkXQy4i0ieZ66aCsztsNxmU/SC/wFQDP1ZQsOypVdE6Kp/tHdllnI+I8\n9wv7e7oJ/d6MidpA1cS5emiNhQ9Adhuqvr4dtbvWJDBWOFIQCGHtWFTWRFsg\n8nJZFV78SYVntEzZzxrbGq2QhCn49OeU8H8nHxiOawafC70D23zOUp70Cdpn\n9rveFMngytPutMdMjKA5SHxrXkOAWrTV0iYWiMwLVRqyo4lY+HbvZsmNzqu/\nfAR/Wcr5BcGb69fG6OWE1np5GAfsfG+4Qf75F1Z7JFmFPX8Xdjp6b761hSIG\nBDpzh2dX68yL5F4SOkRV0bicT6SYzr+mzXAgfyZ2E/FpU81VnLg31PltT5sh\naaq8\r\n=S0Cp\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.13.0_1550195397027_0.2328402949992603"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.3": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.13.3",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.3",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "1496beb6278b001074d970bdd5869bb1f958d998",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.13.3",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.13.3/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-mQzoghRw4dBg0R9FFfHrj0TH0glvXyzdEZmYZ8Isvx5BSuEEwpsryoywuZSdppcvLu8o7NAdU5Tac8cJ/mT52w==",
+				"shasum": "167e3f602a2fb58f84f93cf5df39705ca6432a2d",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.13.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4166,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctnnLCRA9TVsSAnZWagAAdXEP/3ilO7+wmu+5dfHzbjRg\nplRkNKy6Mb4ATAFRoVDIWAyXwa1dT/1lBIn0y6m3SXU8RVyRakF8e9ORNlk1\ngr+LO5XkYaiXKcivwC+LlnFcFOZYpjKMbWGi/2hPAmvoKQoUosRQh3ZAGLXM\noZR0Mvfw2hXji41D0u9+h5gRKGe0JBrAf6sG+uJZxsV3DjrF/7KsYoSVcVWg\nxCEAkQo8LGaZWKDaH4phmnKODIoiOx8UiHl5eYSWWLn/sOZyd+bKZ/0f6Rrl\nNUXZRXfv9N6FgZD/UO9jpfH9h0kHNpa4pyDegyhvm/ewIOvEbpjWg7HFjOkc\nJ+TdYPJt5QjZCgxtugCzOLMOqpX0kT8Z+kjcsDqHJsZ+poTxPQkgu4YLb5U+\nMtUTR7PwpmRdjncHSpSlJrdEI0/mmFwbjqrLjjV1t1e8/aEOlf4dvYh0wJqH\nG8AYyWN+zn0+dt4svF6m1VJD+qBiErEnzT4fnHV9aMvInd28N8ipy82my4Ao\nlAsvj6IRy9FlHDD6kEF5xA/vaaV4ZxFaLbP0yKTPkwMQWkKFTwMUljBhGde9\n5N6WJ4IBcuB6GiPbs1TULrOmp+oHc3SLSiWwR16KeMVY8H//wHJehnSGQ7U6\nseYwRHAJQgX8VBjmfnT5hpEySzwWOPlppf9vDuXz56KPH4dK6HkHG2AQcHQi\nXavL\r\n=Sa7M\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.13.3_1555462602803_0.5095265074025188"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.2": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.14.2",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.14.2",
+				"semver": "^5.5.0"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-cG+z5bB8JPd5f+nT2eLN2LmKg06O11AxlnUxgw2W7cLyc7cnsmMSp/rxt2JBMwW2r4Yn+CLLJIRwJZ2Es8jFSw==",
+				"shasum": "ac17f7c68e92114b8332b95ae6cffec9c0d67a7b",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.14.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4318,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkWCRA9TVsSAnZWagAA4okP/jKQA9bQLk48ZKtJ2mRm\nN+It9fJUkM6w5ELIiGdAqJfd96NxeYb9yd9jPY0u8douknNgWL0LGW9exvTj\nFmQP8cjaWJ1sdyQxnRZTnXXoD5KUL09QEiXCWHhVf5QETrEi5/Cx8NRJxiGK\nE6gqBkYnEMK5ro7S/n4Y44EASDdiCPlMElkfLCexTr5ffOcWLRhTbUcvuPxw\ncTHq7WhRDtcNuOjtPjV6zFc2j1bh45gYWdkPVnOksSgyx8OU2mlMLcNO3bxg\nMgEVR3se6CChhm0zZmjOgtFqJYldix/hbKlLUYfFBxQPKVI3sHXr536HDGcp\nDsIqVaiM/YRNfLgfFBiIzvva97Bcb556lQbuX6EJuRP0NC8tXbE4B3pqSCvp\nVO+YRxS60hFDmYakf3h04W+/gLL7OYGRRiehI5ibgPpKWnHW4Q4ISVrR+GKe\nrFVFnpKf7FU+D90MEIONgExx3Fbm3gIGZT+HDyOOh2fzm1CgCpRHNz0O6FGZ\nfMk9IwaH0QdvR/Eg5apyy8jgW8Fiwb8qRo3DQ4cQHfYqX0U99Q4nPT5PX6cQ\n0SJKSotU3WmWMtRo434IF2CCk0ru8oOQVrz6rq5QI0Oo2t1iKJNxjsk6a+hw\nyWx9LcOZfhWyzWpxpCVNQHJT4jZC30OUXb7hvXEQf2MMpFboGbq8rH7QXp7E\ncyxn\r\n=Ab4p\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.14.2_1560119573218_0.7816963169954512"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.16.0",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.14.2",
+				"semver": "^6.2.0"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-TIY036dA9J8OyTrZq9J+it2DVKifL65k7hK8HhkUPpitJkw6jwbMObA/8D40LOGgWNPweJWqmlrTbRSwsR7DrQ==",
+				"shasum": "55764a4ce792f0c8553cf996a17f554b9e843288",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4508,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRICRA9TVsSAnZWagAAs8kP/1wvhE6ffX6+0DIG3cmW\npQP2AC3H8NEFYTykqcewd+l0GltVatdCvdIyUjfdh9k9RjFPl3Xr6ogpWVgI\n6LYVgFkzc/MlugC6oi3zJTjEJ7u5Y1xdecsWEe+FNWTdhk84mdS265UOjPOW\nijJTPjjPu9xV2LMwhiVQnzKxOe5MhRZatgPsZUEhZyqGs0DlbjlQ1htwXYVN\nE1l6ZXXgVKw1tTlglu/0UPLyZGT8mDLqmeCW0IWFA2M2dVc8p4sh40lbUuzm\nzAObltaOS4L5hiCH3RozqgCRJ0E5tTiHExS8OETecAT2jqGdsCka9jYf6KBq\nSZsadeQaHdgNGLiSeB9cV7eNKrKJyprk02b/crehS7kSUGb9i/+eZ8oJV9ce\nTfEUzwv6EDWMzPGgBQop1Sn1B9d0M64PChRnm6tx197UHlwAM2oeEZVhdBAE\npPWxDf57k8e8cNcNBsOXhOFFNQUpOtbXdDqPP6xcmebGd+mpmobbKpZq4V71\nbSJmL/8sFCLCsiLTdZIZWYCQVBAcKJmfYiW4yhX2aRvIt7jbZR4tI1uOYr6c\nkdlNUg2suaD+UHv/MW7ALikInLN0GvrOAGv6tBeHfvnNkVFRjMtiKiP0dG0J\nlfeoYCVHGywZQ156vm3hFIcUE4o03ND+yFFHJ/Uoq4OP8cCZ3Ypf957akk8g\nEMFo\r\n=X6ji\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.16.0_1563493448249_0.7011538516200151"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.5": {
+			"name": "@lerna/has-npm-version",
+			"version": "3.16.5",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.16.5",
+				"semver": "^6.2.0"
+			},
+			"gitHead": "f0574092a2db90142b3a27ec1a4941cddbdcdf62",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@3.16.5",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.4/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-WL7LycR9bkftyqbYop5rEGJ9sRFIV55tSGmbN1HLrF9idwOCD7CLrT64t235t3t4O5gehDnwKI5h2U3oxTrF8Q==",
+				"shasum": "ab83956f211d8923ea6afe9b979b38cc73b15326",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.16.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4660,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdm8IECRA9TVsSAnZWagAALaYP/24gNlLrFV7OaTPFVrDW\n8e4T2lIu5L2O1c7egc73P2iwhCTwg76tWsbOP7LsuDVuyhACrW1fpxrWCx0w\nhs9HIyPK/68jpD5njldBYFWOVT4VWa9f6vOEDAq1l1EB1m2wNKfa6IwhtJhL\nOvTlggFxIVwOKH37D1NF24Z9CU5orvBfbBRmfDoOYm3WWuGVdY9Lg1bbp5Lb\nyAWGm0NC35eeMtgO09VPqnnuRGyTkIhism4rx6onjfFK17gVkclJQE41A5/x\nK+cbMXpViK6SQF15hOCnLROstjDhkuw0fIb2Ctw+sXnEX/XydbIeKLWklw39\nfnJIyln8WLyNM8CVcYUYVuh5OCWH7H1tgx6gGP42M6CCdDegQFpoO+sWw88u\nRxHb82hnAprXMzV4JoCsnH7fX4AL1v+UVLt9pr91WIqYOggNT4N+PHE1yWpU\ngDnn5Gw2TxY4eSdA+F3Zoql5HXMkUgP5a0eNXJwpljpYM4GqsehjN8Tbpr7d\nT//ItYuEya0QPVmhIvOmqfwRNggtMAwHJApwh40zBPfH5fluL2ZRxpOZyI17\nBbi6khPuNYiQunqCoa0j1IZuoFcmUOXpz+BNX/9LotUqDhNJk5JHZdjaf2eK\ngaVgA3eplzuMAbaQwyxiWxTZtRgniti/ugRRpo7GjpzMzcHZc53IgR4L2qA7\n70oM\r\n=8Vj1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_3.16.5_1570488836155_0.3611959906714368"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/has-npm-version",
+			"version": "4.0.0",
+			"description": "Test if the current version of npm satisfies a given semver range",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/has-npm-version#readme",
+			"license": "MIT",
+			"main": "lib/has-npm-version.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/has-npm-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "4.0.0",
+				"semver": "^7.3.4"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/has-npm-version@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-LQ3U6XFH8ZmLCsvsgq1zNDqka0Xzjq5ibVN+igAI5ccRWNaUsE/OcmsyMr50xAtNQMYMzmpw5GVLAivT2/YzCg==",
+				"shasum": "d3fc3292c545eb28bd493b36e6237cf0279f631c",
+				"tarball": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5891,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEwCRA9TVsSAnZWagAAsVAP/1AwNDeHuAnLcYOniPiS\nBfu7P9CHAcvjP8ObzQ97c2aXuD++JypIfQNcDqqASS9EbYD/MbgbUZFTcxJx\n+B80vE03IWtJ9nFApt0h87ZAotc3bm+NNR373ccIgn+9AwKy2/S9s+LFN2oW\nkuXRZaVNRGppili+OsB66v/d8BbXkRatXMLHBnwcGIVqPRcP3lV1zr/HAYla\nowRs+WXdq7NGoztK7DXwViJGNDCyNp9G328NQ4u7/hwnUktJdczR1Hp1UvR2\nDUmTeB/5ikJuV+t4VSHCCw0bdaYhnDBFop5ekbVo4QiH32ZrdG7ZmZfVdM0M\nmJCV+YlVS468egIUNeZbGkbcJsqJG5wnCm0nfApcCx/rZ2udtdl21g8AmMIw\nIj1ge7qPyDX99DLjwbT/AN6P4UlD0sdkh/MUQniShj2MezULDQ0nYcqZtg0O\nM0BtblE+qj7/+K4jZP2UZwFjkkLBEOcPWfHb4W21X0KO9Mw9mERRAkH02+Ja\nQ6GcLTWs4LELuQOIgJ5WpXO936PF8EDC13Gy37XtZ9u6LyZqKCZBMqaeRwEC\nW3lIHwmrp6OLg5owXRZqk6JP7t0fdOxg+a1/vutHyU4ZnDi7bhUy8qAanMom\n+UZaAydd9BEB75DS0+Jqt162MEuyJBxloZUHMFiV/t+wXP5fHwnyt374Frya\nzpzb\r\n=iku9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-npm-version_4.0.0_1612996911683_0.4968423619618203"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-08-14T01:15:18.885Z",
+		"3.0.4": "2018-08-14T01:15:19.137Z",
+		"modified": "2021-02-10T22:42:40.264Z",
+		"3.3.0": "2018-09-06T01:32:50.883Z",
+		"3.10.0": "2019-01-08T22:13:19.734Z",
+		"3.13.0": "2019-02-15T01:49:57.140Z",
+		"3.13.3": "2019-04-17T00:56:43.348Z",
+		"3.14.2": "2019-06-09T22:32:53.338Z",
+		"3.16.0": "2019-07-18T23:44:08.344Z",
+		"3.16.5": "2019-10-07T22:53:56.304Z",
+		"4.0.0": "2021-02-10T22:41:51.837Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"064e04429e4bef983f2426674bc48fbc\"",
+			"fetched": 1613881353102
+		}
+	},
+	"_distfiles": {
+		"has-npm-version-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.0.4.tgz",
+			"sha": "d8c639a9a07a3fe0e9539585da074661adf69353",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.3.0.tgz",
+			"sha": "8a73c2c437a0e1e68a19ccbd0dd3c014d4d39135",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.10.0.tgz",
+			"sha": "d3a73c0fedd2f2e9c6fbe166c41809131dc939d2",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.13.0.tgz",
+			"sha": "6e1f7e9336cce3e029066f0175f06dd9d51ad09f",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.13.3.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.13.3.tgz",
+			"sha": "167e3f602a2fb58f84f93cf5df39705ca6432a2d",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.14.2.tgz",
+			"sha": "ac17f7c68e92114b8332b95ae6cffec9c0d67a7b",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.16.0.tgz",
+			"sha": "55764a4ce792f0c8553cf996a17f554b9e843288",
+			"registry": "npmjs"
+		},
+		"has-npm-version-3.16.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-3.16.5.tgz",
+			"sha": "ab83956f211d8923ea6afe9b979b38cc73b15326",
+			"registry": "npmjs"
+		},
+		"has-npm-version-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/has-npm-version/-/has-npm-version-4.0.0.tgz",
+			"sha": "d3fc3292c545eb28bd493b36e6237cf0279f631c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-27eb78c3c9949ced",
+	"_id": "@lerna/has-npm-version",
+	"readme": "# `@lerna/has-npm-version`\n\n> Test if the current version of npm satisfies a given semver range\n\n## Usage\n\n```js\nconst { hasNpmVersion } = require(\"@lerna/has-npm-version\");\n\n// `npm --version` === 6.3.0\nhasNpmVersion(\">=6\"); // => true\n\n// `npm --version` === 5.6.0\nhasNpmVersion(\">=6\"); // => false\n\n// `npm --version` === 6.3.0\nhasNpmVersion(\">=5\"); // => true\n```\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

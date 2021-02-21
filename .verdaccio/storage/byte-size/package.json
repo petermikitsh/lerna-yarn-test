@@ -1,0 +1,1297 @@
+{
+	"name": "byte-size",
+	"versions": {
+		"0.1.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"version": "0.1.0",
+			"description": "Convert a value in bytes to a more human-readable size.",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/75lb/byte-size.git"
+			},
+			"main": "./lib/byte-size.js",
+			"keywords": [
+				"convert",
+				"bytes",
+				"size",
+				"human",
+				"readable"
+			],
+			"scripts": {
+				"test": "tape test/*.js",
+				"lint": "jshint lib/*.js test/*.js; echo",
+				"docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+			},
+			"devDependencies": {
+				"tape": "^2.13.2"
+			},
+			"gitHead": "d6792f8c05e668d70d19e0f6a33443d51a046c63",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size",
+			"_id": "byte-size@0.1.0",
+			"_shasum": "3bb99a42bc41cf3906586bf8347762fcae75bd57",
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3bb99a42bc41cf3906586bf8347762fcae75bd57",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-0.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "1.0.0",
+			"license": "MIT",
+			"description": "Convert a value in bytes to a more human-readable size.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"main": "./lib/byte-size.js",
+			"keywords": [
+				"convert",
+				"bytes",
+				"size",
+				"human",
+				"readable"
+			],
+			"scripts": {
+				"test": "tape test/*.js",
+				"docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+			},
+			"devDependencies": {
+				"jsdoc-to-markdown": "^1.1.1",
+				"tape": "^4"
+			},
+			"gitHead": "80f3756fd045daf43c78ecffa951636ee3bbd738",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@1.0.0",
+			"_shasum": "4112837a74381c05548fe013febdb7d22cda4438",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"shasum": "4112837a74381c05548fe013febdb7d22cda4438",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "1.0.1",
+			"license": "MIT",
+			"description": "Convert a value in bytes to a more human-readable size.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"main": "./lib/byte-size.js",
+			"keywords": [
+				"convert",
+				"bytes",
+				"size",
+				"human",
+				"readable"
+			],
+			"scripts": {
+				"test": "tape test/*.js",
+				"docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+			},
+			"devDependencies": {
+				"jsdoc-to-markdown": "^1.1.1",
+				"tape": "^4"
+			},
+			"gitHead": "246b75ff6df0080e155a8add3a2878b81af6fa61",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@1.0.1",
+			"_shasum": "cd9ad1d19d4cdbb809e5e623b6e71508d7344bfe",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"shasum": "cd9ad1d19d4cdbb809e5e623b6e71508d7344bfe",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "2.0.0",
+			"license": "MIT",
+			"description": "Convert a bytes value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"main": "./lib/byte-size.js",
+			"keywords": [
+				"convert",
+				"bytes",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "tape test/*.js",
+				"docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+			},
+			"devDependencies": {
+				"jsdoc-to-markdown": "^1.1.1",
+				"tape": "^4"
+			},
+			"gitHead": "023ac6ff7faa76b79509b061c40a77bf89a35518",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@2.0.0",
+			"_shasum": "c348281fc777080c084e36f267f41f6a5042f04f",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"shasum": "c348281fc777080c084e36f267f41f6a5042f04f",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "3.0.0",
+			"license": "MIT",
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"main": "./lib/byte-size.js",
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test/*.js",
+				"docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test/*.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf coverage; echo"
+			},
+			"devDependencies": {
+				"core-assert": "^0.2.0",
+				"coveralls": "^2.11.12",
+				"jsdoc-to-markdown": "^2.0.0-alpha",
+				"test-runner": "^0.2.3"
+			},
+			"gitHead": "0a909a00c1fdf07f3b1f40b625ea7f7523bd1d1e",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@3.0.0",
+			"_shasum": "406f9e2366aa5dabf63672eb291d7bb09495da75",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.4.0",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"shasum": "406f9e2366aa5dabf63672eb291d7bb09495da75",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/byte-size-3.0.0.tgz_1472243066370_0.6628933511674404"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "4.0.0",
+			"license": "MIT",
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jsdoc-to-markdown": "^3.0.0",
+				"test-runner": "^0.4.0"
+			},
+			"gitHead": "a78e6299fc213a2aad4970f9edbb1f5932d1b2ee",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@4.0.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-IieXp1LeO76b2anP9QEb0xvHNiINT6nsrqWDhXBtmbhwUHG4XFsf5X3aZgdr7VEmLGSzd6/cTfNZoRCj70bDfA==",
+				"shasum": "1b6c23d9b2a0eaa6a4c11e6313b815c099323db7",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size-4.0.0.tgz_1498070972788_0.6942172511480749"
+			},
+			"directories": {}
+		},
+		"4.0.1": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "4.0.1",
+			"license": "MIT",
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jsdoc-to-markdown": "^3.0.0",
+				"test-runner": "^0.4.0"
+			},
+			"gitHead": "5e0292385a46cd36529da1e325f5ce05a4854cee",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@4.0.1",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Q9Q1zLo6cp+y8PeHO6E/6opwT+avio6sR8lf5tfGBOjKGYO0Mc+BezjcYxzFqApstwAhfvQkEJFaDQJAFIFPzA==",
+				"shasum": "59b2f8277277e1e538fee1e4d02b0ddd82fb09c6",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size-4.0.1.tgz_1498510282420_0.07384323887526989"
+			},
+			"directories": {}
+		},
+		"4.0.2": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "4.0.2",
+			"license": "MIT",
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jsdoc-to-markdown": "^3.0.0",
+				"test-runner": "^0.4.0"
+			},
+			"gitHead": "fe96604cb3c3aeaac28b5372c3204abc64441632",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@4.0.2",
+			"_npmVersion": "5.0.4",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-UGCQ0L1CO27M/9DOjS9ygrXz7CwHc3uVbNc1xbOGVL8RQO/8rJYCZclylAMcq4jQ0laO1izyomNZe1MFZsatlw==",
+				"shasum": "e8ddbf7161913965c6af5b236a4bed8896bdc83e",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size-4.0.2.tgz_1499344177641_0.3683331902138889"
+			},
+			"directories": {}
+		},
+		"4.0.3": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "4.0.3",
+			"license": "MIT",
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.1",
+				"jsdoc-to-markdown": "^4.0.1",
+				"test-runner": "^0.5.0"
+			},
+			"gitHead": "8da8841e935892b8715bb4c495099fc27c697f34",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@4.0.3",
+			"_npmVersion": "6.0.1",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-JGC3EV2bCzJH/ENSh3afyJrH4vwxbHTuO5ljLoI5+2iJOcEpMgP8T782jH9b5qGxf2mSUIp1lfGnfKNrRHpvVg==",
+				"shasum": "b7c095efc68eadf82985fccd9a2df43a74fa2ccd",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10394,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa93GdCRA9TVsSAnZWagAAeZ4QAJaT0cnQD2qEXl6M0NOJ\ntrRFA8Wh6aatH6PbVI5l/tG568kT30NXFbbm5fl3YV/L9RhwVx6Vm/K7LJ8x\nvc1VsFuRM8ErVY9lXogrG/KulwDWBXdf596x90AFOfUFbnzOyqbI4HMKTP9s\nfBQb9F+NOBjvfEDhBh8EiQ1oqkoaWAYuIgYAoC99jzhs4m/5mOz5Jzv1luVh\ngEKQOOl9/9V0SheUr98lIoxG6LUQZTEhBTcoNGdin7vaswVgegYIUhoGVd1+\ncZ1RzdXdqhBRjj1x+rzDKxJi6V0T9RsWAINmmtIvO/eJj0gS8s7bBZPjD670\nuusylMLuwB+7lSbzKOW4poT4Aue1Id7zOcZOD248cU6tv47Hxbpo6QCV9Wl6\ncClGHP0jNVp3uWlgj/yeCw/3nRPnvWCD0RXBfzdm+ta4FYjEqHzrH0cFK3ux\nI/2HsxLUV7QoOj6XT5HBGOkU1uzIgrfuMrpkaiUyLNkkNhiGMfgiWiZNOspv\n2IGmDwhCkUR3Cdws4MPpn0LIBFh5GywTtrTPOQjJq3xfpJYK3YtfPw212G8B\nGCp3OqekFADbZTtMWfdV4ER8ATEVk5I8so0WJ3AuzkPfKB32LieQMexvbbDp\nsMTYSoouzUpIqodg1xkivxCeKLfJ0YoM2wpghHAj2wHtLGd3AIXHdSKHD6JM\nWaQX\r\n=8/CM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_4.0.3_1526165916158_0.5768306735182147"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.4": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "4.0.4",
+			"license": "MIT",
+			"engines": {
+				"node": ">4.0.0"
+			},
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.2",
+				"jsdoc-to-markdown": "^4.0.1",
+				"test-runner": "^0.5.1"
+			},
+			"gitHead": "7f39dd6c274e018c67ce8b1c89ffe4fa20bedd29",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@4.0.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==",
+				"shasum": "29d381709f41aae0d89c631f1c81aec88cd40b23",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.4.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10516,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbyNpOCRA9TVsSAnZWagAA3IsP/1RSvjKaUe+DuG3KXYF9\n0igHc3gnqOnVXP4xerdEOrzA/LGRBE2npmWHwzBWNzck5mp7za8WCAfLMrQp\npgZ4f+5JOmcAqnI8rygII5gV9VYZNo0bi2f5NyBgH+anK9XUA0AHTIgp2k7f\nDBcuMCLdNm04eG/AMoh/urzGApPg/y7iIUkjgdaiIWPw/qWIqBVkLId5YtIV\nywfshrAjCdsDrf1zdpe3HR89CARBPLZ/zUsb3gXKD7gEZngZC4v6lhEh33pL\nd6q8GVy1CznaYWlauvC+pGS0utPztJRomSQqFT6GKkXg+3tR+lesAzo8AvCZ\nxaD5EKu0Wvf2+hyqItWSSZ9mM1eknDBMAuQzo7+vnMLi3g5qSQ8VD+4tLhhG\nkQN/1c6zb0dk/5qDn+Ud+dzWTkV++UR7A7IHDdaygV2xjgUOkwbqrjXIrJmh\nqvu/ynfyrmek7EhLbyhgW9OoSm/PaRXAwIOxcYu7LxvnhhKPufvuLER+uehR\nvvNgh+qpXvvzvM3zIZ1xZSiY2QIETUcIfeq2BShvNK6pOVG/oFZENrOHWuZe\nTKQSKfAPO4mq5G3R4RJncHHEidW1JIUYdxz435x8TYdHsmOphW3Aw1fepUaN\nI94lu7abRviIO/apHIlkNZYnNIPiHuP6UFtGns7Jrdi/tLl+bc8GhLHGTJsX\n8XN5\r\n=HsqN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_4.0.4_1539889741529_0.581893829147311"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "5.0.0",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run test:js && npm run test:mjs",
+				"test:js": "rollup -c dist/test.config.js && node dist/test.js",
+				"test:mjs": "node --experimental-modules test/test.mjs",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls",
+				"dist": "rollup -c dist/index.config.js"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.2",
+				"jsdoc-to-markdown": "^4.0.1",
+				"rollup": "^0.68.1",
+				"test-runner": "^0.5.1"
+			},
+			"gitHead": "7e984b131285b4340738237925e4e65c810285d1",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@5.0.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "11.4.0",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-AIBWNGr8lso6PW8szvQhhvPa8Gc7zYCWg7yNQTOzG7yAE3c4AAqNTUOejU/THaMbmnokHpgYqd0nDs6Lv1oEow==",
+				"shasum": "04c10a57091f8864c603606da996fa80606948d4",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-5.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 16779,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHW4zCRA9TVsSAnZWagAADDsP/RpgIrcJbxfUxIqtCuzj\nA8sYyPAkZOilSp0LhuUQ6GzsoG3aHc8o/ptSiZUVZBB8QSjlP0kCAh7CJFzg\nsKSp7SmTv5URmQ0XpbxYUXd467iQD2hGAn2Z/S+aomPVmha313Xu34Ijmg4J\n/zuY4py1yg23jdN4sZ5D+blyILn+wT4XBEicgdrj4lYRxu1jaugoCkSbkWNq\nCTfpi3MwMwRfQ3KvWelzAFA/8Z1J5zuVQCVvGwAkY78QmKsOhbXfJjGHbPAv\n9aScgYQG1gbCDbvgf51DCSIJTxIT3v0Hfu744NT9YYXl7TnxRbUejrg9g0pE\nNfogkEwS1U9x/qhROAkvtT9HlNSRqfOlDrcDA06YiFJZP+3GHNgHSg+S18gC\nLq9hdKpjtjLw6MT2CjmQRORXa6IOlLfPOuyezRH4QO+L34ww7e/gT9/JK5ml\nAEDbe+1d073KYFUjXof0WSiFSEiqhCGHXHmXapY5xqQ9axYYrKmiqyEytjRf\nNbZ4K/I2MSJ/fy6CUV2iQGO5wwXjTSMbuw07LpSr583WIl2imOKOgl/KwwGu\nryM0Yj5NqjiNV0K/dm2cVcxfbVSuzQEalJMbqj4u+H5k0h52IbW1078QXCVT\nTNSvsEkwUZbNQtd+TMtJH7V4opWQF8reZzs3Q6/M8q0CCZcG09U2an2OtWln\nwKMo\r\n=EM27\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_5.0.0_1545432626489_0.7040411349207283"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.1": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "5.0.1",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"description": "Convert a bytes (and octets) value to a more human-readable format. Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run test:js && npm run test:mjs",
+				"test:js": "rollup -c dist/test.config.js && node dist/test.js",
+				"test:mjs": "node --experimental-modules test/test.mjs",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls",
+				"dist": "rollup -c dist/index.config.js"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.2",
+				"jsdoc-to-markdown": "^4.0.1",
+				"rollup": "^0.68.1",
+				"test-runner": "^0.5.1"
+			},
+			"gitHead": "cf571784448df3f5ab9263b31ff444e47b261899",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@5.0.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "11.4.0",
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-/XuKeqWocKsYa/cBY1YbSJSWWqTi4cFgr9S6OyM7PBaPbr9zvNGwWP33vt0uqGhwDdN+y3yhbXVILEUpnwEWGw==",
+				"shasum": "4b651039a5ecd96767e71a3d7ed380e48bed4191",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-5.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 16921,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHXWVCRA9TVsSAnZWagAAX4kP/RDlG1F37Yk4Q22LhYjv\naDmuHGw0Wk71l68N7Zq8pHW8IgPdV3FlzfO4Vl61CcgLoOEt0LpZxw0zlCVk\nuPyxYoySfvz/BqjGXN8G6XJ5bq9JCgmlIuB15A+z39FBMUUHBmIP/TXmYoq8\n+snbHm6EPoHEvm4T10JBIS2kPY7Sxcps92zMNt+vDvOUiwWi/bpe7d+YXsVm\nHHG07Up+WL15Vo7r8gq/AYuUhs+Mh+CgppqS9bpB8tkW+A3rQR2brz1o7OPe\n4qybINoLweKlA+c1ZqNRbu1/9Qlj0n9x4l+cscnHmdrUwT9IxM8abVdEnM7P\nTuGaWP1aZkHPfo/3TtETuJtstOnLaORQWbLEV/ZT+FoQxZVxyS2omiAhkgVT\nJG9MB7p5NQC4lF0PU0sVfUlEpG4Ni4ZUQdr6ZYqkLsuu8Uhuxf2XW4H9ONGN\nZ16e6nFasHLfCQJlWKTOhStwJ4ajSVRZE1kx1f5ym6H616PW4j84p/Mjf6Zm\nTJz3R/uLKNsEApoAn+6+vYcSWjEZ+iQlHdOTZIQyE13ZpAPhBt48Hx88bBmu\n/LsicxibmKkZUlgwnUtDRAxIzbnp1feIqrAaSgEb6P7DO9Y/MkmrVOEbWLpK\n4klkwRqkVZS+vuexjKuakkgA17ShDY/P4Rjx151yFyaAX0Smyyhb4AqHIfvt\nfU8L\r\n=6uTM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_5.0.1_1545434517187_0.5194722610707767"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "6.0.0",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=8"
+			},
+			"description": "Convert a bytes or octets value (e.g. 34565346) to a human-readable string ('34.6 MB'). Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run dist && test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md; echo",
+				"cover": "istanbul cover ./node_modules/.bin/test-runner test.js && cat coverage/lcov.info | ./node_modules/.bin/coveralls",
+				"dist": "rollup -f umd -n byteSize -o dist/index.js index.mjs"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.6",
+				"jsdoc-to-markdown": "^5.0.1",
+				"rollup": "^1.21.4",
+				"test-runner": "^0.6.0"
+			},
+			"gitHead": "c2f6726a7b429734ef78d59c5f03ecdb8aca4876",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@6.0.0",
+			"_nodeVersion": "12.10.0",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-z9C4X0tMuuM9OJFcV/sol7t5jBtiBz8loyxpiTHyJsjIHe319ygYrIrxYL/X8Ynx0A4nJnhHhlsHYnQnEe070w==",
+				"shasum": "52e9553a18c65026cc81db3f6f4629a8f9a282d4",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-6.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 16930,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdh5c8CRA9TVsSAnZWagAA/YsP/1Nt+utVtac3ymGJJF/X\n1gWid0bK5uC0XIESWT7zjMvbdbCyuf8JKO8eiFxIw5jRYtoAIBXZLQ4c3F87\np7OOyDkUcU+waEkzyljnOlU3dH5Ak9kvdABSeydcxZKJAt3CyA7wYO2LOMep\nYtx4TckBdJbWabN+YuQYB5oYkwp/vm7sd0xN3/IaEYLAY0awj8idNQ0oF9ET\n9Lreu3HtpXz/kjn38xE+BPOWzMA07KE6nqKj8sX9Fgn+u9t5/giwPp5iNerf\nZeB6bpvbsjbMDpQNmmENWv0mYkyDwsE64JiTEZ9D8mOzriIr8E/ZIYySaUi1\nH/WlYJAwJ7Aeiks7S9xulka75NY8vrHvUcXxpM8ou96ffHcSSiAS02uihxv3\nKFh3QZMk8tJiBn7QAeQ9tZkwAGRA0Nbzck4OeSvbgMVK9HTjm37IFu1Fu1Fa\n7VPD4WR5wD4iGMOzdMLpDfnEsbrGCQbbBj0+YoYRjbKhKJr/sV74gEJXGqX3\nRwFxGuj1qx+qiRt+BxaWNkToqa3U0xUBYllEmeCxTvgn40pAY9CE/MxrhoOf\nAblCNCuHs2NoSIgvOgGj5SoH1MXCO23wabeV+pE+3spBYHj7ODGW1wgcQy8T\nJYwtEVxwGF9AxdD6Ij+T4cOme/CkP6moAfNhf3hOBseMB5Y1yigUMc7yt45A\noNe3\r\n=GlXj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_6.0.0_1569167163430_0.8941448747187428"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.1.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "6.1.0",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=8"
+			},
+			"description": "Convert a bytes or octets value (e.g. 34565346) to a human-readable string ('34.6 MB'). Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run dist && test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md",
+				"cover": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+				"dist": "rollup -f umd -n byteSize -o dist/index.js index.mjs"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.7",
+				"jsdoc-to-markdown": "^5.0.2",
+				"nyc": "^14.1.1",
+				"rollup": "^1.25.2",
+				"test-runner": "^0.6.0"
+			},
+			"standard": {
+				"ignore": [
+					"dist"
+				]
+			},
+			"gitHead": "b39b88bf138d423079d0f5a86f7e58a1b063dfc6",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@6.1.0",
+			"_nodeVersion": "12.12.0",
+			"_npmVersion": "6.12.0",
+			"dist": {
+				"integrity": "sha512-sb6DKJGRDdX6m4FrzQrFz8Ag+xAWO8CiZjZBpudi6w4I7WgSTjRfLK8CbDrFxhfhKgzkQPSW/3Q7nWDSKWlg6Q==",
+				"shasum": "f1e3c229ca4e40d5fdac57a7ef2ba0f4fe1912c5",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-6.1.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21420,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJds1vPCRA9TVsSAnZWagAAHIQQAIDbHoggEUHuoMU67stR\nukKF8Y1wUgJegvmDByK36gKROBGSwrVEw4XsgihQnb1HSQpkqOXGlx5MRMbt\nXQT8pKYr74bmdHk7ROWOdhypkYW69qlBh5LxfTz8oj6As+XdMMSYiI6jE47j\nvvrJl/WRyPxSrgvlr2mlkn//Rv/NPyHYJSY/S5hfPsCj1hvz/uFPyrEDF6SZ\nJhrYWkaQK3E53rtA3NJTrJFom4BJL2cQ2HtdlpaUuCrCP1edAQ9HGBpCpnOu\n1SZG9i/QAHzd7RrKteOmcuiCVbjOtzWI9NhQozr9g9GzIQsuNGq0O7ZWgGjA\nyhW/5ud9CTPw0aQ/v7jSGPK79y1b8jBSBBPA/FUfDP8xIcDorEw/O3wPwPKe\nAsKrJ8wtBaAwLWAhdvyk2pKnWoJOYQnNihM0KQlGNpKaS3PicxeZbA3P4EXS\nFjlQwP5/Eb5lordtvMSkXbtiOlmWFdLODcSfvjgO/WN11iu/DGerd9SfBekk\n0luN5jV/K7/2qsk0ztIMmxLpdpj58Qhq97Pzbgk0VLrEo1PeG8hY4Ipg61lX\n2zwFysar5wx1r1uA0FsiEChyTvRTCfgVs6D4Dqg07eOtC4qMBWtKr8KDXj4W\nr5nn8bu0Ydtt+uwaWhY/YiTRBiwlKwraevDOdRh5xzjKpnWac84PSIzqdNug\nv34N\r\n=U3tG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_6.1.0_1572035534640_0.24379757601727148"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.2.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "6.2.0",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=8"
+			},
+			"description": "Convert a bytes or octets value (e.g. 34565346) to a human-readable string ('34.6 MB'). Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run dist && test-runner test.js",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md",
+				"cover": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+				"dist": "rollup -f umd -n byteSize -o dist/index.js index.mjs"
+			},
+			"devDependencies": {
+				"coveralls": "^3.0.7",
+				"jsdoc-to-markdown": "^5.0.2",
+				"nyc": "^14.1.1",
+				"rollup": "^1.26.0",
+				"test-runner": "^0.6.0"
+			},
+			"standard": {
+				"ignore": [
+					"dist"
+				]
+			},
+			"gitHead": "a2eec40730301ea4fd41f11bcb3e14faf91390c1",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@6.2.0",
+			"_nodeVersion": "12.12.0",
+			"_npmVersion": "6.12.0",
+			"dist": {
+				"integrity": "sha512-6EspYUCAPMc7E2rltBgKwhG+Cmk0pDm9zDtF1Awe2dczNUL3YpZ8mTs/dueOTS1hqGWBOatqef4jYMGjln7WmA==",
+				"shasum": "39fd52adedbbf7e8c3b3f7dea05e441549375c28",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-6.2.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 25116,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdti5ECRA9TVsSAnZWagAA3RQP/0a0cgbnqkX956fL/cnX\nsOVAGcQKaCroyXd14O2rDGorKVADXnHDis/3tbmHCQuD5TaxYmp7QZPFp5+I\n27zxSE5yizyJbHf6/ANGWbIP2EaoU7JgdCFrpjBUARBR0JL9IhMf00Llz53T\nP4qrEB7eGsDCiO1tjINiAI6swRKLmZm7GyOF9b2zN1eWB958GwCzM2r86M4+\nWqwZe4JCj3XDKctAG5Trq7mkphvAVk31MJUaXa0bgfMwaBnJZ6KLKdHw4j11\nhPI2RviIrCiAMEzxC77LX+vWi08J1Q9ANTiU+VqiXzclUGcZIlEJbLtPgWwC\nYgeur+amkA+GVNBXj+QtvMfeFbK0rs+RmQ5G59U5ls7tlFsQR5r1sYC8gTCE\nxuwrJpfaUmwYCPFX7tuIyKvxEWahx55rTiZeR38MTWERPRCQ56uKLc2eEI2g\nNkDBQBW0RRLqGO54Z6qWet7jPOA+V2O2XcJ09GYBOPxLVDsghge3/9Nkpelr\nlY1RAsVJ0h1/owPRnDYHbCMOCtB/5sfOoZbWlvvDmIORtoK+BwUN1tdjY183\nGmLeKTiGH/9F2Ec10cgmJi8yK2OI3nDNTuuwDZm1qjuKjvAsQhY8GOWo/DfD\n5zZSeOyJoj7rrumLb53HnNGdYUwv6/QU5n3TH0kbBpiaUuxxEdnfKl/ZU+TQ\n6PEd\r\n=gsue\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_6.2.0_1572220483762_0.4013844924790986"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "byte-size",
+			"author": {
+				"name": "Lloyd Brookes",
+				"email": "75pound@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Raul Perez",
+					"email": "repejota@gmail.com",
+					"url": "http://repejota.com"
+				}
+			],
+			"version": "7.0.0",
+			"main": "dist/index.js",
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"description": "Convert a bytes or octets value (e.g. 34565346) to a human-readable string ('34.6 MB'). Choose between metric or IEC units.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/75lb/byte-size.git"
+			},
+			"keywords": [
+				"convert",
+				"bytes",
+				"octet",
+				"size",
+				"human",
+				"readable",
+				"metric",
+				"IEC"
+			],
+			"scripts": {
+				"test": "npm run dist && npm run test:esm && npm run test:web",
+				"test:esm": "esm-runner test.mjs",
+				"test:web": "web-runner test.mjs",
+				"docs": "jsdoc2md -t README.hbs dist/index.js > README.md",
+				"cover": "c8 npm test && c8 report --reporter=text-lcov | coveralls",
+				"dist": "rollup -f umd -n byteSize -o dist/index.js index.mjs"
+			},
+			"devDependencies": {
+				"@test-runner/web": "^0.3.4",
+				"coveralls": "^3.1.0",
+				"esm-runner": "^0.3.4",
+				"isomorphic-assert": "^0.1.1",
+				"jsdoc-to-markdown": "^5.0.3",
+				"rollup": "^2.10.9",
+				"test-object-model": "^0.6.1"
+			},
+			"standard": {
+				"ignore": [
+					"dist"
+				]
+			},
+			"gitHead": "b4f774cb42673f8d5084995dc32fcc48d8e0ff78",
+			"bugs": {
+				"url": "https://github.com/75lb/byte-size/issues"
+			},
+			"homepage": "https://github.com/75lb/byte-size#readme",
+			"_id": "byte-size@7.0.0",
+			"_nodeVersion": "14.3.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-NNiBxKgxybMBtWdmvx7ZITJi4ZG+CYUgwOSZTfqB1qogkRHrhbQE/R2r5Fh94X+InN5MCYz6SvB/ejHMj/HbsQ==",
+				"shasum": "36528cd1ca87d39bd9abd51f5715dc93b6ceb032",
+				"tarball": "https://registry.npmjs.org/byte-size/-/byte-size-7.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 25953,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJezkSYCRA9TVsSAnZWagAA8KQP/0rpESNDOtAWpKyP3lYT\nOMasT8Y9acJmG1Opbziv97GLVHl7H5xNSZgJ6w+0NUwm/Zts2y1iSgagsWHp\ndqrvGVBBt0nwDrUMUAUgTpBqST+NPL/YRkbTOXI5D9d39SiTSyZ5VyZmhLSu\n0p0SYPb+ef8pl//8GI3J26yNcCzsfVrjxhOM/80dSxUSyiZDv1i6EMQX2DlE\ns1IIHyqgyHNe/hJZ1QvgdtoMQHyVaI2gmX+6DVSwku2gHjLQlGtHHwZLJVYX\nIHvD+XuvKiE8rhoyk/5Xjaa/IMaGS00X5E8XCMURS7cnMja4g43WKSzx7uVf\nf2m8hPRS7s6mjiVC8Gr337nlKD5fkG6BRp+TMoIDOQ2pYNeHPZnNJ7wEAtS4\nTn+S1Aey2XMN4LfEOciAi3aWSTq+99pU89pOd7dFFdcGAmll0C5vzkwW7UwB\nl2Dp/87UlfIS2489H5vORT+9BKj5amDipLt6J2Q0Jt8RyP69VNqcvXuq5nHO\nwstqK04iuSBU9VQ2tW0INazO+4BinIzH8LhdAoeSxSsNlMh8doxTG7Xnacir\nn9Jd43QdoXJG+0SEYtng3LbHaEJTohWIypmUMAG4xENfke8XT5v9lZd92Ily\nUs61DVosbM+hag0ttN/siaZrgaVBJJoLSfTUsy5eoBRexMR8Movlkwx20aYN\nWclL\r\n=m9Sm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "75lb",
+					"email": "75pound@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "75lb",
+				"email": "75pound@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/byte-size_7.0.0_1590576280050_0.9797366742155238"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2020-05-27T10:44:42.546Z",
+		"created": "2014-06-07T21:11:41.702Z",
+		"0.1.0": "2014-06-07T21:11:41.702Z",
+		"1.0.0": "2015-07-20T08:10:06.674Z",
+		"1.0.1": "2015-07-20T08:17:11.646Z",
+		"2.0.0": "2015-10-03T22:15:20.161Z",
+		"3.0.0": "2016-08-26T20:24:28.176Z",
+		"4.0.0": "2017-06-21T18:49:33.740Z",
+		"4.0.1": "2017-06-26T20:51:23.399Z",
+		"4.0.2": "2017-07-06T12:29:38.655Z",
+		"4.0.3": "2018-05-12T22:58:36.307Z",
+		"4.0.4": "2018-10-18T19:09:01.704Z",
+		"5.0.0": "2018-12-21T22:50:26.640Z",
+		"5.0.1": "2018-12-21T23:21:57.293Z",
+		"6.0.0": "2019-09-22T15:46:03.587Z",
+		"6.1.0": "2019-10-25T20:32:14.747Z",
+		"6.2.0": "2019-10-27T23:54:43.900Z",
+		"7.0.0": "2020-05-27T10:44:40.182Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "7.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"07c561cd0129d00e5bc0dd84237707b8\"",
+			"fetched": 1613881359689
+		}
+	},
+	"_distfiles": {
+		"byte-size-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-0.1.0.tgz",
+			"sha": "3bb99a42bc41cf3906586bf8347762fcae75bd57",
+			"registry": "npmjs"
+		},
+		"byte-size-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-1.0.0.tgz",
+			"sha": "4112837a74381c05548fe013febdb7d22cda4438",
+			"registry": "npmjs"
+		},
+		"byte-size-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-1.0.1.tgz",
+			"sha": "cd9ad1d19d4cdbb809e5e623b6e71508d7344bfe",
+			"registry": "npmjs"
+		},
+		"byte-size-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-2.0.0.tgz",
+			"sha": "c348281fc777080c084e36f267f41f6a5042f04f",
+			"registry": "npmjs"
+		},
+		"byte-size-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-3.0.0.tgz",
+			"sha": "406f9e2366aa5dabf63672eb291d7bb09495da75",
+			"registry": "npmjs"
+		},
+		"byte-size-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.0.tgz",
+			"sha": "1b6c23d9b2a0eaa6a4c11e6313b815c099323db7",
+			"registry": "npmjs"
+		},
+		"byte-size-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.1.tgz",
+			"sha": "59b2f8277277e1e538fee1e4d02b0ddd82fb09c6",
+			"registry": "npmjs"
+		},
+		"byte-size-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.2.tgz",
+			"sha": "e8ddbf7161913965c6af5b236a4bed8896bdc83e",
+			"registry": "npmjs"
+		},
+		"byte-size-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.3.tgz",
+			"sha": "b7c095efc68eadf82985fccd9a2df43a74fa2ccd",
+			"registry": "npmjs"
+		},
+		"byte-size-4.0.4.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-4.0.4.tgz",
+			"sha": "29d381709f41aae0d89c631f1c81aec88cd40b23",
+			"registry": "npmjs"
+		},
+		"byte-size-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-5.0.0.tgz",
+			"sha": "04c10a57091f8864c603606da996fa80606948d4",
+			"registry": "npmjs"
+		},
+		"byte-size-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-5.0.1.tgz",
+			"sha": "4b651039a5ecd96767e71a3d7ed380e48bed4191",
+			"registry": "npmjs"
+		},
+		"byte-size-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-6.0.0.tgz",
+			"sha": "52e9553a18c65026cc81db3f6f4629a8f9a282d4",
+			"registry": "npmjs"
+		},
+		"byte-size-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-6.1.0.tgz",
+			"sha": "f1e3c229ca4e40d5fdac57a7ef2ba0f4fe1912c5",
+			"registry": "npmjs"
+		},
+		"byte-size-6.2.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-6.2.0.tgz",
+			"sha": "39fd52adedbbf7e8c3b3f7dea05e441549375c28",
+			"registry": "npmjs"
+		},
+		"byte-size-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/byte-size/-/byte-size-7.0.0.tgz",
+			"sha": "36528cd1ca87d39bd9abd51f5715dc93b6ceb032",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-3835dbdc6e1e8ce1",
+	"_id": "byte-size",
+	"readme": "[![view on npm](https://badgen.net/npm/v/byte-size)](https://www.npmjs.org/package/byte-size)\n[![npm module downloads](https://badgen.net/npm/dt/byte-size)](https://www.npmjs.org/package/byte-size)\n[![Gihub repo dependents](https://badgen.net/github/dependents-repo/75lb/byte-size)](https://github.com/75lb/byte-size/network/dependents?dependent_type=REPOSITORY)\n[![Gihub package dependents](https://badgen.net/github/dependents-pkg/75lb/byte-size)](https://github.com/75lb/byte-size/network/dependents?dependent_type=PACKAGE)\n[![Build Status](https://travis-ci.org/75lb/byte-size.svg?branch=master)](https://travis-ci.org/75lb/byte-size)\n[![Coverage Status](https://coveralls.io/repos/github/75lb/byte-size/badge.svg)](https://coveralls.io/github/75lb/byte-size)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)\n\n***Upgraders, please check the [release notes](https://github.com/75lb/byte-size/releases).***\n\n# byte-size\n\nAn isomorphic, load-anywhere function to convert a bytes value (e.g. `3456`) to a human-readable string (`'3.5 kB'`). Choose between [metric or IEC units](https://en.wikipedia.org/wiki/Gigabyte) (summarised below) or specify your own custom units.\n\nValue  | Metric        | Metric (octet) |\n-----  | ------------- | -------------- |\n1000   | kB  kilobyte  | ko  kilooctet  |\n1000^2 | MB  megabyte  | Mo  megaoctet  |\n1000^3 | GB  gigabyte  | Go  gigaoctet  |\n1000^4 | TB  terabyte  | To  teraoctet  |\n1000^5 | PB  petabyte  | Po  petaoctet  |\n1000^6 | EB  exabyte   | Eo  exaoctet   |\n1000^7 | ZB  zettabyte | Zo  zettaoctet |\n1000^8 | YB  yottabyte | Yo  yottaoctet |\n\nValue  | IEC          | IEC (octet)   |\n------ | ------------ | ------------- |\n1024   | KiB kibibyte | Kio kibioctet |\n1024^2 | MiB mebibyte | Mio mebioctet |\n1024^3 | GiB gibibyte | Gio gibioctet |\n1024^4 | TiB tebibyte | Tio tebioctet |\n1024^5 | PiB pebibyte | Pio pebioctet |\n1024^6 | EiB exbibyte | Eio exbioctet |\n1024^7 | ZiB zebibyte | Zio zebioctet |\n1024^8 | YiB yobibyte | Yio yobioctet |\n\n## Synopsis\n\nBy default, `byteSize` converts the input number to a human readable string with metric units and a precision of 1.\n\n```js\n> const byteSize = require('byte-size')\n\n> byteSize(1580)\n{ value: '1.6', unit: 'kB', long: 'kilobytes' }\n```\n\nThe object returned by `byteSize` defines a `toString` method therefore can be used directly in string context.\n\n```js\n> `Filesize: ${byteSize(12400)}`\n'Filesize: 12.4 kB'\n```\n\nOverride the default `toString` behaviour by setting [`options.toStringFn`](#bytesizebytes-options--object-).\n\n```js\n> function toStringFn () {\n  return `**${this.value}${this.unit}**`\n}\n\n> `Filesize: ${byteSize(12400, { toStringFn })}`\n'Filesize: **12.4kB**'\n```\n\nBeside the default of `metric`, there are three other built-in units available: `metric_octet`, `iec` and `iec_octet`.\n\n```js\n> byteSize(1580, { units: 'iec' })\n{ value: '1.5', unit: 'KiB', long: 'kibibytes' }\n\n> byteSize(1580, { units: 'iec_octet' })\n{ value: '1.5', unit: 'Kio', long: 'kibioctets' }\n\n> byteSize(1580, { units: 'metric_octet' })\n{ value: '1.6', unit: 'ko', long: 'kilooctets' }\n```\n\nYou can adjust the `precision`.\n\n```js\n> byteSize(1580, { units: 'iec', precision: 3 })\n{ value: '1.543', unit: 'KiB', long: 'kibibytes' }\n\n> byteSize(1580, { units: 'iec', precision: 0 })\n{ value: '2', unit: 'KiB', long: 'kibibytes' }\n```\n\nDefine custom units by passing an object containing one or more additional conversion tables to `options.customUnits`. In `options.units`, specify the name of a property from the `customUnits` object.\n\n```js\n> const customUnits = {\n  simple: [\n    { from: 0   , to: 1e3 , unit: ''  },\n    { from: 1e3 , to: 1e6 , unit: 'K', long: 'thousand' },\n    { from: 1e6 , to: 1e9 , unit: 'Mn', long: 'million' },\n    { from: 1e9 , to: 1e12, unit: 'Bn', long: 'billion' }\n  ]\n}\n\n> const { value, unit } = byteSize(10000, { customUnits, units: 'simple' })\n\n> `${value}${unit}`\n'10.0K'\n```\n\nOverride the built-in defaults for the duration of the process by passing an options object to `byteSize.defaultOptions()`. This results in cleaner code in cases where `byteSize` is used often with the same options.\n\n```js\n> byteSize.defaultOptions({\n  units: 'simple',\n  precision: 2,\n  customUnits: {\n    simple: [\n      { from: 0, to: 1e3, unit: '' },\n      { from: 1e3, to: 1e6, unit: 'k' },\n      { from: 1e6, to: 1e9, unit: 'm' },\n      { from: 1e9, to: 1e12, unit: 'bn' },\n    ]\n  },\n  toStringFn: function () {\n    return this.value + this.unit\n  }\n})\n\n> [2400, 16400, 3991200].map(byteSize).join(', ')\n'2.40k, 16.40k, 3.99m'\n```\n\n<a name=\"module_byte-size\"></a>\n\n## byte-size\n\n* [byte-size](#module_byte-size)\n    * [byteSize(bytes, [options])](#exp_module_byte-size--byteSize) ⇒ <code>object</code> ⏏\n        * [.defaultOptions(options)](#module_byte-size--byteSize.defaultOptions)\n\n<a name=\"exp_module_byte-size--byteSize\"></a>\n\n### byteSize(bytes, [options]) ⇒ <code>object</code> ⏏\nReturns an object with the spec `{ value: string, unit: string, long: string }`. The returned object defines a `toString` method meaning it can be used in any string context.\n\n**Kind**: Exported function  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| bytes | <code>number</code> | The bytes value to convert. |\n| [options] | <code>object</code> | Optional config. |\n| [options.precision] | <code>number</code> | Number of decimal places. Defaults to `1`. |\n| [options.units] | <code>string</code> | Specify `'metric'`, `'iec'`, `'metric_octet'`, `'iec_octet'` or the name of a property from the custom units table in `options.customUnits`. Defaults to `metric`. |\n| [options.customUnits] | <code>object</code> | An object containing one or more custom unit lookup tables. |\n| [options.toStringFn] | <code>function</code> | A `toString` function to override the default. |\n\n<a name=\"module_byte-size--byteSize.defaultOptions\"></a>\n\n#### byteSize.defaultOptions(options)\nSet the default `byteSize` options for the duration of the process.\n\n**Kind**: static method of [<code>byteSize</code>](#exp_module_byte-size--byteSize)  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| options | <code>object</code> | A `byteSize` options object. |\n\n\n## Load anywhere\n\nThis library is compatible with Node.js, the Web and any style of module loader. It can be loaded anywhere, natively without transpilation.\n\nNode.js:\n\n```js\nconst byteSize = require('byte-size')\n```\n\nWithin Node.js with ECMAScript Module support enabled:\n\n```js\nimport byteSize from 'byte-size'\n```\n\nWithin a modern browser ECMAScript Module:\n\n```js\nimport byteSize from './node_modules/byte-size/index.mjs'\n```\n\nOld browser (adds `window.byteSize`):\n\n```html\n<script nomodule src=\"./node_modules/byte-size/dist/index.js\"></script>\n```\n\n* * *\n\n&copy; 2014-20 Lloyd Brookes \\<75pound@gmail.com\\>.\n\nIsomorphic test suite by [test-runner](https://github.com/test-runner-js/test-runner) and [web-runner](https://github.com/test-runner-js/web-runner). Documented by [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown)."
+}

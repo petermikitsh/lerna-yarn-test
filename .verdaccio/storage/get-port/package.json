@@ -1,0 +1,1092 @@
+{
+	"name": "get-port",
+	"versions": {
+		"0.1.0": {
+			"name": "get-port",
+			"version": "0.1.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/get-port"
+			},
+			"bin": {
+				"get-port": "cli.js"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port",
+			"_id": "get-port@0.1.0",
+			"dist": {
+				"shasum": "3d778c6555e8902fc194d8fe2b8712d66c5ca0af",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "get-port",
+			"version": "1.0.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/get-port"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"bin": {
+				"get-port": "cli.js"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "4082b710391f904a54e5b052b7713d767ba4fd87",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port",
+			"_id": "get-port@1.0.0",
+			"_shasum": "6920003b5ae418213938fb8c1e4343b4cbe63deb",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6920003b5ae418213938fb8c1e4343b4cbe63deb",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "get-port",
+			"version": "2.0.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/get-port"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random"
+			],
+			"dependencies": {
+				"pinkie-promise": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"ignores": [
+					"test.js"
+				]
+			},
+			"gitHead": "859572330892e8036ad5440f2cf773e35065419d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port",
+			"_id": "get-port@2.0.0",
+			"_shasum": "9c4332f98de621a251c16dbb6d93bd5ceb2c5da8",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "9c4332f98de621a251c16dbb6d93bd5ceb2c5da8",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "get-port",
+			"version": "2.1.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/get-port"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random"
+			],
+			"dependencies": {
+				"pinkie-promise": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"ignores": [
+					"test.js"
+				]
+			},
+			"gitHead": "7d3e7ad55f91d258cef368e3b06c77d0a5c773ad",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port",
+			"_id": "get-port@2.1.0",
+			"_shasum": "8783f9dcebd1eea495a334e1a6a251e78887ab1a",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "8783f9dcebd1eea495a334e1a6a251e78887ab1a",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "get-port",
+			"version": "3.0.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "6a8aed8a1e98519d960391a52c4bcb1ee6959c9e",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@3.0.0",
+			"_shasum": "03ac1c58f12b5f36667f4b705ecd29fb251df603",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "03ac1c58f12b5f36667f4b705ecd29fb251df603",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/get-port-3.0.0.tgz_1489221136052_0.9105297001078725"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "get-port",
+			"version": "3.1.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "145bf20d92e6a7081926f4aa3614f6d32a233ca3",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@3.1.0",
+			"_shasum": "ef01b18a84ca6486970ff99e54446141a73ffd3e",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "ef01b18a84ca6486970ff99e54446141a73ffd3e",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/get-port-3.1.0.tgz_1491382523193_0.27146817557513714"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.2.0": {
+			"name": "get-port",
+			"version": "3.2.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"rand",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"pify": "^3.0.0",
+				"xo": "*"
+			},
+			"gitHead": "9782a3450af88eec601360589e73f48c4c9315e8",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@3.2.0",
+			"_shasum": "dd7ce7de187c06c8bf353796ac71e099f0980ebc",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.8.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "dd7ce7de187c06c8bf353796ac71e099f0980ebc",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port-3.2.0.tgz_1503218568819_0.5053279723506421"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "get-port",
+			"version": "4.0.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"pify": "^3.0.0",
+				"xo": "*"
+			},
+			"gitHead": "0f426261dd7d0dd2fc5df94ac74a7c81078d13c2",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@4.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Yy3yNI2oShgbaWg4cmPhWjkZfktEvpKI09aDX4PZzNtlU9obuYrX7x2mumQsrNxlF+Ls7OtMQW/u+X4s896bOQ==",
+				"shasum": "373c85960138ee20027c070e3cb08019fea29816",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4038,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVo3bCRA9TVsSAnZWagAARMAP/RX5o8eI8VcDEzhzPrvW\nhtCo7kv0OSOwvKlDJOktncmp/rWxOYulmj4krN5mcxwI3AVj6TLl7iMB/jjZ\nOm0XEAyfRdLxDKjHtNA99A1Ts30uko2KfnNEag+5lrKEiypUE9gE4wLtV3ow\nxJmAQgQ2sHbJesMsv6FdFkR22jWCAOSTyyuntBnW+mGmn9aHKu9bR1Myt63i\nicsaejOA+n4H410khhYEEKOwEbL9l5/ACc1SyRl/yWsJmgS0DEESQkx2w4yi\n7pXUkhohsQSyRUCfBEqYkMROquiLPpZwFjY0O+mFiXPIrHtpMt0ZcQzYgdCS\nwFSA9uUqbsE4Ne9kk80oBrYl1X65Dm0iuutjJ0mUyRRSYU984K3aah/jM8nc\nhsT2RhGLtVmSvmQlKcPnhNCRqk8Eb45kbu2PrnoYPEdXwMZTrRBgIvqcuD0E\n2o3oCNkU8ZF+fyqEcUSzqiTRTjsNqAoJ+Gfs/49nNoXgciQTgp23bFzBvtMQ\n6/k2nKCxSZidXeVddz+tQKyLeTqrXGFQ5321IHaK1+A25OXIjtofMVz9zkWu\n+CcCCC8qK6QTQLatQ2d/DPkO6SSotadJX6MeKSjLpHBJ5yYyEixgc1MNr/UX\nF4Pr1nwCEJk1kZSWH3tv2kZjuKzLrjM4VoJTRXQnP2rSDagw/PHQxcnpSYZI\nH5FH\r\n=xbe2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_4.0.0_1532399067823_0.6716886791796908"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.0": {
+			"name": "get-port",
+			"version": "4.1.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"pify": "^3.0.0",
+				"xo": "*"
+			},
+			"gitHead": "4d38bead094a8b00d497f9cd9f82d0f6681ec5f7",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@4.1.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.13.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-4/fqAYrzrzOiqDrdeZRKXGdTGgbkfTEumGlNQPeP6Jy8w0PzN9mzeNQ3XgHaTNie8pQ3hOUkrwlZt2Fzk5H9mA==",
+				"shasum": "93eb3d5552c197497d76e9c389a6ac9920e20192",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-4.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3965,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHO2tCRA9TVsSAnZWagAA3SEQAJOsEU5EQ/XN7lHSOyND\nuyYZqGZB53vfXJpbqSRcdX47kBjbuBODi6JIXrJ5zxGunUTsK5/plRX+TRuM\na63RvMykHTV5f9pD36jq2CLk/Qx9oDViEirrXCQABVCOJaw4nxOrAeH35PVa\n6vVlMhSJx6muyQH64BASDQRLsvIPHUO0kovT63MQadfK/tji+aUlJFEyiPRY\nnuTD5StdYDk3rggyJfBm3u2yuNLxK8lFvbF2cQJ5snBNXz23SYXTDKxTHMFV\nK8VhaPyKnfEr/yZkgYyagERS++OZ+d7G5UkWPK6Tcqr27KSbHZ9BLGbhN9yc\n4zRYqXfy3kP20G83Gml42DdywyX5+rDueFpdIvLwGKDKnqYWGg+cAypmuu2f\n90GXxSC8JNvVg6lizumKh6mQ9LTeMthvRlWWEoGE1/Ldu3bZJR/bMH8J3LvD\nVX1WimM5l1WRxxoVB3sftoD8cRHQEeElwc5xL1GuzR1mcYo5tw1YVUtm5xZ9\n8vNGJI6hdhJXdE4eIphHoyC4kluAtHjrYsc5Z1K1B7tO9GqgSy9qOQYb/rCE\nOEJmRDE7pJIJb3XAjqMh06jIg5ZWvRkSx8/FXua+OIiCaEjiEXoDXFFEKip+\nJ4sTd/QcHwIMaOVBGxS/nYprFn2uSxDg6c1jZuAG7nlsV9JABvd4xMKuYvsq\nL6Nk\r\n=WQn4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_4.1.0_1545399724916_0.2635753253236732"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.2.0": {
+			"name": "get-port",
+			"version": "4.2.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"ava": "^1.2.1",
+				"pify": "^3.0.0",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "95f0da2d85908b03cc6093e67e6975a21c44e7ee",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@4.2.0",
+			"_nodeVersion": "10.15.1",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-/b3jarXkH8KJoOMQc3uVGHASwGLPq3gSFJ7tgJm2diza+bydJPTGOibin2steecKeOylE8oY2JERlVWkAJO6yw==",
+				"shasum": "e37368b1e863b7629c43c5a323625f95cf24b119",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-4.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4497,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcetT2CRA9TVsSAnZWagAA5SMP/0pzNhCrjc/uL8vAjBUt\n0JcVmReAv5YTqa2Nv1c+0E1Kyx4Axsv0hBTr5rqEWp06xtTRlmYTB36lMSFV\n+u8udpiWeddjO3wgpRLBLxBIuhOf7Uv7NYe5LwhnICCkm0MUT4oirxidDDjx\nWf9ztBPFUCLisnUQSKFgH5rZLbo97iAOFWNUr+y+SIhRGGsAzqwsxCuD1I7L\nCyhBU3/h+1Gbq4RHfJRdhvRpmLmtpFugKNgOOUw4fd15n1iEUiXIfMpTXR3D\ne0oY2iBd8l1irc4XkCSF0bGhVJcyQYkl1It+tlb7DGJDcjpKi57Haah0isS2\nVkBV6aCvcNI5xOY/79EhjAU+8lzvo9aIBmY95W3V+JOtOGBic8r8IeY4mT0y\nNa57jLXuML54mkNBt1CU8jaVA7QRGU6nnlC6PjeqobPK5DU7tx5QKGtvc25y\n4oZDnRui0o9CKn/29s9ttB39D9kxyOAMrz9oFFjLi63mqLUzuGcsLlcLPM/z\nTiChCuLnK+w9wG69zQdtl4rz8f1Qyt951R63pgzvaSOgU/OrInKwtmLDgr0B\nb/okJJgOXoWLgVqEkmaQICVd7yqgX7Ub6MhlARI0zqzRQgJUCrD/7XX6SM02\n8l2oBZOoOUEQFEcLqcYbigXt8k1LdBAjhdunCVcs7ovPSpSynXPJuXrL9iMz\nOG32\r\n=cU8c\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_4.2.0_1551553781685_0.35598586354094897"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "get-port",
+			"version": "5.0.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"dependencies": {
+				"type-fest": "^0.3.0"
+			},
+			"devDependencies": {
+				"@types/node": "^11.13.0",
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "961551fa61c7eeaa35ca9bdeae84f79d0efc196b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@5.0.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-imzMU0FjsZqNa6BqOjbbW6w5BivHIuQKopjpPqcnx0AVHJQKCxK1O+Ab3OrVXhrekqfVMjwA9ZYu062R+KcIsQ==",
+				"shasum": "aa22b6b86fd926dd7884de3e23332c9f70c031a6",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7074,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcp8aJCRA9TVsSAnZWagAA+5kP/1XD9lsv5d1OAa7CA9iD\nGizMSUThhKYkm9FbAmpJmUiGZRZf7uq/39tPqONeE4ysfMiU8sx8IERlQEJY\nfwmUTo6tYZyCu/6AVtWQ997i2x+zNAC7n5uUPDEAYz+zmekHg7VYVf4Odrwz\nnBKnHtDcRsko87xQEackCwejsOdmDwxgyFXjHsp9RswZmnRNNNNMfBOSaOps\nUnZhzW8O1FF2RgEd4Mx0dedDBNIfHm7uH1T8DvZ4WYy8GlgxloEQRSCyJSUi\nb8o3/TTAUsukfaSi2zSWwLqSJUltatuX69+AyvgjSX6BnLyLQJROLLIj7zwN\nBDIc3OYR+udE3UpkzGWje10SUGiY09trLBhxCvna9vfgRiOV6iEaWpvaNhf0\nc9AdXDWFPeuWYnMEuKczuobWDZVLfmkz+ysTRbrxOjgJ4Rx8/gpS9tdmGRM7\nFSB2qRuxxpA2czJjGyUW5eZYzrBQN7oh32Et8mQDaSx7rWsyEr4jBu+jD+Tj\nRP6DEiv1OwyairD+Gv4JE5iDHo9m0tKHo4te5MFaTxAVOiXSzV2Srfu6/bN4\nnwgLNiEmRkMTdHFn1S61Z1UL6o22tZtjTELgGMGxJhDku2K8Dutl21t5fV0c\n/sOz8Dr80Svu6nUQYrVXNOdrLIB0T3R5wGikKHS9OD84ib55hc13F/4n3wL5\ndesR\r\n=IUwk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_5.0.0_1554499208865_0.8680442295680235"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "get-port",
+			"version": "5.1.0",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"@types/node": "^12.12.21",
+				"ava": "^2.4.0",
+				"tsd": "^0.11.0",
+				"xo": "^0.25.3"
+			},
+			"gitHead": "0edd17a5eb7ab8a02342c9defb0f622621a03e47",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@5.1.0",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "6.13.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-bjioH1E9bTQUvgaB6VycVy1QVbTZI41yTnF9qkZz6ixgy/uhCH6D63bKeZ6Code/07JYA61MeI94jSdHss8PNA==",
+				"shasum": "a8f6510d0000f07d5c65653a4b0ae648fe832683",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-5.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8629,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd+l+GCRA9TVsSAnZWagAAnY8QAJRK6KrGblsXGoQnndJy\nXYo6dbP27qTnwPOQbgf34ncBFr+6GzRWD1w4A8z9kzLHyAep7Ce0U7Pq5d1v\nTO8x3qNIV8z5jxy4zca/sN5Zhj7vG8zDBmZJp9KtORNj+ifU1BamwBovzx2m\nVHo5mNPqGxgXU9CH75SSyrUqhxuefJOSTCW61HC6mCV92gVqnMQjvRg10ISU\nC+0J3M1O22ynsQ3lkI2jRXOTdtn0YKuv9IUS+uZOHKKUr1nXBvtjEYVu1xh4\nvs5wvFl1MeswWwXSLuWl7QwvkaECmT92skKqMRP46szu0vUPUQ+LtC4wFgg8\nINcCAxxvZL3AzggFLaHcRho5/zZiYMyunsTLB1vk3Y9BBWAWPFFWt+IRFTRT\nuQf/BNP+4ZG5NudXebt0vTxDfSTVaaZdNIpKWHdKy6RmsQ/wx08DVFXjaRQ0\nXZgUlSwrA99t4iymeoLR1zibukxTDP4T6nsZw510W2OJSTYZPJAGXc1KI8Vu\nRCy3bL9b7M5zZU4rrpU2e0VHz+ZeVq1yx5CfU/udIkV3cWWKYQHypVOV/pD7\nwzDGVstCKPXgsbWLf8iGE9DQx9lVLGCJlLV6yaAv6Ga2j2Ai2vJbyzCrOh/3\njHpC7QRbqHPW5TLaf4gthbYBMjos8/7rkMoCGvjGBUJkuLUr/fnVJz1F2CId\n0GAQ\r\n=Pxcd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_5.1.0_1576689542466_0.5159308509743363"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.1": {
+			"name": "get-port",
+			"version": "5.1.1",
+			"description": "Get an available port",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/get-port.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"port",
+				"find",
+				"finder",
+				"portfinder",
+				"free",
+				"available",
+				"connection",
+				"connect",
+				"open",
+				"net",
+				"tcp",
+				"scan",
+				"random",
+				"preferred",
+				"chosen"
+			],
+			"devDependencies": {
+				"@types/node": "^12.12.21",
+				"ava": "^2.4.0",
+				"tsd": "^0.11.0",
+				"xo": "^0.25.3"
+			},
+			"gitHead": "a9b445ea0afbd75b81b7b9011c896e111e2d4aee",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/get-port/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/get-port#readme",
+			"_id": "get-port@5.1.1",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "6.11.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-g/Q1aTSDOxFpchXC4i8ZWvxA1lnPqx/JHqcpIw0/LX9T8x/GBbi6YnlN5nhaKIFkT8oFsscUKgDJYxfwfS6QsQ==",
+				"shasum": "0469ed07563479de6efb986baf053dcd7d4e3193",
+				"tarball": "https://registry.npmjs.org/get-port/-/get-port-5.1.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8741,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeHsiECRA9TVsSAnZWagAAAAUP/jWR3I7n577rUuj9DtrF\naday7h1gBQn6B1hg3W1XbHR8WaNJfXaIBf0sifiFNWh1HFcOjV9IBDeNyi/s\nJzCDLJ8oiQZLOTpoVbc631dw7Dc2oeeGEo1aoCAYw/a1RP6YMqqJxmA74S17\nyTajyR4VqlZ7jmM9QNG4mQBGOSPMbV+fk9b3aZ9xCxu2txkVpHDxqfnca7RO\nNJ978zVBvjMPqtZ60iQ2FkKjqJtNuaaoJTaGIuVqorbkJOMRmfV0nrfL/xk8\nid+uGq9z6jNm+Pr5RgsHjRU1nKHXv0DEGZIEEbvwNkkhsuWTk+nkpjwwaSVj\ndWHI8sPEmMjlOu0s7FEz02O9Hz5EoMC+I9kvOvaNZXmxaJY61nqxH7osCk81\novp3HwTKex+Fj/6qgIuh0t3Y22aVF7+2mwWtdqKJmbRVKE95gJYZ5JdnLmdd\nG1BFL8webmo6dCQOVoVNKLu2xO+pUzqkhxM3A5odtw1H9hwitKMX1zbXxr+v\n53rE899ooc7vOGmQvZlR1oG3dO/yvOeHIeFWDVbxdDyTmrXHOch1DaEIIik2\n83+mhwQa72z0IbbZ17d/c/caLQwImu6RrJSyLS8OdxJBcdCufFziT2Z36itw\n0Ri6HVoV4YUJN9+4uNAWg1bUwt5ORIgmKPAK7Dmr3nG8eBbY739xY4PPMrCO\nVoVL\r\n=gfGX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/get-port_5.1.1_1579075715831_0.16269686978445863"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-01-15T08:08:39.483Z",
+		"created": "2014-04-06T15:08:59.586Z",
+		"0.1.0": "2014-04-06T15:08:59.586Z",
+		"1.0.0": "2014-08-13T16:58:34.674Z",
+		"2.0.0": "2015-10-26T14:37:46.972Z",
+		"2.1.0": "2015-11-14T19:11:13.933Z",
+		"3.0.0": "2017-03-11T08:32:17.950Z",
+		"3.1.0": "2017-04-05T08:55:23.422Z",
+		"3.2.0": "2017-08-20T08:42:48.916Z",
+		"4.0.0": "2018-07-24T02:24:27.901Z",
+		"4.1.0": "2018-12-21T13:42:05.118Z",
+		"4.2.0": "2019-03-02T19:09:41.788Z",
+		"5.0.0": "2019-04-05T21:20:08.974Z",
+		"5.1.0": "2019-12-18T17:19:02.638Z",
+		"5.1.1": "2020-01-15T08:08:35.951Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"ab2f10cb7f665e73d5b6d98685c0bf1a\"",
+			"fetched": 1613881353099
+		}
+	},
+	"_distfiles": {
+		"get-port-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-0.1.0.tgz",
+			"sha": "3d778c6555e8902fc194d8fe2b8712d66c5ca0af",
+			"registry": "npmjs"
+		},
+		"get-port-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-1.0.0.tgz",
+			"sha": "6920003b5ae418213938fb8c1e4343b4cbe63deb",
+			"registry": "npmjs"
+		},
+		"get-port-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-2.0.0.tgz",
+			"sha": "9c4332f98de621a251c16dbb6d93bd5ceb2c5da8",
+			"registry": "npmjs"
+		},
+		"get-port-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-2.1.0.tgz",
+			"sha": "8783f9dcebd1eea495a334e1a6a251e78887ab1a",
+			"registry": "npmjs"
+		},
+		"get-port-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-3.0.0.tgz",
+			"sha": "03ac1c58f12b5f36667f4b705ecd29fb251df603",
+			"registry": "npmjs"
+		},
+		"get-port-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-3.1.0.tgz",
+			"sha": "ef01b18a84ca6486970ff99e54446141a73ffd3e",
+			"registry": "npmjs"
+		},
+		"get-port-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-3.2.0.tgz",
+			"sha": "dd7ce7de187c06c8bf353796ac71e099f0980ebc",
+			"registry": "npmjs"
+		},
+		"get-port-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-4.0.0.tgz",
+			"sha": "373c85960138ee20027c070e3cb08019fea29816",
+			"registry": "npmjs"
+		},
+		"get-port-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-4.1.0.tgz",
+			"sha": "93eb3d5552c197497d76e9c389a6ac9920e20192",
+			"registry": "npmjs"
+		},
+		"get-port-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-4.2.0.tgz",
+			"sha": "e37368b1e863b7629c43c5a323625f95cf24b119",
+			"registry": "npmjs"
+		},
+		"get-port-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-5.0.0.tgz",
+			"sha": "aa22b6b86fd926dd7884de3e23332c9f70c031a6",
+			"registry": "npmjs"
+		},
+		"get-port-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-5.1.0.tgz",
+			"sha": "a8f6510d0000f07d5c65653a4b0ae648fe832683",
+			"registry": "npmjs"
+		},
+		"get-port-5.1.1.tgz": {
+			"url": "https://registry.npmjs.org/get-port/-/get-port-5.1.1.tgz",
+			"sha": "0469ed07563479de6efb986baf053dcd7d4e3193",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-298d942b0a3a484a",
+	"_id": "get-port",
+	"readme": "# get-port [![Build Status](https://travis-ci.org/sindresorhus/get-port.svg?branch=master)](https://travis-ci.org/sindresorhus/get-port)\n\n> Get an available [TCP port](https://en.wikipedia.org/wiki/Port_(computer_networking))\n\n## Install\n\n```\n$ npm install get-port\n```\n\n## Usage\n\n```js\nconst getPort = require('get-port');\n\n(async () => {\n\tconsole.log(await getPort());\n\t//=> 51402\n})();\n```\n\nPass in a preferred port:\n\n```js\n(async () => {\n\tconsole.log(await getPort({port: 3000}));\n\t// Will use 3000 if available, otherwise fall back to a random port\n})();\n```\n\nPass in an array of preferred ports:\n\n```js\n(async () => {\n\tconsole.log(await getPort({port: [3000, 3001, 3002]}));\n\t// Will use any element in the preferred ports array if available, otherwise fall back to a random port\n})();\n```\n\nUse the `makeRange()` helper in case you need a port in a certain range:\n\n```js\n(async () => {\n\tconsole.log(await getPort({port: getPort.makeRange(3000, 3100)}));\n\t// Will use any port from 3000 to 3100, otherwise fall back to a random port\n})();\n```\n\n## API\n\n### getPort(options?)\n\nReturns a `Promise` for a port number.\n\n#### options\n\nType: `object`\n\n##### port\n\nType: `number | Iterable<number>`\n\nA preferred port or an iterable of preferred ports to use.\n\n##### host\n\nType: `string`\n\nThe host on which port resolution should be performed. Can be either an IPv4 or IPv6 address.\n\n### getPort.makeRange(from, to)\n\nMake a range of ports `from`...`to`.\n\nReturns an `Iterable` for ports in the given range.\n\n#### from\n\nType: `number`\n\nFirst port of the range. Must be in the range `1024`...`65535`.\n\n#### to\n\nType: `number`\n\nLast port of the range. Must be in the range `1024`...`65535` and must be greater than `from`.\n\n## Beware\n\nThere is a very tiny chance of a race condition if another process starts using the same port number as you in between the time you get the port number and you actually start using it.\n\nRace conditions in the same process are mitigated against by using a lightweight locking mechanism where a port will be held for a minimum of 15 seconds and a maximum of 30 seconds before being released again.\n\n## Related\n\n- [get-port-cli](https://github.com/sindresorhus/get-port-cli) - CLI for this module\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-get-port?utm_source=npm-get-port&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
+}

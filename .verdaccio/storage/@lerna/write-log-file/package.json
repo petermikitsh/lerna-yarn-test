@@ -1,0 +1,591 @@
+{
+	"name": "@lerna/write-log-file",
+	"versions": {
+		"3.0.0-beta.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.0.0-beta.0",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"write-log-file.js"
+			],
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "349b9c765bcbf38988d1fcd48313422417a04c8f",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.0.0-beta.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2KJ2Zw4t8uHg827ihAmDpbWfuN6/5Yow5qWrw86Ip1ihMQ+CGMLqx5FDotlHLmOM7Io+xD5wh8yWOD+iDjKDPw==",
+				"shasum": "e128fee7cd7cb218ed767598ac45c6d2db5c6c89",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0-beta.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 1589
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.0.0-beta.0_1520388881750_0.04420539094436604"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-rc.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.0.0-rc.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"write-log-file.js"
+			],
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "1ab24c152d3ff5c2b9453bcaafeb4b5e432b2410",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.0.0-rc.0",
+			"_npmVersion": "6.3.0-next.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LHQPRY/1eWyq7ly+4A412FT9uzGKHDSGHkLYVro8r6mToPB/6eHdntJFRGOYNzKM5eax6RgrzBImEhs3F9FWSQ==",
+				"shasum": "c506b0024f77ee8333c5b825b4bfae2243c471ab",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0-rc.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3197,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWnb5CRA9TVsSAnZWagAAnQEQAKPIZRF9tM0Ots91WeS2\nqPsZ/Msw+1ehLJx2nxuZxHxL0eFjGWdGjf5tV2r6lI2figQl8ZDn2AGxRsAo\nKGQe4oqouEbBLQvt/DUXLChn4cg1aBtBDpZI1Wws/FAssKt6RQtnwwXmmdmo\nC8kEZOSr8zCc6qZD2RUfzxezZME+xtxvB3ViW3kqt72d1GQasVifREi3Kqrs\n48+QHbdFmO7dKH1s4/uxMVyN8jS0IfIr9IPUKvl5K5AjKFXQDLiFUWGG8kam\nL39guj36A6tQxfIAzk/+WjNh4Ou+ZCby//iulJYvi+fMzlDbBXOjtcX+kW+g\nne6AjGe2M+6nt1r5r+AXXU1X+kjOc+jQ+Pa6NiPv3CP//q/EzdWGC/487mcW\nhFWybj/h5/EuMTYFJpai1aMVckkMV5g59hZebmMCf5deDd0FJChJ4Y8cTjA3\njhye6WPt5hvHm4yqXxg4dfKEhD+OoagLzKUt9r5Rr3gS3flQdqmVcmb/uCSO\nUHy8d+itVEe1OTGMMfZTzrYFhXrLNlDUojf0q44OLqApblmdpYLYpDlh7vYp\n0YJ2CSstyLNsbbl5J768Cey7QzpEU6oRbt6EJs3XDRjmSIg578Vcs0oTchDQ\n0iX5YYZKH9Wyfg5+Sxl/prYdcZiigSt+D+1Fy/Gl6SZWd57Kk2oIFVSCJ9V+\n7ov3\r\n=zRC9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.0.0-rc.0_1532655353507_0.42985923578254526"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.0.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"write-log-file.js"
+			],
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-write-log-file-3.0.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-SfbPp29lMeEVOb/M16lJwn4nnx5y+TwCdd7Uom9umd7KcZP0NOvpnX0PHehdonl7TyHZ1Xx2maklYuCLbQrd/A==",
+				"shasum": "2f95fee80c6821fe1ee6ccf8173d2b4079debbd2",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3365,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbObdCRA9TVsSAnZWagAAtVcQAKOIld1T4mZ1AimrGm0y\ndO/e2Ke/2Yb8Zq/LKC7d3BKHwvBnZZITUWcV4NasZ33aKioE7uLeV6mN8PV/\nIeznCxbPp8QxNHteidwHtXCBqxwX7i0iJBKLju7DDHSDR8b71ZNBQYfpzYlW\nbGk7F4seKgT1rnbDoStPB9ucbDNRq9PQbrTKDjSuL3E5xBMY2KSdW/9D//se\nzrgTcWJkTFlwhhwGZGgyR28IuVAHW8/qmxV+EJjta4HYhsSFhiIOFyV1xTxD\nJfCTgYmaY7Y68hJOA0EsRM9YtEdXSL0sSf03VVecrE5voQs3D1qXjjiqj4kb\nzYWRb3BHM4jrjIBikQwF4GmWZnJfO6aKQna/uXc6PtJsnXSKnhwoJyqCAXBX\nwips8JxKbIhK2Rc99QPRi+pItMFpjFZkhoffIQtSGvEBu/iu9AY03+kUlp+M\nJLX0uLTu9OY1XMJqD81xL0l5fyWsMaeAposLCX4XtRhR/y2ADZZQi5wGC82g\nSp1lJDRdH/JQ+meEWgYEGUX9A745eOftx55rMT/dUjCxZENd14FeliqKNyJQ\nYq9Q4pv9ztTtaat+ua4dj2Zdlg7lYCh4QTEs0OS8ZTvEJABy6ovxqfcl6DO5\nd/tE5Xd5LymPt5J4TysXHGPjaQcwMbMlczxQ1Nq+ChPc2sHOfttbNdKPzKoa\nzX7i\r\n=vl8I\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.0.0_1533863645286_0.8598726651121027"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.6.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"libnpm": "^2.0.1",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-write-log-file-3.6.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-OkLK99V6sYXsJsYg+O9wtiFS3z6eUPaiz2e6cXJt80mfIIdI1t2dnmyua0Ib5cZWExQvx2z6Y32Wlf0MnsoNsA==",
+				"shasum": "b8d5a7efc84fa93cbd67d724d11120343b2a849a",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.6.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3607,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwkECRA9TVsSAnZWagAA3a8P/1V7hJClfqDC9zzMwXdM\n8ZP9pvKGuIeGxa89C5kBx5aGIaitGMh90uqE59/GD9oEeQuqtQM09d8Fi3hk\nQUykWBKygxK+DTXUfJ44ncgLr1epg/DQ34DUTHEMy44OWrE/Cej59mcNHVbA\nOcH0tC7eGx6reV0lzxKMhRFM96MR5oMkRJPwxckzTIq3OhCHsvv6RWEaGJeg\nZTF/hcD9WmE1Wi0dt2kJit6J4trO/ClfY9wXHPhraQAHQlOOWykg4UX6miXD\nayh4rl6D8o5MzMdeM9/UfKwr1HtlyL7ZIFq3Ly39EmmokLFo+TfHY+I1rTPV\no++Vz9rGm8pV849FrfPyMiug5sh8aTXwhlvDCQ+yC/wmcBtqFCj53j2Mm2f5\nEqIZF5dtEN2w3FjG6TFmQIQUA6ZzzU8pWzAkNNletRwdE6nbHqYC5EF1rMf7\ndQiIlbVkykbS6CPWYcfJjuQ833UVp6mPdO1631l6KEzQkeg6Q3sYz5iz2JCo\nk2aaAb/GqtdoAX6h0Dj73gXrZEOhXRG+XBTT0j1qswzqUD/7a5z9Ia8SA4K3\nN7vZU7qiUMEuuje0Hf9M1AYqLCdlP2Rra643VWuKOwqNwbt0cKAzpX2USFOp\nOfCEwAkZd9H9++syA/e6S7UgQkIzxjMHN2llFKypmwBI/czvvoSnEnkliqex\nbrM9\r\n=JvW3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.6.0_1544227075663_0.8487933989732963"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.11.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-skpTDMDOkQAN4lCeAoI6/rPhbNE431eD0i6Ts3kExUOrYTr0m5CIwVtMZ31Flpky0Jfh4ET6rOl5SDNMLbf4VA==",
+				"shasum": "20550b5e6e6e4c20b11d80dc042aacb2a250502a",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3928,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN2BCRA9TVsSAnZWagAAh2sP/jA2LM6LmcDeiR0Qh/K0\n0fothDvs8a9NmJF859pywmr49kNq5Yjk6vz+sCS4w4Bf0zEShZvrRVu9VWPu\nFIoy2YHibONebDkmXBNh4FKdBTLf5vnOfIBhUz4ewvg9M8mp+0RcUWzIPb3+\nDzpNgQEO8pIad9YUMruNwwLPtagIxmbelUlD5M1pQm6gaXgf3YyHkqXdCKOP\nriTEO90nLft6TEQtsGJ4zayQHzp1+iRwTqQid+2IIJZHC6JJJkMbiQHC7m1x\n0Pw2VCAG+c6p23ZV3ZWvPNalCVsSdWW611Z2dYzU39NV06ttB5pjx1yvizBB\nG/efDtKuQsjO49nmkHIYtUW0OqkH7ErQoLg7rf0gwwPRuUCTL/zn07sJCGjj\na0ATnq3Tm5SZbo4nEzZHLj3f3HWOwzAAHKv0VbZo9aPvpH4PyHkO6R4hdiis\nx3C21New4EzAAxfx1EZQDrS/ham0anZi/eCRiV7pCPU4xmWs1G1Z5tbki9Zx\nw28Kxrw+aSYestVFn1JK3tJt/FTIlCnL29Sdf/CnCRaZn8Z1FHir+Yg8Ap1h\nkJ6J+lW9MRE4JkgUujUhwm75n7gCU/MsvdFwGHGS9LseHUtqDeRt5K4/J1dU\njravObiky7qXlUbmhFeqZpg9oI8Oq6Fe5W2SffaDULRR2BFRbZnAIKnaBz2M\nYKxp\r\n=HH05\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.11.0_1549589888800_0.7920188182370191"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/write-log-file",
+			"version": "3.13.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/write-log-file#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/write-log-file"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^2.3.0"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RibeMnDPvlL8bFYW5C8cs4mbI3AHfQef73tnJCQ/SgrXZHehmHnsyWUiE7qDQCAo+B1RfTapvSyFF69iPj326A==",
+				"shasum": "b78d9e4cfc1349a8be64d91324c4c8199e822a26",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhq/CRA9TVsSAnZWagAAVAwP/ihJRwuhFzsmOqCZPkBc\n5ZqHjXx8KF2DGH1ax2sBDaX63hSKVuRZBjatNCBVegyG9dtqPv70xOLDokvg\n5C4celOAqjrV2pcXS3pDN5IZaobOV8oDy5Fcu6BGVTNocTetQX6NczpgS/5M\nCjem2jndeqdeGcpgDgpbBDp2kXLSxdj33S6y5cQ+8xXPdpu4Bggo/ajK+6FJ\nYt+339DY4f5DNTFS7PhvH6MXCCU4cwIZS2N0vJjQZUvU6HhYZ1m0q8+qdjGA\nYM8Q3PTBRuocfATM07iAK2QvEcjw7lSLsDyjPvEAFLrZP7RpE6NEEjQgu0VF\n7xN79qHnn5ER0HS1K8NL9VAHB4UF1AYFha9ni80NA8eYboTID8j36/XVLCar\nMMQNeei/OxHiffJpMBMwAj0DPSVdg6d2LfQ5rpPdOU7T0Zrwg3qYXp0xnbTy\nSfzLm4J3Li1OBfGDNF6I4ckR6YROR++lOsQm3i9gkwGB8brGz4gXIqXU+4Ds\nqriq6GnIwY6zgXtjZfarNw6p7WUwQFSBZTn7Ac9Bk68GA2MfJOOz+pg4Qex0\nzkv8Cng9b7Duo9cOSA4L9y5swUIPYWN9CeJDrt+uulsy+snpiC5xh4PssT5S\nfdLo31Xa4d5Ih0ZP2BMs617FxhVLMnZRTS22ShCphg4UftbkpTZUN5WvKGrG\nheVZ\r\n=kpSq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_3.13.0_1550195391014_0.40015444758032026"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/write-log-file",
+			"version": "4.0.0",
+			"description": "What lerna uses to dump logs",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/write-log-file#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "write-log-file.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/write-log-file"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2",
+				"write-file-atomic": "^3.0.3"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/write-log-file@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-XRG5BloiArpXRakcnPHmEHJp+4AtnhRtpDIHSghmXD5EichI1uD73J7FgPp30mm2pDRq3FdqB0NbwSEsJ9xFQg==",
+				"shasum": "18221a38a6a307d6b0a5844dd592ad53fa27091e",
+				"tarball": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5381,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEtCRA9TVsSAnZWagAAoIsP/0NfIH5tGw7q4Qc1Aq3p\ns4QDJdPjZeba1Mi+DjUDgcc2ZL6WSDiBW8PZfW9TX6QrUxFpyGqVDFmZSM8J\n0cb72lut7Kj0GC5RyHNPjtwgC3P25y9QzmitUWyntb5TgJdFBIAgDKeNZCRx\nRYBBK+wSJM1uYWZebnrfBJB0e5fBaRxaOHUM0JYTVkOS1Agho8duF2p1k8sU\n5f2c8+3U2Mgn5/I3rbiln3mAetZwMNDZfNS2WWo4ftV86SEBbye0K8iIO8fP\nIuRhW0HRC6BCBJKzKQZtvdzB2gN/AoxkNXItiN4GrqAhCiSGJdlrVcTAGVV2\nodmlL4/TMXDOOHUKMwG2DPe82tavU+GTJId04cimoepBRtVb3yY9iwmZMQzo\nrddB537lg+mWbiIktkV4cNKH7yw4ZZe+xKj/ODchVG6q4a6Bbk55NFzIREHY\nXKcFOnAacN7azmPi7EfPbmNzsh9gRf7h8V1UfQjpe9Hy0S9BQY6eeioi66Od\nCrlhxfmo9S7jgVO+FRtJMLvG+e9916hjYGmKbFICBxPuReu362GgGqJA/8kI\nNzh+VXbegGbS/TX7G3ORFoP2AR71Nfd0VtNfvyn5eWopO1BPbCZnSH3Embon\nj3YOqAvJHD9VuDmR2DTKfI1E0g2JBvo1/5WxDamZLtyqK3yJSt246g3GpHgu\nAMC6\r\n=umzP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/write-log-file_4.0.0_1612996909205_0.07763968380918329"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-07T02:14:41.664Z",
+		"3.0.0-beta.0": "2018-03-07T02:14:41.796Z",
+		"modified": "2021-02-10T22:42:39.657Z",
+		"3.0.0-rc.0": "2018-07-27T01:35:53.608Z",
+		"3.0.0": "2018-08-10T01:14:05.341Z",
+		"3.6.0": "2018-12-07T23:57:55.787Z",
+		"3.11.0": "2019-02-08T01:38:08.927Z",
+		"3.13.0": "2019-02-15T01:49:51.122Z",
+		"4.0.0": "2021-02-10T22:41:49.356Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a343db42e7ac114388b91b297eb84383\"",
+			"fetched": 1613881358822
+		}
+	},
+	"_distfiles": {
+		"write-log-file-3.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0-beta.0.tgz",
+			"sha": "e128fee7cd7cb218ed767598ac45c6d2db5c6c89",
+			"registry": "npmjs"
+		},
+		"write-log-file-3.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0-rc.0.tgz",
+			"sha": "c506b0024f77ee8333c5b825b4bfae2243c471ab",
+			"registry": "npmjs"
+		},
+		"write-log-file-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.0.0.tgz",
+			"sha": "2f95fee80c6821fe1ee6ccf8173d2b4079debbd2",
+			"registry": "npmjs"
+		},
+		"write-log-file-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.6.0.tgz",
+			"sha": "b8d5a7efc84fa93cbd67d724d11120343b2a849a",
+			"registry": "npmjs"
+		},
+		"write-log-file-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.11.0.tgz",
+			"sha": "20550b5e6e6e4c20b11d80dc042aacb2a250502a",
+			"registry": "npmjs"
+		},
+		"write-log-file-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-3.13.0.tgz",
+			"sha": "b78d9e4cfc1349a8be64d91324c4c8199e822a26",
+			"registry": "npmjs"
+		},
+		"write-log-file-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/write-log-file/-/write-log-file-4.0.0.tgz",
+			"sha": "18221a38a6a307d6b0a5844dd592ad53fa27091e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-9eba2782449b8e55",
+	"_id": "@lerna/write-log-file",
+	"readme": "# `@lerna/write-log-file`\n\n> What lerna uses to dump logs\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

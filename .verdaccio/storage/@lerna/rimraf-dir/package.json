@@ -1,0 +1,1434 @@
+{
+	"name": "@lerna/rimraf-dir",
+	"versions": {
+		"3.0.0-beta.2": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.2",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "ca9561a1ffe6292cceaeca30e4f7d5d85757c710",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.2",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-pikYWBHs8bS2iHvLxyjmsYaaeamrTVt44PHv7VVSdaXAamJ++eXpjGuqku6kvOvmJu/J76B+q0tS5fG/VO9Pwg==",
+				"shasum": "ba9f414bdb72965a4f809274332fab3a350e66f3",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2791
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.2_1520648905504_0.6152394492801037"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.11": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.11",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.11",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "197a09d58322e86f589ef7839c2438f830d72476",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.11",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-yVShJrDegmcKbxNhqgUAxHCNZJifnJajL1gWkNz2pa0dg8BI92FyRIrJeM3/zsxGULegqjV+xm/YZA//uC65Cw==",
+				"shasum": "9bfa3be7e3b3c945db8060efb2d6ab92cfa76009",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.11.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2933
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.11_1522287441488_0.2876233101151848"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.12": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.12",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.12",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "05dce5c0e4bca8dc894a99ed28337c85c211b37c",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.12",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-W5t5SnK2LBcntIOOUXY1sQwSoFUKuXwEsabqAugJpZHh4qtwt7NscQq8ZxVjFYX8LZvSVfj1yhKokwhBfrzMyA==",
+				"shasum": "7d622bd9de0b76adfa4d13ee955cd9b52e255f71",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.12.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3129
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.12_1522373365915_0.9827429960303102"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.13": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.13",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.13",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "4cae54bce76bf156e71a2881418104c442f97c62",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.13",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-1/s2Leq56ifFoKYQmnsZIj2sb7a2FxvgcFWlHlQr++ZRSOp8n7+o1nXMbmXl0vDeFRg9cTAlUrzfJmH1WEQ1sg==",
+				"shasum": "28bed318672d7df0444a39cb63c7fa207b3a7727",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.13.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3325
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.13_1522457841243_0.832633274629895"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.20": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.20",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.20",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "ca46d62c0db8c289f58a08bcd8447fcfb6b2f92b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.20",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-K1Gv+VJd+RgxeX+xanrsY5iRP9b2hlXCv7YB/5OqHYtjqbqPp2eWZ21yk+jotUSdbrVIsPJYMVS9agd5eMMw/Q==",
+				"shasum": "7573c6540488bbd2e27229c5278c4b6bfa9e1b5b",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.20.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3521,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8OI9CRA9TVsSAnZWagAA5V0P/1IPzlUEwck0H3ISFyrV\nE8V92RhzGxfYOBZBlKm137LEvT/vqGz0y1sNz2EcIL94lTAJa5QGl0mULYh/\nI07Pt8T2Edt1a02OYoEkm9hMZm+y4IcmfSW3qWq2mmlyMJlRuxbdoleTgJUx\nNRpqk/qpMa5hb5fIjY8exoACxC9v5aOxmmzOs99mCTlFKbjWGysjR3OK/jFS\n+uDBN3L8JFZ4sTxzOq2cIgN+PT6K3xEDZB+Q9AOElcA9m4vg9W9krvX3IC4E\n9UHSiNhtug2ki5ZYKK7RtyBq7duPzOir3IJyz9HF7dQTqUr5QICWqr32JuyM\ne5EwS/FDhoyMZfM+5dzGBV+KxVypMgNoQEH2Qzab2CrdYgqrorkA7S5NG9Ah\nS+OPocykxVcC343RZbPNXCvDtptaEeqIPvcBslBkcm/ISdEKVk9SopjOcJuU\n2c1lkwy+A+Xa3Vfu5z36ASmTK/M4dh83qoUbXOs/F7F9NkKvG6XfVy5FnyY7\n5NzFhMTS8/rtYfwDD+Wl8h5NG+8ccKoQcNEV3Iq9vvIHWD6pdxCdWY/yk9lQ\nQUwjOou+1ASCSeZFGHmtcVFsgWbZqwnUPvO7t1wL6ZgQO6Oe0PN8AzBV4oqt\nAyrIKJ2ThnEcMHs6nJazhxU6A5YCS7+VaOMKdSRkg7IUhhbin2Zw25mcEKoG\nkFl9\r\n=oaSB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.20_1525735996558_0.18988514980328364"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.21": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-beta.21",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-beta.21",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "ce5c4842e5c927beaa13779c6429a8d7c5b5a933",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-beta.21",
+			"_npmVersion": "6.0.1",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-fHluLhYnQuaCoSd/PxhVMy095vETH47iw0V0RhwbYBNdrdsMI6zQoDNr+uSzuVawGIkQku1HuNt/olmMLYf6fg==",
+				"shasum": "006b4e61e8d76e369e3749936862fb182def1dff",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.21.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3717,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa9j14CRA9TVsSAnZWagAABtcP/1TKNh/5bMl7A3waLlqw\nP7kvLky8xyofByzXbw7Jar0+6bB/3BqAn+G98M1duzgL7q+XGtymsxJ9m3PM\nwodEjYyNz/YvwUoXhyfNIicXTbHoNMulvFoBIUAb++jfcHYCRfkSU5ko/F2d\n9tl+64xPMWvPBZw/581u3zzqLSvj8t+C5e0Zs5lOdug72H8GUYryNEp7rKHo\neGMSv7cPqm07oHGACwbQCAgbxX9tX1uQHmjB1Owyyc2HkU+hZAIRS7K1oeOF\nWNIThlS4waLn6q4L2Q1HUQKJV/+hbOuvywMnJeNC4p5A1UkGPJ0CcX4MqEKX\nb9wEQI+lDfGTxv6+jkPQw3UgGbyfMK6HH3dGoSLAQHcXb2Q8eAdk8Yu/trO0\nOlVhETXnOMr7RY4dFYhFUXcMwHEbbZpM7EuIqSVWDFpyTxB1llRUSTVlUFYd\n8D1QlyaJOwKGzggLoGecYxhto/lj1jCX6LzWlrK36doUASouD5XR7M700BAz\nI/elWYiPwx7ldZ5sgKOT7MBNLblxaJ1lFFTdWyWy6l1+RKH8jN4Gq5RDrj+C\n2ndVk8peZaQwI+MxB7LiIR4LF4AL9F1Jspjjb5T4Rkgiwplo0Y/vKzDfXpL7\nn3Fh3fAtkmA058mr74atOgPZlKULUw9ILM9mOHmfPtNY1Op3JZGv+3ycN9qz\nYJ5R\r\n=MAOv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-beta.21_1526087032495_0.785436668166136"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-rc.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0-rc.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0-rc.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "1ab24c152d3ff5c2b9453bcaafeb4b5e432b2410",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0-rc.0",
+			"_npmVersion": "6.3.0-next.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aFPX1hMOBL+5AU5xI9SZ2xKTAlnk93+tIw1ZJGWMMc4dzxNs/sT3WeUUH4v1TOYzMqWM3AnLQza3O4OY/xb2hg==",
+				"shasum": "9942a5fbb084dea251ac9fda98ea242b7672126b",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-rc.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4997,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWncUCRA9TVsSAnZWagAAqsMQAKMhIopERAu91UaY63FG\nlE0UjnLB70JPThNlGyNUFArwYmw4ZbxjU2oD/6pfmGWnHqaG/F8T+ahaUrcA\nS6ATeMEBggasIZl5exkyw/C0FAgrOW+uTsp6T2lOp64ru/798CiB4FUn3tXk\nO1p1pQS+dufRc8XzegCGwkpIAK3BKqK/XsitjZP0ef/HXARq8fsUnOW4hxzo\n+EApmRea6LWSmbV/i4JzcCYcxQ5J7TvCWt99qL70oB5eKFitCXcOXhwfMVdi\nJh51OJyx8VUK/8brCucKmwDwseyYCdM3R5njxadqR95R3n66EZtbeRzH5XEu\nmYnXOP3rKIWnMX5TfA0zODzUieMil2hGthRYgWvMi3/RIyU9IMvwrMKluzA4\n27QycsUxag0MCKbWpVJWKbZdG4SP1XGTD0trDkGFuwtmHWCDkxxPM//7ZS1r\n5JNmCI7P3NHucyOGuqQ561sYugcTvgX5EnP3Be8w1pqBlic9hVNWAIerYeJZ\nUKOc/TC+j+OVtkgleFppuxfaQPEdpY8WNetDW2lC2zQN3j6gHhTBW+VPlbl/\nxcNAmvKxkVht1rGd3wyxbcocjrMM1geP+YyppQIGMsDAmsraKWRUg56UGgKa\nINyqMdKaPI2DzpcDz2zdLXJiFjkz0J2v2SkddwXVbyuw19yAEqEqMOrL1G+A\nODXk\r\n=bSFe\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0-rc.0_1532655380303_0.4212964361378999"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.0.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"rimraf-dir.js"
+			],
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.0.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-rimraf-dir-3.0.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-epvh/RGWSOYdrNgrizMcRq9VyCHkeY0LpIE4074r4ouKdYNhBT0LlpT0yMLvQgQKJkKRlqcfhJHvZeGHhXQyGg==",
+				"shasum": "6d3a4872e79f86c152630454ecd27f211125bad0",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5156,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbOcDCRA9TVsSAnZWagAAM4QP/jwYpBcDDJj1MQsk05ze\nhEdgH+fUtllfzwb0YwVxGwdcr6kLgtK79LjLOtZMlTdOtQwpSGybDjeKY2tC\n2Rt2SS7OjubtUeLpsIbrZitIR2pWzhTNZmuH1ot/Wwzii4AxYtmzT/dOEsF2\njKlK03uTeKh2xo6WJA/uNLBvKuer/IUqDd1bz4qFdNlBbZcUbMi/dqQbRZcv\nCQaIF+V3OfrUh9FmvbmZCzfSYOt0IQA6J/k/UyKMqA+tkic8qsbi+T8fjngs\nZoPB0ltkugPz4GDIp7CLXFi8IcYyzAeer4Kp2ZeXlBKOTleCQ/CZ6R2UPawg\nb4ZqzFh6TsApe/Id8GmfTb9nZ6+RPOkOKLFfTuM2UU3Ald1OmvBCDgjWTTVZ\ntG1VwM7nPyNAvMWePYnMRxMm8rRzXFim0Vgz4T9v2SsU24etcIeh2XQ1VWbh\nuwHdUeGp6RRoqaYUhSMfk+Pp9PmRkwdBrMEepZXMXE3JS2OLdwcSHSTuuoVI\nyDNl/+FUkFphRXKAMEHyvUviYIV3rH8udOjOE/adUC91KtytRCPWTgc/WTRI\nc9OvwoKmm4fEuY38KcSAQAMzO99sPfxfTbOvpEKBRDOo3wKcfey4g52Z56M5\n++ud6b0B++UzCrDpoRLC/Ow1LXEeM32Cw81RV9By52z3SAQyVIqGzRp4Ob/L\ny/O0\r\n=JTO1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.0.0_1533863682655_0.6993053939300649"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.3.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.3.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "901e6d54a47151dfed3d6ed2912804b97d05c6b5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-rimraf-dir-3.3.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-vSqOcZ4kZduiSprbt+y40qziyN3VKYh+ygiCdnbBbsaxpdKB6CfrSMUtrLhVFrqUfBHIZRzHIzgjTdtQex1KLw==",
+				"shasum": "687e9bb3668a9e540e281302a52d9a573860f5db",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5304,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkIPICRA9TVsSAnZWagAA8REP+QBbM6wOfqX8Sg8nJ+lq\nWS1lsSe6uxQ4fYE9clE6Sv6UQGxbApsRnV4+WXmJrKeYQsgKGmJwMIbGsS4D\nO71UK7v9MYgxWTm58fgvWZy5FcUsX8v6OaT/9OGop6C3i7GBxF6Qv2I9Lfxa\nd535xUQ3HduyL45tV0M3Pw/qs+VoTmLtoSVLyI5n+ydRpLrEQlycaeN7EiS8\nC9GbW1T4tNMKTfh1z5xRMgKcRKnFlF28GlkXwVet2Z4pEmqPN0UF83gvwgRd\n3uHCbhhmhSvpBAbdj+Zi/TaPwdWJlUDW0cGs0p+rssmR6s0j/5vqSwGXJrm3\nkq7drr0sAVvGGyH15WZMXRK9pghk/NFJ3NcPy6Kp5ObdZsj0De+pPHD5lS+d\nP7xYdldAKmdv5aSrmf/5csFGFTjqKyU1H8XPyuphsH6tvqW8gV8saanVGuiS\nlVL8EV1UV+bCqL5zNoyhMnVbylkHYbGHF5B7+nUaBX9xLvVil7UGIf8JZhpk\nqARCXNMxT8quw64M6a4QKREk3gPx3+LcuaXFH6uhRTcL8mYYwpwFSSUDKP+4\n6IXQ/9x3bz4WqJIQyJRaQlJQWQXJZrrymRlpLO1qE1bfDD0l5nEE2ohoMWQ0\nNUE1Ko+tlMkgHUT7AlBDnfUxa3h6XQDZQ6FysP13CiYEXoBsR3N6w1hICKul\nCm9j\r\n=O0P5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.3.0_1536197576318_0.5898328179615953"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.6.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "^3.3.0",
+				"libnpm": "^2.0.1",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-rimraf-dir-3.6.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2CfyWP1lqxDET+SfwGlLUfgqGF4vz9TYDrmb7Zi//g7IFCo899uU2vWOrEcdWTgbKE3Qgwwfk9c008w5MWUhog==",
+				"shasum": "a02c4ad14d9a65c005021da79d545702b7085a74",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.6.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5562,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwkCCRA9TVsSAnZWagAAnQIP/3d8wy4XHyZAH0cg2akM\n7IKWZCG+f6stz1cdLRKl7DNkEAOvm9yOdOAVISjpLSDAieNIf8lLhZMm/L8J\nsWWWl2ZlYTxSDcn2iyvk2WepKlHzWJ68k1htflVCZeZBsrFjjjvZYHW9GR5x\nRCgMJ2LbT9i5f6WVQZhGv5oaXOYj/LwHLor1nbfrDvoF1csoytQFZ6jcS6CC\nLE9ZdTScJ6WLT/mRRQwTunfObqoGgEiJqH+AjBSbrQMIUke6kyD80CQly588\n6IuzXXLby9les5xFH9QmiyjMwwFu6PcUOAKGVRBkrd8NjfV/a6d7HOC0PXdC\nqGYDX4IcP1K8WoWgxORBpz3z0DiRiwpJoiT5+bJv+6/pX3N7NhTzsH3I33n7\nZAxdBbtYpKF929L1PRISQs2l/KtVueh9P2wrQgd8jgEzbB7NJael8uJRyy/i\nIgt67u9Wrk0yafhXNECVdVyxrgMZ+Vcclr8GH2GabPkeeqW/Kl0OpQqGKyhj\na6tYkefMw7jy6kazpsSLkaqbLE9gr7cQrL1sv3AzgwiDi1W8NzHN9LFvGcxD\nZZTdZPRrlUEZu9kiCqyCKYOUbxKD11uK2caDKhVzBuwGOiJ9KR1XgxsBU5iI\nZ9qrIH1RQicagHqQvcpIWAqAT+u0KwR6WJrm23nP/nIIZofyhWfWUUDEuFIR\nNG7/\r\n=4OF5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.6.0_1544227073525_0.2167228918427464"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.10.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.10.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.3.0",
+				"libnpm": "^2.0.1",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.10.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.10.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RSKSfxPURc58ERCD/PuzorR86lWEvIWNclXYGvIYM76yNGrWiDF44pGHQvB4J+Lxa5M+52ZtZC/eOC7A7YCH4g==",
+				"shasum": "2d9435054ab7bbc5519db0a2654c5d8cacd27f98",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.10.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5707,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNSCBCRA9TVsSAnZWagAAl50P/0C4eTbSQVqIlma0QAEb\nowYn0tUlbSSiVSVYAr8ywv7a+TYH7zy0id4ind8HlEylj6qh518fnd7tXcB3\nm1pgHeWMNBJ7IrttjOhIuMHgBvV1rSf17lGaTySZlAlIKGnQ/vZhPkvU6nh2\nOOpahG2N6ZIZZNlheS6WNmTn6j9ZGef7IlzbqiauenetU8FwvUmiiSMj7MUd\nM2Gr++/1JcIT9Fo4erl7plSOk8jDdR4hDjWAum891a09t88lybWIPK/efkFv\nltz1RcZLJcCl7u1UeBTsTFbhmY/kXKMK2SibS4rldz+fTkL6PeTDvM8aEHzJ\nAI8l/wJMJdFemWULrNsE9pJlS6UZXqHbPqldapMSR2u0bWC1hLVKJeTsLee3\nKnNv+AjQWSgnwL2p7JARvZzJoTNnj1TmB7j/M09DYLHCuECgzyiCAufmlCvw\n9TkE83MuPMX3OsT/laByzp5qzXSmaFEkCumLvlFdHLIpVBcP6zxwe+epk5qB\nWOcBjm3rvNRSg5eU+L3A98Ysc2Zg0KnKkrInbQT+1Oi74lvLiJ74Q3xVsBl8\nKpVnFaRBbvjTi9dg91XC3ldCf47jHIBbwHK5uYr4MuOGhIg8UPVH79oBmtK2\ntgwc4oXyOOtd4teqYVtDdvH/BTQpPihHOA+gFPMyGN+KWGhq5buIBcP8Uwss\nc4sB\r\n=6k04\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.10.0_1546985600507_0.6839100370316031"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.11.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.3.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-roy4lKel7BMNLfFvyzK0HI251mgI9EwbpOccR2Waz0V22d0gaqLKzfVrzovat9dVHXrKNxAhJ5iKkKeT93IunQ==",
+				"shasum": "98e6a41b2a7bfe83693d9594347cb3dbed2aebdc",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6027,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN1/CRA9TVsSAnZWagAASAQP/1nMYXUX/JYNpx9k3T++\nBCvS88yDUmUGO5nrdp9CkCDMGLWG3q4neXUBVQLNsC72KtqMufNN5mD+h2j8\n1+ZdDrBfmb7yTj5FRYWlyjng6GcWvBFFFRFnZ2CuUL0j5j6tvwtOJS4fIFYZ\nLazATW0Cgosjnw0nmSf2OFk9lguz1muBHnj8GS2V5s/fNvAhThiLS0sVr9eH\nO6ZnqpPey7Le0gnPrb31NvtewvmFam13gd+1GTV6OlTkGkMDglt545EBJiyf\nOc0hNhph2CVxCm9VTJCJBkgvkJgfXqTgURmdzpHjk1xj/MdGeYhbX3RNYM2+\nKepePm9xxdXT4txTPbi3rH7u5IscluGk8CH4fdnbrozMCujmP4od4xLZdN26\n8YB/t8b/XpwWxCjwKho0WZTVNlOillq+kjdKlnHE1VMwy65qAuli42PyYvDa\nwbLRDiMSDEtrUEuSmYaEP0pzmMhN3Gjhv4r7ZrRd5zPIJ4+ulH2H3KEFbV7f\nUjvMOM6eQwSf2/C/XEpyZDBUqo6GTdC/RNgyveX1eEqqSw+f3ucp0f/KrKtZ\na3i9j7oxkL6FO8e326jQpnl/x0Vu6rRnYtvVDDLmrzC3UQcUBtod57vh99Ru\n0yYxtfvSJNw5Ym5Embp3gzUWZQpla7uQHjwWhD5MVyT2EhVm78x43xqFars2\nfCYf\r\n=CwcQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.11.0_1549589887342_0.9752995636216584"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.13.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/rimraf-dir#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/rimraf-dir"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-kte+pMemulre8cmPqljxIYjCmdLByz8DgHBHXB49kz2EiPf8JJ+hJFt0PzEubEyJZ2YE2EVAx5Tv5+NfGNUQyQ==",
+				"shasum": "bb1006104b4aabcb6985624273254648f872b278",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6520,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhrFCRA9TVsSAnZWagAAuoEP/0q54dBniTOjocuik7Pn\nMP0LCMUmi75mvr6ZBcL9Em7ChQxyi7aS6UcAattBk5+sDNf5Bjx2uRcjXWcH\nEy2p8RtDSS/udwFmewjSykrStPQM9gxxNe8WnV2laTMTTF6E7w9Fls/bUsLy\n6VzyfUWyBF3VfEQIu97B1+tjMnULQTKWZ2JrfvdOMsdVl/5cNv644dFVQCmL\nj5n8g4t3pv6LovjYA774yTF9NTKhcAFBsiwjHWcG4fYcEOBR+uXVW5LpudBZ\n1dvlTaSDVwj/WhPU+CiWpAGsiE5GLLH33QKF6wCurknoZkbDlsMZWesHESCU\n3IKkpHgALSckR9aVEKR9zeU7RQcjbXLZyRsnQb4JiOUmLQm2dqDiosV02JQn\nNBEIEjSfLyJT1tY9PMzGXqrlOKJJiJOaeeEeL8M1cG1BIbQmOl9+Xw73cCPX\n9GuTqjUvPApJ1vcn4Xzd+VD9vKAzQogc+SKt+FKqLtCrEqkY9f3V3T+3EZc3\nRacUwmSeTEtT0sURYbx++CS4UQK0tapFe38Nv5YpSarzaxO0RMSzMcQTF8La\nJqVjiv0C5YcIjnPCGHR84ll0FytGWQgNhiqsyf6+QeEhlTqmy9iQGgX5LKCR\nloEhwrO0msx2xrYHNg/SIW7+7MKeCt3LbyUckm+Ruh8Ooe4QEw8kS5P16Vb9\nIe7x\r\n=o/Xf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.13.0_1550195397080_0.9900628680381369"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.3": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.13.3",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/rimraf-dir#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/rimraf-dir"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.13.3",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "1496beb6278b001074d970bdd5869bb1f958d998",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.13.3",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.13.3/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-d0T1Hxwu3gpYVv73ytSL+/Oy8JitsmvOYUR5ouRSABsmqS7ZZCh5t6FgVDDGVXeuhbw82+vuny1Og6Q0k4ilqw==",
+				"shasum": "3a8e71317fde853893ef0262bc9bba6a180b7227",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.13.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6667,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctnnLCRA9TVsSAnZWagAAVpEP/0ytE4HAlZA7iwEEo1xv\njcILddLnLSx0CYIhLqpWiFHJ2x++AygjxXcnh5YKNn7NvgbkBnkKjRMnqXTr\nX1NpACz7JFvrMGdYLpCNOCNo4DGyZI2dv5WdPqNjCx/Q23UmWa/JdbUrK7O7\nBXPC/xZPp09uuII+vJhqh2WKefXyjK4W5TJFsoqPazqRnC0cmaNSEZBvwntM\n8iiAJFAtl2h0eartuTDxr65/LuOccamoTXVxjN5fEb4mK20HazE8O75id9ct\nSfu6EGnZF1AM7GQwaVEbcCUQJsdU+bm2xk6yO62o8J0SeVz0Ge68AwsYICYD\ny+ShS1fWS9dxuWUQ80DQ2tTvx6jqweb65gi6a3CbtwuLZKV+UbY7PXSaFvfC\nzLzX+k4cquDP36pzSQ8db0l7WtIPULStVIL1wdsGBK3Cr7+Pqc7J8aS4cJmJ\nSRmOLPPvDWrkw6j7N1UOyUBDqYYBMJfaM5ZjRbvx3oNTYJKZlC4xQuUcLSJ1\n5UzVgwh04kdtmTev3+A7iX9IzCvJzgxlCsCBwKdlYgAoAFk+BEnjk4tmL6WZ\n3apHwJW93rGfxOx5Iw/SiPURZMtP51BcsrNu1J4HiG+tq1WPPYn78gjHeJPF\nVcD3sVN8vIkyqL0nXgMDGrHLBknt4THIBs6JfheK2OLLCdbS6Kpe2Z1cEP6R\nNKZt\r\n=Fbhc\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.13.3_1555462602726_0.6524925687618062"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.2": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.14.2",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/rimraf-dir#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/rimraf-dir"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.14.2",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-eFNkZsy44Bu9v1Hrj5Zk6omzg8O9h/7W6QYK1TTUHeyrjTEwytaNQlqF0lrTLmEvq55sviV42NC/8P3M2cvq8Q==",
+				"shasum": "103a49882abd85d42285d05cc76869b89f21ffd2",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.14.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6814,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkaCRA9TVsSAnZWagAAOlEQAJZRajdh6OnbsELJrHpx\n7YPcqDKXchxEnohlszRgyPPJeeiMmG1i5QnEvf5dC5gXj8ssz3yzDNRavFkE\nbXATZv6Q3KSWXiFyZviPak69Fevj/aMtWHOVpKIPiysz/UAd9EuxsnJX8gVS\n6fLBnSHXyBpP+1kqAwfQXzLCyxA4mzwr+XpEWHK1gfo3z7JsX9FeyLW1loX3\n3xooIZj8djAnFzkS1XTZA5J1wUP5ebzzX2EsUrbPO7k0XWVQsEMvq0V0yPYU\nCKDmlrqgcRoBhQkhqvlF6Vw13mN5VdUBvw4VdSHhMttAuIXkGKztvq++++ty\nVIRfqUTB2AgsjajtFTwPWgHdG6yoJhsfsLGeMMHPhj/73GxIZuOzXqckMQln\nYIbSRhL0svVHNst2JZkHSDckp2Dtspn+Z9Haf/evFPurmuQbP/X4SNXYwN+s\nyMVnZKFf27Sl3GZOfFW0flUjRqGbgMdnC7ix3A+ZSejYv1bQkndjO1TdhdQ4\n5pJckSA5XWw8SWYQ8+otiDTHh/txc058BbaNnGZM8E2ZVF1z2zzBuz1/ZLHZ\nfQr4rnahFvxNNAiv7L1XQSFUHzQMftbQjK4VcEQcgWO+Rs3d4BjzctAR697x\nkxh/2pSJA2Jvx/5YGv8wbDSKYXdMoWzu9NkwbQf7CZ4dqfAiX67LTLF3fnO4\ncNmj\r\n=z3VL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.14.2_1560119578291_0.9332919168057012"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.5": {
+			"name": "@lerna/rimraf-dir",
+			"version": "3.16.5",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/rimraf-dir#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/rimraf-dir"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "3.16.5",
+				"npmlog": "^4.1.2",
+				"path-exists": "^3.0.0",
+				"rimraf": "^2.6.2"
+			},
+			"gitHead": "f0574092a2db90142b3a27ec1a4941cddbdcdf62",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@3.16.5",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.4/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-bQlKmO0pXUsXoF8lOLknhyQjOZsCc0bosQDoX4lujBXSWxHVTg1VxURtWf2lUjz/ACsJVDfvHZbDm8kyBk5okA==",
+				"shasum": "04316ab5ffd2909657aaf388ea502cb8c2f20a09",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.16.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6961,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdm8IFCRA9TVsSAnZWagAATXIP/0aJPz1rpyTJKXzIIk5q\nGMAhV/OrAVHT8GBB6hqOj2XkERHAWtVVJSpX0wenkOsv/YvrH9FFU5Y40Trh\nvtqcUPNGfn3dFIj5mrckIfESviS1z4oRd09PhxHb+3rqXFqI1N0mLdcZBb3L\n5O/ueUAV7vcMl+3x9Pwpw2IMtv+UfUIsX61Q556cowoYlYY5vlf9tx+xuL+d\nM2WwpJJHhJya87z3jTklKMASQJEuQR/zLImV2eVJBjilvUyqu+wQgC//UPox\n1TFES+YGqlMBpWpo3ZdfzLaO9g/6pj8vRQBuXy4hqPaTYDflWdLq5mozQDSu\nD7loJ9IevZBbYzusn2mIVaCa5x8YH19Qbqwxm/VvUyZstmTFOcsHLM2FHG0p\nFf4LkNQA7ykNKHOtlpNqKtcBkc1k0X+b0OrjMs9YnoLH7JfdPzmjMIcV6xsR\n2ymJDWNUASXmaBKwqvU9Y3k+coobVduMtYeD1Jfq4kTRlyd1Fwpt0SCHRhEZ\nu6PtBAso8/LA3C6aFnl+ude7qUewp5xVvSkRESnYkgFBEcekcZ+STb58ycEs\n6wl0fhGv1eaRaWSmFwspjKew+uYDnYUpICdMJCc1xShHXYHY8HEwqRyCxcCM\nZvurkk8jUgFTNbIR9yyj8jDfDDppFJaRin9euT0XCApIbT40BfS93ELgsJR5\n/dUU\r\n=CcLT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_3.16.5_1570488836320_0.170361773796593"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/rimraf-dir",
+			"version": "4.0.0",
+			"description": "Run rimraf on a directory in a subprocess to hack around slowness",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/rimraf-dir#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "rimraf-dir.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/rimraf-dir"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/child-process": "4.0.0",
+				"npmlog": "^4.1.2",
+				"path-exists": "^4.0.0",
+				"rimraf": "^3.0.2"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/rimraf-dir@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-QNH9ABWk9mcMJh2/muD9iYWBk1oQd40y6oH+f3wwmVGKYU5YJD//+zMiBI13jxZRtwBx0vmBZzkBkK1dR11cBg==",
+				"shasum": "2edf3b62d4eb0ef4e44e430f5844667d551ec25a",
+				"tarball": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8224,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEwCRA9TVsSAnZWagAAevwP+QEKAl2npoPNYXAPQ5Xy\nkuU9v6k44vbqbtndvmShkGWIvuD7PsuA0XLmL0A40KqLaNXORsn0T2RivLqM\nnwqH749+2uSfEUmN3M2qwnbrwqytjOUqLDpzj5UOpqer+SMaawXfVrCJLeDb\ng8lksXXCtVBcu7yzcH68OFbrGVXVWNhnq41kTs+rG/bXyYKEp2KYgbLWhwNQ\nI2Juz9nunpXzR4R3ultV9NSUn8G69xPLo/HjecrFMRtqNLvId0TgQ2EvrDi2\niLAUIcr3LtQwrRJDZ8n7+4l/piE9xGY0ZuOpAkatxbneLFWelAmZJ5BXG6qZ\nKtGelZtUfSR7/7fK9chjnAuDj9M3P9dH5clC1isafmn1l2m/fx5woiHeUiiA\nbFK5Z7BIxkjKpTijvuR7QywcAbnXuO8CeZBpYG/VrZlCUuH3iinLHpQu/r+Q\nNwEXlnLXkwZJB6r6QJQj/dlq/8dDFnD0XBmyZ7kkgBw4eU+kVt4D2zJJ0ZJI\nga6zx4F0lGAseiUpqvrB6zNOYEGdiYqy+WRQxOOlK1Z/l4IDmBTYfSp/Sqes\n5Y/g9z08qL2u51mzARIdT8RiT7em/vguUqbTq5wgyqEfYymjJfSCeiB8xqJA\nd3+u1ufH+vXqO20bUdCGfsgtYgdqZjKW5/U2aoFuubq0+b/KLDSpYn+SgwRg\nE2/z\r\n=l+th\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rimraf-dir_4.0.0_1612996911873_0.8124516474840018"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-10T02:28:25.414Z",
+		"3.0.0-beta.2": "2018-03-10T02:28:25.559Z",
+		"modified": "2021-02-10T22:42:40.254Z",
+		"3.0.0-beta.11": "2018-03-29T01:37:21.672Z",
+		"3.0.0-beta.12": "2018-03-30T01:29:25.954Z",
+		"3.0.0-beta.13": "2018-03-31T00:57:21.516Z",
+		"3.0.0-beta.20": "2018-05-07T23:33:16.669Z",
+		"3.0.0-beta.21": "2018-05-12T01:03:52.568Z",
+		"3.0.0-rc.0": "2018-07-27T01:36:20.380Z",
+		"3.0.0": "2018-08-10T01:14:42.720Z",
+		"3.3.0": "2018-09-06T01:32:56.461Z",
+		"3.6.0": "2018-12-07T23:57:53.614Z",
+		"3.10.0": "2019-01-08T22:13:20.759Z",
+		"3.11.0": "2019-02-08T01:38:07.471Z",
+		"3.13.0": "2019-02-15T01:49:57.269Z",
+		"3.13.3": "2019-04-17T00:56:42.860Z",
+		"3.14.2": "2019-06-09T22:32:58.385Z",
+		"3.16.5": "2019-10-07T22:53:56.566Z",
+		"4.0.0": "2021-02-10T22:41:52.036Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9a4eab5eab8029a1d061fe9163e62523\"",
+			"fetched": 1613881352619
+		}
+	},
+	"_distfiles": {
+		"rimraf-dir-3.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.2.tgz",
+			"sha": "ba9f414bdb72965a4f809274332fab3a350e66f3",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-beta.11.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.11.tgz",
+			"sha": "9bfa3be7e3b3c945db8060efb2d6ab92cfa76009",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-beta.12.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.12.tgz",
+			"sha": "7d622bd9de0b76adfa4d13ee955cd9b52e255f71",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-beta.13.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.13.tgz",
+			"sha": "28bed318672d7df0444a39cb63c7fa207b3a7727",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-beta.20.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.20.tgz",
+			"sha": "7573c6540488bbd2e27229c5278c4b6bfa9e1b5b",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-beta.21.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-beta.21.tgz",
+			"sha": "006b4e61e8d76e369e3749936862fb182def1dff",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0-rc.0.tgz",
+			"sha": "9942a5fbb084dea251ac9fda98ea242b7672126b",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.0.0.tgz",
+			"sha": "6d3a4872e79f86c152630454ecd27f211125bad0",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.3.0.tgz",
+			"sha": "687e9bb3668a9e540e281302a52d9a573860f5db",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.6.0.tgz",
+			"sha": "a02c4ad14d9a65c005021da79d545702b7085a74",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.10.0.tgz",
+			"sha": "2d9435054ab7bbc5519db0a2654c5d8cacd27f98",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.11.0.tgz",
+			"sha": "98e6a41b2a7bfe83693d9594347cb3dbed2aebdc",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.13.0.tgz",
+			"sha": "bb1006104b4aabcb6985624273254648f872b278",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.13.3.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.13.3.tgz",
+			"sha": "3a8e71317fde853893ef0262bc9bba6a180b7227",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.14.2.tgz",
+			"sha": "103a49882abd85d42285d05cc76869b89f21ffd2",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-3.16.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-3.16.5.tgz",
+			"sha": "04316ab5ffd2909657aaf388ea502cb8c2f20a09",
+			"registry": "npmjs"
+		},
+		"rimraf-dir-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/rimraf-dir/-/rimraf-dir-4.0.0.tgz",
+			"sha": "2edf3b62d4eb0ef4e44e430f5844667d551ec25a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-7a512206fe803039",
+	"_id": "@lerna/rimraf-dir",
+	"readme": "# `@lerna/rimraf-dir`\n\n> Run rimraf on a directory in a subprocess to hack around slowness\n\n## Usage\n\n```js\nconst { rimrafDir } = require(\"@lerna/rimraf-dir\");\n\nrimrafDir(\"/path/to/directory\").then(removedDir => {\n  console.log(\"removed\", removedDir);\n});\n```\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

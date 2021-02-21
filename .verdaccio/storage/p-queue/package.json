@@ -1,0 +1,3615 @@
+{
+	"name": "p-queue",
+	"versions": {
+		"0.0.0": {
+			"name": "p-queue",
+			"version": "0.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "cfa39538a413c1793b41fe71a317eb388394d44a",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@0.0.0",
+			"_shasum": "33466a005bf9110c108578889b8fcfdde92d65eb",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "33466a005bf9110c108578889b8fcfdde92d65eb",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/p-queue-0.0.0.tgz_1477652263592_0.18456169962882996"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "p-queue",
+			"version": "0.1.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "e02801b4a59fa9029d2f4f4d613fb9d78011e40b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@0.1.0",
+			"_shasum": "6d57ccc409bd6370dd0a251be0713a7f62ecc581",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "6d57ccc409bd6370dd0a251be0713a7f62ecc581",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/p-queue-0.1.0.tgz_1477993091237_0.7105197478085756"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "p-queue",
+			"version": "0.2.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "1bc5f3659d3e39626e32c3a87c23e635273cfc59",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@0.2.0",
+			"_shasum": "10286f06123e102ff422c1a8142e0822ed283dbd",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "10286f06123e102ff422c1a8142e0822ed283dbd",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-0.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/p-queue-0.2.0.tgz_1479360481244_0.5350546715781093"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "p-queue",
+			"version": "1.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "a3a5cadefc2b54269f4939bb34e8dc180c3bd800",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@1.0.0",
+			"_shasum": "698cde72cc9f57aa3bc7d30ad8019cd736aaed3e",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.6.2",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "698cde72cc9f57aa3bc7d30ad8019cd736aaed3e",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/p-queue-1.0.0.tgz_1484301805809_0.023138268617913127"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "p-queue",
+			"version": "1.1.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "0202f4b06d87b0e4a8daffd019f4953054c4e699",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@1.1.0",
+			"_shasum": "c4246f170782f48d49557ee6634658f6b1dacc5f",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "floatdrop",
+				"email": "floatdrop@gmail.com"
+			},
+			"dist": {
+				"shasum": "c4246f170782f48d49557ee6634658f6b1dacc5f",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-1.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-1.1.0.tgz_1498797661636_0.056628481252118945"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "p-queue",
+			"version": "1.2.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^1.3.1",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^1.0.0",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "82151dbc7e2dc8cf3683fe31469da45c89128f8c",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@1.2.0",
+			"_shasum": "639cb8b07270c15b71d7a6446a8e30414f3c96d1",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.0",
+			"_npmUser": {
+				"name": "floatdrop",
+				"email": "floatdrop@gmail.com"
+			},
+			"dist": {
+				"shasum": "639cb8b07270c15b71d7a6446a8e30414f3c96d1",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-1.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-1.2.0.tgz_1503925050251_0.746532928198576"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "p-queue",
+			"version": "2.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "842066b38e2b708a1813a4f5b743ca7a2996980b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.0.0",
+			"_shasum": "6056de72e382f657fd3ae601c34a41cfb3513cb9",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.0",
+			"_npmUser": {
+				"name": "floatdrop",
+				"email": "floatdrop@gmail.com"
+			},
+			"dist": {
+				"shasum": "6056de72e382f657fd3ae601c34a41cfb3513cb9",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-2.0.0.tgz_1504002526365_0.24043001676909626"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "p-queue",
+			"version": "2.1.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "2663beef31458e09733b1ebf76d94aa581bc0b54",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.1.0",
+			"_shasum": "bdffcdb4ae3d7268f0dba541a93d3644e3b3f67c",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.0",
+			"_npmUser": {
+				"name": "floatdrop",
+				"email": "floatdrop@gmail.com"
+			},
+			"dist": {
+				"shasum": "bdffcdb4ae3d7268f0dba541a93d3644e3b3f67c",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-2.1.0.tgz_1504026683046_0.45151484198868275"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "p-queue",
+			"version": "2.2.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "24d7d84b785115027bdc8a10afdc24b06938cb86",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.2.0",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-91EJ9kZK3/LzOP38ZD56jo5JfF7ISX4NuCYQGZZkZcE4lHwUxmwSjbQ609HwDVUXAWYo+5x4jQDBnePmiwKBzg==",
+				"shasum": "68de0ab1e73d9430760ecd99230c2d7d6deeaf94",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-2.2.0.tgz_1505188839125_0.7799061988480389"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "p-queue",
+			"version": "2.3.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "6f8bb90b8713670ba8dc108928a837e8b6bc0701",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.3.0",
+			"_shasum": "65d55e71bc1500fc413122da98ae457ff8a7c038",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.8.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "65d55e71bc1500fc413122da98ae457ff8a7c038",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.3.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue-2.3.0.tgz_1511554338674_0.40721537987701595"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.1": {
+			"name": "p-queue",
+			"version": "2.3.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "9cde50e9f13d7e5ecf63eb090e02a673b972943b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.3.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-MJGD2eVNHhtCsGLBDsfNzhBDlWxBFb5BvVXhJFbmlXH76Llo792ylwqEYJguLo+BnxZpos/Qw9dq0voyQRD3pg==",
+				"shasum": "672c54d190d99bb63fff4dbd0db26380a3602f59",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.3.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10841
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_2.3.1_1520352817268_0.882898247657075"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.4.0": {
+			"name": "p-queue",
+			"version": "2.4.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "9d580c51c842878463a2e39e9c26412cc9a9a4ce",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.4.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ZXisZuQjnDcRd4/Np7lNrE2f3qq2Cy8Ikg8T2gbLjQZbRnSVqOr9cQUMbyVJJuIDUJYWMOZ+Q/5fJbYJtMbZ2A==",
+				"shasum": "6a64eee8923abac7d7daa3c23f284abb3c0ca5aa",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10890
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_2.4.0_1522821407653_0.7878866589331854"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.4.1": {
+			"name": "p-queue",
+			"version": "2.4.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "7d75f388b0507952dba8966e534b4803a28ce408",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.4.1",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xqevcHZy5F9ewg/pnox4S1gFo+9wbLuo+XRMIpdreSaB7d2hAm4JNDuDauOKtHvSmFiS00gTSQoYNbo8rbLoBA==",
+				"shasum": "f8e1f989a8ab09e8efe0ca442acf9f859b03d702",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10973,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa2sOvCRA9TVsSAnZWagAA/wEP/3MojKbPQya90utuyBYe\nAa8RPnfOelFI+J/JSq6joM+l6UB0g5g/oUBlsKWy2Ykl27eMEWYRlO6kHqA6\nlO9CZ6jXh5gYFyt0I8kHOL+3doZD0eCJwt2Oz/zywIGSIXo4CT6On6oW3Say\nhUSdgu0TaajQIy3JWPPEb9t+OfgVVPbswOKxLL/zrsBPpApCh3e8jbVFyUnV\nOoNmA6XUXkpGG7zz9xKGA3dzqLBizvb+j5y3XdaYNn0dT6MhmFRvUyej9xoB\nnYkJ8k2nxS6tbSll5Vz2iAMevIBpfme7XK77y9HAiFBECLUorYcT02U8l2rc\n6UOcSp0l/32/4TSsPukRtFguyshJ6WYHvSJX7dyFoHuow8IEYUIBPzBg5YdF\n5s0fULCSXFvBKNnd5OVuW9tvcvfikIfM8mlpP+7O5i1pyNYq/OsrYPTPUy6v\n4ElNDbwjeFSoo1otAOFM3K2kYm2NMH9kmfjgN1gzGb5v97S1mN1H8xlNWchB\nBk3RNtbwsuYq0FZx4mnPwomf8NOiyfG8MZqaMYjA/HmQHfd4NpPr1RktPJiu\n86xOtY3wwjEljAjAYtgqnUIDxZ3r1FEvURMBxbk5FrJXTKcE0BpPqZNeQmdi\nSUW28VoKVObpXiBrLi5IOyWfyYbvlSXEPLKr0nYUvPJATlUPPjRd7rekYnTN\nNOuJ\r\n=Is+6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_2.4.1_1524286382266_0.9230896870804559"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.4.2": {
+			"name": "p-queue",
+			"version": "2.4.2",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"benchmark": "^2.1.2",
+				"delay": "^2.0.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "*"
+			},
+			"gitHead": "a202b25d3e2f8d0472f85d501f7f558a7fa89b56",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@2.4.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-n8/y+yDJwBjoLQe1GSJbbaYQLTI7QHNZI2+rpmCDbe++WLf9HC3gf6iqj5yfPAV71W4UF3ql5W1+UBPXoXTxng==",
+				"shasum": "03609826682b743be9a22dba25051bd46724fc34",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10986,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa59cwCRA9TVsSAnZWagAAYHMQAJB4dTb2+xF2pcFPlu/I\nsHHfRBvKMvJBVIzLMVa2cPQa/daMGT0Vdh7p2o69rKZ97s662Yu6lWNOh7ee\nWe4wBXiH0I8axu1zC/j3qaCT1+mqYYB8WjcR4Z/yYhEq6nATo3Ex+kKZV3DF\nqS3wi6ANB+iWwOQ5TDHxXRe1Sqja7VxxzLPUYKFQWEjW1IzyT6Umx904pfa0\nsmcXziR0CvSpFuKKSuAB0r7nfeFll6k60bTfRClhtWnQIJYEkU1K6cz3VMZb\nECSiKEhKbBolHyRtd4tlYanpM9g8FrMkAJvtMXFiML8dyyoxUKPaf++0Rdxy\nOFMWUQiHKuV5DZCpa+L3V8PaK6yM7Z6lub6hsl8k8nsAPZGCfCnb8K0QtOTg\nyfVDi9HJSIkuAVHu6etglHCJAkslXeO4l8ukAA/dNXgNtpVlQTe2gKiOJq2z\nWzeIU9JcrAo4sgtj7wL0Ks0F1y2Y1M3ES6iPuVicgJuEeIKjf7NOk39Ya5oq\nTWzxfopM5b2y91ESre7bhqlW5GDm/ZcaHlj7XNUWaFuojCCb4nlb+88nRlT4\nHubgStfi2PmRdfuGzibHKpryvOX+hIbTw+3DyUozfsCM+YWiCp9ELC6Gfjcj\nwGUSuuJ59/Ai5ZLhG7WRoNrfP738ct6v+QorT8TOkiIh6Lj0r/NVkDQqEIVg\nlOl7\r\n=nHaW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_2.4.2_1525143344027_0.15245225953494557"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "p-queue",
+			"version": "3.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava",
+				"bench": "node bench.js"
+			},
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "^0.25.0",
+				"benchmark": "^2.1.2",
+				"delay": "^3.1.0",
+				"in-range": "^1.0.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "^0.22.0"
+			},
+			"gitHead": "ae9c8d0e3feafac1985f5afad252cf2f469dbeea",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@3.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2tv/MRmPXfmfnjLLJAHl+DdU8p2DhZafAnlpm/C/T5BpF5L9wKz5tMin4A4N2zVpJL2YMhPlRmtO7s5EtNrjfA==",
+				"shasum": "0ef247082f0dd5a21b66e2cfe8fb7b06db13fb52",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-3.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 13950,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhmltCRA9TVsSAnZWagAAAOoP/1LVo8EJ5j9KpvKv/kPX\n7twhLQWsvKQC9xmhkYWLMXvd1J2Dz79zLvT5vbWmJR73I5Shy+ekxUYBeWUS\nTL9wt2EQX5XWx3S5KNeJyFu6phxFzHpSFMZGPCqCporaM2XTZ+v/BoV4g0GI\nWv3lOd0+dKTEMwC5ownkmzr6oOQ5Ak89RwNiatWzZW1YE7fydxZwD5KUz8oD\nA4gK6Qvjpa5H+Nyz+rFtZ6gij7ZDHZPGBzKB4Tu4BPp1cB2YZ2/J8nmBYTad\nztTIRQMLSrHQW4QQOJId04UcglUCHzxPgfaw2b/z1qJhvrSL5Lz7LEX1tNQM\nFkNfsutctu0WDLEIxD4UAoE2Ov44JVKR8UC7ROWUzhDVHzIcG2HJcf10hI2k\nu3g9I5e0pv4aiDlZWXAi5bdynYMwN5B1jeBZCQJX9PgDN2lfvCEOMHALKhMk\n5hFfszN78OxTrvey0QPZ3RBhFqtiiKWmqfyG/+XwS5ykyNzJZLAY3DPmonul\nzaxj6r7KmiBxguLngFXCP8JPJVlPHicrVlMma4nBli0s+PmtYfG6/22taIU2\nWkUCzhxLOYQRaS1KaBiRi2cijDl71574INmjo3PVTU8im+TEo6IfBI+JZ3Ou\nnFBYboQXKJngeOFAZZ8GmdMn0tfdKIsrfmQRO8jPKEhf6OwyOETahN8I/VoP\ny7Yi\r\n=ch1P\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_3.0.0_1535535469383_0.009100353604930334"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "p-queue",
+			"version": "3.1.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && nyc ava",
+				"bench": "node bench.js"
+			},
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"ava": "^0.25.0",
+				"benchmark": "^2.1.2",
+				"codecov": "^3.1.0",
+				"delay": "^3.1.0",
+				"in-range": "^1.0.0",
+				"nyc": "^13.0.1",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"xo": "^0.22.0"
+			},
+			"gitHead": "be0c59684d9978dcce9eba0ee765452c06b31dd9",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@3.1.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kFa39NE4N0+fua9kdI/w8FPB0Gmv0lenS+2FQ7J/8dL4hbnfk1AqXSZJXuUKI2HL1GMzzyPSepwGKqsTmP2dDQ==",
+				"shasum": "08e5f52a9f37ddd76bb7c58036362a11c27febbf",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-3.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 14807,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcbkJCCRA9TVsSAnZWagAADQwP/iIE9VI54uqXxOa5nhNA\nuKTvZqX4NKvUx7HeyQ6BqoUmXK84DfedX+ynXvzWXgi4mTAB/pMwzo1fa2Gt\n0aN3bK0siNR5gZSxO0STad+natcM/488A0tDoqb8VVQus0dEghqmamVVd1Vu\nkLBnN8E900J/69DN84KPaaNKEavpK016e28Z6BXkdQXocH3FrBC29kZYg5O9\n/NnNM2I3CbPuySHHgODSX2/hMy+EghgvKb0QXvUB/VkSNC+mxGqHsV/cURQc\nUX4Y7Tz1gxbe/8YvGHJfhsFoo6GSysCUxD8vnYkF+6eSkhfNtjICHBWcnytO\n82ugX+olg7hP5yDq5Z06hYyKm07Gf7GW2XNXD//z06knZzIyeJMyxi2h3dbe\nwxCr9oQ2Ba1qWwbGBje9J3PIGxw3WJQ+zMI1MOH73dMik6mIPL2L/K4qUZCs\np7icnfETB+V+i9j9pX6+DXXFavlpmShs+1NHY6odeWhrBhQ+L5hY8V2AwaTt\nG9pU/IXut6/CMGEDFt/H0S+NrAj+XPO1C0tdXic5E3hgQlHBxcOa3eKK7vnw\nuzqLMgkzq4R10dW9WzhXgNlBeEHvad8uLt+/Bj6+BMwbpCwC5j7xEg/EdHPT\nBbx2kmH4Lp5HhBB+48J/p+hKgYwTcpxrFSsElGsWGnQDVlfAjxswPSqpR1tu\nFqKj\r\n=r1b7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_3.1.0_1550729793719_0.6913877544479108"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.0": {
+			"name": "p-queue",
+			"version": "3.2.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && nyc ava && tsd-check",
+				"bench": "node bench.js"
+			},
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"devDependencies": {
+				"@types/node": "^11.9.6",
+				"ava": "^1.2.1",
+				"benchmark": "^2.1.2",
+				"codecov": "^3.1.0",
+				"delay": "^4.1.0",
+				"in-range": "^1.0.0",
+				"nyc": "^13.0.1",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "cf653cbfdb9ebdab79826c046367e34492bcb4e3",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@3.2.0",
+			"_nodeVersion": "10.15.1",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-D2OjWeETS1Bjov7d82VclyMRigjZtMdALWV04u0H2zPvV3sYC8f6sYBgQ2Z0OHoBGUYh9S8cHtJqMAO8xaHEwg==",
+				"shasum": "039001d544550b85fce205935acd43bd3a97d0bb",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-3.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 19221,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJceuM7CRA9TVsSAnZWagAAGqQP/1KyiR61RV8eg7KhbC7I\nPw2CdcRLl7rEd6vMKBuCmPbKWHOPntdfDVoSZZTeoTMQrJnC7erDRaT9DIdX\n5JuEjhRR1RTnaXb6dJyyHigQxWiTsWtzukAZI72lp2dM7wtozxk39wfHPq2o\ntQK+zqUZTbDtAluVP+K3zJSSGYKo/CnB/EVn6YO691rSMNOwdPPsnyRD+onP\n7lQbJ/kVuUi5wQu318zPxGQ1Q51TP+fwNKRX41NLdjG6FCGf47eh0iN+lRjj\ne4Kli+yGE3V8t4+VGNLoOFoi/4jmgEfkPc/GMMttY0LL+5hxZNk5spkcOn4s\n2MVfAs2+SmCit02sBRPvp/KbsbDdtKzlpaPlJo6D4dwILXAK4/h7JGrFYfWr\n6BGkNLpX+7Dnu6MSlR9n0RCQqeSjTuEB7yi6FvYOocFGfpTNh+JSkj53Q3cU\nm/32QTUburilmSU1fCQZJZX74S/N21EaYCL10w3lB1A1qzX3GqIXozK+PfmK\nBFsuH0pct7cZ+AH6l2alGNQDL3SwXOkpu52xTFd6g6X2PqCgTRBC4V+6eylQ\nFw+Uf51R4Tc7Hs8Uu4BORli4wdXse6cctFAt+y5KxaGf5K/9gkvTSv2SMiRI\nxIzaR0f0lgmh7n4O7EYWFm1ZYm2EZadWDtA/eNgnMYsX6RHJirTdjC6c1nx8\n1hqi\r\n=5Zv/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_3.2.0_1551557435173_0.47333900549469243"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "p-queue",
+			"version": "4.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && nyc ava && tsd-check",
+				"bench": "node bench.js"
+			},
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/node": "^11.9.6",
+				"ava": "^1.2.1",
+				"benchmark": "^2.1.2",
+				"codecov": "^3.1.0",
+				"delay": "^4.1.0",
+				"in-range": "^1.0.0",
+				"nyc": "^13.0.1",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "781731b46ead6b44829765050c0025167aaeac60",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@4.0.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-3cRXXn3/O0o3+eVmUroJPSj/esxoEFIm0ZOno/T+NzG/VZgPOqQ8WKmlNqubSEpZmCIngEy34unkHGg83ZIBmg==",
+				"shasum": "ed0eee8798927ed6f2c2f5f5b77fdb2061a5d346",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 19284,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcgeBXCRA9TVsSAnZWagAA9wIP/RVfrKfGuy9fqtY2a1Hg\nQ0j+Xnhl4QgHcvUbys50e5wAvCnqhPcW4gY9ui764Wqv+iouPb2cUcRFVn2a\nFFxcpfyn3tdJLHtaI6JIcap6d4s119WY2BMbpg35cFY1UXoUW26I/4RRdHae\nUEZL0eMeYWtmCPsk5LOAsmdOqaVDWjGs3LyniaprAA5uF0GXZVDygBTrTuMk\nrRVo47sC4G+Zrfr8F5KU6AuX0xaNuCnTmdITNQDYxFOFwlxm5tUVZZWjwWeT\nWNtbnHUoD71UHLM75/6PKb9mBpo5d0yBtvhgFSyxrPqXNEQ180qB/Ljy+UEi\nkZpixNR0S1zetTGaSZBvFwg/sfydF1O8hdfhbGH7YW+Y/1ocddodcH4TcxkJ\n10nPjLArplRgpB0E1OpPCJWSebPx4qmkzYP+fHFL3EUKKVINLx6mS8fTK/7C\nKPtbH1CbFJi50Ylvip5n5RWDK/dFN6y0M/68/nc0s79YvwEEjXKO4Xw8X8fn\nfAQzERf97eSsfMm+ofnLixF7f7qbmkJWNbegV47FozBljexM42Zv/j5MM+o8\nfhVFIUPPAu8q8kTeksOA2VgomGByQWPmGLkVsxlw0iOCXFQqYVEboQbSEPs1\n5YV0qITuzVJvJlPSdWcWlXmtJLxFw+/n8sh/MEZmQwhS0+sTKp9b1LoLuGzX\ngzWh\r\n=vX87\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_4.0.0_1552015447108_0.2774993121237912"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "p-queue",
+			"version": "5.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && nyc ava && tsd",
+				"bench": "node bench.js"
+			},
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/node": "^11.13.0",
+				"ava": "^1.4.1",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"delay": "^4.1.0",
+				"in-range": "^1.0.0",
+				"nyc": "^13.3.0",
+				"random-int": "^1.0.0",
+				"time-span": "^2.0.0",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "18040fecaacad375b5a46751f56131ba32104daf",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@5.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-6QfeouDf236N+MAxHch0CVIy8o/KBnmhttKjxZoOkUlzqU+u9rZgEyXH3OdckhTgawbqf5rpzmyR+07+Lv0+zg==",
+				"shasum": "80f1741d5e78a6fa72fce889406481baa5617a3c",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 19102,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqIo5CRA9TVsSAnZWagAAVHQP/AiozkndVMXczCuw+5lg\nt29lxJmodK8KZU+oiEstQ56NldnmT7swpr/dHealxSr6GmLb6Xl3G6ytGgIW\n/SjOqaUpVUbzipibpJnVZwOK2mEbYnLnSgTfh1wGA4vxM8nLcHKiautHycNv\nNrIyBGbmdTC6uHLshkmoETlbRT60R6F80T0HVEgMvtptAK0ELoCxc3Io2V2O\neAKE8vozD9MQgizu+CQITArIDAlBQ7EFR6/WUH58QmvKW8PkSCivkMeFQcrC\npQxaspn0pa89YrI8Jm1IWDQfA88Mu/gCE7o24DYc0p/dlt2f8gTU2XI/zRP0\nV6St/pLfSLcvEjtV4eNQpU4sKrWzcnDxdl5/gXlVX5Jrs7Vz5dN6MczuWPFn\n6pF1OTE0VJh/NY/zyF2qLiDoPt4WyGd6LOsWoH+rlfXslNSMzxVfhdpZgEBG\nq6VS7DL3QHuhzyq2ZKVmShVPIVMa+8F1aKkUTg1AvIJ06Ye9rnpdyQ1DSzzc\nKhiBHsBsoVytMUkacddNUyBY8Z7TcWIvVTlvEScBjx9gWbwPoa9nr9IgnChD\nTAlNKQvBlJPXYtsqwor54sG3uWfaNls3aVyW32F1CWEiFoa+hYP7O0olkio9\n11T0LpODea+I76dyGct5x361NpXfwfss5/vmtLIFqIqls3NsQal7l7Kzm6Yp\n5tzb\r\n=4Dha\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_5.0.0_1554549304348_0.5687749551962844"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "p-queue",
+			"version": "6.0.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^3.1.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.3.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.4",
+				"@typescript-eslint/eslint-plugin": "^1.6.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^2.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.12.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.0.3",
+				"typescript": "~3.5.1",
+				"xo": "^0.24.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				]
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "cb9d3e851e826b50962cfbbf8f306bc050e4f687",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.0.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ql8yUy0yg2iyTZ8lt/3OILuVJAwl9JipQlSSbnIiReJ+UiVIkrDGcAc9UBEMwxBF/BLpmYkmZBqJBZk4F6kjRQ==",
+				"shasum": "00308b2e1a566130b835a2cce84ce8cfd76df08d",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.0.tgz",
+				"fileCount": 18,
+				"unpackedSize": 34349,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc90keCRA9TVsSAnZWagAAdrYP/0Bk53aeiqfkcveMEnYR\nIC9ZuvmSnLELF8tnT0J+UiiQ9YC8vvtljSqd5BQajIpSD9A/ZPE5IGPfY4U7\na2TH5aZziCI1Xcko24tKR9pHCKqMWDacqAHAazCoSTMsI1TogzxFb9wzQJcP\nMiBZDkdr+metrYFT+lsl3+bt0q2397KFPPN9GZQyIVesNmgN6KpbdjsPk4nQ\nrYpLALkkqmh3jYgGM8JrOlTDNDI9qfA/fnwF1t3cw4m58F0pY+tgQxXzemu/\nLmw4TLUpNL9txLcxjC8PqunAt1Zt38h9Nx+vO6zyiuSU7QTQ8J/wWwzjcArZ\nrO8fFqNT2Snzd0Te5XgeOza78tbOGvmhKyuaqT/ZBzAEaGz5/gu5IlcSwE9A\nYZHIzgxnKYzH8Nut94C0G891Sjey+SoF2PbidlLghYJfKBmXeiJGVpekrmsY\nz1bP79qB+WGnudvdqSbeMX0ikIzLfQxUyzAnwooxk1DhSWjpDuASY9Xiio2p\ndRFudFfp2XDWv6MTWqwdH6HbClaE0qWCaWGAEvOu5X07haWnCqPf8QYx0AIM\nMkHu+ete/xK6sTvU9fHSviMt/vipQC/FYX+EdGHDKKuAPKXedYRWMZIdwp5Y\nbPGNm+2A8c+sQiB8NqQr00hf9VX8smDXqn9MtzSfHfHmTT9KRIoBgzcxV8hB\nXq6g\r\n=6l7k\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.0.0_1559709981885_0.4142628089684923"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "p-queue",
+			"version": "6.0.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^3.1.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.3.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.4",
+				"@typescript-eslint/eslint-plugin": "^1.6.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^2.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.12.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.0.3",
+				"typescript": "~3.5.1",
+				"xo": "^0.24.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				]
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "fc2baaa283e0351e25567d497aed5b35a214da18",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.0.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-9Y06Mp2GkJsuH7SApSXK7CDf34ZSu09tPDI3bM4z+EiX6X4lYzZBNS7zlh6Pe550Ya906JQo834iVjKcDOsqqA==",
+				"shasum": "de0e833a57a8a77e89d8d6cd91a5a8c3993b54be",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.1.tgz",
+				"fileCount": 18,
+				"unpackedSize": 34389,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc91mGCRA9TVsSAnZWagAAH1QP/0vvcUUm3Q7/2ttLLCo+\nML6MzKO4mT3RCyViENmpmDg7m5rMVYCcZew6H40tIdxI5hwIUqZY3xfxCR77\nIN2HXBWNaqOOdTQ4ceB2gtMUkFCvZs41pL+PEX2aXjVQ+VDOhej4qdp40sFC\n4DTBq1I/NdmbIAwprUA0+s+lnt4a8eNpKt0QmUwlbGGco4/V0wMe1+6tF8sn\nlRO85CvoHyJy98gasGuEGKWNaWtuZ3ExZeSD7Nu2WeBf2b8cWlwCgjLkTC9l\nYTB1JEVrmahwxKWgNzYUpm4bPnPEhZc5bC1b1MuJ8oQ9WoNNhyzjhBEJ8oaC\nsOfU/18hvnKF56AgnlrDbH9+W6mnoxHNLcXVqwBlmLAdq9egoGivXJ+zSymE\ndhl33pfGiXLsFSjWhWkjNP3Uv5GJvTgsjRQ+VwsbGft/RkDzOqaa3Qt0smJI\nxBCvyKggrBZodZmfyyJKaECJcSlChgYsXTVPulPwr/kdHQsr93mkpMHGhAoS\n+ZvZMj9KcaoetuSFYoKVzLwMV77Mdqc3wDg1NPJkpAS/8IdmTNGJuHDsixuD\nz4OggzY+pn5Y/FwZnRm28J3U+FMDcIXFSB9wE1vIWnFC7XaFArF+AzJ8whTy\nwkvpR8AmclRGvlJhZ0d2NHjQyU6xZJJah/X1UGRwlv6gXN64LNSSzOrwvm4e\nZbjN\r\n=9tr1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.0.1_1559714182126_0.5041090809666853"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "p-queue",
+			"version": "6.0.2",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^3.1.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.4.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.7",
+				"@typescript-eslint/eslint-plugin": "^1.9.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^2.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.14.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.0.3",
+				"typescript": "~3.5.1",
+				"xo": "^0.24.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"import/first": "off",
+					"import/newline-after-import": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "3404bbb4d848b29a29543f4eed48f4fea5cfc63d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.0.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KDmybfRp7PQXk6mRDCtbFWc1E6qUyIXLdmiCQbnKY8+DM0+PodWYLT4dPT/T4x4G+w4PHZXvMB3dZfLEI2vaFA==",
+				"shasum": "34ab9f1fe43b26ec6da2a94cae6b3c3cdcaecfde",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.2.tgz",
+				"fileCount": 18,
+				"unpackedSize": 34164,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+h7aCRA9TVsSAnZWagAAFYoQAKORQ4bmes9gqGBdTenV\nPlnYZdHzE2u/0sxBQ08kWbak3Y9t+4TqwiioVBqb3p8ExXvFhj9MehpbuUeE\nxjnphypI0lYjcSrBTul+3Bp6rCWY/lXeCAofRR0KTNTKZVp2KcZ2Zt1tqmAm\ny7leGaCkUT5B/a3+LVRp1+IkP4dtcp5zl6swgYr7jeSUKUKsDatmuxFfIDhX\nDV6er21qTDvNOj+nqoCXajZULJR/rL22yez4UloG70yp70Ghzj1iS7TUSf4E\nvGFgqYnKWXvkHF94AQ/wqRy/fKqCj0mpOkGeGySK7fx0LTcRM7+EnvLyRyVP\nOzQI9M1m2WsKhCFW+3cULZ70HjuKgAb9ZTBmOZ727dObR/9kZaSH69i5FRKL\nDEYKuE0zutJB3Nl8Veqe3GGUq5zaokOC6MmUx+tU0uslKOkea3FVur3O2ulT\noeeBXXKLw5BG0IKMwBA83VfqqGM1gcx6LZybVSAqT7RGOBLQqGl9jMejCxVN\nnGp5T+2+FN0RWBtf07yn5EpYtJ/HUM648OI/pOUfuAdJP1yTYurwqD1RNX1l\nUfKpNbUzGREtn5KxRiKWC2u/Cndbv9ihS+KIfjHWPYNQz3dKlGCbRwEgkbYu\n+++GnE6k3ilXc7tR5+IvjzITGlfbIOKI95e+HH/G411aRf8yZfu8BpS7HnoN\nrSpa\r\n=1Fp1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.0.2_1559895770167_0.09065185511661333"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.1.0": {
+			"name": "p-queue",
+			"version": "6.1.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.4.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.10",
+				"@typescript-eslint/eslint-plugin": "^1.11.0",
+				"@typescript-eslint/parser": "^1.11.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^2.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.15.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.3.0",
+				"typescript": "~3.5.1",
+				"xo": "^0.24.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"import/first": "off",
+					"import/newline-after-import": "off",
+					"@typescript-eslint/member-ordering": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "fb54f6840948bf0cefc1babbe4cd412344d24473",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.1.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-907vNz/cY+JEsqGglo7o/Ia9E/wisahJGOp9HPfbAyCVGERQVmFGA4IyknxY1v+QRBiMKedL3ToOBXNEy9MKQA==",
+				"shasum": "3f546275073b41e4af460e41459524b15c2753f3",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.1.0.tgz",
+				"fileCount": 18,
+				"unpackedSize": 35346,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJ1RqCRA9TVsSAnZWagAA9bMP/0bMMdsFLomcQiAjzj9W\n+tdQDnTrr1pR8wdqDOuxD507BWZUD5T/nQH/ybkmIJtdL+bsMDn+D3bh5/tH\neRbBB9T3P9O32rcBJHjxZysk5CJhJzWFwZr1+4dAYDHB3g+kygNylWDs1pGA\nXstqq3gud1AhDr32WP0ms/xhkzDownqPZj/jHaXCSJDIsYhhjODXnchhLXWz\nWu+VHrYSHhjaqSxJHhvysMNi7p7xfbSLZIe0YOI5q5o5R1TzOVaD1ly4MUFc\n1VJ79fqNavhrZ7ayvW4DfjrWF0Tz/VlkNoX6uWFJA6es5fdWhUODSFQh5opO\n0PntfnU71hNgmOo1XhomG68uGrqdvWARt9RBHNOFePQtcZd6Rligpog1PfkT\nSj1XnQ0nhBnFR2KPfGF6gd7lzjOwBKtXOKHLSp64aTnH58n1LsmTjSd+wFm1\nz4vT9awGM6K8WkDhOPQBwMs/RFcMwDQiWJsTzId2PyLfADF4FH3s9GFMwVy+\nGvK7ub6arCbFIKvAtuG30iJuyPxiYGwm9n0MmU/bCzF50B3r5ujm3ona0R1D\nfzemTr5EzxoCt9t8qOuLqoX0OqiR5H5K43Qv7VAB9Wc6ZHq9wszoF2brG7Ip\nwMsbCa1ybAbqztG8wxPsYF4mrG+3kaU+yka5HpYaE8HANHCEFZ8dmBZLKwjx\nhwmj\r\n=0O6s\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.1.0_1562858601267_0.7466532850359937"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.1.1": {
+			"name": "p-queue",
+			"version": "6.1.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.4.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.10",
+				"@typescript-eslint/eslint-plugin": "^1.11.0",
+				"@typescript-eslint/parser": "^1.11.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^2.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.15.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.3.0",
+				"typescript": "~3.5.1",
+				"xo": "^0.24.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"import/first": "off",
+					"import/newline-after-import": "off",
+					"@typescript-eslint/member-ordering": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "144d0ad54c9940d8b53359bd4566be89d8437df5",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.1.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-R9gq36Th88xZ+rWAptN5IXLwqkwA1gagCQhT6ZXQ6RxEfmjb9ZW+UBzRVqv9sm5TQmbbI/TsKgGLbOaA61xR5w==",
+				"shasum": "eedbaf7335b4931ef857e2e58063fed461b97e80",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.1.1.tgz",
+				"fileCount": 18,
+				"unpackedSize": 35347,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdUaFlCRA9TVsSAnZWagAANnwQAKFjVmhH4iQnng6/BdEM\n6OQylMGEkCoyMPu/B/pUz57dg0t39RgjnMN+N68Yfpg3UARHxvdEaOlpigiU\n3cWzxrQ4RnM4sIIsqkWFHrLZ6ff3EHA6Ip4dnJV4lQokPEqeF+ua80HlK8do\nqXIZ2WGL8RIbm2ze8dKoiynDpU/rZTpqJx8XhyLTC+0BqrJ7MhO/Znph4kuO\npCXYJp335FMypd6uBbHUt55PeZU4rEAVob7gBI9Gne55jij82P78arN39x+b\nMwgL6D8GwtbHys7XPajgiXupQkgJrzDtxA1bEYuVfCJgZiYZOnBc1r6cz8hx\nvAFGgqmxO87wSnWx0n9I7iuvhEKOhTgjG4WsK2fELjb3StW7rGGZxu4MCrpA\n26K2kTr5CpSr+A8FZR9CXZ9kjceEgwC0BJ17+0j/H03Nl+ZD3t3x39HEiPDo\nSeOiJfkl4vFdqvcSMMCXE79JfLEG25HKM0agvvzMMkp0tw0kEKiaLrO9N9bp\nfjh+yc9YC23rknU3UjfZ35GctSX1dXR2EmphYB+22kQN95lQtsPXG9zltRwv\nAAukR8r5DB1LYY5G24umpLeGgfIPsAY0sr4jP+ujxduw5pygOVwsLO1Vu92M\nR7LSt3OQ9R1rRR7wrUDUxts1N3REqlpr7zThnr7S59RTOu7cAJaUYqhxx9Er\nRa1s\r\n=k0Fy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.1.1_1565630820587_0.7013745160258431"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.2.0": {
+			"name": "p-queue",
+			"version": "6.2.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.5.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.0.10",
+				"@typescript-eslint/eslint-plugin": "^1.11.0",
+				"@typescript-eslint/parser": "^1.11.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^3.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.15.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.3.0",
+				"typescript": "^3.6.4",
+				"xo": "^0.25.3"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"import/first": "off",
+					"import/newline-after-import": "off",
+					"@typescript-eslint/member-ordering": "off",
+					"@typescript-eslint/strict-boolean-expressions": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "f1f7fb9ac318f7f29c9543f1923de58a48588ae7",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.2.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.11.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-B2LXNONcyn/G6uz2UBFsGjmSa0e/br3jznlzhEyCXg56c7VhEpiT2pZxGOfv32Q3FSyugAdys9KGpsv3kV+Sbg==",
+				"shasum": "c8122b9514d2bbe5f16d8a47f17dc2f9a8ac7235",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.2.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 27021,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdocMICRA9TVsSAnZWagAAT5kQAJrBTCH5fPmLLOQ4KpIs\nFyCOwnsEZDZ/8NVsDTUE25oU7OtmMZnVRI5rKdmz+mnaQw426q2jEObcZ2Pe\nKaYu0uR3fRMfRy9hDvEYowb4CVYf+EVdXyxcYIrpkYKDhc6euplYaa+osQMn\ng3CliJI5Zx0Za2uUbg+vVHnZofJvvCheQyPSve0aS5WN71YVU+G+sgpdT33V\ncU/mgVJIDfGWELPaMV2MK+AXhiuWBqqt/FpJ9cRcY329G2UENhlQP12KdI+P\nwiCMmq1K5Ra04fYGaum76VWkeR0upKmiwYzhOf78LPT/0ffkudc3mxjqz2ID\ncq5V7M7mTKehCt2SjFbv6fQOB6nE+UrVuBWlOvZpRSzwL0a6g36gQ9GfEyH5\nsVwkpTM02jVjcgJY4Twj63s/d4tIlpfJb++uY8IyBLEVjsFEUd9lw/AtSXjq\nWmlB+ofxLks54JNeR1ASy0GeXa2hhQaIH0/HbfOhhrS0PoQpmT0hJCwRM7/m\nF3aTIStGR75Y09zEoywgiYPEOaNjsfW02E6OPw74dPeOgC2QRA2IFbi2mAxt\nVzi6mzUVrns8tvR+QJkpw4a/m/Kqdi4fiFaJeGjqiuwVb9A18dLBe7c5haM/\nk9bC2qdGliEYFW+nO+FXkEhhnmUU0BjNtQ9QkVE0umLl4X/sgwqJUCzF9x5i\nc3VC\r\n=Y8+9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.2.0_1570882311515_0.9869827136382332"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.2.1": {
+			"name": "p-queue",
+			"version": "6.2.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.6.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.12.7",
+				"@typescript-eslint/eslint-plugin": "^1.11.0",
+				"@typescript-eslint/parser": "^1.11.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^3.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.16.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.3.0",
+				"typescript": "^3.7.2",
+				"xo": "^0.25.3"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"@typescript-eslint/strict-boolean-expressions": "off",
+					"@typescript-eslint/require-await": "off",
+					"@typescript-eslint/no-misused-promises": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "a578dc41a6248eba1432921f75f43ae73749eb93",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.2.1",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "6.13.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-wV8yC/rkuWpgu9LGKJIb48OynYSrE6lVl2Bx6r8WjbyVKrFAzzQ/QevAvwnDjlD+mLt8xy0LTDOU1freOvMTCg==",
+				"shasum": "809a832046451b2240a0a8e48b4fa18192b22b64",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.2.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 30258,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdx5xICRA9TVsSAnZWagAAP0cP/1BljyEmihK3e/Ln7vkY\nNAvXkBjV5so9+y9nAfDf9aUk0V1Po1R2/uO0xTK0lM913tKplD7vqgtAPYYc\n4aKSwwvAochB3SpfpR986coNy3avN9jKj872FQXTLj3DsAeLuusLHII06tod\nU7y38znoPlS3h+mW2Mq6dUtvhVPWKThKUvGRpny2KJEz07ifX3hkVthHpcQ9\ntF71T+d2duB9lpWec98qQsgt+owOWD56pU5mOISll+8MgJvk7ExZRJoSHaRQ\nva2Ihy3MV2dBmt+1QG4g4G3bG/eHqlooFiHX3xqK6A8D6eFAZb9qrV6GBJrf\nfyKpv3OCWCR8WqHBQTJMXR/mADT0Wtnw/fNxOZWbYY6QRXxu89uLqGNIdiKy\nEYSP9lznmHqTy+rIwFgCavyNGRlmxL/LxfCNLj/h7LDcTU3uVkosLH2nh/Qf\nABqZFWL12V5pXmBGI0jozkGteO/AYLLbDttqA8wJ2IM3wIQ+YULlZBzvaJ1H\nh3gQ01O11AzlXTBMg0OgCOASlhznh7t2mMa5P8Ep7sTBtbVVMfayarcQ+uMP\nIiUvBVu8uAWYaSZHYtbpoLLrUpErHa7ET0M0290HxxRLr1jbbzkFi/DQcGon\nIHuTfXvWiDD6gBn2jFXberFRUBAOz71h19CvlxAU/CxKfO9epnwkaO3iOXrB\ndum7\r\n=qcJw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.2.1_1573362759525_0.1313620959482713"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.3.0": {
+			"name": "p-queue",
+			"version": "6.3.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.6.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.12.7",
+				"@typescript-eslint/eslint-plugin": "^1.11.0",
+				"@typescript-eslint/parser": "^1.11.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^3.0.0",
+				"delay": "^4.2.0",
+				"eslint-config-xo-typescript": "^0.16.0",
+				"in-range": "^2.0.0",
+				"nyc": "^14.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^3.1.0",
+				"ts-node": "^8.3.0",
+				"typescript": "3.7.2",
+				"xo": "^0.25.3"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"extends": "xo-typescript",
+				"extensions": [
+					"ts"
+				],
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"@typescript-eslint/strict-boolean-expressions": "off",
+					"@typescript-eslint/require-await": "off",
+					"@typescript-eslint/no-misused-promises": "off",
+					"require-atomic-updates": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "2af8cf9c5dc6343c8bf1344f4c59683c49684163",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.3.0",
+			"_nodeVersion": "10.18.1",
+			"_npmVersion": "6.13.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-fg5dJlFpd5+3CgG3/0ogpVZUeJbjiyXFg0nu53hrOYsybqSiDyxyOpad0Rm6tAiGjgztAwkyvhlYHC53OiAJOA==",
+				"shasum": "19bfa4485db7e6a0c135049ff6716375880d9c3a",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.3.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 31643,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeSrxPCRA9TVsSAnZWagAAsm4QAI6Dwb2uQYI26KxTwTRC\n3qdheWPSNkYIXNiZi/zymKeN6ik8nTY9KbAXXuWwCNWkOP5501i7QMTd1k4m\nbK6T0+aRSJT9QHoBoPu43HCQ05PGC6tj2Q4sXzwc5VqyKYLCZ9mIhcx8Ij4v\nLOABkQGmjQ0JP+oppuiYIwQYBG7Httb4A/RbyHWLtnRxQuXqetBWO+OuT28V\nB1/4UuWoe3QaqKQnDb75g1PR+0WlX/jJMLiM4DyslfDAo1h+1kLMgsylZOKZ\nydyG114/7A58ZOiU/4m/NzLhEcV2E+bqESYhMe2htNL4FlqGyhYN9Ho0Rv9T\nomhyRO8UNM30oR5tTtG+bDgGq1OfqdFsyNHvhKuA/Wtp9Xz/2ZYbbGDIK0KA\n6YfBmjLxsxfLdOdwi+uWLyB4KhtQ23ExmmqLvuvCBY9thZOw1TEciZSb89FZ\nNfdaGiIiz42lmSCCFZOQb58n6EUdjt9pf7hoGiQHqE21jQDonKo2eG18oCOm\nC8OiK8HON3DiEe6IlfGrNoA754Thkb/mRF9SIJC4PlAK00B4rt4e/N8zFxp9\nwN6Nr9iJOhyqJx5ags4kHROLQxW+bVsgTt/EgMu9Pr05QCXZU9kaj0N8F5Z5\nY43dn2Qr02h973Ucm78XbfCI2duHgfYWXEWVwHhi/vIzlMscD08FwsITZ6zS\nI3S5\r\n=cAT2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.3.0_1581956175318_0.3826380733095638"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.4.0": {
+			"name": "p-queue",
+			"version": "6.4.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.0",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.6.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^12.12.7",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^3.0.0",
+				"delay": "^4.2.0",
+				"in-range": "^2.0.0",
+				"nyc": "^15.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^4.0.0",
+				"ts-node": "^8.3.0",
+				"typescript": "3.8.3",
+				"xo": "^0.28.1"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"@typescript-eslint/prefer-readonly-parameter-types": "off",
+					"node/no-unsupported-features/es-syntax": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "68f8d6ed4b783d99c934dc79075750986a82a7b1",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.4.0",
+			"_nodeVersion": "10.20.1",
+			"_npmVersion": "6.14.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-X7ddxxiQ+bLR/CUt3/BVKrGcJDNxBr0pEEFKHHB6vTPWNUhgDv36GpIH18RmGM3YGPpBT+JWGjDDqsVGuF0ERw==",
+				"shasum": "5050b379393ea1814d6f9613a654f687d92c0466",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.4.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 32592,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJersHBCRA9TVsSAnZWagAAdKQP/jbMQvzANSj9h4NI8cjq\n4YoSJrhVSPp2gj5bJDkMQ+M9FZ9spz4aXF85pHcPMj2fk/79X8EH/Jn9fyKW\nWQgb7Mk9CC7IbHP/beRFO4oJXjnC223feV/2p07vxlPpNu3OfunsZws2j1zn\nbKWOrfYUm9tnfJsCJXdSkCtG6TnLNwJVcMP5Ct7YliqYtfYlLrJ0QzLvknqF\nDg1p5Z4XmiRtM2Oe84L5yO7WtzZ0jT77KPryNj1U5bQDPXV4AOFiG1+EegrO\nzIhfcjfcor35uevDxnRSx2ba38zA6EfAJbhYHD9lekoM6AfgVfL08dDyrpkI\nr7ieNyznAHyB81o9prUc7+LNL+QyE8YfxPMT/IGfncnWPmJDK1+44u7AP15V\n5E/fzgznqExusZP9mxm9hKcTdOIiRMXYo12sxNObl975CqZMp2FmMGyb4UZQ\nxHTDsPUTFyU2hkPWMvhXRcRQJ69Aeba+jFhKLTSVP4PnL9GbSItoEPmhe10y\nKKEGSMzFjiO3MijHyuhv/eapxcrx83EA1fnWBPo0Yn7mZiV8/7D0NcmqCObr\n/HBes5smZPl06BUe8PwO+GvdxhWR+p1c1he7LWtic+aFoZQhkXqzIp/UK1EQ\nJ5QRI5FM8V1nUrawEWvGf8MGgtgAEf4JXsx4DqXXROsmAMagONMDEs4qeTNA\nqueE\r\n=Z3jf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.4.0_1588511166473_0.696054835280749"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.5.0": {
+			"name": "p-queue",
+			"version": "6.5.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.4",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.7.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^14.0.14",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.3.0",
+				"del-cli": "^3.0.0",
+				"delay": "^4.2.0",
+				"in-range": "^2.0.0",
+				"nyc": "^15.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^4.0.0",
+				"ts-node": "^8.3.0",
+				"typescript": "^3.9.5",
+				"xo": "^0.32.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"@typescript-eslint/prefer-readonly-parameter-types": "off",
+					"node/no-unsupported-features/es-syntax": "off",
+					"@typescript-eslint/no-floating-promises": "off",
+					"import/no-named-default": "off",
+					"@typescript-eslint/no-invalid-void-type": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "9672a3d6be06fe52f2481460c6d12645343c7ae4",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.5.0",
+			"_nodeVersion": "14.4.0",
+			"_npmVersion": "6.14.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FLaTTD9Am6TeDfNuN0d+INeyVJoICoBS+OVP5K1S84v4w51LN3nRkCT+WC7xLBepV2s+N4LibM7Ys7xcSc0+1A==",
+				"shasum": "40d6bafdd3bb0c8eaa03e0649ba6fa3ce7249947",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.5.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 29664,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe/DyrCRA9TVsSAnZWagAAFNoP/1MIHESNZEk7YkrQwcao\ndeS3Swz/4kJ3K3gAhifkh2M6I1rpUF9On9+N/ggfTtKLHfnm8R2ysDuWWbYE\nhYXeRSeFsfz2TC8+KmzC0RO7LMUykPPZFDcmZzYoK9QKwcHojuVXwwChJ0LJ\nhJ8TETyXKrOHcH0TWGTHcj81pP+gH+qDQN6oYFSlgcReNPdxkAUJrr1jXwd/\nvaK//04mM7jAQ2EscX/SOZFAYnSPD+irSp+DKvi4MP8qMQmZtQIXN+UPRmSE\nnKvTZQY/5sTvLd8oRfLVdr2cAlE4zZVQnDhxeMmhkbEufHLbixllrzdJ5Iow\nbAYRQKd+j+agFahOSVCUAHLlfA57PJSKjud0r/KxnFsvhsXdSCQOIu15sNLb\nWFjTH5sZrszym/BqPIZF4K4hYijnxNvJsLt48LQo/5P9u0vJn57L3AoGOGDT\n0ApNOPYMkwhoZF4CJgSBaUD1tiqSlE+ryLNaqHYUd05F1rO/7rC8boqSYU5v\nRX5pHUqQSma/WuX72PXm0LrYrMOEfwpAN22aVRvP3sXB7f4Dnce6MS/KkCcB\npB256oioTUb4F//oHV51p0Jkz4lrDQn3OKmgt/jmqgEVhQ3pkf0VdEBhaK/E\ndoJd2JSaqlqPKUKJTT8devr9p839NxdRvslAvY5e3XrGOX5ZVq1eez6bkZf7\nySwp\r\n=TdcN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.5.0_1593588907200_0.24950654512267012"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.6.0": {
+			"name": "p-queue",
+			"version": "6.6.0",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.4",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.7.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^14.0.23",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.7.1",
+				"del-cli": "^3.0.0",
+				"delay": "^4.4.0",
+				"in-range": "^2.0.0",
+				"nyc": "^15.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^4.0.0",
+				"ts-node": "^8.3.0",
+				"typescript": "^3.9.7",
+				"xo": "^0.32.1"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"node/no-unsupported-features/es-syntax": "off",
+					"@typescript-eslint/no-floating-promises": "off",
+					"import/no-named-default": "off",
+					"@typescript-eslint/no-invalid-void-type": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "67b64e3a161f8db45f8f4627506e0f015a980a71",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.6.0",
+			"_nodeVersion": "14.5.0",
+			"_npmVersion": "6.14.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zPHXPNy9jZsiym0PpJjvnHQysx1fSd/QdaNVwiDRLU2KFChD6h9CkCB6b8i3U8lBwJyA+mHgNZCzcy77glUssQ==",
+				"shasum": "263f2b73add4cefca81d8d6b2696ee74b326de2f",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 30783,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfFLIHCRA9TVsSAnZWagAA0eQP/3+fWo7tMm4nRSFCe+KK\nW7+3M3GfUGMiOexJ5SIff2thyWMGMl3s2R3F2mLwlkujT6uRm3LzbGGy2lHU\n+iCe5plmMzGs1rTXZf5NZ/ahbvruJEwgwNS2g8rs/m0XelDS/TM0JxqfUTeb\nmzCREQxWK3IexzRyjsm2aHfgIwiCo5Qgu0CJ9MF+7MaQdA4Euu1tnpB04PFG\n8+naxWs/JfoUH+ew2xtqrAYKUwNk5i9uEwmNe8Jdq05PwGX2KXscJfPdR7Vw\necsrPi6VRdTY+F/hj4maBva2NhrBMSe1WfHUgzCvzOefkFIowNDoljDNQ0iB\nM6SCJPWp5LW1Nf/eH6IHi+urB50CSj41DrvzRjybSfL6RduvypkEXPzJ80Ih\nTrkTfqSMn85Rt1Vfj7tdg1WuHQOethbDZq+HVXZh6jVnSxXydOb80vGUQLMS\n9s6XcITsl2jbzLg9i99gHnLBwTqIwJSRE/cRuwQQyu5kipI9KojKtC58O5nh\nFj4O7FMF2Bss73qU604b9BEg1g+gQty6QoyVWgEARiEl/CMHzM6Pj/2mDxMg\n5EaHKdzpV78FjRom+TGqWkL8fCMK03mw0nNS05w+U7cBDtBrrLnXAakRBor8\nDhBSvcdZSjCRGN6wjOHH3RPkwWbd8YASdPHWr125Taz9oLftDS7CsgpQHi3C\nTgQF\r\n=VWPK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.6.0_1595191814892_0.6252851112734863"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.6.1": {
+			"name": "p-queue",
+			"version": "6.6.1",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist/index.d.ts",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.4",
+				"p-timeout": "^3.1.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.7.0",
+				"@types/benchmark": "^1.0.31",
+				"@types/node": "^14.0.23",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.7.1",
+				"del-cli": "^3.0.0",
+				"delay": "^4.4.0",
+				"in-range": "^2.0.0",
+				"nyc": "^15.0.0",
+				"random-int": "^2.0.0",
+				"time-span": "^4.0.0",
+				"ts-node": "^8.3.0",
+				"typescript": "^3.9.7",
+				"xo": "^0.32.1"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"node/no-unsupported-features/es-syntax": "off",
+					"@typescript-eslint/no-floating-promises": "off",
+					"import/no-named-default": "off",
+					"@typescript-eslint/no-invalid-void-type": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "08630e196ebc6b70759fbc32928ca7868e9214a9",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.6.1",
+			"_nodeVersion": "14.5.0",
+			"_npmVersion": "6.14.7",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-miQiSxLYPYBxGkrldecZC18OTLjdUqnlRebGzPRiVxB8mco7usCmm7hFuxiTvp93K18JnLtE4KMMycjAu/cQQg==",
+				"shasum": "578891ada028a61371ec2692b26614d1b7d2b10a",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 30794,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfOQulCRA9TVsSAnZWagAAo9wP/3XcJtga5Q2/zgQt5KQQ\nzOAIdXLBb1MIdGgDjaA6SFfeMZEpfOyI3tjAWOrOO6QAj+ucNwk1xudsr94Z\nZShdORtW6YSOwCmWrOXsWOZmbdzurWC5+ArXcpEn/5tKNDu29u6uaYTgh0fT\nxH9X3jiX23wj2/hAqcg7otRwSelpbMi3K3u2ZEK+z9EBTbNWCueq7X4fICEA\nUVG6OiiR3YPIMjvO+ve3yiawWTQUxWiVqIqqQ/HqZ2AKSaF0XwfpXGiK/tS5\nz5bbmGiMHxE3/q59lI8jOTI9ze6MyCdPPG06oQUdMN5TraIYaSaZQ0LnEFAL\n6W2iaTcKrXwRQQ1Wevb6pBtA+QTUgAlpfxafqSReovg+90e87oi7hkpKxhMb\n6TnPnqnnDNxYaDelrIntZ3jVRamMoX4G56n2HOXyYuW4A7heOUdg6NzpCZjS\nnI8GJkNIe9354kw5+KIQmNBZINvb2gc5lg0gyZ/BluPnvfZiHvxTqj/4CeU5\nocplLJCg1/Sxgw8ReZtNGGXVZGLjylmQ6rcgKZTGSGdQJtTbdNW+5eD/zWPZ\nKBgTA1tT7Z6oQCoPtB4nHiLuWksClcDwVGxstGylxlS+zuy0Whe+o6uW/pho\nMTEmqRs2ifYer90u+oi91M4YxUGC7N/HQ6aa4c+HkRphDNPYEEBKHvuDsEht\nCr54\r\n=6hU3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.6.1_1597574053182_0.17222728116127572"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.6.2": {
+			"name": "p-queue",
+			"version": "6.6.2",
+			"description": "Promise queue with concurrency control",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-queue.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"build": "del dist && tsc",
+				"test": "xo && npm run build && nyc ava",
+				"bench": "ts-node bench.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"types": "dist/index.d.ts",
+			"keywords": [
+				"promise",
+				"queue",
+				"enqueue",
+				"limit",
+				"limited",
+				"concurrency",
+				"throttle",
+				"throat",
+				"rate",
+				"batch",
+				"ratelimit",
+				"priority",
+				"priorityqueue",
+				"fifo",
+				"job",
+				"task",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"dependencies": {
+				"eventemitter3": "^4.0.4",
+				"p-timeout": "^3.2.0"
+			},
+			"devDependencies": {
+				"@sindresorhus/tsconfig": "^0.7.0",
+				"@types/benchmark": "^1.0.33",
+				"@types/node": "^14.6.0",
+				"ava": "^2.0.0",
+				"benchmark": "^2.1.4",
+				"codecov": "^3.7.2",
+				"del-cli": "^3.0.1",
+				"delay": "^4.4.0",
+				"in-range": "^2.0.0",
+				"nyc": "^15.1.0",
+				"random-int": "^2.0.1",
+				"time-span": "^4.0.0",
+				"ts-node": "^9.0.0",
+				"typescript": "^4.0.2",
+				"xo": "^0.33.0"
+			},
+			"ava": {
+				"babel": false,
+				"compileEnhancements": false,
+				"extensions": [
+					"ts"
+				],
+				"require": [
+					"ts-node/register"
+				],
+				"files": [
+					"test/**"
+				]
+			},
+			"xo": {
+				"rules": {
+					"@typescript-eslint/member-ordering": "off",
+					"node/no-unsupported-features/es-syntax": "off",
+					"@typescript-eslint/no-floating-promises": "off",
+					"import/no-named-default": "off",
+					"@typescript-eslint/no-invalid-void-type": "off"
+				}
+			},
+			"nyc": {
+				"extension": [
+					".ts"
+				]
+			},
+			"gitHead": "55d74e14c5ea6b77a26410089ea548a10d727bf9",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-queue/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-queue#readme",
+			"_id": "p-queue@6.6.2",
+			"_nodeVersion": "14.11.0",
+			"_npmVersion": "6.14.8",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==",
+				"shasum": "2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426",
+				"tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 30906,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfg1h6CRA9TVsSAnZWagAAc7QQAJbKYvk22V37FPjG6asg\n2GQSO9oKCTMt9uHScI/5kKghkhkAxyFq9cbSsu+E750PTFYzaF7PrlU4AGDq\nA98roG7WqHy+IOi5n2/3zH2fAaR6fGZo2Ow10Y4+m8PIABeiOMYi3MeG67ZY\ne1ymGbusKBHzf1u8sjq5p3fHfR2BxPuL8looxgMAc2lSlTUwoFjhiBjf7UFB\noCtCPn+RgNMQD3uw34+d8MHMIICbsSnchBqGy09Ag7q1VwqmbZqAXYj6siVV\nGCPSXm7107O6/+PoJTZ0AHk0GsHO+ola0lF90SdMeiA718ZPgYP8O8PWFsyG\n++RIl+y9+I0sCZqzQD7ux59i95zlGFTKlp6Ktof1y2QNdTAaT3QzYc8SGVPb\ncIHnSxnV4EveZU8UjUhsLnYhfpK3gnjxhyu/EqKfd7gJmM6ln8Qc/7yNPoKi\nFByS4ZE0JpUokNiSGbmcyq0piNY/nENgE3Y6V4MOAW2C1RdsyEVi+NE2wiJh\n6uDm8uh3/Nv7VYQCU/09hnGG6icDZTpR960J6v9r1yr25fc28EAu8itH5H5C\noz+Xxk5pRN4msst7kw7vhbe/N0IvnQaKziulHyU4InTERTKcWbdVaeCkPK+h\nYBX+OiJvgXigcFsaW6C2dgc+a0fSTX7V/bXkpJZ2xxL1uzmQNGcb5406+aJb\nYb5R\r\n=jEHa\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "floatdrop",
+					"email": "floatdrop@gmail.com"
+				},
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-queue_6.6.2_1602443385647_0.9920227750030739"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-10-11T19:09:48.081Z",
+		"created": "2016-10-28T10:57:43.869Z",
+		"0.0.0": "2016-10-28T10:57:43.869Z",
+		"0.1.0": "2016-11-01T09:38:11.466Z",
+		"0.2.0": "2016-11-17T05:28:01.489Z",
+		"1.0.0": "2017-01-13T10:03:27.546Z",
+		"1.1.0": "2017-06-30T04:41:02.579Z",
+		"1.2.0": "2017-08-28T12:57:31.112Z",
+		"2.0.0": "2017-08-29T10:28:47.379Z",
+		"2.1.0": "2017-08-29T17:11:23.908Z",
+		"2.2.0": "2017-09-12T04:00:39.352Z",
+		"2.3.0": "2017-11-24T20:12:19.594Z",
+		"2.3.1": "2018-03-06T16:13:37.374Z",
+		"2.4.0": "2018-04-04T05:56:47.740Z",
+		"2.4.1": "2018-04-21T04:53:02.346Z",
+		"2.4.2": "2018-05-01T02:55:44.254Z",
+		"3.0.0": "2018-08-29T09:37:49.499Z",
+		"3.1.0": "2019-02-21T06:16:33.838Z",
+		"3.2.0": "2019-03-02T20:10:35.301Z",
+		"4.0.0": "2019-03-08T03:24:07.338Z",
+		"5.0.0": "2019-04-06T11:15:04.559Z",
+		"6.0.0": "2019-06-05T04:46:22.053Z",
+		"6.0.1": "2019-06-05T05:56:22.246Z",
+		"6.0.2": "2019-06-07T08:22:50.368Z",
+		"6.1.0": "2019-07-11T15:23:21.440Z",
+		"6.1.1": "2019-08-12T17:27:00.720Z",
+		"6.2.0": "2019-10-12T12:11:51.635Z",
+		"6.2.1": "2019-11-10T05:12:39.657Z",
+		"6.3.0": "2020-02-17T16:16:15.413Z",
+		"6.4.0": "2020-05-03T13:06:06.608Z",
+		"6.5.0": "2020-07-01T07:35:07.314Z",
+		"6.6.0": "2020-07-19T20:50:15.038Z",
+		"6.6.1": "2020-08-16T10:34:13.352Z",
+		"6.6.2": "2020-10-11T19:09:45.773Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.6.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bd4916b6a73e4b067166f147feb2ff8f\"",
+			"fetched": 1613881359148
+		}
+	},
+	"_distfiles": {
+		"p-queue-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-0.0.0.tgz",
+			"sha": "33466a005bf9110c108578889b8fcfdde92d65eb",
+			"registry": "npmjs"
+		},
+		"p-queue-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-0.1.0.tgz",
+			"sha": "6d57ccc409bd6370dd0a251be0713a7f62ecc581",
+			"registry": "npmjs"
+		},
+		"p-queue-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-0.2.0.tgz",
+			"sha": "10286f06123e102ff422c1a8142e0822ed283dbd",
+			"registry": "npmjs"
+		},
+		"p-queue-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-1.0.0.tgz",
+			"sha": "698cde72cc9f57aa3bc7d30ad8019cd736aaed3e",
+			"registry": "npmjs"
+		},
+		"p-queue-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-1.1.0.tgz",
+			"sha": "c4246f170782f48d49557ee6634658f6b1dacc5f",
+			"registry": "npmjs"
+		},
+		"p-queue-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-1.2.0.tgz",
+			"sha": "639cb8b07270c15b71d7a6446a8e30414f3c96d1",
+			"registry": "npmjs"
+		},
+		"p-queue-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.0.0.tgz",
+			"sha": "6056de72e382f657fd3ae601c34a41cfb3513cb9",
+			"registry": "npmjs"
+		},
+		"p-queue-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.1.0.tgz",
+			"sha": "bdffcdb4ae3d7268f0dba541a93d3644e3b3f67c",
+			"registry": "npmjs"
+		},
+		"p-queue-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.2.0.tgz",
+			"sha": "68de0ab1e73d9430760ecd99230c2d7d6deeaf94",
+			"registry": "npmjs"
+		},
+		"p-queue-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.3.0.tgz",
+			"sha": "65d55e71bc1500fc413122da98ae457ff8a7c038",
+			"registry": "npmjs"
+		},
+		"p-queue-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.3.1.tgz",
+			"sha": "672c54d190d99bb63fff4dbd0db26380a3602f59",
+			"registry": "npmjs"
+		},
+		"p-queue-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.0.tgz",
+			"sha": "6a64eee8923abac7d7daa3c23f284abb3c0ca5aa",
+			"registry": "npmjs"
+		},
+		"p-queue-2.4.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.1.tgz",
+			"sha": "f8e1f989a8ab09e8efe0ca442acf9f859b03d702",
+			"registry": "npmjs"
+		},
+		"p-queue-2.4.2.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-2.4.2.tgz",
+			"sha": "03609826682b743be9a22dba25051bd46724fc34",
+			"registry": "npmjs"
+		},
+		"p-queue-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-3.0.0.tgz",
+			"sha": "0ef247082f0dd5a21b66e2cfe8fb7b06db13fb52",
+			"registry": "npmjs"
+		},
+		"p-queue-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-3.1.0.tgz",
+			"sha": "08e5f52a9f37ddd76bb7c58036362a11c27febbf",
+			"registry": "npmjs"
+		},
+		"p-queue-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-3.2.0.tgz",
+			"sha": "039001d544550b85fce205935acd43bd3a97d0bb",
+			"registry": "npmjs"
+		},
+		"p-queue-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-4.0.0.tgz",
+			"sha": "ed0eee8798927ed6f2c2f5f5b77fdb2061a5d346",
+			"registry": "npmjs"
+		},
+		"p-queue-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-5.0.0.tgz",
+			"sha": "80f1741d5e78a6fa72fce889406481baa5617a3c",
+			"registry": "npmjs"
+		},
+		"p-queue-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.0.tgz",
+			"sha": "00308b2e1a566130b835a2cce84ce8cfd76df08d",
+			"registry": "npmjs"
+		},
+		"p-queue-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.1.tgz",
+			"sha": "de0e833a57a8a77e89d8d6cd91a5a8c3993b54be",
+			"registry": "npmjs"
+		},
+		"p-queue-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.0.2.tgz",
+			"sha": "34ab9f1fe43b26ec6da2a94cae6b3c3cdcaecfde",
+			"registry": "npmjs"
+		},
+		"p-queue-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.1.0.tgz",
+			"sha": "3f546275073b41e4af460e41459524b15c2753f3",
+			"registry": "npmjs"
+		},
+		"p-queue-6.1.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.1.1.tgz",
+			"sha": "eedbaf7335b4931ef857e2e58063fed461b97e80",
+			"registry": "npmjs"
+		},
+		"p-queue-6.2.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.2.0.tgz",
+			"sha": "c8122b9514d2bbe5f16d8a47f17dc2f9a8ac7235",
+			"registry": "npmjs"
+		},
+		"p-queue-6.2.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.2.1.tgz",
+			"sha": "809a832046451b2240a0a8e48b4fa18192b22b64",
+			"registry": "npmjs"
+		},
+		"p-queue-6.3.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.3.0.tgz",
+			"sha": "19bfa4485db7e6a0c135049ff6716375880d9c3a",
+			"registry": "npmjs"
+		},
+		"p-queue-6.4.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.4.0.tgz",
+			"sha": "5050b379393ea1814d6f9613a654f687d92c0466",
+			"registry": "npmjs"
+		},
+		"p-queue-6.5.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.5.0.tgz",
+			"sha": "40d6bafdd3bb0c8eaa03e0649ba6fa3ce7249947",
+			"registry": "npmjs"
+		},
+		"p-queue-6.6.0.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.0.tgz",
+			"sha": "263f2b73add4cefca81d8d6b2696ee74b326de2f",
+			"registry": "npmjs"
+		},
+		"p-queue-6.6.1.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.1.tgz",
+			"sha": "578891ada028a61371ec2692b26614d1b7d2b10a",
+			"registry": "npmjs"
+		},
+		"p-queue-6.6.2.tgz": {
+			"url": "https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz",
+			"sha": "2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-b83494dc00b5e5ff",
+	"_id": "p-queue",
+	"readme": "# p-queue [![Build Status](https://travis-ci.com/sindresorhus/p-queue.svg?branch=master)](https://travis-ci.com/github/sindresorhus/p-queue) [![codecov](https://codecov.io/gh/sindresorhus/p-queue/branch/master/graph/badge.svg)](https://codecov.io/gh/sindresorhus/p-queue)\n\n> Promise queue with concurrency control\n\nUseful for rate-limiting async (or sync) operations. For example, when interacting with a REST API or when doing CPU/memory intensive tasks.\n\n## Install\n\n```\n$ npm install p-queue\n```\n\n## Usage\n\nHere we run only one promise at the time. For example, set `concurrency` to 4 to run four promises at the same time.\n\n```js\nconst {default: PQueue} = require('p-queue');\nconst got = require('got');\n\nconst queue = new PQueue({concurrency: 1});\n\n(async () => {\n\tawait queue.add(() => got('https://sindresorhus.com'));\n\tconsole.log('Done: sindresorhus.com');\n})();\n\n(async () => {\n\tawait queue.add(() => got('https://avajs.dev'));\n\tconsole.log('Done: avajs.dev');\n})();\n\n(async () => {\n\tconst task = await getUnicornTask();\n\tawait queue.add(task);\n\tconsole.log('Done: Unicorn task');\n})();\n```\n\n## API\n\n### PQueue(options?)\n\nReturns a new `queue` instance, which is an [`EventEmitter3`](https://github.com/primus/eventemitter3) subclass.\n\n#### options\n\nType: `object`\n\n##### concurrency\n\nType: `number`\\\nDefault: `Infinity`\\\nMinimum: `1`\n\nConcurrency limit.\n\n##### timeout\n\nType: `number`\n\nPer-operation timeout in milliseconds. Operations fulfill once `timeout` elapses if they haven't already.\n\n##### throwOnTimeout\n\nType: `boolean`\\\nDefault: `false`\n\nWhether or not a timeout is considered an exception.\n\n##### autoStart\n\nType: `boolean`\\\nDefault: `true`\n\nWhether queue tasks within concurrency limit, are auto-executed as soon as they're added.\n\n##### queueClass\n\nType: `Function`\n\nClass with a `enqueue` and `dequeue` method, and a `size` getter. See the [Custom QueueClass](#custom-queueclass) section.\n\n##### intervalCap\n\nType: `number`\\\nDefault: `Infinity`\\\nMinimum: `1`\n\nThe max number of runs in the given interval of time.\n\n##### interval\n\nType: `number`\\\nDefault: `0`\\\nMinimum: `0`\n\nThe length of time in milliseconds before the interval count resets. Must be finite.\n\n##### carryoverConcurrencyCount\n\nType: `boolean`\\\nDefault: `false`\n\nIf `true`, specifies that any [pending](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) Promises, should be carried over into the next interval and counted against the `intervalCap`. If `false`, any of those pending Promises will not count towards the next `intervalCap`.\n\n### queue\n\n`PQueue` instance.\n\n#### .add(fn, options?)\n\nAdds a sync or async task to the queue. Always returns a promise.\n\n##### fn\n\nType: `Function`\n\nPromise-returning/async function.\n\n#### options\n\nType: `object`\n\n##### priority\n\nType: `number`\\\nDefault: `0`\n\nPriority of operation. Operations with greater priority will be scheduled first.\n\n#### .addAll(fns, options?)\n\nSame as `.add()`, but accepts an array of sync or async functions and returns a promise that resolves when all functions are resolved.\n\n#### .pause()\n\nPut queue execution on hold.\n\n#### .start()\n\nStart (or resume) executing enqueued tasks within concurrency limit. No need to call this if queue is not paused (via `options.autoStart = false` or by `.pause()` method.)\n\nReturns `this` (the instance).\n\n#### .onEmpty()\n\nReturns a promise that settles when the queue becomes empty.\n\nCan be called multiple times. Useful if you for example add additional items at a later time.\n\n#### .onIdle()\n\nReturns a promise that settles when the queue becomes empty, and all promises have completed; `queue.size === 0 && queue.pending === 0`.\n\nThe difference with `.onEmpty` is that `.onIdle` guarantees that all work from the queue has finished. `.onEmpty` merely signals that the queue is empty, but it could mean that some promises haven't completed yet.\n\n#### .clear()\n\nClear the queue.\n\n#### .size\n\nSize of the queue.\n\n#### .sizeBy(options)\n\nSize of the queue, filtered by the given options.\n\nFor example, this can be used to find the number of items remaining in the queue with a specific priority level.\n\n```js\nconst queue = new PQueue();\n\nqueue.add(async () => '🦄', {priority: 1});\nqueue.add(async () => '🦄', {priority: 0});\nqueue.add(async () => '🦄', {priority: 1});\n\nconsole.log(queue.sizeBy({priority: 1}));\n//=> 2\n\nconsole.log(queue.sizeBy({priority: 0}));\n//=> 1\n```\n\n#### .pending\n\nNumber of pending promises.\n\n#### [.timeout](#timeout)\n\n#### [.concurrency](#concurrency)\n\n#### .isPaused\n\nWhether the queue is currently paused.\n\n## Events\n\n#### active\n\nEmitted as each item is processed in the queue for the purpose of tracking progress.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue({concurrency: 2});\n\nlet count = 0;\nqueue.on('active', () => {\n\tconsole.log(`Working on item #${++count}.  Size: ${queue.size}  Pending: ${queue.pending}`);\n});\n\nqueue.add(() => Promise.resolve());\nqueue.add(() => delay(2000));\nqueue.add(() => Promise.resolve());\nqueue.add(() => Promise.resolve());\nqueue.add(() => delay(500));\n```\n#### idle\n\nEmitted every time the queue becomes empty and all promises have completed; `queue.size === 0 && queue.pending === 0`.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue();\n\nqueue.on('idle', () => {\n\tconsole.log(`Queue is idle.  Size: ${queue.size}  Pending: ${queue.pending}`);\n});\n\nconst job1 = queue.add(() => delay(2000));\nconst job2 = queue.add(() => delay(500));\n\nawait job1;\nawait job2;\n// => 'Queue is idle.  Size: 0  Pending: 0'\n\nawait queue.add(() => delay(600));\n// => 'Queue is idle.  Size: 0  Pending: 0'\n```\n\nThe `idle` event is emitted every time the queue reaches an idle state. On the other hand, the promise the `onIdle()` function returns resolves once the queue becomes idle instead of every time the queue is idle.\n\n#### add\n\nEmitted every time the add method is called and the number of pending or queued tasks is increased.\n\n#### next\n\nEmitted every time a task is completed and the number of pending or queued tasks is decreased.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue();\n\nqueue.on('add', () => {\n\tconsole.log(`Task is added.  Size: ${queue.size}  Pending: ${queue.pending}`);\n});\nqueue.on('next', () => {\n\tconsole.log(`Task is completed.  Size: ${queue.size}  Pending: ${queue.pending}`);\n});\n\nconst job1 = queue.add(() => delay(2000));\nconst job2 = queue.add(() => delay(500));\n\nawait job1;\nawait job2;\n//=> 'Task is added.  Size: 0  Pending: 1'\n//=> 'Task is added.  Size: 0  Pending: 2'\n\nawait queue.add(() => delay(600));\n//=> 'Task is completed.  Size: 0  Pending: 1'\n//=> 'Task is completed.  Size: 0  Pending: 0'\n```\n\n## Advanced example\n\nA more advanced example to help you understand the flow.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue({concurrency: 1});\n\n(async () => {\n\tawait delay(200);\n\n\tconsole.log(`8. Pending promises: ${queue.pending}`);\n\t//=> '8. Pending promises: 0'\n\n\t(async () => {\n\t\tawait queue.add(async () => '🐙');\n\t\tconsole.log('11. Resolved')\n\t})();\n\n\tconsole.log('9. Added 🐙');\n\n\tconsole.log(`10. Pending promises: ${queue.pending}`);\n\t//=> '10. Pending promises: 1'\n\n\tawait queue.onIdle();\n\tconsole.log('12. All work is done');\n})();\n\n(async () => {\n\tawait queue.add(async () => '🦄');\n\tconsole.log('5. Resolved')\n})();\nconsole.log('1. Added 🦄');\n\n(async () => {\n\tawait queue.add(async () => '🐴');\n\tconsole.log('6. Resolved')\n})();\nconsole.log('2. Added 🐴');\n\n(async () => {\n\tawait queue.onEmpty();\n\tconsole.log('7. Queue is empty');\n})();\n\nconsole.log(`3. Queue size: ${queue.size}`);\n//=> '3. Queue size: 1`\n\nconsole.log(`4. Pending promises: ${queue.pending}`);\n//=> '4. Pending promises: 1'\n```\n\n```\n$ node example.js\n1. Added 🦄\n2. Added 🐴\n3. Queue size: 1\n4. Pending promises: 1\n5. Resolved 🦄\n6. Resolved 🐴\n7. Queue is empty\n8. Pending promises: 0\n9. Added 🐙\n10. Pending promises: 1\n11. Resolved 🐙\n12. All work is done\n```\n\n## Custom QueueClass\n\nFor implementing more complex scheduling policies, you can provide a QueueClass in the options:\n\n```js\nclass QueueClass {\n\tconstructor() {\n\t\tthis._queue = [];\n\t}\n\n\tenqueue(run, options) {\n\t\tthis._queue.push(run);\n\t}\n\n\tdequeue() {\n\t\treturn this._queue.shift();\n\t}\n\n\tget size() {\n\t\treturn this._queue.length;\n\t}\n\n\tfilter(options) {\n\t\treturn this._queue;\n\t}\n}\n```\n\n`p-queue` will call corresponding methods to put and get operations from this queue.\n\n## Related\n\n- [p-limit](https://github.com/sindresorhus/p-limit) - Run multiple promise-returning & async functions with limited concurrency\n- [p-throttle](https://github.com/sindresorhus/p-throttle) - Throttle promise-returning & async functions\n- [p-debounce](https://github.com/sindresorhus/p-debounce) - Debounce promise-returning & async functions\n- [p-all](https://github.com/sindresorhus/p-all) - Run promise-returning & async functions concurrently with optional limited concurrency\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-p-queue?utm_source=npm-p-queue&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
+}

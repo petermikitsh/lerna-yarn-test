@@ -1,0 +1,890 @@
+{
+	"name": "@evocateur/pacote",
+	"versions": {
+		"9.5.1": {
+			"name": "@evocateur/pacote",
+			"version": "9.5.1",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"bluebird": "^3.5.3",
+				"cacache": "^11.3.2",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.3",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^4.0.1",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.1.12",
+				"npm-pick-manifest": "^2.2.3",
+				"npm-registry-fetch": "^3.8.0",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.2",
+				"safe-buffer": "^5.1.2",
+				"semver": "^5.6.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.8",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.3",
+				"npmlog": "^4.1.2",
+				"nyc": "^13.1.0",
+				"require-inject": "^1.4.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tacks": "^1.2.7",
+				"tap": "^12.1.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.7"
+			},
+			"gitHead": "532c1f6115fdcf1d0599b1095d13bdfb92fefcb0",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.5.1",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-+58ucsjhYdh2c3EzssBQSuVK8U6POCoJkDlUV40phItV7eRrRiTpGW8WzeLD3y/6efWA9gE6LLQcV8WJJ2GObQ==",
+				"shasum": "408b2a584373b175d9514a11c9024e9061f8b6d5",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.5.1.tgz",
+				"fileCount": 34,
+				"unpackedSize": 114175,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0zdyCRA9TVsSAnZWagAAEZ4P/RtDBrRjnCDmEV6N5SjS\naZDoS8Wet0eYScdVSEBTZXeXRjEJoowTiZ7n2kYqWgme8IFx0O5uBJjWtSkk\nb37fWrhOrxTFq78KXX0D6nC4aeet/2iWprWi5aQeHOxWadMK2Ozkv2bylFo4\napEA1KR8HfHdtBnqF6P4WqRYWZORBdZ4Ax9kRn0cXMnVYCbMb25Anc8hKPrU\nMGFbQa9IOYTPvEa5IBPzXEhCsgIVkR39rKbL6/OthSvsoYqE2qjLo2DEgfsd\n/tWhSsYE1np1qD1Vagq8Y/gsYHBSP1SUejfMJX2UX8dzpqnquK68FxIFieCM\nQ5d8MfWEfruEC3sZ5aiqUF170bAlgTdHOzOnq8q3rKQRXw+PRkFgoy0T83fJ\nPuSSZnNG9OyIulerlKRV5W0C4mgeIySsrwP9IHIC9DkcUo4cWfD/r+dW4BP/\nWwP4lfIH5ywdytz01RTDrgIidMbSWiWrsCU481oRg/t11YY0Wka0ASDqr6tb\n2VhZh1inNkekblg+FdHbrhodNNeX7UmtfHA0zK/m9ZYjxhWFWBT1vxD++j5Z\nnWxe/+GY4amO378d550BtwWa5EWfbxtfzXvzmxgSR2pHw5/WjH0h8XKA+8ex\ncgsMpJHrocagHzHH8IdNEyC3MJ/MtQwfcXq2MFa0ZQnJBvmIzzkxbLwsqqEc\n8WyE\r\n=V/J9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.5.1_1557346161705_0.2574635741585676"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.0": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.0",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^3.9.1",
+				"bluebird": "^3.5.3",
+				"cacache": "^11.3.2",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.3",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^4.0.1",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.1.12",
+				"npm-pick-manifest": "^2.2.3",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.2",
+				"safe-buffer": "^5.1.2",
+				"semver": "^5.6.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.8",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.3",
+				"npmlog": "^4.1.2",
+				"nyc": "^13.1.0",
+				"require-inject": "^1.4.3",
+				"standard": "^12.0.1",
+				"standard-version": "^4.4.0",
+				"tacks": "^1.2.7",
+				"tap": "^12.1.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.7"
+			},
+			"gitHead": "0da7da7f63d5a0107f7479ff3a9a66a6cd57c196",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-nKx8EPxXhzqNfePbqC6603z7Kkf6GBS2q+SNGtBS/bCgS5Q+p3OVR6MXKOkpvC3WHse98W2WLu8QaV9axtfxyw==",
+				"shasum": "3f0d08fb81c572289a2dfa981e7f97b6dd83cef2",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.0.tgz",
+				"fileCount": 34,
+				"unpackedSize": 114867,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0ztFCRA9TVsSAnZWagAAJ+AQAJYzlGIBbnu98p2OMoYJ\nnwjCAYHO05R8AYNNasewJ3sQd41Pmqs/QULaLK5n+2MJEm7y2SV7sW1vOaWo\n06hAM5s/9XdGSjOiMMcMppQEiGBBL9f4f2So6IGes/iOLFPL0JSliCklrqp/\ngNHpTVzXO2f7+Phe0GhhYUZl90x0zQ2yDwgMdLOefzZfTu6umVrz4zXyw30j\n4/mIeLXwyNWp0jtGjgH8EUv4l0VlhYQse1YQezEW0AUkB2pBV/r1dK++20cr\niCqBsH2D3hSSmVO0QICWvuerfcpymxZ4bETr8XdbX6aNi4eP38fLpY2uOUK3\nLlslmQQl84IFTev46Ht9XieUzrhwmB++iE4LQY6CatawtR2KubdU8T6peLAE\nccaWNoa0m0c3Z/BoCAdkc7G8npKcC4IxUNmHyY/EJ+RXfZ98x2u6f36LSPBl\nPqi08Z/bQmzLAgBUCxb1k6qDJ7pIKddsDYVgRULDWA+IKKdTDIT1n59ORPkK\nG7FTU/1GNl+2RxIwmqTfQJRQLvQvy3hYPkbr+2q85QibBXvLqD1Zw5yL6iKq\n/3xqB+PzpGYIe6gDqcC/FPlkbJEqqyv6EY2/mFXFjDwjmPEiDBZF7d1q2iuG\ny+5W5Lg44Odp9tpDXcN8NcpQrG/tcVAXihc20eWAER1ud1moFL2moMFa9UJH\nMaYQ\r\n=s0VX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.0_1557347140383_0.8604982756159514"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.1": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.1",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^3.9.2",
+				"bluebird": "^3.5.5",
+				"cacache": "^11.3.3",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.4",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^4.0.2",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.5.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.4.4",
+				"npm-pick-manifest": "^2.2.3",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.3",
+				"safe-buffer": "^5.2.0",
+				"semver": "^5.7.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.10",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.6",
+				"npmlog": "^4.1.2",
+				"nyc": "^14.1.1",
+				"require-inject": "^1.4.4",
+				"standard": "^12.0.1",
+				"standard-version": "^6.0.1",
+				"tacks": "^1.3.0",
+				"tap": "^12.7.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.9"
+			},
+			"gitHead": "b57ca6646277e51bb54708233ef41c9c69b5f908",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-5G3LlCSmqELvR0b7uJOo8M4eYlmnA25Efft6s8kMeS6N0YZrDcqveRXr1B7BNAeFlXi80pHAA7kFJ1Hcy+427Q==",
+				"shasum": "51770f22735ffd73224fe98dd9660c6f7b725b88",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.1.tgz",
+				"fileCount": 34,
+				"unpackedSize": 115372,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLLy+CRA9TVsSAnZWagAAaDMP/2g5CPxElL/8fwVhPOzA\ndWGqkVL57ontsxC75lkX8ZE86eyWmAjzw+cMGiD+k/+bF52qjatRqbNJdP1R\nab7JTLZJ/T3ZJ2hQxyXettJCollyosLsy9BeS3UPH90c13bJf1iaOfr3BKWo\nmSDlwdTlSCqdphXKvG2Nnfxk3TKh1GMBKuWkYIsXsxSicK89Yvn+hOd7Y6Lh\ntXNj/MXqk4QseDOD5wojLqin6ChGJJhTEAHQRowCyMc9rauQl9V1baygpRZV\nqFU4yShmXVxJk0iQknSG3qVQBerO2o49X0dt8ps6L5ybl2e4H0LPiD0qLOF1\n101NihyQ3rD78RTtu8dKjsq+W1VSH4r/6pDpjM0r2H2gTCNpg0w6/AjQbned\nOsZOenh/zkSu0IyT6/ZgddTxyM4VDX8hoqLxlqMXPALt4Ez5oc8+oqDm7tzP\nAqd3wt2fNwjWNw3yZ8+SDU2qtuJUzURsZ+uQ5wnCoavAo5OGI7vM0olzwh1B\npWA2XhFmh7MbjVvkd0YXhIh3W/ts/gQBHE3mM3Oo3bJp1F6WF1EFBEvneWCr\ngCUWSmsAG+UvGynfk1TYbb3JB7kueWuUtS3iutq570bRzIU8Ec1Ps0k+LpGZ\n11PSCE8y4XJ6KkA4yYsthQVrJvUCdrne9vwQfPnmPaTEFZxpQJk75kRLpm5T\nsyRx\r\n=qsMM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.1_1563212990100_0.5682503153424627"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.2": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.2",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^4.0.0",
+				"bluebird": "^3.5.3",
+				"cacache": "^12.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.4",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^5.0.0",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.5.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.4.4",
+				"npm-pick-manifest": "^2.2.3",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.3",
+				"safe-buffer": "^5.2.0",
+				"semver": "^5.7.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.10",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.6",
+				"npmlog": "^4.1.2",
+				"nyc": "^14.1.1",
+				"require-inject": "^1.4.4",
+				"standard": "^12.0.1",
+				"standard-version": "^6.0.1",
+				"tacks": "^1.3.0",
+				"tap": "^12.7.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.9"
+			},
+			"gitHead": "0acb1798867db5bb001f1028aef9514e80fb9166",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.1",
+			"dist": {
+				"integrity": "sha512-llHPpyboLDCfrqninUglXqbQc2TblQjVJbqluOmWoudj86Xrhz658wqUFpRJ3IXR+K7lgACFK5ypzVB9EMNMtg==",
+				"shasum": "cb70ef1e53430945c5f595a76cac38a1ce727ef5",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.2.tgz",
+				"fileCount": 34,
+				"unpackedSize": 114818,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLidfCRA9TVsSAnZWagAA/+4P+gOQfML2NFkidt7B0rBp\n3YYC1qiA+oGp49pir39QpajzuIcw4xbyu4WgFBN3eSh2hViRJkpo1jJz8s1G\ndrwXMp4D5AnACkcgrQplgTcEAWTpulIJyrfaO8t8Dgnh9SLUAg2blxGCoU+t\nsK9I2ksmj9T2lmAScZD3pvseLC8XVnWNNYfQ2OMEaTTk4LWPy3PFQa/gDnM/\nQ8a4LoMKgUT6WYHQjkvzx9gXbP1hEcQHG4hvpG7SvigfCCJBgmBrg2exwjBr\nIewngt3SZEKGHG9Q1O1pKEYg8oLAPlIcAQHi3zePdT+Nt6qI1+5OcBHGyaRM\nsakuhQjFLy97mAyaHwOVPzvVkZ4FesvoiBL1jDOVHUxaX2UBWl7w4aDmbGxc\n+cBQTlZEFznfIXxPtVLNkz5tuvzhxzTwsPwAUOcCk+FkGL/35wa9ne57tNYD\nSuCuubWKDRGSBshOvtESP7ZyrRJywVjT44dnZVWaJRY9dDRx2FqgMjEwfqEs\n9vZRM4M057kzACqCnWLHzfZ74c6E0MvtaFzlmI0fpZEyhmqE6h1cR38FfZqs\nbApiXKv0aVEi6HAG/tq5+Xz2wjPaPaAc1AvGE3nUGRj0b/AeBvVqhl20PAIC\nX6oT2yI1bXdKLHaDLQfUL9iFtpMvImYBb4Q2nlAT2FrbPkQ+MEiHl27fm+Dm\nZ4SK\r\n=wF+U\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.2_1563305823147_0.8605650044725774"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.3": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.3",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^4.0.0",
+				"bluebird": "^3.5.3",
+				"cacache": "^12.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.4",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^5.0.0",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.5.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.4.4",
+				"npm-pick-manifest": "^2.2.3",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.3",
+				"safe-buffer": "^5.2.0",
+				"semver": "^5.7.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.10",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.6",
+				"npmlog": "^4.1.2",
+				"nyc": "^14.1.1",
+				"require-inject": "^1.4.4",
+				"standard": "^12.0.1",
+				"standard-version": "^6.0.1",
+				"tacks": "^1.3.0",
+				"tap": "^12.7.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.9"
+			},
+			"gitHead": "0df27f4f50fa92155e1ef9a403f13df8bd363212",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.3",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.1",
+			"dist": {
+				"integrity": "sha512-ExqNqcbdHQprEgKnY/uQz7WRtyHRbQxRl4JnVkSkmtF8qffRrF9K+piZKNLNSkRMOT/3H0e3IP44QVCHaXMWOQ==",
+				"shasum": "bcd7adbd3c2ef303aa89bd24166f06dd9c080d89",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.3.tgz",
+				"fileCount": 34,
+				"unpackedSize": 114700,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdL024CRA9TVsSAnZWagAAMBcP/AptYghpFMqzFrqfEp/c\n42iUNemMICMw3onpB5BI/jOtDSnsGNc33IuysFrsmrHXIAFfCj/LQlVHVzBb\niS64hTKxG81GfpC3WouRjsg0uh0Nt9ilDNdZxKSQS8L+tbrIbpYk7XCtGYy4\n1K3CxRfTP2P//rCLrUxJYlZCUZ7T/SuKAX3eHuBBRs17i/4SkdR0R73juoCz\niu8LuLKrBeE/hoYIxPHytKy52ZCt6YDN/Sd+KE3/HoP0l+Wx/pUDSWuSxSgW\niSC7rnLmN/ZjFvHwQrnMS2r+2W1a6mWeaDSGNd+pXHO9J5MjtY29mLrDomTw\nm7VT6ksLT8DwBUpChVzeiehQg2VF4ArOgfsY4IqxIRUixirXKv8lUEzKLdMk\nOlyNVAc4W31ciWxkS7qrNrVLprqPYYGKtHfKFAq6gM+2jVrIViyZ0KlGd7bP\nsvADZVIMSOk9Rhtm9r/KN5uFRXA/VsmzF5fF8UMhcgRnCv7D4YZow12wXgQI\nUhsEvHwnKjz4ebNP66uSZFbNWAs7G1VjjuZby12TI/ZaAy8DwqsRMufKMXA8\n7XYLJYRNTq1zocWbOUf5GCcI4xGNxcWDXWS7u1xp5sci+0eItPStdS4uyjca\nFxFtchNgN6URAYRRYi6n2txFaCYLpg2SUhf7Fjppa1kVCHgv97HRm8YmReAy\nHdWo\r\n=aWoj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.3_1563381175725_0.9766468684135008"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.4": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.4",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^4.0.0",
+				"bluebird": "^3.5.3",
+				"cacache": "^12.0.2",
+				"chownr": "^1.1.2",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.4",
+				"infer-owner": "^1.0.4",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^5.0.0",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.5.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.4.4",
+				"npm-pick-manifest": "^3.0.0",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.3",
+				"safe-buffer": "^5.2.0",
+				"semver": "^5.7.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.10",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.6",
+				"npmlog": "^4.1.2",
+				"nyc": "^14.1.1",
+				"require-inject": "^1.4.4",
+				"standard": "^12.0.1",
+				"standard-version": "^6.0.1",
+				"tacks": "^1.3.0",
+				"tap": "^12.7.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.9"
+			},
+			"gitHead": "189989b946fe059c7cc9f67bf9027a36d9eeaa2c",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.4",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.3",
+			"dist": {
+				"integrity": "sha512-zj1zykphwYqtkz3cFXtHNxifkIjLHRF4Hiq8KsFfhnHPrQSxkfm6BM0rB2g0zWKLJsS9cuyKPcwsM9n1WF4pEw==",
+				"shasum": "12af0962f5367e43957ec0b78a4fed2c80a9f26b",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.4.tgz",
+				"fileCount": 34,
+				"unpackedSize": 118715,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXCZCCRA9TVsSAnZWagAAPIYQAKSLb7b7itjcvkbQO6hV\nwz3PKlmSKMI89npZXH7lXG8pokdVNslVVXQvYa+EZWzxHyp8/fDi0L2NuX77\nA4Tc1XXdwn4g4LQfx+/tgm3ysGvlQdAHp5/lTEL1u4F4RW8JXVI6Z0AvywOE\nCGsb/PDSLTHHVvngsqWFODAovgdheubZlRhMUo1BIkDMnKBeFocnZDkMWa1r\nfbkDC/U2ODlw731o8w7GL8B01U2W7xEmaTtv44p7m+lNfrPhvnKLy4ZbCA7z\n0i93jA0RZteYnIe/eCBAyb+LS0Up3ulahDkQRwnI3Z2e33kUsN/mzJytRJOj\nc2lrZpOsiBPQ/WY4ShMXZeUGdYgquiuIoWnHcG2IOyrtm7V94z+YOzFx9sqR\ntLamjxlQvZkUOpX8ohNsSPkwAWccfixAVk6KMPCxFA1HyxrCEArZhpFuBJSm\nLmptqw6P+V/Txyri0MI9PicNG4Ut2SjHg2En2DCMM0uKaAwFee19qYHNxzYR\nUv5Wq0ugRFDiZz7HmOquk0hjJ5XlDVoNdMTCbYDqVwWL/J/vJSrPV1idCRQ/\nja7YBc5uSznr+22Rg/BdL+ijf/nJ02yEc3tt2rJhoapw5Bjiolfom5qVvmtA\nVVqs2TviddDtKrxyAGQ35VhBNTV58yqt3Ns8cnOK7Ocm2dEAqj6+cbZL8EUR\nQr3E\r\n=26pI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.4_1566320193385_0.24517265520308662"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.6.5": {
+			"name": "@evocateur/pacote",
+			"version": "9.6.5",
+			"description": "JavaScript package downloader",
+			"main": "index.js",
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "nyc --all -- tap -J test/*.js",
+				"test-docker": "docker run -it --rm --name pacotest -v \"$PWD\":/tmp -w /tmp node:latest npm test",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/pacote.git"
+			},
+			"keywords": [
+				"packages",
+				"npm",
+				"git"
+			],
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@sykosomatic.org"
+			},
+			"contributors": [
+				{
+					"name": "Charlotte Spencer",
+					"email": "charlottelaspencer@gmail.com"
+				},
+				{
+					"name": "Rebecca Turner",
+					"email": "me@re-becca.org"
+				}
+			],
+			"license": "MIT",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^4.0.0",
+				"bluebird": "^3.5.3",
+				"cacache": "^12.0.3",
+				"chownr": "^1.1.2",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.1.0",
+				"glob": "^7.1.4",
+				"infer-owner": "^1.0.4",
+				"lru-cache": "^5.1.1",
+				"make-fetch-happen": "^5.0.0",
+				"minimatch": "^3.0.4",
+				"minipass": "^2.3.5",
+				"mississippi": "^3.0.0",
+				"mkdirp": "^0.5.1",
+				"normalize-package-data": "^2.5.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-packlist": "^1.4.4",
+				"npm-pick-manifest": "^3.0.0",
+				"osenv": "^0.1.5",
+				"promise-inflight": "^1.0.1",
+				"promise-retry": "^1.1.1",
+				"protoduck": "^5.0.1",
+				"rimraf": "^2.6.3",
+				"safe-buffer": "^5.2.0",
+				"semver": "^5.7.0",
+				"ssri": "^6.0.1",
+				"tar": "^4.4.10",
+				"unique-filename": "^1.1.1",
+				"which": "^1.3.1"
+			},
+			"devDependencies": {
+				"nock": "^10.0.6",
+				"npmlog": "^4.1.2",
+				"nyc": "^14.1.1",
+				"require-inject": "^1.4.4",
+				"standard": "^12.0.1",
+				"standard-version": "^6.0.1",
+				"tacks": "^1.3.0",
+				"tap": "^12.7.0",
+				"tar-stream": "^1.6.2",
+				"weallbehave": "^1.2.0",
+				"weallcontribute": "^1.0.9"
+			},
+			"gitHead": "98803525eb77400d770497ab4d7518fe6c875d23",
+			"bugs": {
+				"url": "https://github.com/evocateur/pacote/issues"
+			},
+			"homepage": "https://github.com/evocateur/pacote#readme",
+			"_id": "@evocateur/pacote@9.6.5",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.3",
+			"dist": {
+				"integrity": "sha512-EI552lf0aG2nOV8NnZpTxNo2PcXKPmDbF9K8eCBFQdIZwHNGN/mi815fxtmUMa2wTa1yndotICIDt/V0vpEx2w==",
+				"shasum": "33de32ba210b6f17c20ebab4d497efc6755f4ae5",
+				"tarball": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.5.tgz",
+				"fileCount": 34,
+				"unpackedSize": 118910,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXCuYCRA9TVsSAnZWagAAwsMQAKCL0pTR0ctv8Az3jBV3\n6C7ze4sbsZ1uwcyYMio4sAi38YFNv4Q7RQYj/qo1h0UoOlafS5JeG0yJgiIm\n1TwbfvzIXGq0HUWB8onHPNi/dY+xYTfYYUo05WaZicRNT+0fzJ8sxQ4JRwgq\nE9FMLA6WDNAQxJHsmXdZakfPVU/a7dju6kTxdNx1eeRVZ239reQ9Has6vA/+\n3Y60FSWh1o4iWsFJQAfaiPlM84XqK0BLqQBspOKNmT9qmqaDG7fiH+ZUokyA\nTj+uwULfR59NrhqxK6QCcuFBfwsyVJDlEjSf8mt4p7+6l/+mFRfl3EUgCpub\n+PYBbUE9Nvp7i/v27fSFGzNcsJcvGFY8Gc7VKSZ8jTN4cOBXayJRDygnLGSw\n4wQevTTYtNCfSCtpDGmwDOOxb2hLGq9O2JyLDIeh7Zkaj189U5P+GRYdfd/b\nKmeZZKAA2TEAGYpJ/qZpS5eoWcZyDdnBXNKBkKcBCGjx3qi0BiONbytsnPRr\nM02DHHOzC+5zS7ZC5Spala/y2LbUaZ+nVJXa2J8x7W1GLhcXM/kZ8K9XbuKn\nrn12o18hWZ5/Ye+ISt2CNXINVxJdQ5YnCmm2UyOCqtdw+DaWdWHme/S85+BM\nCFHPFfKm/ezSCmSx+hvB/AI8eHEU/47DC4ncPDkpmWo94RFygoixqAN3wsOq\ni99s\r\n=7HTv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pacote_9.6.5_1566321559813_0.9873273038158326"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-05-08T20:09:21.675Z",
+		"9.5.1": "2019-05-08T20:09:21.823Z",
+		"modified": "2019-08-20T17:19:22.385Z",
+		"9.6.0": "2019-05-08T20:25:40.551Z",
+		"9.6.1": "2019-07-15T17:49:50.241Z",
+		"9.6.2": "2019-07-16T19:37:03.263Z",
+		"9.6.3": "2019-07-17T16:32:55.854Z",
+		"9.6.4": "2019-08-20T16:56:33.536Z",
+		"9.6.5": "2019-08-20T17:19:19.956Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "9.6.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"957d1a2ee2a0dac22bc4663f73ea6295\"",
+			"fetched": 1613881352263
+		}
+	},
+	"_distfiles": {
+		"pacote-9.5.1.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.5.1.tgz",
+			"sha": "408b2a584373b175d9514a11c9024e9061f8b6d5",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.0.tgz",
+			"sha": "3f0d08fb81c572289a2dfa981e7f97b6dd83cef2",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.1.tgz",
+			"sha": "51770f22735ffd73224fe98dd9660c6f7b725b88",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.2.tgz",
+			"sha": "cb70ef1e53430945c5f595a76cac38a1ce727ef5",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.3.tgz",
+			"sha": "bcd7adbd3c2ef303aa89bd24166f06dd9c080d89",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.4.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.4.tgz",
+			"sha": "12af0962f5367e43957ec0b78a4fed2c80a9f26b",
+			"registry": "npmjs"
+		},
+		"pacote-9.6.5.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/pacote/-/pacote-9.6.5.tgz",
+			"sha": "33de32ba210b6f17c20ebab4d497efc6755f4ae5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-8e5121366b054f8e",
+	"_id": "@evocateur/pacote",
+	"readme": "# @evocatur/pacote\n\n## NOTE: This is a fork of https://github.com/npm/pacote and you probably don't want to use it.\n\n[`pacote`](https://github.com/npm/pacote) is a Node.js library for downloading\n[npm](https://npmjs.org)-compatible packages. It supports all package specifier\nsyntax that `npm install` and its ilk support. It transparently caches anything\nneeded to reduce excess operations, using [`cacache`](https://npm.im/cacache).\n\n## Install\n\n`$ npm install --save pacote`\n\n## Table of Contents\n\n* [Example](#example)\n* [Features](#features)\n* [Contributing](#contributing)\n* [API](#api)\n  * [`manifest`](#manifest)\n  * [`packument`](#packument)\n  * [`extract`](#extract)\n  * [`tarball`](#tarball)\n  * [`tarball.stream`](#tarball-stream)\n  * [`tarball.toFile`](#tarball-to-file)\n  * ~~[`prefetch`](#prefetch)~~ (deprecated)\n  * [`clearMemoized`](#clearMemoized)\n  * [`options`](#options)\n\n### Example\n\n```javascript\nconst pacote = require('pacote')\n\npacote.manifest('pacote@^1').then(pkg => {\n  console.log('package manifest for registry pkg:', pkg)\n  // { \"name\": \"pacote\", \"version\": \"1.0.0\", ... }\n})\n\npacote.extract('http://hi.com/pkg.tgz', './here').then(() => {\n  console.log('remote tarball contents extracted to ./here')\n})\n```\n\n### Features\n\n* Handles all package types [npm](https://npm.im/npm) does\n* [high-performance, reliable, verified local cache](https://npm.im/cacache)\n* offline mode\n* authentication support (private git, private npm registries, etc)\n* github, gitlab, and bitbucket-aware\n* semver range support for git dependencies\n\n### Contributing\n\nThe pacote team enthusiastically welcomes contributions and project participation! There's a bunch of things you can do if you want to contribute! The [Contributor Guide](CONTRIBUTING.md) has all the information you need for everything from reporting bugs to contributing entire new features. Please don't hesitate to jump in if you'd like to, or even ask us questions if something isn't clear.\n\n### API\n\n#### <a name=\"manifest\"></a> `> pacote.manifest(spec, [opts])`\n\nFetches the *manifest* for a package. Manifest objects are similar and based\non the `package.json` for that package, but with pre-processed and limited\nfields. The object has the following shape:\n\n```javascript\n{\n  \"name\": PkgName,\n  \"version\": SemverString,\n  \"dependencies\": { PkgName: SemverString },\n  \"optionalDependencies\": { PkgName: SemverString },\n  \"devDependencies\": { PkgName: SemverString },\n  \"peerDependencies\": { PkgName: SemverString },\n  \"bundleDependencies\": false || [PkgName],\n  \"bin\": { BinName: Path },\n  \"_resolved\": TarballSource, // different for each package type\n  \"_integrity\": SubresourceIntegrityHash,\n  \"_shrinkwrap\": null || ShrinkwrapJsonObj\n}\n```\n\nNote that depending on the spec type, some additional fields might be present.\nFor example, packages from `registry.npmjs.org` have additional metadata\nappended by the registry.\n\n##### Example\n\n```javascript\npacote.manifest('pacote@1.0.0').then(pkgJson => {\n  // fetched `package.json` data from the registry\n})\n```\n\n#### <a name=\"packument\"></a> `> pacote.packument(spec, [opts])`\n\nFetches the *packument* for a package. Packument objects are general metadata\nabout a project corresponding to registry metadata, and include version and\n`dist-tag` information about a package's available versions, rather than a\nspecific version. It may include additional metadata not usually available\nthrough the individual package metadata objects.\n\nIt generally looks something like this:\n\n```javascript\n{\n  \"name\": PkgName,\n  \"dist-tags\": {\n    'latest': VersionString,\n    [TagName]: VersionString,\n    ...\n  },\n  \"versions\": {\n    [VersionString]: Manifest,\n    ...\n  }\n}\n```\n\nNote that depending on the spec type, some additional fields might be present.\nFor example, packages from `registry.npmjs.org` have additional metadata\nappended by the registry.\n\n##### Example\n\n```javascript\npacote.packument('pacote').then(pkgJson => {\n  // fetched package versions metadata from the registry\n})\n```\n\n#### <a name=\"extract\"></a> `> pacote.extract(spec, destination, [opts])`\n\nExtracts package data identified by `<spec>` into a directory named\n`<destination>`, which will be created if it does not already exist.\n\nIf `opts.digest` is provided and the data it identifies is present in the cache,\n`extract` will bypass most of its operations and go straight to extracting the\ntarball.\n\n##### Example\n\n```javascript\npacote.extract('pacote@1.0.0', './woot', {\n  digest: 'deadbeef'\n}).then(() => {\n  // Succeeds as long as `pacote@1.0.0` still exists somewhere. Network and\n  // other operations are bypassed entirely if `digest` is present in the cache.\n})\n```\n\n#### <a name=\"tarball\"></a> `> pacote.tarball(spec, [opts])`\n\nFetches package data identified by `<spec>` and returns the data as a buffer.\n\nThis API has two variants:\n\n* `pacote.tarball.stream(spec, [opts])` - Same as `pacote.tarball`, except it returns a stream instead of a Promise.\n* `pacote.tarball.toFile(spec, dest, [opts])` - Instead of returning data directly, data will be written directly to `dest`, and create any required directories along the way.\n\n##### Example\n\n```javascript\npacote.tarball('pacote@1.0.0', { cache: './my-cache' }).then(data => {\n  // data is the tarball data for pacote@1.0.0\n})\n```\n\n#### <a name=\"tarball-stream\"></a> `> pacote.tarball.stream(spec, [opts])`\n\nSame as `pacote.tarball`, except it returns a stream instead of a Promise.\n\n##### Example\n\n```javascript\npacote.tarball.stream('pacote@1.0.0')\n.pipe(fs.createWriteStream('./pacote-1.0.0.tgz'))\n```\n\n#### <a name=\"tarball-to-file\"></a> `> pacote.tarball.toFile(spec, dest, [opts])`\n\nLike `pacote.tarball`, but instead of returning data directly, data will be\nwritten directly to `dest`, and create any required directories along the way.\n\n##### Example\n\n```javascript\npacote.tarball.toFile('pacote@1.0.0', './pacote-1.0.0.tgz')\n.then(() => /* pacote tarball written directly to ./pacote-1.0.0.tgz */)\n```\n\n#### <a name=\"prefetch\"></a> `> pacote.prefetch(spec, [opts])`\n\n##### THIS API IS DEPRECATED. USE `pacote.tarball()` INSTEAD\n\nFetches package data identified by `<spec>`, usually for the purpose of warming\nup the local package cache (with `opts.cache`). It does not return anything.\n\n##### Example\n\n```javascript\npacote.prefetch('pacote@1.0.0', { cache: './my-cache' }).then(() => {\n  // ./my-cache now has both the manifest and tarball for `pacote@1.0.0`.\n})\n```\n\n#### <a name=\"clearMemoized\"></a> `> pacote.clearMemoized()`\n\nThis utility function can be used to force pacote to release its references\nto any memoized data in its various internal caches. It might help free\nsome memory.\n\n```javascript\npacote.manifest(...).then(() => pacote.clearMemoized)\n\n```\n\n#### <a name=\"options\"></a> `> options`\n\n`pacote` accepts [the options for\n`npm-registry-fetch`](https://npm.im/npm-registry-fetch#fetch-options) as-is,\nwith a couple of additional `pacote-specific` ones:\n\n##### <a name=\"dirPacker\"></a> `opts.dirPacker`\n\n* Type: Function\n* Default: Uses [`npm-packlist`](https://npm.im/npm-packlist) and [`tar`](https://npm.im/tar) to make a tarball.\n\nExpects a function that takes a single argument, `dir`, and returns a\n`ReadableStream` that outputs packaged tarball data. Used when creating tarballs\nfor package specs that are not already packaged, such as git and directory\ndependencies. The default `opts.dirPacker` does not execute `prepare` scripts,\neven though npm itself does.\n\n##### <a name=\"opts-enjoy-by\"></a> `opts.enjoy-by`\n\n* Alias: `opts.enjoyBy`, `opts.before`\n* Type: Date-able\n* Default: undefined\n\nIf passed in, will be used while resolving to filter the versions for **registry\ndependencies** such that versions published **after** `opts.enjoy-by` are not\nconsidered -- as if they'd never been published.\n\n##### <a name=\"opts-include-deprecated\"></a> `opts.include-deprecated`\n\n* Alias: `opts.includeDeprecated`\n* Type: Boolean\n* Default: false\n\nIf false, deprecated versions will be skipped when selecting from registry range\nspecifiers. If true, deprecations do not affect version selection.\n\n##### <a name=\"opts-full-metadata\"></a> `opts.full-metadata`\n\n* Type: Boolean\n* Default: false\n\nIf `true`, the full packument will be fetched when doing metadata requests. By\ndefaul, `pacote` only fetches the summarized packuments, also called \"corgis\".\n\n##### <a name=\"opts-tag\"></a> `opts.tag`\n\n* Alias: `opts.defaultTag`\n* Type: String\n* Default: `'latest'`\n\nPackage version resolution tag. When processing registry spec ranges, this\noption is used to determine what dist-tag to treat as \"latest\". For more details\nabout how `pacote` selects versions and how `tag` is involved, see [the\ndocumentation for `npm-pick-manifest`](https://npm.im/npm-pick-manifest).\n\n##### <a name=\"opts-resolved\"></a> `opts.resolved`\n\n* Type: String\n* Default: null\n\nWhen fetching tarballs, this option can be passed in to skip registry metadata\nlookups when downloading tarballs. If the string is a `file:` URL, pacote will\ntry to read the referenced local file before attempting to do any further\nlookups. This option does not bypass integrity checks when `opts.integrity` is\npassed in.\n\n##### <a name=\"opts-where\"></a> `opts.where`\n\n* Type: String\n* Default: null\n\nPassed as an argument to [`npm-package-arg`](https://npm.im/npm-package-arg)\nwhen resolving `spec` arguments. Used to determine what path to resolve local\npath specs relatively from."
+}

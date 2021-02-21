@@ -1,0 +1,2504 @@
+{
+	"name": "@octokit/plugin-enterprise-rest",
+	"versions": {
+		"1.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "1.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "16.0.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "6f89061370412f42f631b75ad4b1e744a23f8e02",
+			"_id": "@octokit/plugin-enterprise-rest@1.0.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.14.2",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-wPb3dzsABceUqCy580z7sC7aTptFq14e3efty22xbDYpwQ2mJVBEE1cJ7TQ1iCEK1a2is27LXoKg9baHEPQVpQ==",
+				"shasum": "f9075429a9e08f2d5d809b542b65f8fa32148d6e",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-1.0.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 787225,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcEgxRCRA9TVsSAnZWagAAAVsQAJcGIAxm/v+lzCwZ7hgl\n8hgyZxCvXp7yO6qKj0ai7iDyBxc0UZcpItRtkM30VsRz3a61HOSWwKDc3j0k\n+r6RGCR6D7axS3IpZOB4NoCJ5Nyh77Ak0wNwEjVo0spt85y3Kr2gUQXiAJC2\nt7xzVlTZnxTV+W5hw4dJI+4BVBZJOOLCwCAkxi+VX7dSEnc0TAKAioZ1M7R8\nLNTzNXMQWQ9VXB9ILix8x6Y/GolcWsxbkpxEBelp0ASYFBW+TkI+9VgZYrOC\n+fetpm0BUvNildfpPyIL/k2Lk5/0IdGFkvJCVJCczqCUSQSEg0FRWyiVVsR2\nc+gHo9dVP+uONf8b5JSV50l/Ohr6RF6QVce6VKBfA8C2VtViA8qPROV9rhfy\n93kHQNDczOoR9Et5+n3VJeQED9a4/XiFqoLzNugb9t9NMrCDiP30Cdbqhj9h\nF3YbW+w2dzJ6i6e3wOPaqsazqMSYjl6BhSwRw+LoPrAPlb9sDOdb0Zsg8Tcv\ns4C5PVYbhEMG5DAOGaupCt8hX3E6iz2sz8co5CSE7iqw5sj+UiEgPSnQJZKH\nhLZJ2I/YkhBJcQmpiBQKTD9Nej9B69ZsoogGkWHyo1617Dny6PaEZiyuZlad\n0FObmSWnFmVDvCi95k695zjskn4AW7n9Nwhk8C7iEuVqNEtrzcsIYWJkVjkG\nqDX2\r\n=U+rY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_1.0.0_1544686672746_0.769418825479081"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "17.0.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "2ece6612879075a01e21c077f91e159e24ac3808",
+			"_id": "@octokit/plugin-enterprise-rest@2.0.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-3GoZf2GjFwVl7rVVFsgzl288eOOkY326jQiTRhp+pgXRCpGz9OHjSOmsR4fHcqJG3zLggY5wlmFIR68jXm94+Q==",
+				"shasum": "84d2c12dcd131249e4d7613d1db0a4b5829e5227",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 783635,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLlfRCRA9TVsSAnZWagAAIwoP/0vpzDSc9QKPK9pZqhF4\nF1B0W6pjlBZrRAwY1aUKBNLPrSM2KkK+B9ukrQoaEGS0WIURAvY1XVAAQlhJ\nlBOjhxBKRmcwL9t2WIfYt9A0DjZn9cLIFG2pMvuHAkvC8fLInhC4dVP2pdoS\njBZs3yNCNUgnpatIVXYVDouJBr5B3JFUJBDjhH3F6hWIrzVRgOedI2qhlCF0\nBl7HvlPUz95ntCM12uRogezjCTYrdNe2RmL5+RnTrX8Gwwv7Oi4PHbdFOBGF\n1q84d2+EUUDSQLixm2EtJEeNpXXKvvjlWzyrKay8G3IVpfikJYGpVaHPxgp/\nfXAmvbDyHUCe1E1QfSsZG7rORnMAYVF3LtzzNyRHrbDr3KUvTWjdcVU8JbiS\n0aPR661+bNz+eMAsymGTQVsk1MBeDkQDZ4jNc1BmuZJrq8I4Rs2WIM1uqK9E\nupdgVO8SWWGEpiD9RNIM21TIcgjVsGkeaYIjiFjAnqDyaZrNXAMBPfIIDXU1\n++M9z6QCwPwjVCIjKHTNFFuNxO2TrlgOuH265WDQvVo9WBg0FdVHZ1///9lY\nCY/FxtXkQValSB4PG1OrtoGSpbqalzLQF863Bei6aNXt8SojZ98yYP++qhBd\nklGPquaHJU0GrwLzFBxApyiNe8sbiT9nJP3Qy5Y6wDTAXBZbZixearKSF2og\n9y71\r\n=a2DD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.0.0_1546541008327_0.9180525340942522"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.0.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.1.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "9dab45df10bc86e486e1fffff84d0581e3f91ee6",
+			"_id": "@octokit/plugin-enterprise-rest@2.0.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-KQGlJcP0cAbeORVB8DvGLwYQviDorDRYD3MmtJXcnS6o+BZ24+dwNRxb9rCcAv2ecEKdTsiZAb/G/9aI6TDcqA==",
+				"shasum": "853398fed416d5901929124f49e8757dc871c12d",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.1.tgz",
+				"fileCount": 23,
+				"unpackedSize": 801934,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcOQ1sCRA9TVsSAnZWagAAoYgP/Rom5PzB9PwAQbg90rg+\n5fWIP9Yko1HyzyrTrnZeJiPZLBROaFiIc1hkw07mjoI5TYAYsWSB/9IzK2rW\n/+AGRFEB19UK01iwMKvDBm+rxbaGFlAM853wFQcK7q09CTeBH1SMzty71dto\nZspT/W0px7loSbrVAU0cG1nMWkVIiSnbn4BeHyNOe+ho4ht84bSQqd+r0zZY\nN1tknRZfDOkjjwg3GZxEJclb7BsbeXZhk+N4I2bHcSv+mXraU3iFrueO32/X\nhQkK9JNNnKZX5J77Uex+JCB1B9+zBWzzlmVCvBSynG4uQXnW/9q6hZQBAsn+\nZNawjQ70lUikcX7O/nLiDrmNinncz3HMnblhkMIAtwvNSDpDbXpruvcJzfKM\nwcGogIpFw3IwF8TuMITaQDftP/BqgVfanCKKn/sUAD/a4z58IC7vNFl51WUC\nUQy7lHC7rQzL3gF5irS4AHsnQTSThee5NTCe2Wo1BNN4wkTZ32a4RN/OJzqy\nt2p45E8S448XHNaYrpZL7ogNPrsm8fJq1f3TQq53DpCAN3AKfDCI8Kl2DuYg\nDCVEfYBrDibGOmucBHu/YhAHlIKCnUCC4TxXED0Pw2sbUnJ1rlsSSHgX3EHK\n5dNbSl5dy1SgSHnbosRF5+4XgW/g6pYgGUytI4enUZFJjFmBfPJrsCW6wkC5\nsSLy\r\n=8Vvi\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.0.1_1547242859423_0.015731720502229818"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.0.2",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.1.2",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "2d75748b894eb376b36a667fa15aa284cc56c41e",
+			"_id": "@octokit/plugin-enterprise-rest@2.0.2",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-by8OSix/yfumIWXyEOlciaBMAr6k7OVRZZs/JeptWYMkgQyAomOwrwdFAOyuoeDCmR4Iua/hhoYhklgSnb2Jlg==",
+				"shasum": "3fc1f1ceb4ae9e9b9eeca0e6b0c081aef41fb14d",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.2.tgz",
+				"fileCount": 23,
+				"unpackedSize": 801938,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcPh2ACRA9TVsSAnZWagAAMTYQAJuAlCEur8zW4EoinUsA\n6tbq7RGSfkDUYSx2fbLA80mvcZZKW9GuoDty0fqLj5PIgUDJEO3sORVpQqt8\n7RDZyxmO0w33dR+Ecvz00Pkh/K9fQyVsJVeT3fbkgX1AYwFhZJ7ECQwoAU8T\nAHE8PF8omiiHPCSG31NfrM6NKiV3Xu3adaqk5dubRlsvCpGEviZI95gJm4rP\n8XGbtEDhj/a2UIim9kJiCwdoXWsIkVvIxkekXOaZDw+sFC4a0qYasM8AN3a0\n5AYScHSZbbvCZXznH9DsL9rJWGuRwK8dHVxw3uCDzA5ZtRXQ+0sDBZsqe5F0\nFDmFAHkBBCNyrjyjxyC/sJMO9TqvdRyxUx1onrhRyH3mO3ui5175Ibmfhlcq\nGfRvJzH/wHxrPqvSBd+r1isWXI7pdHw9f0Sd80Cox1kp5OBJgo/gIcGPIT+F\n02a6OZikrNci+1Dc7zpHc08ZVKjSkfgxcTtR3cu8+fX19XILoBDKtwRGu+l3\nJUljp0AaHYYESvkzIEb97Ij7IXl5bl1fPVkKLmg3s5kSIZhGAjq4rba85mhk\njrQaaHUaAGACMFC+paMgLrHxsU8ADlJjJgvDcU47DH4RvfVpTl14+9WIiIwC\n39dOhN0J0I9jFE76umvYPoJFhUTt6hwPg8/RKmdVonj8YfwpZAPHn1cdHWku\n+sQi\r\n=7sMh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.0.2_1547574656132_0.31998606873797963"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.0.3",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.1.4",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "a20a5f01f79b80a257d771e4f36da61620d76005",
+			"_id": "@octokit/plugin-enterprise-rest@2.0.3",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-JZ3Ls1dDpI6sxGFupqDye5HYYbiaxEoyL1HOH+CseocEziXUQUlITgFZlpsGMxq8ofWO3UwTBc4bBE35sM4jRA==",
+				"shasum": "00f946f9ddaaa4f6d7eea65eb85825c04e07e1f3",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.3.tgz",
+				"fileCount": 23,
+				"unpackedSize": 802265,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcPswPCRA9TVsSAnZWagAAOfwP/2mmRchT0MeepFKhGdyM\n+TLakkiW3GSJUf6HpLlxC7PoC558iqYI5Rpy0IRq4zCNTJDNjD+nEMo7c0/z\n7vJGW03XAzCt3iZOlawh3UwQducPVZ8g3S0H978YVRQW5KP2mcYPLWYPyz6G\nOapxpJQu/nz1CsOZeKx2smH/7VSGFwTZ8KgSwFvWUnkqqS+8M1Lrn/GcrC8+\n2tNMyryXqnB7Y+jlgGlmnqjOXVztY1jRN51eRq7axlvKmnNCLx+rg5/cXinf\nw2NofouJlCBcygA+HxRQTOu2RVcFuMDV9uYDM20aHK+i17Sjf4JWGrbx3EmS\n+Sr3/sX+N2IzlOecMFFwMIDYmk79uShJZOa2N7gZeGVHL6GggHK8P4qGK7Pl\n+8wQ92wJG9naZV/vckep5rx8eSSK2Et+gfm00vxVgvJtk0pvQuTW/Q2OfDpD\n+0WvacU+MLDaslKDFWmErC8bdbqANw8DuKh7dA2iYstiF6Ba/qMfBZ62iXN6\nyKq2zIQv8tDs5Gc1XMYOw5XG1NgLEWpusTciBidEzsxrRmtBC7WFa74RflE0\nhQUz5aYkgkWxA/g+T9GoDsSpXWTbH6Kkg6R0A6F733WD7yr8DoHtZLUoxRoh\nd4+l4SwiAD1LZNmtmGFhh4tXtUHzAkX+1DmjU3nDsodbWQVLvc8wZYoh2myx\nS7Zm\r\n=mOq5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.0.3_1547619343055_0.9726489745536393"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.1.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.2.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "b4eafa913d2ef3b571bc53cda76a70215d6bc1ef",
+			"_id": "@octokit/plugin-enterprise-rest@2.1.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-Rx7hpUsLt4MBgEuKiRFi+NNzKTeo/3YXveEDFD2xuNFmPTtgJLx580/C1Sci83kBFkMWXf6Sk57ZrBG+f5jWIw==",
+				"shasum": "e5fa5213627a8910fd151fab2934594e66fce8fd",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1073798,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSMTnCRA9TVsSAnZWagAA5PEQAIYqpftxDTMjgVnI0otq\nIzkGftBS6UNMOe+t28prjPly8Uw/lmr637caT1hiLeMkd3zZltB6sufhAq5r\nBtNv60L4j7H4TbSKG5R39iKi2UM5PN50CMoU2YjKTDaeLBieTzYzMmunPgDo\nvIhZbXJ/ugpGoZXwlBHtWbzV5p9Op/xpZh5RR3XcjyfiQAdqvpGutWAtBvoL\nC3UHHgkYQqMfe/K4H0x1KpsOy2O9+folFDzPhD1vQ3c+o5biGz61R/9/ZrEY\nZuS5rxU+UHdG2DAQCUzygcNieGq0S2iSgLL68h9AFzH5Tz1RLOkuoFVh6F0a\nYxiNnnovYwkAYjmnqKGXayeEKHgsGo/RjEI1qQxq0vbVI/D57CkFFCmQDB4A\n6QbtW8QgXAR/7QmtciEMvGzyQbdAPLArtdmYNo4+alfu4Jipxhy5EtwAC6WG\nbsd9DK0Z3veim7S50eVrU+aiF9CnPfqNmap9XK5+Q/vc37B0tM8eQouoK3ZN\n/8jNDbuhTFQMn9Hm+13Gzp2gJtDLN65enm94jrivVI2df2TFsuwfSJt2nMFb\n3ifUdAmc4fAjZ4m2a+P94HKiYuiGKBmjBZU+PF3kF3gyT87HLmZdX8pvXWC7\nzoQHgqnvXrNHHEA7Ti0WWH356qWvjWYiUBsqWICHWnOfW9mFmqxJ2+C6/pVS\n3ST0\r\n=cTP1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.1.0_1548272871031_0.6543610337336043"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.1.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.5.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "16810e760e6fe3291ff2951aeab49dd1d1a39c48",
+			"_id": "@octokit/plugin-enterprise-rest@2.1.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-DJNXHH0LptKCLpJ8y3vCA/O+s+3/sDU4JNN2V0M04tsMN0hVGLPzoGgejPJgaxGP8Il5aw+jA5Nl5mTfdt9NrQ==",
+				"shasum": "ee7b245aada06d3ffdd409205ad1b891107fee0b",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.1.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1074105,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcYItrCRA9TVsSAnZWagAAhzoP/0RRfWayMP3yzgPgA/4g\n7Ziohb7FNVHiMH/TWgfhpbVBz0k4zKEwwD66w3WXWuGo/O8JsACTEruNePI1\nz9QtJGXiR1HJKClwCUoTZN4Vgj6hzWC0EsdxLvgUF/mBXqPeEWXozqDMh+zR\n7SdCMvo0CUwQTgQW4LPQzfOgAtGAxZyoaceX40mkan+yTOjCJvy5+mwIILK6\n2o9md2EYEblZqn8YIElTb26qI0a1Z0JjqxaPI3uVQ7GrPc0hUbBMXhV52FfH\nW9bdAf1qfnSGIqOQBFaCyFj8jUja5Yj4/c9eLZJUhAZcMz3l8H87E9N6gu9H\nw6ve50qxNQr+ITq5mLEDblrhk5/bo5cVAa9tiqR/MqvcWBppNdRoBv+8xMOE\nDuLwPyyKActy62aLwORHy88T02lIX3TRo8wKsmV9p2t+5VmYV74bDQE/juii\n0WsTMqPbZlFPCl62Aqg4ceHK/PrnMnT91mv2+VVfHB/p+wTEoOuj82stIl6N\nO6awR9Ve6WNiBpnxr70bHN8rVsPx/fmFexgEMQH19TmCrraYtdhcjOCQ19wY\nOmYj9Vz97umG/h9ZzjfQNFXrUUTPywfHCxspYkxy6qQji3+H0x/RFAeIBv0H\ngBAEatenvqQGDwlycFRtLPqCsqlZI408uDdakpGlK5RyJDy4NqDEfkFVTgv0\nzK5V\r\n=HrkB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.1.1_1549831018900_0.779355791114132"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.2": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.1.2",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.6.3",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^1.3.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "6100bec8807f83d60b3227d3dff16d6869b86501",
+			"_id": "@octokit/plugin-enterprise-rest@2.1.2",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-EWKrEqhSgzqWXI9DuEsEI691PNJppm/a4zW62//te27I8pYI5zSNVR3wtNUk0NWPlvs7054YzGZochwbUbhI8A==",
+				"shasum": "259bd5ac00825a8a482ff6584ae9aed60acd0b41",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.2.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1073641,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcdfDuCRA9TVsSAnZWagAADPcP/jWvv4E0mPA9Rq98Uehi\nrJr/m9aKiiRDMCufaaaXNpYt7xcR7MFyWQPVnM37D8erjjNftErgkkuY9Swy\nFJiwbbSFu5rGby83Zir+CuHb43ND01wsdCZJOCJ96IwnxPNztLVbkR+HZ9Zj\nHEJzqMvYcT2I1E5cYH+vGkkUTR9ELPYr1IXuhueYi7JO8dc5r4qRPA3+NWwq\nZrviJ7caKCnJ8HyWEglaXQJ4zWNBaP1A5k4MXxpasJUMTQl7miy30m3m56In\nUFy/OPdYjN3jNduZ3ZqIBxztCSzZAb0vOTikwykCRfbi3FjsPSYCXYJUCn1b\nvEyGN8HTklv+gmncq+4VmHjNYP57A9maMrLQ1D4RQJRnwtyeqRyfiE0ZXq4S\nPtg+oUY0ob4Grxgds0J0ULBdn/c+avAgnCapaUtrLKnl1r1lvCu46K5O3nHa\n1lxB7gaUPnxnp6CaSRm9bZs2wXnXo6oFIll/e9OkWbND1mUNJRYy/12aZ0uq\nPXPHjhwgSpnTLueT0PEm82MXe4QMwyHagx1NpfG4OPSPvaSxofLOYIt7JCJE\nl1tCXlBA04rIzx++aDK9xCXFrcY+BY3JIcPzQXKgbrXYm9RhVTJX0lt5cROy\nfTTj5w1WkG/p9yiX8oJEU1NBZ3ziz8XjbG6Dh+mhtDmpkktHOMQ0QJjEfwiD\nPTc6\r\n=8Wn7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.1.2_1551233262090_0.9378306711118158"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.2.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.7.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^2.1.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "783ca848be12fadb5cb3335a889c5c7138ed557f",
+			"_id": "@octokit/plugin-enterprise-rest@2.2.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-/uXIvjK5bxmMKI1MDZXxVSiheiyvqv7GCWjoN1s43jF3MMrfqnErOwbZkreeL0CgO1R2lNW6dESDV5NbRiWEQA==",
+				"shasum": "7ee72a187e8a034d6fc21b8174bef40e34c22f02",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1074189,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcgKsXCRA9TVsSAnZWagAAs30P/3RWgkvUoPRFMNIP0Yde\nzazSiR3efZLYnvdNWWHoq4FQoMi8ERXfoqY+Cw1AcL9+OIKK3n/1RaVWEzJp\nm4kbbVOzITKG4Wbm374Sq2jrzKKRL9GQqL4t3CqL0j9jxjhtp4IQkguBeeq/\nTI4BLfx1sNeixDOv7xUrincbCeBoIsUmz/V9hZG5/gv8MPKTbkAS6gfMP6Oz\noUuJ8thC0ZCdnsvIXucjbba2k2DdaodyqOX2ZjZsRGuV7X7JpZi1zTtJJCnJ\nAkw4CWrFOqP7jmu8ClpuhGW+ao2BCzDYbz0RK76XP/VqOzM8ZYiqLRCpInA7\n/pdYVS/KgNBAfPdSr3iTzz/3Qw31GnuejlK0SlUScnT2pn4iaNhrDCVOnT7v\nn7vnxi6Qts9lvashOLqdCFlPACY7JwfWFsXruuLD4RgfeKayXW50LffQWkR6\nVPRMvyva2TZAAmYZBb9m5q1pJe/hbiONvEW7qePmdTa+OZwzbF76LeodRkni\nCjxSNUXfufEMD+7IrkAB7cckHQEA1JKH2rOGxMtUC9wMW7WIvlAqkpzmbahc\nLLRu7KaOSesxsivWZrbJLLjOyZJ6VrdoGlGUZty701/9tSwcZd62bjPhFG4E\nUGphEcAWcRwiiyPtQL5jrL/Dn6ADLElwwQWnmAg4EVGwxTOdU6dlwIsbaaBl\nkf0r\r\n=1Mx1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.2.0_1551936278811_0.3064045672858151"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.2.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.7.3",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^2.1.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "a17042454b7e7077090786d452895a8639863ce6",
+			"_id": "@octokit/plugin-enterprise-rest@2.2.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-Ssrh5D5uOqeS/Kjs6bbzn4ZaaaZQ2h6X/DgoDVv0Goa2ncpHwBN644hfYOL5ycigkpYbHKTjyb6cM49kPwQRPA==",
+				"shasum": "47954271289cfc65607a8cfb0257f0d47fb2d486",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.1.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1074957,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJciUfDCRA9TVsSAnZWagAApAEP/0jLQ6QO0Qg7kE+4+ZzG\nMRQdUwNeLFtZydF1WFlWHcr+PLbEyMkPaMxk/nqRqXtsZ40yQKrEZGYMVeGQ\nUXD6IgvbuvA29+tCUPoZR2wvK/ONTmpfb7ggPZkRwVzdQCLmAVVi789VLaYO\nNWse5VV+JbF0ShtEtEQ5KiBx1DDrnCjR91PwK/TlcBYGicqn98URGTaIw8MS\nasBBtpV4KeTRHkwgH5jxooc2gKclk9xc5Xnt/4VFxdJNVr9J0LLpFMKmCTna\n+iZJntFCGHCI3exD/E1bAHeuHPLUhcK0EKJbHKwQtWqAx+7qLLIXljl8VUfB\n3eF7owxV2DMdxqJdYf9BNaM4mXjKcEejOmT3bOktRpp3bHFN+HKtKEN+Ywp9\nKcKbblRPwq1n3AVzUI0Tw9EgQbKytsVR40p8OIcZ6y17v6Lkek7GOkPL7ZO0\n9Jnxde7s5ghxB1HGPK0nDVsME/NgM8Uwty4d2sV/2Si61a8wR8mghJ9oKA8J\nNh/6fQG6a9koI2LAIETYK3REUU1gz+F4OE5VPWG2A+l5cX9I/RTRIl1LHjlN\nw0qHxlNq32sQgxwJX5GEMAtjB71qzZ215HAP1vA3rODJUxrGd/kd24+NDI5j\nxl7QIhvf38S84I7n9js+1sDeHuqDq5re9iawpyQQYUFihXT2cVTWY6sxLIUu\nXfpU\r\n=88GT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.2.1_1552500674334_0.9831360619213363"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.2": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "2.2.2",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "18.9.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^2.1.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "b1a5f7a55478420e2177d48f6d7b8c1cd5b32dfc",
+			"_id": "@octokit/plugin-enterprise-rest@2.2.2",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-CTZr64jZYhGWNTDGlSJ2mvIlFsm9OEO3LqWn9I/gmoHI4jRBp4kpHoFYNemG4oA75zUAcmbuWblb7jjP877YZw==",
+				"shasum": "c0e22067a043e19f96ff9c7832e2a3019f9be75c",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.2.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1074351,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjdd/CRA9TVsSAnZWagAAAbcP/jA39IPIw84OiuBNvHPp\nDZauFdxo/LFi9vLtCBLBP7R9dBUPH4scvbqJvdkfZdX4AZwIq1Bh0AKl/pYi\nenLzUSh449KBytrNDMY4ThE8UolBmZoGLXNdawqtzD5A/VKGLYfPRBGxWD8h\nIIS038otHullmLJDqQo86bEpUVXZUArlr1H2G+sk83ocrySxOygKhfOOcf8S\nitWbV2ZA6vj+RkkxQa4wgLTzFSnaSLwVzqiRMy4ckf68xlhAEEzijCEj/Nnt\nduSdLfMBOWTT0Nu12d/82N2pO90yUEu145cW+3WT3kTnkDBBlgOahdoGX10p\nTzvIG8DhXvIt+gRRDmmQk4ag9Iwqepk0IatZlu9Q/6e+l/QchjGI2XVhY1+q\nQlk8MZTY1teKT69xdSk7gl0CnrySEaVgGNZeX9dgVsML2r2GavvTm/TgEEKh\nkGsgHcsQAQgfUJ7+BRvQU9i8/BeZ71Vicbv1JSMjs5eqjAiRh0qj3OTt/1y8\nPHzkdKuzyHBUSEBzCVJsD0BZAgEMdNwIk7SzcnkGYLBmEexV+36+5C0y8vbo\n8Iq3j6qDbzj7C+St2T2lKW5PYI/15rxFPgOHncsHx6quSx7wY70M7v8sL134\nmGoaxF/HR2tIYPZIPNay/nmMhZWkM63q5TmsDb1nvwdqT5kKYA7oEK4umrcM\nExeL\r\n=1t8K\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_2.2.2_1552799615042_0.7790214627667467"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "19.1.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^2.1.0",
+				"semantic-release": "^15.10.7",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.0.1"
+			},
+			"dependencies": {},
+			"gitHead": "473df250b2e37c607f0a8e6b0c4cc6132c62b74c",
+			"_id": "@octokit/plugin-enterprise-rest@3.0.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-+1J9IG6BZhiIFzRfqkm77dIEhk3N9PBTSMreaAuo6+oGR+/zfzKGKbScUWV3Nyfw2Al8DmbWB8BFrf4MbnPLDA==",
+				"shasum": "234f1a9a7ea3f9a721c4e4dc5051153e0d4b4fb6",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.0.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 829001,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoOE3CRA9TVsSAnZWagAAET8P/0TDNWjtnv7uRDX9Y3VH\nPNIjrkyZa9176A1RT72Q+u3v9Npm3B1GrGHXidOxwpUMkr65IdXao3Ik0184\nZ4u6hUlTsxb+hXWRl7haVQLWntG2wDSnrsGN0TmJ6wueV3bCio9XgX7ZDs2I\nI0wa7ltBspkzQP/XNl7NWyEeSzjjTyiCrY7Z+syCZTQy+vYYfjGj4gxY/Qkq\n/AmfMVQkHwyvtrnXB4aWK0AJeNGsVf4Q5kuCzR196vhtWC4Kw4r+qmSF1oac\nCgWTRuqIuv2AgysYeCn6UMXZhypT3JrH4TKqAy5e+O8qDW6f1aT96GUTxhi0\nZqROj6zn77bT1oRYWJvXqjTaqOZIlfBAmso/NcH7IhFZiTAwBVyRG772o78w\n/SiGuegWoDD+bsaglPk5Ae8soBbnbLrNqDlvXQW+2aTEVQx3wjPhqTn8VFqb\nJZd06DqeLiZLWJqJrJOrncBZBgDu0JJ+MQDUk7UYaTeBAfrlqda8cI5zNcos\nJcAttmvKOgAVUmoSDyUQXuAIx7dUy4qDoMOBJpmMl7WV+EERt7qYppn5ULbu\nWfg7F/JkAo9ZE30SmR+NZiaQEnGTtLLWIwMXZ1rNYwIUu3Y2/Z/e+tt6tZCn\nvJCMYx5atpIF/yYUZDbxcXyZZSsv1MVqmrcm0vrFbZZwWV8XAUs4RBYifWVt\nBRHG\r\n=HH9J\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.0.0_1554047286695_0.7462268881101075"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.1.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.0.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.8",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.6.1"
+			},
+			"dependencies": {},
+			"gitHead": "3de810e01aa260a3987cf135a95c9cff4a25ba52",
+			"_id": "@octokit/plugin-enterprise-rest@3.1.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-fYojyf+NiPzCAdnqDROi8OUmF3lLUno0GmvrfrWqkIWIkDPSo7M8qCHUanp8n19bx1XwHmN6/uoLteVYNnwqrQ==",
+				"shasum": "2e38dd604ecd3a517b82140bd5db8e7bc9c06dc2",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.1.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 846561,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctSJbCRA9TVsSAnZWagAAUggP/2mNQvN4NFp7M5FB54Ih\n6OmDaj7EAzZLu9t3ZkQJMCFUK6pBdeQXVLpvOWmXc9xzgFa0tE8LTkZQ8YEx\nOTHvb4mkq72K5AEWbBze0eKZ+7NYYPmtIc7KPWXLKBMh7YTrRXM6NStzf6ey\n9vEVhHeg4efJs0V+uagj+MhRkuNGHsg3bskODBtbAch1b0QGeIHNAj6BEqeG\nUCYgpRwqbuabEEmtqfoBnnrhJe1qOujacsTuNJbKTvphB0xczfgxh5McciIb\nSSl0rdIzkgn6/xNI4RyEVgZSe1EqCS0EhH9xF/ova88fT8lXfzUBmdZyOe0L\n2tf93BzuJWMdMB9q88POyrim4fgivwFaLszMlHK25mglGuLJlTOGgHJPiZ/8\nw7reIA0bc/j0H8F6QZvyOzCcShkZcXfW4MDJ+aUx3pxzqsUCLpTPYnlz0Qup\nF+Ew8UDK9Ftvspr7XyeQ+PCE/jyabenJF16KKa58WMYlCDCte4tRi2pQB+Oe\ni6YCgMB7n5XPoBxCge4hM7+jIU3HYn86vlYz7Rm9WkZZxF9hOfWDG4lqM4pX\njlMtCOEMKfkHrt6bq1O/jA7h2ivJ2Q7QOSw4rcBirrcFsbOLmFgoAzaocw8a\n3lk3yA66NolIXL/5/2Lka1IvhqeWe6zaTAAwmdjNWaaGFyD8RqqxuZYWTFMJ\nKLve\r\n=ccVQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.1.0_1555374682940_0.4108206492059474"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.2.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.2.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.1.1",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.8",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^2.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^12.6.1"
+			},
+			"dependencies": {},
+			"gitHead": "4716ec79abef5fa9a160112a9594c199b0f6a5c0",
+			"_id": "@octokit/plugin-enterprise-rest@3.2.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-2f6xO5G/EoLBowWB5D/goKwsrabHlmH+i2vJEpHd4kb6MFWS5kCz7EnyxYmRR9H8JxEOT6dBO5z4xuM8FfBw/w==",
+				"shasum": "5b6a385eca56b7e44c1d928802cd6e88776f5577",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.2.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 851118,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcuSHjCRA9TVsSAnZWagAAZegQAKHrq4N2AXXOf9M0YceG\nmNq5a3rEpxZVkMVcQyWanK8VF9A6QVqCY4H+1Gtp35nb/2D7Bg6Sg3B1MgCy\nHefx/3ezQklbwbd40oyb9nCPCmPxwOlVsRrrPQzUleju27y8QuD4gvuCkofW\n4IhNxJ9q/8ZU7wU+l840EuasK/QN39j89COYBjSJseRYyOeYoUvjAAUXFy1g\ncYsSE+uxA7zYGq+GvkumPQ8phZ81ytc61K53c6fjCHYarGs9VKXqRM8KpRbz\ncPUpY/MaxVE3aQPm1w4UD+mqDpcmjs4/0hXXpJx+Y5SAYVKsNMIXNq6Sm5Ke\nBEGAWOg+RIbnrb0z1BXZXgkQZZGsxnZyOZHh1K9BWdgiC1cCMHSJMQsrYR3K\ncqoBriyNyJcPwIN7u0ops8QhyNYNRctCRs0LqDsw33ihEnRnSXsG9kUE+ctz\nts1phPbDwEoEOe875Pz2AHoIWmUBGmOyc3GjBNr1YuMEHGb5oeeiMFKIt1IR\nTVRQ56s7BEZ0VJT+kUpBvzvXJM0rQMjkWUgsUIzLxj3d43bvmv34ChDgFlLK\nJuJ0rfkfcQaKHnwQ6RfZE7O6j4AzwGC9qkqP0WZmn3G3dmEBFjwtsX91VKth\nqSVinZaqRL90J/n5Nfe796R7bEFYfmLSNu3gsCT3ys/jV6qYJ7/XUuXEkvVQ\nqr05\r\n=fVoF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.2.0_1555636706674_0.6269992417058463"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.3.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.3.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "d56358f69600f8a2abcac6807e9de821e47bdb9f",
+			"_id": "@octokit/plugin-enterprise-rest@3.3.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-kRpXvfqgbnJeGhyDUUanPKavPQXYc/N3P8NALEXCGr3zMEWsKNK1O34SuJsJS9/8QFrSwo7iu2L7M7Nus31zxQ==",
+				"shasum": "5fde4bdf6ffd0b98ba1855592df0bd4cdf999c2a",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.3.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1139575,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5xHLCRA9TVsSAnZWagAAiRUP/3MhZsP6G5ZEABjQG0Pf\nI0lHRAsbmBccQEG6n4hdLipzL1gs65gcTWcplt4XBmJsJtOevYSFg0Ai17V9\nm1T52nI8PdsuqSA3B8KmHU+t7YYan2mSijEor0/Kqc8Uo/Jp8JTv5YwgO4wp\na/j32mKYnak9981xGcoUi9Iya+yWiE5aPKjDpaIHhcLvUU4WorkYadNA5jRg\nIIk39ApXZULaoC3MSoMeVSNl7Za0hGeSne+EcMJVU1qhsWFEfoO1peYbpYuR\nXwy09c3pPc8KV5leUOY4Sk06f27uMSdQRUsWCj1VH+Tvsz4E3K5HDlAS3YhG\nGWz5ZcviiEKqHeD1NucAkN1NBMFi7owoim3AdZCi1gaYrhCDfZ65EygQt8ME\nU/Pmpav/9y1Zixkrpn2sOkVT5KGiw1DlLYUANlZHyYT4SW0B6esON38qOTeN\nwUFgDJpiO3VX1BlnH3gBO6wIGUQ+bq7RW7l6TXBDNfpN4BVny5M+PnZWDZad\naNGvZw7m1RBOKbYw+iaKCrcpfP+5iCKMtv+wd4jAt+BFrU1gAgc0FE6wevxp\nTYfGbT/Lz4RymXs9gy4nzHnt4j2VoZM7/w7SvyhfEH1Jsod+pxpXOh2vQ04O\nqCosjn7oY5GKGcGQNmUP7HO5TPk3ZdAhfXOfFrxL8lwaBrbSwCz2kkU2whj0\nz5VP\r\n=VVS3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.3.0_1558647243379_0.02087996706375428"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.4.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.4.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "166a2765eb6471c41cd20ea79ec6f069b22ce54f",
+			"_id": "@octokit/plugin-enterprise-rest@3.4.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-8BTDpMVboLkMzXjfSHCddEl/7tkuOUfgyGeLay2gZBkEGdJ4voR3SPy1lNhj6WX/dNF19++RsbqjkpRLVMAMrQ==",
+				"shasum": "e4719debca666afc5dbb890425e4126b101be641",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1140175,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc50OvCRA9TVsSAnZWagAATegP/jhXF0PEb/RQGe213Dqi\n219pLkeUno02TpsgMAtxc1+y1fZ8gkkt+LA5VnZpR/BMA4q59lEkbhdmba3I\nvYw9+DjhjXiM5UXHYi4d2nlQiem1gkA6VsQ5dJGfgQ4Fosk3q036c2UNK0m2\nO0nWRSEaw3Ht43W2DWViNDKofC+52fOCPUuWX7LpOF3yZJq62gvthldq6ydi\npwCZSCLvHzvkbBy58NQYWoQjiKwjbqJm7a345gGRq+W6EZ7wOS2uB2k9S19T\nwfOF6iqIOjpFnLP6eYAvkgyuNEdWHEIV8oUb6/6Y5m+qx4UyetnDVQXGFAHp\nj19tJ3jPRzcT4rK67dCsHuzwOHb/J6JdXwRllCAcftX8t448fwP7/dBmgJDL\nKnin0C+H3CF4U3hI3RMek07STKI3n5mLvjvsrCRxpGH1rTfwhgAzm9qBkgB6\nINBND0l04tT5lMvAxyXS3yay9emLNM2TCAF1QgQQA8XptnqAZfeN24JWwmmZ\nsJFVj4/LnLK7qDXd2U+tKJoR07noNO2LVcneuRjBXXpK+qdzI5VwagvRlEmN\nYTBcFM1N8SW08Hz5XxIbE/ium1Yh8RZbuzqptqJPtEOeYVmDAaKdCPXwNy1R\nZo+XIbbcZDnToAdaPeXcMWHTdKhuuig/Y47tEDqm/9zQdRFKy3WG422nwXf5\n2qnT\r\n=8Aiw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.4.0_1558660014994_0.43223098611590083"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.4.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.4.3",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "08d7e60ac3badf1ddf331d97f80a09c7b4006440",
+			"_id": "@octokit/plugin-enterprise-rest@3.4.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.16.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-aFvlrL+FQRWckub6TiLYfyOyppCnSwqS0yY3pBcCl9U1TBbnwS6P8s5amYgNBOt1QAVdgyGqRbQ2tDq2abvfmQ==",
+				"shasum": "a0b89f1752177d63d4236aaa6538251c584775f3",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.1.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1140365,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7ts/CRA9TVsSAnZWagAASu0P/R1xKd0VITfppqeEiosA\nh4ef5BVpuqZOpuB8gG7baxEPlvGqiV+SkAm/yOeYP53hGPULyZfw4hftli4Q\nOgDTT2k/AzW7RV1+fH2C6kEjjjzmwFeu/c7FcHY2T2tdRIgqA97b2VNknPCy\nY5bMP1qs1fCU0RTBmOXbVS+l4RVDcGf/jOmUGoGnXUlAapAZGBFTTfi85kYL\neOUB5F7BWHj9w8Ar1D/VnYiPNr17UUI9ytEagWGOj9ELCFr+InKQQbmz03WT\nbAU0rrUubpx++LVjyXPhhUtn7T7pXo7CyvrD5o+P8rim0dzVxJDUwb8NX32V\nOujfQc2maMn/cq1m06jltF6lbdrpjYJ2+d2tuff+vDntAydbH2kTNEqaL2vB\nQGxqFq7nolMfna2Bqu0u6UdzRY9ZxEXCDgLR1+77APb9idghlqV7uzNYRfmN\nN4lZ8YxRFvrg1js8i59xqDmN9ZHu5AFzYb87NPD4+DvEMtiv2yvArIritRHN\nlgiBoYhj8fcIf034Vlnv7AEKGJcThwhJAVh58/830s7sCVM72bR1eJ9A1H4N\n2YIc13YWZU+MWb+jADdYb1+rt+wB0XoFc5OvrF8XkFcZl9amA6q5Zj3K9oMN\nUMMTa1F/K/ewCT+qofCx/2kCO2v040bExpvfGg4jXYJ1dKrlFzazfxTTKUny\n3ceE\r\n=AYGm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.4.1_1559157566737_0.8099042071928142"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.2": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.4.2",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.4.4",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "321b2d5808458352a247d5a71786adcf40b95c2f",
+			"_id": "@octokit/plugin-enterprise-rest@3.4.2",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "10.16.0",
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"dist": {
+				"integrity": "sha512-Yrv/VJkpQGzlGJvOiF9eH+f1SPUMXb1rREY7ZXgYYhUVhX7MX+Sh1m2BnM6MkDr6W4c3ARG5wcKf9K/dDSaPSw==",
+				"shasum": "1d5d674920dd4dac1cb74d809ab37ac7923aff62",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.2.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1141405,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc8FkBCRA9TVsSAnZWagAAkGgQAIWomaNsJwD3FRefft5s\nE32CIR7wxfxkXkTY/wIVVOiSj0V9FREOow1Sk/I9j+jxKslQB1DL8q4VPFdI\nIfFxG8VWjnJ96BjAZxz3ypFsEHzsACpn0hFTctMuvmq2LMApel8QTMX6YImL\nx4AjgBLjF3waBDHYwilivZHxaT3o1Hqp+16hOrkaKrBx9aS9lQ97k63GWKhE\n13Kz8j6bIPOH3TSs2YFGdHoLzAF65pxCXl2AlmA0WRfIUIzlmXhjQGG5udYe\n5ugKDxg4uREcVj/62qYdg45sHlo2at2vDrSoFRx/+PA7XYmbwXR0ftkhuwuZ\nznWV8SWvYKJbMT/3N3Imgx8P6Cta9HBXZrAj5Xio5W0OipjQF6Se8jsjUBhj\nqYDCbI3qbesrljRbXkwePUnt8wkLpiTz9zlC4PfsWDlq7AdztC/YNLEz2jZO\nKjo3GzYj+M7w034rM8mv98ycPsI0+Uac6tZS7Bg4JEpGlvOA8KL4NwoHTJ2c\nfTG0bs/tv7UVjqw2TyKnQdzBUwTi+3kpBtXHHfJuRBfWgvo82ldwaH/Chkgj\nyWtZGHWKn+KItMax5bVScaSAdAbGF4kOoYXlGtyDpCGXjGfHJR8KO0LUbAVN\nKPBObCqucjNRe0iHWk0bNQ5ZLB3VJ6rWPhNcQFPZDhnhdOAgN6/qASRHQUno\nPGpD\r\n=QtXp\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.4.2_1559255296687_0.449428133764491"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.5.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.5.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "5403c42b829c5aa2fba7e923651b4601eb781cd5",
+			"_id": "@octokit/plugin-enterprise-rest@3.5.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-etjzAItPqkF6A83DJnh2mXj4U1Cl1HJ3uKX1BmYRAPBZEldC6oPnYe8h1yRdG4HsOu5zKm7crP0Qa9J6xVuYtg==",
+				"shasum": "28dca00cb4323951b27ed56951fcfd7df606248a",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.5.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1141821,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+seWCRA9TVsSAnZWagAAf+gP/0O6GJlhU3vyKBpxi6WR\nm0i/Sap90e7Oq1l4+pcpkp+kvoahbO3LtMQkOtKBTM3Nse7vxkd9uh8n6s11\njVB6ri5wblljpnTdn8PzwNEXKgYnwBOp+sb7D8HPxuLIbAf/7yYsd15119Nw\n5I1CD68fWi0j4bBSY68rFKzzK0XyddY8zrwvA4zQVC7071EGx7aGbEb3hRKZ\nCOtWaKLA+auLg+S/RcbFd+k6xQRHaBsoF6w4zjjTALTQlKNZAW1spP/cUH0W\nW0bZRoeNxHDpu/Wpur3u/3SrEk9ojlZ7y22cePSUPBEVPpiSFs2UR/2G8O5D\nUNrrLAKiRGH6wfL5Zs59GEc/SgXFOnGQKr1WN5oUGhMbz5BlUp4VU2sErA+V\nhraKS7/vDYACN4ZjEqrvWs/C/YUzTXQ61QwgPEwYow7QaeWrD0OJf1AvAgi5\njPCWEwv5aldk/5B7x6rv96327Nih1IrYitazZO99pQ4TYwkO+XhBT1oQIx4W\nAf5a6acZjf+ROyx3KxPO+YCws7YbElcdYlUk4KPNTPUSlvbxJ+YYGEYEiCMT\nRUpcywBzHsp5Bnx+qVIkB23wL3Yd3u17n5Jkkv/zwPgVI6Ir8eMTSxegQzjs\nL5WPGXuXmb3P2KPk3V058mKtlYrWSwnJDrtkEcR0zocII7KfnzXbQK25p/gO\nwAsj\r\n=2tGu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.5.0_1559938965593_0.35404565637038377"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.6.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.6.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "8fd953608364e02f9c18ec5ef8f8627dde9b47b6",
+			"_id": "@octokit/plugin-enterprise-rest@3.6.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-/FU9if0YNQfJuhyuVmUjO/5GowaIaTrAnGgCHbbFWCCtvhjzKU0v2Q4DuamoL1gxv1E2u71M8lcssGpQiC1C4A==",
+				"shasum": "ec254f3e090886596ee86d60d846b2e4b6bf0cbd",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1149073,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc+s2SCRA9TVsSAnZWagAAneMP/1d6yrZ/MDPbvV9il2vx\nMcgik0m3xneoxRTGfPv94YBBIyuIna/R/SJwyN8sJm6qGCxMAdKaV2+sc0Ik\n3EL3JAKJqjw9u1DJKC2UGVcrAPuy9yV5pR9mbIPO52Av3RsFr8DP+UfUNB6U\npkc91O4oivmkPJlLJq9wxSPmfNz6wx5aiCsu0PGoHkr/DLcUr7ad51sZ54uz\nJ86hXAwSl2wLQPzUTNC2G+U72guSscE2Tgzdvd2wZDxfmkGopetOwhpl0ofW\n+LupQ4taM55LjXh17w7uJOJCCjuU6MNSdc09xzg39WtMBukq+TxL5ztn2tp6\nLGhiGAC/wzCdq5DvGvEnVWuECiYYvW9SUyyYgLuQOSuHYHFeNLnYIGY7VB2L\nIZPYR08GcrJBANnA54dJS9DNh4tDY3ys7IWTyE8b5TEIYxdC9owxYpg/f4ce\nJJiD+hpik25dXZKLQ1fYjg2ODvXTII7X8DRJay98FxI3oVxVKt2yXrBjkLOe\nTg6yfOw/22gF4dQgSHZd4cz5p44ymzBZNT1zsY6DgcECx3hpxfEKw5OR96Ba\nr03bdokpzI57r9aQ3UstGUm/E4rnMmj6YvCUJC731af9lRkxRMnlr09sqdlb\nMI5ro//q7L3xsjCHc36jqjfnS7Qbg4288MbyLyEZWhVYwygE5xD3GDc3+kXu\n6Z0R\r\n=CJcw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.6.0_1559940497492_0.7414020577380631"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.6.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.6.1",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^12.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "fcc87f251a0789d6eeb7e2c93969bb92e67a37cd",
+			"_id": "@octokit/plugin-enterprise-rest@3.6.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-pumBn5STuIQrhIgd3qp7FxfSOfLcaHsg9q+zVl7/Uzk65NEYeE1jXuXp3fmBjKWYvt0kBkYEEHVn3IgKgjjNQA==",
+				"shasum": "5fd7af82707fe21ad2f8dc4ab462280546fd5c62",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.1.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1151089,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/qvPCRA9TVsSAnZWagAAI/sP/jG0uTzIFT4K+TNOvFys\n96U/SYW/GU3XTYR55lz/1w9ZVuTl31/mUDaF1NHrqJ6mhafcrg6GjqhPnqN+\nveQIhyOQ3yFg2K8rfX+zuWQ+mySjwhHy6YrgFivh8Ny5vvaC3kJldzkWxvSy\ndl5AaANiHaA0dppT2Tptb0tnWBmG6spDxigUCWUObUBnp9kEV149Jd384YuI\nCuUaGMxg6gL4dT69t9zDmQF6GLBd3+PPHhiboAd/if5BX2mVgn7z2k+3kEYO\nKWaFHqMKRhMXSLlXZK5UxtXoNPxh/Nd9oTf4xHTpKWz6qxy+/yONIZb17xkw\n/WwX8GsYwpkXX/M7tWA/wqA4Su6S5rEAH0jxPFX8NKQ2pyeOWseojFomu9v5\nQrboaehHroR3oCe5UR3SfJl019yGy5avDxspZjNnrS3QCqMd+QPzZZL4/Qzs\nFVCxx3/Nd7Trs5Euq5bSX2syoJpvLwDZIaZkZxOJvwSttv7Fv55bkjZZbthu\nmXtPK+0udg9fme7eL37F1d2PZ+eKQ+ZzuEg+d/PQIcqV/eb2K9eEwOJokV8L\nMBEFv0OHCgPp7mPkqS4p69VRTZRQtm8wx/aY/rr7xLGVuEccCYDL+/0sjn9p\nf4+tyYPr0EfRaggB4Ku5gJleN+z0TvgbdMkTIvp7mGUBsNeA01hGel1apEcJ\ngBcl\r\n=Zqvt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.6.1_1560193998550_0.40985710908916917"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.2": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "3.6.2",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.9.0",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.12",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^3.0.0",
+				"standard": "^13.0.1",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "9569077215c4e0cb40208257dc2367a7027bb02e",
+			"_id": "@octokit/plugin-enterprise-rest@3.6.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-3wF5eueS5OHQYuAEudkpN+xVeUsg8vYEMMenEzLphUZ7PRZ8OJtDcsreL3ad9zxXmBbaFWzLmFcdob5CLyZftA==",
+				"shasum": "74de25bef21e0182b4fa03a8678cd00a4e67e561",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.2.tgz",
+				"fileCount": 28,
+				"unpackedSize": 1150293,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdL5jUCRA9TVsSAnZWagAAEvUP/3rkhaNlWRNowWYUOp1F\niIGpwWqMkVIC/yWlDw50KO26bfdjyqzZh7nn7r0MaB6eLb+3BFe1Ak6SiCUc\n4KdBLAltqxLbiDM9UN+u+eRPJwbCvD+Smjl/e+sndz3xpwTZZG2r+VZxUYEX\nY8z5OUY8aARXmoqvDqwT9DFg9T73QQ0gywPwP0Q4Nj6rZLP1l8m2N7clXNgy\nVHOJP1yNHVcpmoD8dpc54rmFWHJrPUjIqPl41U/0vk+unterH7E//VO2IglG\n49rgRPdAF4fKpBlzLpNHhh1GjL05bB1rYHmuPajd8PmkHiUAaeBFevn/obPj\nxgQe5r4qJk36sxJK03o4TdlljzTulIcvnx92cBzXK7mjoS2w2PQco9GBocNs\nMz5USv6jI1oUcckNqByxEY7O3VoC/MI+7vbqg/HQ7hn9Em5m+/EJZUDdOV/Z\n157PtnK0jNBiU3ie93QPxCMDyfNbqEUxbrZxmsPM5+Yf94YPU6NTAlH/2LcC\n6hNLlU9cdgjQMNdRj3gi3803PSgGoXHyl2mZYfUOw07KE1meH5kfpsRiIiHq\n0zu0TRpuCvkKugINYd3zRnZFM8SZwRy5Gi1QgUMCTPT0vskwQyBJP8aQkYcV\nfV16xWJw1rOBenAahQVfJFKPj8K/974sQRxD3P5ah6GzJH/6LFWBYOKfI63e\nAbqi\r\n=3a8z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_3.6.2_1563400403666_0.5260764764254937"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "4.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"coverage:upload": "npm run test && tap --coverage-report=text-lcov | coveralls",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "standard && standard-markdown *.md",
+				"test": "tap --coverage test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/routes": "20.9.2",
+				"coveralls": "^3.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"semantic-release": "^15.13.25",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^4.0.0",
+				"standard": "^14.0.2",
+				"standard-markdown": "^5.0.1",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "57d1a9d40726c77c4323283ff105a8d7abf8e2eb",
+			"_id": "@octokit/plugin-enterprise-rest@4.0.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-e6L9K6cQiFz2nL75C4B4OBCxEiQV+A81IDkl321DfxW871UUCWFRGwvsF06Lm7JVMVk22xrNDFcgnuWV0+rqgg==",
+				"shasum": "63fbb683d7823c7fe93280c7e3b5828739133dbf",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-4.0.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 869672,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdmTJ5CRA9TVsSAnZWagAAkVMP/At2cCCgJT5E5UxN7t8Z\nRSxdAbZ8J6ztanfR5vnMh6nuTSsmxF4fYTv0tQt4lqkqNhe5dpoAhxKrtL+D\nmypl9l4w3AiXVkHH6uUSDoicyCTNS8U4Ocx/DFfUq7XCdsdd7596YN1krD77\nkK0eWMMv4nWHp7UqLtqW8w2yo+9BU+4AbkOFzIJ4xXRyziVtIfL9r2O/XuWl\nxa1QTM+ihneH7mAqTrIvM6rf9UhIItCFx5R8iuTIcJ2UpkcNzOdqN8uUxo/x\n14Q9KTFPwYn9pxLV9XChBLOdQ9TEcXgwTS5z9nqo/rgherB97mB4GVmSLIqx\niqgrjdXSWb5tP5Nfd2k5lepQYncUkv7PEFJH+2UdAyNBv6yMoaJlTugJ3jfq\nDRHp8xDcWAbJY9P2HpjTSLH2DjTxmPJgZEGV1FPOK6qNTa0sxDrkr5EYVkYX\nNjv5Lxo1akH7J9etA5nkEVwMdxXJASQlmt/biP59cd+BLeW+fcDDE99jFCg9\n4WaLPEyOG4LFiLcQmnU1txpjHOIf9y6EkNAjqe/TWzyW/p4YvXqiT2zHKTwg\nfLRRSvM/ZfPW1XGlfFyt6lESV7UjOx8+Hhd4EJaZNHlkNUiL/6qlujdrrKwA\n9HO/3zoml7cMSH5SLwouV4QFt5QRwwmsJs+0ZKHpTEJyKIJzhAu2i85u6e1b\nIrOT\r\n=/tEt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_4.0.0_1570321017008_0.9091524419814037"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "5.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"update-endpoints": "npm-run-all update-endpoints:*",
+				"update-endpoints:fetch-json": "node scripts/update-endpoints/fetch-json",
+				"update-endpoints:code": "node scripts/update-endpoints/code",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "npm run lint",
+				"test": "tap --coverage test.js",
+				"lint": "prettier --check '{ghe-*,scripts,src}/**/*' README.md package.json test.js",
+				"lint:fix": "prettier --write '{ghe-*,scripts,src}/**/*' README.md package.json test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/graphql": "^4.2.0",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"npm-run-all": "^4.1.5",
+				"prettier": "^1.18.2",
+				"semantic-release": "^15.13.25",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^4.0.0",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "a2d330fc1d5c5d1f03564438b41ade1cfb32f257",
+			"_id": "@octokit/plugin-enterprise-rest@5.0.0",
+			"_nodeVersion": "12.11.1",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-InAX5yamRs02L/eMxmvx2towbvAa+1rgx5qH3oEv7tELH901S7ciTRn1Nl23P5zcidmM4YHp0tQb5ZvcAl/eHw==",
+				"shasum": "877b8183bce823512613f963e3c15dd6dff579e6",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-5.0.0.tgz",
+				"fileCount": 37,
+				"unpackedSize": 8827196,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdmVbOCRA9TVsSAnZWagAAhKUP/15mGIFymHf9MiiaAD/G\nsk71QpPRSgkZIkyHf64k27tPNmzuz2u8VrSbcK1qaGLRiPytWqS1/4ZyP02x\n0gH5yOhu4eKbwGIMuOZjY14VxoBZ3uobvcj1jNlTwHPteLdI0f2b0WZEU8yO\nkse00GVQCmBrmCb7FxLM/VrvYvkCGILcJ5ggN/geP2dWQeqIp8w7T3I5civL\ntcWYQtNsLVmUjtAWzgLpMEjs+1UObdIQw6QcPwM578xOzU2SN+2zfreLTbT0\n064iU4jCwGwBwncDAAIUWq9MgA2MvLAfVd+Bxm8NvjdEG+sBREt+8kPmfJDJ\nXpXt+awcY+ms81mlN2R1+2ToYOyiD9OkzW4kR2A2a5z+IqYOt1XDEeck0GUE\niCQ21LjN1z7rFmFCa3aPufHMdUzEljTEKm1B5WK8DW5Seyq4ntRaCWddOcmo\n87RvYBkTiLg+aqfrDbAZnacbMx9GU9ICy6sQdeEdUHLzLDiD94cTuFzi5ehD\njQ94mNnAkwPfLGkn4SM+hV6kGi/eYlEo7IoXwdFlWqgPlRiKtjU4IIjZFzbd\nCRxXWrw3gMXglw3mCWDJ5VvM0fBiHWGVowNghrF5fhnyoHrnYcJ5995ljT9G\nVaKPifCgHfGadrwvveGBKvKpCVnYwDZHxzWBIz8qZgTaWa2bS1MgJpf4mEtt\nudI0\r\n=3u+f\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_5.0.0_1570330317523_0.758886449449516"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "6.0.0",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"update-endpoints": "npm-run-all update-endpoints:*",
+				"update-endpoints:fetch-json": "node scripts/update-endpoints/fetch-json",
+				"update-endpoints:code": "node scripts/update-endpoints/code",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "npm run lint",
+				"test": "tap --coverage test.js",
+				"lint": "prettier --check '{ghe-*,scripts,src}/**/*' README.md package.json test.js",
+				"lint:fix": "prettier --write '{ghe-*,scripts,src}/**/*' README.md package.json test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/graphql": "^4.2.0",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"npm-run-all": "^4.1.5",
+				"prettier": "^1.18.2",
+				"semantic-release": "^15.13.25",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^4.0.0",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "1e583a6b5ba891df65f1cf001c7dbb9b6bc0cc52",
+			"_id": "@octokit/plugin-enterprise-rest@6.0.0",
+			"_nodeVersion": "12.13.0",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-UkHI6K6DDka2JqBqJq9NxOlFhl1AB+aOe2DE0EgxoWu6+pa7iOFTrAUzrThSOVoeAoFnxpgRDAY3gtN3yKmmqA==",
+				"shasum": "c7317e50c43e6bebcd16ca5cbdd6070b6646a557",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-6.0.0.tgz",
+				"fileCount": 37,
+				"unpackedSize": 8989424,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdzEBUCRA9TVsSAnZWagAAY4oP/2KsgsGs4KXC9nqjVPxQ\ns/wdzOWBlvb7CF7YT2doK2etahC2B97dklhWFgQUHoz5s7b9nPzWXxBpTiic\n8SrO8H1s+PzF/PRwiAwVKYgzDf38Yzd9dhbzo7kop+hkHRvT0GYKAA/itRk2\nA7Osu1kNLRtvpjNPGaBlm3zbLit/BlP2jZlMMGLX4MvXo+SJDgJhqQMkG+o/\nHItmINiPVcd5fFhbkiz8vdvu9XWIUF8FeYMSnXB0wEAkg1MEeU5iDaGj/oFq\nk82uVfcSyWiyHaOQysPTQiuvykav3yRU+dOgm0PbJpyMVnPr377NIQ161d95\nD7mK17YrRu9tSiu7mJGg1H27ua7fPUfXJRhK8XmOao6x7QhhtYxmV7tbvQi5\n/ZHYdZlr2IWB23FUlfj0qNDIOJVYgQ8Oqla7pSNChkpz53UMz3T0/2nqQHLf\ntHDnX3hI1MNjCRFlc9oY0Oj3c5+adhbJXL3pWY872ir+n5LftIQLTA6ukreK\nPzvtmdP3OxTYwoMctqdAiGff8BqSCGpyXSsZycR/nV738gVDUDCDWZYDaD1h\neE4PAKuCdzfyuhZo6waUXJblz2TVo8fbPreVSGvNped7eLXuk7/BxtWkvlP6\nGWicvfdEbU7UbpNIHvaVYY3OPYVvglubSIQkVWTNeTeW4ERG5xh98CwMzhBF\nDpfQ\r\n=2Hzh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_6.0.0_1573666899774_0.11395428416332831"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "@octokit/plugin-enterprise-rest",
+			"version": "6.0.1",
+			"publishConfig": {
+				"access": "public",
+				"tag": "latest"
+			},
+			"description": "Octokit plugin for GitHub Enterprise REST APIs",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"coverage": "tap --coverage-report=html",
+				"update-endpoints": "npm-run-all update-endpoints:*",
+				"update-endpoints:fetch-json": "node scripts/update-endpoints/fetch-json",
+				"update-endpoints:code": "node scripts/update-endpoints/code",
+				"generate-routes": "node scripts/generate-routes",
+				"pretest": "npm run lint",
+				"test": "tap --coverage test.js",
+				"lint": "prettier --check '{ghe-*,scripts,src}/**/*' README.md package.json test.js",
+				"lint:fix": "prettier --write '{ghe-*,scripts,src}/**/*' README.md package.json test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/octokit/plugin-enterprise-rest.js.git"
+			},
+			"keywords": [
+				"octokit",
+				"github",
+				"api",
+				"rest",
+				"plugin",
+				"enterprise"
+			],
+			"author": {
+				"name": "Gregor Martynus",
+				"url": "https://github.com/gr2m"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/octokit/plugin-enterprise-rest.js/issues"
+			},
+			"homepage": "https://github.com/octokit/plugin-enterprise-rest.js#readme",
+			"devDependencies": {
+				"@octokit/graphql": "^4.2.0",
+				"lodash.camelcase": "^4.3.0",
+				"make-dir": "^3.0.0",
+				"npm-run-all": "^4.1.5",
+				"prettier": "^1.18.2",
+				"semantic-release": "^16.0.0",
+				"simple-mock": "^0.8.0",
+				"sort-keys": "^4.0.0",
+				"tap": "^14.0.0"
+			},
+			"dependencies": {},
+			"gitHead": "7b19dfec52bd07805cd35330a467160543c4a63f",
+			"_id": "@octokit/plugin-enterprise-rest@6.0.1",
+			"_nodeVersion": "12.14.1",
+			"_npmVersion": "6.13.4",
+			"dist": {
+				"integrity": "sha512-93uGjlhUD+iNg1iWhUENAtJata6w5nE+V4urXOAlIXdco6xNZtUSfYY8dzp3Udy74aqO/B5UZL80x/YMa5PKRw==",
+				"shasum": "e07896739618dab8da7d4077c658003775f95437",
+				"tarball": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-6.0.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 8988682,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeHj1qCRA9TVsSAnZWagAA9Q0P/jwyiCAM5rkZFYHWT+Fr\napAwXLy/0fqpqXZBBLk49MiAV9Tfzq6l8JWOZD/lBtkOP0NYv/zEQUS4Ueoh\nR3aO8n1BjDHi3HpcZ4wdFtHSexx8gRpYi0D+ncg/ucwpSYUcWrNUltUHMmyx\njYG/3SHp0w5Wcn1R2xe+y3qGROW8B1G160Pk58W8ZCljr8hPxkDwF5m9DO9x\nQDOcjpbqaeMeu2SmLkePW9mURmqk7/xhkH6s5lvaAQ8YoV1Y8n9zi4LZisQ+\nobHltxYKFRyb460ZHrnO8phRB4Oxh5KB5cRQABSaXkyeATOEbs6ghyU/nhZt\nP7bfiPXGuW+2PcXZC8CFKrMTdjJhqjqA9Vu5VMfxukOWSvTlXYSpN7huxiuk\nsWKjHf0S6KsC8OOJ5JjiAZI5+WmC16O8QDG/lHskT0fo55f0qohFBau92bkR\n7ROHUfsnav0BMbzEvrb6zqRohEEwdL0954yZPLYJN8nwq6cOzcyWpyjMv/J2\neazLHu63hOXT7EDh51AXZc5rim4CGUmgAn0oY7DVPVtNI/JTf15kywfVmQiU\nHoiXwzjTkGfEhrducpIHnihYU9Qq53BBU90dPzhQwbCpPvLnbJBDkKTYGUI5\nXCBGFU1FrQ+G3LVQAbeydhe2O09T1FmWpwB2jecDzrHgq8WpqSRoCFOC1iNh\nwauy\r\n=yKlr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "bkeepers",
+					"email": "brandon@opensoul.org"
+				},
+				{
+					"name": "gr2m",
+					"email": "gregor@martynus.net"
+				},
+				{
+					"name": "octokitbot",
+					"email": "octokitbot@martynus.net"
+				}
+			],
+			"_npmUser": {
+				"name": "octokitbot",
+				"email": "octokitbot@martynus.net"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-enterprise-rest_6.0.1_1579040105688_0.5823084474621323"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-12-13T07:37:52.587Z",
+		"1.0.0": "2018-12-13T07:37:53.055Z",
+		"modified": "2020-08-14T19:04:43.293Z",
+		"2.0.0": "2019-01-03T18:43:28.457Z",
+		"2.0.1": "2019-01-11T21:40:59.561Z",
+		"2.0.2": "2019-01-15T17:50:56.262Z",
+		"2.0.3": "2019-01-16T06:15:43.250Z",
+		"2.1.0": "2019-01-23T19:47:51.159Z",
+		"2.1.1": "2019-02-10T20:36:59.019Z",
+		"2.1.2": "2019-02-27T02:07:42.216Z",
+		"2.2.0": "2019-03-07T05:24:39.037Z",
+		"2.2.1": "2019-03-13T18:11:14.513Z",
+		"2.2.2": "2019-03-17T05:13:35.203Z",
+		"3.0.0": "2019-03-31T15:48:06.964Z",
+		"3.1.0": "2019-04-16T00:31:23.074Z",
+		"3.2.0": "2019-04-19T01:18:26.802Z",
+		"3.3.0": "2019-05-23T21:34:03.525Z",
+		"3.4.0": "2019-05-24T01:06:55.179Z",
+		"3.4.1": "2019-05-29T19:19:26.837Z",
+		"3.4.2": "2019-05-30T22:28:16.869Z",
+		"3.5.0": "2019-06-07T20:22:45.732Z",
+		"3.6.0": "2019-06-07T20:48:17.669Z",
+		"3.6.1": "2019-06-10T19:13:18.737Z",
+		"3.6.2": "2019-07-17T21:53:23.791Z",
+		"4.0.0": "2019-10-06T00:16:57.141Z",
+		"5.0.0": "2019-10-06T02:51:57.717Z",
+		"6.0.0": "2019-11-13T17:41:39.994Z",
+		"6.0.1": "2020-01-14T22:15:05.908Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"965018743f8275f044e54a1ee9d28e94\"",
+			"fetched": 1613881359925
+		}
+	},
+	"_distfiles": {
+		"plugin-enterprise-rest-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-1.0.0.tgz",
+			"sha": "f9075429a9e08f2d5d809b542b65f8fa32148d6e",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.0.tgz",
+			"sha": "84d2c12dcd131249e4d7613d1db0a4b5829e5227",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.1.tgz",
+			"sha": "853398fed416d5901929124f49e8757dc871c12d",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.2.tgz",
+			"sha": "3fc1f1ceb4ae9e9b9eeca0e6b0c081aef41fb14d",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.0.3.tgz",
+			"sha": "00f946f9ddaaa4f6d7eea65eb85825c04e07e1f3",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.0.tgz",
+			"sha": "e5fa5213627a8910fd151fab2934594e66fce8fd",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.1.tgz",
+			"sha": "ee7b245aada06d3ffdd409205ad1b891107fee0b",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.1.2.tgz",
+			"sha": "259bd5ac00825a8a482ff6584ae9aed60acd0b41",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.0.tgz",
+			"sha": "7ee72a187e8a034d6fc21b8174bef40e34c22f02",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.1.tgz",
+			"sha": "47954271289cfc65607a8cfb0257f0d47fb2d486",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-2.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.2.tgz",
+			"sha": "c0e22067a043e19f96ff9c7832e2a3019f9be75c",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.0.0.tgz",
+			"sha": "234f1a9a7ea3f9a721c4e4dc5051153e0d4b4fb6",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.1.0.tgz",
+			"sha": "2e38dd604ecd3a517b82140bd5db8e7bc9c06dc2",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.2.0.tgz",
+			"sha": "5b6a385eca56b7e44c1d928802cd6e88776f5577",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.3.0.tgz",
+			"sha": "5fde4bdf6ffd0b98ba1855592df0bd4cdf999c2a",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.0.tgz",
+			"sha": "e4719debca666afc5dbb890425e4126b101be641",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.1.tgz",
+			"sha": "a0b89f1752177d63d4236aaa6538251c584775f3",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.4.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.4.2.tgz",
+			"sha": "1d5d674920dd4dac1cb74d809ab37ac7923aff62",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.5.0.tgz",
+			"sha": "28dca00cb4323951b27ed56951fcfd7df606248a",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.0.tgz",
+			"sha": "ec254f3e090886596ee86d60d846b2e4b6bf0cbd",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.1.tgz",
+			"sha": "5fd7af82707fe21ad2f8dc4ab462280546fd5c62",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-3.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-3.6.2.tgz",
+			"sha": "74de25bef21e0182b4fa03a8678cd00a4e67e561",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-4.0.0.tgz",
+			"sha": "63fbb683d7823c7fe93280c7e3b5828739133dbf",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-5.0.0.tgz",
+			"sha": "877b8183bce823512613f963e3c15dd6dff579e6",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-6.0.0.tgz",
+			"sha": "c7317e50c43e6bebcd16ca5cbdd6070b6646a557",
+			"registry": "npmjs"
+		},
+		"plugin-enterprise-rest-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-6.0.1.tgz",
+			"sha": "e07896739618dab8da7d4077c658003775f95437",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-5e75dfdbd485fae6",
+	"_id": "@octokit/plugin-enterprise-rest",
+	"readme": "# plugin-enterprise-rest.js\n\n> Octokit plugin for GitHub Enterprise REST APIs\n\n[![@latest](https://img.shields.io/npm/v/@octokit/plugin-enterprise-rest.svg)](https://www.npmjs.com/package/@octokit/plugin-enterprise-rest)\n![Build Status](https://github.com/octokit/plugin-enterprise-rest.js/workflows/Test/badge.svg)\n[![Greenkeeper badge](https://badges.greenkeeper.io/octokit/plugin-enterprise-rest.js.svg)](https://greenkeeper.io/)\n\n`@octokit/rest` does not include methods for Enterprise Administration as they are not usable against https://api.github.com. This plugin adds these endpoints based on the GitHub Enterprise version you need.\n\n## Usage\n\n```js\nconst Octokit = require(\"@octokit/rest\").plugin(\n  require(\"@octokit/plugin-enterprise-rest/ghe-2.18\")\n);\nconst octokit = new Octokit({\n  baseUrl: \"https://github.acme-inc.com/api/v3\"\n});\n\noctokit.enterpriseAdmin.promoteOrdinaryUserToSiteAdministrator({\n  username: \"octocat\"\n});\n```\n\nThere can be differences in REST API between `api.github.com` and the different GitHub Enterprise versions. Some of the endpoint methods from `@octokit/rest` might not work. For these cases you can load the endpoint methods for all scopes for a certain GitHub Enterprise version, not only the `.enterprise` scope. This will override existing endpoint methods.\n\n```js\nconst Octokit = require(\"@octokit/rest\").plugin(\n  require(\"@octokit/plugin-enterprise-rest/ghe-2.18/all\")\n);\nconst octokit = new Octokit({\n  baseUrl: \"https://github.acme-inc.com/api/v3\"\n});\n\noctokit.issues.addLabels({\n  owner,\n  repo,\n  number,\n  labels: [\"foo\", \"bar\"]\n});\n// now sends `[\"foo\", \"bar\"]` in the request body, instead of `{\"labels\": [\"foo\", \"bar\"]}`\n```\n\n## API docs\n\nSee the `README.md` files in the `ghe-*` folders for a list of available endpoint methods for the respective GitHub Enterprise version.\n\n## How it works\n\nThe route definitions for the currently supported GitHub Enterprise versions are build automatically from [`@octokit/routes`](https://github.com/octokit/routes). Each time there is a new `@octokit/routes` release, [Greenkeeper](https://greenkeeper.io/) will send a pull request which updates the dependency in `package.json` and `package-lock.json`. That kicks of a build on Travis CI where the `greenkeeper-routes-update` script is run. If there is a change, the script updates the `*.json` definition files in the pull request.\n\n## LICENSE\n\n[MIT](LICENSE)"
+}

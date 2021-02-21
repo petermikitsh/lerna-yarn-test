@@ -1,0 +1,329 @@
+{
+	"name": "@lerna/otplease",
+	"versions": {
+		"3.14.0": {
+			"name": "@lerna/otplease",
+			"version": "3.14.0",
+			"description": "Prompt for OTP when wrapped Promise fails",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/otplease#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "otplease.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/output"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/prompt": "3.13.0",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/otplease@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-rYAWzaYZ81bwnrmTkYWGgcc13bl/6DlG7pjWQWNGAJNLzO5zzj0xmXN5sMFJnNvDpSiS/ZS1sIuPvb4xnwLUkg==",
+				"shasum": "b539fd3e7a08452fc0db3b10010ca3cf0e4a73e7",
+				"tarball": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5925,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209HCRA9TVsSAnZWagAAkxAP/jqrp0yTDN1A0uiaPvry\nFn2NjLsMh7pRtbk4IMynoxgzc0an33iLgN28UQFVd46YbOMfKz7v88IyYWFo\nQTJxNbedoncq/fN6AvXs3XlwEUMIYgkREP674EtAa46Bnjzrp5XV9tV93SEL\nZFzxZfXSpzgaLXw4TOl/jZDyzYqeM2z1jYD7PXNr7V0BkVDM0DctOezvnH/+\nksitJXLmRGIH4M0NDgJpbbWUA7Vuk2/6HaIpe9A5icXNr3DjJ3uvyjLP+Lnz\n5ni7Yv4d3BN6v7AMzvGIMhUwNuJ5LeSCrnceNNxr363dKbru+vdkeHHdZuK6\n+2wRBZlZiGm4ClADp9oqm/W8byaFP3JccFnm20ra5SwXRoNXamjH7tqnEXxT\nMAmkDaSMbDEEVL0uy+IN1KlYlRPeCg5+lyXUnxC4lcTfMDg+gV46MFWODgIP\n7YZdciS6heq81vgkVCkQkE1WlMeLjEpEVsV8Rd62JvjpT03rL2I/wltnufNH\n0tYCLcB8RPAOzENrKZCvM4fjH2pmK9oMpwP3TskvdyBQiApYOW+0xyd6dZcN\n0qYuPUJigHKoe7EljsMiUiN5cWT4oyLlzHDAT7uLD1yigMpUaBEZzCJZD2s2\nuQ+ytmb6pAB2UmQUrz/AAYddmhbbeWPQ5MrNfkeWYjjXPHaweE18llglenVI\nOr9q\r\n=XW2I\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/otplease_3.14.0_1557876551404_0.8773079951610552"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/otplease",
+			"version": "3.16.0",
+			"description": "Prompt for OTP when wrapped Promise fails",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/otplease#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "otplease.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/output"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/prompt": "3.13.0",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/otplease@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-uqZ15wYOHC+/V0WnD2iTLXARjvx3vNrpiIeyIvVlDB7rWse9mL4egex/QSgZ+lDx1OID7l2kgvcUD9cFpbqB7Q==",
+				"shasum": "de66aec4f3e835a465d7bea84b58a4ab6590a0fa",
+				"tarball": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6211,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRJCRA9TVsSAnZWagAA2JwP/3x5rWhx1sXV0Kb1/ZFh\nufOzqfwU2AhRCiPbEGOdCbn0Jc2DKU0SDg/XvRvydfTdEmDLSV3qqHdo/uf9\nKBrC9zEwvbTQPfwGi/bGZmQb/gCAIIZTZKENwp5noE+IwcftqxbQNoRgY9Je\nwSUN6RHetQNT9+8lM9BM9hULQ/LUHR/M+pyr1lZwFyMVeVWYzIL2ynacbWOy\nJAB5s3u2OufzTyBcDuHB92nrb8iiIbMT6tMnIlUhokIG++SC2s1onfHoSRij\nFsZDFYS0pCqL4ruoYAEvhejjUth4m+L+d0tieF/5EL0+vejjwIlCBuvJoDI0\nNLEa2mJ3PtS2HR1R/pi7/vFfglEbovCuRAzCsw+RpopSUkDv2jplFgzgaFzt\nwUrarD9zDy+4MRiiCvr5wOOVeK0HR1S84I3cU3wGOp3F85dmyqfSxyEP8TNi\nM01sRG1GNe1nKev4pL1kCCxZM5GJVZVqxUaDFNt7yslfrdccVxyc+ex9nxAQ\nEs+Eqe7XzxkKs29o/M6AJIwfMsHXsl5VV7XRyixULlUuuhTI4meKYrgsO4OY\nexcj8RNpGpNK+jR+uaTzN05bbTz7rDLwFzOvcrqoV16rFnkEBKFTcpF87SI1\nDGfmwLIYLGuvO0Z0nrrwffj/FO4JhIOXawgff+V2ETnW1t+fV7X7Ko+rtpL5\nGkVi\r\n=gakG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/otplease_3.16.0_1563493448601_0.47654060440198553"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.18.5": {
+			"name": "@lerna/otplease",
+			"version": "3.18.5",
+			"description": "Prompt for OTP when wrapped Promise fails",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/otplease#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "otplease.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/output"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/prompt": "3.18.5",
+				"figgy-pudding": "^3.5.1"
+			},
+			"gitHead": "2612f51e7eecec58eacf0571724e6989e4b8e42d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/otplease@3.18.5",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "lerna/3.18.4/node@v10.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-S+SldXAbcXTEDhzdxYLU0ZBKuYyURP/ND2/dK6IpKgLxQYh/z4ScljPDMyKymmEvgiEJmBsPZAAPfmNPEzxjog==",
+				"shasum": "b77b8e760b40abad9f7658d988f3ea77d4fd0231",
+				"tarball": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.18.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6356,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd1JYNCRA9TVsSAnZWagAA0ckP/jPjTsouPR8jpVMR7bY1\nRb0/58V9PIYB2czM7V8itB1kIomC9JYnkQlQuXX4HY9i9WqY7I+McQ2X27Zg\nysJ5pV08TPR/5g4jg5DSfZ+DlcyOl7oNqVid/9CuyrV1SmIHFU1C0PmS1865\nSUYCFIDYkWzrWRLwXs/s8EAxKVdHNIExcTZkLs273iN/l5yuqEDvMPxjg2DZ\nbte9ldcoiJLL0euQpNmvfVy23Rukum8hXt+1iFyN7P/m/ZFD0D6p89tqYXFQ\nmkAFc2kDlfVr4/vo4VXInNm5GeJ1YYsKEJGo36DJ43B8ZmiYTsirK+2JP/do\nW3hdjoxcjJht93ofKJgqgz9SnYxdtQihwcypyuq2DEHsttnoH2hkgP3n26g2\nHETE06MPQe3JquFtkwL5Uhpmsb4ccfpXML+FHs43VOZVmMwUN41xXdZlEJa5\nRYFpz96aoohlQ3thkZe8vzgqzMTq8goNexNUFLOYdisP4PFmLgoTM7cZhhQJ\nkeIMDYZqwl7HrvPjUlSLs9Uoe+9v4hGQDIcbi3ViXih+YEevK2311HrG6duM\n0TXS6X33lqydTr5gLcf8/L99YlfC42DA9yK9nzxhvsIkGcSmF4+36H/lZmqq\ncW/TmfrewAQzFtYChU3DHE57iMosx4XFQmwHY/98/tM7ZjV5AoGplEuvEKab\nQWnz\r\n=FG7l\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/otplease_3.18.5_1574213133226_0.17610557861848575"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/otplease",
+			"version": "4.0.0",
+			"description": "Prompt for OTP when wrapped Promise fails",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/otplease#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "otplease.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/output"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/prompt": "4.0.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/otplease@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Sgzbqdk1GH4psNiT6hk+BhjOfIr/5KhGBk86CEfHNJTk9BK4aZYyJD4lpDbDdMjIV4g03G7pYoqHzH765T4fxw==",
+				"shasum": "84972eb43448f8a1077435ba1c5e59233b725850",
+				"tarball": "https://registry.npmjs.org/@lerna/otplease/-/otplease-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7863,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGE3CRA9TVsSAnZWagAAxosP/3GN6bQKws5SeDl967ae\nhOlStbftbAupGwq57EgP27BvkrXj3mBAl+e7YYykDczIncWSVi8gxOBt65kB\nyX3I2TOpwZJLBH7HW5j5o+43kXLzq0T22+LDi5RzrGaN4i3mQhuUNER9WTvp\np7UK1nYIJ7tf0PvSPutUJOfIA/d6MfjfcmBjGHS62FH2phybrAFJjT62gzuY\nMZg81lJJB+3Ep4FtzhJOfK0JmLTJxvu9ZO3VyBWjsWrrkhkcdksdFNYfaCMf\ndPfn6+io2NemJBYQwxhCt+xOKdiCmz9R6pD8ZR75ImnoFxKgpLtIRVmPlbAU\nbEOBQGG6lx1vD3GjQXx9sjI0QW9Bbffh2vMV288LZ8KYofBHj/zfeIMaRy4N\nveOs24sy7JIDUzGPSrQ5yyYe/aF0YBpHnAJvzI5iNVtM+kVxOR/AVjKyTbjX\nK8y2+gyc7MxdAvp3s+fkDsxGhvygd22JzTojpHVgKX3UPtW0155pUHW851pv\nSgohF6HIOsSAkMhsQXWUvHcR6itUusiDO/mHkTVLPADk+N9cvC36d/YjrHeS\nU3PusI7PpzeE5QQJM8yePSvBHJdhldDr4p8E7RRvXipR07hvwsMj/kLeFtWJ\nXrg3GuTbJrlPFtLCoI1/0UXT9QqPNPfNXfstOz4UG+Fbt/A0FvsFzuUe0Z6H\nrhUv\r\n=wP1C\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/otplease_4.0.0_1612996918927_0.643131998137449"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-05-14T23:29:11.084Z",
+		"3.14.0": "2019-05-14T23:29:11.538Z",
+		"modified": "2021-02-10T22:42:40.732Z",
+		"3.16.0": "2019-07-18T23:44:08.709Z",
+		"3.18.5": "2019-11-20T01:25:33.360Z",
+		"4.0.0": "2021-02-10T22:41:59.113Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d4ea9616b65d17e8a81bf5c40aa33456\"",
+			"fetched": 1613881353726
+		}
+	},
+	"_distfiles": {
+		"otplease-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.14.0.tgz",
+			"sha": "b539fd3e7a08452fc0db3b10010ca3cf0e4a73e7",
+			"registry": "npmjs"
+		},
+		"otplease-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.16.0.tgz",
+			"sha": "de66aec4f3e835a465d7bea84b58a4ab6590a0fa",
+			"registry": "npmjs"
+		},
+		"otplease-3.18.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/otplease/-/otplease-3.18.5.tgz",
+			"sha": "b77b8e760b40abad9f7658d988f3ea77d4fd0231",
+			"registry": "npmjs"
+		},
+		"otplease-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/otplease/-/otplease-4.0.0.tgz",
+			"sha": "84972eb43448f8a1077435ba1c5e59233b725850",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-01a980d37e093afb",
+	"_id": "@lerna/otplease",
+	"readme": "# `@lerna/otplease`\n\n> Prompt for OTP when wrapped Promise fails\n\n## Usage\n\nThis is an internal lerna library, you probably shouldn't use it directly."
+}

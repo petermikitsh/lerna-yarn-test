@@ -1,0 +1,319 @@
+{
+	"name": "filter-obj",
+	"versions": {
+		"1.0.0": {
+			"name": "filter-obj",
+			"version": "1.0.0",
+			"description": "Filter object keys and values into a new object",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/filter-obj"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && node test.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"filter",
+				"obj",
+				"object",
+				"key",
+				"keys",
+				"value",
+				"values",
+				"val",
+				"iterate",
+				"iterator"
+			],
+			"devDependencies": {
+				"ava": "0.0.4",
+				"xo": "*"
+			},
+			"gitHead": "98cbfe2788d066e3d200870e0436838e2756f0e3",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/filter-obj/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/filter-obj",
+			"_id": "filter-obj@1.0.0",
+			"_shasum": "0dc98be70bd95536b441a925be21f58f911a9a77",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "0dc98be70bd95536b441a925be21f58f911a9a77",
+				"tarball": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "filter-obj",
+			"version": "1.1.0",
+			"description": "Filter object keys and values into a new object",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/filter-obj"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && node test.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"filter",
+				"obj",
+				"object",
+				"key",
+				"keys",
+				"value",
+				"values",
+				"val",
+				"iterate",
+				"iterator"
+			],
+			"devDependencies": {
+				"ava": "0.0.4",
+				"xo": "*"
+			},
+			"gitHead": "758b0d531a2cb172a4eae93943aad6ac925dc70f",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/filter-obj/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/filter-obj",
+			"_id": "filter-obj@1.1.0",
+			"_shasum": "9b311112bc6c6127a16e016c6c5d7f19e0805c5b",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "9b311112bc6c6127a16e016c6c5d7f19e0805c5b",
+				"tarball": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "filter-obj",
+			"version": "2.0.0",
+			"description": "Filter object keys and values into a new object",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/filter-obj.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"filter",
+				"object",
+				"key",
+				"keys",
+				"value",
+				"values",
+				"iterate",
+				"iterator"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "19f652d405ea9f32903825486ecd1e8cb3bfc43d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/filter-obj/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/filter-obj#readme",
+			"_id": "filter-obj@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-1zxy6OITvz/RlubpDlY6GG/eb38WAmSdy1j+LqxaqHhXYcFh/qIaLa+9usO2gaNSeVz8KgFUYubuX2gZhboziQ==",
+				"shasum": "a6d579ee8c0778b0fc5cc2a859bf6e08dbfc3bac",
+				"tarball": "https://registry.npmjs.org/filter-obj/-/filter-obj-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4186,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcvWkbCRA9TVsSAnZWagAArXUP/2m8OGcG59VwWoS+O9Pe\nNXW02M+9T1NjhEgQpyeF3zTN5QwEFUA6N7pP/A3bB0n6P/7w13/oQDA5Skqb\n141Wm0aVna+unsqUhryUmzT6cJTzkA87To93G1m1lIZv6kb3evtgRfQ3ofSb\nZb5Dxo44/6b/VPQo3zzOHf2QxyQJvyY5UhJ96T77HfxsXusgTt37gIKDF6XV\nJJj7wiy85pyfKLj8pbrkDlS21rJWHHfbvp2A3C0YM5tZ9OYWW6iWPbeL2Rih\nrFTfsKKBW4k3s6RtiVK5BfZOYnNyp124HeavmUAf8vDoBtz2V/mzK7IqpGDH\nGijwhvp+RmZFlqO+RAzaxB6Bbf9TAlo8gYc5ixG09QdL+Ke0Td95y6eVL91X\n+nuIWD5ovG6MeMul9/eP7Y0wE0qnZjk7mYIJyBv1Fpumd6XSaP+HSRz+vrnz\nutuXBEK03Hk4QZb0Q+xuf7D1R1WxOFfRbSmtbbYlVHsZ8Ch9RZXSGOVGRXQa\nnSV/0NkDHbgELSlN+lA8gUH7za9jbiJfc1CeuMNUXBqP10sJNUUwIC6xIrzs\nXwEeCSst096GQl5oDHffIFR1xplGfHMUT3hdZDhuBXUrgm30ntmodvpZzsVm\nSYri6KfWqYyU0VYxbr3UQAoZaJu3w+0+pthUNh0pAVdqqG2PraABlRcmNxFo\niu6v\r\n=hcBX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/filter-obj_2.0.0_1555917083222_0.422539198901676"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "filter-obj",
+			"version": "2.0.1",
+			"description": "Filter object keys and values into a new object",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/filter-obj.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"filter",
+				"object",
+				"key",
+				"keys",
+				"value",
+				"values",
+				"iterate",
+				"iterator"
+			],
+			"devDependencies": {
+				"ava": "^2.4.0",
+				"tsd": "^0.9.0",
+				"xo": "^0.25.3"
+			},
+			"gitHead": "f0e4a127c9805675f87b57d3cdd70872bb23b5a3",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/filter-obj/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/filter-obj#readme",
+			"_id": "filter-obj@2.0.1",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.11.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-yDEp513p7+iLdFHWBVdZFnRiOYwg8ZqmpaAiZCMjzqsbo7tCS4Qm4ulXOht337NGzkukKa9u3W4wqQ9tQPm3Ug==",
+				"shasum": "34d9f0536786f072df7aeac3a8bda1c6e767aec6",
+				"tarball": "https://registry.npmjs.org/filter-obj/-/filter-obj-2.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4115,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdltbzCRA9TVsSAnZWagAAWVYQAI6WqvAil1ohkhgSaWU7\n7uZLvCy6q3Ph6bZhIcl6T39/m0kMR15E8xW6VF70tCMUBrcVnJldTihjrrii\noQreqU16Vhu+H9ldgW71oXb5N1ujzTWatPhmKpN5PqVOY1Rr80+WqhPqesV0\nmu5sB06KGCFBLMm5ScM4qNnabph1WOJWD0NxJDF+YqxgRV6k5bclfLgbZU3E\nwxjjtFOIMnxkAi9ga37U/dTchzxOcl8hhs0i+/OePeS2AdXsiH15fYW7w0H9\nayO33lB40zTACedCbLwqPoxRYiidtHcR5sG2kcZzVfDBqUqlOJQSwrAGYAwv\nfE5xeegqUEZQJSuZ+rdrsk+xriwoBNTBbGG1fvSlciwhSvrBL/4hqte0Tu4+\n6DLTw5oICBpkjbiOkIfUrxxQSSpteFcZwumVQWfoFQDVYn2bVRNtBqIpuh9w\nvuV5kHGgtoms4F/VHebRDayCU5mW0zaUhUsBBhXYdkF/kv4C5YClyJ+8k0G+\nRTOoWvLhnHN7txjeNjQHnniXxvkoKPuFuE59pMlOIFH7QoaPt88NApWgMHIL\nlSEwuFqtuFWA36tq+PnU5e8SKrCQeUThnvOLN/dPjJIlpBaokxWPu5Z8pGqw\nnM4gooqXdcIWHfDQI0iPibKkk6GehDLwn4/IjamPkJi0/XqkrOoKxvv2Bxlh\n4IQh\r\n=/Yam\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/filter-obj_2.0.1_1570166514492_0.9860839372631538"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-10-04T05:21:57.477Z",
+		"created": "2015-08-10T05:46:25.958Z",
+		"1.0.0": "2015-08-10T05:46:25.958Z",
+		"1.1.0": "2015-08-12T18:03:25.799Z",
+		"2.0.0": "2019-04-22T07:11:23.383Z",
+		"2.0.1": "2019-10-04T05:21:54.668Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"33723f4427d18827ae241db13cc06651\"",
+			"fetched": 1613881366673
+		}
+	},
+	"_distfiles": {
+		"filter-obj-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.0.0.tgz",
+			"sha": "0dc98be70bd95536b441a925be21f58f911a9a77",
+			"registry": "npmjs"
+		},
+		"filter-obj-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.1.0.tgz",
+			"sha": "9b311112bc6c6127a16e016c6c5d7f19e0805c5b",
+			"registry": "npmjs"
+		},
+		"filter-obj-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/filter-obj/-/filter-obj-2.0.0.tgz",
+			"sha": "a6d579ee8c0778b0fc5cc2a859bf6e08dbfc3bac",
+			"registry": "npmjs"
+		},
+		"filter-obj-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/filter-obj/-/filter-obj-2.0.1.tgz",
+			"sha": "34d9f0536786f072df7aeac3a8bda1c6e767aec6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-34ef3b98baf3062e",
+	"_id": "filter-obj",
+	"readme": "# filter-obj [![Build Status](https://travis-ci.org/sindresorhus/filter-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/filter-obj)\n\n> Filter object keys and values into a new object\n\n\n## Install\n\n```\n$ npm install filter-obj\n```\n\n\n## Usage\n\n```js\nconst filterObject = require('filter-obj');\n\nconst object = {\n\tfoo: true,\n\tbar: false\n};\n\nconst newObject = filterObject(object, (key, value) => value === true);\n//=> {foo: true}\n\nconst newObject2 = filterObject(object, ['bar']);\n//=> {bar: false}\n```\n\n\n## API\n\n### filterObject(source, filter)\n### filterObject(source, includeKeys)\n\n#### source\n\nType: `object`\n\nSource object to filter properties from.\n\n#### filter\n\nType: `Function`\n\nA predicate function that detemines whether a property should be assigned to the new object. The function has the signature `filterFunction(sourceKey, sourceValue, source)`.\n\n#### includeKeys\n\nType: `string[]`\n\nArray of property names that should be assigned to the new object.\n\n\n## Related\n\n- [map-obj](https://github.com/sindresorhus/map-obj) - Map object keys and values into a new object"
+}

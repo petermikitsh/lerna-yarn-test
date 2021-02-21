@@ -1,0 +1,1752 @@
+{
+	"name": "@lerna/symlink-binary",
+	"versions": {
+		"3.0.0-beta.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-beta.0",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-beta.0",
+				"@lerna/fs-utils": "^3.0.0-beta.0",
+				"@lerna/package": "^3.0.0-beta.0",
+				"fs-extra": "^5.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "349b9c765bcbf38988d1fcd48313422417a04c8f",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-beta.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-paWPvSoJyKyvspjW/rs5t+Ey0NJOfJoEHTYUmBung3e6/A/4Zmb3WPBjTe+Aom59pWY6m/3Mv8HSIUelScMulA==",
+				"shasum": "e9839aafbbe3cb5aa35370b877f4a427520b6e90",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2604
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-beta.0_1520388892209_0.08764213361057904"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.2": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-beta.2",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-beta.0",
+				"@lerna/package": "^3.0.0-beta.0",
+				"fs-extra": "^5.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "ca9561a1ffe6292cceaeca30e4f7d5d85757c710",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-beta.2",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-HGR9U8uhh6b5fDECxX1K5nS3P5COjdS9AH4LCdpGJrU9NvPMKtXD36VCdjVPZn76/DtCwa9tScYmmObdMRZwJw==",
+				"shasum": "830934cdb913a60666d6893a0d9c42623025b486",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2896
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-beta.2_1520648905544_0.6386844268386911"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.11": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-beta.11",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-beta.0",
+				"@lerna/package": "^3.0.0-beta.11",
+				"fs-extra": "^5.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "197a09d58322e86f589ef7839c2438f830d72476",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-beta.11",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ODgU6jETHgSEMlHWkpC/UazCjscDzNu8ZWJfRaPwAEh7+VYQ2VJrQpHXMJEdNTQStL5pWXKGXKzvliOHgijgZQ==",
+				"shasum": "a961ae3c9e023122b62b80f44b996eafd2679e19",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.11.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3070
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-beta.11_1522287442974_0.7642134981238831"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.12": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-beta.12",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-beta.0",
+				"@lerna/package": "^3.0.0-beta.12",
+				"fs-extra": "^5.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "05dce5c0e4bca8dc894a99ed28337c85c211b37c",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-beta.12",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FIvVIWCWA/eM6riO7By2VR86SfyWNQok9oSsa8lCF3dTCfK4iRVSuuGUXhhRJWPN+Yw6HmsDjBr4EUsFpc7hrA==",
+				"shasum": "f17ccd3352677065c1319ca7a85f05c9652bf466",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.12.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3270
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-beta.12_1522373367062_0.964358294903469"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.17": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-beta.17",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-beta.0",
+				"@lerna/package": "^3.0.0-beta.17",
+				"fs-extra": "^5.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "5e462676b3793b8d4981fc7f8b81af2fc839adf7",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-beta.17",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-OlDHER9NboPnrcC5LLRNW1yFhCrOPtr551yccTqaa2TQ0GNcfirztcgKsrWRJeiaH0nxs1Rwi4ZQmOk/sYB+sw==",
+				"shasum": "e0be4394ee4e828a496aa8b9f8f48084ed7cb0f3",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.17.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3470
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-beta.17_1523583113712_0.6610030739776915"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-rc.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0-rc.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0-rc.0",
+				"@lerna/package": "^3.0.0-rc.0",
+				"fs-extra": "^6.0.1",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "1ab24c152d3ff5c2b9453bcaafeb4b5e432b2410",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0-rc.0",
+			"_npmVersion": "6.3.0-next.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aFmZmvjNApa7i4SCrq//j7kg7E6mO3U7dzE4J28biFen2Ey1fmxObf1jiv6b24T92D/WztiBGSSTXbFR41yAsw==",
+				"shasum": "0b3a6723fb857942baec6118ecee35ee0c6d082e",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-rc.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4934,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWncWCRA9TVsSAnZWagAA0AMP/iS3uWJqFVU4uUgvvVxu\nxxjNWmf/Sy4AL+TGlGi2KL6iN8hRBgPxrzmxPRfXaZnMaKnxYAuAKRSJO4co\nXq2l0FKieBTekvDPuhbzXTStbJtpRz5TntOBNPFk9mKjEG3n+3JluLYGV8pd\n6Yibbi1OKkFJFTdhcDd6lFzrTxUBc3FqQ92H4fWY60grmDHm0MlsnkkPJSzT\n2sqTX7iiim/Hg5g3ibII5LnmMr3vZTBoRkwn0Qwc/ahw1vFgV6ZaWxy1ZVOD\nUkSmT+52z8VwoTkQX5bnacvidS4OYNM9ox35IzHB/SJOP0BIhEj9Ljx2to/U\nNqtMva/bx8i/Oe+k7CxW/NbsHNig18gaZnhScsUWT24sEzVu5fcdqQb+OEzG\nsic+uR+INEfEhA36OGwAb+bkZsDU5lvAh4/PJHRWM9jIb/P4WUeHK/Qj773/\nef5mmeFH8vFyJunGMTWfNAhxyoEyPYMkjfPp1eNh4xse1FW16G1oGpHQRifK\nOeanbVHYZOQ+RM0nXERkPrNKvynmV5PI7E6lpCpyfyVWAZEICSus5+4kss7C\niDUo5aiSAcQO8VjGUKfIiH0Q5YNIDWt8vec5eRZ8CDu5xwnQjjnfYmA0JQu6\nM+4CPornglxYQ5skOAgBT9pMlOXdVAi8ewOU3rDaLVs0uj4SjN9uLE6WHKXT\nCK1A\r\n=BElf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0-rc.0_1532655381335_0.7504992162940254"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0",
+				"@lerna/package": "^3.0.0",
+				"fs-extra": "^6.0.1",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-symlink-binary-3.0.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ElV1ij0ZiOw5j1bZqg9K+q+dV/DJVvMZxP+oj3vsP4SgnG3EdWxBIbE7TCZHbLZtF0LNJsrquGCkdqk17svx/w==",
+				"shasum": "f4ea3817c0a38316eddc8a7a75311e8b85731240",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5092,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbObwCRA9TVsSAnZWagAATRMP/0QeB1ryeKTKB9LRpM/g\nS7smHBpp0Nnm5pLKW0yUrCnHs3Kiix4CQxbUEzQJsuFQ6DPx3B6dLty3d9PJ\nvDIv+tMf+EWEKKWOdCvxSIxgI8pCwZvQ3z2szoh+silb1TmRf4DxbPvWBIyB\nIHoHQ76G9TX3xgrkfqSSLrxhcy4itRKDpbE8A9f6lgxvYhU46sKQXUy9pFBA\nYlnHMbePffBVD15fGROFOIcx1/vy8oI4B2UH1O6fbqjK0QOBv8cfdgSCnFDH\njJKnC5na7ybEWV1MWSwsCeQMZm14x8apqAyJrCndhtY3QHfcn4DcTbjvP1Rp\nNz2DdmW5XqyLrxOCFQ+PPAWXcq56E/VTQzDepLouP+l3Lk9U7JhhsTJqEm0J\njFMZfXFcwNDo2Rs92obVEQvKM+AJW4yaqXN8PwUMz3RmUx5dkWWKi7MbBCgx\nYNxVl1zwDXTF3rPFpCAGTZtF0TjFWNTnjhtaZS57E9lhGnIHamy7wCUhg/Gc\ncF4xXlMC+Cp3Wl9juCB3r1TWtxJqmIuMCwdtYFFmTpk0I5yeqkoPzDBeA5p6\nx5lDZD4GiOsIE/37JklNTeRj4QwEJG9POFT1LYtYW3I/ELtTvQWjNPDaeBLZ\nRpXSwl/Dm+KdIuXTJPLRR2ZGbL7JlHALHHpuoktfWa62aRNQXcMCe8Qwwtye\nL0Mj\r\n=Cwgm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.0.0_1533863664117_0.22034208126427113"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.4": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.1.4",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"symlink-binary.js"
+			],
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.0.0",
+				"@lerna/package": "^3.0.0",
+				"fs-extra": "^6.0.1",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "37ef5f2ebd4fd207ee74a4fe8838323acb882435",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-symlink-binary-3.1.4.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.1.4",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-uQ8pYxzygahshXJAeC/vY4eSi+kFM0S2Pi15hJsJI3W7Ec6ysSYU1lXemb6kqoIqkTDJZWnfKXEq/3FLE+JYhg==",
+				"shasum": "45160774beedcf3d96b0669873283fbadd9a7deb",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.1.4.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5500,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfFaFCRA9TVsSAnZWagAAK8wP/RavexhWEpNjEasMbAwu\nxm5ebIwbelYxCye72bbScHmpyMbyjiLQNR531gzYIEWfak9v2kMl/+3NPIIL\nKZOkstDy0iTp1B7yQ6cAvRlmnii2/Sz+274Y/d1s120c6v30LNGCrY5cBL2L\no2kC54LCId97KkBJkOJVDnDwUFVlAkCSVcuhIWXo15NpbzbSyn9HdkP7cFgk\n6Yz4ER7YVIKVDz4mao8YCoF/ThdOxcqRAU83gpaRVGp+EVm6rs51lU5Hsml8\ndItfQ8V+bmXE8aSl+e5+wwitdSjN5PVenguZGByWOj42tTzO4F8Dzh3XnWBH\nvyN8BdT+/DIGFS4DdGiqGlJXfjCfqF7fLdIlipGdwY6PWqyG+TN9nmVygCWK\nNL6MiaVqqcPmiOpwOdwrSH/IRvVAYMvrX1UZ901FHTKV7RDLGZrQTSuQXQBP\nCq7Fu+EKnRbBninThpOUfbLZu7PGPVbrIromZFKgCHByV+aDLAl6oZPbEAV5\nSsTFmg9M1bcAbRCmRdLEggwFBu3PIZn1ItIppxkFYejbI0JZWWeKY5NyO0I0\nvWWk9Im+N1ZK2zN9uzvcJDPQ34s0GEcauza+q5kfIXxORc/oo7nqrCI3daEW\ntBXTttXHZAJn20OGI9u1rp+oewFLpBri7aiUflzmN2EdJMyxxBl4zUO0sLrY\n/bWt\r\n=5Sqq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.1.4_1534875269171_0.007437072121443622"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.3.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.3.0",
+				"@lerna/package": "^3.0.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "901e6d54a47151dfed3d6ed2912804b97d05c6b5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-symlink-binary-3.3.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zRo6CimhvH/VJqCFl9T4IC6syjpWyQIxEfO2sBhrapEcfwjtwbhoGgKwucsvt4rIpFazCw63jQ/AXMT27KUIHg==",
+				"shasum": "99ea570b21baabd61ecab27582eeb1d7b2c5f9cf",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5703,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkIPJCRA9TVsSAnZWagAAaN8QAKOqU8IrueLKao633uOy\nTMFQuzaabMF6iv07/8ZSDRyKDuli9gAvmCuQA/WLSHjMn/jxPll8JZR706VS\nG6F3vg0yOpdciL7K1EwIJ8pqe3kM0Aw92GxM4XrrFM1gYA75gTQW3T9gkUpX\nN2WAMf93h3ORi3S7AJHARZWFN+Zw7GZ2V44+F1JFEHCfJnhPt4ejA6C92i4Z\nYFgeZZWGQ2safKEb8dypgLGN5P/uU+NMIbZy4VZ5XMpHM0h6nJuVtUkJ9kIf\nDcvWu/Ms+wXQqXFaOhzyYV7CHkTsMNdtTGlHk2AS0IME1QZWrgw7X6/pb8uo\nseaMHsUlVooAVl+S2YbttzHIoPJ9WuO+PF6oHmjCSXyGyX3pdcOw//1KYavz\nuOFmbJRoMop+ZkMH9j6joC3SlLCSx2+AZOAYfnA2UvGyrIi948SDhPS4hRqS\ncvD7Rhtzg/IH6OccaQIVd092reglKWskU9ELT+U/YkHhk7xI7HILqMt6BWGU\noI9jG0W6qYXzbqmYKVr8qVphorkV7FHzOJ6Des88UAqebMFKucuBH7mrSzfX\nWqPuQq4hIPo+eGaiJzkZ7MmtOjv3pYPtZHEiOayixxviDQAYowohcT9VGHxx\n+hCLhOSNgAILhjlD2BOME9AYMSsxjLD7EpEv0JUhFohahu4yLxEQCHqgCoNv\n6pED\r\n=+AGd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.3.0_1536197576432_0.7148989296624808"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.6.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.6.0",
+				"@lerna/package": "^3.6.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-symlink-binary-3.6.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-h69AQBBWgZOEzQ1RJEYQ7Ou6llrJNhNNkpqT6k8qSWZ93iXyFmLE4hWoxMXXHFmxmQ0CqjEYKmeLV1Dr5DKT4g==",
+				"shasum": "935a5b98908578da7f9eed20818899f728b9f3d9",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.6.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5850,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwkTCRA9TVsSAnZWagAA8bAP/0fRogtFmdtd+jU0Dej+\nvhnncRcFwcC5uzp0NHIy+BLpM+/6tdQnHvAtRTgwUe1nu9xr5NfYdcD6OCMN\nXQopig9Js1iCEnPa9Os2fVA+p0q3MYpNEzchRf51MVSHOmUC+n5/wgxbpyIY\ns4rX9xO14HpzZclxUGyATnSXwIjxClaZDH2+cTeuipGgMKNYE3VEHz4godM/\nvPoIviuGwSvMwvtNMIm/vbLfnOAcy3DDBsiMDedcTmBODH3ZWP8PJSmMb/+T\n3IiSq7+8qFhImVt7qpTp/xIjay2Q7fYKcKIf9TVPgILLYENKd7V5x3OoVZCz\nH1fpGSga1akAL7rGR2bhrFz37Z6TUTrjnA7nNp+aaSvSDptwx2ff92Sj65YW\nynfnQX0AFlaR41pqIiZbWW6PZn6LWGYpjpXARY3TVx81Pu7jwZLTLiWCVj3I\nhdDcjV2wPzJzY0RS8Q/oKDc0jFqqJms+QOy/CGebCpwg969DanyxgK6R8hdT\nNH9hdw6BH7lovl0wZJYEdMiQzcmZT/rywcVMMJSaGcr0diIgeFC2C0vkVHQN\nirIwiyk7mj+31tdoQnxyM5yLdkNWLuSJUM5h5cpBtHlNf/df5+ndqmeAAw/K\nNAq1KI+nZiX5nrCdLRDB1aB6Vq41+VbFdnKw7dYPugWyDuhHhDxKgghliaH3\nwT8A\r\n=aSNh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.6.0_1544227090330_0.19410362057935093"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.7.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.7.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.6.0",
+				"@lerna/package": "^3.7.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0",
+				"read-pkg": "^3.0.0"
+			},
+			"gitHead": "89b53ff2b561e69fad3a3e8671d7dcd0f1c09c3e",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.6.0/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/symlink-binary@3.7.0",
+			"dist": {
+				"integrity": "sha512-J/6GeeTLaIjrhMyduHQQrj8gujJmSGVO8rCcBB0bAl++QDoMjBcMiTiYDtCCdRTOJo8KTVhnp/KhKJhu1r7RXQ==",
+				"shasum": "250c80966230ff64db6dcfba4c3efefa0040a9ba",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.7.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5997,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGqfECRA9TVsSAnZWagAAQyQQAKPDCswcmeJgE46y2BCe\nNkGWtq6NQLS2/PsrHKR3t9dmUp383GXZmJUflr2xtRNFHquQQsrqY5rk3l/s\ntvpHnDTWtqYLOvPGQK+lEK38/jSxoHGjz1Q8MYj6hyGPunGuERP4Ejr7P1QM\nG0IL5VXu90Y3g6skfRxxSqnpzUf/rejJsl/MEP4as0SUNvXgBJFwSLMs+jpZ\nv3MdVgUqVugZGZ1/yu1LeJ36lFVyi6NnUv4FaftW+h4dDwXATH2jFFTvS/iQ\nwa9AVZ7L7+5zjYv2FFbEMvQkLU2p1yfna+gj6brSMN/CJ5ol3HYCrD+J8f4v\nITOK/hOuPLC1PqhBpAzI56y0ldRQTYBTml7XCfUG2jooSh5z/ROp1a4TVb7B\nE6LFRvJY71KQvFCjoN2srjAGHAaHn28HjsOxI/UmXgutCGp5oaOZJhSxNm+G\nPAVWsYPuZREGlklqAFM7SFVvC8CfCTYCaGCJDehEai7Ni3KebNwEKqFVfICe\n3BPxRhtXmahRzXQRrJ6QqEMBLnLSqzklyyvECqguWzkDgxo1IrVYgpLyL5oL\nr1bq/RbAo3uY9NT7L2rFnvMOARkHwgWZRB9HyFCIXLLXK2sXZvT1GvY77C49\ne4YBzsSky4PNXvri6X186NpNMqMwHWAB63ib2fAloRWY33I3Vme7OGEBYnp8\nIb1z\r\n=AWwd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.7.0_1545250756167_0.5868650249258354"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.7.2": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.7.2",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "^3.6.0",
+				"@lerna/package": "^3.7.2",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "52796f674ad3f2642270e942e96443437c54ff72",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.7.1/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/symlink-binary@3.7.2",
+			"dist": {
+				"integrity": "sha512-xS7DdBXNQgfgrhBe2Jz27+S65yxBfnl+Xi+grvlqoEGVk7b8kt2VcBtui/XgL6AAaTg6f9szj4LUnwC/oX6S1Q==",
+				"shasum": "fedce89711ecfeb3d85fd7035199fab0436a793a",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.7.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5872,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHDyrCRA9TVsSAnZWagAACVMP/RtCL3hDU2nVXYKKC/fe\nQSkaFS65YFZWw4fmG7OzSg6w9StN10BjKLf13wGxiFxuDYFQRV+hycyu5GaT\nmQNM00ZWz57dMQ+s38+rKNY9buL8ZBMV0NOpeXyOu0rXq5ae59j5obZrhd1V\n1A4IqEj1aP364I3M7qL+iM4Q8uRCaWBcHjt5u2ekvhHRlC54VzBcQvcq2CzF\n2sBXhfodmX6TGHBCxnNyPJBQ16K47h3u7sCaoK52CCJYiK3+9aJLUGhi/+7B\niXOJRodmnfHtw2AadlM/epCMoyV1L4Zf39Ph0vqlOv1Dao52Jk9O0UkQ/d6/\neYzbNJh+Ji4fDSq/N3JtW2XboG0b0fkKWLGvoCiTmDrUQSpm9Z6HZJ+p7con\nI078PU91NbBKnTnaWASyFG6PtpUkhXRU49ASIyrfxfx36sw3YbsD5kXwIqxo\n790Ob8gKlfYGGWtT69E3CTOyOn1v74Ofnjv3xkEksYNHu23mmv79WW6F5FgU\nwkAkBkeN01CQSBeLY1l1SBACsYcFUTgAgAD9iYSZR/LwSEaX0pPMYWzBADaY\nG5nE2wmEQUiP1Vqkw6PXmej7mCOmfyLfrwgf5U+JmdG54CszDcZsPRH6f3tL\nmPvhViDbpwkFaI/NZ1b+3nwuJZa1PHEKjefH0lcjDa7OF7l3Vt0RKdiwCDGS\nuVzH\r\n=wG/0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.7.2_1545354410444_0.8091112906321589"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.10.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.10.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.6.0",
+				"@lerna/package": "3.7.2",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.10.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.10.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-6mQsG+iVjBo8cD8s24O+YgFrwDyUGfUQbK4ryalAXFHI817Zd4xlI3tjg3W99whCt6rt6D0s1fpf8eslMN6dSw==",
+				"shasum": "5acdde86dfd50c9270d7d2a93bade203cff41b3d",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.10.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6020,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNSCFCRA9TVsSAnZWagAAbHsQAKL9PixBgyhE5a7o9pbp\nzmjDbBmdCAYHUxy/vNnT+kWe/54px+PHXNvegiFzXwzwW/6xAOeRvPyQuOSh\nVTd3Q/+2wyToQdb50LkmorrUsSF1OPjuHkNa994PBkiivak/wgJQ/sp6KXAQ\n2qucYicls68Xt+bAVDxMPjjKMEOiW9M9+1uywr0hvRY4f7Yk6LZc5KHYjzuW\nYIn5/LwZuVJszoE6ZqH4AO5bLp9XcoV/Gthr9Uysgy5YxsekBTvqnCSw9NMO\nyX18+4Fd7zHNQyKZu+sTIP4LuY0emg9O4Y5taJjI8Mp9enBTBBXe/TXhHNjE\ny9j9iaj27OuQC7tCttBbRdJmM4RfNL07FhL+DhgQze5/0Ql/mJ5LMlUzqDa9\n1CDdA3K63n5QmJcb+pKbvvdoXOkjINiZnMaCooYYo1VAaCGbLRsMJ7BN/7Ch\nV1EQUWCAVZT7254o3CFU+7mvPkRthNaCbNgjVGSquf2VJQ+W3WEjMYsZLxd8\n/OMnkF0jhURBNX4svdlTEm9xRwzAW932T729+uxahPHIG5Kq/iguv/IxXFhu\nZinSJbxB+sKSI13M/g1mMGsUesCxPa/q7lhRd4nL+IPsZKmYv7f/omKajWkU\nx+KBbYqEDiucBisl/RxYeaNovr4osIq9ng2d+3RW1lBxFruu8kWKL4MI410r\ntOI6\r\n=UFVh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.10.0_1546985603784_0.21714332515246437"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.11.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.11.0",
+				"@lerna/package": "3.11.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-5sOED+1O8jI+ckDS6DRUKtAtbKo7lbxFIJs6sWWEu5qKzM5e21O6E2wTWimJkad8nJ1SJAuyc8DC8M8ki4kT4w==",
+				"shasum": "927e1e0d561e52949feb7e3b2a83b26a00cbde49",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6172,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN2OCRA9TVsSAnZWagAAjDwP/ivuSvbdtSqGTe/40Sr/\nixJ4Rs9qAzN1wybjP3esFejP0QexKCgJEqvjNsOnuGTfgHDoW4oz9ezdWUg8\nCvKbCGgxvI7Nen9SYZf+7gPnn9j3ZooQwsosRSupcRo4PnVSkgAvvWxCHCuq\naSDnZ0tad3Rh1A+mNSYje4pQtPbXDjIOsgRX+Prm0fv2JrOluNQYOWC4gH1z\njj1Fi3vkR1P44B9KkZXHA6BA1jaju3s1PMeYWV7+YLkVPFVbHnJ58tguMYPo\nAK4YAMUVCts9jLWm7WfWLO+KauPGv/iq9M2NYODoFEBiC8XASV/Zl9baiQxI\nQSdkZFm/0mRSibw2Inq4Wl33w9OIx/MsvMzuJk4Hc644/VFZoZFD/U0uxszx\nCHWH7xQxswkG1fqkPdQBOJvYtWWdStpZRWTTeMTHqs+/+YOGZXiGZqhDxzOS\nYylDLzolDkku9u6DRGTJJv/cA7MhM8gq95locGKIlL2QYvA4v0je3wq3o+Bu\ngaBZXsgLwtLFeqANz5bNW4cneIXxWr86fUQD2W6YLQKw02Oysc8uMzg3sV1M\n1MauFb8NGEicse+1Gd0l93Q2Ke35syoeJZg7Aro/mVqDn9UUdv+mFtTOXmV1\nzoS7fp7K2gqw/07r3EXI3W3zatzFx0vksVwiF1Z2Ref0/hNtNd4OhY+IqoIV\nCAXr\r\n=fJvg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.11.0_1549589901687_0.1714574648561611"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.13.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.13.0",
+				"@lerna/package": "3.13.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-obc4Y6jxywkdaCe+DB0uTxYqP0IQ8mFWvN+k/YMbwH4G2h7M7lCBWgPy8e7xw/50+1II9tT2sxgx+jMus1sTJg==",
+				"shasum": "36a9415d468afcb8105750296902f6f000a9680d",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6587,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhrOCRA9TVsSAnZWagAADcgP/jMe6cAuk6Uyi/BrGl7A\n5ykpyHkIJv+Il4+qcWBmuFGhqHGg0ExgWMoON336ftbeA8YqqZ6ooJo+qKFv\nntqIRicxbkdwNDGABPBFDN28EB2Y8FUF/ZyG7HAz+znnRoIn9j4RGPzvS319\nAz+nfJfh5zep7pws9QJ5k64oDxybOylvbdKUR8N0F3rNKTGlqQGVqBBYOSY3\nJOnaYlu2EZYuzhliPM1ffQbd4FFw1rLjiKwJOzvUv8VUFVwF+n/S4WuMJnv2\nBvzlqiI1DS9VRH7ksWHMYeuw/4dPeWhEgCPBqzvtUOL8myQ+ahd7GuWDIo+Z\nTy5INv2vvaXitOHnT3OjbR7ug7jn5/0VS77gwG2NkJF/2Lz8U1By8rpWXOY4\n0cZgRtoOuhZP1se9rYBRde2b9grpiGx0do3YtYtNd+YSKigkYyFkKvuycTgX\n4+pjwIsKFs0O7DSx3Y7ZeB1uND9LgjmbyBjxRdhkPCaWEVxfYK81k3p5LwDa\nFM0CXQmfysSbzfC8nEvyJq8O8t8lZeHEtGM+n6U3JGY07cYlq/2V1bKdy/sj\ngIUb+WMRRzuI5nzHGUoiSVbEdd4u+xo+fxTasKfQMkFYO7mS14rY0l28oeUY\nwaF91oefOUPk5a1IJ7jH6y7gC4COucXtnsppR6EGzdeNlPrRa1okczFV0nmL\n5T0J\r\n=OLpd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.13.0_1550195405439_0.5229537884154842"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.14.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.14.0",
+				"@lerna/package": "3.13.0",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-AHFb4NlazxYmC+7guoamM3laIRbMSeKERMooKHJ7moe0ayGPBWsCGOH+ZFKZ+eXSDek+FnxdzayR3wf8B3LkTg==",
+				"shasum": "db1c3204b83d91c4b43386302ee76cea4d20bc3f",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7061,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209OCRA9TVsSAnZWagAAF5EP/RtKDrXHx4+06PYui4Dn\nfZzU5U8ME3kOGc4ThwWGzcRVSuQLsoS8xi4Tnisj6GlNAXmevkR9IbA/OADg\n00Pev82cTcGhMt7WL0pxX7AKJEXzKj99PVYzAifST66ZeqyS3oU+8BD7m+9f\n89eSIcHWtQfmBg0LJaambO6lh3Y+5bma+GTYZHWsmt9vzNwaBNT5hTZZzVJ6\n2LpwZ0/DnvKSpw3HvOhrRyeyGGknA331f2sOb8SYEE0BBbXYfvrIyFl8Mhff\nyh9GotxeXKzlB+2sTnCG32QMDYn2j5eQLv5uevsCZPhZe+9/ZBuxj1Kkl7Up\nlSDw0v5zUBju+3LwXp3/zZuDZE8pKOVHmx7Iexi+IMAj6XFTbb59b+YzQXKL\nKAcp2gEnA/m6Gf5hIOsUKuGsCbf73S+oEqTTBFtteGL1/2vZMP6ndFwsNTGH\nPuTT8CHXK2z7ccZiMnsq7h5DOSkcoL7HKafiXwl0BRsQRAvU3p3bRHcEBq91\nopF0Bgazle7DOwnNd/uoKeMj9vgPEvckT2GnIzGfJigW2D1i+UWKE9G+6xrS\n7ldvIW1ifEHsqX3p/u4ozmWffx7pt27g8b4GvmAW8lxpw5SBBHlK5PUsjMBo\n+OrNao47Ye6XpwYajf84qAlYhJaSDGmyyXHzTwWmPIXecPfmMoMY4vv/GRz7\nP+3v\r\n=LwGr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.14.0_1557876558123_0.5672483438881788"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.2": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.14.2",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.14.0",
+				"@lerna/package": "3.14.2",
+				"fs-extra": "^7.0.0",
+				"p-map": "^1.2.0"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-tqMwuWi6z1da0AFFbleWyu3H9fqayiV50rjj4anFTfayel9jSjlA1xPG+56sGIP6zUUNuUSc9kLh7oRRmlauoA==",
+				"shasum": "a832fdc6c4b1e5aaf9e6ac9c7e6c322746965eb0",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.14.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7212,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkfCRA9TVsSAnZWagAAeEsP/RKbCMe2+yiGHeFMLiLi\n660aHhzeIbPfzTZNp5CBjvD6Wxj6h8Cz4aBIiPmMIfmuid8RCS4Zmfee/ym5\nAN/Fvwg8G7i6VEOblG5QvGgwd4eEs35r6IGQjP8Ly6S5/cpkePfYcrgETwBQ\n9wUtD98hoVyJS1KuP2UE5I8YZtN/4agf93W71qkzdqD+6IWTPGQdnsRf0Xed\ndqhipjIfF3Mq5y9Rpnb1vpzIPiz6hLBhL1HqQ1Ls21sMHcwfeb7y/BKYEvQE\n7xxn2zMrYtEzJfq5+tyb0wRfioHJmVYyYmfBSRDu5lfL7DNl+bZ0sj/lmVfp\nciBAUOrO0tmuGkQE/QpXiaoqKI4XjK0FUyRuT3i5nQXuUctLihVOfHHB6JQq\n6rcRmoqKAwGP04CVYSJ8WGn/aN7prq9iDb1QFHQVCwPsnuBJU6YX1l/oRY2p\nGS6c5/G5BjHCdDQbtllieE4nTH5ZJg5eRA53AUG50UOgtMNb7zVl/9nxzBYv\nQunZPiSX7FpE/TbYuZ8Yqg5pcmYGZs64HyCbK0+LsmnBn1oPhv/1Tr+rxUaD\n0u4zhr3yU0o/ZMw5agPdik6NKzOgRrfHQPwmOK+VgkyiUSRENek8f6/rDaUx\nnTDbewVKwZkSzpECrSw0B8gNDfijLOm0ganB5qLS3Vl9P8vlKzkEgSZAjoy2\n30dS\r\n=qhcv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.14.2_1560119582803_0.9800883414061741"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.16.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.16.0",
+				"@lerna/package": "3.16.0",
+				"fs-extra": "^8.1.0",
+				"p-map": "^2.1.0"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-7sgLWKP7RVxKPmnJZnq3ynqOsO6FDNFtJ/eQA46aV8ivKYoJY3+083FFErvka460V2MTBCEZsKXfX8Nezly/fg==",
+				"shasum": "b8c79800545c6c5721358513d519906c97ba378d",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7490,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRRCRA9TVsSAnZWagAAtZcP/ArnJVOrO5tk1V4ayZvU\n9DXuh1/ZCjyWVOWYC2PsPRMdgk3Xixf/OBLaC6aJVecPztUOJIxQ8GYfPuVB\nrJ4zHWQ9yzavygAa9uA/jsU0xD4flAPEPXmf4Hwrlviwf/onwKqcsmuEJuOu\niCa6LfBW9uDA4dshowt0tlPQ0wSktjJD/FsHVTrvm5EXzKHGCly4laaXRSTr\nWzMlg1k+sd3oyQiJ1rift4yTOUxZtXz9rxSdvu0c0nmCRObZdPsfBBbqE+WP\nawJDoI7P8wt/8AKhsGELcIXwZaKhXHGwcKQTk0esmR+mEG8l2Q/Q5VpcC7vb\neZAelPPuiwNEY6yxdr9Da/19wKCcEIyN8c/lG/2ev+zkHKSnb+8XwIkLvxNR\n9bzYsJItgqf6aA1i+sYg1fVEizdCggJnSLXe0yRQEs1f4eAhZjzZLUuNXSWe\nnonRJ8g5Si1k4LQh7EkLItK5d1zYGr07cym9AdefYc1DhwtYaFQkRLE7G9TB\nCbw9CXjnqZMslO+Kh8/UTQSG9ToKSIZw8W8nSu0BE5zigZVuT7Z6JI1N22Eq\n7eicC8x+Av5P4QzcaaZ47cjDWpuYymt9TTG12hmhs/nzU9dhB2ApxTUn+XNy\npszFq2RAC/wUOmbmEeJhEJFkqgtxVoO957U9z41wBy3hjQAYTgd7tXhSNF16\nyXMc\r\n=DqH4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.16.0_1563493457088_0.06578492222898857"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.2": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.16.2",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.16.2",
+				"@lerna/package": "3.16.0",
+				"fs-extra": "^8.1.0",
+				"p-map": "^2.1.0"
+			},
+			"gitHead": "d4b1a0e48d1ff241fafa268dbe57256e10f2cdc8",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.16.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.1/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-kz9XVoFOGSF83gg4gBqH+mG6uxfJfTp8Uy+Cam40CvMiuzfODrGkjuBEFoM/uO2QOAwZvbQDYOBpKUa9ZxHS1Q==",
+				"shasum": "f98a3d9da9e56f1d302dc0d5c2efeb951483ee66",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.16.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7641,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdNj7dCRA9TVsSAnZWagAAs6EP/jpFzwMcjSY2cg6ntIg+\n6oU/g9C0s+QKWo1ttR8LUbKfr1kguYRbPGre7/IyZjYDL+AM2Xp4MQ2tPGVE\nydsBwzFdrNbMsx0xSjLxvOmXXKj67O8YzEBCtxy4PHmAZZubLXCXdu32C3Ex\nwY9uYgwNiCYJSKX7921jp3lFptVh0FUMbkxaqvKWin3yWZhIGkLzGveiaHCE\nHIYo17jokta013wNSGrJC6E1xS5j8IdenZ69fLYl38sex3hgj75dz1SyeCxZ\nm4bqOB3LhJKSCpA0ojXxa+RG8ibOq+B/mob4aONvvRlti6VC/WsiLf2/RI7Z\n3dMBrCzexR59frNoXWTrnVnDUC+nVXHLkYAIJvg4wl9wyA+dqsI6UTnOxFYl\nfxaHVQiG8n2l2Vt1syRmDrEkl4dmVRmvddxLny7iRIGKqp/vfy7ps/G+8P/U\nVNNmTiHBQ+nRkpkujS7QWriBdDvwqar1vdM5OKrUkQ6eaLNqBLbIqKkuedLl\nvdduTZEdP4UMA9rOXGU3vl0wqCI/OJQH4M06IcgvlDJvscT1wqadXnTAY/Gx\nOQv0ohCbpkEKvXVrz5tOCpdgUls5rJog4mzip/eHwv94rYWSls90UnzI7Dma\nHoLcxGa1ucuM6GNoVhLqJeonkclWSHMpz0bnC8AFAsrROlIa5DR6V3XP+2yg\n9jXJ\r\n=xOmL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.16.2_1563836122959_0.8410836386761071"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.17.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "3.17.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "3.16.2",
+				"@lerna/package": "3.16.0",
+				"fs-extra": "^8.1.0",
+				"p-map": "^2.1.0"
+			},
+			"gitHead": "bffa7f228fd5acd240dfea8d3e757040dbe4ca1b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@3.17.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.5/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RLpy9UY6+3nT5J+5jkM5MZyMmjNHxZIZvXLV+Q3MXrf7Eaa1hNqyynyj4RO95fxbS+EZc4XVSk25DGFQbcRNSQ==",
+				"shasum": "8f8031b309863814883d3f009877f82e38aef45a",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.17.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8136,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdnofjCRA9TVsSAnZWagAAwm0P/1c5RbfEJu43kTRi25PH\nffeWKIVHsix3m6u8rARuciCCxRuMzYygpoL6+3F2gL+mS9OJXyLPLxOCbwxP\nrP2xkk9DCqIWIG94J8HunASuEL4/sUuFzHRK9Rlax7q87Lq7+7IsVKqkjYTR\nHAq1LW4+4ZYguziA62TGaskdRlordk2JJl1RDj3cdxrxQ54sICMcqV73qyJL\nH3DMAh3e8diEN2AqelgOfxjLZua3DtrrGvQeohVK+djsvyqXdl6FvDVZvBAt\nV8vHJ3kMYJm5V+GKN5pGRwSNu2Ple65LmxpycnzoSvcwg2rALFlGctm15sC6\nIDlIqLHnd75klqz8hR3Rc3zHW+fxSnF5VlIvpgba9EI5L4CCk9IYtJth5Ckd\nmx4ejhcCCKHinUfFovDn2u07fUA/AC3PIR2WVQTLMJf2+lT1BLYBAIJRpZ8U\nVwegiFg9Liz0okjwRsOW9X+1EvNY6ZRp8HL8YwGQqJ0BflPmmfkeYUw3Y+jI\nrzWnYc+Nc1VAVb1qs8oTi5RaJ3bI9reRx9dFF8DO4cAoGv8M+s1R5MIIsDuy\nLbR6Y7PTDSlQQZ3D0zEMAMHQOGKusdsGqfmnuBx7avRza4XpHuye7o4P35cH\nrYxLVIl3meqzHcNe21hBckvfAgumiJvRyNlrmSXoQPTrx7FNu4V/Snhd5+u8\nLQ5i\r\n=RPIO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_3.17.0_1570670562558_0.8819933099537651"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/symlink-binary",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/symlink-binary#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "symlink-binary.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/symlink-binary"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/create-symlink": "4.0.0",
+				"@lerna/package": "4.0.0",
+				"fs-extra": "^9.1.0",
+				"p-map": "^4.0.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/symlink-binary@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-zualodWC4q1QQc1pkz969hcFeWXOsVYZC5AWVtAPTDfLl+TwM7eG/O6oP+Rr3fFowspxo6b1TQ6sYfDV6HXNWA==",
+				"shasum": "21009f62d53a425f136cb4c1a32c6b2a0cc02d47",
+				"tarball": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9544,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGE1CRA9TVsSAnZWagAA4xgQAIPJyDQm0PgvOn9flX8r\npQCTis7Uip5NmU1ExuyoVWBNkMqKG+I2RuFkwAMYuMwD8gmzIf4nrm/noz6F\nyzbTWKQWWjymE+VOvXjoOlzDwjxGmbZ15QwgoB5rSAYTWX+dWA/dqDZKaB7U\nwjOShL+nlbQzeSH9kzPjlLrFdxyPC1gJlAg/LWnIXH3Q7RRqTTJ059ukePPv\nDwPortkavQcwpZLPg9PDvTHWW64ZPaYfkkFvnN6srEKpSC1ytTUFSLeQqsox\nlVV7m5ML+4QqqizYoI584YhVo/WrDRx7008SRl8WXTvl+MNkrV/95oNSuuAY\nqX8bC3ENWOoulY7rKSMBbgcmM5oav//mkAzAUI8rzvWKJBRnpcfIRjUPXQFm\nx7Krx4W29gpijLB1MMJvsVY0d+kMtUni4cAzPOKQWhZYQ819ij+L7stxrUVG\n7KTQzbu7jS+ypB1W+FkFm03xQfrHVsF3DbcPv2/gx9CpnrzNYjveCf+EOy5I\nAVRxkwzjykWR1br2/BtQWf1TvqdXnazPpCiOIRXAcF9TtqlvtsjXOrF590Ip\n1uEj2fUfde33TjuzTYyqKwSf1mOpfO9jL4FNxus2nSrTF9xRQ3V/h0GZxwMC\nFiYSZ7SW2syqatMeK/Axqiy6ZT8jHoCWTtyoZpums+XuZvWEC4e2ccKDcz4h\nEd+I\r\n=1a6F\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symlink-binary_4.0.0_1612996917197_0.9887977822852707"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-07T02:14:52.077Z",
+		"3.0.0-beta.0": "2018-03-07T02:14:52.297Z",
+		"modified": "2021-02-10T22:42:40.871Z",
+		"3.0.0-beta.2": "2018-03-10T02:28:25.608Z",
+		"3.0.0-beta.11": "2018-03-29T01:37:23.133Z",
+		"3.0.0-beta.12": "2018-03-30T01:29:27.128Z",
+		"3.0.0-beta.17": "2018-04-13T01:31:53.804Z",
+		"3.0.0-rc.0": "2018-07-27T01:36:22.164Z",
+		"3.0.0": "2018-08-10T01:14:24.287Z",
+		"3.1.4": "2018-08-21T18:14:29.249Z",
+		"3.3.0": "2018-09-06T01:32:56.523Z",
+		"3.6.0": "2018-12-07T23:58:10.487Z",
+		"3.7.0": "2018-12-19T20:19:16.352Z",
+		"3.7.2": "2018-12-21T01:06:50.541Z",
+		"3.10.0": "2019-01-08T22:13:24.898Z",
+		"3.11.0": "2019-02-08T01:38:21.793Z",
+		"3.13.0": "2019-02-15T01:50:05.538Z",
+		"3.14.0": "2019-05-14T23:29:18.243Z",
+		"3.14.2": "2019-06-09T22:33:02.962Z",
+		"3.16.0": "2019-07-18T23:44:17.214Z",
+		"3.16.2": "2019-07-22T22:55:23.123Z",
+		"3.17.0": "2019-10-10T01:22:42.677Z",
+		"4.0.0": "2021-02-10T22:41:57.284Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"212e2341632c2dc98153b83f4c7d4305\"",
+			"fetched": 1613881353144
+		}
+	},
+	"_distfiles": {
+		"symlink-binary-3.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.0.tgz",
+			"sha": "e9839aafbbe3cb5aa35370b877f4a427520b6e90",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.2.tgz",
+			"sha": "830934cdb913a60666d6893a0d9c42623025b486",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0-beta.11.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.11.tgz",
+			"sha": "a961ae3c9e023122b62b80f44b996eafd2679e19",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0-beta.12.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.12.tgz",
+			"sha": "f17ccd3352677065c1319ca7a85f05c9652bf466",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0-beta.17.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-beta.17.tgz",
+			"sha": "e0be4394ee4e828a496aa8b9f8f48084ed7cb0f3",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0-rc.0.tgz",
+			"sha": "0b3a6723fb857942baec6118ecee35ee0c6d082e",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.0.0.tgz",
+			"sha": "f4ea3817c0a38316eddc8a7a75311e8b85731240",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.1.4.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.1.4.tgz",
+			"sha": "45160774beedcf3d96b0669873283fbadd9a7deb",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.3.0.tgz",
+			"sha": "99ea570b21baabd61ecab27582eeb1d7b2c5f9cf",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.6.0.tgz",
+			"sha": "935a5b98908578da7f9eed20818899f728b9f3d9",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.7.0.tgz",
+			"sha": "250c80966230ff64db6dcfba4c3efefa0040a9ba",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.7.2.tgz",
+			"sha": "fedce89711ecfeb3d85fd7035199fab0436a793a",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.10.0.tgz",
+			"sha": "5acdde86dfd50c9270d7d2a93bade203cff41b3d",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.11.0.tgz",
+			"sha": "927e1e0d561e52949feb7e3b2a83b26a00cbde49",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.13.0.tgz",
+			"sha": "36a9415d468afcb8105750296902f6f000a9680d",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.14.0.tgz",
+			"sha": "db1c3204b83d91c4b43386302ee76cea4d20bc3f",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.14.2.tgz",
+			"sha": "a832fdc6c4b1e5aaf9e6ac9c7e6c322746965eb0",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.16.0.tgz",
+			"sha": "b8c79800545c6c5721358513d519906c97ba378d",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.16.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.16.2.tgz",
+			"sha": "f98a3d9da9e56f1d302dc0d5c2efeb951483ee66",
+			"registry": "npmjs"
+		},
+		"symlink-binary-3.17.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-3.17.0.tgz",
+			"sha": "8f8031b309863814883d3f009877f82e38aef45a",
+			"registry": "npmjs"
+		},
+		"symlink-binary-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/symlink-binary/-/symlink-binary-4.0.0.tgz",
+			"sha": "21009f62d53a425f136cb4c1a32c6b2a0cc02d47",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-f408af1e9af6db13",
+	"_id": "@lerna/symlink-binary",
+	"readme": "# `@lerna/symlink-binary`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

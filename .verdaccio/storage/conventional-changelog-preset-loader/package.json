@@ -1,0 +1,1274 @@
+{
+	"name": "conventional-changelog-preset-loader",
+	"versions": {
+		"1.1.0": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.0",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+			"_id": "conventional-changelog-preset-loader@1.1.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-c9I3oDJak6xeKSs3v8AbSbXhoyfBJdQk1T7qWT3uBKl3TOwA/yqGreXF4NnAThBqN0pMJPZpHm1NrL3U8aUVYQ==",
+				"shasum": "594e705f2022e2a08c02bd58216f2e90118402b2",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3895
+			},
+			"maintainers": [
+				{
+					"name": "hbetts",
+					"email": "hutson@hyper-expanse.net"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.0_1518101212219_0.12757920298640268"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.1",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+			"_id": "conventional-changelog-preset-loader@1.1.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-EPbQSxVyGldFYFjoYJ5WnO76ozFWW996h1pIP9t7E1K4mRnrc5qo+JrrBv0hJapRS9n81AhDZ7+10zSiTi9jdw==",
+				"shasum": "081ab033ecff6ee398d69e42d08ba60e866d7c5c",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4187
+			},
+			"maintainers": [
+				{
+					"name": "hbetts",
+					"email": "hutson@hyper-expanse.net"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.1_1518149844113_0.3755882211299715"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.2",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+			"_id": "conventional-changelog-preset-loader@1.1.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-uQiqFzPb38JPOOcGDfrIAQzMHlbJdYxnlGy3yzdGmNMihXJLRPJE+KuZEiQp519/i0gSCqF85upWL4wuzJmwsQ==",
+				"shasum": "dfb5877884ef852b648bdef6e69e53e1bda188df",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4623
+			},
+			"maintainers": [
+				{
+					"name": "hbetts",
+					"email": "hutson@hyper-expanse.net"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.2_1518408454790_0.48870769409714354"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.3",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+			"_id": "conventional-changelog-preset-loader@1.1.3",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-oVjMQ3i9K9IbcvejsDAGBjipXaKhpuijI1hFx9O/vRbowuhKeTIG/7BC2w5bnfYnD5GBEYRrO41KeypwQ/hsJw==",
+				"shasum": "fd5cfcf3b098f062042db8e90e78814ba5cfbb52",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4623
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.3_1518544460265_0.3339256178677248"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.4",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog#readme",
+			"_id": "conventional-changelog-preset-loader@1.1.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-KY9sGPKnKlW542FpNN4++GkijXnND69/MgMa6EDibnyYXO6gV/NPwQwDTH6MOVVIjhspMgEM69H3yFVHo5Ud5g==",
+				"shasum": "5096165f2742a18dc0e33ff2ab9ee08dc9d77f08",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5200
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.4_1518545144222_0.5854526747219289"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.5": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.5",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jscs": "^3.0.7",
+				"jshint": "^2.9.5",
+				"mocha": "^5.0.0",
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@1.1.5",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-ngaSOqeyH5hYYdvl+bcJNEiT9B2c8cSRpIZtnFxbRyH7MVQbLOEn5oPV9NpQM00hTyBtqDviNDCXmy/Al6Gq8w==",
+				"shasum": "d5af525d7ad81179d9b54137284d74d665997fa7",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.5.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5738
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.5_1519100428253_0.6168758935864314"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.6": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.6",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@1.1.6",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-yWPIP9wwsCKeUSPYApnApWhKIDjWRIX/uHejGS1tYfEsQR/bwpDFET7LYiHT+ujNbrlf6h1s3NlPGheOd4yJRQ==",
+				"shasum": "b29af6332f9313857be36427623c9016bfeeaf33",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.6.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5936
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.6_1519510360207_0.12020513136163125"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.7": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.7",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@1.1.7",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-Lx188u/dEFrwcZ+CWYm/3BXM9HEMUV0hxxVX9VMZ12wsXXZokYnJe5RJC6ZcLvElsjCKehtmT+gGio5QdvCOTg==",
+				"shasum": "58a7ef85f980ca17f1373dc222ff449606222fb6",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.7.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6189
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.7_1521726105452_0.6528118705270061"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.8": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "1.1.8",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@1.1.8",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-MkksM4G4YdrMlT2MbTsV2F6LXu/hZR0Tc/yenRrDIKRwBl/SP7ER4ZDlglqJsCzLJi4UonBc52Bkm5hzrOVCcw==",
+				"shasum": "40bb0f142cd27d16839ec6c74ee8db418099b373",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.8.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7605
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_1.1.8_1522164368829_0.8962154657133685"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.0.0",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"sinon": "^4.2.2",
+				"sinon-chai": "^2.14.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-hEWm9o6TxjS9aO1AKaHpl8avSXaUHiUXBT25vJ4ToaDi/gPDqt3OnZkwhIgubADUF+lPqcXpjFTOYcOL4AwyvA==",
+				"shasum": "69fea3db554d9b2a95dcaf7c603c1a0a389a7603",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDWNMCRA9TVsSAnZWagAAo4IQAJh3O8iGVehheWoqryrA\n5k80sKSteXSnz1meLF+9vjTSkLNMTDMZVe3rKsv8p/T+xxwVegeLl6kX+XGB\nH+HjxMDkGZmpsORQ2prSw+OFIg0squkYUaGDdCD4TIedYEtgarzNR3Z/qjZe\nevVZj2nJcJJNVWfD0tILn+TzzJDxBeTiZStbnzHHfMsxQ9segCerHeFaBjsB\nzWRQfUr2Rul0be1sXLd3mK4Rt9Vm4dNpsaIuu/B5yzuG9mOSrkyhAZF3vQjo\nTk7usdJWzU0lClS87gRG5jcVXb2kMxjg04vaiqK5+hqiD0zZkR1viKq1G8hx\nqY6GJKGTXibnHb4CJRoQVTbUdpdF4GctI06R5XGYPU3bi+52ZJ12p0oamEZe\nJVdlHTqM4F4jWSo9AJ+1/g3TCUTZR6gRvAKeff3rT7UQDo5jkq5L4KTkGEtH\n7eIVx3Qp6M4mFy8R2lHbQWmXCUqJepwNoQrHWe3T0TaWmNztnUo/YO/IYKt9\nFUUbJ/+/fEKbjOGhllaUoo2+cl/iVXGY/dCMGua6g5J6zRZNGfS9l2at+rhK\nLMuvRGggRHrBoWb8F0ayt1qdw7cUMQf2nxOOWpi4f6PC7tjn4HcV6U2fCdOR\nzc4Aq5B/2Eewp7XgDs/ZSjItIAfUc6cT6Zypw9uGFQ3xV6tc22gkS98QVvpL\nAkB6\r\n=s5eu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.0.0_1527604043883_0.7949630474566722"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.0.1",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js"
+			],
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"devDependencies": {
+				"sinon": "^5.1.0",
+				"sinon-chai": "^3.1.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "mocha --timeout 30000 && npm run-script lint",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"_id": "conventional-changelog-preset-loader@2.0.1",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-HiSfhXNzAzG9klIqJaA97MMiNBR4js+53g4Px0k7tgKeCNVXmrDrm+CY+nIqcmG5NVngEPf8rAr7iji1TWW7zg==",
+				"shasum": "d134734e0cc1b91b88b30586c5991f31442029f1",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8631,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGAYCRA9TVsSAnZWagAA/64P/3CQOq//UulkfHAi6o+j\nv+T5g2nmDMr65vu7mTLUpv5Hx/f4wTAQwrUFuPeNozClbzSpFVctCimgCXIt\nHw5nR196vttEsYKPayMQFrtOTKcLV4DPKUcWEL0CBxYte8XAelauawceK+4z\nM39YqiqCNe4PmNkcdOqWPIbl65eAC7ADPlH0v104xeF3rEkIyosNMLSs0Kji\n9I6sem/44psIPDGeCwn468N+2v/EWnooaI6XYM/DcLmh2STOIMpfTM9OjoDN\nsBB4CrLg2a6iSxSopgrjr1TrladTLOTIj1Bgn++XisiDA8RI0ZlaLWlmOtzR\nrU5yHYd8tYCF7hIhVvp4eL5ApsYpSJjCJVTa3z/rRMuyIaSyMUBKdhVYZWFv\nlg12eGmYEi/Jom1rnxvecT6oG6Gq6saR32gWtRpjQ1cT4dG0Zp66wrzUG6yB\n2CRpSr9rHR95olT8knKR7p7r+sVHCUTQRUTDmGheepcq9z7W15bHRaNeaiI7\n3bUafSCuuLhY340XJuFtoUYKS/0kCEfGSzTvpIBaiYAT9r+ju9MSB9qX0i/E\nLO8TwRf5ETXiDsMrcpHD9mSfA12pZpfZghKt4AjdZBsaKFz/7YTTZC0ZxHM6\nYZcDvVXr869qjLJ0hPHIYh6FqCtFAszQQey+6GYztXvnp/Q9tahhGUh4jgwI\nfZVM\r\n=xt52\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.0.1_1534877720170_0.7701994640289185"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.0.2",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"gitHead": "f301b0de0b954713a50b2256a3140e21817d14c0",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:conventional-changelog-preset-loader-2.0.2.tgz",
+			"_id": "conventional-changelog-preset-loader@2.0.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-pBY+qnUoJPXAXXqVGwQaVmcye05xi6z231QM98wHWamGAmu/ghkBprQAwmF5bdmyobdVxiLhPY3PrCfSeUNzRQ==",
+				"shasum": "81d1a07523913f3d17da3a49f0091f967ad345b0",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8951,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2pqHCRA9TVsSAnZWagAAAUgP/2/YKV3fpMs14KY/dBG2\ng/rHlR2IMhYfPWTWknhZiqaJ78DSqiIdfZ2V9F6A+dqBjp0FrOWPOn0BHZGm\nZZiyU5XgIhMAn/YosyPeZFlZxF/O97ag52ti3QW/ekNIdeEC4kpjAZ9zWRA3\nPItPmr4wWNmYr9rH6bwdap8IdBrOkcs/OIBGN4odnL9eDMnX6SHM8TAUG86A\nWKErZBrNzSvYMD6k2n6HKUlGy4UR48u+hwZToi37cxTkKsmVYwWc29xLCDEG\nGY+wwlA0HDUD4yb79Im9+JFTGzR+CWmyEotDVE5zvG1jYz2/ZE89qKj/56uB\nD6+K25+BVAp0Ccf1ReEcaZQ/T3nYX6Wrnmk0qL/7RzFbP33GDeRkWNx8imVj\nmTKN8JNRu95tU4LxfLE+l1BL1hXge1GFKO3NNh1CmI+Pqd05yh9DokQxE9Is\n2xSa2zge7I+8roqKEeLnByYfpglRFJMjSuFzhD76T+ZSYig8r8jXp2gICK0Y\n1qubpVS98F7Rhcscj0Ax55Lc+0NrP3I3Nt6y8tdLTxEgkZc1Xnhzw96PAp8J\nCTjG1JOZFMElJggzDDcwE/lCBn8FM3TFqXp6lZF0Mmlo9c9PiVWttnlzW1Xj\nqqbG4T0SDX3jPJDtdIxt0W0dkkLNuGV/S+1qjKGGhuSTjU0IHYZEC8XunOfg\n6BEP\r\n=JXz6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.0.2_1541053062607_0.6431442317075331"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.1.1",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"gitHead": "c0314ad9cd0b30d456a65385b70988cd5f4b3410",
+			"readmeFilename": "README.md",
+			"_id": "conventional-changelog-preset-loader@2.1.1",
+			"_nodeVersion": "11.12.0",
+			"_npmVersion": "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-K4avzGMLm5Xw0Ek/6eE3vdOXkqnpf9ydb68XYmCc16cJ99XMMbc2oaNMuPwAsxVK6CC1yA4/I90EhmWNj0Q6HA==",
+				"shasum": "65bb600547c56d5627d23135154bcd9a907668c4",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.1.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10655,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcr7pECRA9TVsSAnZWagAA/k8P/0t+0aItVjdEAf1eZ88H\nYuHEkfalNZybKp2GR5tMwnyuDeRj8lDD64Om5iXOT215T4Ng2L8nn+ef2oTx\nRwh8fJOAMToBO19Ip2Y82tPac8VgTIhT4TMSelUrLU0qM2luQ1HAhMTpob+m\ni1wJrP27hUOcR+VlCwE66zk/7f6CcjlS7i6MMk5ckS/v2b7yJagF2P8PnvDb\n/6UcfUMeUvouZ2PItRW4p0Hpg76FK5z+TkzMcQmznKQrOcUeX7VcTddeDDyq\nJorvCFvSYS3zQg/2WWQTSaR+XYpfYeS9TPDBez3YkQYme0xFAHmhd9vkEftn\nDC5sOuBmTzZyv3O/1C6OvY9deYBqpu4B+x/fk3aqefteGgqBUx2GOgSRUqqV\nfNrD43iBSm0982x4I2trpxlyS+EPg3T8ktt3xtfSET5GF/oyNTHWMP95AUXw\nO7gXRf0zNdAw04r1KU6MjOuS4IUkGbFmM6q0WO6E7k4KcbRoC5KCPl8eWxQw\n9T0zPPWr+Nx6Tm9uDf1tOdrOvvaXoq691LhSSbFw9SA+zCJlVQkzmN5qVESu\nvMxFE/9BQpdp8xytm21p99MTYTmGJ1Ix4yQDtp4MwWdTOE+hqNZblpVdCmv/\npQdcF6xldaYYFxzcJ7qhCgLW3u76nI5E8hugtyGrM3M6ezDN690ODuZCvgII\nAcNy\r\n=EAGl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.1.1_1555020355967_0.015619536175731419"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.2.0",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"gitHead": "dadbbf8b1acbe4b3a8f345633bde3f4a4ad0bea4",
+			"_id": "conventional-changelog-preset-loader@2.2.0",
+			"_nodeVersion": "12.4.0",
+			"_npmVersion": "lerna/3.16.4/node@v12.4.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-zXB+5vF7D5Y3Cb/rJfSyCCvFphCVmF8mFqOdncX3BmjZwAtGAPfYrBcT225udilCKvBbHgyzgxqz2GWDB5xShQ==",
+				"shasum": "571e2b3d7b53d65587bea9eedf6e37faa5db4fcc",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 11178,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdPofMCRA9TVsSAnZWagAA2EsQAIfpADGcu8XOSaEMPZop\nd7BEStCf5COULIaDwvL/TlIu3Rc7Bd384s0y6ha0cI4xQjoBb8dyNIrzcd0B\n3eXC3QYCUblpaKiXcdV1Pn/toqIq9Wemm1bmsBP5YHbkfmLmw0Eg3nkTkRFh\nIv8z2Eg3JEHtXtXDLa2gubJjzN0esxwzcnWAlF0iJjeZyPoLjbS2W6166ASb\nyzv1Ck+eTqeuG8kD+TO/zslmjfJEPhP05KYMLLEAcgwXSgz/1mZsvIWvbR0r\nYvVWO5WzyVHtH3rG/TC7tluIBRDbvNx99cMPArDNmWmTXI216VbpCxP2Sj6V\nDln0xWvohtqN3jzQgtUHVoJjT8CIiCZHPQyeyvFdo/tY2t0g9R0yLB4XVZdy\nIwTjAWaHXg8+CLgPofzypJuTzvuP94d4FYPzdtcWwziufcXw1ehQcjLSNReH\nW06/IzBU0jQXC0hh+WFEvAiCSpxjdGVOp/2XtKog7jquV+SA39QDlU+nKJcV\nHODv5BRn8pgiaqwzX23582y6UDmO4riuO+V9EFBbqKtfET/4g25ABvudnu6+\nkJUwkaB7swttslcwRfjoWa8ddsq0XXjZKI9k3AjJcDaVVEOq6qKmi2QTfET/\nO4gZAotjPNpu6N0Idm1a/UljEw/BiIUJpsLhSa6QNpx/oTtMx6W/6cWENZQe\n7PRG\r\n=yQi0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.2.0_1564379084025_0.6441669220179873"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.3.0",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"gitHead": "e865af4df8d06795cebc7af09364ade19119e089",
+			"_id": "conventional-changelog-preset-loader@2.3.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.18.2/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-/rHb32J2EJnEXeK4NpDgMaAVTFZS3o1ExmjKMtYVgIC4MQn0vkNSbYpdGRotkfGGRWiqk3Ri3FBkiZGbAfIfOQ==",
+				"shasum": "580fa8ab02cef22c24294d25e52d7ccd247a9a6a",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 12568,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdsVoZCRA9TVsSAnZWagAAxo8P/iswF/2z9WNo5ZJ1Nt0N\nYYBFvylhZXew01HgcQXmgfOx7AlHrG0Qo6iFN/sib/PQrnXpjd1mmKmMWF5g\nHH9a5BIN3vKlX3B4WmoNIiAK/nbDhYwDWphSfe2gXVsiNDDUVEa0xSEc6Lo2\nYk9U9h8Oqpf2YF88ltkUWxYfK9dwV3xMIQEJ6KGrAnZCTIq3vJN1aNqiFpMj\nKI9XNlAqgz4aM6LRLqzKAuZuKa7e49TZ2XUS5+uMgmMwmKyWJSruxzUmrnJg\naOwJecF1LY4vGYX/4JWEQw5wr6DRasxPuHqSz3aj4vEF1WiJM1LKP/6Xa+ls\nKaiKQXXO8mcwR5uidXNyFlQGh3EATxv0egRborNrRBd5T9S5cXzIdD1XgYjq\nxQ36LQDNprXqGNOMOlzmGvpRFQvKhK0lSn8j8V8yPMJnt1JGegIvqvh/Avzk\neIYR4ICXwQ4LCiazfVs0JE54TcTbZvqqqbmwMQ6gAgPgrRdglulSx4Lii3Zm\ngmby9rwwLYbpksV7ePTRb2gddgP86nmNmp0TgqB0pGe4wDDxTREmviY4jgus\n1Qs1kZMl3Pkrs4OQykf9WjM/iP1apxjGHua4ujbmJMLTty9MqrSJgRef5ZCp\n5Z9w3EAKfaw37huBRmFmnL7/q2Zr6PCPD+ekI8ij37+W7dqrbeUrhioJUUNJ\nU0dX\r\n=rC2o\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.3.0_1571904025176_0.26638764814612115"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.4": {
+			"name": "conventional-changelog-preset-loader",
+			"version": "2.3.4",
+			"description": "Configuration preset loader for `conventional-changelog`.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"keywords": [
+				"conventional-changelog",
+				"preset",
+				"loader"
+			],
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"devDependencies": {
+				"sinon": "^9.0.2"
+			},
+			"gitHead": "83643c5a0d2c4d7c9ba14cbf990ffbc577a51e8c",
+			"readmeFilename": "README.md",
+			"_id": "conventional-changelog-preset-loader@2.3.4",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-GEKRWkrSAZeTq5+YjUZOYxdHq+ci4dNwHvpaBC3+ENalzFWuCWa9EZXSuZBpkr72sMdKB+1fyDV4takK1Lf58g==",
+				"shasum": "14a855abbffd59027fd602581f1f34d9862ea44c",
+				"tarball": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.4.tgz",
+				"fileCount": 5,
+				"unpackedSize": 12884,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJetbPPCRA9TVsSAnZWagAAij4P/j9AdSnOEQ7a3vdiZeEN\npuejpmpwmmk0cEqSLvsborzo2Fq0eDnIbcSIg0LS2tfeypA1Lvkav1x1nAuY\nwR61a9UxCujDuuXgcQipHe+JdE+7fwP0+ekSREzbWXrgnJ5tNJjLwO/0kpRX\nyUFIqIwsulZubJ5R8xyg70TTKg6elI1sCO4WnW5NCnBWfEYH/vO79j9lKfII\n/HETgkR7ilziHMVYNsOiOvyvLpqIMlVXY1oirTvWgpSDul9D5qlQFSaDumSg\npqVa2Wp6koGF2PWs70eqVUaUWqKwZszKE6SyJOrnDw9veV0UMp1siGE+j00P\nDymTHOrwz1KuloSzdQ1wVfV9jZAOq9ZRXP2rMWQMPNTDQepLz88bCT4tD4j4\npmtbW5MLFXflPkLCN7greqCoYYWyefANqxk1v6wscefw8HrLEB7I/lQv0nUr\nGMRIN+DWnFHMYUGLWItYM+5yyR3wDcNhWgMOdgoRIpY+Fgl6J2k1yeYfAd2D\nN9AbgoVg+rKkN2A4Ij53CZ9wlxdLASYnWovbZxAp0VIdwenbfNSJclEZZc7Z\nMmW5idjLZKEIlvP533UQfk62mV8Cw40a2cNBLgwRywk6L3HZifHTuRYjfmUb\nk3Qu+SfvHPuraM2Bb/RFujqO/NrUx5n9UdiO4Ne3hXWzkVSEe10a2ZMgrfR1\nq0ub\r\n=e48z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/conventional-changelog-preset-loader_2.3.4_1588966351115_0.8932761464459882"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-02-08T14:46:52.219Z",
+		"1.1.0": "2018-02-08T14:46:52.866Z",
+		"modified": "2020-11-05T16:34:37.135Z",
+		"1.1.1": "2018-02-09T04:17:24.756Z",
+		"1.1.2": "2018-02-12T04:07:35.498Z",
+		"1.1.3": "2018-02-13T17:54:20.320Z",
+		"1.1.4": "2018-02-13T18:05:44.307Z",
+		"1.1.5": "2018-02-20T04:20:28.308Z",
+		"1.1.6": "2018-02-24T22:12:40.280Z",
+		"1.1.7": "2018-03-22T13:41:45.644Z",
+		"1.1.8": "2018-03-27T15:26:08.931Z",
+		"2.0.0": "2018-05-29T14:27:24.017Z",
+		"2.0.1": "2018-08-21T18:55:20.269Z",
+		"2.0.2": "2018-11-01T06:17:42.757Z",
+		"2.1.1": "2019-04-11T22:05:56.099Z",
+		"2.2.0": "2019-07-29T05:44:44.152Z",
+		"2.3.0": "2019-10-24T08:00:25.327Z",
+		"2.3.4": "2020-05-08T19:32:31.267Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.3.4",
+		"next": "2.3.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"fcd8ecc81e0782e0dcdb2b2273483713\"",
+			"fetched": 1613881362674
+		}
+	},
+	"_distfiles": {
+		"conventional-changelog-preset-loader-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.0.tgz",
+			"sha": "594e705f2022e2a08c02bd58216f2e90118402b2",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.1.tgz",
+			"sha": "081ab033ecff6ee398d69e42d08ba60e866d7c5c",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.2.tgz",
+			"sha": "dfb5877884ef852b648bdef6e69e53e1bda188df",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.3.tgz",
+			"sha": "fd5cfcf3b098f062042db8e90e78814ba5cfbb52",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.4.tgz",
+			"sha": "5096165f2742a18dc0e33ff2ab9ee08dc9d77f08",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.5.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.5.tgz",
+			"sha": "d5af525d7ad81179d9b54137284d74d665997fa7",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.6.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.6.tgz",
+			"sha": "b29af6332f9313857be36427623c9016bfeeaf33",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.7.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.7.tgz",
+			"sha": "58a7ef85f980ca17f1373dc222ff449606222fb6",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-1.1.8.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.8.tgz",
+			"sha": "40bb0f142cd27d16839ec6c74ee8db418099b373",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.0.tgz",
+			"sha": "69fea3db554d9b2a95dcaf7c603c1a0a389a7603",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.1.tgz",
+			"sha": "d134734e0cc1b91b88b30586c5991f31442029f1",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.0.2.tgz",
+			"sha": "81d1a07523913f3d17da3a49f0091f967ad345b0",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.1.1.tgz",
+			"sha": "65bb600547c56d5627d23135154bcd9a907668c4",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.2.0.tgz",
+			"sha": "571e2b3d7b53d65587bea9eedf6e37faa5db4fcc",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.0.tgz",
+			"sha": "580fa8ab02cef22c24294d25e52d7ccd247a9a6a",
+			"registry": "npmjs"
+		},
+		"conventional-changelog-preset-loader-2.3.4.tgz": {
+			"url": "https://registry.npmjs.org/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.4.tgz",
+			"sha": "14a855abbffd59027fd602581f1f34d9862ea44c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-6fe85db12354925d",
+	"_id": "conventional-changelog-preset-loader",
+	"readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status: Linux][travis-image]][travis-url] [![Build Status: Windows][appveyor-image]][appveyor-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Configuration preset loader for `conventional-changelog`.\n\n## Usage\n\n```sh\n$ npm install --save conventional-changelog-preset-loader\n```\n\n```js\nvar conventionalChangelogPresetLoader = require('conventional-changelog-preset-loader');\n\nconfiguration = conventionalChangelogPresetLoader(`angular`);\n```\n\n\nThe string that is passed to the preset loader is manipulated by prepending `conventional-changelog` to the name.\n\nFor example:\n* `angular` => `conventional-changelog-angular`\n* `angular/preset/path` => `conventional-changelog-angular/preset/path`\n* `@scope/angular` => `@scope/conventional-changelog-angular`\n* `@scope/angular/preset/path` => `@scope/conventional-changelog-angular/preset/path`\n\nWill return whatever is exported by the preset package. That may be a configuration object, a function, or a promise.\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n[npm-image]: https://badge.fury.io/js/conventional-changelog-preset-loader.svg\n[npm-url]: https://npmjs.org/package/conventional-changelog-preset-loader\n[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-preset-loader.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-preset-loader\n[appveyor-image]: https://ci.appveyor.com/api/projects/status/baoumm34w8c5o0hv/branch/master?svg=true\n[appveyor-url]: https://ci.appveyor.com/project/stevemao/conventional-changelog-preset-loader/branch/master\n[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-preset-loader.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-preset-loader\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-preset-loader/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-preset-loader"
+}

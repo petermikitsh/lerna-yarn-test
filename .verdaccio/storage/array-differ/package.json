@@ -1,0 +1,602 @@
+{
+	"name": "array-differ",
+	"versions": {
+		"0.1.0": {
+			"name": "array-differ",
+			"version": "0.1.0",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/array-differ"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ",
+			"_id": "array-differ@0.1.0",
+			"_shasum": "12e2c9b706bed47c8b483b57e487473fb0861f3a",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "12e2c9b706bed47c8b483b57e487473fb0861f3a",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-0.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "array-differ",
+			"version": "1.0.0",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/array-differ"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "e91802976c4710eef8dea2090d48e48525cf41b1",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ",
+			"_id": "array-differ@1.0.0",
+			"_shasum": "eff52e3758249d33be402b8bb8e564bb2b5d4031",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "eff52e3758249d33be402b8bb8e564bb2b5d4031",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "array-differ",
+			"version": "2.0.0",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "67a770f9c3a7bf51cdfd935a3e4b663bc446edaa",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@2.0.0",
+			"_shasum": "edf162e76204ee41f41f408e343f95456611da8a",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.0.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "edf162e76204ee41f41f408e343f95456611da8a",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/array-differ-2.0.0.tgz_1461744803147_0.3021998673211783"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "array-differ",
+			"version": "2.0.1",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "9299f9324c3a57881f4f6da79166fdb0c7a225be",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@2.0.1",
+			"_shasum": "8481d903f5b38b3555eec6ede4cc5efd747f368c",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.0.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "8481d903f5b38b3555eec6ede4cc5efd747f368c",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/array-differ-2.0.1.tgz_1461745185129_0.2159448496531695"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "array-differ",
+			"version": "2.0.2",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "f1b17462a9836b957841e42a6302b2a5fb4d03c5",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@2.0.2",
+			"_shasum": "eb4c18017aee20df834b93be5a109db790f64a74",
+			"_from": ".",
+			"_npmVersion": "3.8.8",
+			"_nodeVersion": "6.0.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "eb4c18017aee20df834b93be5a109db790f64a74",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/array-differ-2.0.2.tgz_1461771850623_0.6875617294572294"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "array-differ",
+			"version": "2.0.3",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "3dd2ebb8161c760113b487adf7e4509180d9f327",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@2.0.3",
+			"_shasum": "0195bb00ccccf271106efee4a4786488b7180712",
+			"_from": ".",
+			"_npmVersion": "2.15.0",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "0195bb00ccccf271106efee4a4786488b7180712",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/array-differ-2.0.3.tgz_1461772181717_0.3908157756086439"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "array-differ",
+			"version": "2.1.0",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "^1.2.1",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "0f1f2857375dd65cc0df0096076e8869a7325ba9",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@2.1.0",
+			"_nodeVersion": "10.15.1",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KbUpJgx909ZscOc/7CLATBFam7P1Z1QRQInvgT0UztM9Q72aGKCunKASAl7WNW0tnPmPyEMeMhdsfWhfmW037w==",
+				"shasum": "4b9c1c3f14b906757082925769e8ab904f4801b1",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3072,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcetHLCRA9TVsSAnZWagAAlEQP/i8nMJvlCh/iu1dasxpL\nVUtDKtNxfgp4r4eiVcTYnp3qLQw0TAfkwMStIie4oyLIjNHlsGA2et0G3yko\n2cgIPK1yh0GE0M6g0tNJ6cv2/zy+Qs/6Fo/Wunu3ja5F2dhSG68HvOedBWPQ\nJUnBT48+Ngw643+NujIQIb3+YY3bzcd8x67I18NKSmuypmWKoPJ0MGaRqvoB\njksZEbjcCUhlGx0I+OYyEfuxwmoz7+RSSAome36rhFRJI8TM0FlTJutQpFjr\nxz1eI3JUNFm5os0d3hnn1/AhZpuyjKIk5kJCZQR4Enpcx4Ad666D2m9kliwa\nx6iV8qo7tS+cjD0IxHXzKrp7VnB3JSqOrelGMGS/g4DezoXF8k/J3v4SBWkk\nWFeJ2mEzRWRrx+4qGMlLzkEIlpfmjaFXl852gX9BeEgU9ZXQZbpBSz2d6GW0\nyLA4SXordXi8FX34hGym6JYT408sfhA9Dmmqho2CTUNAXhg/+wA8n02Z3UGa\nuZAUgVSDOoaoxUc1xTPyx6Eo+THD07o0qHhWNXlCBOevthBuTcFQvmvfUjZc\nbGobrbjaevotRHqrTPhIQjdbdvlbV0QcNWP6G7WJ1MfjklB/8MEhcoJ0eLzl\ngzJKjjEeW7LJSCTlhj/gcLMHMFG7J9nb2fflC/wWzOJTs9kf+tzG/vFx8eaU\nmiMW\r\n=sPg/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array-differ_2.1.0_1551552970384_0.384358245287999"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "array-differ",
+			"version": "3.0.0",
+			"description": "Create an array with values that are present in the first input array but not additional ones",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/array-differ.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"array",
+				"difference",
+				"diff",
+				"differ",
+				"filter",
+				"exclude"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "547a0fb7fe391f94f9993e9b1cbd62e9f6f1056d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/array-differ/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/array-differ#readme",
+			"_id": "array-differ@3.0.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-THtfYS6KtME/yIAhKjZ2ul7XI96lQGHRputJQHO80LAWQnuGP4iCIN8vdMRboGbIEYBwU33q8Tch1os2+X0kMg==",
+				"shasum": "3cbb3d0f316810eafcc47624734237d6aee4ae6b",
+				"tarball": "https://registry.npmjs.org/array-differ/-/array-differ-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3058,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqyrjCRA9TVsSAnZWagAAlBMP/A4R1pRgMGtt5wBL91+S\nnK/47jdF+5BMGtFbOhj9uh1yTlNfqZJK3Mb8dw0gBM1z8RYfwdnND29usXhh\noZW07WAcLZdOZokc2NBOH1Z/42SBOYjC82lzGgu48hCXTqoKpzNN1JF88Y3M\nYCSLJzIUAZq5ZnAh5S6mTVL+jmpDbQScVxTeiVLovhcncoQevj28aFcU+7he\n8asTXis4rW8QYjlxyW9cqzMAjtfrvjjjOgtVYXxcIksvnIEII91p9cOWNqsQ\nk23xk8hj/E1tE26+wGCxznd7CwjLe9Wr2Si/wLXjNUiLSr1a0PzbdYq+mDS+\n2hvO3YxoLg1XMoy7hA7wrmVtmnXeiU91nPYK+ke96XqyFsvkvr27yBYAAdDM\nfLUdXfprC2RjPlP6/b9lUrQlT6docGi7z4W0/lJpHBKxoB7tlgCW2Z1L62hS\nsqrZ/o8QHgXrZ7wuY7M2oIT7bRAVjrbIxIGFFkXu/RSxN6/2r+KS5tHk5yLF\nieLw5rE6emL80Xnd8IYny1L4fu+QJ0dbFCIx9uYwqf3BcaGZFPxK8AmXkwI8\nUzPuzZQyTX5VTeKuF/1zvmj7rkJyDl4hWWv9nU2HMPQchzEHH6ioaEAqbG4A\nolRWlSEBfVfp0uPOEP41ffR3+oZycOqfth2clUqt5YKdkHdtHmsh1q6yKx0E\nAN6B\r\n=aLjE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array-differ_3.0.0_1554721506298_0.2618405109164652"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-04-08T11:05:09.068Z",
+		"created": "2014-06-20T21:58:15.371Z",
+		"0.1.0": "2014-06-20T21:58:15.371Z",
+		"1.0.0": "2014-08-13T09:50:23.511Z",
+		"2.0.0": "2016-04-27T08:13:25.120Z",
+		"2.0.1": "2016-04-27T08:19:45.535Z",
+		"2.0.2": "2016-04-27T15:44:11.059Z",
+		"2.0.3": "2016-04-27T15:49:44.135Z",
+		"2.1.0": "2019-03-02T18:56:10.509Z",
+		"3.0.0": "2019-04-08T11:05:06.494Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"37d2cd893f0c2ea2113466a12e90c597\"",
+			"fetched": 1613881359046
+		}
+	},
+	"_distfiles": {
+		"array-differ-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-0.1.0.tgz",
+			"sha": "12e2c9b706bed47c8b483b57e487473fb0861f3a",
+			"registry": "npmjs"
+		},
+		"array-differ-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-1.0.0.tgz",
+			"sha": "eff52e3758249d33be402b8bb8e564bb2b5d4031",
+			"registry": "npmjs"
+		},
+		"array-differ-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.0.tgz",
+			"sha": "edf162e76204ee41f41f408e343f95456611da8a",
+			"registry": "npmjs"
+		},
+		"array-differ-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.1.tgz",
+			"sha": "8481d903f5b38b3555eec6ede4cc5efd747f368c",
+			"registry": "npmjs"
+		},
+		"array-differ-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.2.tgz",
+			"sha": "eb4c18017aee20df834b93be5a109db790f64a74",
+			"registry": "npmjs"
+		},
+		"array-differ-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-2.0.3.tgz",
+			"sha": "0195bb00ccccf271106efee4a4786488b7180712",
+			"registry": "npmjs"
+		},
+		"array-differ-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-2.1.0.tgz",
+			"sha": "4b9c1c3f14b906757082925769e8ab904f4801b1",
+			"registry": "npmjs"
+		},
+		"array-differ-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/array-differ/-/array-differ-3.0.0.tgz",
+			"sha": "3cbb3d0f316810eafcc47624734237d6aee4ae6b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-b4e5e8906706a10d",
+	"_id": "array-differ",
+	"readme": "# array-differ [![Build Status](https://travis-ci.org/sindresorhus/array-differ.svg?branch=master)](https://travis-ci.org/sindresorhus/array-differ)\n\n> Create an array with values that are present in the first input array but not additional ones\n\n\n## Install\n\n```\n$ npm install array-differ\n```\n\n\n## Usage\n\n```js\nconst arrayDiffer = require('array-differ');\n\narrayDiffer([2, 3, 4], [3, 50]);\n//=> [2, 4]\n```\n\n## API\n\n### arrayDiffer(input, ...values)\n\nReturns a new array.\n\n#### input\n\nType: `unknown[]`\n\n#### values\n\nType: `unknown[]`\n\nArrays of values to exclude.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}

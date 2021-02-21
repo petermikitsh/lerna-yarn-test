@@ -1,0 +1,589 @@
+{
+	"name": "git-remote-origin-url",
+	"versions": {
+		"0.1.1": {
+			"name": "git-remote-origin-url",
+			"version": "0.1.1",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"main": "url.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/git-remote-origin-url"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"gitconfiglocal": "^0.0.1"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"files": [
+				"url.js"
+			],
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url",
+			"_id": "git-remote-origin-url@0.1.1",
+			"dist": {
+				"shasum": "c3dd2e0967db95ed05a18cebfc6a332902a06b4a",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-0.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "git-remote-origin-url",
+			"version": "1.0.0",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/git-remote-origin-url"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"gitconfiglocal": "^0.0.1"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"gitHead": "74f00ed6b291c2801106ad6afc1f6925a819f3c8",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url",
+			"_id": "git-remote-origin-url@1.0.0",
+			"_shasum": "95fd2dcc8896717e88d2272a3bff552d309eace8",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "95fd2dcc8896717e88d2272a3bff552d309eace8",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "git-remote-origin-url",
+			"version": "1.1.0",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/git-remote-origin-url"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"dependencies": {
+				"gitconfiglocal": "0.0.2"
+			},
+			"devDependencies": {
+				"ava": "^0.0.4"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"gitHead": "aa7329e9a93e245796a9bfaf3c1df26f58c8f52a",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url",
+			"_id": "git-remote-origin-url@1.1.0",
+			"_shasum": "33d688eb9e1740d451aafdbf65bb45ee9aa38385",
+			"_from": ".",
+			"_npmVersion": "2.1.5",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "33d688eb9e1740d451aafdbf65bb45ee9aa38385",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "git-remote-origin-url",
+			"version": "1.1.1",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/git-remote-origin-url"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"dependencies": {
+				"gitconfiglocal": "0.0.3"
+			},
+			"devDependencies": {
+				"ava": "^0.0.4"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"gitHead": "1197f0fec31f68ada509057f07755ef55c80039d",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url",
+			"_id": "git-remote-origin-url@1.1.1",
+			"_shasum": "972bbc35ebc7392e1e1169c20eb70125a1040886",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "972bbc35ebc7392e1e1169c20eb70125a1040886",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "git-remote-origin-url",
+			"version": "1.1.2",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/git-remote-origin-url.git"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"dependencies": {
+				"gitconfiglocal": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.0.4"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"gitHead": "73b92f085d59b3dbf13e71db6e539504893b7d8a",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url#readme",
+			"_id": "git-remote-origin-url@1.1.2",
+			"_shasum": "752c6475495dc493bff350c46c7abaa50a29347e",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "3.0.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "752c6475495dc493bff350c46c7abaa50a29347e",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "git-remote-origin-url",
+			"version": "2.0.0",
+			"description": "Get the remote origin url of a git repository",
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo"
+			],
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/git-remote-origin-url.git"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"dependencies": {
+				"gitconfiglocal": "^1.0.0",
+				"pify": "^2.3.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"gitHead": "eff582fadcfbd12d3475fa8f7e72c30561a8a80e",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url#readme",
+			"_id": "git-remote-origin-url@2.0.0",
+			"_shasum": "5282659dae2107145a11126112ad3216ec5fa65f",
+			"_from": ".",
+			"_npmVersion": "3.5.3",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "5282659dae2107145a11126112ad3216ec5fa65f",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "git-remote-origin-url",
+			"version": "3.0.0",
+			"description": "Get the remote origin url of a Git repository",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/git-remote-origin-url.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo",
+				"remote",
+				"origin"
+			],
+			"dependencies": {
+				"gitconfiglocal": "^2.1.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "41f003523a2fa0107f53ff4b95c161a1af83d29a",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url#readme",
+			"_id": "git-remote-origin-url@3.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KXFRTWj4F39zzmeTo4DGDGiZ9dPDsh+HPZiPRQgW0OpnhcmEPSdf3AgLzLqJuuo8t8UGSKKcvK8nmnejWuq3UQ==",
+				"shasum": "7561ea24bc16e89b39f96d4302fffb0cd990a1d8",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3244,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqMxsCRA9TVsSAnZWagAAUpgQAKOpX104L2mjNpQbDV7b\nZKjpkLiwAjCqQ6DbEGQe9LYEJzGr/rtFX3H1FV89Hb3O6BOAx2rLndXQxA9V\n4LCVnIJ64zA9NezQIwgld6ZHySezgnvzcma+/45qp9Ft1bhG+ujepI5N82wl\nRq3yP6GnNA8eeso1mx58pvaGzZBN9idITLXr5nDdpJPwn364900fr4JgMJK8\n1FU8Mh/4YkeSNGo0YLa7HN32VZLqzX0Lm6GMHYZq1i22RZrLM1kN0OCqAOYM\n7ZxKW3YpdvLT9BsGWF7ACOpg3oMcRP0cK5qM31WMiro6UWUczfzEmOtXrbyi\nvyBKu0EXV0smEN+eSGDlpzNp7Puf2tJsHxqGbJpflUV/YkXZgwYjWJirUWWP\nyFg9YBo44ZcvYBXONhSxBbzKmnyxVhCtp6hjZr40XLY0PgRzbqsS0OeN8+Po\niKPG57Gd4vze+XGQa0Uv84wNW27bvAKvBV32AtUJ3mxh8Mf3KYuJVZJqG98E\ntJT6ZoPSf618fI7ntYRS4tdlTaHESTLTbwPc7phThnSJKBVvN2GcKMszQspD\nXXO1tGgN7Z0QTIRJZikWmlLLAmNYZ8bbPCQeKom9XXwDB9X3yvw6iHGr/Tov\nFlBx8JJWD/t1blOf/lIHwG4eLaANsbCqRZd5FZtQ9W5jVKSoSVwAwYgh7maB\ncBje\r\n=EjRh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-remote-origin-url_3.0.0_1554566251048_0.6570248372156797"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "git-remote-origin-url",
+			"version": "3.1.0",
+			"description": "Get the remote origin url of a Git repository",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/git-remote-origin-url.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"git",
+				"config",
+				"url",
+				"repo",
+				"remote",
+				"origin"
+			],
+			"dependencies": {
+				"gitconfiglocal": "^2.1.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "f954adbc5b4fcce0831af00adaa86b79a2eb35f7",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/git-remote-origin-url/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/git-remote-origin-url#readme",
+			"_id": "git-remote-origin-url@3.1.0",
+			"_nodeVersion": "10.18.1",
+			"_npmVersion": "6.13.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-yVSfaTMO7Bqk6Xx3696ufNfjdrajX7Ig9GuAeO2V3Ji7stkDoBNFldnWIAsy0qviUd0Z+X2P6ziJENKztW7cBQ==",
+				"shasum": "c90c1cb0f66658566bbc900509ab093a1522d2b3",
+				"tarball": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-3.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3903,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeUTrcCRA9TVsSAnZWagAAmzUP/RuZnimuNancZ/ru2Oyx\nTc+9nNZ6x/x2eqlZHYycGveXIN2xFMPeCXL+h/5fuz7WuVktELuZ+ri84xhA\n3tCdxlo2zLyI5c7efUPTj8YV6QcUD8grvJE1dgHI06THBf/f94uKRgoAYHlr\nORLzIHZVE3kxEyHUc3mghHqtAhlV+ON4jCx5MqK8FPVGVu9eWVUE4BGpf9F/\nPBxs8FNVx2AO6Iav3QsXNR3MAM3h1iYsOsL4mqbXQVelHB/su4ORotDhnw1g\nNAK6onprhV0l+hQ4RMbNORXbr9K+G3BWdYydJqisVcxbbePsLeSMilVk/yDk\n/qT/r+u9iC1j4hxv+Zcy/UsYa+k/ZrKxFiZ7txjKym0z4pLVPUHHFYPzDZG2\nX4G1YA6n3WZkoVsgtdvEhhqJmuPkzRWvJr8DVozPziFNvAjU7PHISvKV2rEG\ntTNrU03Fy4jY/DAxISEVThXwnKBt3dJhTNz5G+EoR1Bg00P3ZBgYQXasq/bX\nhZWU/nQnMj79xNnfZmRRKaETN5lLy2pYb8TqbAzpQwtTCfS3Wyf8UgPbPmHn\nnKsb50WriIzUon0AKojJmAAQBjkdlz8C7wCL2e5e/IVY0h/pYe/e2bSk4AUZ\nGbKPbIosvRB47d61uyW/u1PBL5s/yXI+w2B09BAeXRGkDGY49gGPeFbFbc2S\nUBD3\r\n=otan\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-remote-origin-url_3.1.0_1582381787616_0.7438805288547532"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-02-22T14:29:50.216Z",
+		"created": "2014-02-25T20:56:55.743Z",
+		"0.1.1": "2014-02-25T20:56:55.743Z",
+		"1.0.0": "2014-08-14T14:23:32.544Z",
+		"1.1.0": "2014-12-05T18:26:42.286Z",
+		"1.1.1": "2015-02-16T17:43:13.208Z",
+		"1.1.2": "2015-08-22T06:43:38.814Z",
+		"2.0.0": "2016-01-12T17:09:03.855Z",
+		"3.0.0": "2019-04-06T15:57:31.168Z",
+		"3.1.0": "2020-02-22T14:29:47.758Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9b193de57c29bc705c13190d5545f924\"",
+			"fetched": 1613881362823
+		}
+	},
+	"_distfiles": {
+		"git-remote-origin-url-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-0.1.1.tgz",
+			"sha": "c3dd2e0967db95ed05a18cebfc6a332902a06b4a",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.0.0.tgz",
+			"sha": "95fd2dcc8896717e88d2272a3bff552d309eace8",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.0.tgz",
+			"sha": "33d688eb9e1740d451aafdbf65bb45ee9aa38385",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.1.tgz",
+			"sha": "972bbc35ebc7392e1e1169c20eb70125a1040886",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-1.1.2.tgz",
+			"sha": "752c6475495dc493bff350c46c7abaa50a29347e",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz",
+			"sha": "5282659dae2107145a11126112ad3216ec5fa65f",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-3.0.0.tgz",
+			"sha": "7561ea24bc16e89b39f96d4302fffb0cd990a1d8",
+			"registry": "npmjs"
+		},
+		"git-remote-origin-url-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-3.1.0.tgz",
+			"sha": "c90c1cb0f66658566bbc900509ab093a1522d2b3",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-5204ac9694c78bcf",
+	"_id": "git-remote-origin-url",
+	"readme": "# git-remote-origin-url [![Build Status](https://travis-ci.org/sindresorhus/git-remote-origin-url.svg?branch=master)](https://travis-ci.org/sindresorhus/git-remote-origin-url)\n\n> Get the remote origin url of a Git repository\n\n## Install\n\n```\n$ npm install git-remote-origin-url\n```\n\n## Usage\n\n```js\nconst gitRemoteOriginUrl = require('git-remote-origin-url');\n\n(async() => {\n\tconsole.log(await gitRemoteOriginUrl());\n\t//=> 'git@github.com:sindresorhus/git-remote-origin-url.git'\n})();\n```\n\n## gitRemoteOriginUrl(cwd?)\n\n### cwd\n\nType: `string`\\\nDefault: `process.cwd()`\n\nThe current working directory.\n\n### remoteName\n\nType: `string`\\\nDefault: `'origin'`\n\nThe Git remote name.\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-git-remote-origin-url?utm_source=npm-git-remote-origin-url&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
+}

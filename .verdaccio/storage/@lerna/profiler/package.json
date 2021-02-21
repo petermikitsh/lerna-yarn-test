@@ -1,0 +1,181 @@
+{
+	"name": "@lerna/profiler",
+	"versions": {
+		"3.20.0": {
+			"name": "@lerna/profiler",
+			"version": "3.20.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/profiler#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "profiler.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/profiler"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"figgy-pudding": "^3.5.1",
+				"fs-extra": "^8.1.0",
+				"npmlog": "^4.1.2",
+				"upath": "^1.2.0"
+			},
+			"gitHead": "b90f4d3618b2327716840aa2a2619497c793c8aa",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/profiler@3.20.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.20.0/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-bh8hKxAlm6yu8WEOvbLENm42i2v9SsR4WbrCWSbsmOElx3foRnMlYk7NkGECa+U5c3K4C6GeBbwgqs54PP7Ljg==",
+				"shasum": "0f6dc236f4ea8f9ea5f358c6703305a4f32ad051",
+				"tarball": "https://registry.npmjs.org/@lerna/profiler/-/profiler-3.20.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4664,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeBnK5CRA9TVsSAnZWagAA9fUP/i21digt1O5LYZSiVPmU\nej5WFAc6W/wpaOia4yqXIMcdSmgCMF6z8FhVCwzApmg7HrSkA5IDUBLcvYi1\np9WbVKTPf4JInAZYCHjQv+VztS/VBkPVvJBWKS6U9GLLxmjvZ5p3ZSILcnbZ\nOkVzwJh+Bt/ceTW0NhwZgSgYrUFLphOExNHP9+bqvmuWWlYPmBQ+gjeHYdqX\nkx9UP+LNsz2EXrZI4YOGjmJzl6ukGf8ns+Kj3mwE3sDcyId0sCjMYvkmSJUk\nAAtBBpRFNrmT0LwMTXZg/zDzy9biYJcNLQGfgCUwXuUf/FSkCRfDnhD9J7M9\nNfuShz8YeqJOjoE+iB1lUGixoTEpGtQhl/F2qhUYqgk62f2PMz2MQRuIL3PP\n060jzUH+mZo2oFYCCCPmX0bM6cAYc++V03Km2uw5ntCwNcYHdDT9S7P88nm9\ngXTUmw6/8Xng3ayRXSpVvGTQYLHvQQqvX1xp0bnygPMx4V3OUR3ODlMXd5pm\nyjrQETd0TW5RutpBwDXy1gHHp+3u5N2zjuGOgIjn6W9UMIpmaWJOtH1eu7Pq\nQsJXa0ndXrbOm9pqWkDSLi3M93JElktbRTbGdtLovKfRA7Cwe8XK3/z/0zN/\nUHqU/wC716oyyn5oegOb7Ze8/9/1JMD5VZzuGfMC1oeED3gQvOaOTFfGnEXm\nBKFE\r\n=fcgG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/profiler_3.20.0_1577480889182_0.839150960220409"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/profiler",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/profiler#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Benjamin Weggersen",
+				"url": "https://github.com/bweggersen"
+			},
+			"main": "profiler.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/profiler"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"fs-extra": "^9.1.0",
+				"npmlog": "^4.1.2",
+				"upath": "^2.0.1"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/profiler@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-/BaEbqnVh1LgW/+qz8wCuI+obzi5/vRE8nlhjPzdEzdmWmZXuCKyWSEzAyHOJWw1ntwMiww5dZHhFQABuoFz9Q==",
+				"shasum": "8a53ab874522eae15d178402bff90a14071908e9",
+				"tarball": "https://registry.npmjs.org/@lerna/profiler/-/profiler-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6119,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEpCRA9TVsSAnZWagAA/UkP/26gJ8ls5E7IeD4YRsiL\nf24R667U3xkWNIdl9W0bzdj7QJYVwkxswF0U4E8h89CyBY7wmrKiI7LlQlyi\nPCiPQdA5LaEzxorEO6cdS8MxiExEHdLXDCvR1rbpEHujZ61YjnvCBWFBcxo3\nD71ti9FIm/EpMOSLH6a1sWOzTSLiZfWqs6XgO9uXLYEv7ffdjT9RY6rmymU+\nmtFAX4/C+C0muzIIWN7ibimIgmPOva33xbFiToYJIdZlrB1AJwgYz3ucn7k/\nnDl54zaXEv40XaRpibqr7AWyOlIyz1y/bxj1dQ8mM0RHmPjSWA4FtabeXR4A\nfPLais+VyziJqxmjzVhyyNRAwkIytLsdOG5C20A3DydgCLFsdQ6CJj45FQ+E\n+zi/Bkf6vlrAL5byFHtdU8wj31mMEncFJeD8JO/lz5hJjAfrcCRANXlL4VWd\nSKqdtVfZMSAM53nHmykKd1zerp6ZwkNQwtMr2u0xkapPHe1RKAAZbd4eRump\ngVb8Xhkod66dMkA0/uNzVuHMfV5laIKLtlFnF6+8/tJjdAf0f4WMx/lOvV6z\nd/kcJtMgo0HgunSHGqeiV8ol4XHnmyB5KBqhv+UIz5URZHyT5uEO1TPEoR9d\n+oxurI9+HF0aw1rSXuwsxhEQEe7KqqhhVVna8OwGLRKw/XxEy5hSW+5R34wT\nY+oE\r\n=LHij\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/profiler_4.0.0_1612996904790_0.7224310342726967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-12-27T21:08:09.013Z",
+		"3.20.0": "2019-12-27T21:08:09.294Z",
+		"modified": "2021-02-10T22:42:39.224Z",
+		"4.0.0": "2021-02-10T22:41:44.908Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"69c6ba969e1679533d8fcf51b083de10\"",
+			"fetched": 1613881352818
+		}
+	},
+	"_distfiles": {
+		"profiler-3.20.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/profiler/-/profiler-3.20.0.tgz",
+			"sha": "0f6dc236f4ea8f9ea5f358c6703305a4f32ad051",
+			"registry": "npmjs"
+		},
+		"profiler-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/profiler/-/profiler-4.0.0.tgz",
+			"sha": "8a53ab874522eae15d178402bff90a14071908e9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-888758428ae4fe9a",
+	"_id": "@lerna/profiler",
+	"readme": "# `@lerna/profiler`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

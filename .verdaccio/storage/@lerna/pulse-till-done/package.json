@@ -1,0 +1,321 @@
+{
+	"name": "@lerna/pulse-till-done",
+	"versions": {
+		"3.7.1": {
+			"name": "@lerna/pulse-till-done",
+			"version": "3.7.1",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "pulse-till-done.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"libnpm": "^2.0.1"
+			},
+			"gitHead": "284aa4747dad26977790d6730ab2f640eb099cb4",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.7.0/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/pulse-till-done@3.7.1",
+			"dist": {
+				"integrity": "sha512-MzpesZeW3Mc+CiAq4zUt9qTXI9uEBBKrubYHE36voQTSkHvu/Rox6YOvfUr+U7P6k8frFPeCgGpfMDTLhiqe6w==",
+				"shasum": "a9e55380fa18f6896a3e5b23621a4227adfb8f85",
+				"tarball": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.7.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3241,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGt/FCRA9TVsSAnZWagAAtqgQAIQ9fLIH9R8OlxedKqwT\nEaL+KhPwy4qrF8LxOld6RQJ/qyXELityfEFXDM29MvkHrIrpAnWwOcgfMr8B\nCgL+5dDB3+8aUmn/lUHMfHDp+SxZb8ceBtTPJGXDYKQtcXjvDo+YQUG2a9dj\nVlUBkjpywg8ZXKxX1kPs5oPakyT5aCM4W1qcUSJsE10QN9+K7F1SCcavFLTv\n6tId87GlIvhLEMfFCXNWB0znGYNYQCpdh5do0bS+JJNIsMJ37EvXwANodUoW\nYsXpd/Tz2aUxD4WByCv4ClJe6GJQO/kMdlO/1nQzaAYjZjN4+cn/gXxjGGjY\n/uCe6N0jovbgIOqiNmjFL1S0fphIBF7aNO7hEhu0QIGDB4J9EqEYyNtjtMSR\nfpbjPV1Q+qbSlfNIMJhxCOk3ePyuMGoZV8qt6QJzaOPsUtfOE4uDqgbPT5yc\nkhuNuwcLja19Yci2yire0IqzaiiRJvQ3Qwnp8FWt3ehSoY+XDuhfgeK5loM1\nJK+sAdHnplGHrKimY0qKx5req7Ye6LY9Rq3VzdKDQWU9xx54ta23R/Kudqbi\nMhTEIVZfGm+pvQpO6hAyenqSuQ686XBh+/GK+nn/u1SwZLvUIQ/bv5kszyO2\n1LK/Ty4Xh/f3gTNt8kX9YJUpwVNYInr/lqOfIKEREDOBVkVdekEe4YMKAeVk\nZeNJ\r\n=7DiI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pulse-till-done_3.7.1_1545265093057_0.02868056460792512"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/pulse-till-done",
+			"version": "3.11.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "pulse-till-done.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/pulse-till-done@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-nMwBa6S4+VI/ketN92oj1xr8y74Fz4ul2R5jdbrRqLLEU/IMBWIqn6NRM2P+OQBoLpPZ2MdWENLJVFNN8X1Q+A==",
+				"shasum": "44221de131606104b705dc861440887d543d28ed",
+				"tarball": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3562,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN1+CRA9TVsSAnZWagAAqtIQAJ6HIHMKL/l3xAA4NFL3\n30GrqqO0e4X84ig+qkYeyoQkrmzjLNQzDvtcHIX0ds27Ly1a+qV7latiiJM5\nzYRsH5yOgCguWDNDwExy1kPbpkoezEcBwqlalkDjJHnqzjpdfuL3jiUzpfTs\nXdVnGTYmWoOzSjFvAZlxXQIb2kJAPxveX9n9I+jaJ7WFbejCywvW/8DaPy2j\nNI2z6CXbwQepdl0mrXhvFZV78sgitnjP8ABn4AP9wtiRXnK9BsWb/vGOU4X6\nrt6J2uBs4mmc52SS51NyWP8Z+9rBqmYOy3FoGyeP9poEpAVVJ9ZWT+Djgygr\nvZdnRztcT6ZDqoSUuidynVYHzUQKEZu6kMc1B8OvVmRhJBttdFjdKv/wc/nH\nNwP39PaOeYkHBfpv3M2KyvUxaVxFqyX5wCrlpv9CpxJ41xYN/Nyu7HScrlzH\nWncgHrjQ39Ot0drbsUZJHXZ/6Iv7xYO7xdzrO8DW9YrO46O8e5O+FH4uYwsX\n0HYGQIXOFjQxwDhXvR1mVQjc1eXEzVyQt47uqA7Si3O7avZ94vDjic43c2qq\nCKsliYCEU/4SCG31v17KzJQ6AbJ0jtyjuN/s06X7LsQr9aZpWPbRYEowyWQS\n2yduUmBs7tehzLcfbRG1R1DfoPOyRIjoZLYpoje0OiNiqNgR4+75IxGEbX85\n6s3E\r\n=eqU9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pulse-till-done_3.11.0_1549589885573_0.6618835773178995"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/pulse-till-done",
+			"version": "3.13.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/pulse-till-done#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "pulse-till-done.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/pulse-till-done"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/pulse-till-done@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-1SOHpy7ZNTPulzIbargrgaJX387csN7cF1cLOGZiJQA6VqnS5eWs2CIrG8i8wmaUavj2QlQ5oEbRMVVXSsGrzA==",
+				"shasum": "c8e9ce5bafaf10d930a67d7ed0ccb5d958fe0110",
+				"tarball": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3979,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhq9CRA9TVsSAnZWagAAkLoP/0rPyOrW25N7xQNA1vxO\niGng3zUy5tc3B0xq2D9iJDc9erHjpqw97LC/gARmGz8njRTSiWag/ivtMjRn\na7cquQar2odrDu0t5GycL5XhoQu7b1cpROASdUqXWxVlarbahM2XyGp5PD9r\n/5NN8TKQ/E/19/UkwoQ8ZnhujcOi3IO6SlANKFmC7+GN0tr1YRPhIp/N2pVa\nkyLgHHYX8v5XpPb1z1asuxjEVt8JnTdLreT/SShIPTlQC5etcy4N7iHMqWzY\nKRz12kDE8XbMna26ztfmrmSv8UAoxxUFVjCNjfmrI/37Xb5HHkof1Huqa5OY\nzmiSNgIo484G53EJaJPgIUFEjZNpnbfSxnlLhhS3d1ylBaCwZdk5Qak6Lagv\nZgzg4jA0esxXX9+N6eB9Yfz+hcwH9zl4yLEXBVqE7K1O80FHjJ2JvOb2RTcK\nr14SeM4M5pmeG4yeEPiTOURHboqpg+aLh212fdeW6vO/tMQgHrUYDp8KqzyY\nt7khx+GZM2fZ3oiq5uy9bsMxFYpSYGvVsJxcEUZWYp8u/hscbFUe4Skp/WU8\n/ASqRD0wFJoqZo9BTqe+ED5iA2CZRveel9VNpQis5BRjOsOQB94n+iz3NKBq\nRsOZ/IGTC+ENJGgF0irK2z+AY4ir9cghiXK3Aqk00+98fUD1vDaNarz5G7fl\n6w5u\r\n=gwHB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pulse-till-done_3.13.0_1550195389187_0.3088805439861113"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/pulse-till-done",
+			"version": "4.0.0",
+			"description": "An internal Lerna tool",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/pulse-till-done#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "pulse-till-done.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/pulse-till-done"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/pulse-till-done@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Frb4F7QGckaybRhbF7aosLsJ5e9WuH7h0KUkjlzSByVycxY91UZgaEIVjS2oN9wQLrheLMHl6SiFY0/Pvo0Cxg==",
+				"shasum": "04bace7d483a8205c187b806bcd8be23d7bb80a3",
+				"tarball": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4887,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEpCRA9TVsSAnZWagAAIj0QAJzsJdsMl8xFqlo4BB7k\nIzXzelFCKqCo3x84tYlhz0Nu/XoPy57Vym0gSbaaFBp8RuosHiIM62IacR9M\nQd7N1/s7NyiwCVYCD0g/xY+JlZRdWqLi/ZmhGImef/uXm6Xh63k9vz1n74t2\n5Gc38P+ix9t5wp0jRXXwCaeeDgptCit/CkeybN3bRR1/EaLnmvfMB9MDeNm1\n/k6CeLlnwbD/6ijGGzlU91ExHiS+XYVr34ilrBigVhjPTTsYdQwglZryzrt1\nW+VZMUcQD8J1YnNrmt6KLb9cYrIZo5SSVdIRrvLRBLnUT8o4Dy1FRjXp+xyF\n6ZDLZHvuxSv4yUOEt4Y5AAZkfTr+RDuP3/CNDTfW/syk1kQAbVIM34RiUV5M\nFcSxiDTtI6rtr6jLbG82y++1Qp+azm+WT9hD2gInQAn6oeYwrrpGuWujpXfv\nBjAgdlkaMyj6g6B3XtynkpJwKBMYeLxX+jl6YLZw0A21+vMNQg17+Dem4u2d\n+4k+/Fw8ND1/lq637p8AkwM3ay3IyrdU1K60/9NrSj2AoeM6ZoxdK+RlwvAr\n1ZUYrA3ZH1ZugkkXSF505bdbTj6R/jxeVqdT4YZIiMAr4EM/YC6dJAA+5bri\nH2d13dHpV47+skh+FgM6pR/6ZNS8VzL/Z9cz6qWYFwy+2M5uUtdWhyQ85964\nOLf8\r\n=Tu2J\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pulse-till-done_4.0.0_1612996904726_0.4408281567034169"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-12-20T00:18:12.938Z",
+		"3.7.1": "2018-12-20T00:18:13.269Z",
+		"modified": "2021-02-10T22:42:39.194Z",
+		"3.11.0": "2019-02-08T01:38:05.709Z",
+		"3.13.0": "2019-02-15T01:49:49.293Z",
+		"4.0.0": "2021-02-10T22:41:44.857Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"97758ff80792c11c3e31b113b379fe66\"",
+			"fetched": 1613881352583
+		}
+	},
+	"_distfiles": {
+		"pulse-till-done-3.7.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.7.1.tgz",
+			"sha": "a9e55380fa18f6896a3e5b23621a4227adfb8f85",
+			"registry": "npmjs"
+		},
+		"pulse-till-done-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.11.0.tgz",
+			"sha": "44221de131606104b705dc861440887d543d28ed",
+			"registry": "npmjs"
+		},
+		"pulse-till-done-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-3.13.0.tgz",
+			"sha": "c8e9ce5bafaf10d930a67d7ed0ccb5d958fe0110",
+			"registry": "npmjs"
+		},
+		"pulse-till-done-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/pulse-till-done/-/pulse-till-done-4.0.0.tgz",
+			"sha": "04bace7d483a8205c187b806bcd8be23d7bb80a3",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-c212e87f0feb75bd",
+	"_id": "@lerna/pulse-till-done",
+	"readme": "# `@lerna/pulse-till-done`\n\n> An internal Lerna tool\n\n## Usage\n\nYou probably shouldn't, at least directly.\nThis is a direct extraction of an [internal npm utility](https://github.com/npm/cli/blob/f6ebf5e/lib/utils/pulse-till-done.js).\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

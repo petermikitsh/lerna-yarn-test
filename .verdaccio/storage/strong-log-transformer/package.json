@@ -1,0 +1,1237 @@
+{
+	"name": "strong-log-transformer",
+	"versions": {
+		"0.0.1": {
+			"name": "strong-log-transformer",
+			"version": "0.0.1",
+			"description": "A transform stream for performing common log stream transformations like timestamping and joining multi-line messages.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual MIT/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"strong-log-transformer": "bin/t.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "4718cc8065dc514d1ab1e858bc2b8e9cd8100e1a",
+			"_id": "strong-log-transformer@0.0.1",
+			"_shasum": "80e9feb24cfbf2327ac534895eca870d7dbf4dc9",
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "80e9feb24cfbf2327ac534895eca870d7dbf4dc9",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.0.1.tgz"
+			},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "strong-log-transformer",
+			"version": "0.1.0",
+			"description": "A transform stream for performing common log stream transformations like timestamping and joining multi-line messages.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual MIT/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"strong-log-transformer": "bin/t.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "9f8e71dd1dbca20b487e31ec0e4c8e781ec200b5",
+			"_id": "strong-log-transformer@0.1.0",
+			"_shasum": "6812d0f297282b264e3860bcae14bce14f316496",
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "6812d0f297282b264e3860bcae14bce14f316496",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "strong-log-transformer",
+			"version": "0.2.0",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual MIT/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "d1abcb959067fe41b40c78ce7ed395d8d54bb532",
+			"_id": "strong-log-transformer@0.2.0",
+			"_shasum": "134c2130ae2321ac83ba62d06edb03c79d50787e",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "134c2130ae2321ac83ba62d06edb03c79d50787e",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.2.0.tgz"
+			},
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "strong-log-transformer",
+			"version": "0.2.1",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual Artistic/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "39f7e112d5e401e1096ac7328574d66b7bc794dc",
+			"_id": "strong-log-transformer@0.2.1",
+			"_shasum": "49b9674dbc8463edcef2609b714af1292fee8835",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "49b9674dbc8463edcef2609b714af1292fee8835",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.2.1.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "strong-log-transformer",
+			"version": "1.0.0",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual Artistic/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "2d7c864f6b8a9c0405193f3fdb950a7902ae528c",
+			"_id": "strong-log-transformer@1.0.0",
+			"_shasum": "5780f6f2a59a945b975ddf54eee75a0b0b2fe441",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "octet",
+				"email": "sam@strongloop.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				},
+				{
+					"name": "octet",
+					"email": "sam@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "5780f6f2a59a945b975ddf54eee75a0b0b2fe441",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "strong-log-transformer",
+			"version": "1.0.1",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual Artistic/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "git://github.com/strongloop/node-tap#production"
+			},
+			"gitHead": "68909fc20ea24a9a03451b18f273681b47257510",
+			"_id": "strong-log-transformer@1.0.1",
+			"_shasum": "dab880affa4048f36b5d22c99e4c502d34c20908",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "octet",
+				"email": "sam@strongloop.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				},
+				{
+					"name": "octet",
+					"email": "sam@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "dab880affa4048f36b5d22c99e4c502d34c20908",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.1.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "strong-log-transformer",
+			"version": "1.0.2",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": {
+				"name": "Dual Artistic/StrongLoop",
+				"url": "https://github.com/strongloop/strong-log-transformer/blob/master/LICENSE.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^0.6.0"
+			},
+			"gitHead": "a10821dcc0edc0d6326d0e6024c89ed719bd561a",
+			"_id": "strong-log-transformer@1.0.2",
+			"_shasum": "99933849b5d1183036cbf77827f90d8fac3526d4",
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_nodeVersion": "2.1.0",
+			"_npmUser": {
+				"name": "octet",
+				"email": "sam@strongloop.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				},
+				{
+					"name": "octet",
+					"email": "sam@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "99933849b5d1183036cbf77827f90d8fac3526d4",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.2.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "strong-log-transformer",
+			"version": "1.0.3",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Artistic-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --coverage --coverage-report=cobertura test/test-*"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^1.3.2"
+			},
+			"gitHead": "79fd1d8e1548840e952d7d4788193ee8c7bdf82d",
+			"_id": "strong-log-transformer@1.0.3",
+			"_shasum": "35d82a244400079cbad2554d367ccca652c559a3",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "3.0.0",
+			"_npmUser": {
+				"name": "octet",
+				"email": "sam@strongloop.com"
+			},
+			"maintainers": [
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "callback@strongloop.com"
+				},
+				{
+					"name": "octet",
+					"email": "sam@strongloop.com"
+				}
+			],
+			"dist": {
+				"shasum": "35d82a244400079cbad2554d367ccca652c559a3",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.3.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "strong-log-transformer",
+			"version": "1.0.4",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Artistic-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --coverage --coverage-report=cobertura test/test-*"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^1.3.2"
+			},
+			"gitHead": "f587b7662d078f7c5251269eb9d5a2a3aa19d252",
+			"_id": "strong-log-transformer@1.0.4",
+			"_shasum": "e2bda7dd88c81de50c88f09387b2428935595661",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "octet",
+				"email": "sam@strongloop.com"
+			},
+			"maintainers": [
+				{
+					"name": "bajtos",
+					"email": "mbajtoss@gmail.com"
+				},
+				{
+					"name": "chandadharap",
+					"email": "chanda_dharap@yahoo.com"
+				},
+				{
+					"name": "ibmcloud-admin",
+					"email": "rmg@ca.ibm.com"
+				},
+				{
+					"name": "kraman",
+					"email": "kraman@strongloop.com"
+				},
+				{
+					"name": "octet",
+					"email": "sam@strongloop.com"
+				},
+				{
+					"name": "rfeng",
+					"email": "enjoyjava@gmail.com"
+				},
+				{
+					"name": "ritch",
+					"email": "skawful@gmail.com"
+				},
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "strngops@us.ibm.com"
+				}
+			],
+			"dist": {
+				"shasum": "e2bda7dd88c81de50c88f09387b2428935595661",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/strong-log-transformer-1.0.4.tgz_1460411121821_0.3056182279251516"
+			},
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "strong-log-transformer",
+			"version": "1.0.5",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Artistic-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --coverage --coverage-report=cobertura test/test-*"
+			},
+			"dependencies": {
+				"byline": "^4.1.1",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^1.3.2"
+			},
+			"gitHead": "e52c08a3988dcfbef42c8bbe815923a4d0b99206",
+			"_id": "strong-log-transformer@1.0.5",
+			"_shasum": "69a3bf9029c2723b1680bc5cfca313815685a0ba",
+			"_from": ".",
+			"_npmVersion": "3.8.8",
+			"_nodeVersion": "4.4.3",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"dist": {
+				"shasum": "69a3bf9029c2723b1680bc5cfca313815685a0ba",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bajtos",
+					"email": "mbajtoss@gmail.com"
+				},
+				{
+					"name": "chandadharap",
+					"email": "chanda_dharap@yahoo.com"
+				},
+				{
+					"name": "ibmcloud-admin",
+					"email": "rmg@ca.ibm.com"
+				},
+				{
+					"name": "kraman",
+					"email": "kraman@gmail.com"
+				},
+				{
+					"name": "octet",
+					"email": "vieuxtech@gmail.com"
+				},
+				{
+					"name": "rfeng",
+					"email": "enjoyjava@gmail.com"
+				},
+				{
+					"name": "ritch",
+					"email": "skawful@gmail.com"
+				},
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "strngops@us.ibm.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/strong-log-transformer-1.0.5.tgz_1462510757980_0.530848999042064"
+			},
+			"contributors": []
+		},
+		"1.0.6": {
+			"name": "strong-log-transformer",
+			"version": "1.0.6",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Artistic-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --coverage --coverage-report=cobertura test/test-*"
+			},
+			"dependencies": {
+				"byline": "^5.0.0",
+				"duplexer": "^0.1.1",
+				"minimist": "^0.1.0",
+				"moment": "^2.6.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^1.3.2"
+			},
+			"gitHead": "2d0c0665422d6bb06b9bff3b56ea5cbd172edb67",
+			"_id": "strong-log-transformer@1.0.6",
+			"_shasum": "f7fb93758a69a571140181277eea0c2eb1301fa3",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "octet",
+				"email": "vieuxtech@gmail.com"
+			},
+			"dist": {
+				"shasum": "f7fb93758a69a571140181277eea0c2eb1301fa3",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bajtos",
+					"email": "mbajtoss@gmail.com"
+				},
+				{
+					"name": "chandadharap",
+					"email": "chanda_dharap@yahoo.com"
+				},
+				{
+					"name": "ibmcloud-admin",
+					"email": "rmg@ca.ibm.com"
+				},
+				{
+					"name": "kraman",
+					"email": "kraman@gmail.com"
+				},
+				{
+					"name": "octet",
+					"email": "vieuxtech@gmail.com"
+				},
+				{
+					"name": "rfeng",
+					"email": "enjoyjava@gmail.com"
+				},
+				{
+					"name": "ritch",
+					"email": "skawful@gmail.com"
+				},
+				{
+					"name": "rmg",
+					"email": "r.m.graham@gmail.com"
+				},
+				{
+					"name": "setogit",
+					"email": "setogit@gmail.com"
+				},
+				{
+					"name": "strongloop",
+					"email": "strngops@us.ibm.com"
+				},
+				{
+					"name": "superkhau",
+					"email": "superkhau@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/strong-log-transformer-1.0.6.tgz_1472737436122_0.14051809604279697"
+			},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "strong-log-transformer",
+			"version": "2.0.0",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Apache-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --100 test/test-*"
+			},
+			"dependencies": {
+				"byline": "^5.0.0",
+				"duplexer": "^0.1.1",
+				"minimist": "^1.2.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^12.0.1"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"gitHead": "f3ae232bb5d6b3d367bc3f1d70415dc9f21ce437",
+			"_id": "strong-log-transformer@2.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.8.0",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FQmNqAXJgOX8ygOcvPLlGWBNT41mvNJ9ALoYf0GTwVt9t30mGTqpmp/oJx5gLcu52DXK10kS7dVWhx8aPXDTlg==",
+				"shasum": "fa6d8e0a9e62b3c168c3cad5ae5d00dc97ba26cc",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-2.0.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 15436,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbb1fBCRA9TVsSAnZWagAAoWwQAI3ozrq4aNil/isa9xk6\n575ars/YdveCU3RoYvCmasHIMaMj8zpmvgpbzFXpRmHqnO0eJcjqkanS7Usc\nMBm1etJUWNN8ZvFSkXpfdFfK6TwHTnmPpCxJhrbq1fzD/uoQ7OMl0omKvCOC\nWIEgNhjKKdTu3tas0AvvcxSG4aVUvgWThXnQ6oM0+AgRTK0nVygg0Rn7u3/b\nVv/MONtaNigm10XS0Sa6v/UKDOu+HZTFV9hoar7NyATy482Fo8DJIvSrjlDq\nTg41INHKESq5DJPZPorz9QIHtfDqYED1XdUuBHVPzRBwxcH3wFUytHsI0uyx\nb1iQF0lZsmitBCd66mxiSj1PUfResia2ER7XOnyCSqob2W3IyxJmgjOOfmWM\n3IVFr+xcIqT+Irpw7T+A8BECNfb8KACrGDO59kjUMmIY/NeeU308UH4WQur1\ncxx8xalQTYePZTAhe4nScq+rTPYSKPuS40I5OUG5+WuGdMpCZcoEIa2o0S6T\n8avjX4Bvnev8MGDFAqP7pudm/77O8HqzhWN/XPmuiLBcNrPReB5vj+V+J5kG\n4PlnGsbKihlPaCMS+r3XAtXcgmUx7PuSh0iwDGAoveyvZ7YePqyHcvaKJKMZ\nsfIZkKoALeLGSzV+fy/46iAqQdHwoUIvny0mBwvxLwmNpi2ORmHk1U1Qbw/h\nyMRw\r\n=P4uQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ngcandy@ca.ibm.com",
+					"name": "0candy"
+				},
+				{
+					"email": "amirali.jfr61@gmail.com",
+					"name": "amir-61"
+				},
+				{
+					"email": "binadmt@hotmail.com",
+					"name": "b-admike"
+				},
+				{
+					"email": "mbajtoss@gmail.com",
+					"name": "bajtos"
+				},
+				{
+					"email": "davidcheung@live.ca",
+					"name": "davidcheung"
+				},
+				{
+					"email": "captain@hacksparrow.com",
+					"name": "hacksparrow"
+				},
+				{
+					"email": "juehou@ca.ibm.com",
+					"name": "jannyhou2016"
+				},
+				{
+					"email": "kjdelisle@gmail.com",
+					"name": "kjdelisle"
+				},
+				{
+					"email": "kraman@gmail.com",
+					"name": "kraman"
+				},
+				{
+					"email": "qpresley@ca.ibm.com",
+					"name": "qpresley"
+				},
+				{
+					"email": "enjoyjava@gmail.com",
+					"name": "rfeng"
+				},
+				{
+					"email": "skawful@gmail.com",
+					"name": "ritch"
+				},
+				{
+					"email": "r.m.graham@gmail.com",
+					"name": "rmg"
+				},
+				{
+					"email": "superkhau@gmail.com",
+					"name": "superkhau"
+				},
+				{
+					"email": "gpandya@live.com",
+					"name": "thegman"
+				},
+				{
+					"email": "tffrench@us.ibm.com",
+					"name": "tonyf-ibm"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/strong-log-transformer_2.0.0_1534023617300_0.7794599705008167"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "strong-log-transformer",
+			"version": "2.1.0",
+			"description": "Stream transformer that prefixes lines with timestamps and other things.",
+			"author": {
+				"name": "Ryan Graham",
+				"email": "ryan@strongloop.com"
+			},
+			"license": "Apache-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/strongloop/strong-log-transformer.git"
+			},
+			"keywords": [
+				"logging",
+				"streams"
+			],
+			"bugs": {
+				"url": "https://github.com/strongloop/strong-log-transformer/issues"
+			},
+			"homepage": "https://github.com/strongloop/strong-log-transformer",
+			"directories": {
+				"test": "test"
+			},
+			"bin": {
+				"sl-log-transformer": "bin/sl-log-transformer.js"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap --100 test/test-*"
+			},
+			"dependencies": {
+				"duplexer": "^0.1.1",
+				"minimist": "^1.2.0",
+				"through": "^2.3.4"
+			},
+			"devDependencies": {
+				"tap": "^12.0.1"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"gitHead": "3315d59bc4c912d025e15a6ca22a600a85406f14",
+			"_id": "strong-log-transformer@2.1.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.14.0",
+			"_npmUser": {
+				"name": "rmg",
+				"email": "r.m.graham@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-B3Hgul+z0L9a236FAUC9iZsL+nVHgoCJnqCbN588DjYxvGXaXaaFbfmQ/JhvKjZwsOukuR72XbHv71Qkug0HxA==",
+				"shasum": "0f5ed78d325e0421ac6f90f7f10e691d6ae3ae10",
+				"tarball": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-2.1.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 16436,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcFAxiCRA9TVsSAnZWagAAcTMP/jUEMPLSoIX6Hr639ATr\ny5YVppodwHuwVNUBgwicRQsa9LwBtPbH7jQlXLZ3CIXULsYGAOTriMihtraP\nedW2pyb6h6GPHvW0PCBCwYvz3yspKZPS31BI3eCnBpoJPffpeVmDj+a+BZNc\nWbR0ZXnrGtOZJ443bNm8vSkVQskDl8pFnNK6dYF0k7/GCKVIaoOpZHnv2yvM\nWInzntqXVZWAj6Svbr7Q9asD0lkxxL/suiQUJAhyFWm9ga+EOZgcpypDFEOW\nX5f7NhN4jd3Q39XRREzIGN9J3SXOT1y08Bq8i7AWteAFDBl1gajI1frFoI5k\nQt5ZEh9qMu6wUIXWMAnB3haZBOBC8QjOY7n83Rl1sA+T0ixdA06hwR3hTiwR\naS4JXxXZD9ErUjJfShbaM4fLgEKjWgvyOX3Px+fkpIt4hTCoyqhY1JBKaGDv\nodt/yvUqfMeMPd7jTpxL9FUDkMwTxbBtMCV8XEYsYlZJr1huJanzYRqM1MT1\niJQz96VMv5fR8qF6QfYkINXRBnLHQQWA/A2+TGnYB5DxmpuvvOm+lWMIyBPt\nX4mdoCVzMLRBC+Qn4UQOd8ZFZPtDyoipKqNtNSjfI/Mtk4pJ1hRhnfKMqZ8h\nWSnQIB4CehDBgSsWuFRKTiTcpIQQfjpw02woEMs/4P7P1ENTpiDeis8JqFWP\njOf0\r\n=eClE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ngcandy@ca.ibm.com",
+					"name": "0candy"
+				},
+				{
+					"email": "amirali.jfr61@gmail.com",
+					"name": "amir-61"
+				},
+				{
+					"email": "binadmt@hotmail.com",
+					"name": "b-admike"
+				},
+				{
+					"email": "mbajtoss@gmail.com",
+					"name": "bajtos"
+				},
+				{
+					"email": "davidcheung@live.ca",
+					"name": "davidcheung"
+				},
+				{
+					"email": "captain@hacksparrow.com",
+					"name": "hacksparrow"
+				},
+				{
+					"email": "juehou@ca.ibm.com",
+					"name": "jannyhou2016"
+				},
+				{
+					"email": "kjdelisle@gmail.com",
+					"name": "kjdelisle"
+				},
+				{
+					"email": "kraman@gmail.com",
+					"name": "kraman"
+				},
+				{
+					"email": "vieuxtech@gmail.com",
+					"name": "octet"
+				},
+				{
+					"email": "qpresley@ca.ibm.com",
+					"name": "qpresley"
+				},
+				{
+					"email": "enjoyjava@gmail.com",
+					"name": "rfeng"
+				},
+				{
+					"email": "skawful@gmail.com",
+					"name": "ritch"
+				},
+				{
+					"email": "r.m.graham@gmail.com",
+					"name": "rmg"
+				},
+				{
+					"email": "superkhau@gmail.com",
+					"name": "superkhau"
+				},
+				{
+					"email": "gpandya@live.com",
+					"name": "thegman"
+				},
+				{
+					"email": "tffrench@us.ibm.com",
+					"name": "tonyf-ibm"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/strong-log-transformer_2.1.0_1544817761839_0.8804601329484802"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2019-01-05T13:40:13.573Z",
+		"created": "2014-06-11T20:50:14.417Z",
+		"0.0.1": "2014-06-11T20:50:14.417Z",
+		"0.1.0": "2014-06-13T02:04:16.450Z",
+		"0.2.0": "2014-07-23T21:14:48.912Z",
+		"0.2.1": "2014-07-28T18:46:55.349Z",
+		"1.0.0": "2014-10-24T20:56:28.659Z",
+		"1.0.1": "2015-01-13T04:05:33.973Z",
+		"1.0.2": "2015-06-03T20:46:33.135Z",
+		"1.0.3": "2015-10-01T16:45:50.611Z",
+		"1.0.4": "2016-04-11T21:45:24.590Z",
+		"1.0.5": "2016-05-06T04:59:18.400Z",
+		"1.0.6": "2016-09-01T13:43:56.364Z",
+		"2.0.0": "2018-08-11T21:40:17.420Z",
+		"2.1.0": "2018-12-14T20:02:41.977Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"89566c0f048b9a578bbfa51bcd3ba5a5\"",
+			"fetched": 1613881359177
+		}
+	},
+	"_distfiles": {
+		"strong-log-transformer-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.0.1.tgz",
+			"sha": "80e9feb24cfbf2327ac534895eca870d7dbf4dc9",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.1.0.tgz",
+			"sha": "6812d0f297282b264e3860bcae14bce14f316496",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.2.0.tgz",
+			"sha": "134c2130ae2321ac83ba62d06edb03c79d50787e",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-0.2.1.tgz",
+			"sha": "49b9674dbc8463edcef2609b714af1292fee8835",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.0.tgz",
+			"sha": "5780f6f2a59a945b975ddf54eee75a0b0b2fe441",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.1.tgz",
+			"sha": "dab880affa4048f36b5d22c99e4c502d34c20908",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.2.tgz",
+			"sha": "99933849b5d1183036cbf77827f90d8fac3526d4",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.3.tgz",
+			"sha": "35d82a244400079cbad2554d367ccca652c559a3",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.4.tgz",
+			"sha": "e2bda7dd88c81de50c88f09387b2428935595661",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.5.tgz",
+			"sha": "69a3bf9029c2723b1680bc5cfca313815685a0ba",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-1.0.6.tgz",
+			"sha": "f7fb93758a69a571140181277eea0c2eb1301fa3",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-2.0.0.tgz",
+			"sha": "fa6d8e0a9e62b3c168c3cad5ae5d00dc97ba26cc",
+			"registry": "npmjs"
+		},
+		"strong-log-transformer-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-2.1.0.tgz",
+			"sha": "0f5ed78d325e0421ac6f90f7f10e691d6ae3ae10",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-26184f6f5062011b",
+	"_id": "strong-log-transformer",
+	"readme": "strong-log-transformer\n======================\n\nA stream filter for performing common log stream transformations like\ntimestamping and joining multi-line messages.\n\n**This is not a logger!** But it may be useful for rolling your own logger.\n\n## Usage\n\nInstall strong-log-transformer and add it to your dependencies list.\n```sh\nnpm install --save strong-log-transformer\n```\n\n### CLI\n\nWhen installed globally the `sl-log-transformer` CLI utility is exposed. It is\nprimarily used for testing, but it can also be used as an alternative to\nawk or sed for jobs such as timestamping every line of another process's\noutput. This can be useful for cron jobs, for example.\n\n```sh\n$ npm install -g strong-log-transformer\n$ sl-log-tranformer --help\nUsage: sl-log-transformer [options]\n\nStream transformer that prefixes lines with timestamps and other things.\n\nOPTIONS:\n   --format FORMAT        default: \"text\"\n   --tag TAG              default: \"\"\n   --mergeMultiline       default: off\n   --timeStamp            default: off\n```\n\n### Line Merging\n\nIn order to keep things flowing when line merging is enabled (disabled by\ndefault) there is a sliding 10ms timeout for flushing the buffer. This means\nthat whitespace leading lines are only considered part of the previous line if\nthey arrive within 10ms of the previous line, which should be reasonable\nconsidering the lines were likely written in the same `write()`.\n\n### Example\n\nHere's an example using the transformer to annotate log messages from cluster\nworkers.\n\n```js\nvar cluster = require('cluster');\n\nif (cluster.isMaster) {\n  // Make sure workers get their own stdout/stderr streams\n  cluster.setupMaster({silent: true});\n\n  // require log transformer module\n  var transformer = require('strong-log-transformer');\n\n  // Following the 12-factor app model, we pipe to stdout, but we could easily\n  // pipe to any other stream(s), such as a FileStream for a log file.\n\n  // stdout is plain line-oriented logs, but we want to add timestamps\n  var info = transformer({ timeStamp: true,\n                           tag: 'INFO' });\n  // stderr will only be used for strack traces on crash, which are multi-line\n  var error = transformer({ timeStamp: true,\n                            tag: 'ERROR',\n                            mergeMultiline: true });\n\n  // Each worker's stdout/stderr gets piped into our info and erro transformers\n  cluster.on('fork', function(worker) {\n    console.error('connecting worker');\n    worker.process.stdout.pipe(info).pipe(process.stdout);\n    worker.process.stderr.pipe(error).pipe(process.stdout);\n  });\n\n  //... cluster fork logic goes here ...\n  cluster.fork();\n\n} else {\n  //... worker code here ...\n\n  console.log('new worker, this line will be timestamped!');\n  throw new Error('This will generate a multi-line message!');\n}\n\n```\n\nWhen we run the example code as `example.js` we get:\n```sh\n$ node example.js\nconnecting worker\n2014-06-08T18:54:00.920Z INFO new worker, this line will be timestamped!\n2014-06-08T18:54:00.926Z ERROR /Users/ryan/work/strong-log-transformer/e.js:33\\n    throw new Error('This will generate a multi-line message!');\\n          ^\n2014-06-08T18:54:00.926Z ERROR Error: This will generate a multi-line message!\\n    at null._onTimeout (/Users/ryan/work/strong-log-transformer/e.js:33:11)\\n    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)\n```"
+}

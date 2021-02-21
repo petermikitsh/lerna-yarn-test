@@ -1,0 +1,2837 @@
+{
+	"name": "git-raw-commits",
+	"versions": {
+		"0.0.0": {
+			"name": "git-raw-commits",
+			"version": "0.0.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.2.2",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.3.0",
+				"meow": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^2.1.0",
+				"mocha": "*",
+				"shelljs": "^0.3.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "da8423609be350c65cdf93f4e831d25ba333afaa",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.0",
+			"_shasum": "c7324705bcdc3a8ac313f01f1af26ed676e22a0d",
+			"_from": ".",
+			"_npmVersion": "2.0.2",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "c7324705bcdc3a8ac313f01f1af26ed676e22a0d",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "git-raw-commits",
+			"version": "0.0.1",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.2.2",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.3.0",
+				"meow": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^2.1.0",
+				"mocha": "*",
+				"shelljs": "^0.3.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "325b893ed6a936214174e51b0b2feee683540bfb",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.1",
+			"_shasum": "7a5e541b2ed62c0aeb58f5ef048dd0a70bcc9724",
+			"_from": ".",
+			"_npmVersion": "2.0.2",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "7a5e541b2ed62c0aeb58f5ef048dd0a70bcc9724",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "git-raw-commits",
+			"version": "0.0.2",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.2.2",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.3.1",
+				"meow": "^3.1.0"
+			},
+			"devDependencies": {
+				"chai": "^2.1.0",
+				"coveralls": "^2.11.2",
+				"hook-writable-stream": "0.0.0",
+				"istanbul": "^0.3.6",
+				"mocha": "*",
+				"shelljs": "^0.3.0"
+			},
+			"scripts": {
+				"test": "mocha",
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "317fe140b6c934f39926600bd45314d9a271dff3",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.2",
+			"_shasum": "11e9d8a7751cbab1d603c20a688437dec2ed7568",
+			"_from": ".",
+			"_npmVersion": "2.6.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "11e9d8a7751cbab1d603c20a688437dec2ed7568",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "git-raw-commits",
+			"version": "0.0.3",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.2.2",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.3.1",
+				"meow": "^3.1.0"
+			},
+			"devDependencies": {
+				"chai": "^2.1.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.6",
+				"mocha": "*",
+				"shelljs": "^0.3.0"
+			},
+			"scripts": {
+				"test": "mocha",
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "30198f895781bcadb91dca90e560de2d5cf41d4c",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.3",
+			"_shasum": "b5a8233e17f5fd98d9556c624d2ae399ce06c39e",
+			"_from": ".",
+			"_npmVersion": "2.7.3",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "b5a8233e17f5fd98d9556c624d2ae399ce06c39e",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.3.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "git-raw-commits",
+			"version": "0.0.4",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.2.2",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.3.1",
+				"meow": "^3.1.0"
+			},
+			"devDependencies": {
+				"chai": "^2.1.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.6",
+				"mocha": "*",
+				"shelljs": "^0.3.0"
+			},
+			"scripts": {
+				"test": "mocha",
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "5dbed2cb0b02fed6be7db05976e802a7b0c18007",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.4",
+			"_shasum": "a09db88ee581bb0dd342abad0f041ce8f0f6fe3b",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "a09db88ee581bb0dd342abad0f041ce8f0f6fe3b",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.4.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "git-raw-commits",
+			"version": "0.0.5",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/stevemao/git-raw-commits"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.0",
+				"event-stream": "^3.3.0",
+				"git-latest-tag": "0.0.6",
+				"lodash": "^3.6.0",
+				"meow": "^3.1.0"
+			},
+			"devDependencies": {
+				"chai": "^2.2.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.13",
+				"mocha": "*",
+				"shelljs": "^0.4.0"
+			},
+			"scripts": {
+				"test": "mocha",
+				"coverage": "istanbul cover _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "c3673883280f3798694259d916717b753bb332d2",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.5",
+			"_shasum": "e2e4020d54d2e6bebe01c420441eb0c4334dbea2",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "e2e4020d54d2e6bebe01c420441eb0c4334dbea2",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.5.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "git-raw-commits",
+			"version": "0.0.6",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^0.2.1",
+				"through2": "^0.6.5"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "8e4d842db56fd05e6e23acd79dc7634fa8b97e3e",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.6",
+			"_shasum": "0904285e19843637404924585436bd88567f1eae",
+			"_from": ".",
+			"_npmVersion": "2.9.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "0904285e19843637404924585436bd88567f1eae",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.6.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.7": {
+			"name": "git-raw-commits",
+			"version": "0.0.7",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^1.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "f582ec88352f44b42289e3634f3a0fb4d1f7e598",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.7",
+			"_shasum": "54f2d2cceec1aa3021a396711f71c4d7c1c17d18",
+			"_from": ".",
+			"_npmVersion": "2.9.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "54f2d2cceec1aa3021a396711f71c4d7c1c17d18",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.7.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "git-raw-commits",
+			"version": "0.0.8",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^1.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "7970678f3fe75b547adf3594b84c5f299ff46931",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.0.8",
+			"_shasum": "eef059c3ad3184708c37ba3f638841f1282d2cdf",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "eef059c3ad3184708c37ba3f638841f1282d2cdf",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.8.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "git-raw-commits",
+			"version": "0.1.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^1.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "9770011623fa3ab02620503ceeac9823ddcbf931",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.1.0",
+			"_shasum": "bf6f06ed46683a0bb4bdee841cd69947c6edeadb",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "bf6f06ed46683a0bb4bdee841cd69947c6edeadb",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "git-raw-commits",
+			"version": "0.1.1",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^1.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "246740ad478487aa2013b31ea59b30c6719c9280",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.1.1",
+			"_shasum": "16d65e4386fa2ec93e48571810279bbc0a9b6f9b",
+			"_from": ".",
+			"_npmVersion": "2.13.2",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "16d65e4386fa2ec93e48571810279bbc0a9b6f9b",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "git-raw-commits",
+			"version": "0.1.2",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^3.6.1",
+				"meow": "^3.1.0",
+				"split2": "^1.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.14",
+				"jscs": "^1.13.1",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.5.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "eeac997bc6a1abe0ec38173195da9b39665c5767",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@0.1.2",
+			"_shasum": "2becbdcd3f96ef0b19f16863f7a2f6d9d8ab8369",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "steve.mao@healthinteract.com.au"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"dist": {
+				"shasum": "2becbdcd3f96ef0b19f16863f7a2f6d9d8ab8369",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.2.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "git-raw-commits",
+			"version": "1.0.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "c8a2ef9b26068057649bf64f5f2acbf6fdcfe340",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.0.0",
+			"_shasum": "5c389900f9149f66c4635f562c9f201830deb99a",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "5c389900f9149f66c4635f562c9f201830deb99a",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/git-raw-commits-1.0.0.tgz_1454675427153_0.9288460805546492"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "git-raw-commits",
+			"version": "1.1.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/stevemao/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stevemao/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint *.js --exclude node_modules && jscs *.js",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "ece6cc30e378db95d93a2c59324b2ece1ce8ebb1",
+			"bugs": {
+				"url": "https://github.com/stevemao/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.1.0",
+			"_shasum": "dddb704c3a1b0ec17350fbddc3b2b39ae4af7c22",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "dddb704c3a1b0ec17350fbddc3b2b39ae4af7c22",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/git-raw-commits-1.1.0.tgz_1455336440131_0.017478724708780646"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "git-raw-commits",
+			"version": "1.1.1",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "595e80573d4bffbf894f30fdb7a71091e2f30062",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.1.1",
+			"_shasum": "d5e68dcd52ee039b7ce7fff85057dfc66f27e221",
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.4",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "d5e68dcd52ee039b7ce7fff85057dfc66f27e221",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-raw-commits-1.1.1.tgz_1466936956153_0.12273686425760388"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "git-raw-commits",
+			"version": "1.1.2",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "0b5afd30e897917281334c297e08bf9bbe99eb70",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.1.2",
+			"_shasum": "a12d8492aeba2881802d700825ed81c9f39e6f2f",
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.4",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "a12d8492aeba2881802d700825ed81c9f39e6f2f",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "stevemao",
+					"email": "steve.mao@healthinteract.com.au"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-raw-commits-1.1.2.tgz_1467008161175_0.005227255634963512"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "git-raw-commits",
+			"version": "1.2.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.2.0",
+			"_shasum": "0f3a8bfd99ae0f2d8b9224d58892975e9a52d03c",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "0f3a8bfd99ae0f2d8b9224d58892975e9a52d03c",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-raw-commits-1.2.0.tgz_1489193792967_0.4210169417783618"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "git-raw-commits",
+			"version": "1.3.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.3.0",
+			"_shasum": "0bc8596e90d5ffe736f7f5546bd2d12f73abaac6",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.10.3",
+			"_npmUser": {
+				"name": "stevemao",
+				"email": "maochenyan@gmail.com"
+			},
+			"dist": {
+				"shasum": "0bc8596e90d5ffe736f7f5546bd2d12f73abaac6",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits-1.3.0.tgz_1510532236496_0.3769113023299724"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.1": {
+			"name": "git-raw-commits",
+			"version": "1.3.1",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.3.1",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-xn4dsdOrsOAnp17x+4yiD8Do8WHhqit5kwg/Efx22x8V/mQ6fqufqeToCbzBl+K/A6DuOCCDZJu2HP436mFnng==",
+				"shasum": "5b46fc0f286cf030e9ff7140d115b4aabf69e650",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8183
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.1_1518539062132_0.16484760092617967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "git-raw-commits",
+			"version": "1.3.2",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"homepage": "https://github.com/conventional-changelog/git-latest-tag",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/git-raw-commits.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/git-raw-commits/issues"
+			},
+			"_id": "git-raw-commits@1.3.2",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-ojMbErvEIPXaqNNwomSp/DYLhhbU+BEcCOyPZ26U8VNaQjBRN9lZ7E3vfjIkTA8JLWYc5zsSxuVXut6bczKhrg==",
+				"shasum": "0766c14d33566ba0094869697e13b0eb06147c07",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8402
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.2_1518539269455_0.33200842917553697"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.3": {
+			"name": "git-raw-commits",
+			"version": "1.3.3",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^3.3.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"istanbul": "^0.4.2",
+				"jscs": "^2.0.0",
+				"jshint": "^2.8.0",
+				"mkdirp": "^0.5.1",
+				"mocha": "*",
+				"shelljs": "^0.6.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@1.3.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-EKgNIRhpCYFgLTM+o4lbu5+JxTGhUBgaRN3JQv/X2dm7zuSf64tay/igxf2RMJfOZYpmUYX96JOk3Q7JajPLVA==",
+				"shasum": "464f9aa14c4e78235e98654f0da467f3702590f9",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8848
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.3_1519100430712_0.21906828564850955"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.4": {
+			"name": "git-raw-commits",
+			"version": "1.3.4",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^4.0.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"mkdirp": "^0.5.1",
+				"shelljs": "^0.8.0"
+			},
+			"scripts": {
+				"lint": "jshint . --exclude node_modules && jscs .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@1.3.4",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-G3O+41xHbscpgL5nA0DUkbFVgaAz5rd57AMSIMew8p7C8SyFwZDyn08MoXHkTl9zcD0LmxsLFPxbqFY4YPbpPA==",
+				"shasum": "442c3df5985b4f5689e9e43597f5194736aac001",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.4.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8922
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "andrewbgoode@gmail.com",
+					"name": "nexdrew"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "moilanen.tapani@gmail.com",
+					"name": "tapppi"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.4_1519510361301_0.3625328622215269"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.5": {
+			"name": "git-raw-commits",
+			"version": "1.3.5",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^4.0.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"mkdirp": "^0.5.1",
+				"shelljs": "^0.8.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@1.3.5",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-r6NFrgh9oGzHwMA0go6sEa8jgR+N2/74HPXIXR59asiJzxPXpmk3aM5SMH2bLGsmTPwJtysgbf8EE/LwWHqGgg==",
+				"shasum": "0951ae8dc80e5cee8ef54934db4ef65a6d161c60",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9081
+			},
+			"maintainers": [
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.5_1521726109249_0.8888195883118295"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.6": {
+			"name": "git-raw-commits",
+			"version": "1.3.6",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^4.0.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"mkdirp": "^0.5.1",
+				"shelljs": "^0.8.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@1.3.6",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-svsK26tQ8vEKnMshTDatSIQSMDdz8CxIIqKsvPqbtV23Etmw6VNaFAitu8zwZ0VrOne7FztwPyRLxK7/DIUTQg==",
+				"shasum": "27c35a32a67777c1ecd412a239a6c19d71b95aff",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.6.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10434
+			},
+			"maintainers": [
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_1.3.6_1522164368894_0.16093862832891914"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "git-raw-commits",
+			"version": "2.0.0",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^4.0.0",
+				"split2": "^2.0.0",
+				"through2": "^2.0.0"
+			},
+			"devDependencies": {
+				"mkdirp": "^0.5.1",
+				"shelljs": "^0.8.0"
+			},
+			"scripts": {
+				"lint": "eslint --fix .",
+				"test": "npm run-script lint && mocha --timeout 30000",
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.2",
+			"_npmUser": {
+				"name": "hbetts",
+				"email": "hutson@hyper-expanse.net"
+			},
+			"dist": {
+				"integrity": "sha512-w4jFEJFgKXMQJ0H0ikBk2S+4KP2VEjhCvLCNqbNRQC8BgGWgLKNCO7a9K9LI+TVT7Gfoloje502sEnctibffgg==",
+				"shasum": "d92addf74440c14bcc5c83ecce3fb7f8a79118b5",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 11130,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDWNSCRA9TVsSAnZWagAArM4P/3nnjee9vuWHE0XZFFNX\nYeQExoBf57tlrBQ8m0QQhIMbajpoTkgdito8j2rwJHUj8NsTpXMz//KtHBeU\nQH9Xv8EKJv0dKjHD2WLuGXkrMRTxRmWKPJM6JygyXSjJ3fjMsj6QcnlLXuYt\nOBZol4sj5F5txxIU8Hhn8pDXL4EZuRV+PodiFhFOISKCtvFYWtcM+U9798LJ\n9Te4TbNbFMDwNJXOFK6OYRs4J9WPRRgqu/mDHAqhW265z5UT4fqoD20i9LwD\nHk24QEPhK0klOYt8GfCZrVU05FxZACUrCtbFuucpaZJWBRP2o1yW2t56aVoX\nMI/lRSsJeejBXS36fZjIW6/4722kEJx/s+nNkLoixZ6BO1iEZPPOVlmdI7Ym\nJym6v7IgtBDHm8df0C0std3fPM1cQKuZ+6QvALSB8QyqNgE23jXNYlUCqtKR\nxsHX9KPHdBr0iaCO8G+MjeQ275RDRcLD71/540ek+MKXvSwq3gQdGzFQNiXl\n2h/b9guY/Uvm5I9p0Y8XQan0hufr2pbQ4AEjpynCYYmGeo4LVGl5Cpuveyf2\nEOKj+bbbzq1MspKamSY5xQuZJYSiAw8m976bBDJjg0HUkruHb6dFYfDcSssY\najf8h1TtAYchFZmr1ZPrDcc875E+SfQYiwhcjrh2xAAB2S1LMa5790ULJBo5\n+d5M\r\n=tL/o\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hbetts"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.0_1527604049934_0.0481164230745339"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "git-raw-commits",
+			"version": "2.0.2",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^4.0.0",
+				"split2": "^2.0.0",
+				"through2": "^3.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "b3416cbb411f49420b13e8fe306528b372b07a8b",
+			"_id": "git-raw-commits@2.0.2",
+			"_nodeVersion": "11.11.0",
+			"_npmVersion": "lerna/3.13.1/node@v11.11.0+x64 (linux)",
+			"dist": {
+				"integrity": "sha512-HVvl6J3dx7CS9fWTtyZXA2ejhdq9p/GSU9EEVlJPb2pSgMuD7IWK3dERcUPsJj9SZrJJ6IIB+3Rsjx9FUDdE1Q==",
+				"shasum": "0ffdb5881e1f9d1ed73edbda47389614543afb99",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 11800,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcrk2qCRA9TVsSAnZWagAAau0P/2H3OLzZ6IhrMiPt2rN9\nenYOUaNmxkwW/2k849P7Ue8GD8JQvk/ZOmu+EXPld+vyQYbHPqsNqf4f0Q0x\nLiVdywX7MkEZoqy8eZaS3T2quJyqOk+oKTvATDIX7BMbLJkvcetV4mKlVUeU\nHgnBMvF1/xub0VC6sh35gB4prmtQOWn5vNuKCP9lOZssGqhMICS8DtSLVw6r\n23pNBYQNRGSlSUPxfaXQvQvCG11NTvMJbt0x8TLxhqL0pQLTxJMaT/M0Ht4L\nWMvRNyt0koCJDl4bISbYwlAUj+camST3jeONdrdUy9Gu8CxFbo83ED2EFmHK\nxGrUiralbh8myQICDFi3meiDYsyUzzxbznJl73YBN0xlvFzFD8oQx8isx5xh\nGxLhSE9XJYwODpSkmhlZlCDrAnXmTyF8ZuGt4hGlZCIzUNz4+m3YIfJ9iISp\nK7LR2kr9YMauzJ54/enAodjD5h1VbJmbPBIr5P/grJzhjOiIdJDm/2DjGuKs\n6iLULG5WGSMaHMhS/+TSdFaybKOe1EbiJqjGVZxLfBx5X1v/nTEUWL1OwXiC\ny61WvXA/YQn1Ps4oJ9IVZd/flo2Yf77C8dKtyhiVCz4BcPb/qBGZEE/9stzP\n6SA/mqEo2yoC5AqGu+BmL9IdWDNxqj9wx8GvEIv7DDqn5nLoZmyjWI+cw0C2\ngbtM\r\n=11tx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.2_1554927018146_0.6452509442794281"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "git-raw-commits",
+			"version": "2.0.3",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^4.0.1",
+				"lodash.template": "^4.0.2",
+				"meow": "^5.0.0",
+				"split2": "^2.0.0",
+				"through2": "^3.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "79217815a7ce5f3d3f833961ce9a14bd454e5789",
+			"_id": "git-raw-commits@2.0.3",
+			"_nodeVersion": "12.12.0",
+			"_npmVersion": "lerna/3.18.4/node@v12.12.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-SoSsFL5lnixVzctGEi2uykjA7B5I0AhO9x6kdzvGRHbxsa6JSEgrgy1esRKsfOKE1cgyOJ/KDR2Trxu157sb8w==",
+				"shasum": "f040e67b8445962d4d168903a9e84c4240c17655",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.3.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12006,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdzdBpCRA9TVsSAnZWagAAoUgP/0qj7wp9d3JIfHw8lDY/\nuqdiRWMuyRvObP+SizzdwR4VhNbUcF6jRW03NUB9lRcLYlzSSrzOFPBL1GgF\npdbjQtB3peQkUfbpcZNKqyM4p+cf+bJxNuzQK6PeqmEmzTQFJOiKFGFN0OsC\nebPf5e7T3Y7c67us0iY7ptsdIVb8lbYaBsaqqrCPGgJaVE04iqiTMyX0hjOQ\nSpbOWj32QKPiBNF0frNkXUUqzQtxNLAqc/hebX8YY0dG2qnZiumqJV9pQSS9\n6/3QwiMpyEIGcTdIQJkfVSAx1uETtT8vUj7N+AW/pzHubE0eMt93/nk1m+Pj\nRRCmsBoNyN7NcVUnD17Tr/xsuBLWAYLrSZQWFF9NKmOEF3r6PK2ddDFTftsC\n0lJfiUDNrK+IpYRc5eLuu+QzLbTHnyAJk15SpUrh6RA8KLP/cmKbiOZfkXO9\n00hK6TCbZcxtd4NNneyXdM2Yu0qgn0aHsQFKu/A+8XoR+qfd/Nyq9Tuc6OWM\nxPYAH1GBt6U+f9SLAQUGVXaXYYUQe3pYeUfZ1oCFDd34pd6PhbTGG3YeAhpY\nSyFNDCNW1+tJnE5TgwAJF58bnYCs9lAvy2QMcVEw4Wfqgu3xavRAjLyCwfel\nxLuurYQ/heK4UZOUfMpz5SeHKZgrgKwFyuwyaW4S+hL4n1G5eWei3dh+3u7R\nxa/a\r\n=t/Sx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "tommywo",
+				"email": "tommywo@o2.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.3_1573769321237_0.9745341884218806"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.7": {
+			"name": "git-raw-commits",
+			"version": "2.0.7",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^7.0.0",
+				"lodash.template": "^4.0.2",
+				"meow": "^7.0.0",
+				"split2": "^2.0.0",
+				"through2": "^3.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "83643c5a0d2c4d7c9ba14cbf990ffbc577a51e8c",
+			"_id": "git-raw-commits@2.0.7",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "lerna/3.20.2/node@v12.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-SkwrTqrDxw8y0G1uGJ9Zw13F7qu3LF8V4BifyDeiJCxSnjRGZD9SaoMiMqUvvXMXh6S3sOQ1DsBN7L2fMUZW/g==",
+				"shasum": "02e9357727a9755efa8e14dd5e59b381c29068fb",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.7.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12455,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJetbPcCRA9TVsSAnZWagAA2rQP/j1OHuraEFHGbTwUFajP\nL4uW7NRFHUkj6mwz/RE6orU38Vvmn/XjF//AiEntCGOudC80LUAQwXCQZrZn\nOjoIILKsnfmVrwNtzvy+HUFlNk2WguXPkEhEFTVSvzwVaFk1gIhfxQ9uk/pt\nZqBKkIjqw1fBzpoAHatU7FWga+9QLi8GeQZ+tv1mDKTK7cnDw/tKDgHeB3zO\nOq/6NIgSFCVEoS8Dj4AIWoVdw5hpljn7CsGXhxnm9DhO42xjQqZzcRQXbCFq\nnbltw7QLdoZk87s9YXtaJ18l0mdgjJYzPHZFuFZKciAGkbhcDt8O0yY1P2an\nHkW1iC6TjgU4FvLa9Lx7d0UMRBT5WYr4b69A41Dc7WOctcPwjv5xqyK+FeIh\ngB7tW1uMn6AuZERXM2oo7Cmll4liQGz0jvS7iVlbwU6uJuboY+YdrDs2e/WC\nEzcHDtvhy9JMyzQeFKaXSFQflVeRowElFjXS8RxENy6tbbdOHmsClghC0VoC\npxv8GWOUFGl/L2oqOB/KoNTTLMbcrOhnzn5LYizwhljm3HwTqf5ap1hVkM+y\nkRTyrjFPJsoox0Uj39b3//hRF0o3rwL7bRTaKguHbZVmT3e5YdV0Rmt1NeOk\nZ+FHOp/jBr8TKmewpF/yyoGh5FBXf0j0EOSJHwTuXP2r6ac3OkFxR+jgrEvb\n1Tbw\r\n=9fsi\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "bencoe@gmail.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "gustaf.dalemar@gmail.com",
+					"name": "dlmr"
+				},
+				{
+					"email": "hutson@hyper-expanse.net",
+					"name": "hutson"
+				},
+				{
+					"email": "hello@mario-nebl.de",
+					"name": "marionebl"
+				},
+				{
+					"email": "maochenyan@gmail.com",
+					"name": "stevemao"
+				},
+				{
+					"email": "tommywo@o2.pl",
+					"name": "tommywo"
+				}
+			],
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.7_1588966364135_0.8986752377074565"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.8": {
+			"name": "git-raw-commits",
+			"version": "2.0.8",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^7.0.0",
+				"lodash.template": "^4.0.2",
+				"meow": "^8.0.0",
+				"split2": "^2.0.0",
+				"through2": "^4.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"gitHead": "cc567b98facf71315f4b1620d81ce01d155efaca",
+			"readmeFilename": "README.md",
+			"_id": "git-raw-commits@2.0.8",
+			"_nodeVersion": "10.21.0",
+			"_npmVersion": "lerna/3.22.1/node@v10.21.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-6Gk7tQHGMLEL1bSnrMJTCVt2AQl4EmCcJDtzs/JJacCb2+TNEyHM67Gp7Ri9faF7OcGpjGGRjHLvs/AG7QKZ2Q==",
+				"shasum": "65cef91ae8307281b6ee31ca481fa1164e166156",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.8.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12914,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfo1R1CRA9TVsSAnZWagAAoe8P/3YAjmDP7S8+cHczmNhu\na8G3U/1FKRHBpAS/KI47Aiq/NP7UacXCQMqSZHA6FxxTRfSSKyS9r1WdizPs\niRM1h2uvRh7DyD7+AtNY5GqMzp7/2mUzWFMLtEPEddctzEVylhVo8Z46fIsx\nRPheOfSoOL4PrZ2QidkEAHIe9ZaFlv1n9mAAciKpguMH+PlujQr3B4C1a+Tz\nJDEELgNNqvM3yk5W2S3TGvba/Qc8DwKmahLzIKEp+KT1BSa6+4ziDkc6Qh+7\n0OynatLtnr9U6YjkZMMcbHLxsk1zVK7dx154uCBkQH6UN8JDhJmc9oG8GbzE\nTw94mFTAWIYUDfWK3Qua/SaUqQsUyVhejkkCjhDR6hH62WTSacPYHRKlGFS1\nQwklHdePmXcwLoXglN72P0a75h07Xq4Koz9GKvex81q1JKLTmds5rmS95Kys\nJh04HWX+ir+DuIgt5emKHVVL2zecg9MwvS8fTiKY756XMcNgGrX2SYPsRUuc\nq9lGS+SKfPXyNtSuyxQiloTUkpGUkOMdJCl8VSQo8pQoSa0bGUzi2e1NoCSQ\nFrgwQLTEK9dlgnDCar1DbuZLlHdcA5fJnc5uRXbra95bJGeJbGouyg85Inyx\nVtAVouJK1TObtduRng6m432jaCGclME+Q8HES+y9/KQ3A/wFi0C5ke7ZC4z8\nVMaQ\r\n=PVGw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "bencoe@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "tommywo",
+					"email": "tommywo@o2.pl"
+				},
+				{
+					"name": "hutson",
+					"email": "hutson@hyper-expanse.net"
+				},
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "dlmr",
+					"email": "gustaf.dalemar@gmail.com"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.8_1604539508735_0.7216066807399488"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.9": {
+			"name": "git-raw-commits",
+			"version": "2.0.9",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^7.0.0",
+				"lodash.template": "^4.0.2",
+				"meow": "^8.0.0",
+				"split2": "^3.0.0",
+				"through2": "^4.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@2.0.9",
+			"_nodeVersion": "14.15.1",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-hSpNpxprVno7IOd4PZ93RQ+gNdzPAIrW0x8av6JQDJGV4k1mR9fE01dl8sEqi2P7aKmmwiGUn1BCPuf16Ae0Qw==",
+				"shasum": "5cbc707a615cb77b71e687f8a1ee54af46208b22",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.9.tgz",
+				"fileCount": 6,
+				"unpackedSize": 13452,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf68glCRA9TVsSAnZWagAAs18P/RzOslp2Wfqt/QT4CLOL\nf7Xnp88ngv7v4NNdVIRypvEka6f8agvbQARICFe7E1MJ6gWIgTg5fxCaqzFs\nGX05ClS3RIDOqtC4/9aqeXp4j4UjLcVlUHaIdiMqT0dw+qSQRscpZZEIYeqC\nHC2Mj1KW7WspVcn0V+0obK9hs0p3SAy09tmjeTudWzg2Di5P2tJvuEiXErEh\nDw3vn8MIK+ZK+jRVvuvvRtHNPpFqvQ2Y7TwCUT5egL2805xrdEfdwvGFuWjW\nJCrMysUGsF4rajAS/b3N4huYVcYmjOYR9RvUUIqVzYOSbR9ki+ynzBTV1Cxq\nqLrlGLyAzIDEDgO9PUWONbKrW2PtsjPQoQVo1x5MGFQDsGIMdLswVGOpapaI\nn6kmfQ+MVx7eJnhT6w5uFShboPSp/+ZmPtsaJOq0R+hkuJ+GAiyohUokwzXT\nyfrA9JW1VNrrZfCXxFnSIVRy70N3OYe0OQC45lzXmTbXiSzm7T9vOvID1kQJ\nk7nGDSzJXGQ+ox2aroz5VC0qEf7/y51CeystCF7/P1eZC5HlFUGfU8tl27X8\nSRVuP0irUgxy56nYcQW1EZikwxF9iTlgnxiDi2WxHXN7KzLsqeCDXB9h1VdU\nLbaHsB4hXhHUmiCoXc87YCiyD2fqclzUtKobJD/oKdul4OVNmr7VOXwR5Fh2\nrIFb\r\n=kJ+2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "oss-bot",
+				"email": "bencoe+oss-bot@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.9_1609287717221_0.42079757062225154"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.10": {
+			"name": "git-raw-commits",
+			"version": "2.0.10",
+			"description": "Get raw git commits out of your repository using git-log(1)",
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/conventional-changelog/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/git-raw-commits#readme",
+			"author": {
+				"name": "Steve Mao",
+				"email": "maochenyan@gmail.com",
+				"url": "https://github.com/stevemao"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/conventional-changelog.git"
+			},
+			"license": "MIT",
+			"engines": {
+				"node": ">=10"
+			},
+			"keywords": [
+				"git-raw-commits",
+				"raw",
+				"commit",
+				"commits",
+				"git",
+				"log",
+				"git-log"
+			],
+			"dependencies": {
+				"dargs": "^7.0.0",
+				"lodash": "^4.17.15",
+				"meow": "^8.0.0",
+				"split2": "^3.0.0",
+				"through2": "^4.0.0"
+			},
+			"scripts": {
+				"test-windows": "mocha --timeout 30000"
+			},
+			"bin": {
+				"git-raw-commits": "cli.js"
+			},
+			"_id": "git-raw-commits@2.0.10",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "6.14.10",
+			"dist": {
+				"integrity": "sha512-sHhX5lsbG9SOO6yXdlwgEMQ/ljIn7qMpAbJZCGfXX2fq5T8M5SrDnpYk9/4HswTildcIqatsWa91vty6VhWSaQ==",
+				"shasum": "e2255ed9563b1c9c3ea6bd05806410290297bbc1",
+				"tarball": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.10.tgz",
+				"fileCount": 6,
+				"unpackedSize": 13974,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgEZbTCRA9TVsSAnZWagAAf8MP/0Q5A792KhgzuI5YiIrQ\n+BC8ACM6TAN8Or7M1ON2v5mvOIciJIJNlbGhzVqJE3YmbvaPMrNsTBONXREu\nU/vwiyY3Cni38amWiepevqhYLZkh86iW9qe7YhoQVn14qfquT3E3WYw7qHGd\nV6oW+dQyBPsT8acpeeuxz0s/mgPgky7Pk33iTZNnn9bgUm1Zx2VUXStDkRXe\nukehm51nMo3YX01ewaOqHb2NjEU8GCjsBfJL27Ul8P1XIbluTz3uDjCEOIQ4\ncgAiflVFen9B2OsoYF6wNTNN1hZHmzKbi+mnrOrFM+xomXCh/ynTf5MuIozs\nDrFR4MbibV3L5Yu77EgmUQl/3VBgtgxrePc8xLbsUMR93547ZlSKe4V3jvxE\n48hH6Ata2JXR5GHzqooH2AHUKpRaApGynEf8M5E739oSiLWqsX+XwbZYg2wd\nix1Bpg+NZMeFGIXInVi7igA3pK2zwu7R8jKi/wdwKPkIBQtUfSooPdfLDdSs\nIu6wsNkr/T1pJYyLf0BcmbcdVEfka6CW9d+nzGwUgLVn3d2X+X3KIipizuyL\niAKZKqD2ZgahnmiLsBuzBk6gmGQ5zyZs5h87u4peHaSUuPOztMWGKmseqQNY\n9DDmwvfU+qLlsWBFkTFWxPdWHazyS2o9AjsbQ8/3oDeyXf1V4wVVUt0RLWBZ\noE2G\r\n=RULD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "oss-bot",
+				"email": "bencoe+oss-bot@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "bencoe@gmail.com"
+				},
+				{
+					"name": "oss-bot",
+					"email": "bencoe+oss-bot@gmail.com"
+				},
+				{
+					"name": "stevemao",
+					"email": "maochenyan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-raw-commits_2.0.10_1611765459308_0.355124348189906"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-01-27T16:37:43.400Z",
+		"created": "2015-02-24T23:22:07.663Z",
+		"0.0.0": "2015-02-24T23:22:07.663Z",
+		"0.0.1": "2015-02-25T06:07:35.670Z",
+		"0.0.2": "2015-03-13T00:10:41.078Z",
+		"0.0.3": "2015-04-02T13:18:11.808Z",
+		"0.0.4": "2015-04-07T04:16:49.958Z",
+		"0.0.5": "2015-04-07T05:01:16.288Z",
+		"0.0.6": "2015-06-10T05:16:51.540Z",
+		"0.0.7": "2015-06-16T08:50:39.107Z",
+		"0.0.8": "2015-06-29T11:52:23.617Z",
+		"0.1.0": "2015-07-20T07:51:05.711Z",
+		"0.1.1": "2015-08-03T00:33:23.469Z",
+		"0.1.2": "2015-08-08T06:36:34.900Z",
+		"1.0.0": "2016-02-05T12:30:27.766Z",
+		"1.1.0": "2016-02-13T04:07:23.243Z",
+		"1.1.1": "2016-06-26T10:29:19.801Z",
+		"1.1.2": "2016-06-27T06:16:04.965Z",
+		"1.2.0": "2017-03-11T00:56:33.259Z",
+		"1.3.0": "2017-11-13T00:17:16.585Z",
+		"1.3.1": "2018-02-13T16:24:22.186Z",
+		"1.3.2": "2018-02-13T16:27:49.496Z",
+		"1.3.3": "2018-02-20T04:20:30.769Z",
+		"1.3.4": "2018-02-24T22:12:41.353Z",
+		"1.3.5": "2018-03-22T13:41:49.301Z",
+		"1.3.6": "2018-03-27T15:26:08.930Z",
+		"2.0.0": "2018-05-29T14:27:30.035Z",
+		"2.0.2": "2019-04-10T20:10:18.332Z",
+		"2.0.3": "2019-11-14T22:08:41.390Z",
+		"2.0.7": "2020-05-08T19:32:44.366Z",
+		"2.0.8": "2020-11-05T01:25:08.874Z",
+		"2.0.9": "2020-12-30T00:21:57.356Z",
+		"2.0.10": "2021-01-27T16:37:39.411Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.10",
+		"next": "2.0.8"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"cd636bbeb7e7ce26fa9239c5b0c49780\"",
+			"fetched": 1613881362710
+		}
+	},
+	"_distfiles": {
+		"git-raw-commits-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.0.tgz",
+			"sha": "c7324705bcdc3a8ac313f01f1af26ed676e22a0d",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.1.tgz",
+			"sha": "7a5e541b2ed62c0aeb58f5ef048dd0a70bcc9724",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.2.tgz",
+			"sha": "11e9d8a7751cbab1d603c20a688437dec2ed7568",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.3.tgz",
+			"sha": "b5a8233e17f5fd98d9556c624d2ae399ce06c39e",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.4.tgz",
+			"sha": "a09db88ee581bb0dd342abad0f041ce8f0f6fe3b",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.5.tgz",
+			"sha": "e2e4020d54d2e6bebe01c420441eb0c4334dbea2",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.6.tgz",
+			"sha": "0904285e19843637404924585436bd88567f1eae",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.7.tgz",
+			"sha": "54f2d2cceec1aa3021a396711f71c4d7c1c17d18",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.0.8.tgz",
+			"sha": "eef059c3ad3184708c37ba3f638841f1282d2cdf",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.0.tgz",
+			"sha": "bf6f06ed46683a0bb4bdee841cd69947c6edeadb",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.1.tgz",
+			"sha": "16d65e4386fa2ec93e48571810279bbc0a9b6f9b",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-0.1.2.tgz",
+			"sha": "2becbdcd3f96ef0b19f16863f7a2f6d9d8ab8369",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.0.0.tgz",
+			"sha": "5c389900f9149f66c4635f562c9f201830deb99a",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.0.tgz",
+			"sha": "dddb704c3a1b0ec17350fbddc3b2b39ae4af7c22",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.1.tgz",
+			"sha": "d5e68dcd52ee039b7ce7fff85057dfc66f27e221",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.1.2.tgz",
+			"sha": "a12d8492aeba2881802d700825ed81c9f39e6f2f",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.2.0.tgz",
+			"sha": "0f3a8bfd99ae0f2d8b9224d58892975e9a52d03c",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.0.tgz",
+			"sha": "0bc8596e90d5ffe736f7f5546bd2d12f73abaac6",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.1.tgz",
+			"sha": "5b46fc0f286cf030e9ff7140d115b4aabf69e650",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.2.tgz",
+			"sha": "0766c14d33566ba0094869697e13b0eb06147c07",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.3.tgz",
+			"sha": "464f9aa14c4e78235e98654f0da467f3702590f9",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.4.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.4.tgz",
+			"sha": "442c3df5985b4f5689e9e43597f5194736aac001",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.5.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.5.tgz",
+			"sha": "0951ae8dc80e5cee8ef54934db4ef65a6d161c60",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-1.3.6.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-1.3.6.tgz",
+			"sha": "27c35a32a67777c1ecd412a239a6c19d71b95aff",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.0.tgz",
+			"sha": "d92addf74440c14bcc5c83ecce3fb7f8a79118b5",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.2.tgz",
+			"sha": "0ffdb5881e1f9d1ed73edbda47389614543afb99",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.3.tgz",
+			"sha": "f040e67b8445962d4d168903a9e84c4240c17655",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.7.tgz",
+			"sha": "02e9357727a9755efa8e14dd5e59b381c29068fb",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.8.tgz",
+			"sha": "65cef91ae8307281b6ee31ca481fa1164e166156",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.9.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.9.tgz",
+			"sha": "5cbc707a615cb77b71e687f8a1ee54af46208b22",
+			"registry": "npmjs"
+		},
+		"git-raw-commits-2.0.10.tgz": {
+			"url": "https://registry.npmjs.org/git-raw-commits/-/git-raw-commits-2.0.10.tgz",
+			"sha": "e2255ed9563b1c9c3ea6bd05806410290297bbc1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-d66fb1ceffa93cc8",
+	"_id": "git-raw-commits",
+	"readme": "#  [![NPM version][npm-image]][npm-url] [![Build Status: Linux][travis-image]][travis-url] [![Build Status: Windows][appveyor-image]][appveyor-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]\n\n> Get raw git commits out of your repository using git-log(1)\n\n\n## Install\n\n```sh\n$ npm install --save git-raw-commits\n```\n\n\n## Usage\n\n```js\nvar gitRawCommits = require('git-raw-commits');\n\ngitRawCommits(options)\n  .pipe(...);\n```\n\n\n## API\n\n### gitRawCommits(gitOpts, [execOpts])\n\nReturns a readable stream. Stream is split to break on each commit.\n\n#### gitOpts\n\nType: `object`\n\nPlease check the available options at http://git-scm.com/docs/git-log.\n**NOTE:** Single dash arguments are not supported because of https://github.com/sindresorhus/dargs/blob/master/index.js#L5.\n\n*NOTE*: for `<revision range>` we can also use `<from>..<to>` pattern, and this module has the following extra options for shortcut of this pattern:\n\n##### gitOpts.from\n\nType: `string` Default: `''`\n\n##### gitOpts.to\n\nType: `string` Default: `'HEAD'`\n\nThis module also have the following additions:\n\n##### gitOpts.format\n\nType: `string` Default: `'%B'`\n\nPlease check http://git-scm.com/docs/git-log for format options.\n\n##### gitOpts.debug\n\nType: `function`\n\nA function to get debug information.\n\n##### gitOpts.path\n\nType: `string`\n\nFilter commits to the path provided.\n\n##### execOpts\n\nOptions to pass to `git` `childProcess`\n\nType: `object`\n\n##### execOpts.cwd\n\nType: `string`\n\nCurrent working directory to execute git in\n\n\n## CLI\n\n```sh\n$ npm install --global git-raw-commits\n$ git-raw-commits --help # for more details\n```\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/git-raw-commits.svg\n[npm-url]: https://npmjs.org/package/git-raw-commits\n[travis-image]: https://travis-ci.org/conventional-changelog/git-raw-commits.svg?branch=master\n[travis-url]: https://travis-ci.org/conventional-changelog/git-raw-commits\n[appveyor-image]: https://ci.appveyor.com/api/projects/status/4qm3bjmg41k3dsbv/branch/master?svg=true\n[appveyor-url]: https://ci.appveyor.com/project/stevemao/git-raw-commits/branch/master\n[daviddm-image]: https://david-dm.org/conventional-changelog/git-raw-commits.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/conventional-changelog/git-raw-commits\n[coveralls-image]: https://coveralls.io/repos/conventional-changelog/git-raw-commits/badge.svg\n[coveralls-url]: https://coveralls.io/r/conventional-changelog/git-raw-commits"
+}

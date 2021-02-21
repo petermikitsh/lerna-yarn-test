@@ -1,0 +1,3991 @@
+{
+	"name": "git-url-parse",
+	"versions": {
+		"2.0.0": {
+			"name": "git-url-parse",
+			"version": "2.0.0",
+			"description": "Parses and stringifies git urls.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "0e6582f7c54f3332135eb382872528af7d959698",
+			"_id": "git-url-parse@2.0.0",
+			"_shasum": "93fffb867efb3f50ce190945af6d2679a1985d25",
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_nodeVersion": "0.12.1",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "93fffb867efb3f50ce190945af6d2679a1985d25",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-2.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "git-url-parse",
+			"version": "3.0.0",
+			"description": "Parses and stringifies git urls.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "75f7766d1fe38803cf89d0785d15a0ddef1b6c99",
+			"_id": "git-url-parse@3.0.0",
+			"_shasum": "7e35210d0ec4ef5d4afd18d8ce2b8c80fe839776",
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_nodeVersion": "0.12.1",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7e35210d0ec4ef5d4afd18d8ce2b8c80fe839776",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-3.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "git-url-parse",
+			"version": "4.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "60be3726c84a5f6a97961a884b89a9e890341b96",
+			"_id": "git-url-parse@4.0.0",
+			"_shasum": "530d1fa15322031767084a19a9402991c3b91a2d",
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_nodeVersion": "0.12.1",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "530d1fa15322031767084a19a9402991c3b91a2d",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"4.1.0": {
+			"name": "git-url-parse",
+			"version": "4.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "KINDLY",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "5fdc79426cb4ec514a5d9c5cb11d0d6f8fba7823",
+			"_id": "git-url-parse@4.1.0",
+			"_shasum": "ff9a530322f84ddc33af9f9f11f158cc49566e6c",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ff9a530322f84ddc33af9f9f11f158cc49566e6c",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"4.2.0": {
+			"name": "git-url-parse",
+			"version": "4.2.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "d2029053e0746779de0646930b488cf4822c58ff",
+			"_id": "git-url-parse@4.2.0",
+			"_shasum": "c2bff03a9f4198684bc46b3b3efc9b1ba9bb9086",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c2bff03a9f4198684bc46b3b3efc9b1ba9bb9086",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.2.0.tgz"
+			},
+			"contributors": []
+		},
+		"4.2.1": {
+			"name": "git-url-parse",
+			"version": "4.2.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/node-git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/node-git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/node-git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"mocha": "^2.2.5"
+			},
+			"gitHead": "5f4b8be62159187542b912875ab21c6cb6a57eb7",
+			"_id": "git-url-parse@4.2.1",
+			"_shasum": "0409b419188e75cfba26357528a7d43bec22b517",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0409b419188e75cfba26357528a7d43bec22b517",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.2.1.tgz"
+			},
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "git-url-parse",
+			"version": "5.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "d59992e15ab17f1dd32d4efc82ec5130ad4a1a67",
+			"_id": "git-url-parse@5.0.0",
+			"_shasum": "6200e692eafb0c203367f6379e215d4ba73e0f62",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6200e692eafb0c203367f6379e215d4ba73e0f62",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "git-url-parse",
+			"version": "5.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^1.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "8b1b8c2d378636c46d36d7b3350d709b70a06be3",
+			"_id": "git-url-parse@5.0.1",
+			"_shasum": "fe3d79c6746ae05048cfa508c81e79dddbba3843",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "fe3d79c6746ae05048cfa508c81e79dddbba3843",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.1.tgz"
+			},
+			"contributors": []
+		},
+		"5.0.1-beta": {
+			"name": "git-url-parse",
+			"version": "5.0.1-beta",
+			"description": "A high level git url parser for common git providers.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "node test",
+				"dist": "dist-it lib/index.js index.js",
+				"prepublish": "npm run dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"main": "lib/index.js",
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"dist-it": "^1.3.1",
+				"tester": "^1.3.1"
+			},
+			"gitHead": "1423876dc96131615cbc06a9ef8644522f536c4e",
+			"_id": "git-url-parse@5.0.1-beta",
+			"_shasum": "fbc852f45a6379a4d106ac87db1a60c0c9686796",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "fbc852f45a6379a4d106ac87db1a60c0c9686796",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.1-beta.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-5.0.1-beta.tgz_1456044996272_0.010626890463754535"
+			},
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "git-url-parse",
+			"version": "6.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "node test",
+				"dist": "dist-it lib/index.js index.js",
+				"prepublish": "npm run dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"main": "lib/index.js",
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"dist-it": "^1.3.1",
+				"tester": "^1.3.1"
+			},
+			"gitHead": "d23d0faa8ef668493b7a7d4604f1bbbd400288c4",
+			"_id": "git-url-parse@6.0.0",
+			"_shasum": "3c033673341b3d4b00d4a80f254a740615d09373",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3c033673341b3d4b00d4a80f254a740615d09373",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.0.tgz_1456045691032_0.01675077830441296"
+			},
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "git-url-parse",
+			"version": "6.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "node test",
+				"dist": "dist-it lib/index.js index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"main": "lib/index.js",
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"dist-it": "^2.0.0",
+				"tester": "^1.3.1"
+			},
+			"gitHead": "d4ace7dc997706e6b059ea7d33603149477c30c3",
+			"_id": "git-url-parse@6.0.1",
+			"_shasum": "db2458dfca0b10752880e447c7ab9a1cdcd7fd93",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "db2458dfca0b10752880e447c7ab9a1cdcd7fd93",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.1.tgz_1456046102688_0.7119788164272904"
+			},
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "git-url-parse",
+			"version": "6.0.2",
+			"description": "A high level git url parser for common git providers.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "node test",
+				"dist": "dist-it lib/index.js index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"main": "lib/index.js",
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"dist-it": "^2.0.0",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "0af9b33d6a5aee548fe5b1e9191b247379db082d",
+			"_id": "git-url-parse@6.0.2",
+			"_shasum": "851a01bc359523de026b40d9692bfbd914adf2a3",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "851a01bc359523de026b40d9692bfbd914adf2a3",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.2.tgz_1461646602853_0.4160672421567142"
+			},
+			"contributors": []
+		},
+		"6.0.3": {
+			"name": "git-url-parse",
+			"version": "6.0.3",
+			"description": "A high level git url parser for common git providers.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "node test",
+				"dist": "dist-it lib/index.js index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"main": "lib/index.js",
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"dist-it": "^2.0.0",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "ff6674e6f588f74ad5963410bee07905237f2707",
+			"_id": "git-url-parse@6.0.3",
+			"_shasum": "315acf1009d5d9abd12cccca69a616a492fe8a5f",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "315acf1009d5d9abd12cccca69a616a492fe8a5f",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.3.tgz_1464169749774_0.044148516142740846"
+			},
+			"contributors": []
+		},
+		"6.0.4": {
+			"name": "git-url-parse",
+			"version": "6.0.4",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "bb4fc7c60eaa28eb713a82f4ff77f66640551a0a",
+			"_id": "git-url-parse@6.0.4",
+			"_shasum": "219aec12e95d15fe543f8d0bda8984d6425b548a",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "219aec12e95d15fe543f8d0bda8984d6425b548a",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.4.tgz_1466410090547_0.7319281611125916"
+			},
+			"contributors": []
+		},
+		"6.0.5": {
+			"name": "git-url-parse",
+			"version": "6.0.5",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "7c505ea61823118de5fbd9c0a1ee09d4c5382994",
+			"_id": "git-url-parse@6.0.5",
+			"_shasum": "6b93aaa9811ee46f248bb85eeb68771ba360467b",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "6b93aaa9811ee46f248bb85eeb68771ba360467b",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.5.tgz_1466410205479_0.1249423308763653"
+			},
+			"contributors": []
+		},
+		"6.0.6": {
+			"name": "git-url-parse",
+			"version": "6.0.6",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "df8e4335d4af7d556440bb7360ec937e2ba3afa6",
+			"_id": "git-url-parse@6.0.6",
+			"_shasum": "5b6ecd16a4d40190f3e7ff3d0ab39a0c2a64edee",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5b6ecd16a4d40190f3e7ff3d0ab39a0c2a64edee",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.6.tgz_1476124761898_0.21612569922581315"
+			},
+			"contributors": []
+		},
+		"6.0.7": {
+			"name": "git-url-parse",
+			"version": "6.0.7",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"build/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "92d17640c986621fc05ce6e4e1295091b44ebc70",
+			"_id": "git-url-parse@6.0.7",
+			"_shasum": "e61dbb05ccd78921494814f5e5f0cea17275d3de",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e61dbb05ccd78921494814f5e5f0cea17275d3de",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.0.7.tgz_1476192908173_0.08698619529604912"
+			},
+			"contributors": []
+		},
+		"6.1.0": {
+			"name": "git-url-parse",
+			"version": "6.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"build/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "28a09c2c14ed80bb0703576102f9cc1a659ade06",
+			"_id": "git-url-parse@6.1.0",
+			"_shasum": "01a99f11ca4def4d88d9886da7f84d75d114495b",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "01a99f11ca4def4d88d9886da7f84d75d114495b",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.1.0.tgz_1478024025681_0.5144175246823579"
+			},
+			"contributors": []
+		},
+		"6.1.1": {
+			"name": "git-url-parse",
+			"version": "6.1.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"build/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "05183d23dbda5f9808ac87e1277eddc2131f3343",
+			"_id": "git-url-parse@6.1.1",
+			"_shasum": "d2d2e1838fb2c8a4248f7473d3e97a212ae81278",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "d2d2e1838fb2c8a4248f7473d3e97a212ae81278",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.1.1.tgz_1482953775118_0.32702965242788196"
+			},
+			"contributors": []
+		},
+		"6.2.0": {
+			"name": "git-url-parse",
+			"version": "6.2.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "http://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"build/",
+				"dist/",
+				"src/",
+				"resources/",
+				"menu/",
+				"scripts/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "bb0776a6005cfafbce2d5b1d7ae90e452ca2f64a",
+			"_id": "git-url-parse@6.2.0",
+			"_shasum": "fc0eeb0e96f8f5fdc71e1324116ecd2735cefc96",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "fc0eeb0e96f8f5fdc71e1324116ecd2735cefc96",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.2.0.tgz_1483806925511_0.6405060070101172"
+			},
+			"contributors": []
+		},
+		"6.2.1": {
+			"name": "git-url-parse",
+			"version": "6.2.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "2d394b84818df9c08d5b32cad14bbb240412d177",
+			"_id": "git-url-parse@6.2.1",
+			"_shasum": "094abaa1b97b7f39a3bf0d96d17ed50fb5ad5cc1",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "094abaa1b97b7f39a3bf0d96d17ed50fb5ad5cc1",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.2.1.tgz_1490030631367_0.5609432419296354"
+			},
+			"contributors": []
+		},
+		"6.2.2": {
+			"name": "git-url-parse",
+			"version": "6.2.2",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "e6812bf5dbe5d75b09b2e5484320c24c9b115ca3",
+			"_id": "git-url-parse@6.2.2",
+			"_shasum": "be49024e14b8487553436b4572b8b439532fa871",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "be49024e14b8487553436b4572b8b439532fa871",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/git-url-parse-6.2.2.tgz_1490282631610_0.8889599512331188"
+			},
+			"contributors": []
+		},
+		"7.0.0": {
+			"name": "git-url-parse",
+			"version": "7.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js"
+			],
+			"gitHead": "ca29c35c7dd8f5f78ee85f852c5f9d16b091c886",
+			"_id": "git-url-parse@7.0.0",
+			"_shasum": "2a7553f0c1e1405496f79da922e7a560895270f8",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "2a7553f0c1e1405496f79da922e7a560895270f8",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-7.0.0.tgz_1497448806125_0.3758472728077322"
+			},
+			"contributors": []
+		},
+		"7.0.1": {
+			"name": "git-url-parse",
+			"version": "7.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "16c73ae24fad3e24e4124eb2dfaadc833a1cf2f4",
+			"_id": "git-url-parse@7.0.1",
+			"_shasum": "1a3dffc6eaa9e3634deedc58e20d9e33106d3d41",
+			"_from": ".",
+			"_npmVersion": "4.1.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"shasum": "1a3dffc6eaa9e3634deedc58e20d9e33106d3d41",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-7.0.1.tgz_1504868440100_0.1313564267475158"
+			},
+			"contributors": []
+		},
+		"7.0.2": {
+			"name": "git-url-parse",
+			"version": "7.0.2",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "90dd54ae7dca76d7c249b8a300c26c2b1c5719df",
+			"_id": "git-url-parse@7.0.2",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-OQVonLdJfnGUz7Umyh9NmkZ4j9QmTB+r8ARqqSeZWlMgepn6oTrrHn7wSM5ptJQ1AcXj04xHFacpZVcXvKQAqg==",
+				"shasum": "75fc7ae08e5daa90edc59043cdfa8da57c5a8715",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-7.0.2.tgz_1514146855278_0.9451180757023394"
+			},
+			"contributors": []
+		},
+		"7.1.0": {
+			"name": "git-url-parse",
+			"version": "7.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "f0884e6cc91699d7983ef6acc3947a18b8c8dfba",
+			"_id": "git-url-parse@7.1.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-DXZRqmg3NHFVtWvyTMNOBxVbzGkpQ0Gj7ykK4hBofXYj/ePCPyIXLx7ai6ws0ZQ9c0sTezyLfDwArwplz5/nQA==",
+				"shasum": "2d78bbd989b496be48db30870228e90a36c0d3ec",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-7.1.0.tgz_1516938114413_0.34745761496014893"
+			},
+			"contributors": []
+		},
+		"7.2.0": {
+			"name": "git-url-parse",
+			"version": "7.2.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "55b8792b34d64143aad5ea74e23bcb01efde11a9",
+			"_id": "git-url-parse@7.2.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-dVF8edkWPnkCTdtY2OKL6hDmwghFjcXGEBnDjT5nfL0Gr2QR4yEDqbskV/KJfPhrEcn70eKpTlkHlMlaYuxjrg==",
+				"shasum": "3755e0ac037df997cfbfdb0396531087d7143aa4",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-7.2.0.tgz_1516940788851_0.8003082394134253"
+			},
+			"contributors": []
+		},
+		"8.0.0": {
+			"name": "git-url-parse",
+			"version": "8.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "316e79a262dd1efc40a3163c4b729b08db15b3bd",
+			"_id": "git-url-parse@8.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-7BqaSBLGji3qnJXDPqZZHHvzaIKZWVLFjtCyu2IItX9qDlEpB4LrbZqUVSBE63upZbmzj3EuHemdSvyx2ODvyA==",
+				"shasum": "249430c84e6b11ebae630136f50d7993eb03e211",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-8.0.0.tgz_1516941501918_0.004631805466488004"
+			},
+			"contributors": []
+		},
+		"8.0.1": {
+			"name": "git-url-parse",
+			"version": "8.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "558eb1156325cd27532dc2abaf11d7950aeda16c",
+			"_id": "git-url-parse@8.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-YmV48kwc6+7PT0/uCMvoNTVfp80Q8qJSKLwBQaCHk2xwEoac5fYElGsWRhN9Dvex1BI7slhwQWia6VbbNUsvWA==",
+				"shasum": "eb3fa427e294d214d9abbeb59637cc8646279c00",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse-8.0.1.tgz_1517123739261_0.5763001020532101"
+			},
+			"contributors": []
+		},
+		"8.1.0": {
+			"name": "git-url-parse",
+			"version": "8.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "481a6bc2d9a9fdece693952aa91d6ae2e98be8c5",
+			"_id": "git-url-parse@8.1.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-tSdNasqIc9cjK75DRsirb5sqVJ4V4cCmCuuOyyx2SuYeJx4o9AOx+/ZCSwRrYjZ8zavtuhGjCqXlCo9Db0YIVA==",
+				"shasum": "d1ee09213efce5d8dc7a21bb03f17cfe0c111122",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 22034
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_8.1.0_1518054460990_0.2859681947218571"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"8.2.0": {
+			"name": "git-url-parse",
+			"version": "8.2.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "2216375d452b472b7aa1f0830fb808a6b203e793",
+			"_id": "git-url-parse@8.2.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Jp5Jv0qZfoP5vFeDu7SGxVXYEFCZD+nvLeX3sbI/zRKg5NTRamQfAHoishk9d4kp4TrSopVtyUY57XclJdkRGA==",
+				"shasum": "74969b0105f805df58873ee5b96bc1a4dc0573b1",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.2.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 22632
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_8.2.0_1521017605548_0.1902195434856253"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"8.3.0": {
+			"name": "git-url-parse",
+			"version": "8.3.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0",
+				"parse-domain": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "c6d56f6dc2faf52830e854edd526ee76a345412c",
+			"_id": "git-url-parse@8.3.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XCD69nz2sBFN9OrcUjlqKN2WDGYO31ASeeKEFIYyOmA6Gl4oiIA1TWgpCmSIery8wPCv8bm9IVKFIxanxoKDNA==",
+				"shasum": "591658f2ad84e456832443ccce0531543d8934ce",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.3.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 22847
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_8.3.0_1522757395341_0.22879447403916764"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"8.3.1": {
+			"name": "git-url-parse",
+			"version": "8.3.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0",
+				"parse-domain": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "b09336e16a5250c43e4436eb76460f09aac33723",
+			"_id": "git-url-parse@8.3.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-r/FxXIdfgdSO+V2zl4ZK1JGYkHT9nqVRSzom5WsYPLg3XzeBeKPl3R/6X9E9ZJRx/sE/dXwXtfl+Zp7YL8ktWQ==",
+				"shasum": "9d7d762993dc498aab16937c844e11afe3748817",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.3.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 22883
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_8.3.1_1522769898883_0.8961468143580904"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.0": {
+			"name": "git-url-parse",
+			"version": "9.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0",
+				"parse-domain": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "ff3919e950fa6cb74de99487ea5578dc9e1dd633",
+			"_id": "git-url-parse@9.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zks1jS4ocMA/9WUx3C0nGIj/wBQjjIuktQ4KqKTyStMdEtnnFbZ4ZVKCvNeHwKh1COk/8sZaVTyvYj3paHI9Fg==",
+				"shasum": "a82a36acc3544c77ed0984d6488b37fbcfbec24d",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-9.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 23495
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_9.0.0_1523559233270_0.5566643075860114"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.1": {
+			"name": "git-url-parse",
+			"version": "9.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0",
+				"parse-domain": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "2f2593b22b94c0a0ebf533db3802771823394755",
+			"_id": "git-url-parse@9.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-HDXfw3X5PZaPBRFxELatfoYCV4EaYkAGmIApnnAaVPFCJBkpfWTB2/hhQcK0dVX+MsKnkL5uAn30Lfu2KUKLmg==",
+				"shasum": "2905b897a3db6e5cb9e10819f0fac2e740b4481b",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-9.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 24271,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDHMcCRA9TVsSAnZWagAAphgP/3v9lGfkVo4KJzEizYDG\ntNFxS4ZKVQ/3nO/SW1J0J3ew5YD9MvgbF8PDHexRwcqzCDTQxwtq6flSO9qM\nNWHJEH1XS9Mq1fS9/K0HfUODW0QGrL8UogYeZsGB4UQqAwn/dsa9zK8jFHky\nyvQAmvcto8VN0qtQua4dsrcHNBH7VcSOJVTwCMYVgpif2dIZ3v1HZslk8j4v\n665JHhbwcgPnLPFbDZ02LGfg0wOWPOigXTAYi1dKvDL6E2D3NF9j/qG/nEwg\n42lHW1C3oUMtN8CZO8EYmw3IBNKB0x0NH5T2hHwPl7ijHdsPBS9S1R8nvq/x\nwfAr4ja5tY2IcyJ+B1zStUdXlYcEmKw+oqqAobQPdGG2BYBHP0jPKcytkTML\nX5YglxSik6nGqKsmnXzZTIohPkhx8oxzgrL2Fpe7UfGqhGt4DmhESHemD/kC\nmWmCS7rySKWHN6av+AmTDAdueDan3DpcJazKQSwd3entqjYoYJI0xEr/IaPD\nygyfmJGB1B/Z3YgGfLca7/FQDdcNywju2xAGdUwmBb9deMyaJKUWWEzOjAq/\n4/Nd+cfp2+dwBvZlwtlBBdFf3/pp47OsqA0xwKjDWap2dMwr//2IDV+80qFn\nxVvTsTx/iaMrFUtuuQFQP7xPh2kmCJmiarjh/R8QrLWN3IktlGR2e+KN1RJH\n7eFy\r\n=2NOp\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_9.0.1_1527542555150_0.5163648438403181"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"10.0.1": {
+			"name": "git-url-parse",
+			"version": "10.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"files": [
+				"bin/",
+				"app/",
+				"lib/",
+				"dist/",
+				"src/",
+				"scripts/",
+				"resources/",
+				"menu/",
+				"cli.js",
+				"index.js",
+				"bloggify.js",
+				"bloggify.json",
+				"bloggify/"
+			],
+			"gitHead": "c66bd9927e27b187a0d60b00ef770b853d7c0e3c",
+			"_id": "git-url-parse@10.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Tq2u8UPXc/FawC/dO8bvh8jcck0Lkor5OhuZvmVSeyJGRucDBfw9y2zy/GNCx28lMYh1N12IzPwDexjUNFyAeg==",
+				"shasum": "75f153b24ac7297447fc583cf9fac23a5ae687c1",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-10.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 24815,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbTBErCRA9TVsSAnZWagAAg0QP/AvAis8dC/X4Hue5eUFZ\nnisXOnxZG77Ow7eGw31H2cflYqqcrFVLPDElHB/gsbC0eHLBhQwNdDGl/E43\nrbXsUpdnzHrFyG6kJe++nlmcvPzXNmDvHUxFUdM0XLmexqmIIqdpiKfHsTLc\nPuwaeNGuHaaYr/Kh30NeDnb3qtZfTZLFIIM6of6/kt28BCedNVnY0ZDXR7kc\n8dV03DMLZNbivDP4OofCFUmwaWVAaHSrnj0jZEC7jYxxSb7n9wt2KwjKNQNl\nv3crODWLa4Ck3zRsNdfDTdtwgwDz6S1kNEZ4V1QkOCZeW5D+KsVHIpNWGf0M\n0RNWg/vu9ZOhu1PIUuXfYjige3lL5YCvsgIVJQ5l1fgTzPvpGISjvUNDSlvG\nG9IM+HcrQl48sLvYWI16qcnz93HbLsg3JW+6qN8YjNk1F/GdvObfngovJcl6\nvTFUE4iM+Ikx5yTMX1i2fCddimG4M2tVUub6RPXNj9ebTdUaJFtzPBUxUSPI\nB3hD9BaoFKXx6+JCGBOLwX74a8lUqTLxUlKS7gag4BmgcBLXSengg126CrkZ\nLH3gGNhBVnQtBcHWNPp3Cie/s87mCe7CiHztk0X4TIIKFvrryyCaFc5p0xWy\nbaaweb7mLt7NEFd8CeKuH9O6mqUZ5lFV+alEkxj+i3DUMVJWxnZGcZHte1ZN\nZlx4\r\n=sFYp\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_10.0.1_1531711787218_0.8038137457809555"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"10.1.0": {
+			"name": "git-url-parse",
+			"version": "10.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"dist-it": "^2.0.0",
+				"namy": "^1.2.3",
+				"tester": "^1.3.1"
+			},
+			"gitHead": "fc916a84da2537b15d17dd7804eb017af8bd9205",
+			"_id": "git-url-parse@10.1.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-goZOORAtFjU1iG+4zZgWq+N7It09PqS3Xsy43ZwhP5unDD0tTSmXTpqULHodMdJXGejm3COwXIhIRT6Z8DYVZQ==",
+				"shasum": "a27813218f8777e91d15f1c121b83bf14721b67e",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-10.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 25253,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbxPVmCRA9TVsSAnZWagAAV6AP/iBlj+nWRW5Sd26r/Duj\nZR0EWad4iy5mAY0dXsUwgJU9pFOCvR5CoOXDZ/hN7Sr9fwFNfSOX4pMzpXkv\nLkVpInCnNhV2B2X/em1dBOIKVG1US+HrHkG6KUS6cwVh84fKELnLckE5ERgM\n29SiMa8arqvcw7+0ZydWtP2c9KaZ/AZSDRenpWXVPaRd/ix8rxTUHmoa6qau\nL7j0IBma7r7NfRsyQJ1Pa4zbgJia/JDgYzHkawGtj5Wp5+vwVRmrlCFW4UEL\nabXu5ZcM/D6RezH1305knjqRWRStGv1iIrX6zeGASkF5xkpzl4Mo8dQiKrye\nVSygbkYAdsyaTBsw90lupDgpBogChc1wq3ajyBRvFZrFqX85QBrwzF78YggP\nfe2fc+z5XqQUh2yYQuRNkR+IFsUKp8rAXs6omD8JcNWQGEWYsPmkJB1OMWTz\nULx0wqp46zNHA5Ydkj6YxLZZ2+Wd2/0a/FATEpgzslSKBoRvjj8vtJ5JQTp2\n/WpGT9WLuKgrHnOJ9YGGQVU1YANJEMig5lqYCaKbjrjG/Pmq336/LLvs4jQc\nV1ueu52YDG9k8EjunhYywIwTwmYoL4QMYq6kB3NNl84VB0VmC5Cv6pThbJcF\nC37gX8abRaRMcNi6BfM6acMYrGo8KTPTtuOnKDjU0POcTN3hOuLz6DaeefmC\nH8/o\r\n=N67Z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_10.1.0_1539634533323_0.9117296035530098"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.0.0": {
+			"name": "git-url-parse",
+			"version": "11.0.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "6e2d22ea6dfb3998c0d2514badc467c017dd7dc8",
+			"_id": "git-url-parse@11.0.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ApYtnm8FO1RJlXMp/MEUUL/dyQ8xdAVL9vNCJJl7e6i+0cxP/JghFO/w4VyACfqXF6qXbjrcr1K44yrIv1QG2A==",
+				"shasum": "fd36e66117104aadc0edc7ded7480a2ce3be696b",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 25310,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1ez9CRA9TVsSAnZWagAAYBsQAJtqC5FqNQdSwJrlp3Ah\n/o2ONaSdMqHt5clv410LvDcpAX7m51Eh1g+ZiRGE9QQnBU525HIbevhi3YUx\nddH5u1EIW0f6o3paedhae75AWiXzmSXbWZqENb7jm22hmUCCpNZABE1/Zr9J\nqk5Y1QrWhhzuRnb9Cj4AgIBj1ECgFcwxMQAnQ0ALVgpJHRozs13IjA+AYhB7\nlTXRIbENOsQWaSuw+P0qYYW73hvMLfQZaRCkjnLGYEfmPRqgrY/dmGU9H5RW\nUbOOusvdsV19Bv8OvdjKzCTGa6JneXq2VraBYdx2ISS8SWYO6spBBhWT1vJr\ncgxVxdOoXm87ctoOieSnFoKi1KMCx6dhTT8kV8NuHPrXJaRps/w7ObiMSjM+\n7OWuFkXC/eg1UsHGqwbZVwa41/l+zpVbq4c9PK/JNa6SsT5TK5XbVvwl+Znp\n/VukQ/NSLBt0S6GR6t/Q/5p7l3CNrgViK5XhdEhVKwsQJvIcFy/nZqGmFOXr\nmtw4L2C/CfoS+uFecJaBLLaTl45jK8mlRhqtBSWt8/iwX7PMQ4qGWSKgTLbg\nkilxjnzYaE/oFuBeUsNINBYUySupF1Jr+aUWq1plXJKloNbfcxIQVHZbUtYI\ndwrFQVjKM0Jg1a2yiToqi3HLKiO8ttaF0pWRqsomboOjDwmunRObQyTQJ1L9\njqFa\r\n=+Gdq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.0.0_1540746491973_0.6250868955658442"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.0.1": {
+			"name": "git-url-parse",
+			"version": "11.0.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "131b1586b544c2571429b78e3c0c9fa9ba48ac64",
+			"_id": "git-url-parse@11.0.1",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-+Ebfi/DWdVyj8gxrSqYlXS2G/Mdywm7LLV5MNC8sa6EAhXOMNzgTKlOq2mxBiGuHAx47rYvpzTjvS0XFuIvDWA==",
+				"shasum": "3fc0b462d1b29ce2cbe19768673938d4845eda0b",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 25296,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb1fVVCRA9TVsSAnZWagAAfVMQAJUdGkFwb2IcQTzbepmu\n83UxqkVzc5m7Qh4KuJkzvYFkze+KnqcS5QJisDcErACpiZvLYB7baM0ehc0V\nyZN+PYA/FcXocWCzU57myIawit1knpDsYU7oUQbF1N9bzIZj0qyNgJk/2ZMp\nGUKglF0XHhv2HTKUqAZMBpXJVqGIHIaPjRcgKbbAyTJ6GI4MjYp2AbBgBJKW\nk4lmiC626HftJpEEViupuo0+sKzQiWaVtUUmSOmzrK4+gGnmlBy8MGsH/LKs\nK3MjEOBoFBDe4CFVtjvY05rs6hb1gA/x2OwqZY9aN8RmTE99FYpIzC1wY9LV\nNwOkTIhQzuHtKvTAH/PJ2kv6ZPuHubcaBWLBQQGHANytZpgxXwDSMHO/hXsq\n2hc/2jvmDLnM9P5lE0nau23Z6S/Xv54MzmtGxeZ7WQ4fJHxIDhSAQ0zjhrWz\nsOZNobD1dWYgWv0+ml93HqyDuhVpUdgzMsNC/xhz3cu8cwj2mGymfwhCWIgQ\n4cHQgEr5SZPKqKI0a+sj/4MRusSIjHel1TJKJQyhOiLL+/5vDRLfcM2+7clc\nrZFpU2iYl2PaUVAhFit2GgXRlMBowpzIPe8qfS1wPGgRDQ9ReKtX6yEAOjlv\n5vD2cLdjk2JLyEcOVg0J7G6cUCN+Ow8JCXHEy7/jfrPW/t0KrD0V6ThAqaz0\n4RUs\r\n=dK4R\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.0.1_1540748628845_0.12180931048954236"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.1.0": {
+			"name": "git-url-parse",
+			"version": "11.1.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "6fd324c7930f2b668b6e57626b2d07137e3977a8",
+			"_id": "git-url-parse@11.1.0",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-0kw7zOlTJgGD6HQ+JKsPLu9Q0hVqYBpNxn9JNl2A30sRx+51r2vtLZtN84GSJ97ItC6VSo9Oz9M7GQt1WUTmKw==",
+				"shasum": "a39c719dc7b193d371f337f469aa06ae7d4bf9f8",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 27564,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4gbpCRA9TVsSAnZWagAAlVUQAIxNpgqluToyEaYjQfz1\nzXYVKCv6jTZ/KPy3PMQwn6F+tK8EBQuPEGbsLgN8ZqvFS9XlX4U0NJD5z+tt\npy9pmxpkHZAEZZJel2Sr4fmGyTnw3hLiKvAfTlNIx5x841U5QtPC1OT9ccfe\nNWjxb51mK5RqYq2CAmV4auB4qdNNqfjCBSlsODlnE/1V2RQr2U2V1M5L0fpQ\nvUTatNHdexsldIrKlWzjrN5D0AFf/08vpOoYitS+bKvqVyBK4J+BhJGJXpAi\nwjYXWEn+f42IlwOojk9XeTChVfSBssBwNYwM5HSUy6uERpgegax1F5WtS4xx\nqLcGaAecyjH0OmktkrQSbhJHl9nEJgeJVl+RujRU4G59V1qdF5IVBd1TKFOF\nDZwsG23yWRphcemTjbXkphTgpagnJKwEqM7JhvltMapoMRA7h5ieqBAcU7LG\nyJhWGxuoSOQNiuhH4BnSoxtwozRFHf71iSAGAHFlEh+7lXlnE9uf0tqE224u\ntlPXJ5UsK0jEL0tvD2ll9DEXLDIa2XscfEXR9O4Wsr2+biIuV2nSYqXUKJ5z\n9Xi+otPRpsTMSYJhpu32/hITRXtU9nuNSKpXSD27VRRGszMwR9QaQleYQfsg\nSMlwSq3MjqzGWpsCi6jtxiGR1DfyoUaxjmD98yElps9JYa+13ibGGh++xwNo\nrvO+\r\n=bsmu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.1.0_1541539560547_0.2813867736160929"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.1.1": {
+			"name": "git-url-parse",
+			"version": "11.1.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "646d7205278896ea3f8d40ace1c5f5dd6c4377d5",
+			"_id": "git-url-parse@11.1.1",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "8.6.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xeGuOVB9RLovbmXeX9Dhq0v7bL1bX+mKnpBgpM9ZmTlMWGHyjqjcupxrEL33w6enAMMDRb3O+qncgq+BWlgb4Q==",
+				"shasum": "e5aa48f6c22c01711531b321f86d70e57f4707a8",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 27564,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4ggHCRA9TVsSAnZWagAAME8P+wcbkJCAhhF80LtjwVCV\ndwVxiBaONKnMC47CIhXcaPplpQMMBh2Vw4dker6PfOLMlOhNLxe5RXPtcXx+\n4nwZbqgGlomR5pTaXb0VzRLGZGNw1/t1o2hN2OX56pNMUXGjNCbX4zc/2vbA\np2lgzCUn5eEBW61hAsEYm/BYF8UQOtzxBDly9N0dm/H0I3NE5QDP0pbJnIJj\nZkyEZdQuoqVqJTbiBiwE9us05WNQIeV5PyDlVFtY71562bsen/j8VBLwglGv\nJ2FhaUeR6es/jPv4uJXWQpreC8Me3wKTuEVzIXlkxvyehORPZj8jgs+Rg9HC\nfSWEi00+0++W5SapKtYNI1JscizBV+AVG/hhzHQCnOF4BSAMkgUpox5PE1Yr\nArYDuqtaZlStscPUm03CdKfO5Rcv0tiQlUsablbGVb8VB0y/AypphOKTkw8W\nwyI4k7HErDN4Xhjm4gncPxKDuL38sxORLIR8aSbFRWOsRazAWuty+fDnx5Oa\naTud183gtHc4S5PsRreRAxIzapmSTe/a9z9jI/pYp8un6LyOLHyUEpIVBETw\nQv/6QlETEihbrZoCpYVu0CEUYMS4ttIG3eFcfN7s25PWYXHTfmWEtACC4y8i\nY1pEuLbnvY2A+dAc+d2RXA/PcaDJ4fbe+dIetQ6GuwOblaFt9cRRROguKNrP\nni+B\r\n=bUIT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.1.1_1541539846599_0.9768445833364181"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.1.2": {
+			"name": "git-url-parse",
+			"version": "11.1.2",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "0b362b3e3b91a23ae58355fd2160523f0abde5d9",
+			"_id": "git-url-parse@11.1.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-gZeLVGY8QVKMIkckncX+iCq2/L8PlwncvDFKiWkBn9EtCfYDbliRTTp6qzyQ1VMdITUfq7293zDzfpjdiGASSQ==",
+				"shasum": "aff1a897c36cc93699270587bea3dbcbbb95de67",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 29255,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLjyQCRA9TVsSAnZWagAACLYP/j6mhlBbU6NdmCWUdCpV\nyHejSM9iSGgwGziohYdzj1823688v9SYKUq/nsVNNfvleGwizykzVYLJSQ0p\nEkd04W/PBqeej2KPKPo1XEIx3KEjuJtbs6qy1PJ7UcImoZol1o1og9aQCPF3\nHo28my/RdbyBeNQ7yCFSGHyFnXdWBGGWSsiE5n421tPJigNxsnCiUlBVZACb\n9KvVxjkgw1MD1favfN2fh8P2ENT1FgN00u2vhDiiNNlQxWxyNZWY6rhygbtt\nn6ghtIEHzxBgBBbN3JghhIeIg88Rf3OeX3PO2tL/48+C3JWezI9fG2LIxJeh\n68PYvSP/4mSswA3AW/fVYV2zY9NOyjA3j5swQABi3dBAqs7VyMX3FOOXtob5\n93ihicFcfq9S9UnKrj3zRRHYn1oePUeA5RSl0xortfncULmiOilfn+mmu2HC\nx5gJTgwF+1IdE2MZhDBxJRyajWBL95brGnVwg9XFAQpjNDpGmGeiR214otVE\n78ob6Iz3IcfpEgZioVddjG/vJzY/k0m4DjS+nXlOUIfJ4AsDvfQU0n2nNcp0\nyECZum9kfw7sFmMZ4qUVyf0LalGycrWxpscN/tnRkaBQbgZi6z+y9mwKbkfM\nSIJWGnd+m+7OEEY6gj6mEGhqXV4zXzx12aMJ+Zy2pXN0+yy6cjLhLSr6W3Eh\n8ItU\r\n=xjLo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.1.2_1546534031489_0.608156198422972"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.1.3": {
+			"name": "git-url-parse",
+			"version": "11.1.3",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "b7dd2a44b4c3b3cfeb88ac6c1f9ff7ab0eb551b7",
+			"_id": "git-url-parse@11.1.3",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-GPsfwticcu52WQ+eHp0IYkAyaOASgYdtsQDIt4rUp6GbiNt1P9ddrh3O0kQB0eD4UJZszVqNT3+9Zwcg40fywA==",
+				"shasum": "03625b6fc09905e9ad1da7bb2b84be1bf9123143",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 24125,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfL+azCRA9TVsSAnZWagAA2l8P/jKQg51kCuDhrAzsfMu9\n85k39T80dojhz+kgGmSDFrECXv1th7V6+QbcqtsdeBk0y4Y4gscQhY7i+IcO\ngw+9oZJBZON+rFlySUsZYyj46WJxzTzQx1sGhI3EKvW1p/xHtXIQMwqkH4ct\nmQJVzXZzxdxBtXu9BUt6zPGjTvT2h2fE+L2So76Tkd7h/535j4xtaskqvzB5\nLs58Sp+uVeflpegn8/XuxwoL7oXpaGaR4V3026EUX55BF/lkhyohnM6t7gTW\n6JPLaVwANlOrcfAhL+UhPuNVUYCaFu4/BZth9dOZrRKroTvsmnog5xPhlL5F\nTOUEExDRcGkowdS44lVa508NQSlQrIZjLfIHFg26eAwjrsvvrUqcGgS2iFzB\npnIbsosnKUULz0a93da9QzjThCzBHgrFHK3Ldnlhk2u5ra3oGWb0LYq4JZQG\nVym0TE1JzWrHEyHS2RhXgca3XRcUmNTr2aL2FYtFylFtuDJKHOOEWhTgk16b\nuVvDSDB57QtdI89UqJlPPPID7QTkAQ58SMY9182VjsKWVxi+kyK1grsaccRP\nM0yn8aZ38tTOwS2kb4cD8ZEHJXHF9AJg8SivB35IjNBUpNDHZceUkQ6NJ0cc\njC9lReVhsPXDrOr0pWR5/mpwUvrzkyVMC1ta3OGyxiZldHPQ5FDFuOaIOEas\n0w3R\r\n=eYtl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.1.3_1596974770466_0.9741613937438565"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.2.0": {
+			"name": "git-url-parse",
+			"version": "11.2.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "7d9511ed30a0650c42314a4117d03cb450ee9a77",
+			"_id": "git-url-parse@11.2.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-KPoHZg8v+plarZvto4ruIzzJLFQoRx+sUs5DQSr07By9IBKguVd+e6jwrFR6/TP6xrCJlNV1tPqLO1aREc7O2g==",
+				"shasum": "2955fd51befd6d96ea1389bbe2ef57e8e6042b04",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.2.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 24604,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfUirICRA9TVsSAnZWagAAvKQP+wazfeDEnTF0nNXd0BWd\ncKz0YgnNAydm0SllLrTyGLhvsOf2wUeo4ZBZKWRE3tOtFc/5nb0JMw2b/qDJ\ncwSgQvI7Q1/hbr6p/myegeNIOqXJAUzw+SQS+w/nTrI3tX4GggoZRsSFvuBC\nELSW/17X8TDN3ShTp1eqeZeWHSztOiF0AxZvN6T29XRmBDgyxYwIE6KAFLKY\nuU/BCsCa8ekyDawN9QBQqHP/HUNEGuz2qjmwUxHe5+IZOpRVwgyDJEVp/G7c\nxJfTA/bb9hO19yDz5HhUi78TtmGSLvPhrvPXE+jvBWZJikTqhlkYJjMrwO0H\n7eqyqT7KH/ijjxXz66FaQTIRO5/i3OZqHF2f9R6lbamiRbQ87UbpM5r8iVSN\nf83K5YRPjhFCxTOVAJLQsjtsKEJhXQzlEEnTgIXVmazgkbQBmwU9GTNT+CfT\nerwTFQN+7+amO++XILACe3UQ/NqzX4782KgiQrL+IrfkhznogHbSS16U83PQ\nAAwfv03g2cCmt7uCjZCd8QHAqrRECIulHz0ml7xShyhFcrc1MKkTSTorcqNB\nr+3AoMGdaYYkkDaVnKGjeisIIh3fnQfIF1FQp29716b4F0iSQREG7HWAuzHO\nQ5LVu5mmnNoyuABugbyXh3cGNClcJnzhVjPlTuF/NCSAkaY8FzKNlqoyjAAW\nrgcy\r\n=ziND\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.2.0_1599220423938_0.08874068708664118"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.3.0": {
+			"name": "git-url-parse",
+			"version": "11.3.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "8652a93d0feb01a2b4a42e1418480d9a837a0855",
+			"_id": "git-url-parse@11.3.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-i3XNa8IKmqnUqWBcdWBjOcnyZYfN3C1WRvnKI6ouFWwsXCZEnlgbwbm55ZpJ3OJMhfEP/ryFhqW8bBhej3C5Ug==",
+				"shasum": "1515b4574c4eb2efda7d25cc50b29ce8beaefaae",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.3.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 25057,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfdEO1CRA9TVsSAnZWagAAFjQP/i5Ry21cqXO+wvPYRGHh\nI0HUpWbSn6n9To471BK/Fo7yMhIaTEHOTndegiIEVECFzN6hzkLfz+42nWeX\nUPLlUTwUywgwr29OlRwSzwwfccnsuN1A9gik8HEv7WHBHDF43CX9Yn2dX7Ug\nbd50Iu+gJOGwgxgEzaODeKiQ8CteXne00Qbf96BPGGGncwZdfZa7GKyKaId3\nkutnLkpTe8VVgI9X/StxCAdoM8ETYVao2YVRD9sxJNAwqCwnCa8pjQabDwLf\niENNihJGuvUfvzbMGfxPzruFnIuLqgQSUAkdWhzg1Ujn0ne2ifmRGBIW4AVz\n9uPCRO10v+U9XVQ46xJBsxY4T2Z6bN1F0CoP8TTIcN9fN5cxBdnRVCCg4ble\nx7ulyYZeijYHx24uq0QjzjP61wG4DSmfCzW/j3ZNKpMM0eM3ukWn3TyoMveu\nfuWjx4s44ROYMTiBRhZwoTh/GTMFQ97BmIgdkOlkJ6x526SPFltSR0aHlKMN\nY7AhOYx1G5SopAkpDRovZyDLpod8B4sWHH+W9imJkK3H/Pbolgsi3xYeCI7+\n+leO2RQEC+MLu5BPjZqN8v3XcS1aXgMnfHHhVhZdAKtAkY2ySmd1vqsyzxSc\nXTIyVirfoPMvx+Bm1NVLrSj/o4mPHelz1hsnPSrWzLpM47BlWGHkFgR3rR32\nDvUs\r\n=pmL8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.3.0_1601455028577_0.2300250050859054"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.4.0": {
+			"name": "git-url-parse",
+			"version": "11.4.0",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "1b0350605d52c4040b11bee653d8ddff6dc8efaa",
+			"_id": "git-url-parse@11.4.0",
+			"_nodeVersion": "12.18.4",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-KlIa5jvMYLjXMQXkqpFzobsyD/V2K5DRHl5OAf+6oDFPlPLxrGDVQlIdI63c4/Kt6kai4kALENSALlzTGST3GQ==",
+				"shasum": "f2bb1f2b00f05552540e95a62e31399a639a6aa6",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 26214,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfkdqzCRA9TVsSAnZWagAA4HMP/ipIMsW4/VW9Ng1lBsNc\nG3IOukeISwnTk42SFTAkLiio6NijeRaCRePm50DAgb2gKyn0oHOC/kWLZZQs\n5zMv9YYEg3bXVEeuhL0lk2dkCb3K5B9ItL11YbyoDoFAAxbgTbYwNmPNxr0u\nqwUVYVy6jEUzPOqNGF9GSSO5utZlRX2hGDJCES24aUyVcNBqI5jI7rk4CBdu\nOqDJFd+EcrsIgezNZFRMShQKmDgDJILbugGsDFpHy+sejGGzbkYo1oSTs0gM\nFs9q7O2W42vV1v/g9BUsh8pYu3QMm7+iHePEj7N7WfLzR/LU20hxClkHkTKE\nIinMR0tPuMwG1vDqDLRaFJaBpRWQUHnc7KzXZ7FdWN6iF27zjyUy0d9MtCOC\nHDwDmvXvARCqfBv/ZKQIm0LVP8uAf4KZiiQEbGOCzj0wudjjdM/MJTDWOz5N\n+/Z3DWhlS/nRA5uAYX7FAMUwOBq74m1KfO5wBp/YDgi0SXeZ3XMt2PoV6Pwn\n/0UkmAhKyNnS89mN+ZC2D4uyVJAVOX0Dy4d3Amg3GBKAIHj/ZYYPHLlftFsH\nR00h+c3ZWfj+N9Y4L/Ue5sm5CstUDHpadSWoS8dYtHlEvqQqEtqEzSeQEZa9\n7vlu6ghndbxcPqLesjHDBQ7Xlgl0ARDKWhfFhqsuJEs61luxNZim4vYbLTCo\nwyLw\r\n=kVhy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.4.0_1603394226494_0.29527439934896726"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.4.1": {
+			"name": "git-url-parse",
+			"version": "11.4.1",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "a7fda5efbf6aab4cca42a90697d8da8ea5ad8895",
+			"_id": "git-url-parse@11.4.1",
+			"_nodeVersion": "12.18.4",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-a9K2hbukIcCsZYqVE5L9dm7qdkOzyvMfhbCdhN4FelH63V4hBlmlxCLUS1VL8Qu6v7SeeqT5A2vuj26OWNAz8Q==",
+				"shasum": "524471ffd88aac23e48a04ababee8bf4f8c576f0",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 26654,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf2FaTCRA9TVsSAnZWagAA6qsQAJ+3FBlrXs3+mHbGJY6w\nGVDmPaD05bwoY6P4vJHKWyppCeK5+hdjSYq4Uh8gihOElRiONQSx19NpMCaC\nzdSNG6ng4j3IkrNBbpocyKBM7c7TwhGVUap/rmNidgdHBrIGLVdiO1vDpldN\nvdJod43iH0MGsvy6HLim+BYB1CV+4WWS4Tv0IdxpcP04mmjvPtD5klGcdMDJ\nabvngw6o/jTMiVZEDXu5u6YcKMI91LS8JiuIK0Q+jokeZFyvIP0gLOUDNcRP\nqn9LRM0iTNM3ZhoPhNg/m04mgsqtlRsO+CNewjOLC5wl+cVT1FSqoOwcurtO\nw5w/qrCS7ZxekTieNChJpGJCsK6WeAN7wKlLmKQSU3Ffz5nCqS/7qE8A5vFg\nU/Hw3KUZNZLXGDBwFpf/E5nao9F+WhETdVUL6FKJ8WTRHNRz1D/cQz6nY225\nu1jP045IbBzA3Sw7njMUGruNMsaLcH7nmVBgMyj36CUxBGSjK8UDuLo9zEjS\nhXazb0F2cKG1ObGU74955S8HpxAX+jnP6GLF6lKFFE05FjHqqAlHRa/O3I1s\nc7AuEKhmTnPEresDhJkH0ScNyKG20XIOuA6pn/5qOYBSe58Mcqko5gO/BoZJ\nAqxcHTR3JGZJ10m+b6Sr6Hh+6xTmNIQYepoljIcZrxYrN4+9HrWOzPhSgD01\nBO+7\r\n=/bqY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.4.1_1608013458820_0.796782216344273"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.4.3": {
+			"name": "git-url-parse",
+			"version": "11.4.3",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "e994c8721a8b604e9d9773523af5c6d5f7a068be",
+			"_id": "git-url-parse@11.4.3",
+			"_nodeVersion": "12.18.4",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-LZTTk0nqJnKN48YRtOpR8H5SEfp1oM2tls90NuZmBxN95PnCvmuXGzqQ4QmVirBgKx2KPYfPGteX3/raWjKenQ==",
+				"shasum": "1610284edf1f14964180f5b3399ec68b692cfd87",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 27067,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf2FpFCRA9TVsSAnZWagAAj+0QAJei3dm/h7xgd4WbawQ2\nZLtPjlLynw9Hg71GT5rexzB/hHskzpRAtK7wRQh4JdPI0wh56+BQNAFcKfyZ\nGmPrse5lC8Xh6cJlH0gW5b6hsHl+yHEElQtXhio04O33c9/Y9gS4c66idTbJ\n5SaQkcf99f14LBZoeooVWOLktytVpTJzUVPo/qm2WsB9O2eSuUMFGbPkc3bs\nSer5WRgU/wv/G6KeaQjW0TbrKtULDa6DVEkP2JCeBJ5VqiwCgrBwkMvA5QT8\nmecX8+2ECnoC3E56AgEJtbH5YNACBurSmyMWdiM9hL8Lxw0M9EQZENGXc1pO\n48EcsedGTVoIgfyr1akJC7ZuEiNBnxCBKF00yaoLdAOtd8S+Qy5OoBCzXluJ\nktbe6uBawFSHMYyWvX2Kh75dIvvdTpEj7JDphlm7RbEGzsWmc6H6NjO0pV5h\n98OukK6LaemGYA7Bn5C85ym5BN/A819AFidg+69IG0FosPStk193Xy7TGXFy\nK/VIZUrGP/wSZAiS778Q49dgExPAQzKjBSwBhIFpNViuMY4xytIatXv+L8bm\nwbiYUzaCAUEJFBw9BWl7W4A1DIcz9izlTE5BJgDwNfZW49nnLoPvosIl5btj\nw8AdkhqHTssFDvuFY7l2d/HwrN1RDsWa4v7IV35YzeeYGIEvXDqdpKZuToYf\ngrqU\r\n=/eB9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.4.3_1608014404669_0.11949135961487167"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.4.4": {
+			"name": "git-url-parse",
+			"version": "11.4.4",
+			"description": "A high level git url parser for common git providers.",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/IonicaBizau/git-url-parse.git"
+			},
+			"keywords": [
+				"parse",
+				"git",
+				"url"
+			],
+			"author": {
+				"name": "Ionică Bizău",
+				"email": "bizauionica@gmail.com",
+				"url": "https://ionicabizau.net"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/IonicaBizau/git-url-parse/issues"
+			},
+			"homepage": "https://github.com/IonicaBizau/git-url-parse",
+			"blah": {
+				"h_img": "http://i.imgur.com/HlfMsVf.png"
+			},
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"git-up": "^4.0.0"
+			},
+			"devDependencies": {
+				"tester": "^1.3.1"
+			},
+			"gitHead": "71c7298bff814af8d3d5ca60583ccad42236b734",
+			"_id": "git-url-parse@11.4.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "ionicabizau",
+				"email": "bizauionica@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Y4o9o7vQngQDIU9IjyCmRJBin5iYjI5u9ZITnddRZpD7dcCFQj2sL2XuMNbLRE4b4B/4ENPsp2Q8P44fjAZ0Pw==",
+				"shasum": "5d747debc2469c17bc385719f7d0427802d83d77",
+				"tarball": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 27687,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgERmaCRA9TVsSAnZWagAASvsP/jRWBF/E5eA4vChNil+U\n5giHb2YYshCYfMuikyWvRXGi4lJeQdc8gcob3HC7/d+iQsyr60EKN4+cEitu\nd+kivOLGLf+YR87GRuwkWcrV1WUxdmi8yA7HueesYRFTn8WDr0X+CFEZGzLR\n8WmHI/bPsdc84xpSYSHAkOda/hG4DNdvRYgE9I6fbE1SsHMXqD1zkYH+/DPe\ndfdqzq59sLyxemIDooStovsWgHt39+RNl+e/CJu2NDEZdDOgqkXH1KBacq5L\nNJAqjoQpHtZoIAx56XBOwyV5Ntu4CvMFgkUzbiTpXBL6NRqAu+irz70e15cX\nw11Z4fVSyhpvTaW1RYqUpL7sPwMIGrCaCnvIs0VbouRn/bGCf5ye34neCf9J\nhzCiwNs4E/mSNTQZYuTOVqHa6dB2iRntufSd5xqTYi3CyjArun30IWJ/6XWg\na5DH1DI7NKzAjpnUFzfrP7o0zWF311RtniwaYmpLLJZoy3CUQZPcoxU3VD6n\nAyJhfJlmUQIAIWk/32CHE3x67n63XpKqTqNjr/Bcwc2xsJOZj251ShuyDiqf\nlT+yrLElgEM4AEYp/D/ccjsm++qEQigvxOeILn716IVnMDWEfqub/wLLK0Ts\ns8PqzXivgOgS5rPwGFXTrgP5kcKsGvmhZBgncA+HHmx2n1gM96Hi6kxt0oee\nxi5O\r\n=Ez/v\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ionicabizau",
+					"email": "bizauionica@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/git-url-parse_11.4.4_1611733401347_0.49555887017709077"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-01-27T07:43:23.985Z",
+		"created": "2015-06-14T06:58:51.758Z",
+		"2.0.0": "2015-06-14T06:58:51.758Z",
+		"3.0.0": "2015-06-14T07:01:00.550Z",
+		"4.0.0": "2015-08-08T18:34:40.284Z",
+		"4.1.0": "2015-11-12T14:02:13.607Z",
+		"4.2.0": "2015-12-03T13:58:12.655Z",
+		"4.2.1": "2016-01-14T08:50:12.101Z",
+		"5.0.0": "2016-01-31T09:19:35.693Z",
+		"5.0.1": "2016-01-31T09:24:14.395Z",
+		"5.0.1-beta": "2016-02-21T08:56:40.866Z",
+		"6.0.0": "2016-02-21T09:08:15.765Z",
+		"6.0.1": "2016-02-21T09:15:07.471Z",
+		"6.0.2": "2016-04-26T04:56:44.768Z",
+		"6.0.3": "2016-05-25T09:49:12.215Z",
+		"6.0.4": "2016-06-20T08:08:12.940Z",
+		"6.0.5": "2016-06-20T08:10:08.055Z",
+		"6.0.6": "2016-10-10T18:39:23.827Z",
+		"6.0.7": "2016-10-11T13:35:10.077Z",
+		"6.1.0": "2016-11-01T18:13:47.511Z",
+		"6.1.1": "2016-12-28T19:36:17.401Z",
+		"6.2.0": "2017-01-07T16:35:27.623Z",
+		"6.2.1": "2017-03-20T17:23:52.083Z",
+		"6.2.2": "2017-03-23T15:23:52.428Z",
+		"7.0.0": "2017-06-14T14:00:07.139Z",
+		"7.0.1": "2017-09-08T11:00:41.091Z",
+		"7.0.2": "2017-12-24T20:20:56.254Z",
+		"7.1.0": "2018-01-26T03:41:54.730Z",
+		"7.2.0": "2018-01-26T04:26:29.773Z",
+		"8.0.0": "2018-01-26T04:38:21.994Z",
+		"8.0.1": "2018-01-28T07:15:40.318Z",
+		"8.1.0": "2018-02-08T01:47:41.644Z",
+		"8.2.0": "2018-03-14T08:53:25.661Z",
+		"8.3.0": "2018-04-03T12:09:55.386Z",
+		"8.3.1": "2018-04-03T15:38:19.028Z",
+		"9.0.0": "2018-04-12T18:53:53.358Z",
+		"9.0.1": "2018-05-28T21:22:35.265Z",
+		"10.0.1": "2018-07-16T03:29:47.294Z",
+		"10.1.0": "2018-10-15T20:15:33.430Z",
+		"11.0.0": "2018-10-28T17:08:12.111Z",
+		"11.0.1": "2018-10-28T17:43:48.971Z",
+		"11.1.0": "2018-11-06T21:26:00.800Z",
+		"11.1.1": "2018-11-06T21:30:46.788Z",
+		"11.1.2": "2019-01-03T16:47:11.693Z",
+		"11.1.3": "2020-08-09T12:06:10.634Z",
+		"11.2.0": "2020-09-04T11:53:44.133Z",
+		"11.3.0": "2020-09-30T08:37:08.741Z",
+		"11.4.0": "2020-10-22T19:17:06.640Z",
+		"11.4.1": "2020-12-15T06:24:18.927Z",
+		"11.4.3": "2020-12-15T06:40:04.771Z",
+		"11.4.4": "2021-01-27T07:43:21.491Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "11.4.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"08857359bbe48f8e75c962fec2ab7041\"",
+			"fetched": 1613881359857
+		}
+	},
+	"_distfiles": {
+		"git-url-parse-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-2.0.0.tgz",
+			"sha": "93fffb867efb3f50ce190945af6d2679a1985d25",
+			"registry": "npmjs"
+		},
+		"git-url-parse-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-3.0.0.tgz",
+			"sha": "7e35210d0ec4ef5d4afd18d8ce2b8c80fe839776",
+			"registry": "npmjs"
+		},
+		"git-url-parse-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.0.0.tgz",
+			"sha": "530d1fa15322031767084a19a9402991c3b91a2d",
+			"registry": "npmjs"
+		},
+		"git-url-parse-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.1.0.tgz",
+			"sha": "ff9a530322f84ddc33af9f9f11f158cc49566e6c",
+			"registry": "npmjs"
+		},
+		"git-url-parse-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.2.0.tgz",
+			"sha": "c2bff03a9f4198684bc46b3b3efc9b1ba9bb9086",
+			"registry": "npmjs"
+		},
+		"git-url-parse-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-4.2.1.tgz",
+			"sha": "0409b419188e75cfba26357528a7d43bec22b517",
+			"registry": "npmjs"
+		},
+		"git-url-parse-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.0.tgz",
+			"sha": "6200e692eafb0c203367f6379e215d4ba73e0f62",
+			"registry": "npmjs"
+		},
+		"git-url-parse-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.1.tgz",
+			"sha": "fe3d79c6746ae05048cfa508c81e79dddbba3843",
+			"registry": "npmjs"
+		},
+		"git-url-parse-5.0.1-beta.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-5.0.1-beta.tgz",
+			"sha": "fbc852f45a6379a4d106ac87db1a60c0c9686796",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.0.tgz",
+			"sha": "3c033673341b3d4b00d4a80f254a740615d09373",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.1.tgz",
+			"sha": "db2458dfca0b10752880e447c7ab9a1cdcd7fd93",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.2.tgz",
+			"sha": "851a01bc359523de026b40d9692bfbd914adf2a3",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.3.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.3.tgz",
+			"sha": "315acf1009d5d9abd12cccca69a616a492fe8a5f",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.4.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.4.tgz",
+			"sha": "219aec12e95d15fe543f8d0bda8984d6425b548a",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.5.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.5.tgz",
+			"sha": "6b93aaa9811ee46f248bb85eeb68771ba360467b",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.6.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.6.tgz",
+			"sha": "5b6ecd16a4d40190f3e7ff3d0ab39a0c2a64edee",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.0.7.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.0.7.tgz",
+			"sha": "e61dbb05ccd78921494814f5e5f0cea17275d3de",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.1.0.tgz",
+			"sha": "01a99f11ca4def4d88d9886da7f84d75d114495b",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.1.1.tgz",
+			"sha": "d2d2e1838fb2c8a4248f7473d3e97a212ae81278",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.0.tgz",
+			"sha": "fc0eeb0e96f8f5fdc71e1324116ecd2735cefc96",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.2.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.1.tgz",
+			"sha": "094abaa1b97b7f39a3bf0d96d17ed50fb5ad5cc1",
+			"registry": "npmjs"
+		},
+		"git-url-parse-6.2.2.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-6.2.2.tgz",
+			"sha": "be49024e14b8487553436b4572b8b439532fa871",
+			"registry": "npmjs"
+		},
+		"git-url-parse-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.0.tgz",
+			"sha": "2a7553f0c1e1405496f79da922e7a560895270f8",
+			"registry": "npmjs"
+		},
+		"git-url-parse-7.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.1.tgz",
+			"sha": "1a3dffc6eaa9e3634deedc58e20d9e33106d3d41",
+			"registry": "npmjs"
+		},
+		"git-url-parse-7.0.2.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.0.2.tgz",
+			"sha": "75fc7ae08e5daa90edc59043cdfa8da57c5a8715",
+			"registry": "npmjs"
+		},
+		"git-url-parse-7.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.1.0.tgz",
+			"sha": "2d78bbd989b496be48db30870228e90a36c0d3ec",
+			"registry": "npmjs"
+		},
+		"git-url-parse-7.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-7.2.0.tgz",
+			"sha": "3755e0ac037df997cfbfdb0396531087d7143aa4",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.0.0.tgz",
+			"sha": "249430c84e6b11ebae630136f50d7993eb03e211",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.0.1.tgz",
+			"sha": "eb3fa427e294d214d9abbeb59637cc8646279c00",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.1.0.tgz",
+			"sha": "d1ee09213efce5d8dc7a21bb03f17cfe0c111122",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.2.0.tgz",
+			"sha": "74969b0105f805df58873ee5b96bc1a4dc0573b1",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.3.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.3.0.tgz",
+			"sha": "591658f2ad84e456832443ccce0531543d8934ce",
+			"registry": "npmjs"
+		},
+		"git-url-parse-8.3.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-8.3.1.tgz",
+			"sha": "9d7d762993dc498aab16937c844e11afe3748817",
+			"registry": "npmjs"
+		},
+		"git-url-parse-9.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-9.0.0.tgz",
+			"sha": "a82a36acc3544c77ed0984d6488b37fbcfbec24d",
+			"registry": "npmjs"
+		},
+		"git-url-parse-9.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-9.0.1.tgz",
+			"sha": "2905b897a3db6e5cb9e10819f0fac2e740b4481b",
+			"registry": "npmjs"
+		},
+		"git-url-parse-10.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-10.0.1.tgz",
+			"sha": "75f153b24ac7297447fc583cf9fac23a5ae687c1",
+			"registry": "npmjs"
+		},
+		"git-url-parse-10.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-10.1.0.tgz",
+			"sha": "a27813218f8777e91d15f1c121b83bf14721b67e",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.0.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.0.0.tgz",
+			"sha": "fd36e66117104aadc0edc7ded7480a2ce3be696b",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.0.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.0.1.tgz",
+			"sha": "3fc0b462d1b29ce2cbe19768673938d4845eda0b",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.1.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.0.tgz",
+			"sha": "a39c719dc7b193d371f337f469aa06ae7d4bf9f8",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.1.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.1.tgz",
+			"sha": "e5aa48f6c22c01711531b321f86d70e57f4707a8",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.1.2.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.2.tgz",
+			"sha": "aff1a897c36cc93699270587bea3dbcbbb95de67",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.1.3.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.1.3.tgz",
+			"sha": "03625b6fc09905e9ad1da7bb2b84be1bf9123143",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.2.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.2.0.tgz",
+			"sha": "2955fd51befd6d96ea1389bbe2ef57e8e6042b04",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.3.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.3.0.tgz",
+			"sha": "1515b4574c4eb2efda7d25cc50b29ce8beaefaae",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.4.0.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.0.tgz",
+			"sha": "f2bb1f2b00f05552540e95a62e31399a639a6aa6",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.4.1.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.1.tgz",
+			"sha": "524471ffd88aac23e48a04ababee8bf4f8c576f0",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.4.3.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.3.tgz",
+			"sha": "1610284edf1f14964180f5b3399ec68b692cfd87",
+			"registry": "npmjs"
+		},
+		"git-url-parse-11.4.4.tgz": {
+			"url": "https://registry.npmjs.org/git-url-parse/-/git-url-parse-11.4.4.tgz",
+			"sha": "5d747debc2469c17bc385719f7d0427802d83d77",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-87834b22bf3145bc",
+	"_id": "git-url-parse",
+	"readme": "<!-- Please do not edit this file. Edit the `blah` field in the `package.json` instead. If in doubt, open an issue. -->\n\n\n\n\n\n\n\n\n[![git-url-parse](http://i.imgur.com/HlfMsVf.png)](#)\n\n\n\n\n\n\n\n\n\n\n\n# git-url-parse\n\n [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/git-url-parse.svg)](https://travis-ci.org/IonicaBizau/git-url-parse/) [![Version](https://img.shields.io/npm/v/git-url-parse.svg)](https://www.npmjs.com/package/git-url-parse) [![Downloads](https://img.shields.io/npm/dt/git-url-parse.svg)](https://www.npmjs.com/package/git-url-parse) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)\n\n<a href=\"https://www.buymeacoffee.com/H96WwChMy\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\"></a>\n\n\n\n\n\n\n\n> A high level git url parser for common git providers.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :cloud: Installation\n\n```sh\n# Using npm\nnpm install --save git-url-parse\n\n# Using yarn\nyarn add git-url-parse\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :clipboard: Example\n\n\n\n```js\n// Dependencies\nconst GitUrlParse = require(\"git-url-parse\");\n\nconsole.log(GitUrlParse(\"git@github.com:IonicaBizau/node-git-url-parse.git\"));\n// => {\n//     protocols: []\n//   , port: null\n//   , resource: \"github.com\"\n//   , user: \"git\"\n//   , pathname: \"/IonicaBizau/node-git-url-parse.git\"\n//   , hash: \"\"\n//   , search: \"\"\n//   , href: \"git@github.com:IonicaBizau/node-git-url-parse.git\"\n//   , token: \"\"\n//   , protocol: \"ssh\"\n//   , toString: [Function]\n//   , source: \"github.com\"\n//   , name: \"node-git-url-parse\"\n//   , owner: \"IonicaBizau\"\n// }\n\nconsole.log(GitUrlParse(\"https://github.com/IonicaBizau/node-git-url-parse.git\"));\n// => {\n//     protocols: [\"https\"]\n//   , port: null\n//   , resource: \"github.com\"\n//   , user: \"\"\n//   , pathname: \"/IonicaBizau/node-git-url-parse.git\"\n//   , hash: \"\"\n//   , search: \"\"\n//   , href: \"https://github.com/IonicaBizau/node-git-url-parse.git\"\n//   , token: \"\"\n//   , protocol: \"https\"\n//   , toString: [Function]\n//   , source: \"github.com\"\n//   , name: \"node-git-url-parse\"\n//   , owner: \"IonicaBizau\"\n// }\n\nconsole.log(GitUrlParse(\"https://github.com/IonicaBizau/git-url-parse/blob/master/test/index.js\"));\n// { protocols: [ 'https' ],\n//   protocol: 'https',\n//   port: null,\n//   resource: 'github.com',\n//   user: '',\n//   pathname: '/IonicaBizau/git-url-parse/blob/master/test/index.js',\n//   hash: '',\n//   search: '',\n//   href: 'https://github.com/IonicaBizau/git-url-parse/blob/master/test/index.js',\n//   token: '',\n//   toString: [Function],\n//   source: 'github.com',\n//   name: 'git-url-parse',\n//   owner: 'IonicaBizau',\n//   organization: '',\n//   ref: 'master',\n//   filepathtype: 'blob',\n//   filepath: 'test/index.js',\n//   full_name: 'IonicaBizau/git-url-parse' }\n\nconsole.log(GitUrlParse(\"https://github.com/IonicaBizau/node-git-url-parse.git\").toString(\"ssh\"));\n// => \"git@github.com:IonicaBizau/node-git-url-parse.git\"\n\nconsole.log(GitUrlParse(\"git@github.com:IonicaBizau/node-git-url-parse.git\").toString(\"https\"));\n// => \"https://github.com/IonicaBizau/node-git-url-parse.git\"\n```\n\n\n\n\n\n\n\n\n\n\n\n## :question: Get Help\n\nThere are few ways to get help:\n\n\n\n 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.\n 2. For bug reports and feature requests, open issues. :bug:\n 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:\n\n\n\n\n\n## :memo: Documentation\n\n\n### `gitUrlParse(url)`\nParses a Git url.\n\n#### Params\n\n- **String** `url`: The Git url to parse.\n\n#### Return\n- **GitUrl** The `GitUrl` object containing:\n - `protocols` (Array): An array with the url protocols (usually it has one element).\n - `port` (null|Number): The domain port.\n - `resource` (String): The url domain (including subdomains).\n - `user` (String): The authentication user (usually for ssh urls).\n - `pathname` (String): The url pathname.\n - `hash` (String): The url hash.\n - `search` (String): The url querystring value.\n - `href` (String): The input url.\n - `protocol` (String): The git url protocol.\n - `token` (String): The oauth token (could appear in the https urls).\n - `source` (String): The Git provider (e.g. `\"github.com\"`).\n - `owner` (String): The repository owner.\n - `name` (String): The repository name.\n - `ref` (String): The repository ref (e.g., \"master\" or \"dev\").\n - `filepath` (String): A filepath relative to the repository root.\n - `filepathtype` (String): The type of filepath in the url (\"blob\" or \"tree\").\n - `full_name` (String): The owner and name values in the `owner/name` format.\n - `toString` (Function): A function to stringify the parsed url into another url type.\n - `organization` (String): The organization the owner belongs to. This is CloudForge specific.\n - `git_suffix` (Boolean): Whether to add the `.git` suffix or not.\n\n### `stringify(obj, type)`\nStringifies a `GitUrl` object.\n\n#### Params\n\n- **GitUrl** `obj`: The parsed Git url object.\n- **String** `type`: The type of the stringified url (default `obj.protocol`).\n\n#### Return\n- **String** The stringified url.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :yum: How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n## :sparkling_heart: Support my projects\nI open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,\nthis takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).\n\nHowever, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:\n\n\n - Starring and sharing the projects you like :rocket:\n - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:\n - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:\n - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).\n - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`\n\n    ![](https://i.imgur.com/z6OQI95.png)\n\n\nThanks! :heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n## :dizzy: Where is this library used?\nIf you are using this library in one of your projects, add it in this list. :sparkles:\n\n - `release-it`\n - `documentation`\n - `apollo`\n - `@atomist/automation-client`\n - `@storybook/storybook-deployer`\n - `@backstage/plugin-catalog`\n - `@backstage/backend-common`\n - `@kadira/storybook-deployer`\n - `gatsby-source-git`\n - `apify-shared`\n - `umi-build-dev`\n - `@atomist/automation-client-ext-raven`\n - `@era-ci/utils`\n - `git-source`\n - `@qiwi/semantic-release-gh-pages-plugin`\n - `@git-stack/server-core`\n - `@atomist/sdm-pack-analysis`\n - `semantic-release-gitmoji`\n - `@nuxt/telemetry`\n - `@backstage/integration`\n - `workspace-tools`\n - `@lerna/github-client`\n - `@umijs/block-sdk`\n - `@instructure/ui-scripts`\n - `@backstage/techdocs-common`\n - `lambda-service`\n - `@wetrial/block-sdk`\n - `hzero-block-sdk`\n - `@micro-app/shared-utils`\n - `remax-stats`\n - `scaffolder-core`\n - `@feizheng/next-git-url`\n - `@radjs/block-sdk`\n - `@log4brains/core`\n - `beachball`\n - `@xdn/cli`\n - `@backstage/plugin-scaffolder`\n - `renovate`\n - `gitbook-start-plugin-iaas-ull-es-noejaco2017`\n - `autorelease-setup`\n - `documentation-custom-markdown`\n - `@hygiene/plugin-github-url`\n - `sherry-utils`\n - `@unibtc/release-it`\n - `clipped`\n - `@erquhart/lerna-github-client`\n - `@0x-lerna-fork/github-client`\n - `common-boilerplate`\n - `@brisk-docs/website`\n - `@hawkingnetwork/react-native-tab-view`\n - `miguelcostero-ng2-toasty`\n - `docula-ui`\n - `@brisk-docs/gatsby-generator`\n - `@microservices/cli`\n - `stylelint-formatter-utils`\n - `omg`\n - `@facadecompany/ignition-ui`\n - `@geut/git-url-parse`\n - `@temporg/rds-scripts`\n - `@koumoul/gh-pages-multi`\n - `sync-repos`\n - `@atomist/cli`\n - `@git-stack/hemera-plugin`\n - `@yarnpkg/plugin-git`\n - `@vamsikc/plugin-catalog`\n - `@pubbo/github-client`\n - `@atomist/uhura`\n - `@s-ui/mono`\n - `@zeplin/cli`\n - `@atomist/skill`\n - `committing`\n - `gitbook-start-https-alex-moi`\n - `gitbook-start-iaas-ull-es-merquililycony`\n - `proyecto-sytw-alex-moi`\n - `gitbook-start-iaas-ull-es-alex-moi`\n - `gitbook-start-iaas-bbdd-alex-moi`\n - `complan`\n - `@axetroy/git-clone`\n - `generator-cleanphp`\n - `@axetroy/gpmx`\n - `generator-ckeditor4`\n - `documentation-habitlab`\n - `nodeschool-admin`\n - `one-more-gitlab-cli`\n - `def-core`\n - `gd-cli`\n - `node-coverage-server`\n - `strapper`\n - `github-publish-npm`\n - `ogh`\n - `sinit`\n - `smart-clone`\n - `download-repo-cli`\n - `generator-nm-bti`\n - `gitc`\n - `gitline`\n - `gitlab-ci-variables-cli`\n - `gitlab-ci-variables-setter-cli`\n - `documentation-fork`\n - `@axetroy/gpm`\n - `generator-openapi-repo`\n - `git-url-promise`\n - `kef-core`\n - `@pvdlg/semantic-release`\n - `gitlab-tool-cli`\n - `snipx`\n - `yarn-upgrade-on-ci`\n - `@hjin/generator-app`\n - `@reframe/github-pages`\n - `belt-repo`\n - `@esops/publish-github-pages`\n - `@hugomrdias/documentation`\n - `just-dev-sdk`\n - `@activeviam/documentation`\n - `git-signed`\n - `cz-conventional-changelog-befe`\n - `@voodeng/archive`\n - `@voodeng/uppacks`\n - `create-apex-js-app`\n - `auto-changelog-vsts`\n - `harry-reporter`\n - `@campus-online/gatsby-source-git`\n - `gtni`\n - `ci-yarn-upgrade`\n - `generator-clearphp`\n - `openapi-repo-generator`\n - `git-imitate`\n - `vscode-gpm`\n - `documentation42`\n - `@limejs/cli`\n - `lime-cli`\n - `laborious`\n - `release-it-http`\n - `bibi`\n - `lcov-server`\n - `create-release-it`\n - `git-service-node`\n - `@infinitecsolutions/storybook-deployer`\n - `@1nd/documentation`\n - `git-cherry-fix`\n - `vuepress-plugin-remote-url`\n - `gatsby-source-github-raw`\n - `moto-connector`\n - `@zpmpkg/zpm`\n - `konitor`\n - `release2hub`\n - `@geut/git-compare-template`\n - `@geut/chan-parser`\n - `git-observer`\n - `docula-ui-express`\n - `sn-flutter-boot`\n - `spk`\n - `umi-plugin-repo`\n - `@epranka/create-tsx-package`\n - `flutter-boot`\n - `node-norman`\n - `remote-commit-url`\n - `air-material_cli`\n - `@belt/repo`\n - `@arcanis/sherlock`\n - `@dandean/storybook-deployer`\n - `git-upstream`\n - `@cratosw/gatsby-antd`\n - `@tjmonsi/generator-uplb-hci-lab-project-template`\n - `@tagoro9/git`\n - `tldw`\n - `gatsby-theme-hansin`\n - `aral-vps-test`\n - `generate-preview`\n - `@temporg/ui-scripts`\n - `bitbucket-pullr`\n - `@whey/gatsby-theme-whey`\n - `@docomodigital/pdor`\n - `auto-clone`\n - `create-n`\n - `aral-server`\n - `gatsby-source-git-remotes`\n - `@amorist/gatsby-theme-antd`\n - `@stavalfi/ci`\n - `cirodown`\n - `@apardellass/react-native-audio-stream`\n - `gatsby-theme-cone`\n - `changelog.md`\n - `wp-continuous-deployment`\n - `l2forlerna`\n - `@patrickhulce/scripts`\n - `@cilyn/bitbucket`\n - `react-native-plugpag-wrapper`\n - `meta-release`\n - `git-csv`\n - `ship-release`\n - `ssh-remote`\n - `@senti-techlabs/generator-senti-project-template`\n - `react-native-pulsator-native`\n - `@epranka/create-package`\n - `git-lab-cli`\n - `@csmith/release-it`\n - `cetus-cli`\n - `react-native-kakao-maps`\n - `generate-github-directory`\n - `configorama`\n - `@geeky-apo/react-native-advanced-clipboard`\n - `native-apple-login`\n - `native-google-login`\n - `@tahini/nc`\n - `@shopgate/pwa-releaser`\n - `native-kakao-login`\n - `@hemith/react-native-tnk`\n - `@cyber-tools/cyber-npm`\n - `@pagedip/tool-autorelease`\n - `@tcorley/storybook-addon-material-ui`\n - `mira`\n - `@elestu/actions-dependacop`\n - `react-native-contact-list`\n - `branch-release`\n - `@corelmax/react-native-my2c2p-sdk`\n - `wsj.gatsby-source-git`\n - `@pubcore/node-docker-build`\n - `cc-flow`\n - `git-origin-check`\n - `@cloudoki/donderflow`\n - `git-multi-profile`\n - `gatsby-source-npmjs`\n - `@atomist/ci-sdm`\n - `documentation-markdown-themes`\n - `@git-stack/module-server`\n - `@alitajs/block-sdk`\n - `@jswork/topics2keywords`\n - `actions-package-update`\n - `@theowenyoung/gatsby-source-git`\n - `github-action-readme`\n - `canarist`\n - `@tru_id/tru-sdk-react-native`\n - `@datalogic/react-native-datalogic-module`\n - `fotingo`\n - `@rescribe/cli`\n - `react-native-responsive-size`\n - `sinanews-flutter-boot`\n - `@bcgov/gatsby-source-github-raw`\n - `@s-ui/ci`\n - `@s-ui/changelog`\n - `learning-journal-ci`\n - `query-registry`\n - `react-native-flyy`\n - `react-native-esc-pos-sahaab`\n - `@s-ui/ssr`\n - `wiby`\n - `@gvhinks/wiby`\n - `git-push-pr`\n - `mdnext-loader`\n - `next-mdx-books`\n - `ftl-renovate`\n - `mdxbook`\n - `kit-command`\n - `dx-scanner`\n - `@emedvedev/renovate`\n - `@gasket/plugin-metrics`\n - `@wolfe-labs/du-luac`\n - `@vicoders/cli2`\n - `@wpbrothers/sbcli`\n - `@reshiftsecurity/reshift-plugin-npm`\n - `detect-node-support`\n - `@dvcorg/cml`\n - `@myetherwallet/mew-components`\n - `lage`\n - `fster`\n - `vuepress-theme-next`\n - `create-sourcegraph-extension`\n - `@hnp/package-scripts`\n - `@backstage/plugin-catalog-backend`\n - `@backstage/plugin-scaffolder-backend`\n - `@backstage/plugin-catalog-import`\n - `pr-log`\n - `git-issues`\n\n\n\n\n\n\n\n\n\n\n\n## :scroll: License\n\n[MIT][license] © [Ionică Bizău][website]\n\n\n\n\n\n\n[license]: /LICENSE\n[website]: https://ionicabizau.net\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg\n[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg\n[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg\n[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg\n[patreon]: https://www.patreon.com/ionicabizau\n[amazon]: http://amzn.eu/hRo9sIZ\n[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW"
+}

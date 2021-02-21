@@ -1,0 +1,2436 @@
+{
+	"name": "@lerna/project",
+	"versions": {
+		"3.0.0-beta.0": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.0",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.0",
+				"@lerna/validation-error": "^3.0.0-beta.0",
+				"dedent": "^0.7.0",
+				"find-up": "^2.1.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "349b9c765bcbf38988d1fcd48313422417a04c8f",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ZQGHZOouAwBHI+6LK5XR/vvLzWfyjecoke3bvC3PbHUPmKSQ6557s5tjj106xJqElCbEbIfLZUamfRhX6RAe0A==",
+				"shasum": "3109156c8cb52e97a242ff064b416acaa5b43749",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3693
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.0_1520388884758_0.6903493655914366"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.1": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.1",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.0",
+				"@lerna/validation-error": "^3.0.0-beta.0",
+				"dedent": "^0.7.0",
+				"find-up": "^2.1.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2"
+			},
+			"gitHead": "5a527968bb9f7b7c3af0d5d86391d6d2650ddc7a",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.1",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KLW+vv6dkqjerK8t9nMd4jYlDv0yER/8S6TYXSkldhymMIbWZdq5mjKsMpwGT6va/7gevPYInqZMoDyBrBk3KQ==",
+				"shasum": "8eda0d54077a3c6ea1aea39742671bc9fb57938a",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4403
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.1_1520563841719_0.10082319774714388"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.9": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.9",
+			"description": "TODO",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.0",
+				"@lerna/validation-error": "^3.0.0-beta.0",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "70528f23cad0186fdf7529fe32148cc1eff21272",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.9",
+			"_npmVersion": "5.8.0-next.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-anU3tOo7Dm1TSxKKbfy5oH54vx/nGKkLhIIg4S4u+zFdYKWYgSl8/yP142ax0a2hTyZabSui7h7tDpkCLNofOQ==",
+				"shasum": "f6750e7a2a341e6040e013a1c5ee1d3c50a9bc1e",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.9.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5459
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.9_1521857423223_0.33248666928993975"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.10": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.10",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.0",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "c52f8713303b246e6d701950cd78ca6f9bd55503",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.10",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-+6PUn0LyUgDXb3uO7VpLeA9GR4tz4n1VZvZa9edqd96lJ65mFhih5JFSllg7C7dNwk7Bg2ClF5Q6Yrw2kgXoQg==",
+				"shasum": "4ea50e22a3e2eb2295a349a4680ee2458498a44e",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.10.tgz",
+				"fileCount": 6,
+				"unpackedSize": 9006
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.10_1522109314320_0.00868574788643972"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.11": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.11",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.11",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "197a09d58322e86f589ef7839c2438f830d72476",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.11",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-qYIyQ4IW8prF6pqRRYE0qyPW2EsKHvKz6Xkttd07yi7sQV/CUS1qidjYasAfNffJTJ5jbuLtKqEm9zgM5808wQ==",
+				"shasum": "3c295f95671e93093bd467ec15f74734a5c21fe2",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.11.tgz",
+				"fileCount": 6,
+				"unpackedSize": 9200
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.11_1522287431584_0.2590093482698572"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.12": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.12",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.12",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "05dce5c0e4bca8dc894a99ed28337c85c211b37c",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.12",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-JzGNBKNV5444AB1BekzwZVV0L2ilUbvNFsrfB3sjotgI4Mi/ptqc+8SM0p4VpqcRIcvH83TI1sqjKOI7w2vMSw==",
+				"shasum": "38a5160fe6b42407092a70c2dc96e4ba941fc3b7",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.12.tgz",
+				"fileCount": 6,
+				"unpackedSize": 9707
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.12_1522373363946_0.824674404629435"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.15": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.15",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.12",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"require-from-string": "2.0.1",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "f7a8e7bc271a5966035a5cbe3bf0eee556c8053a",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.15",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2Xcjw3nTLpmai3PqnKIXYpvgWutaLKXkJ0NDw8A14Tp6ekNZeDYOxmTDADhxE8zh3R/VdPs6uIoVo/SkeSHxIA==",
+				"shasum": "c1d8b205eac7acb08f0d945d1b93ec3d22f10812",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.15.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10047
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.15_1523316806848_0.23682612636725953"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.17": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.17",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.17",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"require-from-string": "2.0.1",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "5e462676b3793b8d4981fc7f8b81af2fc839adf7",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.17",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RGguvErtoL53ytcNh18EJfAWGupT5AbwB5C4e27KZPzIPFbThUkY+0jZTYyY7+1FvNN2xjKf83+op2+was17+Q==",
+				"shasum": "d65cdb0f9daec160453116813a994f46373545d6",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.17.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10240
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.17_1523583110577_0.49602467913519566"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.19": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.19",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.17",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^4.0.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"require-from-string": "2.0.1",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "3574466560f600828a0f288cec8d137a21404f15",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.19",
+			"_npmVersion": "6.0.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-IRVhOVbkiHmu9xF/WNMzONRbYHlkD9NCkU0KMNHxHzGdlFm2G16UjD0l6YzfNLbVIiBw2y2OFiY591vvtfl/Jg==",
+				"shasum": "7acbddf9eeafdc58fb36fbc05d6f0da9e2558472",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.19.tgz",
+				"fileCount": 7,
+				"unpackedSize": 11749,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa6z71CRA9TVsSAnZWagAAR60P/iwGePhf81tEnWJnhQXn\nnCNIlXj9qUm3FS7lu3fP73AHqzMgqfvAeF9Lk+i6XrFZyOOb1jYSeLIojHVf\n6mtXiNstLvNpNXejmYPuPPDKD++5j1t2F4mYsKVQgxnfcxkY6zTr29i4gOii\nMKbZIGzR2CgHO0mU/VnxBMelQjF8HLswO2Lx3oIxa0HP1kGfZinuhHUWLJHZ\nxO64JXSX7V4q88/qXkO+gTCNcxXrKSsnv2Iv1uuA9MXGj2cFlnI7JBhNUmI5\nmo8xuiMWLAl5FGhJNHC7QL/7l4juMDYwAt1oKNm3q+2d15Qf0cwZnyJFPsAo\n7phN3fvY45679dm+OM72Dv3cKWeLtE+pcMd3QbKSGefXd+QNnnBMcOKPH5FT\n+q6ynpvaaW0h6lWCrM9DHDYc3JHcytm06LE5At8JnNAAf/P1UNyq8Y7UHW9+\nQ0OQ6ACgC3xDyqJVrfwGMYvRjIA1O/rVRqDgbmCFs+RXznxuLSMOSOxpXWh2\nbBOCetCp5YNyYPbLQGF16w1+xAvy0I/+aeuOzgI4ut5n7S5CfS+DdDdEHVGE\nR3hIXe9XakiJnzvFkWhAF/6r7JL1AuzEa3HPlxnd5cf/gtIR4S8ig3wkm+23\njO87jlfY8VGKmGp/68E0MKDGL3tCoXEJ/QMKV1+wF2SMTkc50RH/HX8A+3OL\nDTYk\r\n=Qr02\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.19_1525366517048_0.12960658151134874"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-beta.20": {
+			"name": "@lerna/project",
+			"version": "3.0.0-beta.20",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-beta.17",
+				"@lerna/validation-error": "^3.0.0-beta.10",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "ca46d62c0db8c289f58a08bcd8447fcfb6b2f92b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-beta.20",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.11.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-bS0gD1ReT9l4ZwZXLM4bZBCb1tlJAzVZXJj4RVDgJ1pGt2h4UVMpWJCZqCuYhhiyu6J0v7ntwK3TQH+C3rlqcw==",
+				"shasum": "27a0330b7b13d8eebe9266f03eb60de94b15c86d",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.20.tgz",
+				"fileCount": 7,
+				"unpackedSize": 11884,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8OItCRA9TVsSAnZWagAATfgP/RYBVzYMLJ5AClVynYLT\n/wzBygmEXaqGXC1JOEp9UVxFZ/I9vdhtDWzeUKtilk+71Thso+7HQKNd1sv1\nQ1sLk6ZwcX17OtinhC4U+2awc7+c0MRJIuR/t8oU7nioHX3m1d2jEXCSnYAE\nbVYEnS0+mRt6uyFWF1IRaVcYEPIkcAeX/3Hb+5rkyLUI9b/LXodaBc61HT9y\nYWKOKKToEDyiNir19ojNskZHAR2hL26gG3TH+dqUbvDvY2ecgUW1fLJbDxPm\nohIKRFvYpBhowjhbR2O50dqJWGa+a7IsE88RTIiXBy2Jo39HutiI6gbrQah6\n55Yj6shS1bSFlKUtMDA4Lv3dr8S5SUG/tJiHC45jTyQ5f6CZf6yeMxdew7Uo\n4x/YI6a5+WvxLcpEakf6zM2P4zWzvzORb5opQAHRQ0GmDYsqEgGYkeYnbmfs\nvSRKLzttx7mEf154VyC/Wy63DxhmqTbRBkjzaywuxc7PVdLF77zYjiwtkvME\ndcd6nTo986j79NlKvAXZqvdMFhCNTIlKMZuST8N0HiE7SI7I1Bcq+WRDyy3h\ndRAFUe0BGBO0MHtgCWcm3rNK34ibmwxbpOvX6w66qw9y0IOuSkA545i54B4a\nginE1m2T2ozbGZDlbCoJKZ0ahCMCnknq/Sex1wnV8bVSinVOAnJY1OGSPyKo\nJsgA\r\n=M4yH\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-beta.20_1525735979940_0.042898835534570745"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0-rc.0": {
+			"name": "@lerna/project",
+			"version": "3.0.0-rc.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0-rc.0",
+				"@lerna/validation-error": "^3.0.0-rc.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "1ab24c152d3ff5c2b9453bcaafeb4b5e432b2410",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0-rc.0",
+			"_npmVersion": "6.3.0-next.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-lNego7jYd24jIDGLTcy1mrESEopCblVaZztKhJJntSZdqWZ/tnExjIITfS55CnZyKAXwPVIus6YRfOc24tvuaA==",
+				"shasum": "82c9194e602e35b5574d6d238da33a537fe8b160",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-rc.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 16822,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbWncBCRA9TVsSAnZWagAAitUP/iYjNTwNNZytAFpvgPfS\n9qy91bPEZ+iOswTdRSPcT3HIl8k8jHErS+KYZ1/G1QwmmLqivgRtvwXIMCaE\nRD8wuNbP2N0hcSAMfNeJeDglEqOvhqRJul0LwT9NpBte0psbt7Yn5bdkeP3Q\nn+D9dEtC5+9c65NuS0GyQiSLL+8efHD+Ls41fGSZvGEDDOqxdbOKYHtDXCPF\nD08ltEqQ4MO8yiEuCloNS06HoAIeY3Ts1FNOp41cJ+AIBDzuUNc8ow8/AsgH\n7r/7Hum2DdQ7Dqvjhonhls0vnRcjEh6ENlG+xSoH3GJKkV5ru1Qqip8Ep1D0\nOY3XOslpi7ygdlKZ0LlVRJ6/igoBPF38rjaUjTfGJ7eiGyBce3lO0HOwsAhQ\nD+JqBDcH7sfUlkol2NTtwjsZA+SzqDl6UOBIpuxOYNd6P2hTCYiQIJyo5nPA\n7HhpuoWlKwEuIMky755igFJYtMaau+3sI683oa7ogk0pQOhRVH+dSHHdQlvr\nVTPEpW0eQ/q+rWg5KFNmEgCVd7GCQYUP1iyMO7nXjaJvfb4U5IbUyuw25Zf6\nCtiq/y1G5yjKQSK7OewpD0bsMFOPYETaKSeQQuCF+Qc0w6MSn5tMumUPJWG4\nSZ+HfSV/Msszc9HXHyalue3uPek/+U7UkWD0rJk0BkjMQERFAT1TKMyBEWem\ng3LX\r\n=dgbA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0-rc.0_1532655361509_0.8019618576630023"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "@lerna/project",
+			"version": "3.0.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0",
+				"@lerna/validation-error": "^3.0.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-project-3.0.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XhDFVfqj79jG2Speggd15RpYaE8uiR25UKcQBDmumbmqvTS7xf2cvl2pq2UTvDafaJ0YwFF3xkxQZeZnFMwdkw==",
+				"shasum": "4320d2a2b4080cabcf95161d9c48475217d8a545",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 18512,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbOcUCRA9TVsSAnZWagAAZBUQAIhJc0F2MGiIHOhUNe0V\nwfb7akFyQXFyQUIL1ZK/rq+NxYQmwMY1dms0gISm82kWS77Aq75/K3ClfOhx\n8nvQzJrkBEbKMz8IBBjbwRGvVMXBhcKT7Nz2OPLkD4hZNi0LmPQkI/l2xdFG\nKJ4BQYOZaYdtzNuMM6CwXDU4gI/uRj8ORfJ2t8YG5xTywhFhhhl0CjQYg1nL\nS7KAcYWUI+wKP3zcO0aRVa8g78B9EdUDRqmvFTG8xAf7gNQOch0leh9sc2Gl\nhDQoiEaOC2c6Gf3r6eHGMiOjvH9tjJgl8Xo3tNJtgeig8hVzGiFNGi3lauzs\n02BWVm83/3qgijb4+cYb+iCX5KrPUm1fjGKfA3aurp5n4AXgGa+q0PoUkQMh\n+A3KcGRg9r0eIMFKQY4wPHPpBqEKkU2A5k3xjyZ2nuYKOA3PQTCleJ3YEaf1\nL6D1903z1RBxJOrJzQDQeGckYOciEGuvupkwSkiwXcTJwZfyE57Es8nexuxd\nAENNE4f2r2Fp/wbmn/06jsCIL7TyRQ3hHP+zNuIsBsrwZogQIp3F5542B4Jt\njE3o5puFoF449hGEhv0JJ83L6Bwx9yChDHkTH8xkpk+5Td7V+FASmkJIaXde\nMneKmEJKSm0AuuwbqzpVXtJwuCqbP++w0KVG9ugL+Ge2wwm47bD+C2+58Aax\nxaG6\r\n=9qAK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.0.0_1533863699804_0.8543103662913598"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.0": {
+			"name": "@lerna/project",
+			"version": "3.5.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.0.0",
+				"@lerna/validation-error": "^3.0.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "1c142db1ecb50120f0ddce8ff8a7d9cde1bee278",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-project-3.5.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.5.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-uFDzqwrD7a/tTohQoo0voTsRy2cgl9D1ZOU2pHZzHzow9S1M8E0x5q3hJI2HlwsZry9IUugmDUGO6UddTjwm3Q==",
+				"shasum": "ac5c7b3c49318552b29ccb7a471a657fd57d3091",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.5.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 18794,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/aMhCRA9TVsSAnZWagAAJlsP/jt/69S5+1NuM80MMw0K\nCRfbcRYznFiPfxey66lgv5PvamXY0QqUHEvNt6E3vwAotieXCUVEYDv2FpLQ\nZiCs4h48PQYpMj/nkI9SyqAp5hW4We8FnwO8XMK+Z5nzPNGajRqyapBKXx6G\nAyFJzxhor4dorBTORvpQ/FIohAlwC/vi87pWhFDzXARSb1aFyKYkyM9fZpNw\nUmcCi5zs0dECLpGyisT+e3RhooZ2j8gAtuBOyxsUdyNHh2m/oLpIRWUcbQAJ\nzyMEkJ5B+PudphVGTJvpHaGtGuMulcacLHnxS9LMSkxybamuslPzVHCcsVA9\nlG6C/rIi5q5OCp9/22rRMT/vTxJJUaPQc1JdGl4F7U+zZ2T6tTcZBhqb16Vt\n/LjOL8KKlg60FhdZjWtPTo8WqfSbSotXxYQeKtgyjSXK7XseA52CRntkOSHQ\n8fzPgJLYGcX9iMrCttGCzRZ5jCfsA1Ywoi+zfyF1aKEFIQaiUiDIyPg6To3j\niCzpEvD/PfBI5vuzWQS9bt5A+iImfRMRkZx7TC9l/3Uu8JTV1Vh1auRaCg5F\nG3jReHLh3aUfftS1TjG/dpULX3GSKRszIPUpzkAxKiyrRQcQ7MssPLpdzMEg\nM5IwIbSDMcciQkWAI5xUmZCrpuKJdB64eFCcNAkgV/HFn/BF7hFaXJii8fFO\nNcyp\r\n=WGHY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.5.0_1543349025303_0.25836607837523595"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/project",
+			"version": "3.6.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.6.0",
+				"@lerna/validation-error": "^3.6.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"libnpm": "^2.0.1",
+				"load-json-file": "^4.0.0",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-project-3.6.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-pEOZF1igGFqs+qWog6cJWqVyBUX21xSqrlcgeN0yzqzI36VMHozmf/u7dgclIb5MylWk5Yp87KCKswBF4hrcuQ==",
+				"shasum": "b5dd2b94fae6f58478be1c53962c2570498867ab",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.6.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 19056,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwkICRA9TVsSAnZWagAAUQ0P/jt/N8WeN6WdwwTKD2KS\nS+f+UNN6+zL+McN1A3yY4PCpb2pBN6ial9lIQwskM0R6VxdWGpe3m6BiemMM\n90p7mqfHRGuRtzShmQEtw7oyeMilDv597azOEHI6+cAVaGQnYW4qw9HtdF7N\n7DypNOoBiQemn76twGW9OI9WLobaIaU11o1BmjatDh6e8+zm6XJifZvyVCwq\nh9ChKHew9C9hOaVHq7Uo/QRbs+DOXkoJYvspqYXBRTgjy9ii8BtpmhnJmsQd\nKSPLfCuDCG+9sC4uUhgJk35zEX1a9bLyLtgwXy/8SCiqoArlGuk1gAnPwuy+\niS8JuOL3Fy2Degye16XnSjk9tGf3BlrHTanv5tpqJXEMa9cj9v3LFWzb8f9S\nh75EEd8a79xt0SwUg0Qhc+sdsv+pUDkxDOINurR7G80HakA1Nuj85GCjrJfQ\nEKLg67tcBAeP+vuN1wu1xRYYZ27Jo3kJGyOV5V4omqM589wSXJyZwrSc4jIN\nJZ0Cdxp09RSvCvSuQqV0Bba8/LRyGIr7m6GOWIZcIuUtvqJSPkeBOp7Lnpbb\nfqL28u4IxOqZ7rBX/9xl76WkE2JSmUV8J3JNsBhHTZn11YGUqcPwG8ZnWAJS\njv7CS/dXG6omKPMZnSQWIlwxsl+JBLYkIwivVer1CZaCSW6FkXCfGtKF9OXz\nRe4O\r\n=huSg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.6.0_1544227079669_0.08775550783537334"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.7.0": {
+			"name": "@lerna/project",
+			"version": "3.7.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.7.0",
+				"@lerna/validation-error": "^3.6.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"libnpm": "^2.0.1",
+				"load-json-file": "^4.0.0",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "89b53ff2b561e69fad3a3e8671d7dcd0f1c09c3e",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.6.0/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/project@3.7.0",
+			"dist": {
+				"integrity": "sha512-W9E6biuuvPDA4j1H9AblyBcPRDm7tlEVLgIj/lbqe8q+fEi1qo2IR2b/zZVgKZ3dEuGAfwNmV+fT5tf2y+YWqA==",
+				"shasum": "b72164cf1e1c8910d7667d6f5436d75d32fd8269",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.7.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 19196,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGqfECRA9TVsSAnZWagAA5ycP/jl91B0Hl1uNEmjEbVR5\nnshj7p+mSFIXHNwjAiE/rLomKi2fHm/i1NoKPNwwN7Zy/T9ZtoXYoNi5KQMy\niR6iXXmf0iSLgT48GfCHrBDo1ld5GxlHcr7iKxY/52/31/1waI+Fds7eCDHc\nE/yui+hC5O4gvuFnICEHqd4ym6kBnyLaFzok7HiKRfIaYyrV5OdmwCt9haNU\nXO5mqzq9JWA/8vKOTF2znrmgT/CMJMURrguHhIEZbrq4B1kXLlgE70KM8oad\nB3VCFt/9QZsbSY4UGqh8TRsalS6XysK0JnDshSKdGGE7hmmKWvUIMCfd2uks\nMAoPxML9GafgQyDQNcWQJ4vdng2dVt1+vzLtF6lL7oeTy6+gzAhyAVIsjUwd\n+vkUQnJqHhC+mzRuDyC+eOiOOLbOjddF5mjiXNXbNq9ZoaeLfQoJxe9JBL3G\nkrHe/uFMm/uJZLv1fPK20iE3U2BS0fXNbNT7nGlA26MA/9FJ1Wl0AGkcWtPT\nB3mIvrlHsVYkVIb6qegCwPfNjenz1rnGN09zRKDU/JpeZFdY8Gz+0xtHkhG1\nQ96E3oQMid+6F3rSl+1vFBIGRfkXgAhhtO+ZmTsgBAcOnguwAeOPhInS7N+W\nqGZl621Yg/pz0jOXlCENwvn4VTohG+Pzx+Gyiy1HtT28GrU0QI8vFBcxHB+q\nl9PV\r\n=f/ks\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.7.0_1545250756239_0.15260480911131458"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.7.2": {
+			"name": "@lerna/project",
+			"version": "3.7.2",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.7.2",
+				"@lerna/validation-error": "^3.6.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"libnpm": "^2.0.1",
+				"load-json-file": "^4.0.0",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "52796f674ad3f2642270e942e96443437c54ff72",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "lerna/3.7.1/node@v10.14.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"_id": "@lerna/project@3.7.2",
+			"dist": {
+				"integrity": "sha512-YNJw61G4YrnwW0P1NAR/bd/kfDdK+WPI5YH10AHsG1TXBFV9hBusjB7MROmobYbln7zNWJJ3PQmXtWv134aaRQ==",
+				"shasum": "02315e10b6de85289e9388c0e260d8f12d246c38",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.7.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 19337,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHDyqCRA9TVsSAnZWagAA4XYQAJN56QhD+iKJah9COmmh\nBcXZ13/kjlVjYbkwOBBTgYQyQAp/tmWU2NSQbFEzruulpW89ti0ZiISFIZy/\nUUtfoAT6Gv4GOuhIXXeeVBiGtcCqRdzZM79iOOb3q1VRr8wCdX61DpjQMl1i\nuVVXAzy3RZp9wQ44ayNm1YR1O2CwkHrO2q+ciDk2UHcsKKP+9slk1YN7FLrx\nm67iqGCWAisI84V+nnAnNDwXICD3y+YgW4VcFRx4DeplUA/ddeydqtghZ9S4\nmRFBKv2ghu4cP+fqO2ybFuIm6x6l/3dVNxaBosiZBhrPyYj2I0u/tA+rnyCm\npJMnN3KNJvEgvSkRIDqhUV1Y6iXLaWz0LiLRST7nLDc5zt08Zf+i9/d/B+h0\ncw/XcovoZ13SS3AOeMgSRyixstOwcsesD4ATeNi2VwarVAEK+snaXwyZiTub\nTzIIwudPIfAO2r0A9dpJzF/mg1agnLp4HtZRUsD23IkLgPcUpTRap3KvVgUx\niAcdqfupmXE/AGD9biU7UHK4BaOcZUkDiC6PbV+2FK1K5BEuOBvFb7GCflEA\nBDxx6Q1wox/CjFgr8GRP6IfnWfn1tyecoIMFlG0cnpZbr9DZn5m9YTvfYpn9\nNWNVyTGVGni9wfycWzazl27o3aj8DkAlgzJnkFouNl7yof0D20kEPRvdVYjV\nJ9kc\r\n=e+zY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.7.2_1545354410376_0.825106853588873"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.8.5": {
+			"name": "@lerna/project",
+			"version": "3.8.5",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "^3.7.2",
+				"@lerna/validation-error": "^3.6.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"libnpm": "^2.0.1",
+				"load-json-file": "^4.0.0",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "9f5c824b2f15119c10003dcc709f3ca0da99a5fe",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.8.5",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.8.5/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-D0no5qrfKGxFkUOypUFCsT1iZww0ioW2zbwyUqvWal5ut/lH9+T7RLFxSKVfo+tuJTT0zqCITHBtsA3G/wwNDg==",
+				"shasum": "7177d74ad4a9fa6b709ae4f29d64951165332565",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.8.5.tgz",
+				"fileCount": 9,
+				"unpackedSize": 20207,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcMAYDCRA9TVsSAnZWagAAq3UP/1UBRWSeew5AwpvSbqV9\nHP6qC9CinlrBF098iDIXdNPY5+LzwYdxxm/EPZPDSan2KWvq3Kplmw8ytwZk\njmdb68MBYQmkmGsnP/VhRRP1ozzV2RrUZ5BU9NAgSwBezY8T88RDdeDgckz0\naG6JNLFEKj0LHuDAa0y7sYfZka+7Rik9P9M/ZBkF0L4fGNu/0rq0IZK3305H\n7fD48UV+jU3epoovbaZymAe65qKr2dOzII+sCL36CfZYBKRX04MGztC5ZSiv\n/+8dq8x4guoD4L+8DtEaha9Fs3RhedicsCBcn8oTnKUtbvviP4OHpuRAuUk0\ns9gwIimAEeDHG6li1vyYkiEK3ms9tii+qSElEfc6mkFmWr7Plvt3gTmvQ33Q\nQX826+G/JUMVK6kLGR+bDpFU7tZ3kjK+Yleyklon1fzcmRTN3dlhxsO87yHY\nBSEqbh5wfGDMr2+TzLyPyutV9Z4Bg9oU6Di5LX/YMNOp0eOk78ikBSyo2SOe\nd4htfesp4Xh/rHijHbnG7H+ftODBo9GylERhhzU1KAg1V7lpL3DJma1s8VdV\nC+DV1JWh3cznbXBbbX2ARSBWpOS1rGGbEg5LgIz0RIfMGWXxGRrLyxnq0t1O\ncvucfKTXgt71YsOcq8zqHmSzoZdHFIN0TFzr1IUm4fyxqmxe/bGisIJWpQYb\n7mjz\r\n=qGE3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.8.5_1546651138808_0.8808404764056883"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.10.0": {
+			"name": "@lerna/project",
+			"version": "3.10.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.7.2",
+				"@lerna/validation-error": "3.6.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"libnpm": "^2.0.1",
+				"load-json-file": "^4.0.0",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.10.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.10.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-9QRl8aGHuyU4zVEELQmNPnJTlS7XHqX7w9I9isCXdnilKc2R0MyvUs21lj6Yyt6xTuQnqD158TR9tbS4QufYQQ==",
+				"shasum": "98272bf2eb93e9b21850edae568d696bf7fdebda",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.10.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 20348,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNSB6CRA9TVsSAnZWagAAi6MP/jDTVD5ax+pLHvQ+omb2\nkNJGdDr6IclJIoAjU2c3uAck9+1o43KAHL/A7rjneOcPUGmWfvauX/WFWdim\nyp6WrP1vqVi900j/81av6/135VDJzuGdkpzcTlaaAERlDZwIrB7c6mJPYSa1\nsxKTProExgt5LXetYVMT0p0jZlCBmuW83m6O0pd2xawL0+lLXrgZpBQICz4v\nLahNaL384cgs7bjOd9k+mXRmSh8Ggcg80h/slrDF6kNoJCgnIQm/kMmig4Hj\n+KwWuXAcv/dnlTlclEgsnGBAvRAlia9aJzFRd6ItQ5c+EhJBLCE6uFnlilBq\nX1PrHsyQp700E/39J4nG8BghUEdHMJOB8hR9PYWgFu3RggwEVJ4EN1Em2/KF\nbHAnDlQlkxdM+gd0k/z7P5SFpB7zswpNfHjH3/6sPlFxQjAzJgLrlDCIK9ed\nqK9fGnAofBV6kWf2BdsRjyoXwoYegtCGKxVJpBoNjkXAx3Msj5haww7zHTjh\noZjVXgsLA4lQdtxpEwH59fzwDm6C8KOChpjygjo46nd1nTXld5bbyNmeER04\nDyIo6lwOvIqyYMhMlU9p4C2YVIK7K7+9POdXCVv2TdDWurBKf/CsmN+OVE4e\n4v/Vci2FyZr/SSK3zV9rptJaaR4x0os2GWxEtZbI1L+2KypVbc34VnJHllsd\n7QvH\r\n=7Coq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.10.0_1546985594055_0.49385922873965216"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/project",
+			"version": "3.11.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.11.0",
+				"@lerna/validation-error": "3.11.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-j3DGds+q/q2YNpoBImaEsMpkWgu5gP0IGKz1o1Ju39NZKrTPza+ARIzEByL4Jqu87tcoOj7RbZzhhrBP8JBbTg==",
+				"shasum": "3f403e277b724a39e5fd9124b6978c426815c588",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.11.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 20666,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN2FCRA9TVsSAnZWagAAIpwP/3jCzbK8bvdN5KQTJXsx\n58W3WUoofNnDgl5w0ja4owHJGQ6G4sctQbFyfhH5PabEAqfBAdtpOebjzeOQ\nERFYcbUWlFVQbguZ4Ts/gDq7OYiN3Txs92yLYe0qbzj+GjOxcsJRvExgHbwh\nm2f/GWLMh5mXMZAzGfEKOicSoiqyt/SI6TTko7U8MOqsRBzBthxTSXKzDw3L\ncFAjqbdqxmLUFOV61tQ0AJlU901MIRBaWrfQ/odvitK59lMTr8n991f0579a\ntm6CttcIPuze7TetnET/hpYGPr3iUX6SG8Wx2wUbQ/nuW+ZQUVxm5axcEH1+\n1qwx9S2CpVo++Rq+jzX6HbdUmr6lRuvwdL5LOWTIwMwMm56C1fTQ9zaA3mSh\nFjezw/wdlgDfSsL7DMcS3WofvGfVL1oB+p6dgKoG0X1dqPjT1rfz8a7NT7lK\nKYJ+nltVBJecttVJBeyeJ785qkXJh0CtLURYd0MH+XPF+1GEAmoEXt9pqIwI\nGD+jJnzLZpclilMdk3QUZTX2+zkLAwMLJ72up10pMGRSTef3ZW63gLMEJw+m\naak9UVXkU8StjXUFElXFigwu0peCKNzN2IBk9Bv4h5C9RE4GivMdz9Vk/ndm\nQAEZPdhNxB+sk0LXzMQwvtDIs/Jh08WK5C3KOnDTaFk4x4NTzpOEsAA0+Wtv\nSHJR\r\n=kXbq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.11.0_1549589892753_0.36625512184933706"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/project",
+			"version": "3.13.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.13.0",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.0.2",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-hxRvln8Dks3T4PBALC9H3Kw6kTne70XShfqSs4oJkMqFyDj4mb5VCUN6taCDXyF8fu75d02ETdTFZhhBgm1x6w==",
+				"shasum": "e7d3ae16309988443eb47470c9dbf6aa8386a2ed",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.13.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 21065,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhrFCRA9TVsSAnZWagAA0TAP/Azrfrat8ULt60PE995Y\nUTKB64SIV+VoHzvWwYvViLObAWdCixqjEuF/uBGosynLNkWZlh5Oni1IdPS5\nsGCDI1tnbXeVRDle+1yE5K5qj9p2aUDlZqctGbodL8XW9TRzykfxjYrAkjvD\nm1OMZV1EuTFrSmf2jQhGLjkuK++fdBGU1xqa7zZD6GMwKyIWkdRxBlD0qpXi\n2ZkOwAnX+dKOikjAghNKdax+/rJ2JEWx4ea5d5M0gxqsmO2LfRSC0Ddnjb6s\nw+iJ0RHc03uADAF+5+Zvf5Y//rwrezAn4VAHUlIQiv6aMuOV/fhBDcsoFhsw\nSe18rYsNmWrm0ZsJ/XhTs1W8Qp0raQj3NNe62hj6ydw9vNSKYFz2OzaWWl1F\ngDATPnGS5BhBTen7Tg6zW0SDzTnm/q1fwinAysCsY3Ci6Hl8QsIWda0sAwNB\nCv/vgFhUxuMLcC0i5C8yLjoiUpjd2ocqD2S5YbmbjuE5zkx9XHCdDrBX/gD7\n7/ykJKP8yoJbR52CCnu8R5/CA03BH8JhWTmfru5DKZHru4bC5S090zwlP7bn\nGDg5o6MjxW4O0VPetvtqq/TSGQjBg8PnWF0q/FMp+QZldjh8xMm6xRqY78BO\ntZuhrZhg/y+RTB8vSqlUVRRgLcBYYnbFLqdmm63qPbNUu5MXBlzZotGxRTFg\nWo4p\r\n=aQ4Z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.13.0_1550195397041_0.2414746918662365"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.1": {
+			"name": "@lerna/project",
+			"version": "3.13.1",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.13.0",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "514bc57a53232adb90a2bb4b03e1c08d709997ea",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.13.1",
+			"_nodeVersion": "10.15.1",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.1+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-/GoCrpsCCTyb9sizk1+pMBrIYchtb+F1uCOn3cjn9yenyG/MfYEnlfrbV5k/UDud0Ei75YBLbmwCbigHkAKazQ==",
+				"shasum": "bce890f60187bd950bcf36c04b5260642e295e79",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.13.1.tgz",
+				"fileCount": 9,
+				"unpackedSize": 21260,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcdbnkCRA9TVsSAnZWagAAgkQP/3sz51b0ioM62ehuiknw\nH3RzJSfvYkYigEkrVPYL3E0Y+179ZEDA4iZj5MoftSQeVoNaUDi3lUff1H/f\nBA26QWyoz1rt8DaV9fjDzn+l9O8WuXnujElbxQFGXiss3n5gpoUDJ810DO44\nejuYUUUiEpxdi6bPZttYR3zqjie/HpIhPnuI+MxK2aESe1xeDAhQFfZGtD5l\n4zHaMnt5McYOadUnVZgTTo911JKRggD9XYgtO5aLZnc2o7kXp/IZ8pmNm57L\nXTXUflgVsSLVsRu/ipveZjv/yprLUxP2j5TJb/9k7bODaOrMIZjTkB71B0g6\nnuY+cCyZRjqhfY07h/QnxJyJq8sVxsNziTZ8Q6UF1dWg9ngltPB7KLKdNb0a\npqr1aQ4+ujztUj/mrS+wy5j5dSPpnAc6j5h8uGv3wCH6IVpzWlFoNNPRsoJY\nuNYS5+90aRGWkXXgV8s0p8Y99BHgAQXY29yrpvK1VipAXGwmjeM2lfFFwa/V\nGbRuipKwZ6762FJNg6sjNBoHVwKHWDl5Gfs0CRa8hx2PMDyorjQ3DvKh9wHT\nZAEBvkf+HqWxBWfXh5EgQO6nGyXrhAF25jynV9Y2jRRnYrVB9Z34jSOMTU6S\nG2W22YqoVL3dV8VLSAgzacGG+pY8YBmiEMGxFJSzGtkBDn545tnd8dPSXCJa\nf2Vt\r\n=l4e/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.13.1_1551219171466_0.8892712208486528"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.2": {
+			"name": "@lerna/project",
+			"version": "3.14.2",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.14.2",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-oWkkyLdPzy0wTGILDjCbkMg3qGOE2PIaiGDifG9LAgp+Xqb7D5Qu0esSqctKDktCu80sjiC7yWudqGAQ0aYeGA==",
+				"shasum": "b52a44fd6d54e880e6530b37ae64b75af115074b",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.14.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 21404,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkbCRA9TVsSAnZWagAAu4EP/3/ErcqNupUJM6DmZ6Oj\nrB3tPnHQcazWRN4ike9adExJYkHCdAufvAEvnv1r9Jl1nxaNKH/Ll3tQi+YB\nFyml+HLc+tqcmqAOaRlfMlWojF+IKuvR3rb7yU0xpDZmeJkOkFFFgCLboN6S\n693D4SEIGXS/RYEcfTSndqQErAlu6VGiblUuI6SZQb3/SHQ1kUvAsoi/x9V+\n/1E1TeaiSi6/RDKo8N2XCPU+FBXxCfLQfJZHNsEO5T+yqapyOHy/z527/y22\naKlT+xwjeTrvtLd6MGxP9cB8CgbCjfvI4XKeLDEf0gitInY0zAuTQ4Rj8fE5\n2Bj3eXLTjHbhrJquc6+MO/48eCxRBrgX24U1v03/Cyat4AcJiGkF+DB8NhIJ\nnTxTKUH83ec2ed8230lhlphzGtrF+HYYEhVjYxsPHagvSonYJnAl1lPEiS9+\npVI5Vj1cSHQzyQJWPHRC7atZEn0EJ1UP0JSUN75HUuJV6VGXaUUHVT07UoQQ\nqE7r3j144YQXAgSYi7m2eXbm6grIxanX1SNEUItJQ+KNyiy5HGab6IorzsLF\nPru3Rdlm5/4d8svo1PFxfyQAEgq8dDextDiTN7UjQvowNLn/8Qw2hNSzWhPd\nw+lPY0t7YwX0dhL/046cIHFLnNKQqrqItM3OVi6+yMhAXEXs6UdnGltiTg9g\nIs2r\r\n=+ygT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.14.2_1560119578425_0.5504932539685237"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.15.0": {
+			"name": "@lerna/project",
+			"version": "3.15.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.14.2",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^3.1.0",
+				"globby": "^8.0.1",
+				"load-json-file": "^4.0.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^1.2.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^2.3.0"
+			},
+			"gitHead": "457d1e8a62f5caf0679973ae8bad564d7752ffd2",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.15.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-eNGUWiMbQ9kh9kGkomtMnsLypS0rfLqxKgZP2+VnNVtIXjnLv4paeTm+1lkL+naNJUwhnpMk2NSLEeoxT/20QA==",
+				"shasum": "733b0993a849dcf5b68fcd0ec11d8f7de38a6999",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.15.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 22812,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/ZQICRA9TVsSAnZWagAAXRsP/1xL0tB4CJoqhG1CZ01A\n574RFRWBcb9RuWAFw2CtYoV7wueyI7qnB0tofR5kQ8El0JTl2a0fAf2BLO2a\nHQGYuPV7+mBmIY20ohyMwMtNS1DwipGaJ51mxoJtMuqLAB7zunYk8XyW/9vt\nu+wvhPY6QNINJeY5HBU82Zype7gUWf7TLSAn5PXzwwXoDnPar4TuDZ1rgxWn\nKFuavugaCxzMZdlj/6lfIchCs7jwjn2WfEi15J4sx/VkTONTxw0ubTdp7Uuk\nnDiKf28TBq4gVE6RCjPZ9XuZKO6DpidvzCOhl5DD66ijJpwCUuRqeEALbLyb\n5vREKxIAXknPOECC1V1q9LQTJivSAFsqExkekncyadfmuaTizG5vraOZtfBa\n86A5v9R3QpaXma7Ho0iL7ztBpkbqOWSoc96Fs0JpoX6rskZz9HpC+ePLYFDH\nBDVENLOh5q2iGhJnBJR67xV6lI+zz8RuM6hnnht3jgP/LDZMyENZbmzGekl7\nf3ZoAknlGsBx1w9B3dRLNaFUCPI6+Ljec+lwmw6dCH+oMbxVtcC9kFa93B1H\nFs/YPTM0csEmuIKg8p/L9mru2fQoPTVZYW8tVsO3t4L5twm/zUiUkU6IB9X+\nZnmPZZxrOI9WIL+HMT6pXQ9nAH1V4WV4REsVpNN1tcMC7p57bZ6/EhMHCI2/\nu66G\r\n=N4/V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.15.0_1560122375703_0.45223887472138014"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/project",
+			"version": "3.16.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.16.0",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^5.0.0",
+				"globby": "^9.2.0",
+				"load-json-file": "^5.3.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^2.1.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^3.2.0"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-NrKcKK1EqXqhrGvslz6Q36+ZHuK3zlDhGdghRqnxDcHxMPT01NgLcmsnymmQ+gjMljuLRmvKYYCuHrknzX8VrA==",
+				"shasum": "2469a4e346e623fd922f38f5a12931dfb8f2a946",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.16.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 23736,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRRCRA9TVsSAnZWagAAE8oP/1TTmeIkHi1yT8pR0l2W\n9nu/thyco/wN1CNPCb+0JbPXrs4ivbbupsoUZaXrOBr/9WYqtC6XqzGAOHNj\nXyckm58KZJy6lz812J5R92H7bmdNkPLhq++nPwPJ3HRpk57CXgmxa+/VCzzB\n3bk12CugDXaE+ihHBlM94KTHzFjF8LP3sH8czixaJTWxcRDlukEoKxW7DEPN\n31dr9boRGgk/mXL6w4zoYikgeHgIE8aCtrj+Kiax1HBnSkzGbedDqAkF6JEp\nrnpIOAY5NDfpcB6LgATgfzEL6H4osM4FdYvyCPUQ2PXkQi3M9tT0M1KUbVf2\n85MmcW29ZuGjLwlMuULim3e75K4LQg8Rl7y6wna8qVY9NbxZyCGnvToxgzyo\nBlDORDy8QI5rZMt0Ge/F0Pkx48LZoEv2eukyU3tGYeZ/QBQ8T1yVLoHL+vjz\n5Ps9p9CV4VZmAkOoBz+gplqfOGUyJBG4LlWHCO5ay8Z3WD0aL4gx084lRvUH\nMWyGv9AnvaGOr2vxxcfHglGEhLNAbcZ09tUjGShC9XL7Og4Ty9n2xB81Cevh\n7MA/OSPoPYm44baPb44twsnoGp3KoTPyV0mQUfKHrHWG4cE8VCK+2BSUyFjD\nmVppTZ1kI/RcxFpXW4LLHRZMi5fYSLB6/R3ccz5n83zzXo8CmqJu+aLaCg2R\nnb8h\r\n=+K4w\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.16.0_1563493456926_0.7537094998932019"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.18.0": {
+			"name": "@lerna/project",
+			"version": "3.18.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.16.0",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^5.0.0",
+				"globby": "^9.2.0",
+				"load-json-file": "^5.3.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^2.1.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^3.2.0"
+			},
+			"gitHead": "0ea8fb136f408fb4de3fd39bb7069d976235d53d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.18.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.17.0/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-+LDwvdAp0BurOAWmeHE3uuticsq9hNxBI0+FMHiIai8jrygpJGahaQrBYWpwbshbQyVLeQgx3+YJdW2TbEdFWA==",
+				"shasum": "56feee01daeb42c03cbdf0ed8a2a10cbce32f670",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.18.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 25091,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdpiZiCRA9TVsSAnZWagAA1GsQAIqlWSY8PrkvfzHCRpJW\nByIYNVsajjqGBkKptlMVniJQhYVDpw0F46Auiosl3hHqd6vhfTNQt7M/Xf4Q\nkTffb5LDU1PjpngMhyiNzt+P49SiecQyCtN+XbqKQC/pZZcW8KmXL+Kp5HCm\npmn6mjgUtcQXy6eh42RckeCmE4p5Cu2eZmHCdedb8B+3pmYtE8TnTlGdmCed\nLsAuqehuxY6GkxZv8qBuCEHMNOLiuyOZhyqBjg+n/YT2mJOuzsMv788Givsq\n7Cv55BVUyReppN53ldBOhll3yW6umfgb6C1wFHts5rWHlP94ypek77Pm/mRN\nr1DGEXN5T9NiHVwXeIFsgPUhHz4YuIgo50xlBFXiOKqJYcO31ALvKbOAO49X\np1RqxTJPATiU8+EBNJvmXfnstm/TwcH9GDfxtUwGJYpVzHIaYFeI0VQlfr3J\nlsh9TpUbGjXZzks8Zj5DYvo4TQwUB1WJ8yugnLZ05Uw5Oz19bgFTozbDEmub\nb8vcnqI7MDpDxopKmN6rYsJr2iXzVlZS4Bs1uH2S7WrMYY4cpR60Og8Ncw+2\n6Is0xeDcJ9EJeYOFFBHP+tWeyps43BDQzPoJtW8EZUaNVeRcs6dJJOtI40hY\nGWAaFRkFAqtyItZVUcCT28UHeP0ljtwk/xtvrU8v2fsCFM4xFBuliYKnvR4C\n+L8v\r\n=AADY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.18.0_1571169889602_0.3284508518859792"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.21.0": {
+			"name": "@lerna/project",
+			"version": "3.21.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "3.16.0",
+				"@lerna/validation-error": "3.13.0",
+				"cosmiconfig": "^5.1.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^4.2.0",
+				"glob-parent": "^5.0.0",
+				"globby": "^9.2.0",
+				"load-json-file": "^5.3.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^2.1.0",
+				"resolve-from": "^4.0.0",
+				"write-json-file": "^3.2.0"
+			},
+			"gitHead": "3367257cabe1540a3b9468acbfa0d01ba391077d",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@3.21.0",
+			"_nodeVersion": "10.19.0",
+			"_npmVersion": "lerna/3.20.2/node@v10.19.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-xT1mrpET2BF11CY32uypV2GPtPVm6Hgtha7D81GQP9iAitk9EccrdNjYGt5UBYASl4CIDXBRxwmTTVGfrCx82A==",
+				"shasum": "5d784d2d10c561a00f20320bcdb040997c10502d",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-3.21.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 26412,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeu0RoCRA9TVsSAnZWagAAFMcP/jM1WpTmFzeTc1Enxm5m\ngcn3UL/4bt5A53O+oA3fv7AqHbfknqa2tijSt8pQn0PRR3+I9O0FCGvUcosT\nlK9r/guxnntVtiwO4dUQemDeoa4mQZZUEyzPHU94fYEI7W7B+nFWiR1hxXFJ\ndzFLZa8NW4xa3Pa02vXrhFGRLfcyb85TMrqRIwBvo+zh1LsW4UaZ8eKeVqQD\neufGqqTWgOWpxc/M0QANo05QlYFBXi+3HK71d4JWr6lUdCi+0AI86aXNoIgO\nYhdzPQm9mubTWQ2Zoe5VskSQGZkSvCUW8oecQA7uNFjc1esgBQ6nYPCBVN3U\nGvEnDuOrnu53qSbArpjTgJ2xxVp6GPXDgV4iZBjndRV0g13Op8GKu6nK9No9\nLQimE+ZpN9C9ielSw0kH8vDxVtEOcoT8U8Edlhv1E2q8MBu25TpPy7lU8Stv\nWhXDecou7Sv3bW9Bj1n+8yqaOTHjGIiWBpCSXAtYIlE/+VNOpz3Hs3aVGnEK\negW8FE9WkccnThRIOn72EWsARa1zmJXWYtxCVldeCDmccsR2loUOSz28KG6V\nqeV3amRb/zT9CB00sPsVkJo5sQUAsEoY7XZaFWZjj9VqiVYJ+mHHk0eYv9pI\nQDM+nyarOWcAxtf//5RInoHDcM8mb7/PwMXt2PqXZRilReMyU46O73TeWFmy\nYEEL\r\n=M4dm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_3.21.0_1589331047891_0.9288288308945647"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/project",
+			"version": "4.0.0",
+			"description": "Lerna project configuration",
+			"keywords": [
+				"lerna",
+				"core"
+			],
+			"homepage": "https://github.com/lerna/lerna/tree/master/core/project#readme",
+			"license": "MIT",
+			"author": {
+				"name": "Daniel Stockman",
+				"url": "https://github.com/evocateur"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "core/project"
+			},
+			"scripts": {
+				"test": "echo \"Run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/package": "4.0.0",
+				"@lerna/validation-error": "4.0.0",
+				"cosmiconfig": "^7.0.0",
+				"dedent": "^0.7.0",
+				"dot-prop": "^6.0.1",
+				"glob-parent": "^5.1.1",
+				"globby": "^11.0.2",
+				"load-json-file": "^6.2.0",
+				"npmlog": "^4.1.2",
+				"p-map": "^4.0.0",
+				"resolve-from": "^5.0.0",
+				"write-json-file": "^4.3.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/project@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-o0MlVbDkD5qRPkFKlBZsXZjoNTWPyuL58564nSfZJ6JYNmgAptnWPB2dQlAc7HWRZkmnC2fCkEdoU+jioPavbg==",
+				"shasum": "ff84893935833533a74deff30c0e64ddb7f0ba6b",
+				"tarball": "https://registry.npmjs.org/@lerna/project/-/project-4.0.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 30066,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGE8CRA9TVsSAnZWagAA9OkP/1DDH/+STDIX3ChOXQYZ\nK8j8V88jLzPrU07psFcu8GHuQlmyN7ToVg00wOooBvbC9L9M5KE7pUXVbo2g\nDXIJ7cl2Rhmq6lfnD2smwRcMKq5NaFto+YXyHySkcgDkfHgbAN6eoijybduL\nFXi8L8yaz6W5wi1IfzKtyOwsNU/YeL85rZ7T4uLwB20wHwOOES4juO1WU3zA\nUzUShFmrjcJmo6GFP0RJCwVyg01pjtjsYnWOwGFcwWlWUf+bVXzXEd6k9cxZ\nLvfxDZOjATChLPa2TmDLkXY3m4UoNPywQUiD5SRgMMfTmh39XajbvxiTUSAs\nYUi9bUkEi/EQsBjm6fJ8YKwmKiDfSyxDTgVc1aOdNCX576rX5+XsPlBvQV94\nt927ZUqcxotIjgeseMu45OzT2vdusWUHjhZNr6/QxYW+DyYjG9KUUYFreXOa\nECnau2FQ7cxs59JfXymzOllRvImQRYSCari/+nAtMTnmGCts4D9wqn5jeAaj\nR4r3i4Z3PV+S0YqwdAQoRtorBpXnlncsSHWJ5bTRfJTBjGfKINpcv27NM+mQ\n9sfP2wK6C0ARI+ziZ+e5l+FKNmtHqYI9WWPM6l306Y4kmX6Ma5CkKBRRqVXu\nTHRzu8Lbg+X57QkrDXQ5t47OyYGLSzzOybKtqtQSUHICKgPZiuwsYv6w9y+5\nnXMJ\r\n=xcy5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/project_4.0.0_1612996923537_0.6471751932161565"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-07T02:14:44.539Z",
+		"3.0.0-beta.0": "2018-03-07T02:14:44.884Z",
+		"modified": "2021-02-10T22:42:40.919Z",
+		"3.0.0-beta.1": "2018-03-09T02:50:41.756Z",
+		"3.0.0-beta.9": "2018-03-24T02:10:23.304Z",
+		"3.0.0-beta.10": "2018-03-27T00:08:34.393Z",
+		"3.0.0-beta.11": "2018-03-29T01:37:11.645Z",
+		"3.0.0-beta.12": "2018-03-30T01:29:24.028Z",
+		"3.0.0-beta.15": "2018-04-09T23:33:26.895Z",
+		"3.0.0-beta.17": "2018-04-13T01:31:50.655Z",
+		"3.0.0-beta.19": "2018-05-03T16:55:17.116Z",
+		"3.0.0-beta.20": "2018-05-07T23:33:00.020Z",
+		"3.0.0-rc.0": "2018-07-27T01:36:01.582Z",
+		"3.0.0": "2018-08-10T01:14:59.869Z",
+		"3.5.0": "2018-11-27T20:03:45.478Z",
+		"3.6.0": "2018-12-07T23:57:59.843Z",
+		"3.7.0": "2018-12-19T20:19:16.314Z",
+		"3.7.2": "2018-12-21T01:06:50.470Z",
+		"3.8.5": "2019-01-05T01:18:58.967Z",
+		"3.10.0": "2019-01-08T22:13:14.170Z",
+		"3.11.0": "2019-02-08T01:38:12.904Z",
+		"3.13.0": "2019-02-15T01:49:57.151Z",
+		"3.13.1": "2019-02-26T22:12:51.615Z",
+		"3.14.2": "2019-06-09T22:32:58.537Z",
+		"3.15.0": "2019-06-09T23:19:36.043Z",
+		"3.16.0": "2019-07-18T23:44:17.072Z",
+		"3.18.0": "2019-10-15T20:04:49.794Z",
+		"3.21.0": "2020-05-13T00:50:48.021Z",
+		"4.0.0": "2021-02-10T22:42:03.708Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3d7a2a90027954686e18425c81f339b3\"",
+			"fetched": 1613881358791
+		}
+	},
+	"_distfiles": {
+		"project-3.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.0.tgz",
+			"sha": "3109156c8cb52e97a242ff064b416acaa5b43749",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.1.tgz",
+			"sha": "8eda0d54077a3c6ea1aea39742671bc9fb57938a",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.9.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.9.tgz",
+			"sha": "f6750e7a2a341e6040e013a1c5ee1d3c50a9bc1e",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.10.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.10.tgz",
+			"sha": "4ea50e22a3e2eb2295a349a4680ee2458498a44e",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.11.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.11.tgz",
+			"sha": "3c295f95671e93093bd467ec15f74734a5c21fe2",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.12.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.12.tgz",
+			"sha": "38a5160fe6b42407092a70c2dc96e4ba941fc3b7",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.15.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.15.tgz",
+			"sha": "c1d8b205eac7acb08f0d945d1b93ec3d22f10812",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.17.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.17.tgz",
+			"sha": "d65cdb0f9daec160453116813a994f46373545d6",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.19.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.19.tgz",
+			"sha": "7acbddf9eeafdc58fb36fbc05d6f0da9e2558472",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-beta.20.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-beta.20.tgz",
+			"sha": "27a0330b7b13d8eebe9266f03eb60de94b15c86d",
+			"registry": "npmjs"
+		},
+		"project-3.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0-rc.0.tgz",
+			"sha": "82c9194e602e35b5574d6d238da33a537fe8b160",
+			"registry": "npmjs"
+		},
+		"project-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.0.0.tgz",
+			"sha": "4320d2a2b4080cabcf95161d9c48475217d8a545",
+			"registry": "npmjs"
+		},
+		"project-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.5.0.tgz",
+			"sha": "ac5c7b3c49318552b29ccb7a471a657fd57d3091",
+			"registry": "npmjs"
+		},
+		"project-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.6.0.tgz",
+			"sha": "b5dd2b94fae6f58478be1c53962c2570498867ab",
+			"registry": "npmjs"
+		},
+		"project-3.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.7.0.tgz",
+			"sha": "b72164cf1e1c8910d7667d6f5436d75d32fd8269",
+			"registry": "npmjs"
+		},
+		"project-3.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.7.2.tgz",
+			"sha": "02315e10b6de85289e9388c0e260d8f12d246c38",
+			"registry": "npmjs"
+		},
+		"project-3.8.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.8.5.tgz",
+			"sha": "7177d74ad4a9fa6b709ae4f29d64951165332565",
+			"registry": "npmjs"
+		},
+		"project-3.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.10.0.tgz",
+			"sha": "98272bf2eb93e9b21850edae568d696bf7fdebda",
+			"registry": "npmjs"
+		},
+		"project-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.11.0.tgz",
+			"sha": "3f403e277b724a39e5fd9124b6978c426815c588",
+			"registry": "npmjs"
+		},
+		"project-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.13.0.tgz",
+			"sha": "e7d3ae16309988443eb47470c9dbf6aa8386a2ed",
+			"registry": "npmjs"
+		},
+		"project-3.13.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.13.1.tgz",
+			"sha": "bce890f60187bd950bcf36c04b5260642e295e79",
+			"registry": "npmjs"
+		},
+		"project-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.14.2.tgz",
+			"sha": "b52a44fd6d54e880e6530b37ae64b75af115074b",
+			"registry": "npmjs"
+		},
+		"project-3.15.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.15.0.tgz",
+			"sha": "733b0993a849dcf5b68fcd0ec11d8f7de38a6999",
+			"registry": "npmjs"
+		},
+		"project-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.16.0.tgz",
+			"sha": "2469a4e346e623fd922f38f5a12931dfb8f2a946",
+			"registry": "npmjs"
+		},
+		"project-3.18.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.18.0.tgz",
+			"sha": "56feee01daeb42c03cbdf0ed8a2a10cbce32f670",
+			"registry": "npmjs"
+		},
+		"project-3.21.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-3.21.0.tgz",
+			"sha": "5d784d2d10c561a00f20320bcdb040997c10502d",
+			"registry": "npmjs"
+		},
+		"project-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/project/-/project-4.0.0.tgz",
+			"sha": "ff84893935833533a74deff30c0e64ddb7f0ba6b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-c6c1d4dd39dfc634",
+	"_id": "@lerna/project",
+	"readme": "# `@lerna/project`\n\n> Lerna project configuration\n\n## Configuration Resolution\n\nLerna's file-based configuration is located in `lerna.json` or the `lerna` property of `package.json`.\nWherever this configuration is found is considered the \"root\" of the lerna-managed multi-package repository.\nA minimum-viable configuration only needs a `version` property; the following examples are equivalent:\n\n```json\n{\n  \"version\": \"1.2.3\"\n}\n```\n\n```json\n{\n  \"name\": \"my-monorepo\",\n  \"version\": \"0.0.0-root\",\n  \"private\": true,\n  \"lerna\": {\n    \"version\": \"1.2.3\"\n  }\n}\n```\n\nAny other properties on this configuration object will be used as defaults for CLI options of _all_ lerna subcommands. That is to say, CLI options _always_ override values found in configuration files (a standard practice for CLI applications).\n\n### Command-Specific Configuration\n\nTo focus configuration on a particular subcommand, use the `command` subtree. Each subproperty of `command` corresponds to a lerna subcommand (`publish`, `create`, `run`, `exec`, etc).\n\n```json\n{\n  \"version\": \"1.2.3\",\n  \"command\": {\n    \"publish\": {\n      \"loglevel\": \"verbose\"\n    }\n  },\n  \"loglevel\": \"success\"\n}\n```\n\nIn the example above, `lerna publish` will act as if `--loglevel verbose` was passed.\nAll other subcommands will receive the equivalent of `--loglevel success` (much much quieter)."
+}

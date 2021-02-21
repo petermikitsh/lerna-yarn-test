@@ -1,0 +1,1219 @@
+{
+	"name": "@lerna/check-working-tree",
+	"versions": {
+		"3.1.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.1.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"files": [
+				"lib"
+			],
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.1.0",
+				"@lerna/validation-error": "^3.0.0"
+			},
+			"gitHead": "7f97c7bca038c690e2dd5d897e222fb5bca0a5e8",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-check-working-tree-3.1.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.1.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ruy6s44IUcaPEa4JlDDDk6nbacMESUPRSb+dohzLJxfhXx1wFnEVF6L91TGxFP+C0lt5V6zd8rnJxkW/uZzNAA==",
+				"shasum": "5304c58190bf6ad97b4985698ab9b5eb9a38a14e",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4039,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbd0G2CRA9TVsSAnZWagAAOagP/2l1NHm0qkXGFTniSkh0\nin08XwGepYGuo/eGiAGCCm1UIiQLrLhCirvKL5WZu+KQ5pLM3Av7c97E7mxC\nYp8Tdj+EgrKPi7gIEtMTHArLRjgjq8aGqimxt2hacPmDGuMKk1YpcWbfabbK\natnmFDy+PueoC38Bl4mK9m7KrN5gvWwkZ1WMlZFCPj2uTiQWapDdP5zcbSJq\njK8vaQxKsSmJg+gBlqifuLVMZCXlJyLxPBYGl8ZauXOrI79RcM/zgZmr8fCC\n/3NRtNfCC8K3XzJuc8AYtzNUBhb8eKO8KiWNUA2xwAdPCvnaBiTK3WzLGeBY\nXEmUwJIyr97JPR19OQUARLjvz0y84nMcNaCPABTn7GzpMCNjNi8jYgrmzCr0\n29+7fHUDaGKC6nVgdLFQenn7ZNo38CD4Gdw+kzQljnYA5Yn3YzO1AeLEHeQe\nvtY89NyB2QZbyEPC2xJ8sGuQtT07buLd6MkAg+qP+SruskeQlWxssLRFzPpw\nI2OYqtsQh+nuxtXZ3b2e1jg7CLgFjijv2qQHBilNo0IRqeDPjaY7w9mDj1Pd\nHnQZ/G1dUw4DRQdZmaUVYwtWGVLvaFVeVmqgOstfU+t5Ip7FEM2Hry/Vae9F\nU92xeARQve3wN4fyXoHiAfSUpEOSGiZ281PXKe7j1NXSfwVuCHaaPWmZLQ4S\nTMRY\r\n=YtKc\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "gigabo",
+					"email": "gigabo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.1.0_1534542262397_0.4234823593424104"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.3.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.3.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.3.0",
+				"@lerna/validation-error": "^3.0.0"
+			},
+			"gitHead": "901e6d54a47151dfed3d6ed2912804b97d05c6b5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-check-working-tree-3.3.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-oeEP1dNhiiKUaO0pmcIi73YXJpaD0n5JczNctvVNZ8fGZmrALZtEnmC28o6Z7JgQaqq5nd2kO7xbnjoitrC51g==",
+				"shasum": "2118f301f28ccb530812e5b27a341b1e6b3c84e2",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4195,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkIPUCRA9TVsSAnZWagAATtgP/20LPhP6odETXVK3Hn4S\nut1GR622rw/CJKd14iG6e4NOfRfgP5X5pctZWNhEObQ2Z4J2vXtp7trkSnFG\nAe92FN+BBSJgvd0mSK38R5ucPMF6w1hZNIU5rJM8cmzh3FWSJTpbowvd5+4r\nhG8S2j8CSiip87WoX9/mcKZc3kNFQ8WxUr92TIFS5f1cqvQe5zwrHNiFWEh9\nHXCKAY7s305GSbmmibQiWbJHFQ47Rw/FnuPgknKctFrp5Jet8LNdwgJ8rdo2\nIipi8gJzYx75JTaQprfYzea28jRnK2anxEzRRe8w2+tAfBqz8osyGWC5JZK4\nqJ8fGolRq1JAcY+XrzyLmuyeUQSsvDruNC2PakOjQ0SEw3F6T3WbY6kdM9lW\neKWQjX/RgRd5SZ3lNHtK/BpTGHuBDQG1qXjIihWCgt7WhgDy2XqmbuSKv36y\np1nOaxCHJzcweW9B1G4PYKZFwdsXjWtKzS9yTTUMyH2tuF8ImbYwmnl4Cm7p\npOtolaljKdGB6QM8k0fVfIzXz1s+xby6nKu1N63NyLr91UlegVoaI7/hXmmi\nd5hKovV8zIJhgMr71AkwwiznrO1MjZdh/O/nr1H3OIbTkEFCAWR+B69jto7G\nTLxSp5BOHH77kOFBd5eI8vsQDbv5LxJmhU2z1dNT2cG86Gc0sqO7uambIWjd\nJFW1\r\n=SGNW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.3.0_1536197587439_0.8868676696660642"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.5.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.5.0",
+				"@lerna/validation-error": "^3.0.0"
+			},
+			"gitHead": "1c142db1ecb50120f0ddce8ff8a7d9cde1bee278",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-check-working-tree-3.5.0.tgz",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.5.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aWeIputHddeZgf7/wA1e5yuv6q9S5si2y7fzO2Ah7m3KyDyl8XHP1M0VSSDzZeiloYCryAYQAoRgcrdH65Vhow==",
+				"shasum": "015f90247fa0b44a940eab0dd6a9da2ae5b8f455",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.5.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4346,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/aMrCRA9TVsSAnZWagAAjvYP/jranJGLJZBQ1tCEF/HV\nsFdLgJOHIORBuFaa0ObATkGeobALjtttzUV9eWK8Ens598iTvDAzo+wfoLLW\nwZynxN3hssIKLlRqVZS+JpkL3rjQgw9yUkfx92womIuhO7d7VQ8NIPoPKx3F\ng1hYjhghoxbVM5N4ccxkPoPLetgNRV18TPG+CjmcjP1m3iiUc9t8D2JtZS45\n2JCfQ2lxcHSVzofikuf9To0tNidBsapAjbEwlTXKoTVw67WZGY9asK6h0JYx\nBuxZbqg9sgWC6snf4tE6Bq6QUhrIqPVacuDKcEct0r7IMCRM1hr8p+VEJh5q\nknPe5pkWwK+XmPQRP6sSWxmRXze1DOphlI3rSCtljX4D3faImhFlPGNUxA07\nHlPvBR4FUIyXJPFCIO/lzGINbMTn/kyFA9BpF6lgZkCRwvlruj0JFdxWy81r\nM1dACHIn4DywF848w8OAt4rx4+X9LdEjteP5QkM8K8CYKfNN74b10IpjdNSI\nrfDr86XTFpgIsWIOHuu09Z0wKHTDs3MJW8XKIQd3+nTuDaEy/HQcvN8LpSjB\nCtlEBkqK9+U9N5lPeJf0gy/Sc0EKeXkcALIjqdXszblUixUVLgw36Y9bWLWp\nHd8Q75Bi8Z20vDzY8i5nVPUMBZoyfE5kr8gvKHjVd+8ZvHui6XWJ6YY1L4C2\nZO9Q\r\n=7pxA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.5.0_1543349031710_0.3103937283144722"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.6.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.6.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.6.0",
+				"@lerna/validation-error": "^3.6.0"
+			},
+			"gitHead": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:lerna-check-working-tree-3.6.0.tgz",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.6.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.1",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ioy1t2aVasAwhY1Oi5kfpwbW9RDupxxVVu2t2c1EeBYYCu3jIt1A5ad34gidgsKyiG3HeBEVziI4Uaihnb96ZQ==",
+				"shasum": "638ee7f5976fe607d544629b1ef4ae67887984b5",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.6.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4497,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCwkICRA9TVsSAnZWagAAA6AP/3nWSlmYY1Fg4aMqrRgK\nVyRTCM2EsH1o01d08/pLcdEKb9hYdbSVm8ASHMCk/lt/KaRZ2C6e5uCgxNwP\nt0xvAsfIbsnoWoDzNg4vLAH20WI5PLM/TZYZd+ww6nwGkEW8kADxEkOH9bJV\nZ4YUoOJhYwc3F17V5eDsNTdhok/4xzTg7cmzILiF3tZbwbq2KJmRx4TC1DB+\n9GM+jEuaNfRqNmDbkwgEYgpCSUUIFVqheokvzwmRlJNkUwiAgPhLegvakjkD\nQ6sO63ZLL8uQVZhEvcdbYyLb0kxVnaDu78AFowgXDfQn2qFlcr9zA0rgvqMV\nZ25x7dy/YC/Otd7VxzchjJI1WH87QvkMwUmXb5WOF+X/cJ/T3zh1qFtOWlZa\nKikx21vAvJkMuHfvYspLM0EsUXvt/EeBjbmUOJVN5MbSnr/prxzUqdRXcGC4\n8xQXb5jsuH6Mc/Vhdl8y3MzCbXLYlm9l5lKQYnK5LkdZA9KX18eM9rXEBtt0\nLScQkWsbVb0ct9o6GABW/aUsD5zRSsFiZxWetkw3uJ83KirRBdql8ktOsXI7\n3h5hoW0/2vfTairHaJKuiN3xLT70uQAAoDV3/6Mk/vAJfwB070qkiUwlvLip\nJfQR9Bi6bs/JU3VnbvmiIznCT/WY9Rg/r/fEpn14mWJ3UYlBkWiZ4V3TnOhz\nQXCd\r\n=KVo2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.6.0_1544227079562_0.9665455813981569"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.8.1": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.8.1",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.8.1",
+				"@lerna/validation-error": "^3.6.0"
+			},
+			"gitHead": "00a372e194e23674fc0b7e94cc0f5ee799a13036",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.8.1",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.8.0/node@v10.15.0+x64 (darwin)",
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-UJqyvFr3+MTDo31fVjJlV/eshmQg8u0vpQcY95Vs00B99QxzLoICSGpNdldhSBnOIpOlq6tm5H/2hflc5hANew==",
+				"shasum": "bda0719f3a3ceaed976b08f57b054af6a0acf295",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.8.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4649,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcKqw+CRA9TVsSAnZWagAA7CwP/2jj/QvurlIdzPRCgpAm\nV4lhkKMXcwwwqaJSB/WCKlxjoreLHUsMo2rii2kjGDQldHAB4EF+B8oPjWeY\nOHkFNjY4aKhSRo24f6l/cwozGYTPTw7yc4yTSZUbb/QPUbEbUDuTo4zsNIvu\n5oK3DlHBzYYs3uCWIPdaKrEUe6DJHbc+jWYUI3lPJLjo6kK3B9wQT0/xcPou\nhgmKrW7QbGwqzIBJT4bVs1x05PyS5ikZUSQHY5lma2qXhrSEQuE6BEdl2d6/\nRxbcsQqVdtnhBeqn3SVAzzwuijOmgXZoYqQeXTiS1ilr2y4nhToa2BwV025D\nNeuEH5Rkj+ft3hVZ8gomjWMAmkmM5gpxbtascbr3A8sgg5xnRuZE5PTbpetB\ncjPyH02W1606fJxYa3PicgaJXaF10Med0Vsh6jmknbknL5R5l9WaTo2d/SS1\nWjv1Pg9iqZFYNgEFwcnJI7+m09DB0AfVAH97Kk1c8Bh2knaORTh4h7NM/sDP\nMEsQT+2P6aa5c483/ZscQX9pvfUqQjzgeMGJIbbrGy4YGdWIBOZvea0tKgI9\nbsrThFD/mtObBgdKbycZeaKWAiI6p5y+7dxKQ8rmW6cTQTEqY+XJQWKSHPkX\nu2OWO3v4H1FKHfZcN2Bl636riqBR9NMvlb4SPrLO4BldIxOH1AIvqrfFLooG\npkin\r\n=i5WP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.8.1_1546300477887_0.6862951774944741"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.9.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.9.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "^3.9.0",
+				"@lerna/validation-error": "^3.6.0"
+			},
+			"gitHead": "1c1ac155323499ba175d7f7e33c2e3f42a57a2f2",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.9.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.8.5/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Pyru6JkASDIuamRjocu4oXYq/gphuxc/4pfz1h3sEuCrsHSnK+Q3yCWlZOe3FOc822buCHrXLWS5iwrAWnU+yQ==",
+				"shasum": "2f057ad788759eb783b6bf42da87eb8018b78c4f",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.9.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4800,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNA2TCRA9TVsSAnZWagAA9YgP/icVDMUGNGZ6lgMdA9xV\nLyAAG6ZR1cjTvotFYPLLXFIO4La/PmK8P8xA8D8IdwcZUSVwyiElZYQYPEyU\nnx0RJjfWlEykhy7dG0+vFinGYz4pfJ+J9QQ6Q9NiSKdtXT1s221GLXBriBqU\n+zPZhNUdVKAb2uLy1YU1/3ElhQVdIP6DnyTJxIfJtz3g2O5iraI/k3Jl63Nw\nnrY03aNNPJVEz7GGT828Oyj2zOBNjknKynj000AQNs3+GPAnhI7wOT5XPxMw\nPnmJdApOWMMQe/BB+xAANXKf+Bvq8u0XfQrm4G1PbXsfHb7fudvuadq43eL4\nJYbgzF9iU8QQ/SHJOnlgfUyWOy2qIv/cwytRjJI/75Zh33I/LaQa7kCxKjCI\nQOaccw4AgiFqaedIfQRy1CRqSWp0jNH8DLfICyk5y1uVBvZTXmV/J36tpE79\nPnGISnXgm4F1w1OFxzU2wV1HNt6CqZIKe1WBIz7cVcnYXSKMFtlpdrhWpLdH\nPzPZiPuFbRNmjZPxarj2KeAEyJwcv1xfA4vRCNjdkXX/HJfpSO3Yr0K1GFE/\nIonf0sAbyboNoie8t6FB8ihl4LINHxZyjkkaZb1JWGa8cn6FLpMRJL9B237L\nSX1kSeq2R6+riilyMGSYccMnq0THq335UTmfbE28lcHHmFxfUXDR1q26Ie8P\n3he5\r\n=u3ug\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.9.0_1546915218661_0.13199982836925228"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.10.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.10.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "3.10.0",
+				"@lerna/validation-error": "3.6.0"
+			},
+			"gitHead": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.10.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.10.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-NdIPhDgEtGHfeGjB9F0oAoPLywgMpjnJhLLwTNQkelDHo2xNAVpG8kV+A2UJ+cU5UXCZA4RZFxKNmw86rO+Drw==",
+				"shasum": "5ed9f2c5c942bee92afcd8cb5361be44ed0251e3",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.10.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4953,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNSCKCRA9TVsSAnZWagAAlXMQAICzW/vyXuH9MBYlKB9e\naUYSLowErBWXpaQwtI3PUj1rVxoDmGErpKDctmTYQ4AnhpT3Pg1fvZQu+1wM\nll/KaU3p5eK2j6IqBG7DvvCF6/tZX1K8ad6Vt2LML5eBP/xzRCprP3feaicQ\n4bBcpFML44bah5QKcN6s33WO76nJCmg0+Nh7DRSReQypHwYojiriLml+VDNm\nNGiIY88s9Cc/Qsb6l4DSPWuWnpjB87cQD6swiE8eB5IzfE3eL2ODgkywrket\nVJnQKaXQWuItYLU+AVflxPWUalJoVM/rZy4EFZXDPy1Z3B71edswzphRnGu7\nUyz703GY2JcSRH591566NZdDr1tOqS3eNBlUcOjVPiTYwiXIjWMlpqM+tQ8f\neclUt6RL5vXxXV91XZzTDfbr8l/bIMGe7rEv9Y4aBqozUm2l7ebwvO+/+CJb\nc30KpCj0wm+lvf81CUmJrE7Vvau86EuXHtikVLDvrXIuI+RSOQAvGoWhpBiq\nTL+XIb4vbs0391CWviAF6Jq+OpD32sAG8dBiq6mWaoKVmJNu4aEeFVJo62IG\ncA1oWiO4wKJkqSWLwfo9BUO+QAs3MdOn2zzEB4eIg1Jm4f4pcfSSePFaL4GB\nV0WdShoI3JC6SEJxfRYbmBvsoUoTt9ph31X9DVIOFm+I3YVQfj2L8BsHKEjV\nu3ac\r\n=pRzr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.10.0_1546985610287_0.2943786802720214"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.11.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.11.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "3.11.0",
+				"@lerna/validation-error": "3.11.0"
+			},
+			"gitHead": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.11.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.11.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-uWKKmX4BKdK57MyX3rGNHNz4JmFP3tHnaIDDVeuSlgK5KwncPFyRXi3E9H0eiq6DUvDDLtztNOfWeGP2IY656Q==",
+				"shasum": "a513d3e28168826fa4916ef2d0ff656daa6e6de0",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.11.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5108,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXN2FCRA9TVsSAnZWagAABU8P/RT2jflptYyVmuSAgSLd\nuKUwHRpqDFmOsbH3l+JPKfRXB1xpWfFSikaOJque32e/VSvhxGAk1G0BqcEw\nNnus5v0BQx4Twp0DJz0pOOk3Pn+k63A+sQYAwKGtLrMDaMqFJe3BHyGrFdLn\nSRUwtJN2VArOk92KQdb13VzRSNIqjGHRLCeYTHe86hiMvexTn0qYJJ33xrpd\nn7Sj6pF4xuryPv+Vcrm9ywnMSVTv5Q5LN68CV4188VGkEVqVScLDXS4QVtCh\n5zBvB1QZsEfluRRnhqM4KeKEnLqfLbMkLZUSkXytml9Esc70gy2LigNXbvDe\n6U2q1nZl/pICob4i/gu4uQCGfIz2TvrIpLKjLaHPea2TTdbQdxpKgQUGQkQ6\n00ppBO0myvGEQaXdkUk201SQYbEiRJPIzWqEdbviRWtW1WFMPwOscmYT+kE7\nlwV0oe9TPNVg1B6kyMUppLHhSQ3HvbKR1jHRaiV5FDtW8WdIbQFopEGE3pUP\nQW4CZ1Oo/rzYCMnmFwp99OdQHl/bu+wYg81WYH74rFypiDqtV9RWhhzfXfQC\nGxJH1eaoLZWo4mzr2ooGJGm9KOiKK9QHwpBZC/eiunilMQEELsvlZjQJd4Fj\npz+DacKBqgKtQm4KT6eKSxy5LoguUefj/TzdKN1OxevUUGN51XnTSYbNY0fo\ndrc9\r\n=HtCI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.11.0_1549589892700_0.5767539724929931"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.13.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "3.13.0",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.13.0",
+			"_nodeVersion": "10.15.0",
+			"_npmVersion": "lerna/3.13.0/node@v10.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-dsdO15NXX5To+Q53SYeCrBEpiqv4m5VkaPZxbGQZNwoRen1MloXuqxSymJANQn+ZLEqarv5V56gydebeROPH5A==",
+				"shasum": "1ddcd4d9b1aceb65efaaa4cd1333a66706d67c9c",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.13.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5461,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZhrTCRA9TVsSAnZWagAAXTcP/jyq1cWhWwmSTUZ8FbaF\nme5+8ZZ5Sg9TTcYGoPlYCpCibRlDqsD5L77RCk24PuBYm2LH1QScUZ0bCMrP\nFpAAiG9m3ry7+/AIVL8Xn0PAFtz46l7bk1qh47blj3FYGLnch/8Sehn+eKIf\n2EBIN7gG/UK3IUGzoBOwn8g8Mj89J+Un9nQbyjdHW6COHog70sER2tjEIGFS\nsF1RGI4W1vY4bVg5dqrKqM5IaHH/H8tWdtA6pTUnDE4nSfKGPi+3r+KeZoC9\nRBsZjubhRlWmnViGHe2jSOoaBk1kiaatJ83065qciogoFB+uJf8+1Wn+xssB\nzb+ahvL3eAojU3eFNvTWyLeqSmpFEuPyeLCdhqrfpKa84bTH0vUwy+uoFlAt\niizg331p27cyQiwoaZ3bYr6nJZ2e8MkCqKsixS4vhLXHparngaxSHjzz2zCq\nPR0PJWShLpF/fOr8rovSPKKLpX9c8ZnRLcM0cUvI0QETfGkNICzvAYJbb+ft\n5xtDdfq8ia64I4RdxajsChVL0X4hnGGOPl3vDLimgyBNGFsZpwI6mpOKl4IE\nfWpXCdumxjglEdhikIKhLMYHRYP41jv7YwM54YRwpqOPKWi6xUvI8rOGIhG7\nL8ZjwW9Iwzsg643hTYzZAct0FkSNLxt32hfvxYy1thnkDatL6/B+sowkaTkx\nKc7K\r\n=ekj5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.13.0_1550195410489_0.3372006806178216"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.13.3": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.13.3",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/describe-ref": "3.13.3",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "1496beb6278b001074d970bdd5869bb1f958d998",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.13.3",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.13.3/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-LoGZvTkne+V1WpVdCTU0XNzFKsQa2AiAFKksGRT0v8NQj6VAPp0jfVYDayTqwaWt2Ne0OGKOFE79Y5LStOuhaQ==",
+				"shasum": "836a3ffd4413a29aca92ccca4a115e4f97109992",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.13.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5616,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctnnWCRA9TVsSAnZWagAAjpYP/0SqSkKRR5j15w0C5+Zc\nvPL61RN517UyJo7XnvQ/6Fk7SW/IdzfGPLR/06RnOZIw5e6y5htctjtBRVoy\nfAf9wK89supgDIjEO9QtdMHk1NmCMn/zW3H0JbNaSPLT9Mu2Uq+zK+TcJe86\ntlfyvcp8PosdjbDWJckliBpLybjpqi285v4Dc4arcnps9MFiJugtlrGr7hMs\nrRANW/yufPLlWnRY2eQ2VwWoE2llFrRA3g+vnNvKHpHYdikRWRFFslHb9upM\nOId7S07PCMZBYBrFfWVIFRZajFwQkvycWu1hbiKcTx3g1wwKXZnGo10e/9lF\ndVX7o8yh4jT8FiSk0aOB+9SeBHvmowo68WKEpGKLuMzAGsbCfbbux8NLmz7o\nkuyI1k6WfcrjQydT28tr8B8jMNe2ChIbLMl1T0i5Ocs4LA5xuMRnXKREu/Vz\nJSB+NQAdaSqVueLXFJw4vPGww70D1elCUsbaAYnrDLmPR8ruu1lv9EhHXXkJ\nq3YpiGkIGwYt1kpO9J/yNUnO03gPruJaPBWcjNY0vFfPsyOzZ5OWlNtWjYqk\n8n6apmW72oIzkvTR6C6/v3UbHL5bBP0HFXTsdtH/r30/cQeYSXhjQg+HGqTX\nXdVwhQbeIjudIti6RbNosl25vMoUSe8fmInckn6n6vSJQItRfRPQF7IEsxb0\nR4Pk\r\n=0z9U\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.13.3_1555462613520_0.6809931749118256"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.14.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/collect-uncommitted": "3.14.0",
+				"@lerna/describe-ref": "3.13.3",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-8PIy2Ia02a0OKES1TiktTIxovzJaFqJcJujBbjjjxaFsXbvSgKp8x1oEHuGIWqPogcxWrmzNd8KAqQMc7iespw==",
+				"shasum": "b37c35376b176fa2378a13f009a7575ea0c73bea",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6397,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209OCRA9TVsSAnZWagAATaQP/iZSdpmQePnUZlW9PcLU\ny+JA+gQE1Aomm703vr5+jz3HrN6+/evYfbextOSI/+Zj7CxKNNHBudZfFlIM\nQf+8/bZHdXE8qRyZdbGQfl2l96v8QZqYivzxL39K/5ghc3wNX8Lj+ItT1JaS\nbLTCbhPlRMZ3nJyhO5PDkoPE5MXfCFhJfMsH5kCjiMHgW3yhyTbFQ1y9nUrC\nqcDQp6FxBM/S2Sizm6kyAz1adnfeMky7G8o6nQtvUEWmAERkUV7Dy7Gmdx7Y\n/h9kHagjt3/7daFNbdXDlTqnMdrBY9LbqDNrTPkAm7EgmmBAhdyuLbHjMP4+\n3YlOMr0P4xD6zvW620jtF7XkWviNRanq0lZjJzMF7AP6qqpZ84pRQb4TJ5rB\nuLU1e4nTF90juMScItD+j5L1DOE83uNAjBe74ytr0qhC/e9br0YyHecAIxdp\n2Puw/yO31sl7guaZRg0UWRNdC3Qu7yuGBpMk342dJzzwmEZwOcuWy2EgEOQm\nj/94RNYfIpkzGFpZejvPHehYFxRCRmjSgFELraXyiyJ6DHnj3OKHSjDYNLgf\n3nL5Se6UI6BM723NiGBd2hpxuLAGBWqQDTMOesr7O2VXSM61C+vGTk++0ptX\nOTmgjFvGLc/7tSN1edSkji6KpDMeyfUiSIywnccxUwq4sWe4dtmytf9GXvZQ\nNdmx\r\n=WnM3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.14.0_1557876557807_0.9023595799469843"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.1": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.14.1",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/collect-uncommitted": "3.14.1",
+				"@lerna/describe-ref": "3.13.3",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "d87a67bf2beb1ac9558e0c1adfd47d937f5240f3",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.14.1",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ae/sdZPNh4SS+6c4UDuWP/QKbtIFAn/TvKsPncA1Jdo0PqXLBlug4DzkHTGkvZ5F0nj+0JrSxYteInakJV99vg==",
+				"shasum": "4102681c31e4cebed3968db27567e3180e519822",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6552,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3FQuCRA9TVsSAnZWagAAcwsP/iZdnV+v1e3pJuFladHS\nGI8hO3mL6os9QNLD8V2E9YMf+15ZpxGOkypBtxqBgo5XZZVy2rbePkEZYqFh\nJT0fCGeHvqzqI3P71S+z8FMnvtJme6MpWaWOUiLBx42sC+VgPUYUgmiroPry\nnndVr73+x5lTLnlofNTJ066xFKpe9zkn41p+p+cifFBosOyUf9oLHZRfsABS\nw1tsqC1Bwvn/JDgq09Uki/K65jtcwod0+ZOoN+pl57UNOEIkNuDbZBLITB0b\nJ82gTIBi7/sUNu2ByP5mtVmnS53nuQdV5Cc+lZNhwIxXUgagXGMMnqtVCEd2\nwe7pumLs7NPTwOoabaQfS4iTPshE/TAykMao9miGei2oM6/1khe8cH1jafCL\nTHAcNGmjpCkP40fYG5n5+vCHvrC3tUdytLz0QmGPm34zWHF7L4tu+RogOctM\nwliKAziqhjycdNADjlHc5Ld9HM/LtP7SMr6PbgXdnM+OJZ3Q0nJcX1aP6pMS\nvsoF3V0g0AQI+cpf8k3RIX61P3hRmOCP2VWsmmh81AvDQeUS3AEmpc+FqoYa\nbf97fmcvf4wGeguzwL8p/f4GR2WWRY31dHKP9/71UhS40RSePMciUfXqkLa4\nsS3Redwg+1n3lrkPYhAmw3tIIJ17BCZbVb6NfDZjihongOqjqbSFEvDVk1Ap\nQnpm\r\n=suFw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.14.1_1557943340611_0.6178089785711132"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.14.2": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.14.2",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/collect-uncommitted": "3.14.2",
+				"@lerna/describe-ref": "3.14.2",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.14.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.2/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-7safqxM/MYoAoxZxulUDtIJIbnBIgo0PB/FHytueG+9VaX7GMnDte2Bt1EKa0dz2sAyQdmQ3Q8ZXpf/6JDjaeg==",
+				"shasum": "5ce007722180a69643a8456766ed8a91fc7e9ae1",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6707,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/YkfCRA9TVsSAnZWagAAI2AP/iB4fzM/PYPMKilnNlFB\nFVzRan8n8FDhNro49oyi10BhXVbNk9N0rdRe8VYyZVjSG07pdHxeFGsWodF+\nj+hR0XaDWhj7umsovtsX3rwhFvgcgws6P99IFbEEILC4MWhafmISsqwYLp/c\ne6x9Slr6yHu48jIO5A+7EXLZ3y1n+PVnLESpoMN56lg75qFSb+YGliGeQwOW\nqw31cjModRtByB3UjPWDOGXIR6zaj8yIr3FyYJpg2vGo5E9W/I/LbVlFNEvw\nzz31JDSHNDoHGy2lp4viUgkOKpT68zWJ2d29uW3uUvD1HJtfKNJiLur51MY8\nb6UF+lAcfru7nz4fO05f9NqBz/OmuSb5Ot7+p96xaVG9ZC0ev7s4hbs0EAEz\nSy2LGs0DTaBfLN/cqNG0frSyP/AohCPR2QoFyuyBUfOxBayztxBSbpGjJw+G\nGGQHKoRm7x/t6BWCw5YNLhZiuBg3Qy6UFKnCoaiEMxNS0u5Mv9VegOYPg8gX\newrRHQNo/MwAyePEKyc55vIPdNyJdZx84fpSZRRY4zkNmZsNb+V99of2j5GB\nMcDoEl1wq1zn/2rGkK0tE/dGOAoZLavXOmYu2G+/tedLjaV+saLKyL4u/NzY\nMhdRoTPbKyIxdEdZLG/KUwjlBBs29XuUlXvZURMTJQt3pXRYEvBa9yMD7zFn\nowC6\r\n=3dUR\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.14.2_1560119583058_0.3570916793229104"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.5": {
+			"name": "@lerna/check-working-tree",
+			"version": "3.16.5",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/collect-uncommitted": "3.16.5",
+				"@lerna/describe-ref": "3.16.5",
+				"@lerna/validation-error": "3.13.0"
+			},
+			"gitHead": "f0574092a2db90142b3a27ec1a4941cddbdcdf62",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@3.16.5",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "lerna/3.16.4/node@v10.16.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-xWjVBcuhvB8+UmCSb5tKVLB5OuzSpw96WEhS2uz6hkWVa/Euh1A0/HJwn2cemyK47wUrCQXtczBUiqnq9yX5VQ==",
+				"shasum": "b4f8ae61bb4523561dfb9f8f8d874dd46bb44baa",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.16.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6862,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdm8ILCRA9TVsSAnZWagAAfsQQAIXNxTs8gAoBqf/k5knF\ns30Wn+PaRuzq46FVjD8/GV2FPLcZdA5qeMIVUlWjCJLDHw9wyMWdGn54n6K5\nUVOhOa21FtxzCwU3WyHXwGP341/HORU3warVOaeRLSMR85EojJMqbXoUgCS0\ncTZqHbBSnIaSE1+48JlJ44/xMyVFi9uO9mJjWVzfw7HR6sLWsv8jq+RpfWSZ\nRdnb18Jrmzred0GocoE89PxyamBcq976Sk/hK1t8n7GO52yNjH1O305vUFtw\nqpRyyRWpbINhR6+sJJ0+1AyiPIrgg4R5YbOOVjDoYdrb+zZH9T5LYOFrVUq8\nk2sHCKRR7FPxICZFEaJ/NhdiMaumU2o5+2OvnzN0Hd5yn/x+eQGuD6UgSaHL\nXJ4/agcxLoEnxAyG1RXfq40NRotEGARDseSSh1VEbp/L8+FJX2BBjDaG2uH7\nS2+KLqoa+oBIAG3VfHYhwnkMN6Tcta7dIpjTW5xwxH/s87RGULf215IqZ9UW\n+gUayw8W0HNDMv/6nOCwYbCgyn+kfnIY5nqPXXYaJ6NT3q8XNC36vDQv81Gc\nkFcIi9sJIreDHAKyBOJrRlwkpzbdtK4p60TzAJInzoAqEmAL4nelA0WF18aP\ntlyTyKZAPIQNfq5BLsEu5MnxD1LmIcBglylyNi8iBD9aPQda3WPdYG+3/Omr\nu8LC\r\n=jVu7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel.stockman@gmail.com",
+					"name": "evocateur"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_3.16.5_1570488843058_0.6085999337597179"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/check-working-tree",
+			"version": "4.0.0",
+			"description": "Check git working tree status and error appropriately",
+			"keywords": [
+				"lerna",
+				"utils",
+				"git",
+				"tree"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/check-working-tree#readme",
+			"license": "MIT",
+			"main": "lib/check-working-tree.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/check-working-tree"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"@lerna/collect-uncommitted": "4.0.0",
+				"@lerna/describe-ref": "4.0.0",
+				"@lerna/validation-error": "4.0.0"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/check-working-tree@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-/++bxM43jYJCshBiKP5cRlCTwSJdRSxVmcDAXM+1oUewlZJVSVlnks5eO0uLxokVFvLhHlC5kHMc7gbVFPHv6Q==",
+				"shasum": "257e36a602c00142e76082a19358e3e1ae8dbd58",
+				"tarball": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7921,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGE7CRA9TVsSAnZWagAARa8P/3MvVpwSgGwh70/I8WHQ\nSPDBIuys9p7/rRdH3ZKRtQOSirhrk1R/o1gKiXo8x1Nxwdl0djXUTTEAUYki\nvroTy7qdQx4qahSxg7qIPiCm8Btz17K4Kslx0yKDH9RL39MJiqxBCsPXMK5e\ndS6CCHP6hw1pFnxfCn1BypfrvAIcMGppKfhCqSJNWQGUa/vcf+pMWqx2uA7O\nJ4lsz9s70VP1WSHcpNib4j4cXjd2/yePdzi82QuTuFtq7b6W/7VXz6NA5Ci6\npWM/XhbrLMGzjWFShEEB/dBk29sA5x7melz0iD7lTyWz8a0c875kBbG7asHW\nLBcydt8hizVSPbqynMtSvN6BGhI0hOgABtOflS6VH9H7Ifqkvb+q1NFz6kik\nzAL7cP3yNOnFv42cQBKW21rlbn9a3EPTAvaHT6j86dHV96W//gKMoiBU1IrV\nphZ1zEVl00phZA7Dbu75TN359Y/Ior7xPTGloibhA2J4QiL4MWD/VpnEv6Du\nU6Jl+0+YtDJYugvSopfl4yVabU9oCBCZVvXQjxou79eJpnqjAFCt6GwtwF5Z\nGwRtnHtUUQ2SRnvjR21pySJzj7e3SFKIenqj5iLzdeEKMuP11u1+1j+jFJXK\ngd/xSgJnfU21BqK6JPVSg8VN2ik3MnL+gPWn8EX1aqV/3PntcVK+QOJFQbgF\ne/r0\r\n=1yCI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/check-working-tree_4.0.0_1612996922883_0.6297704271598339"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-08-17T21:44:22.357Z",
+		"3.1.0": "2018-08-17T21:44:22.461Z",
+		"modified": "2021-02-10T22:42:42.123Z",
+		"3.3.0": "2018-09-06T01:33:07.639Z",
+		"3.5.0": "2018-11-27T20:03:54.585Z",
+		"3.6.0": "2018-12-07T23:57:59.857Z",
+		"3.8.1": "2018-12-31T23:54:38.070Z",
+		"3.9.0": "2019-01-08T02:40:18.827Z",
+		"3.10.0": "2019-01-08T22:13:30.464Z",
+		"3.11.0": "2019-02-08T01:38:12.810Z",
+		"3.13.0": "2019-02-15T01:50:10.625Z",
+		"3.13.3": "2019-04-17T00:56:53.698Z",
+		"3.14.0": "2019-05-14T23:29:17.942Z",
+		"3.14.1": "2019-05-15T18:02:20.802Z",
+		"3.14.2": "2019-06-09T22:33:03.142Z",
+		"3.16.5": "2019-10-07T22:54:03.186Z",
+		"4.0.0": "2021-02-10T22:42:03.014Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"4d49531d0721439512abbafcfbb10e27\"",
+			"fetched": 1613881353410
+		}
+	},
+	"_distfiles": {
+		"check-working-tree-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.1.0.tgz",
+			"sha": "5304c58190bf6ad97b4985698ab9b5eb9a38a14e",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.3.0.tgz",
+			"sha": "2118f301f28ccb530812e5b27a341b1e6b3c84e2",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.5.0.tgz",
+			"sha": "015f90247fa0b44a940eab0dd6a9da2ae5b8f455",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.6.0.tgz",
+			"sha": "638ee7f5976fe607d544629b1ef4ae67887984b5",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.8.1.tgz",
+			"sha": "bda0719f3a3ceaed976b08f57b054af6a0acf295",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.9.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.9.0.tgz",
+			"sha": "2f057ad788759eb783b6bf42da87eb8018b78c4f",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.10.0.tgz",
+			"sha": "5ed9f2c5c942bee92afcd8cb5361be44ed0251e3",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.11.0.tgz",
+			"sha": "a513d3e28168826fa4916ef2d0ff656daa6e6de0",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.13.0.tgz",
+			"sha": "1ddcd4d9b1aceb65efaaa4cd1333a66706d67c9c",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.13.3.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.13.3.tgz",
+			"sha": "836a3ffd4413a29aca92ccca4a115e4f97109992",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.0.tgz",
+			"sha": "b37c35376b176fa2378a13f009a7575ea0c73bea",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.14.1.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.1.tgz",
+			"sha": "4102681c31e4cebed3968db27567e3180e519822",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.14.2.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.14.2.tgz",
+			"sha": "5ce007722180a69643a8456766ed8a91fc7e9ae1",
+			"registry": "npmjs"
+		},
+		"check-working-tree-3.16.5.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-3.16.5.tgz",
+			"sha": "b4f8ae61bb4523561dfb9f8f8d874dd46bb44baa",
+			"registry": "npmjs"
+		},
+		"check-working-tree-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/check-working-tree/-/check-working-tree-4.0.0.tgz",
+			"sha": "257e36a602c00142e76082a19358e3e1ae8dbd58",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-b5231582a46b6c35",
+	"_id": "@lerna/check-working-tree",
+	"readme": "# `@lerna/check-working-tree`\n\n> Check git working tree status and error appropriately\n\n## Usage\n\n```js\nconst { checkWorkingTree } = require(\"@lerna/check-working-tree\");\n\n// values listed here are their defaults\nconst options = {\n  cwd: process.cwd(),\n};\n\n(async () => {\n  try {\n    await checkWorkingTree(options);\n  } catch (err) {\n    console.error(err.message);\n    // \"Working tree has uncommitted changes, ...\"\n  }\n})();\n```\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

@@ -1,0 +1,251 @@
+{
+	"name": "@lerna/prerelease-id-from-version",
+	"versions": {
+		"3.14.0": {
+			"name": "@lerna/prerelease-id-from-version",
+			"version": "3.14.0",
+			"description": "Get the prerelease ID from a version string",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/prerelease-id-from-version#readme",
+			"license": "MIT",
+			"main": "lib/prerelease-id-from-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/prerelease-id-from-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"semver": "^5.5.0"
+			},
+			"gitHead": "39da145c67ea587457694f318f32f967b9d66ea9",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/prerelease-id-from-version@3.14.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.14.0/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Ap3Z/dNhqQuSrKmK+JmzYvQYI2vowxHvUVxZJiDVilW8dyNnxkCsYFmkuZytk5sxVz4VeGLNPS2RSsU5eeSS+Q==",
+				"shasum": "d5da9c26ac4a0d0ecde09018f06e41ca4dd444c2",
+				"tarball": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-3.14.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3110,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc209HCRA9TVsSAnZWagAA3VQP/1whvXLOrM7SLn9HlAVy\n9OdqKd3doZnolBgLf0vPZQgctELVjFCKpVfmyJBvyMuQ1TunLqVw4D97GOXd\nGznQOjIYo1DT2JGFkEsyzIZR8mKgPre8eE4OC5jP2tfYVQ48g/HEsakEFmIp\nt842m/U53+LCZVGsnivrhrAi17ZcwidEPqHriIPHGmNgkLSXKqG+p0xZyIMm\nHdgRV/+AHgWDabRohlIkV5zzxIsaym1yIirHyHYFM6S4S0jh2ekGDKpcYsDR\nZV9tbWkaH5pC9KdvOA2ZVZ/2CP9tgf0OucCtdHAZFLEh0w5CBsB9XU5PR+tP\n1hAlNz52vESMj23PtLJ4kyUYE2ipYv7m/d6h2oI9Ct5eOuMRKJF9Cy12EhWc\nK9OfEq6VZv2pNI3Lrgi5pHI3NnhrHhimV8fDevc8dASEGAZAsbzy8NXoJnSY\nVHsLLXbBX0PXAlAu85yPAGoYh2WrRdDQSQV/1sThGodoYQnrNQXdkuZM38A3\ncmc82EWuJKmSbDtM1bcirjooHEwv4WVG8EyjKKiQ7+3UbvYFlzH8WCZhruNf\nUNr8+jOHjZGv8KOAKNDyGLqp2iiCR+CZBaV+zsSU6VSa7Xn2IIZmYDGwg33k\nsow/WAqru9x4kUSXTmZ0hqG5YD98R3bV/0xMlyfzvaUbx7aErmAhOsSIh3IP\nMFOV\r\n=gEkv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prerelease-id-from-version_3.14.0_1557876551419_0.26788973223654566"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.16.0": {
+			"name": "@lerna/prerelease-id-from-version",
+			"version": "3.16.0",
+			"description": "Get the prerelease ID from a version string",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/prerelease-id-from-version#readme",
+			"license": "MIT",
+			"main": "lib/prerelease-id-from-version.js",
+			"engines": {
+				"node": ">= 6.9.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/prerelease-id-from-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"semver": "^6.2.0"
+			},
+			"gitHead": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/prerelease-id-from-version@3.16.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "lerna/3.16.0/node@v10.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-qZyeUyrE59uOK8rKdGn7jQz+9uOpAaF/3hbslJVFL1NqF9ELDTqjCPXivuejMX/lN4OgD6BugTO4cR7UTq/sZA==",
+				"shasum": "b24bfa789f5e1baab914d7b08baae9b7bd7d83a1",
+				"tarball": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-3.16.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3300,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdMQRRCRA9TVsSAnZWagAA+ZQP/jzOCEdg0szWp/ErW0pi\nCHCLMZsHn9p5xDKxob9TZwJZcioB0hEAPKPhWNyqdT7D3VMkkzX8tAded/rG\nKphkZkHfM1RCNNiNRVEEM4Vx7/7P0+nzsekZvR0njrEmJ8FYzDBORgPTTjTT\nInSJUiKG0fD9aBF0HsSi/k7Y+XcCV+44mtDgZchY/HP3lPKhGYL6Gnbh5uck\nn9skvYrdNyD+uFMgjaq/fIM9MekwmNw38fwmVz7qF9b6iUBA9kocwzoRAT5d\n1HKSmA7jUEIllTBY0EC0SA8VELN3si0NNklWDcg1d7lHCjyjUUE1trJZQV0n\nw+9B/RtHgTGzPUM9X8aJ0x7YTnVuhIEtBLY9g6dADh3O49xH4/ZSBk3Lp6m7\nAcvoW3phe/XxLHn0iQUQb6mEUaIZYWyPTgBGTHA2yJUpHqaRRdkI3Sj40PPE\nYiAmOALU3TLW+1ZOBxs4Gplws4Hj7FP6x5S5DrL95VU6MXRqi6KU3tc5AgYB\n+X3NC9AGahRyVo/gAR8MV5YLm5blHh7tlKLDmAuUoIXmQxjhJAWulk6oUx5O\n0/YGTu/m/qtf/qKClxjbY2Om0c1sxphgwaKi14i2ZnWSEONECv50xVdLZpjl\n/UTod6OWWhTD3/nGNoSqQkcn600672BdEiXPuURCGc+XtVnhNvpsyVUxxS+k\nlxPm\r\n=PFwI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prerelease-id-from-version_3.16.0_1563493456927_0.8964474720974176"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "@lerna/prerelease-id-from-version",
+			"version": "4.0.0",
+			"description": "Get the prerelease ID from a version string",
+			"keywords": [
+				"lerna",
+				"utils"
+			],
+			"author": {
+				"name": "Daniel Stockman",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"homepage": "https://github.com/lerna/lerna/tree/master/utils/prerelease-id-from-version#readme",
+			"license": "MIT",
+			"main": "lib/prerelease-id-from-version.js",
+			"engines": {
+				"node": ">= 10.18.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/lerna/lerna.git",
+				"directory": "utils/prerelease-id-from-version"
+			},
+			"scripts": {
+				"test": "echo \"Error: run tests from root\" && exit 1"
+			},
+			"dependencies": {
+				"semver": "^7.3.4"
+			},
+			"gitHead": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/lerna/lerna/issues"
+			},
+			"_id": "@lerna/prerelease-id-from-version@4.0.0",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-GQqguzETdsYRxOSmdFZ6zDBXDErIETWOqomLERRY54f4p+tk4aJjoVdd9xKwehC9TBfIFvlRbL1V9uQGHh1opg==",
+				"shasum": "c7e0676fcee1950d85630e108eddecdd5b48c916",
+				"tarball": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4801,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJGEpCRA9TVsSAnZWagAAz2wP/AhN2g4AWk8MeIVAeNEh\nLExWZigUs/2PncN4Jvd5OSvy2j8tELPPBO+H/yrzKpROKcHUbhBbHR5cr6Y1\ngOiJG4MeV+y0O0oQM4X0PV1v6TvJBD7XmeadfNoQBwKM6wXONksjWag3JHvc\nRnYdrdcAYQGop35n0Bxyzri7+YM5eoye4mmEPHD93J/jUxESdVTI4calS1Pq\nwUFNCKFca+j2Shdi/z8Cc6Kp3EoaKIFuTWmmBfjy1tvF4Utu1FsB8At1pE3I\nr5D74CPf8TxrOlRdkvnbDJ7SXvb6ZOGd6EeSsVX44XrjZMqes/r9dC5SwjMV\ntYri2RV3tnp9EIRn/OTNHtNwfoeEMuCqkE1QDz7K6HByumxSVhcvcD+30eeR\n9fae8nvrmVpu44XRk8i69ZLUCzwXxbG8RaQNUya4VUKuSvbTKkQk1dxIHDKT\nmFD3aB20R8WF2N3Keiu5NMoUa2q87iw1sUDLx7WtESqsfIuGQZQFAx6p39fg\nbv8SS4IW6B4Wg1KQm9hjfyoGEUqwTWrC0Zfz+ZzxtO713tAU0iUu5Yl2uaO2\nBNTrg3OFbAs44pS+5GeiHshFGQCuPwSsJsGSDmi6Xz0W3pchf/bMZ1D1Q/iU\nHjhNjw3ZJ3KFZHlPwwSAixS9YHY+oR5WM9HNKiKOxIuVeZWRXCfS0ABg7+ou\nNhd6\r\n=vQVv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prerelease-id-from-version_4.0.0_1612996904791_0.20433983102968445"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-05-14T23:29:11.140Z",
+		"3.14.0": "2019-05-14T23:29:11.515Z",
+		"modified": "2021-02-10T22:42:38.761Z",
+		"3.16.0": "2019-07-18T23:44:17.075Z",
+		"4.0.0": "2021-02-10T22:41:44.911Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bafea970f235562cc6d39a396ff0752a\"",
+			"fetched": 1613881353489
+		}
+	},
+	"_distfiles": {
+		"prerelease-id-from-version-3.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-3.14.0.tgz",
+			"sha": "d5da9c26ac4a0d0ecde09018f06e41ca4dd444c2",
+			"registry": "npmjs"
+		},
+		"prerelease-id-from-version-3.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-3.16.0.tgz",
+			"sha": "b24bfa789f5e1baab914d7b08baae9b7bd7d83a1",
+			"registry": "npmjs"
+		},
+		"prerelease-id-from-version-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@lerna/prerelease-id-from-version/-/prerelease-id-from-version-4.0.0.tgz",
+			"sha": "c7e0676fcee1950d85630e108eddecdd5b48c916",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-1df5f058f89afdda",
+	"_id": "@lerna/prerelease-id-from-version",
+	"readme": "# `@lerna/prerelease-id-from-version`\n\n> Get the prerelease ID from a version string\n\n## Usage\n\n```js\nconst { prereleaseIdFromVersion } = require(\"@lerna/prerelease-id-from-version\");\n\nprereleaseIdFromVersion(1.0.0-alpha.0); // => \"alpha\"\n\nprereleaseIdFromVersion(1.0.0); // => undefined\n\nprereleaseIdFromVersion(); // => undefined\n```\n\nInstall [lerna](https://www.npmjs.com/package/lerna) for access to the `lerna` CLI."
+}

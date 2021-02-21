@@ -1,0 +1,369 @@
+{
+	"name": "@evocateur/libnpmpublish",
+	"versions": {
+		"1.1.2": {
+			"name": "@evocateur/libnpmpublish",
+			"version": "1.1.2",
+			"description": "Programmatic API for the bits behind npm publish and unpublish",
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@zkat.tech"
+			},
+			"license": "ISC",
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "tap -J --100 test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"devDependencies": {
+				"bluebird": "^3.5.1",
+				"nock": "^9.6.1",
+				"standard": "*",
+				"standard-version": "*",
+				"tap": "*",
+				"tar-stream": "^1.6.1",
+				"weallbehave": "*",
+				"weallcontribute": "*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/libnpmpublish.git"
+			},
+			"bugs": {
+				"url": "https://github.com/evocateur/libnpmpublish/issues"
+			},
+			"homepage": "https://npmjs.com/package/@evocateur/libnpmpublish",
+			"dependencies": {
+				"aproba": "^2.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.0.0",
+				"lodash.clonedeep": "^4.5.0",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"npm-registry-fetch": "^3.9.0",
+				"semver": "^5.5.1",
+				"ssri": "^6.0.1"
+			},
+			"gitHead": "3ea267c573168ce76f30096ce0be197bf04a4d75",
+			"_id": "@evocateur/libnpmpublish@1.1.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-7N7XIFKH388NgsHb7MVP5btJU9LN3JZduHouU9o83JtYXWYvjjYM+RVs+ciyrriLcfXJTiNNjChY098P3ujf6g==",
+				"shasum": "0e49506ab9be6a9391647b55bfe2a56d2cf7ccc2",
+				"tarball": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.1.2.tgz",
+				"fileCount": 16,
+				"unpackedSize": 88246,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0zEgCRA9TVsSAnZWagAAeBUQAKLt7xkDM2ny98vYicVx\n+UD8u+DUATo7ANr5KvO0GpCeH3tZ3/X+X2FCvzqfJbTye8F7nW3wKHws2d5G\nv3qV6/wNIgQx1aEqMV6Nq7yJPpQGInMoSkkZ75utAyG1OBW21O/I9ngBQGwx\nlXGz1K/niwtI+oYWPGxT+c4ryNtrqWReKNDU6B/FOnpG1nbYTOL+R5zu7WZp\nBZL+mFSm6CUsLM9fXUUmIPLFxDqkB9OJVz964uIWbBtoEVya+BmuM27/6bCQ\nWyz3u9+UvFsWZLR5EYbT9DMeoOMNHrI8CSoVD4NyIS0A5Pj2AXZy2ovFOxay\nXeRHfYQAhsxFGLHAASuI4JoQzN337TqEZqPt+5ehNaVwVzXSaAeLrKeWH1Jm\nDO3KlC1fb/M4e6zFW4SRFHYo99aEpGxGnr6rDIRaYlE9yZNN+jPBg5cYvSFR\n6vYDmsdvQoTJHdTp2l2Dl8OoG/yfku4lc4cDbVpCYb88gonPW0uyQp9dX2Zv\n3Dle7TskQpUEuZMWAEODCP5vaf71PvG1cpb2MpuOyiky7I0lV/KHKGUZaq9l\nJLcRQfhyIj4t8bSuOjpD/aNrrxONOgqCiIUqPBd5YcRFfNHoupWsxBjZRlse\nwvKhL6MKttpyuALKt3z4Doxpy6YPZLfrc7pKaBKABSxQZSZDT+3Oil9JhRbt\n8a1P\r\n=RCKd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/libnpmpublish_1.1.2_1557344542474_0.3890376748068942"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "@evocateur/libnpmpublish",
+			"version": "1.2.0",
+			"description": "Programmatic API for the bits behind npm publish and unpublish",
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@zkat.tech"
+			},
+			"license": "ISC",
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "tap -J --100 test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"devDependencies": {
+				"bluebird": "^3.5.1",
+				"nock": "^9.6.1",
+				"standard": "*",
+				"standard-version": "*",
+				"tap": "*",
+				"tar-stream": "^1.6.1",
+				"weallbehave": "*",
+				"weallcontribute": "*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/libnpmpublish.git"
+			},
+			"bugs": {
+				"url": "https://github.com/evocateur/libnpmpublish/issues"
+			},
+			"homepage": "https://npmjs.com/package/@evocateur/libnpmpublish",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^3.9.1",
+				"aproba": "^2.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.0.0",
+				"lodash.clonedeep": "^4.5.0",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"semver": "^5.5.1",
+				"ssri": "^6.0.1"
+			},
+			"gitHead": "b364378a8fb37fcef0910b93c699d71d19197b78",
+			"_id": "@evocateur/libnpmpublish@1.2.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-sezhX9FSnPIyrBBvxVocVJVO1uIWPczf6rOmUZSntCWfQMraO8pWTFlDJbroFqPbEqFFHf3eyw8NQ0Eb7OLd1g==",
+				"shasum": "3e0d79fdc0a75f212adabb7c7e341b017effeac2",
+				"tarball": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 88534,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0zObCRA9TVsSAnZWagAAtWAP/3x6KPNW+92C0N4HZ1nP\nN74On7OPyQHMcR4GEftap0dlFdxGs2us0PE3cFNS0/xNG04n4S6rQnsPziof\nV9y9h/WRKKYJ2xhZc8GlN5A0nAUwa61mIxpwNBfwbmZIPUUv85U94OV2UDPP\nlHVZ28SOO/VAHO9FZWduOpShHDJpvi/46jn36PwAIhFk1sPD07jjD8Y9W1tL\nxi2xL+3cZjpk2j2hevhN2lOwOTHykFks4QghgCZPDQ66lp8WbcLAWShae/4j\n0wgjGNevUezPGLdVMTkR5Rde18uaVc2hL/f5wbz6gdjsQ1wbvJeW2z9Wife2\nHZF38U6rCzc9XHsIj9G2ahsYPk9QnS3W6AQGVqqPpOxep9nCtkSvWU6ToKBV\npOJWPl2XWtvo1yu4IOQkybubdFVxk7xmv3eht92wCE2UnSZgf+ZpDT0sZAmt\nf88/IVh9RJUgaSTvabow4stwfBywKow/ONcCHr0Ha0Ti+HafUuudzEoUPI4R\nkvL0EPr0WJYb07BhUi7+pa34foi0qdlkB3RtyJdbt8PZXi9v2R3yACZiqkh0\ne6PC/1TWm6nca4k9xIHOxfXCSPdx2J98iWD7FWu0H46Bo0Iy35eRzq31wZxU\n7u96JDfxYLCV4Uo5DQPBVsxd1gN/X6q3mZk77a87k0DX7nOE3vwxwqOULdm/\nT8/P\r\n=qF1d\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/libnpmpublish_1.2.0_1557345178966_0.5733345870047908"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "@evocateur/libnpmpublish",
+			"version": "1.2.1",
+			"description": "Programmatic API for the bits behind npm publish and unpublish",
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@zkat.tech"
+			},
+			"license": "ISC",
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "tap -J --100 test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"devDependencies": {
+				"bluebird": "^3.5.1",
+				"nock": "^9.6.1",
+				"standard": "*",
+				"standard-version": "*",
+				"tap": "*",
+				"tar-stream": "^1.6.1",
+				"weallbehave": "*",
+				"weallcontribute": "*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/libnpmpublish.git"
+			},
+			"bugs": {
+				"url": "https://github.com/evocateur/libnpmpublish/issues"
+			},
+			"homepage": "https://npmjs.com/package/@evocateur/libnpmpublish",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^3.9.2",
+				"aproba": "^2.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.0.0",
+				"lodash.clonedeep": "^4.5.0",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"semver": "^5.5.1",
+				"ssri": "^6.0.1"
+			},
+			"gitHead": "23c368144c9a91b889c0c65a0b167c57947ec19e",
+			"_id": "@evocateur/libnpmpublish@1.2.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-aQ1IyvOmwwXie2TTkSuXC8H1EJU7b3GUWgefW49vgTzENEhvt8OOcoFg8pp5vvEe6Ty7YOUarEL/Wz+T/GQYHA==",
+				"shasum": "db6c69f3a0417c6477c4b9a273b2c4314bf82713",
+				"tarball": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.1.tgz",
+				"fileCount": 16,
+				"unpackedSize": 88832,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLMOlCRA9TVsSAnZWagAA8vgQAKGmlhkEcGwmodO8ENrO\noRc/ChBWkThYlCEPApr0WfTBW+N4o6ozGTSYt0Qq4uGUEap0m9G8c9Nk7+FU\ngQ7shsiHkyhaLNlbx8tx49KDtyfmh1VKzU2hTxRVHPPnQU2YVhjeYa9ZFUzo\nAu7UF9phhT0Q1JBCFUxCCG3VGSCxHWuLbfQ8VrQWyh9FxLATLh0A0MqYDSIz\nGVVB4mo+wnOaneDcdnC3424VS9d/GQo6JvXRcIKbZEANNdYsH0KsN4B6CpcZ\nBA/1Yxw/XLVi+9W20+YyAWvOkqO0XmVW0qc45koOae3Su6IdgNZYwYX81ES7\n7UYrl8v+urjRMDTLNswcJmy/6SRJpIviX3OLZm62VdgXIJrWlwU8K4+aqkeL\n4Hui2YqF9lxDewQ8wUye3Y5u9tlGUmhjzIFiv0cBkJS28IJBsF/35Jov8r5h\nq0FDW7YcoSOGyAOfq9DiWn6SyZdvwFbfEVlyJC3jyG13i1TE+ssspNv4OzWO\nxr7ZrngTEkRyOvd75LILIOoiVggqPvF2daNXZa3muZaV6rqECpDNoJXZRn5X\nOSbLpzaLEh/Ve2PMrbs6zMmSN/oX7kNo+XHy79rWIk+8Bf9c4inAd0eR2pKF\nWLfPvGLvXQ4b99PIYJGnSROZfZ33r5Ma1NYgDnBZ7WFO4NwP39ZC0V89m0q9\naaRj\r\n=5dHF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/libnpmpublish_1.2.1_1563214757202_0.3419207814351215"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.2": {
+			"name": "@evocateur/libnpmpublish",
+			"version": "1.2.2",
+			"description": "Programmatic API for the bits behind npm publish and unpublish",
+			"author": {
+				"name": "Kat Marchán",
+				"email": "kzm@zkat.tech"
+			},
+			"license": "ISC",
+			"scripts": {
+				"prerelease": "npm t",
+				"release": "standard-version -s",
+				"postrelease": "npm publish && git push --follow-tags",
+				"pretest": "standard",
+				"test": "tap -J --100 test/*.js",
+				"update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+				"update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+			},
+			"devDependencies": {
+				"bluebird": "^3.5.1",
+				"nock": "^9.6.1",
+				"standard": "*",
+				"standard-version": "*",
+				"tap": "*",
+				"tar-stream": "^1.6.1",
+				"weallbehave": "*",
+				"weallcontribute": "*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/evocateur/libnpmpublish.git"
+			},
+			"bugs": {
+				"url": "https://github.com/evocateur/libnpmpublish/issues"
+			},
+			"homepage": "https://npmjs.com/package/@evocateur/libnpmpublish",
+			"dependencies": {
+				"@evocateur/npm-registry-fetch": "^4.0.0",
+				"aproba": "^2.0.0",
+				"figgy-pudding": "^3.5.1",
+				"get-stream": "^4.0.0",
+				"lodash.clonedeep": "^4.5.0",
+				"normalize-package-data": "^2.4.0",
+				"npm-package-arg": "^6.1.0",
+				"semver": "^5.5.1",
+				"ssri": "^6.0.1"
+			},
+			"gitHead": "f1d86321be8b8cfb7fb511ccf590a2ce49ad2c6c",
+			"_id": "@evocateur/libnpmpublish@1.2.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.1",
+			"dist": {
+				"integrity": "sha512-MJrrk9ct1FeY9zRlyeoyMieBjGDG9ihyyD9/Ft6MMrTxql9NyoEx2hw9casTIP4CdqEVu+3nQ2nXxoJ8RCXyFg==",
+				"shasum": "55df09d2dca136afba9c88c759ca272198db9f1a",
+				"tarball": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.2.tgz",
+				"fileCount": 16,
+				"unpackedSize": 89046,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLig5CRA9TVsSAnZWagAAOS8P/Aj8kl+vBdjtEnEB/Wmx\nj60UtdMYVbY6l2Jr+g1ZBPYUY1SFwvCB6yem69tC0lds8MiPljZf6y5+Ei3w\nL00BR0tOJ8weOAWQWf19+hGUpksVqFW1mkMB/PzmUHvUiAWL6thKX/5CHS09\n/RwMx5CMtk0GUFAmqDXtSuY5RNfku2nGGStQ8+XPxAfQvOGPywKt/IrtE+IO\njJ7VvER8ws5NB+GAEWcWkSLY5YV/WsQNwc3SZHL+tzh/0IpQkL4sv6RNk08R\nm92fIvnttXMJwHRD05dbBpS6YZeLCBl0csIpff1fQnJBOlaehpMT1aLk3m7S\nlqsBja22zWHx0nu86Aacn2u+FFRW54O9mNAimhxD1MhoFIizjQ88F8lRE4rO\nRWTLkN1VX0l7gn0bTX6Ziug8eUwuzP5TGo5mMf8StMUwoSVP6UlQ/mbNfD5k\nHzO6E+SZ9QYazw3xObKKp6I1b8YFirQogZYeYPMbsN4f0UzVHhvaG+WyrNyg\n5/XUtkTLN+prmyP5qoRKMYEYoMgrX8YpzNn8SzdDI3j4mnBZkgXB0kMPg0/o\n+Gw/xai16mTTa7OiGAsqDM11YcKjuwSrJs3o/URCTEU9kkZK0kVcOPQhhvY0\nY/Qz8brfOOycYaZw4bEyCCpUz9DPxi18Jfb5Sj88eGf+oENUB4Lh8Tkz51gH\nqtwr\r\n=Klvw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "evocateur",
+					"email": "daniel.stockman@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "evocateur",
+				"email": "daniel.stockman@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/libnpmpublish_1.2.2_1563306040735_0.7078299041350202"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-05-08T19:42:22.440Z",
+		"1.1.2": "2019-05-08T19:42:22.660Z",
+		"modified": "2019-07-16T19:40:43.326Z",
+		"1.2.0": "2019-05-08T19:52:59.111Z",
+		"1.2.1": "2019-07-15T18:19:17.328Z",
+		"1.2.2": "2019-07-16T19:40:40.850Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.2.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"1f03c107c859f1a70fd02ae0e200ca4b\"",
+			"fetched": 1613881359764
+		}
+	},
+	"_distfiles": {
+		"libnpmpublish-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.1.2.tgz",
+			"sha": "0e49506ab9be6a9391647b55bfe2a56d2cf7ccc2",
+			"registry": "npmjs"
+		},
+		"libnpmpublish-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.0.tgz",
+			"sha": "3e0d79fdc0a75f212adabb7c7e341b017effeac2",
+			"registry": "npmjs"
+		},
+		"libnpmpublish-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.1.tgz",
+			"sha": "db6c69f3a0417c6477c4b9a273b2c4314bf82713",
+			"registry": "npmjs"
+		},
+		"libnpmpublish-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@evocateur/libnpmpublish/-/libnpmpublish-1.2.2.tgz",
+			"sha": "55df09d2dca136afba9c88c759ca272198db9f1a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-31482ca1ed1fac50",
+	"_id": "@evocateur/libnpmpublish",
+	"readme": "# libnpmpublish [![npm version](https://img.shields.io/npm/v/libnpmpublish.svg)](https://npm.im/libnpmpublish) [![license](https://img.shields.io/npm/l/libnpmpublish.svg)](https://npm.im/libnpmpublish) [![Travis](https://img.shields.io/travis/npm/libnpmpublish.svg)](https://travis-ci.org/npm/libnpmpublish) [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/zkat/libnpmpublish?svg=true)](https://ci.appveyor.com/project/zkat/libnpmpublish) [![Coverage Status](https://coveralls.io/repos/github/npm/libnpmpublish/badge.svg?branch=latest)](https://coveralls.io/github/npm/libnpmpublish?branch=latest)\n\n[`libnpmpublish`](https://github.com/npm/libnpmpublish) is a Node.js library for\nprogrammatically publishing and unpublishing npm packages. It does not take care\nof packing tarballs from source code, but once you have a tarball, it can take\ncare of putting it up on a nice registry for you.\n\n## Example\n\n```js\nconst { publish, unpublish } = require('libnpmpublish')\n\n```\n\n## Install\n\n`$ npm install libnpmpublish`\n\n## Table of Contents\n\n* [Example](#example)\n* [Install](#install)\n* [API](#api)\n  * [publish/unpublish opts](#opts)\n  * [`publish()`](#publish)\n  * [`unpublish()`](#unpublish)\n\n### API\n\n#### <a name=\"opts\"></a> `opts` for `libnpmpublish` commands\n\n`libnpmpublish` uses [`npm-registry-fetch`](https://npm.im/npm-registry-fetch).\nMost options are passed through directly to that library, so please refer to\n[its own `opts`\ndocumentation](https://www.npmjs.com/package/npm-registry-fetch#fetch-options)\nfor options that can be passed in.\n\nA couple of options of note for those in a hurry:\n\n* `opts.token` - can be passed in and will be used as the authentication token for the registry. For other ways to pass in auth details, see the n-r-f docs.\n* `opts.Promise` - If you pass this in, the Promises returned by `libnpmpublish` commands will use this Promise class instead. For example: `{Promise: require('bluebird')}`\n\n#### <a name=\"publish\"></a> `> libpub.publish(pkgJson, tarData, [opts]) -> Promise`\n\nPublishes `tarData` to the appropriate configured registry. `pkgJson` should be\nthe parsed `package.json` for the package that is being published.\n\n`tarData` can be a Buffer, a base64-encoded string, or a binary stream of data.\nNote that publishing itself can't be streamed, so the entire stream will be\nconsumed into RAM before publishing (and are thus limited in how big they can\nbe).\n\nSince `libnpmpublish` does not generate tarballs itself, one way to build your\nown tarball for publishing is to do `npm pack` in the directory you wish to\npack. You can then `fs.createReadStream('my-proj-1.0.0.tgz')` and pass that to\n`libnpmpublish`, along with `require('./package.json')`.\n\n`publish()` does its best to emulate legacy publish logic in the standard npm\nclient, and so should generally be compatible with any registry the npm CLI has\nbeen able to publish to in the past.\n\nIf `opts.npmVersion` is passed in, it will be used as the `_npmVersion` field in\nthe outgoing packument. It's recommended you add your own user agent string in\nthere!\n\nIf `opts.algorithms` is passed in, it should be an array of hashing algorithms\nto generate `integrity` hashes for. The default is `['sha512']`, which means you\nend up with `dist.integrity = 'sha512-deadbeefbadc0ffee'`. Any algorithm\nsupported by your current node version is allowed -- npm clients that do not\nsupport those algorithms will simply ignore the unsupported hashes.\n\nIf `opts.access` is passed in, it must be one of `public` or `restricted`.\nUnscoped packages cannot be `restricted`, and the registry may agree or disagree\nwith whether you're allowed to publish a restricted package.\n\n##### Example\n\n```javascript\nconst pkg = require('./dist/package.json')\nconst tarball = fs.createReadStream('./dist/pkg-1.0.1.tgz')\nawait libpub.publish(pkg, tarball, {\n  npmVersion: 'my-pub-script@1.0.2',\n  token: 'my-auth-token-here'\n})\n// Package has been published to the npm registry.\n```\n\n#### <a name=\"unpublish\"></a> `> libpub.unpublish(spec, [opts]) -> Promise`\n\nUnpublishes `spec` from the appropriate registry. The registry in question may\nhave its own limitations on unpublishing.\n\n`spec` should be either a string, or a valid\n[`npm-package-arg`](https://npm.im/npm-package-arg) parsed spec object. For\nlegacy compatibility reasons, only `tag` and `version` specs will work as\nexpected. `range` specs will fail silently in most cases.\n\n##### Example\n\n```javascript\nawait libpub.unpublish('lodash', { token: 'i-am-the-worst'})\n//\n// `lodash` has now been unpublished, along with all its versions, and the world\n// devolves into utter chaos.\n//\n// That, or we all go home to our friends and/or family and have a nice time\n// doing nothing having to do with programming or JavaScript and realize our\n// lives are just so much happier now, and we just can't understand why we ever\n// got so into this JavaScript thing but damn did it pay well. I guess you'll\n// settle for gardening or something.\n```"
+}
