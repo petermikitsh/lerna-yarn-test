@@ -1,0 +1,7 @@
+{
+  "name": "@myexample/b",
+  "main": "index.js",
+  "dependencies": {
+    "@myexample/a": "file:../a"
+  }
+}
