@@ -628,7 +628,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"362f421222c4e780af4f0547ae63105c\"",
-			"fetched": 1613881353205
+			"fetched": 1613883212558
 		}
 	},
 	"_distfiles": {
@@ -668,8 +668,12 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
-	"_rev": "1-9db8e29e43f4b32d",
+	"_attachments": {
+		"pkg-dir-5.0.0.tgz": {
+			"shasum": "a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+		}
+	},
+	"_rev": "3-fbf2dad4866bf1db",
 	"_id": "pkg-dir",
 	"readme": "# pkg-dir [![Build Status](https://travis-ci.com/sindresorhus/pkg-dir.svg?branch=master)](https://travis-ci.com/github/sindresorhus/pkg-dir)\n\n> Find the root directory of a Node.js project or npm package\n\n## Install\n\n```\n$ npm install pkg-dir\n```\n\n## Usage\n\n```\n/\n└── Users\n    └── sindresorhus\n        └── foo\n            ├── package.json\n            └── bar\n                ├── baz\n                └── example.js\n```\n\n```js\n// example.js\nconst pkgDir = require('pkg-dir');\n\n(async () => {\n\tconst rootDir = await pkgDir(__dirname);\n\n\tconsole.log(rootDir);\n\t//=> '/Users/sindresorhus/foo'\n})();\n```\n\n## API\n\n### pkgDir(cwd?)\n\nReturns a `Promise` for either the project root path or `undefined` if it couldn't be found.\n\n### pkgDir.sync(cwd?)\n\nReturns the project root path or `undefined` if it couldn't be found.\n\n#### cwd\n\nType: `string`\\\nDefault: `process.cwd()`\n\nDirectory to start from.\n\n## Related\n\n- [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - CLI for this module\n- [pkg-up](https://github.com/sindresorhus/pkg-up) - Find the closest package.json file\n- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-pkg-dir?utm_source=npm-pkg-dir&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

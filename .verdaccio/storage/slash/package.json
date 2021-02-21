@@ -404,7 +404,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7a85e712c8f072cdf2f2ff21f3e58cfc\"",
-			"fetched": 1613881352860
+			"fetched": 1613883212452
 		}
 	},
 	"_distfiles": {
@@ -440,7 +440,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-6bf09df14b7e02f0",
+	"_rev": "2-f33f2426dffc35aa",
 	"_id": "slash",
 	"readme": "# slash [![Build Status](https://travis-ci.org/sindresorhus/slash.svg?branch=master)](https://travis-ci.org/sindresorhus/slash)\n\n> Convert Windows backslash paths to slash paths: `foo\\\\bar` ➔ `foo/bar`\n\n[Forward-slash paths can be used in Windows](http://superuser.com/a/176395/6877) as long as they're not extended-length paths and don't contain any non-ascii characters.\n\nThis was created since the `path` methods in Node.js outputs `\\\\` paths on Windows.\n\n\n## Install\n\n```\n$ npm install slash\n```\n\n\n## Usage\n\n```js\nconst path = require('path');\nconst slash = require('slash');\n\nconst string = path.join('foo', 'bar');\n// Unix    => foo/bar\n// Windows => foo\\\\bar\n\nslash(string);\n// Unix    => foo/bar\n// Windows => foo/bar\n```\n\n\n## API\n\n### slash(path)\n\nType: `string`\n\nAccepts a Windows backslash path and returns a path with forward slashes.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

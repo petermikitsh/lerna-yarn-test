@@ -490,7 +490,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0c3ba7545d0a8cd03fc2b366b3a5e502\"",
-			"fetched": 1613881361583
+			"fetched": 1613883212560
 		}
 	},
 	"_distfiles": {
@@ -526,7 +526,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-a7b4c25565b28b25",
+	"_rev": "2-d882e6cccf8d428b",
 	"_id": "path-type",
 	"readme": "# path-type\n\n> Check if a path is a file, directory, or symlink\n\n## Install\n\n```\n$ npm install path-type\n```\n\n## Usage\n\n```js\nimport {isFile} from 'path-type';\n\nconsole.log(await isFile('package.json'));\n//=> true\n```\n\n## API\n\n### isFile(path)\n\nCheck whether the passed `path` is a file.\n\nReturns a `Promise<boolean>`.\n\n#### path\n\nType: `string`\n\nThe path to check.\n\n### isDirectory(path)\n\nCheck whether the passed `path` is a directory.\n\nReturns a `Promise<boolean>`.\n\n### isSymlink(path)\n\nCheck whether the passed `path` is a symlink.\n\nReturns a `Promise<boolean>`.\n\n### isFileSync(path)\n\nSynchronously check whether the passed `path` is a file.\n\nReturns a `boolean`.\n\n### isDirectorySync(path)\n\nSynchronously check whether the passed `path` is a directory.\n\nReturns a `boolean`.\n\n### isSymlinkSync(path)\n\nSynchronously check whether the passed `path` is a symlink.\n\nReturns a `boolean`.\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-path-type?utm_source=npm-path-type&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

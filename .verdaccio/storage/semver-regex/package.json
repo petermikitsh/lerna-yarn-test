@@ -1,0 +1,611 @@
+{
+	"name": "semver-regex",
+	"versions": {
+		"0.1.0": {
+			"name": "semver-regex",
+			"version": "0.1.0",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/semver-regex"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"re",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex",
+			"_id": "semver-regex@0.1.0",
+			"_shasum": "e20743ae052f32b0f11fea76f5d717df24ae730a",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e20743ae052f32b0f11fea76f5d717df24ae730a",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-0.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "semver-regex",
+			"version": "0.1.1",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/semver-regex"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"re",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex",
+			"_id": "semver-regex@0.1.1",
+			"_shasum": "a9d6717eba5871107ff8f4d81f5278d4ad4a29f9",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a9d6717eba5871107ff8f4d81f5278d4ad4a29f9",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-0.1.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "semver-regex",
+			"version": "1.0.0",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/semver-regex"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"re",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "af62aa673025e341323eb741faec60d7bbb50c70",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex",
+			"_id": "semver-regex@1.0.0",
+			"_shasum": "92a4969065f9c70c694753d55248fc68f8f652c9",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "92a4969065f9c70c694753d55248fc68f8f652c9",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-1.0.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "semver-regex",
+			"version": "2.0.0",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/semver-regex.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"re",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "bea513f5e860d7c1e2a353c8e46c2edabbd2ae6e",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex#readme",
+			"_id": "semver-regex@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==",
+				"shasum": "a93c2c5844539a770233379107b38c7b4ac9d338",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-2.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3154
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/semver-regex_2.0.0_1521791938477_0.1792302553634153"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "semver-regex",
+			"version": "3.0.0",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/semver-regex.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "0a426cb261f8fb94494ab4e7d278a2c3ed7dc1aa",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex#readme",
+			"_id": "semver-regex@3.0.0",
+			"_nodeVersion": "8.16.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-wJtJPFW2uYsMfDJQiO9J1CQCOzkcQNFMllYK5eRqovK3kfc4tpbCqCdw3sfGdz2i2x3Hq3nGyV3b/op2dsOu1w==",
+				"shasum": "4461631a14b1761e8ba60cbe549b958172993135",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3228,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcucPGCRA9TVsSAnZWagAAV+cP/1TDNRb9/UiJ8yC54qMO\nq9WpOzLR/OjOpnj1p9ZhpCMDx+ptY0hNXpQydBRGzIU1LQjkqRYdia4RwW9S\nFz4U0M1WdMFLhNvQt1y7aOn+up7KwmTwFWQEh+0U/hk7BC0Zr/z1UVm4Pa8f\nZsPlsRey+D36xrVLw3x+EFD++haIb7mBYJqiKDyMoITuSd7M8Kr6+5etBM/W\n1uMQgSI1o8Pl+u1TL6UgJgB8fKLJZjiPmcfmGhkL6dZHKIe1PYwaJFEM8zC9\nLB8qDo+cFwwX9WqEqz3oEHV1Z3+rvegQ4L9QiNnqJpIpKjg+b1zGErTXdklj\nExbsDDHCLYWFHWCPzI0c1j1Vs6uEN5kZC1kSGmLd9nfZXaF8NyE6EGXhBMp2\nvKEScJQORdUs57rY94WwWo6+tdtmDaZS0Kz/bn2utulEB4NHWtkrFzs/pMJU\ntQvCpoHDa67NzzyUOrHELsqKYBOAma4RiPN0E5gLpl3JH217kY9UH+2502f+\nErxDeuxWQRKkDxosjFHqsfJG5jTrkj180cjV2iEzW0xSXStFQcuvC+l95MTH\nhYPyFeJFcduX+bI538YQyyrWNBmONk5GCkHGQjzt+o0LxmUfjBLfY4YHpId4\n4q3UzSrjDQCYRaATQZ8AusnsjZpjulrQN7LK+cfijI9bEsxvWxTA+KCMki5j\nrYmf\r\n=U/xj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/semver-regex_3.0.0_1555678150176_0.7271364411340926"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.0": {
+			"name": "semver-regex",
+			"version": "3.1.0",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/semver-regex.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "0d438d3e2d6b428ca4aa33755d4377313dc1983f",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex#readme",
+			"_id": "semver-regex@3.1.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xJqZonbAohJmpogzq1Mx7DB4DT3LO+sG5J4i/rcRyZ527dcUqsTVb5T0vM5gwOBf3KO0v7i94EpbdvwSukJyAQ==",
+				"shasum": "23368cb577bf2668e78bf9c3e8e519fc029ca069",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3753,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyFO5CRA9TVsSAnZWagAAWA8P/joHmoW+oDfcLml2Vfb4\n2EKDknKl+PoFwkj1BT7Z+HyJEqg56e/tQq/eM9exR/xqB8kY0K79HXTDhOWz\naB03dJY8bVqkkztAKcRBVMGXqKU3l5JwgTP04nFSUAtizRaygskPTdnpBXcy\ne/+KlgCBqn9pgcFQfvBUrG8ROlaxktzB43wUGLC+uhOicsMurB4fdfsDFvql\nvQdumKWD+mLp4NS0Bytsm7wOhrK+6Ob2SW7zv60vrT7gxI2dVf6o29wQ0BYf\nlGaqKDSSL1sCNWp7SJBOHKtZw8S67bc2cq0ae4/WYIBUWTNFKRj7jgqU0FZF\nvlPzfG/adTAxdnFPVhXbfx5VRRSKK+yqfPx3icZ/W+hL8/XE4Anr1PAeyho3\nAWF30HTu7Asjjnc2Yq8KApLsNTpUY4A6FfJ+7strrEvxrdD6anLRzHn6Y5KE\nH/rC1YVkd3f8pVGA9emp0taz/y/U1dZd5pzg4qF/GNLzylPwPWawTYBp4pcK\njT6As2NiQcstyu0l6oRg8N570n1ufYz3GhfznknIwZ7yzrpvpZp9Q2DWDyTz\ncbvNQSHMbxDjCFWHsom/ASO5oiRl3A/LOdrHgX3XegGgatQlZoAlYpLRQ67o\nnViQfzgNNv5fuWvCNyyswSPCV4V6UodDwVn295E3G+rARoOc0v7KkEm8OUKn\nGWVj\r\n=XKyv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/semver-regex_3.1.0_1556632504306_0.45909548679510825"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.1": {
+			"name": "semver-regex",
+			"version": "3.1.1",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/semver-regex.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "cd7e6ba75b6855a676cc67c29dde40c08f68eba0",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex#readme",
+			"_id": "semver-regex@3.1.1",
+			"_nodeVersion": "10.17.0",
+			"_npmVersion": "6.11.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-3dPcmFqxblWB/cppQ2qXWqlp9b6GLgAS032+Ec5E0waDVHTkwYIL+7BFI9UqEe0tkoHle2f3pBgvT/Xl95+Dig==",
+				"shasum": "9a13c93a9ecf2ac7415c0785acc1c7a19199bfd0",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3757,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeLDCdCRA9TVsSAnZWagAAy4gQAIJsL5YMCmnkc2LpbMTz\nmuWzB57NtE7aXtQM4SRHsJKOBDqFk9OGZ7Dr/i63cHC8yrnV5SkK4nVN3yK9\nADkQedy95inVlWQAvpz6atd7Vm8Uiy9DcpJH/41hPume3ZAM7/7uvENGgTk8\n2jbUMEMwZFVPEh4HQV6R2lLamYVIC8Ngg5wGIjpAnzgX9rPemfWbnYvZC0Hh\nPFDkrcmuTC8cbY30wK6IEK5GDlv5yqdk8k9ln0B2C91FCFYRFQkQ1HHhrHXS\no4Y2ZbTcToVY/6xroIirsqUS2rGb/7t7lsk1NFXWZ8ZGuts7QNu682AZowkq\nN9Ex0Cv67rRknrU8zI3EnchMseJc0CXB4ahRqVWIjUInHMc4AGz997nXZ3Lm\nP7GKa+LpdKs/2fwVOgp22EgB1UpORddc62TFD2OBDQmHFiDpP0ZQct/2TNqT\nDX6R5JrDfp6/sVlfImbzExOKG1SC8JITLTl2B5yVdRk/KmeU16Cmu8T3+nl0\nD2BQnk7URb36uyi5LRJ0uviChvfq0abNzPSvQnWV9Vx9Cg433MHaby1qGHIc\nfTW+51wV4hMSaEhfQ6eZMCIXi+q7CAl61dOIC3fps8XaQUPTZz6I/kfR3yjY\nwBa3VPHJEF11ei895f7ELWgmlqfPznbafyKhhVeOsBPHsU7uJO/RLYbbySNT\n18Xj\r\n=a1Kt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/semver-regex_3.1.1_1579954333379_0.6108964013331073"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.1.2": {
+			"name": "semver-regex",
+			"version": "3.1.2",
+			"description": "Regular expression for matching semver versions",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/semver-regex.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"semver",
+				"version",
+				"versions",
+				"regex",
+				"regexp",
+				"match",
+				"matching",
+				"semantic"
+			],
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "ca0ee674c34b4f536f997a4bff07f27d312bdfcd",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/semver-regex/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/semver-regex#readme",
+			"_id": "semver-regex@3.1.2",
+			"_nodeVersion": "10.22.0",
+			"_npmVersion": "6.14.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-bXWyL6EAKOJa81XG1OZ/Yyuq+oT0b2YLlxx7c+mrdYPaPbnj6WgVULXhinMIeZGufuUBu/eVRqXEhiv4imfwxA==",
+				"shasum": "34b4c0d361eef262e07199dbef316d0f2ab11807",
+				"tarball": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3905,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf5ipMCRA9TVsSAnZWagAA/6EP/3nJ2i/WeGtyFCtLS23e\ng1JTRZxHzB2P/Y4PkCkcaYsX6g+4m9U/ipHBym3tJq8bb/b4UUeW8sKc7cYf\nUDm7cVWl9NeYDmuW74jKuVfQxO+tdfjhXcXhTraL6Nns9rUen1B4zuwBRCL1\nbWSCWZClBRYg5c2ds0uDZtNh0MKuWHln39EWb80grBsKUX8hE0sbLmUUTl95\nPGseObuGWRbmqR/vcmWgA2So2b4C+Th0e10FAB3ZZsxnh9rQlNaOf/Od6+3t\nIz89LMvt5oPKv/8eeFyjPE+CltDFoYXje/BnTOvebZru42rJRthm0FKT+3h+\ntyoTqw5m6BljLcjrPGEAWRixE7BnUfo0ADQr/fNkNOMoU9bxjsW4Y8EkFpeE\ngxOmUyz4kheHLvzzmYVECCykO6DSKUUa0ibR1OpQ8ZjU0PTXwPR/zjDamkce\nkJ52ISiZJkQV6fmBN/xzrOdRkD/zHhs3qeMFQTTkg9eXUnwe8N67sALxXJ6h\ngzM6qwGEtbioO9Uz4IN0d3DUC4SJKM/ohpv6TLvEOgdaRASmkka29blleUSr\njCFB9iXhBDckESg9u/DnDe7yWhsqmaP3G4PXXB/fC80y5WdT+aO+Q+sqoRJY\nXbp9SZqf8u94XJ7gmYWfC6MMX683k49rn77puhFaXxKK+wfYqZN9i5uDHmMl\ny7ku\r\n=zIf9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/semver-regex_3.1.2_1608919627913_0.7188479299957073"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2020-12-25T18:07:10.315Z",
+		"created": "2014-06-13T20:47:44.027Z",
+		"0.1.0": "2014-06-13T20:47:44.027Z",
+		"0.1.1": "2014-07-20T14:37:27.900Z",
+		"1.0.0": "2014-08-13T10:15:57.744Z",
+		"2.0.0": "2018-03-23T07:58:58.539Z",
+		"3.0.0": "2019-04-19T12:49:10.306Z",
+		"3.1.0": "2019-04-30T13:55:04.455Z",
+		"3.1.1": "2020-01-25T12:12:13.504Z",
+		"3.1.2": "2020-12-25T18:07:08.081Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"6c25923a223b21784892940c8d0dfc25\"",
+			"fetched": 1613883212535
+		}
+	},
+	"_distfiles": {
+		"semver-regex-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-0.1.0.tgz",
+			"sha": "e20743ae052f32b0f11fea76f5d717df24ae730a",
+			"registry": "npmjs"
+		},
+		"semver-regex-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-0.1.1.tgz",
+			"sha": "a9d6717eba5871107ff8f4d81f5278d4ad4a29f9",
+			"registry": "npmjs"
+		},
+		"semver-regex-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-1.0.0.tgz",
+			"sha": "92a4969065f9c70c694753d55248fc68f8f652c9",
+			"registry": "npmjs"
+		},
+		"semver-regex-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-2.0.0.tgz",
+			"sha": "a93c2c5844539a770233379107b38c7b4ac9d338",
+			"registry": "npmjs"
+		},
+		"semver-regex-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.0.0.tgz",
+			"sha": "4461631a14b1761e8ba60cbe549b958172993135",
+			"registry": "npmjs"
+		},
+		"semver-regex-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.0.tgz",
+			"sha": "23368cb577bf2668e78bf9c3e8e519fc029ca069",
+			"registry": "npmjs"
+		},
+		"semver-regex-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.1.tgz",
+			"sha": "9a13c93a9ecf2ac7415c0785acc1c7a19199bfd0",
+			"registry": "npmjs"
+		},
+		"semver-regex-3.1.2.tgz": {
+			"url": "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.2.tgz",
+			"sha": "34b4c0d361eef262e07199dbef316d0f2ab11807",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"semver-regex-3.1.2.tgz": {
+			"shasum": "34b4c0d361eef262e07199dbef316d0f2ab11807"
+		}
+	},
+	"_rev": "2-28510f537ca658ab",
+	"_id": "semver-regex",
+	"readme": "# semver-regex [![Build Status](https://travis-ci.com/sindresorhus/semver-regex.svg?branch=master)](https://travis-ci.com/github/sindresorhus/semver-regex)\n\n> Regular expression for matching [semver](https://github.com/npm/node-semver) versions\n\n## Install\n\n```\n$ npm install semver-regex\n```\n\n## Usage\n\n```js\nconst semverRegex = require('semver-regex');\n\nsemverRegex().test('v1.0.0');\n//=> true\n\nsemverRegex().test('1.2.3-alpha.10.beta.0+build.unicorn.rainbow');\n//=> true\n\nsemverRegex().exec('unicorn 1.0.0 rainbow')[0];\n//=> '1.0.0'\n\n'unicorn 1.0.0 and rainbow 2.1.3'.match(semverRegex());\n//=> ['1.0.0', '2.1.3']\n```\n\n**Note:** For versions coming from user-input, it's up to you to truncate the string to a sensible length to prevent abuse. For example, 100 length.\n\n## Related\n\n- [find-versions](https://github.com/sindresorhus/find-versions) - Find semver versions in a string\n- [latest-semver](https://github.com/sindresorhus/latest-semver) - Get the latest stable semver version from an array of versions\n- [to-semver](https://github.com/sindresorhus/to-semver) - Get an array of valid, sorted, and cleaned semver versions from an array of strings\n- [semver-diff](https://github.com/sindresorhus/semver-diff) - Get the diff type of two semver versions: `0.0.1` `0.0.2` → `patch`\n- [semver-truncate](https://github.com/sindresorhus/semver-truncate) - Truncate a semver version: `1.2.3` → `1.2.0`"
+}

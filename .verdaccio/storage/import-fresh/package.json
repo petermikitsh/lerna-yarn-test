@@ -545,7 +545,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"82bd14b0677475e6d6bab906d253542e\"",
-			"fetched": 1613881363232
+			"fetched": 1613883212552
 		}
 	},
 	"_distfiles": {
@@ -586,7 +586,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-1c7952297cade2b6",
+	"_rev": "2-fb5b9a0aca7b33f3",
 	"_id": "import-fresh",
 	"readme": "# import-fresh\n\n> Import a module while bypassing the [cache](https://nodejs.org/api/modules.html#modules_caching)\n\nUseful for testing purposes when you need to freshly import a module.\n\n## Install\n\n```\n$ npm install import-fresh\n```\n\n## Usage\n\n```js\n// foo.js\nlet i = 0;\nmodule.exports = () => ++i;\n```\n\n```js\nconst importFresh = require('import-fresh');\n\nrequire('./foo')();\n//=> 1\n\nrequire('./foo')();\n//=> 2\n\nimportFresh('./foo')();\n//=> 1\n\nimportFresh('./foo')();\n//=> 1\n```\n\n## import-fresh for enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of import-fresh and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-import-fresh?utm_source=npm-import-fresh&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n\n## Related\n\n- [clear-module](https://github.com/sindresorhus/clear-module) - Clear a module from the import cache\n- [import-from](https://github.com/sindresorhus/import-from) - Import a module from a given path\n- [import-cwd](https://github.com/sindresorhus/import-cwd) - Import a module from the current working directory\n- [import-lazy](https://github.com/sindresorhus/import-lazy) - Import modules lazily"
 }
