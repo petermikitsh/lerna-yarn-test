@@ -4,7 +4,13 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
+    "postinstall": "./scripts/postinstall.sh",
     "start:registry": "./scripts/start:registry.sh"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "./scripts/postcommit.sh"
+    }
   },
   "repository": {
     "type": "git",
@@ -17,7 +23,7 @@
   },
   "homepage": "https://github.com/petermikitsh/lerna-yarn-test#readme",
   "devDependencies": {
-    "husky": "^5.0.9",
+    "husky": "^4",
     "lerna": "^3.22.1"
   }
 }
