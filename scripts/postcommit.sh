@@ -33,7 +33,7 @@ if [[ "$BRANCH_NAME" = "master" ]]; then
   # Install all node modules
   CURR_DIR=$PWD
   yarn install
-  for d in $REPO_ROOT/packages/*; do echo $d && cd $d && yarn install; done
+  for d in $REPO_ROOT/packages/*; do echo $d && cd $d && yarn install --verbose; done
   cd $CURR_DIR
 
   npx --no-install lerna version \
