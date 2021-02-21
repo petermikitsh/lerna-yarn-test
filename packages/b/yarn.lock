@@ -2,5 +2,6 @@
 # yarn lockfile v1
 
 
-"@myexample/a@file:../a":
+"@myexample/a@link:../a":
   version "0.0.0"
+  uid ""

@@ -6,6 +6,6 @@
     "index.js"
   ],
   "dependencies": {
-    "@myexample/a": "file:../a"
+    "@myexample/a": "link:../a"
   }
 }
