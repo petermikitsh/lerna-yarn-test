@@ -1,0 +1,56 @@
+{
+	"name": "@myexample/b",
+	"versions": {
+		"0.0.2": {
+			"name": "@myexample/b",
+			"version": "0.0.2",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"@myexample/a": "^0.0.2"
+			},
+			"gitHead": "a0af854fb70e298637228af665687d51c3fc04ee",
+			"_id": "@myexample/b@0.0.2",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.4+x64 (darwin)",
+			"_npmUser": {
+				"name": "pmikitsh@zuora.com",
+				"email": "pmikitsh@zuora.com"
+			},
+			"maintainers": [
+				{
+					"name": "pmikitsh@zuora.com",
+					"email": "pmikitsh@zuora.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-nXVUTj97XKPnQht30zdI5xcLZxkSenhH7avK/bxmsWGZ9+y/4K4Kqff+wEQVsY7ud12Fa7iwbZ4HpsOElf4tkw==",
+				"shasum": "6e1b0ac3ab0da130b1bab15d9fda87a31215fce7",
+				"tarball": "http://0.0.0.0:4873/@myexample/b/-/@myexample/b-0.0.2.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-02-21T05:18:45.120Z",
+		"created": "2021-02-21T05:18:45.120Z",
+		"0.0.2": "2021-02-21T05:18:45.120Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.2"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"b-0.0.2.tgz": {
+			"shasum": "6e1b0ac3ab0da130b1bab15d9fda87a31215fce7",
+			"version": "0.0.2"
+		}
+	},
+	"_rev": "3-7a42cc3cffad1dd2",
+	"_id": "@myexample/b",
+	"readme": "ERROR: No README data found!"
+}
