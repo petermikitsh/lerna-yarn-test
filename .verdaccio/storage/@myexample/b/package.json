@@ -124,19 +124,51 @@
 				"tarball": "http://0.0.0.0:4873/@myexample/b/-/@myexample/b-0.0.5.tgz"
 			},
 			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@myexample/b",
+			"version": "0.0.6",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"@myexample/a": "^0.0.6"
+			},
+			"gitHead": "7fbb7fb4d8a274d804eef90e18baf18f4b469f37",
+			"_id": "@myexample/b@0.0.6",
+			"_nodeVersion": "14.15.4",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.4+x64 (darwin)",
+			"_npmUser": {
+				"name": "pmikitsh@zuora.com",
+				"email": "pmikitsh@zuora.com"
+			},
+			"maintainers": [
+				{
+					"name": "pmikitsh@zuora.com",
+					"email": "pmikitsh@zuora.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-AzDF4GMcuVp84+p5y2q8nfaaQjngyZhumHjXE9wbHw+3Te9ZlU8oaDQ1uICKzldLUG7zccpJIZcfYXUXwz15pQ==",
+				"shasum": "e66ee6549c4a3118c4adccdd7fcbf91746e8e266",
+				"tarball": "http://0.0.0.0:4873/@myexample/b/-/@myexample/b-0.0.6.tgz"
+			},
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2021-02-21T05:50:39.836Z",
+		"modified": "2021-02-21T06:04:37.040Z",
 		"created": "2021-02-21T05:18:45.120Z",
 		"0.0.2": "2021-02-21T05:18:45.120Z",
 		"0.0.3": "2021-02-21T05:26:06.145Z",
 		"0.0.4": "2021-02-21T05:34:47.915Z",
-		"0.0.5": "2021-02-21T05:50:39.836Z"
+		"0.0.5": "2021-02-21T05:50:39.836Z",
+		"0.0.6": "2021-02-21T06:04:37.040Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "0.0.5"
+		"latest": "0.0.6"
 	},
 	"_uplinks": {},
 	"_distfiles": {},
@@ -156,9 +188,13 @@
 		"b-0.0.5.tgz": {
 			"shasum": "874168f38de63f11ab60992e4d9ca4ddf5826725",
 			"version": "0.0.5"
+		},
+		"b-0.0.6.tgz": {
+			"shasum": "e66ee6549c4a3118c4adccdd7fcbf91746e8e266",
+			"version": "0.0.6"
 		}
 	},
-	"_rev": "12-453334a32c543510",
+	"_rev": "15-b253ea925ac16729",
 	"_id": "@myexample/b",
 	"readme": "ERROR: No README data found!"
 }
