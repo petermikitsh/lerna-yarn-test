@@ -46,7 +46,7 @@ if [[ "$BRANCH_NAME" = "master" ]]; then
   # If necessary, build here
   # e.g., yarn build
 
-  npx --no-install lerna publish from-git
+  npx --no-install lerna publish from-git --yes
 
   ### Steps below are unique to example
   git add .verdaccio
